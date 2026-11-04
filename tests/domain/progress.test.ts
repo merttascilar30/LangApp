@@ -89,6 +89,29 @@ describe('applyAnswer', () => {
     const s = applyAnswer(emptyProgress(), 'q', true)
     expect(s.defter).toEqual({})
   })
+  it('ipucuyla doğru: defterde olmayan soru ipucuyla işaretlenir', () => {
+    const s = applyAnswer(emptyProgress(), 'q', true, true)
+    expect(s.defter['q']).toEqual({ ardisikDogru: 0, ipucuyla: true })
+  })
+  it('ipucuyla kayıt + ipucusuz doğru x2 → silinir, x1 → ipucuyla korunur', () => {
+    let s = applyAnswer(emptyProgress(), 'q', true, true)
+    s = applyAnswer(s, 'q', true)
+    expect(s.defter['q']).toEqual({ ardisikDogru: 1, ipucuyla: true })
+    s = applyAnswer(s, 'q', true)
+    expect(s.defter['q']).toBeUndefined()
+  })
+  it('ipucuyla kayıt + yanlış → ipucuyla kalkar', () => {
+    let s = applyAnswer(emptyProgress(), 'q', true, true)
+    s = applyAnswer(s, 'q', false)
+    expect(s.defter['q']).toEqual({ ardisikDogru: 0 })
+    expect('ipucuyla' in s.defter['q']).toBe(false)
+  })
+  it('ardisikDogru 1 + ipucuyla doğru → 0 ve ipucuyla', () => {
+    let s = applyAnswer(emptyProgress(), 'q', false)
+    s = applyAnswer(s, 'q', true)
+    s = applyAnswer(s, 'q', true, true)
+    expect(s.defter['q']).toEqual({ ardisikDogru: 0, ipucuyla: true })
+  })
   it('girdiyi değiştirmez', () => {
     const s = emptyProgress()
     const snap = JSON.stringify(s)
