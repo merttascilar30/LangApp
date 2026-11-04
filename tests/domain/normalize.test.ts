@@ -13,6 +13,12 @@ describe('normalizeAnswer', () => {
 })
 
 describe('matchesAny', () => {
+  it('typografik apostrofu katlar', () => {
+    expect(matchesAny('Wie geht’s', ["Wie geht's"])).toBe(true)
+    expect(matchesAny('Wie geht`s', ["Wie geht's"])).toBe(true)
+    expect(matchesAny('Wie geht´s', ["Wie geht's"])).toBe(true)
+    expect(matchesAny('Wie geht‘s', ["Wie geht's"])).toBe(true)
+  })
   it('is case-insensitive by default', () => {
     expect(matchesAny('ÄPFEL', ['Äpfel'])).toBe(true)
     expect(matchesAny('STRASSE', ['Straße'])).toBe(true)

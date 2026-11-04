@@ -84,7 +84,7 @@ function Exam({ modul }: { modul: Modul }) {
         {gecti && sonraki && (
           <p>
             {`Modül ${sonraki.sira} açıldı!`}{' '}
-            <Link to={`/modul/${sonraki.id}`}>{`Modül ${sonraki.sira}'e git`}</Link>
+            <Link to={`/modul/${sonraki.id}`}>{`Sonraki modüle geç (Modül ${sonraki.sira})`}</Link>
           </p>
         )}
         {gecti && !sonraki && <p>Tebrikler, A1 tamamlandı!</p>}

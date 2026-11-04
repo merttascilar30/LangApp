@@ -25,9 +25,15 @@ describe('recordPartTest', () => {
 })
 
 describe('setWatched', () => {
-  it('bilinmeyen part için enIyi 0 oluşturur', () => {
+  it('bilinmeyen part için enIyi olmadan oluşturur', () => {
     const s = setWatched(emptyProgress(), 'p1', true)
-    expect(s.partlar['p1']).toEqual({ enIyi: 0, izlendi: true })
+    expect(s.partlar['p1']).toEqual({ izlendi: true })
+    expect('enIyi' in s.partlar['p1']).toBe(false)
+  })
+  it('enIyi olmayan partta recordPartTest önceki skor saymaz', () => {
+    let s = setWatched(emptyProgress(), 'p1', true)
+    s = recordPartTest(s, 'p1', 40)
+    expect(s.partlar['p1']).toEqual({ enIyi: 40, izlendi: true })
   })
   it('enIyi korunur', () => {
     let s = recordPartTest(emptyProgress(), 'p1', 90)

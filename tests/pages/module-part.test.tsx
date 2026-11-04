@@ -36,7 +36,7 @@ function deferred() {
   return { promise, resolve }
 }
 
-const progressWith = (partlar: Record<string, { enIyi: number; izlendi: boolean }>) => ({
+const progressWith = (partlar: Record<string, { enIyi?: number; izlendi: boolean }>) => ({
   ...emptyProgress(),
   partlar,
 })
@@ -90,6 +90,18 @@ describe('ModulePage', () => {
       'href',
       '/modul/modul-1/sinav',
     )
+  })
+
+  it('yalnızca izlenmiş partta %0 gösterilmez', () => {
+    renderAt('/modul/modul-1', {
+      files: makeFiles({
+        modul1Partlar: 1,
+        extra: { '/content/modul-1/ders-01.json': makePart('m1-d1', 15, 1) },
+      }),
+      store: makeStore(progressWith({ 'm1-d1': { izlendi: true } })),
+    })
+    expect(screen.getByText(/✓ İzlendi/)).toBeInTheDocument()
+    expect(screen.queryByText(/%/)).toBeNull()
   })
 
   it('sınavsız modülde de sınav linki var', () => {

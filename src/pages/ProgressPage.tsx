@@ -40,7 +40,7 @@ export function ProgressPage() {
                   return (
                     <li key={p.id}>
                       <span>{`Ders ${p.ders}: ${p.baslik}`}</span>{' '}
-                      <span>{kayit ? `%${Math.floor(kayit.enIyi)}` : '—'}</span>
+                      <span>{kayit?.enIyi !== undefined ? `%${Math.floor(kayit.enIyi)}` : '—'}</span>
                       {kayit?.izlendi && <span> ✓ İzlendi</span>}
                     </li>
                   )

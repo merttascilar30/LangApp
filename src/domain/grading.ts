@@ -63,5 +63,5 @@ export function correctAnswerText(q: Question): string {
 }
 
 export function scorePercent(dogru: number, toplam: number): number {
-  return toplam === 0 ? 0 : (dogru / toplam) * 100
+  return toplam === 0 ? 0 : (dogru * 100) / toplam
 }

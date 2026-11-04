@@ -59,7 +59,9 @@ export function ModulePage() {
                 return (
                   <li key={p.id}>
                     <Link to={`/modul/${m.id}/part/${p.id}`}>{`Ders ${p.ders}: ${p.baslik}`}</Link>
-                    {kayit && <span className="etiket">{` %${kayit.enIyi}`}</span>}
+                    {kayit?.enIyi !== undefined && (
+                      <span className="etiket">{` %${Math.floor(kayit.enIyi)}`}</span>
+                    )}
                     {kayit?.izlendi && <span className="etiket"> ✓ İzlendi</span>}
                   </li>
                 )

@@ -144,12 +144,12 @@ describe('FlashcardsPage', () => {
     const on = screen.getByText('der Tisch')
     expect(on).toHaveAttribute('data-artikel', 'der')
     expect(on).toHaveClass('artikel-der')
-    expect(screen.getByText('Kart 1 / 3')).toBeInTheDocument()
+    expect(screen.getByText('Kart 1 / 3 · 1 kelime')).toBeInTheDocument()
     await userEvent.click(screen.getByRole('button', { name: 'Kartı çevir' }))
     expect(screen.getByText('masa')).toBeInTheDocument()
     await userEvent.click(screen.getByRole('button', { name: 'Biliyorum' }))
     expect(JSON.parse(store.raw()!).kartlar['der Tisch']).toBe(2)
-    expect(screen.getByText('Kart 2 / 3')).toBeInTheDocument()
+    expect(screen.getByText('Kart 2 / 3 · 1 kelime')).toBeInTheDocument()
     expect(screen.queryByText('masa')).toBeNull()
   })
 
@@ -168,7 +168,7 @@ describe('FlashcardsPage', () => {
     expect(screen.getByText('Deste bitti')).toBeInTheDocument()
     expect(screen.getByText('1 kart öğrenildi')).toBeInTheDocument()
     await userEvent.click(screen.getByRole('button', { name: 'Yeniden başla' }))
-    expect(screen.getByText('Kart 1 / 1')).toBeInTheDocument()
+    expect(screen.getByText('Kart 1 / 1 · 1 kelime')).toBeInTheDocument()
   })
 
   it('kelime yoksa mesaj', () => {

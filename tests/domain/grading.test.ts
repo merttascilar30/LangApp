@@ -121,5 +121,6 @@ describe('scorePercent', () => {
     expect(scorePercent(7, 10)).toBe(70)
     expect(scorePercent(2, 3)).toBeCloseTo(66.6667, 3)
     expect(scorePercent(0, 0)).toBe(0)
+    expect(scorePercent(29, 100)).toBe(29)
   })
 })

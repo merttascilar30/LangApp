@@ -95,7 +95,7 @@ export function FlashcardsPage() {
     }
     icerik = (
       <div>
-        <p>{`Kart ${index + 1} / ${keys.length}`}</p>
+        <p>{`Kart ${index + 1} / ${keys.length} · ${kartlar.size} kelime`}</p>
         <div className="kart">
           {arka ? (
             <p className="kart-arka">{kelime.tr}</p>

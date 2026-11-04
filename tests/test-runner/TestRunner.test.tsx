@@ -1,5 +1,6 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest'
 import { render, screen, fireEvent } from '@testing-library/react'
+import userEvent from '@testing-library/user-event'
 import { TestRunner } from '../../src/test-runner/TestRunner'
 import { ResultsView } from '../../src/test-runner/ResultsView'
 import type { SoruSonucu } from '../../src/test-runner/TestRunner'
@@ -10,6 +11,16 @@ vi.mock('../../src/speech/speech', () => ({ speak: vi.fn() }))
 import { speak } from '../../src/speech/speech'
 
 const qs = (n: number) => Array.from({ length: n }, (_, i) => makeQuestion(`q${i}`)) as Question[]
+
+const yazili = (id: string) =>
+  ({
+    id,
+    tip: 'bosluk-doldurma',
+    soru: 'Doldur',
+    aciklama: 'açıklama',
+    metin: 'Ich ___ Anna.',
+    dogruCevaplar: ['bin'],
+  }) as Question
 
 beforeEach(() => {
   vi.mocked(speak).mockClear()
@@ -131,5 +142,49 @@ describe('ResultsView', () => {
     render(<ResultsView sorular={q} sonuclar={sonuc(q, 1)} gecmeNotu={50} baslik="S" />)
     fireEvent.click(screen.getByRole('button', { name: 'Dinle' }))
     expect(speak).toHaveBeenCalledWith('a')
+  })
+})
+
+
+describe('TestRunner boş metin ve Enter', () => {
+  it('pratik: yazıp silmek Kontrol et butonunu tekrar disabled yapar, tekrar yazılabilir', async () => {
+    render(<TestRunner sorular={[yazili('y0')]} mod="pratik" onBitti={vi.fn()} />)
+    const input = screen.getByLabelText('Boşluk')
+    const kontrol = screen.getByRole('button', { name: 'Kontrol et' })
+    await userEvent.type(input, 'bin')
+    expect(kontrol).toBeEnabled()
+    await userEvent.clear(input)
+    expect(input).toHaveValue('')
+    expect(kontrol).toBeDisabled()
+    await userEvent.type(input, 'b')
+    expect(input).toHaveValue('b')
+    expect(kontrol).toBeEnabled()
+  })
+
+  it('sınav: silinen cevap cevapsız sayılır', async () => {
+    const confirm = vi.spyOn(window, 'confirm').mockReturnValue(false)
+    render(<TestRunner sorular={[yazili('y0')]} mod="sinav" onBitti={vi.fn()} />)
+    const input = screen.getByLabelText('Boşluk')
+    await userEvent.type(input, 'bin')
+    await userEvent.clear(input)
+    fireEvent.click(screen.getByRole('button', { name: 'Bitir' }))
+    expect(confirm).toHaveBeenCalledWith('1 soru cevapsız. Yine de bitir?')
+  })
+
+  it('pratik: Enter kontrol eder, ikinci Enter Devam der', async () => {
+    const onBitti = vi.fn()
+    render(<TestRunner sorular={[yazili('y0'), yazili('y1')]} mod="pratik" onBitti={onBitti} />)
+    await userEvent.type(screen.getByLabelText('Boşluk'), 'bin{Enter}')
+    expect(screen.getByRole('status')).toHaveTextContent('Doğru!')
+    await userEvent.keyboard('{Enter}')
+    expect(screen.getByText('Soru 2 / 2')).toBeInTheDocument()
+    expect(screen.queryByRole('status')).toBeNull()
+    expect(onBitti).not.toHaveBeenCalled()
+  })
+
+  it('pratik: boş cevapla Enter bir şey yapmaz', async () => {
+    render(<TestRunner sorular={[yazili('y0')]} mod="pratik" onBitti={vi.fn()} />)
+    await userEvent.type(screen.getByLabelText('Boşluk'), '{Enter}')
+    expect(screen.queryByRole('status')).toBeNull()
   })
 })

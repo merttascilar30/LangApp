@@ -102,7 +102,7 @@ describe('ExamPage', () => {
     await coz(5)
     expect(screen.getByText('Sınav sonucu')).toBeInTheDocument()
     expect(screen.getByText('Modül 2 açıldı!')).toBeInTheDocument()
-    expect(screen.getByRole('link', { name: "Modül 2'e git" })).toHaveAttribute(
+    expect(screen.getByRole('link', { name: 'Sonraki modüle geç (Modül 2)' })).toHaveAttribute(
       'href',
       '/modul/modul-2',
     )

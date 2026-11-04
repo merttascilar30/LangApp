@@ -1,7 +1,7 @@
 export type ProgressState = {
   surum: 1
   sinavlar: Record<string, { enIyi: number; deneme: number; gecti: boolean }>
-  partlar: Record<string, { enIyi: number; izlendi: boolean }>
+  partlar: Record<string, { enIyi?: number; izlendi: boolean }>
   defter: Record<string, { ardisikDogru: number }>
   kartlar: Record<string, 1 | 2 | 3>
   ayarlar: { ttsUyariGosterildi: boolean }
@@ -23,13 +23,13 @@ export function emptyProgress(): ProgressState {
 export function recordPartTest(s: ProgressState, partId: string, yuzde: number): ProgressState {
   const prev = s.partlar[partId]
   const next = prev
-    ? { ...prev, enIyi: Math.max(prev.enIyi, yuzde) }
+    ? { ...prev, enIyi: Math.max(prev.enIyi ?? yuzde, yuzde) }
     : { enIyi: yuzde, izlendi: false }
   return { ...s, partlar: { ...s.partlar, [partId]: next } }
 }
 
 export function setWatched(s: ProgressState, partId: string, izlendi: boolean): ProgressState {
-  const prev = s.partlar[partId] ?? { enIyi: 0, izlendi: false }
+  const prev = s.partlar[partId] ?? { izlendi: false }
   return { ...s, partlar: { ...s.partlar, [partId]: { ...prev, izlendi } } }
 }
 

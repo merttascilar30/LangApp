@@ -11,6 +11,7 @@ const UMLAUTS: Record<string, string> = {
 
 export function normalizeAnswer(s: string, harfDuyarli = false): string {
   let r = s.trim().replace(/\s+/g, ' ')
+  r = r.replace(/[’‘´`]/g, "'")
   r = r.replace(/[.!?]+$/, '').replace(/,/g, '')
   r = r.replace(/[äöüßÄÖÜẞ]/g, (c) => UMLAUTS[c])
   r = r.replace(/\s+/g, ' ').trim()
