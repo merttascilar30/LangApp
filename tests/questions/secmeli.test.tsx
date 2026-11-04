@@ -112,7 +112,7 @@ describe('QuestionView', () => {
     for (const n of ['der', 'die', 'das']) expect(screen.getByRole('button', { name: n })).toBeInTheDocument()
   })
   it('desteklenmeyen tip', () => {
-    const q = { ...base, id: 'x', tip: 'ceviri', kaynak: 'k', dogruCevaplar: ['a'] } as Question
+    const q = { ...base, id: 'x', tip: 'bilinmeyen' } as unknown as Question
     render(<QuestionView soru={q} cevap={null} onCevap={() => {}} kilitli={false} />)
     expect(screen.getByText('Desteklenmeyen soru tipi')).toBeInTheDocument()
   })
