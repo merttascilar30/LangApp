@@ -7,15 +7,9 @@ import { ExamPage } from './pages/ExamPage'
 import { PartTestPage } from './pages/PartTestPage'
 import { MistakesPage } from './pages/MistakesPage'
 import { FlashcardsPage } from './pages/FlashcardsPage'
+import { ProgressPage } from './pages/ProgressPage'
+import { SettingsPage } from './pages/SettingsPage'
 import { AppStateProvider } from './state/AppState'
-
-function Yakinda() {
-  return (
-    <Layout>
-      <p>Yakında</p>
-    </Layout>
-  )
-}
 
 export function AppRoutes() {
   return (
@@ -76,8 +70,22 @@ export function AppRoutes() {
           </Layout>
         }
       />
-      <Route path="/ilerleme" element={<Yakinda />} />
-      <Route path="/ayarlar" element={<Yakinda />} />
+      <Route
+        path="/ilerleme"
+        element={
+          <Layout>
+            <ProgressPage />
+          </Layout>
+        }
+      />
+      <Route
+        path="/ayarlar"
+        element={
+          <Layout>
+            <SettingsPage />
+          </Layout>
+        }
+      />
     </Routes>
   )
 }
