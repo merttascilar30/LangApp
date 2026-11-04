@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from 'vitest'
-import { render, screen, fireEvent } from '@testing-library/react'
+import { render, screen, fireEvent, within } from '@testing-library/react'
 import { TestRunner } from '../../src/test-runner/TestRunner'
 import type { SoruSonucu } from '../../src/test-runner/TestRunner'
 import type { Question } from '../../src/content/schema'
@@ -126,5 +126,32 @@ describe('TestRunner ipucu düğmesi', () => {
     }
     expect(cevapli).toHaveLength(3)
     expect(temizlendi).toBe(true)
+  })
+
+  it('ipucu + yanlış cevap: etiket yok, Yanlış görünür', () => {
+    render(<TestRunner sorular={[secmeli('s1', 'x')]} mod="pratik" onBitti={vi.fn()} />)
+    fireEvent.click(ipucuDugme()!)
+    fireEvent.click(screen.getByRole('button', { name: 'A' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Kontrol et' }))
+    expect(screen.getByRole('status')).toHaveTextContent('Yanlış')
+    expect(screen.getByRole('status')).not.toHaveTextContent('İpucuyla')
+  })
+
+  it('cumle-dizme cevapsızken Daha fazla ilk parçayı yerleştirir', () => {
+    const q = {
+      id: 'c1',
+      tip: 'cumle-dizme',
+      soru: 'Diz',
+      aciklama: 'a',
+      parcalar: ['Ich', 'bin', 'Anna'],
+      dogruSiralar: [['Ich', 'bin', 'Anna']],
+      ipucu: 'not',
+    } as Question
+    render(<TestRunner sorular={[q]} mod="pratik" onBitti={vi.fn()} />)
+    fireEvent.click(ipucuDugme()!)
+    fireEvent.click(dahaFazla()!)
+    expect(within(screen.getByTestId('cevap-satiri')).getByRole('button', { name: 'Ich' })).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: 'Kontrol et' })).toBeEnabled()
+    expect(screen.getByRole('button', { name: 'Kontrol et' })).toHaveFocus()
   })
 })

@@ -52,6 +52,9 @@ export function TestRunner({ sorular, mod, onBitti }: Props) {
   const [ipuclari, setIpuclari] = useState<(AutoHint | null)[]>(() =>
     sorular.map(() => null),
   );
+  const [odakSayaci, setOdakSayaci] = useState(0);
+  const kontrolDugmesi = useRef<HTMLButtonElement>(null);
+  const kapsayici = useRef<HTMLDivElement>(null);
   const bitti = useRef(false);
 
   const soru = sorular[index];
@@ -101,9 +104,10 @@ export function TestRunner({ sorular, mod, onBitti }: Props) {
     const h = otomatikIpucu;
     setKademeler((k) => k.map((x, i) => (i === index ? 2 : x)));
     setIpuclari((p) => p.map((x, i) => (i === index ? h : x)));
-    const yeni = cevap === null ? null : applyAutoHint(soru, cevap, h);
+    const yeni = applyAutoHint(soru, cevap, h);
     const v = yeni === null || bosMu(yeni) ? null : yeni;
     setCevaplar((c) => c.map((x, i) => (i === index ? v : x)));
+    setOdakSayaci((n) => n + 1);
   };
 
   const kontrolEt = () => {
@@ -119,6 +123,14 @@ export function TestRunner({ sorular, mod, onBitti }: Props) {
   };
 
   const devam = () => (son ? bitir() : setIndex(index + 1));
+
+  // İpucu düğmesi kaybolunca odağı Kontrol et'e (pasifse kapsayıcıya) taşı.
+  useEffect(() => {
+    if (odakSayaci === 0) return;
+    const k = kontrolDugmesi.current;
+    if (k && !k.disabled) k.focus();
+    else kapsayici.current?.focus();
+  }, [odakSayaci]);
 
   // Pratik modda Enter: kontrol et / devam.
   useEffect(() => {
@@ -143,7 +155,7 @@ export function TestRunner({ sorular, mod, onBitti }: Props) {
   });
 
   return (
-    <div className="test-runner">
+    <div className="test-runner" ref={kapsayici} tabIndex={-1}>
       <p className="ilerleme">{`Soru ${index + 1} / ${sorular.length}`}</p>
       <QuestionView
         key={soru.id}
@@ -170,14 +182,19 @@ export function TestRunner({ sorular, mod, onBitti }: Props) {
               <FeedbackPanel
                 dogru={gradeQuestion(soru, cevap)}
                 soru={soru}
-                ipucuyla={kademe >= 1}
+                ipucuyla={kademe >= 1 && gradeQuestion(soru, cevap)}
               />
               <button type="button" onClick={devam}>
                 Devam
               </button>
             </>
           ) : (
-            <button type="button" disabled={cevap === null} onClick={kontrolEt}>
+            <button
+              type="button"
+              ref={kontrolDugmesi}
+              disabled={cevap === null}
+              onClick={kontrolEt}
+            >
               Kontrol et
             </button>
           )}
