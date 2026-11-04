@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { applyAutoHint, autoHint } from '../../src/domain/hints'
+import { applyAutoHint, autoHint, type AutoHint } from '../../src/domain/hints'
 import { createRng } from '../../src/domain/random'
 import type { Question } from '../../src/content/schema'
 
@@ -153,7 +153,7 @@ describe('applyAutoHint', () => {
   })
   it('ele: seçili şık elendiyse null, değilse aynı', () => {
     const q = coktan(4, 0)
-    const h = { tur: 'ele', indeksler: [2] } as const
+    const h: AutoHint = { tur: 'ele', indeksler: [2] }
     expect(applyAutoHint(q, { tip: 'coktan-secmeli', secilen: 2 }, h)).toBeNull()
     const a = { tip: 'coktan-secmeli', secilen: 1 } as const
     expect(applyAutoHint(q, a, h)).toBe(a)
