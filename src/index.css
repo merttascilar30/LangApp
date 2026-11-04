@@ -88,3 +88,9 @@ body {
 .ipucu-kutu { margin: 0.5rem 0; padding: 0.5rem 0.75rem; border-left: 4px solid #e0a800; background: #fff8e1; border-radius: 4px; }
 .secenek.elendi { opacity: 0.4; text-decoration: line-through; }
 .ilk-harf { margin: 0.25rem 0; font-size: 0.9rem; color: #555; }
+
+.ipucu-kilitli {
+  opacity: 0.85;
+  border-style: dashed;
+  cursor: not-allowed;
+}

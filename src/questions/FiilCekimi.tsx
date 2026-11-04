@@ -3,16 +3,20 @@ import type { QuestionProps } from './types'
 import { Gloss } from './Gloss'
 import { UmlautKeys, useUmlautInsert } from './UmlautKeys'
 
-export function FiilCekimi({ soru, cevap, onCevap, kilitli }: QuestionProps<FiilCekimiQuestion>) {
+export function FiilCekimi({ soru, cevap, onCevap, kilitli, ipucu }: QuestionProps<FiilCekimiQuestion>) {
   const n = soru.satirlar.length
   const mevcut = cevap?.tip === 'fiil-cekimi' ? cevap.hucreler : []
   const hucreler = Array.from({ length: n }, (_, i) => mevcut[i] ?? '')
+  const kilitSatir = ipucu?.tur === 'hucre' ? ipucu.satir : -1
   const yaz = (i: number, v: string) => {
     const yeni = [...hucreler]
     yeni[i] = v
     onCevap({ tip: 'fiil-cekimi', hucreler: yeni })
   }
-  const { kapsayici, izle, insert } = useUmlautInsert((el, v) => yaz(Number(el.dataset.satir), v))
+  const { kapsayici, izle, insert } = useUmlautInsert((el, v) => {
+    const i = Number(el.dataset.satir)
+    if (i !== kilitSatir) yaz(i, v)
+  })
 
   return (
     <div className="soru" ref={kapsayici} onFocusCapture={izle}>
@@ -33,7 +37,7 @@ export function FiilCekimi({ soru, cevap, onCevap, kilitli }: QuestionProps<Fiil
                 ) : (
                   <input
                     type="text"
-                    className="yazi-girdisi"
+                    className={i === kilitSatir ? 'yazi-girdisi ipucu-kilitli' : 'yazi-girdisi'}
                     aria-label={s.zamir}
                     data-satir={i}
                     autoComplete="off"
@@ -41,7 +45,11 @@ export function FiilCekimi({ soru, cevap, onCevap, kilitli }: QuestionProps<Fiil
                     spellCheck={false}
                     value={hucreler[i]}
                     disabled={kilitli}
-                    onChange={(e) => yaz(i, e.target.value)}
+                    readOnly={i === kilitSatir}
+                    aria-readonly={i === kilitSatir ? true : undefined}
+                    onChange={(e) => {
+                      if (i !== kilitSatir) yaz(i, e.target.value)
+                    }}
                   />
                 )}
               </td>
