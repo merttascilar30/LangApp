@@ -70,3 +70,14 @@ body {
 .eslestirme { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
 .eslestirme-kolon { display: flex; flex-direction: column; gap: 0.5rem; }
 .rozet { float: right; min-width: 1.4em; text-align: center; border-radius: 999px; background: #333; color: #fff; font-size: 0.85em; }
+.geri-bildirim { padding: 0.75rem 1rem; border-radius: 6px; margin: 0.75rem 0; border: 2px solid; }
+.geri-bildirim.ok { background: #dcfce7; border-color: #16a34a; color: #166534; }
+.geri-bildirim.hata { background: #fee2e2; border-color: #dc2626; color: #991b1b; }
+.test-nav { display: flex; gap: 0.5rem; margin-top: 1rem; }
+.ilerleme { font-size: 0.85em; color: #666; }
+.sonuc-listesi { list-style: none; padding: 0; }
+.sonuc-listesi li { padding: 0.5rem 0; border-bottom: 1px solid #eee; }
+.sonuc-listesi li.ok > span { color: #16a34a; }
+.sonuc-listesi li.hata > span { color: #dc2626; }
+.sonuc .skor { font-size: 1.4rem; font-weight: 700; }
+.aciklama { font-size: 0.9em; color: #555; }
