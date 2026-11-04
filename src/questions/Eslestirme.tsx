@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import type { EslestirmeQuestion } from '../content/schema'
 import { createRng, hashString, shuffle } from '../domain/random'
 import type { QuestionProps } from './types'
+import { Gloss } from './Gloss'
 
 export function Eslestirme({ soru, cevap, onCevap, kilitli }: QuestionProps<EslestirmeQuestion>) {
   const [secili, setSecili] = useState<string | null>(null)
@@ -46,7 +47,7 @@ export function Eslestirme({ soru, cevap, onCevap, kilitli }: QuestionProps<Esle
               disabled={kilitli}
               onClick={() => solTikla(sol)}
             >
-              {sol}
+              <Gloss metin={sol} odaklanabilir={false} />
               {sol in eslesme && (
                 <span className="rozet" aria-hidden="true">
                   {numara(sol)}

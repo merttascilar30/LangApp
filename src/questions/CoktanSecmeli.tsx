@@ -1,5 +1,6 @@
 import type { CoktanSecmeliQuestion } from '../content/schema'
 import type { QuestionProps } from './types'
+import { Gloss } from './Gloss'
 
 export function CoktanSecmeli({ soru, cevap, onCevap, kilitli }: QuestionProps<CoktanSecmeliQuestion>) {
   const secilen = cevap?.tip === 'coktan-secmeli' ? cevap.secilen : null
@@ -16,7 +17,7 @@ export function CoktanSecmeli({ soru, cevap, onCevap, kilitli }: QuestionProps<C
             disabled={kilitli}
             onClick={() => onCevap({ tip: 'coktan-secmeli', secilen: i })}
           >
-            {s}
+            <Gloss metin={s} odaklanabilir={false} />
           </button>
         ))}
       </div>

@@ -1,5 +1,6 @@
 import type { ArtikelQuestion } from '../content/schema'
 import type { QuestionProps } from './types'
+import { Gloss } from './Gloss'
 
 const ARTIKELLER = ['der', 'die', 'das'] as const
 
@@ -8,7 +9,7 @@ export function Artikel({ soru, cevap, onCevap, kilitli }: QuestionProps<Artikel
   return (
     <div className="soru">
       <p className="soru-metni">{soru.soru}</p>
-      <p className="ifade">___ {soru.isim}</p>
+      <p className="ifade">___ <Gloss metin={soru.isim} /></p>
       <div className="secenekler">
         {ARTIKELLER.map((a) => (
           <button

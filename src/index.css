@@ -81,3 +81,6 @@ body {
 .sonuc-listesi li.hata > span { color: #dc2626; }
 .sonuc .skor { font-size: 1.4rem; font-weight: 700; }
 .aciklama { font-size: 0.9em; color: #555; }
+
+.gloss { text-decoration: underline dotted; cursor: help; position: relative; }
+.gloss-ipucu { position: absolute; left: 0; top: 100%; z-index: 10; white-space: nowrap; background: #222; color: #fff; font-size: 0.8rem; font-weight: 400; padding: 0.15rem 0.4rem; border-radius: 4px; pointer-events: none; }

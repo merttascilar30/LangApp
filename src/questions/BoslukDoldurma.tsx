@@ -1,5 +1,6 @@
 import type { BoslukDoldurmaQuestion } from '../content/schema'
 import type { QuestionProps } from './types'
+import { Gloss } from './Gloss'
 import { UmlautKeys, useUmlautInsert } from './UmlautKeys'
 
 export function BoslukDoldurma({ soru, cevap, onCevap, kilitli }: QuestionProps<BoslukDoldurmaQuestion>) {
@@ -14,7 +15,7 @@ export function BoslukDoldurma({ soru, cevap, onCevap, kilitli }: QuestionProps<
     <div className="soru" ref={kapsayici} onFocusCapture={izle}>
       <p className="soru-metni">{soru.soru}</p>
       <p className="bosluk-cumle">
-        {once}
+        <Gloss metin={once} />
         <input
           type="text"
           className="yazi-girdisi"
@@ -26,7 +27,7 @@ export function BoslukDoldurma({ soru, cevap, onCevap, kilitli }: QuestionProps<
           disabled={kilitli}
           onChange={(e) => yaz(e.target.value)}
         />
-        {sonra}
+        <Gloss metin={sonra} />
       </p>
       <UmlautKeys onInsert={insert} disabled={kilitli} />
     </div>

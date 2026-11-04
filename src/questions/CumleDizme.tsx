@@ -2,6 +2,7 @@ import { useMemo } from 'react'
 import type { CumleDizmeQuestion } from '../content/schema'
 import { createRng, hashString, shuffle } from '../domain/random'
 import type { QuestionProps } from './types'
+import { Gloss } from './Gloss'
 
 export function CumleDizme({ soru, cevap, onCevap, kilitli }: QuestionProps<CumleDizmeQuestion>) {
   const sira = cevap?.tip === 'cumle-dizme' ? cevap.sira : []
@@ -36,7 +37,7 @@ export function CumleDizme({ soru, cevap, onCevap, kilitli }: QuestionProps<Cuml
             disabled={kilitli}
             onClick={() => yayinla(sira.filter((_, p) => p !== pos))}
           >
-            {tok}
+            <Gloss metin={tok} odaklanabilir={false} />
           </button>
         ))}
       </div>
@@ -49,7 +50,7 @@ export function CumleDizme({ soru, cevap, onCevap, kilitli }: QuestionProps<Cuml
             disabled={kilitli}
             onClick={() => yayinla([...sira, soru.parcalar[i]])}
           >
-            {soru.parcalar[i]}
+            <Gloss metin={soru.parcalar[i]} odaklanabilir={false} />
           </button>
         ))}
       </div>

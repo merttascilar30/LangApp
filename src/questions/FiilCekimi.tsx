@@ -1,5 +1,6 @@
 import type { FiilCekimiQuestion } from '../content/schema'
 import type { QuestionProps } from './types'
+import { Gloss } from './Gloss'
 import { UmlautKeys, useUmlautInsert } from './UmlautKeys'
 
 export function FiilCekimi({ soru, cevap, onCevap, kilitli }: QuestionProps<FiilCekimiQuestion>) {
@@ -19,7 +20,7 @@ export function FiilCekimi({ soru, cevap, onCevap, kilitli }: QuestionProps<Fiil
       <table className="fiil-tablosu">
         <thead>
           <tr>
-            <th colSpan={2}>{soru.fiil}</th>
+            <th colSpan={2}><Gloss metin={soru.fiil} /></th>
           </tr>
         </thead>
         <tbody>
