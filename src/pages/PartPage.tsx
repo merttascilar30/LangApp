@@ -1,4 +1,5 @@
 import { Link, useParams } from 'react-router-dom'
+import { TrickList } from '../components/TrickList'
 import { setWatched } from '../domain/progress'
 import { useAppState } from '../state/AppState'
 import { ModuleGate, NotFound } from './ModulePage'
@@ -37,6 +38,12 @@ export function PartPage() {
                 <li key={i}>{o}</li>
               ))}
             </ul>
+            {p.trickler && p.trickler.length > 0 && (
+              <section>
+                <h2>🎯 Trickler</h2>
+                <TrickList trickler={p.trickler} />
+              </section>
+            )}
             <label>
               <input
                 type="checkbox"

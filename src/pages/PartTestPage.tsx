@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
+import { TrickList } from '../components/TrickList'
 import type { Modul } from '../content/loader'
 import type { Question } from '../content/schema'
 import { scorePercent } from '../domain/grading'
@@ -17,6 +18,7 @@ function PartTest({ modul, part }: { modul: Modul; part: Modul['partlar'][number
   const [deneme, setDeneme] = useState(0)
   const [sorular, setSorular] = useState<Question[] | null>(null)
   const [sonuclar, setSonuclar] = useState<SoruSonucu[] | null>(null)
+  const [trickAcik, setTrickAcik] = useState(false)
   const uyari = useTtsUyari()
 
   useEffect(() => {
@@ -35,7 +37,7 @@ function PartTest({ modul, part }: { modul: Modul; part: Modul['partlar'][number
     const yuzde = scorePercent(dogru, s.length)
     update((p) => {
       let next = p
-      for (const x of s) next = applyAnswer(next, x.soruId, x.dogru)
+      for (const x of s) next = applyAnswer(next, x.soruId, x.dogru, x.ipucu === true)
       return recordPartTest(next, part.id, yuzde)
     })
     setSonuclar(s)
@@ -68,6 +70,18 @@ function PartTest({ modul, part }: { modul: Modul; part: Modul['partlar'][number
   return (
     <div>
       <h1>{`Ders ${part.ders}: ${part.baslik} - Test`}</h1>
+      {part.trickler && part.trickler.length > 0 && (
+        <div>
+          <button
+            type="button"
+            aria-expanded={trickAcik}
+            onClick={() => setTrickAcik((a) => !a)}
+          >
+            🎯 Trickler
+          </button>
+          {trickAcik && <TrickList trickler={part.trickler} />}
+        </div>
+      )}
       {uyari}
       {icerik}
     </div>

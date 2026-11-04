@@ -94,3 +94,7 @@ body {
   border-style: dashed;
   cursor: not-allowed;
 }
+
+.trick-kart { margin: 0.4rem 0; padding: 0.4rem 0.75rem; border-left: 4px solid #6f42c1; background: #f5f0ff; border-radius: 4px; }
+.trick-kart summary { cursor: pointer; font-weight: 600; }
+.rozet-ipucu { color: #8a6d00; }

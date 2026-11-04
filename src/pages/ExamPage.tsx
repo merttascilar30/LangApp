@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
+import { TrickList } from '../components/TrickList'
 import type { Modul } from '../content/loader'
 import type { Question } from '../content/schema'
 import { scorePercent } from '../domain/grading'
@@ -48,7 +49,7 @@ function Exam({ modul }: { modul: Modul }) {
     const yuzde = scorePercent(s.filter((x) => x.dogru).length, s.length)
     update((p) => {
       let next = p
-      for (const x of s) next = applyAnswer(next, x.soruId, x.dogru)
+      for (const x of s) next = applyAnswer(next, x.soruId, x.dogru, x.ipucu === true)
       return recordExam(next, modul.id, yuzde, sinav.gecmeNotu)
     })
     setSonuclar(s)
@@ -67,6 +68,14 @@ function Exam({ modul }: { modul: Modul }) {
           Başla
         </button>
         {ttsVar === null && <span> Hazırlanıyor…</span>}
+        {modul.partlar
+          .filter((p) => p.trickler && p.trickler.length > 0)
+          .map((p) => (
+            <section key={p.id}>
+              <h3>{`Ders ${p.ders}: ${p.baslik}`}</h3>
+              <TrickList trickler={p.trickler} />
+            </section>
+          ))}
       </div>
     )
   } else if (sorular.length === 0) {
