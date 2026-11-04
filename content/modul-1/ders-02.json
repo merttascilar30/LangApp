@@ -1,0 +1,44 @@
+{
+  "id": "ders-02",
+  "ders": 2,
+  "baslik": "Alfabe ile Kodlama (Harfleme)",
+  "videoId": "_kYWayfO91g",
+  "ozet": [
+    "Bir kelimenin yazılışını sormak için 'Wie schreibt man das?' (Bunu nasıl yazarsınız?) denir.",
+    "Harfleme (Buchstabieren) yaparken kelimenin harfleri tek tek ve adlarıyla söylenir.",
+    "Çift harfler 'Doppel-' ile söylenir: Doppel-L (LL), Doppel-M (MM).",
+    "Yararlı kalıplar: 'Noch einmal, bitte.' (Bir kez daha lütfen) ve 'Langsamer, bitte.' (Daha yavaş lütfen)."
+  ],
+  "kelimeler": [
+    { "de": "buchstabieren", "tr": "harflemek" },
+    { "de": "schreiben", "tr": "yazmak" },
+    { "de": "der Name", "tr": "isim, ad", "artikel": "der" },
+    { "de": "das Wort", "tr": "kelime", "artikel": "das" },
+    { "de": "noch einmal", "tr": "bir kez daha" },
+    { "de": "bitte", "tr": "lütfen" },
+    { "de": "langsamer", "tr": "daha yavaş" },
+    { "de": "Doppel-", "tr": "çift (harf için)" }
+  ],
+  "sorular": [
+    { "id": "m1-d02-q01", "tip": "dinleme", "soru": "Duyduğun kelimeyi yaz.", "okunacak": "Banane", "mod": "yaz", "dogruCevaplar": ["Banane"], "aciklama": "'Banane' kelimesi B-A-N-A-N-E harfleriyle yazılır; sondaki E sesli okunur." },
+    { "id": "m1-d02-q02", "tip": "bosluk-doldurma", "soru": "Boşluğu doldur: Bunu nasıl yazarsınız?", "metin": "Wie ___ man das?", "dogruCevaplar": ["schreibt"], "aciklama": "'man' (insan, kişi) öznesiyle fiil üçüncü tekil kişi gibi çekilir: 'man schreibt'." },
+    { "id": "m1-d02-q03", "tip": "coktan-secmeli", "soru": "'Wie schreibt man das?' sorusu ne anlama gelir?", "secenekler": ["Bu ne kadar?", "Bunu nasıl yazarsınız?", "Bu nereli?", "Bu kim?"], "dogru": 1, "aciklama": "'schreiben' yazmak demektir; bu soru bir kelimenin yazılışını sormak için kullanılır." },
+    { "id": "m1-d02-q04", "tip": "dinleme", "soru": "Duyduğun cümlenin anlamı nedir?", "okunacak": "Buchstabieren Sie bitte", "mod": "sec", "secenekler": ["Lütfen harfleyin", "Lütfen tekrar edin", "Lütfen yavaş konuşun", "Lütfen oturun"], "dogruCevaplar": ["Lütfen harfleyin"], "aciklama": "'buchstabieren' harflemek demektir; 'Sie' resmi 'siz' hitabıdır." },
+    { "id": "m1-d02-q05", "tip": "bosluk-doldurma", "soru": "Boşluğu doldur: Bunu harfleyebilir misiniz?", "metin": "Können Sie das bitte ___?", "dogruCevaplar": ["buchstabieren"], "aciklama": "Modal fiil 'können' ile kullanılan ana fiil cümle sonunda mastar halinde gelir: 'buchstabieren'." },
+    { "id": "m1-d02-q06", "tip": "dinleme", "soru": "Duyduğun kelimeyi yaz.", "okunacak": "Schule", "mod": "yaz", "dogruCevaplar": ["Schule"], "aciklama": "'Schule' (okul) kelimesinde 'sch' üç harfle yazılır ve tek bir 'ş' sesi verir: S-C-H-U-L-E." },
+    { "id": "m1-d02-q07", "tip": "coktan-secmeli", "soru": "'Schule' kelimesinin doğru harflenişi hangisidir?", "secenekler": ["S-H-U-L-E", "S-K-U-L-E", "S-C-H-U-L-E", "Ş-U-L-E"], "dogru": 2, "aciklama": "'Schule' S-C-H-U-L-E diye harflenir; 'sch' birlikte tek ses ('ş') verir." },
+    { "id": "m1-d02-q08", "tip": "cumle-dizme", "soru": "Kelimeleri doğru sıraya diz: Bunu nasıl yazarsınız?", "parcalar": ["Wie", "schreibt", "man", "das"], "dogruSiralar": [["Wie", "schreibt", "man", "das"]], "aciklama": "Soru kelimesi (Wie) başta, fiil ikinci sırada gelir: 'Wie schreibt man das?'." },
+    { "id": "m1-d02-q09", "tip": "ceviri", "soru": "Almanca'ya çevir.", "kaynak": "Bunu nasıl yazarsınız?", "dogruCevaplar": ["Wie schreibt man das", "Wie schreibt man das?"], "aciklama": "Yazılışı sormanın en yaygın kalıbı 'Wie schreibt man das?' şeklindedir." },
+    { "id": "m1-d02-q10", "tip": "dogru-yanlis", "soru": "Doğru mu, yanlış mı?", "ifade": "Telefonda isimleri harflerken 'A wie Anton' gibi kalıplar kullanılabilir.", "dogru": true, "aciklama": "Doğru. Almanca'da harfleme için 'A wie Anton' gibi örnek isimli kodlar kullanılır; son yıllarda şehir adlı kodlar da yaygındır." },
+    { "id": "m1-d02-q11", "tip": "dinleme", "soru": "Duyduğun kelimeyi yaz.", "okunacak": "Müller", "mod": "yaz", "dogruCevaplar": ["Müller", "Mueller"], "aciklama": "'Müller' yaygın bir soyadıdır; ü harfi olmayan klavyede 'ue' ile (Mueller) yazılabilir." },
+    { "id": "m1-d02-q12", "tip": "bosluk-doldurma", "soru": "Boşluğu doldur: Bir kez daha, lütfen.", "metin": "Noch ___, bitte.", "dogruCevaplar": ["einmal"], "aciklama": "'noch einmal' bir kez daha demektir; anlaşılmadığında rica etmek için kullanılır." },
+    { "id": "m1-d02-q13", "tip": "coktan-secmeli", "soru": "'Doppel-T' ne anlama gelir?", "secenekler": ["Tek T harfi", "İki tane T harfi (TT)", "T ile D harfi", "T harfinin büyük hali"], "dogru": 1, "aciklama": "Harflerken çift harf 'Doppel-' ile söylenir; 'Doppel-T' iki T demektir." },
+    { "id": "m1-d02-q14", "tip": "bosluk-doldurma", "soru": "Boşluğu doldur: 'Hallo' kelimesinde L harfi iki kez geçer.", "metin": "Hallo schreibt man mit ___-L.", "dogruCevaplar": ["Doppel"], "aciklama": "İki aynı harf ardışık geldiğinde 'Doppel-' denir: 'Doppel-L'." },
+    { "id": "m1-d02-q15", "tip": "ceviri", "soru": "Almanca'ya çevir.", "kaynak": "Bir kez daha, lütfen.", "dogruCevaplar": ["Noch einmal, bitte", "Bitte noch einmal", "Noch einmal bitte"], "aciklama": "'bitte' cümlenin sonunda ya da başında kullanılabilir; sıra değişse de anlam aynı kalır." },
+    { "id": "m1-d02-q16", "tip": "coktan-secmeli", "soru": "ß harfi harflenirken ne denir?", "secenekler": ["Doppel-Z", "U-Umlaut", "Eszett", "Doppel-L"], "dogru": 2, "aciklama": "ß harfi harflerken 'Eszett' olarak söylenir; ä, ö, ü ise 'A-Umlaut' gibi söylenir." },
+    { "id": "m1-d02-q17", "tip": "cumle-dizme", "soru": "Kelimeleri doğru sıraya diz: Bunu harfleyebilir misiniz?", "parcalar": ["Können", "Sie", "das", "buchstabieren"], "dogruSiralar": [["Können", "Sie", "das", "buchstabieren"]], "aciklama": "Evet/hayır sorularında fiil başa gelir, ana fiil ise cümle sonunda mastar olarak kalır." },
+    { "id": "m1-d02-q18", "tip": "dogru-yanlis", "soru": "Doğru mu, yanlış mı?", "ifade": "'Wie schreibt man das?' sorusuna 'Das schreibt man S-C-H-U-L-E.' diye cevap verilebilir.", "dogru": true, "aciklama": "Doğru. Cevap olarak kelimenin harfleri sırayla söylenir." },
+    { "id": "m1-d02-q19", "tip": "dinleme", "soru": "Duyduğun kelimeyi yaz.", "okunacak": "Freund", "mod": "yaz", "dogruCevaplar": ["Freund"], "aciklama": "'Freund' (arkadaş) kelimesinde 'eu' birlikte 'oy' sesi verir: F-R-E-U-N-D." },
+    { "id": "m1-d02-q20", "tip": "coktan-secmeli", "soru": "Telefonda bir ismin yazılışını sormak için hangi cümle uygundur?", "secenekler": ["Wie spät ist es?", "Wie schreibt man das?", "Woher kommen Sie?", "Was kostet das?"], "dogru": 1, "aciklama": "'Wie schreibt man das?' yazılış sorar; diğerleri sırasıyla saati, memleketi ve fiyatı sorar." }
+  ]
+}

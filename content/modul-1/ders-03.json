@@ -1,0 +1,47 @@
+{
+  "id": "ders-03",
+  "ders": 3,
+  "baslik": "Harf Kombinasyonları ve Telaffuz",
+  "videoId": "kS5YPHW7uoI",
+  "ozet": [
+    "sch 'ş', ei 'ay', ie uzun 'i', eu/äu 'oy' sesini verir (Schule, nein, Liebe, Freund).",
+    "Kelime başında sp ve st 'şp' ve 'şt' diye okunur (Sport, Stein).",
+    "z 'ts', w 'v', j 'y' sesini verir; v çoğu Almanca kelimede 'f' okunur (Zeit, Wasser, Jahr, Vater).",
+    "qu 'kv' okunur (Qualität); -ig sonu 'iç' gibi, -er sonu hafif 'a' gibi okunur."
+  ],
+  "kelimeler": [
+    { "de": "die Schule", "tr": "okul", "artikel": "die" },
+    { "de": "der Freund", "tr": "arkadaş", "artikel": "der" },
+    { "de": "das Wasser", "tr": "su", "artikel": "das" },
+    { "de": "der Vater", "tr": "baba", "artikel": "der" },
+    { "de": "die Zeit", "tr": "zaman", "artikel": "die" },
+    { "de": "der Sport", "tr": "spor", "artikel": "der" },
+    { "de": "das Jahr", "tr": "yıl", "artikel": "das" },
+    { "de": "die Liebe", "tr": "aşk, sevgi", "artikel": "die" },
+    { "de": "die Qualität", "tr": "kalite", "artikel": "die" }
+  ],
+  "sorular": [
+    { "id": "m1-d03-q01", "tip": "dinleme", "soru": "Duyduğun kelimeyi seç.", "okunacak": "Schule", "mod": "sec", "secenekler": ["Sule", "Zule", "Schule", "Tule"], "dogruCevaplar": ["Schule"], "aciklama": "'sch' harf grubu 'ş' sesini verir; 'Schule' (okul) 'şule' gibi okunur." },
+    { "id": "m1-d03-q02", "tip": "coktan-secmeli", "soru": "'sch' harf grubu hangi sesi verir?", "secenekler": ["s", "ş", "ç", "k"], "dogru": 1, "aciklama": "Almanca'da 'sch' her zaman Türkçe'deki 'ş' sesi gibi okunur: Schule, Tisch." },
+    { "id": "m1-d03-q03", "tip": "dinleme", "soru": "Duyduğun kelimeyi seç.", "okunacak": "Freund", "mod": "sec", "secenekler": ["Freind", "Freund", "Fraund", "Fruend"], "dogruCevaplar": ["Freund"], "aciklama": "'eu' 'oy' sesini verir (Freund = froynd); 'ei' ise 'ay' sesidir." },
+    { "id": "m1-d03-q04", "tip": "coktan-secmeli", "soru": "'ie' harf grubu nasıl okunur?", "secenekler": ["ay", "i-e (iki ayrı ses)", "uzun i", "oy"], "dogru": 2, "aciklama": "'ie' tek bir uzun 'i' sesidir (Liebe, viel); 'ei' ise 'ay' okunur, ikisini karıştırma." },
+    { "id": "m1-d03-q05", "tip": "dogru-yanlis", "soru": "Doğru mu, yanlış mı?", "ifade": "'ie' Almanca'da iki ayrı ünlü olarak 'i-e' diye okunur.", "dogru": false, "aciklama": "Yanlış. 'ie' tek bir uzun 'i' sesi verir; 'Liebe' kelimesi 'libe' gibi okunur." },
+    { "id": "m1-d03-q06", "tip": "eslestirme", "soru": "Harf gruplarını okunuşlarıyla eşleştir.", "ciftler": [{ "sol": "sch", "sag": "ş" }, { "sol": "ei", "sag": "ay" }, { "sol": "eu", "sag": "oy" }, { "sol": "z", "sag": "ts" }, { "sol": "w", "sag": "v" }, { "sol": "ie", "sag": "uzun i" }], "aciklama": "Bu altı harf/grup Almanca telaffuzun temelidir: sch=ş, ei=ay, eu=oy, z=ts, w=v, ie=uzun i." },
+    { "id": "m1-d03-q07", "tip": "dinleme", "soru": "Kelime nasıl başlıyor?", "okunacak": "Sport", "mod": "sec", "secenekler": ["sp (s-p) sesiyle", "şp sesiyle", "zp sesiyle", "kp sesiyle"], "dogruCevaplar": ["şp sesiyle"], "aciklama": "Kelime başında 'sp' ve 'st' 'şp' ve 'şt' diye okunur: Sport = şport, Stein = ştayn." },
+    { "id": "m1-d03-q08", "tip": "coktan-secmeli", "soru": "'Straße' kelimesi hangi sesle başlar?", "secenekler": ["st", "şt", "sd", "zt"], "dogru": 1, "aciklama": "Kelime başındaki 'st' 'şt' okunur; Straße = ştrase." },
+    { "id": "m1-d03-q09", "tip": "dogru-yanlis", "soru": "Doğru mu, yanlış mı?", "ifade": "Kelime başındaki 'sp' Almanca'da 'şp' gibi okunur.", "dogru": true, "aciklama": "Doğru. Sport, sprechen ve Spiel kelimeleri 'şp' sesiyle başlar." },
+    { "id": "m1-d03-q10", "tip": "coktan-secmeli", "soru": "'Zug' kelimesindeki Z harfi hangi sesi verir?", "secenekler": ["ts", "Türkçe z", "s", "c"], "dogru": 0, "aciklama": "Almanca'da z harfi 'ts' sesi verir; Zug 'tsug' diye okunur." },
+    { "id": "m1-d03-q11", "tip": "dinleme", "soru": "Duyduğun kelimeyi yaz.", "okunacak": "Wasser", "mod": "yaz", "dogruCevaplar": ["Wasser"], "aciklama": "W harfi 'v' sesi verir, bu yüzden 'Wasser' (su) 'vasır' gibi okunur ve W ile yazılır." },
+    { "id": "m1-d03-q12", "tip": "coktan-secmeli", "soru": "'Wasser' kelimesindeki W harfi hangi sesi verir?", "secenekler": ["w (İngilizce gibi)", "f", "v", "u"], "dogru": 2, "aciklama": "Almanca'da w harfi Türkçe'deki 'v' gibi okunur; 'f' sesi ise genelde v harfinden gelir." },
+    { "id": "m1-d03-q13", "tip": "coktan-secmeli", "soru": "'Vater' kelimesindeki V harfi çoğunlukla hangi sesi verir?", "secenekler": ["v", "f", "w", "b"], "dogru": 1, "aciklama": "Almanca kökenli kelimelerde v genellikle 'f' okunur: Vater = fatır, viel = fil." },
+    { "id": "m1-d03-q14", "tip": "eslestirme", "soru": "Kelimeleri başlangıç sesleriyle eşleştir.", "ciftler": [{ "sol": "Vater", "sag": "f" }, { "sol": "Wasser", "sag": "v" }, { "sol": "Zug", "sag": "ts" }, { "sol": "Jahr", "sag": "y" }, { "sol": "Qualität", "sag": "kv" }, { "sol": "Sport", "sag": "şp" }], "aciklama": "Vater 'f', Wasser 'v', Zug 'ts', Jahr 'y', Qualität 'kv', Sport 'şp' ile başlar." },
+    { "id": "m1-d03-q15", "tip": "bosluk-doldurma", "soru": "'oy' sesini veren harf grubunu yaz: arkadaş.", "metin": "Fr___nd", "dogruCevaplar": ["eu"], "aciklama": "'oy' sesi 'eu' (veya 'äu') ile yazılır: Freund, Häuser." },
+    { "id": "m1-d03-q16", "tip": "bosluk-doldurma", "soru": "'ay' sesini veren harf grubunu yaz: hayır.", "metin": "N___n", "dogruCevaplar": ["ei"], "aciklama": "'ay' sesi 'ei' ile yazılır: nein, Eis, Zeit." },
+    { "id": "m1-d03-q17", "tip": "bosluk-doldurma", "soru": "Uzun 'i' sesini veren harf grubunu yaz: aşk.", "metin": "L___be", "dogruCevaplar": ["ie"], "aciklama": "Uzun 'i' sesi çoğunlukla 'ie' ile yazılır: Liebe, viel, Spiel." },
+    { "id": "m1-d03-q18", "tip": "dogru-yanlis", "soru": "Doğru mu, yanlış mı?", "ifade": "'ei' ve 'eu' Almanca'da aynı sesi verir.", "dogru": false, "aciklama": "Yanlış. 'ei' 'ay', 'eu' ise 'oy' sesidir; Eis (dondurma) ve euro farklı okunur." },
+    { "id": "m1-d03-q19", "tip": "dinleme", "soru": "Duyduğun kelimeyi yaz.", "okunacak": "Qualität", "mod": "yaz", "dogruCevaplar": ["Qualität", "Qualitaet"], "aciklama": "'qu' birlikte 'kv' sesi verir: Qualität = kvalitet. Ä harfi yoksa 'ae' yazılabilir." },
+    { "id": "m1-d03-q20", "tip": "dogru-yanlis", "soru": "Doğru mu, yanlış mı?", "ifade": "'qu' Almanca'da 'kv' gibi okunur.", "dogru": true, "aciklama": "Doğru. Q harfi her zaman u ile birlikte gelir ve 'kv' sesi verir." },
+    { "id": "m1-d03-q21", "tip": "dogru-yanlis", "soru": "Doğru mu, yanlış mı?", "ifade": "'Buch' ve 'ich' kelimelerindeki 'ch' aynı sesi vermez.", "dogru": true, "aciklama": "Doğru. a, o, u, au'dan sonra ch kalın ve hırıltılı (Buch), e ve i'den sonra ince (ich) okunur." },
+    { "id": "m1-d03-q22", "tip": "coktan-secmeli", "soru": "'richtig' kelimesinin sonundaki '-ig' standart Almancada nasıl okunur?", "secenekler": ["-ig (g sesiyle)", "-ik", "-iş", "-iç (ich'teki ch gibi)"], "dogru": 3, "aciklama": "Kelime sonunda '-ig' standart Almancada 'ich' kelimesindeki ince 'ch' gibi okunur: richtig = 'rihtiç' gibi." }
+  ]
+}

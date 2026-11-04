@@ -1,0 +1,45 @@
+{
+  "id": "ders-01",
+  "ders": 1,
+  "baslik": "Alman Alfabesi",
+  "videoId": "-ZlcZkXzB-o",
+  "ozet": [
+    "Alman alfabesi 26 Latin harfinden oluşur; buna ä, ö, ü ve ß özel harfleri eklenir.",
+    "ä, ö, ü harflerine Umlaut, ß harfine Eszett denir.",
+    "Harflerin adı sesinden farklıdır: C 'tse', J 'yot', V 'fau', W 've', Y 'üpsilon', Z 'tset' diye okunur.",
+    "Almanca'da tüm isimler (Nomen) büyük harfle başlar."
+  ],
+  "kelimeler": [
+    { "de": "das Alphabet", "tr": "alfabe", "artikel": "das" },
+    { "de": "der Buchstabe", "tr": "harf", "artikel": "der" },
+    { "de": "der Umlaut", "tr": "Umlaut (ä, ö, ü)", "artikel": "der" },
+    { "de": "das Eszett", "tr": "ß harfi", "artikel": "das" },
+    { "de": "der Vokal", "tr": "ünlü harf", "artikel": "der" },
+    { "de": "der Konsonant", "tr": "ünsüz harf", "artikel": "der" },
+    { "de": "der Laut", "tr": "ses", "artikel": "der" }
+  ],
+  "sorular": [
+    { "id": "m1-d01-q01", "tip": "dinleme", "soru": "Duyduğun kelime hangi harfle başlıyor?", "okunacak": "Haus", "mod": "sec", "secenekler": ["K", "M", "H", "R"], "dogruCevaplar": ["H"], "aciklama": "'Haus' (ev) kelimesi H harfiyle başlar; H harfinin adı 'ha' diye okunur." },
+    { "id": "m1-d01-q02", "tip": "coktan-secmeli", "soru": "Almanca'da 26 Latin harfine ek olarak kaç özel harf (ä, ö, ü, ß) bulunur?", "secenekler": ["2", "3", "4", "5"], "dogru": 2, "aciklama": "Özel harfler ä, ö, ü ve ß olmak üzere dörttür; böylece Alman alfabesinde toplam 30 harf vardır." },
+    { "id": "m1-d01-q03", "tip": "eslestirme", "soru": "Harfleri adlarının okunuşuyla eşleştir.", "ciftler": [{ "sol": "C", "sag": "tse" }, { "sol": "G", "sag": "ge" }, { "sol": "J", "sag": "yot" }, { "sol": "Q", "sag": "ku" }, { "sol": "W", "sag": "ve" }, { "sol": "Z", "sag": "tset" }], "aciklama": "Almanca'da harf adları İngilizce'den farklıdır: C 'tse', G 'ge', J 'yot', Q 'ku', W 've', Z 'tset' okunur." },
+    { "id": "m1-d01-q04", "tip": "dinleme", "soru": "Duyduğun kelime hangi harfle başlıyor?", "okunacak": "Zug", "mod": "sec", "secenekler": ["S", "T", "Z", "D"], "dogruCevaplar": ["Z"], "aciklama": "'Zug' (tren) kelimesinin başındaki Z harfi 'ts' sesini verir; bu yüzden S ile karıştırılmamalıdır." },
+    { "id": "m1-d01-q05", "tip": "coktan-secmeli", "soru": "ß harfinin adı nedir?", "secenekler": ["Umlaut", "Doppel-L", "Eszett", "Ablaut"], "dogru": 2, "aciklama": "ß harfine 'Eszett' denir; çoğu yerde 'ss' sesini verir (Straße gibi)." },
+    { "id": "m1-d01-q06", "tip": "dogru-yanlis", "soru": "Doğru mu, yanlış mı?", "ifade": "ß harfine Eszett denir.", "dogru": true, "aciklama": "Doğru. ß harfinin adı 'Eszett' (es-tset) şeklindedir." },
+    { "id": "m1-d01-q07", "tip": "coktan-secmeli", "soru": "ä, ö ve ü harflerine ne ad verilir?", "secenekler": ["Eszett", "Konsonant", "Artikel", "Umlaut"], "dogru": 3, "aciklama": "Üzerinde iki nokta bulunan ä, ö, ü harflerine 'Umlaut' denir." },
+    { "id": "m1-d01-q08", "tip": "bosluk-doldurma", "soru": "Boşluğu doldur.", "metin": "ä, ö, ü harflerine ___ denir.", "dogruCevaplar": ["Umlaut", "Umlaute", "Umlauten"], "aciklama": "ä, ö ve ü harfleri 'Umlaut' (çoğul: Umlaute) olarak adlandırılır." },
+    { "id": "m1-d01-q09", "tip": "dinleme", "soru": "Duyduğun kelime hangi harfle başlıyor?", "okunacak": "Mutter", "mod": "sec", "secenekler": ["B", "M", "N", "R"], "dogruCevaplar": ["M"], "aciklama": "'Mutter' (anne) kelimesi M harfiyle başlar; M harfinin adı 'em' diye okunur." },
+    { "id": "m1-d01-q10", "tip": "coktan-secmeli", "soru": "Hangi harf 'ha' diye okunur?", "secenekler": ["K", "H", "A", "R"], "dogru": 1, "aciklama": "H harfinin adı 'ha' okunur; K harfi ise 'ka' diye okunur, ikisini karıştırma." },
+    { "id": "m1-d01-q11", "tip": "eslestirme", "soru": "Harfleri adlarının okunuşuyla eşleştir.", "ciftler": [{ "sol": "V", "sag": "fau" }, { "sol": "X", "sag": "iks" }, { "sol": "Y", "sag": "üpsilon" }, { "sol": "R", "sag": "er" }, { "sol": "S", "sag": "es" }, { "sol": "H", "sag": "ha" }], "aciklama": "V harfi 'fau', Y harfi 'üpsilon' diye okunur; R ve S ise 'er' ve 'es' şeklinde söylenir." },
+    { "id": "m1-d01-q12", "tip": "dogru-yanlis", "soru": "Doğru mu, yanlış mı?", "ifade": "J harfi Almanca'da 'ci' diye okunur.", "dogru": false, "aciklama": "Yanlış. J harfinin adı 'yot' şeklindedir ve kelime içinde Türkçe'deki 'y' sesine yakındır (Ja, Jahr)." },
+    { "id": "m1-d01-q13", "tip": "coktan-secmeli", "soru": "W harfinin Almanca adı nasıl okunur?", "secenekler": ["fau", "ve", "dabıl yu", "çe"], "dogru": 1, "aciklama": "W harfi Almanca'da 've' diye okunur; 'fau' ise V harfinin adıdır." },
+    { "id": "m1-d01-q14", "tip": "dinleme", "soru": "Duyduğun kelimeyi yaz.", "okunacak": "Danke", "mod": "yaz", "dogruCevaplar": ["Danke"], "aciklama": "'Danke' (teşekkürler) kelimesi D-A-N-K-E harfleriyle yazılır." },
+    { "id": "m1-d01-q15", "tip": "coktan-secmeli", "soru": "Z harfinin Almanca adı nedir?", "secenekler": ["zed", "ze", "tset", "zi"], "dogru": 2, "aciklama": "Z harfi Almanca'da 'tset' diye okunur; kelime içinde de 'ts' sesi verir." },
+    { "id": "m1-d01-q16", "tip": "dogru-yanlis", "soru": "Doğru mu, yanlış mı?", "ifade": "ä, ö ve ü harfleri Umlaut olarak adlandırılır.", "dogru": true, "aciklama": "Doğru. Bu üç harfe Umlaut denir; gerekirse ae, oe, ue olarak da yazılabilirler." },
+    { "id": "m1-d01-q17", "tip": "eslestirme", "soru": "Özel harfleri, yerine yazılabilen karşılıklarıyla eşleştir.", "ciftler": [{ "sol": "ä", "sag": "ae" }, { "sol": "ö", "sag": "oe" }, { "sol": "ü", "sag": "ue" }, { "sol": "ß", "sag": "ss" }], "aciklama": "Klavyede bulunmadığında ä, ö, ü, ß sırasıyla ae, oe, ue, ss olarak yazılabilir." },
+    { "id": "m1-d01-q18", "tip": "bosluk-doldurma", "soru": "Boşluğu doldur.", "metin": "ß harfinin adı ___.", "dogruCevaplar": ["Eszett", "Es-Zett", "Scharfes S"], "aciklama": "ß harfi 'Eszett' (kısaca 'scharfes S' de denir) adını taşır." },
+    { "id": "m1-d01-q19", "tip": "dinleme", "soru": "Duyduğun kelimeyi yaz.", "okunacak": "Straße", "mod": "yaz", "dogruCevaplar": ["Straße", "Strasse"], "aciklama": "'Straße' (cadde) kelimesi ß ile yazılır; ß yoksa 'ss' ile (Strasse) yazılabilir." },
+    { "id": "m1-d01-q20", "tip": "coktan-secmeli", "soru": "Aşağıdaki harflerden hangisi bir ünlüdür (Vokal)?", "secenekler": ["B", "K", "T", "E"], "dogru": 3, "aciklama": "Ünlüler a, e, i, o, u (ve ä, ö, ü) harfleridir; B, K ve T ünsüzdür." },
+    { "id": "m1-d01-q21", "tip": "dogru-yanlis", "soru": "Doğru mu, yanlış mı?", "ifade": "Almanca'da tüm isimler büyük harfle başlar.", "dogru": true, "aciklama": "Doğru. Almanca'da isimler (Haus, Mutter, Tag gibi) cümle içinde bile büyük harfle yazılır." },
+    { "id": "m1-d01-q22", "tip": "dinleme", "soru": "Duyduğun kelime hangi harfle başlıyor?", "okunacak": "Buch", "mod": "sec", "secenekler": ["L", "B", "K", "S"], "dogruCevaplar": ["B"], "aciklama": "'Buch' (kitap) kelimesi B harfiyle başlar; B harfinin adı 'be' diye okunur." }
+  ]
+}

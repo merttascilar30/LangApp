@@ -1,0 +1,16 @@
+{
+  "soruSayisi": 25,
+  "gecmeNotu": 80,
+  "ekSorular": [
+    { "id": "m1-s-q01", "tip": "coktan-secmeli", "soru": "Akşam saatlerinde bir komşunla karşılaştın. Hangi selamı kullanırsın?", "secenekler": ["Guten Morgen", "Guten Abend", "Auf Wiedersehen", "Gute Nacht"], "dogru": 1, "aciklama": "Akşam selamı 'Guten Abend'dir; 'Gute Nacht' ve 'Auf Wiedersehen' veda ifadeleridir." },
+    { "id": "m1-s-q02", "tip": "coktan-secmeli", "soru": "Hangi kelime 'ş' sesiyle başlar?", "secenekler": ["Zeit", "Wasser", "Schule", "Vater"], "dogru": 2, "aciklama": "'sch' 'ş' sesini verir (Schule); Zeit 'ts', Wasser 'v', Vater 'f' ile başlar." },
+    { "id": "m1-s-q03", "tip": "dogru-yanlis", "soru": "Doğru mu, yanlış mı?", "ifade": "'Gute Nacht' ve 'Guten Abend' aynı durumda kullanılır.", "dogru": false, "aciklama": "Yanlış. 'Guten Abend' akşam karşılaşınca söylenen selamdır; 'Gute Nacht' ayrılırken ve yatmadan önce söylenen vedadır." },
+    { "id": "m1-s-q04", "tip": "ceviri", "soru": "Almanca'ya çevir (telefonda resmi veda).", "kaynak": "Görüşmek üzere (telefonda).", "dogruCevaplar": ["Auf Wiederhören"], "aciklama": "Telefonda görüşmeyi bitirirken 'Auf Wiederhören' denir." },
+    { "id": "m1-s-q05", "tip": "bosluk-doldurma", "soru": "Resmi 'nasılsınız?' sorusunu tamamla.", "metin": "Wie geht es ___?", "dogruCevaplar": ["Ihnen"], "aciklama": "Resmi ortamlarda 'Ihnen' (size) kullanılır; samimi cümlede 'dir' kullanılır." },
+    { "id": "m1-s-q06", "tip": "eslestirme", "soru": "Eşleştir: selamlar, vedalar ve okunuşlar.", "ciftler": [{ "sol": "Guten Tag", "sag": "İyi günler" }, { "sol": "Tschüss", "sag": "Hoşça kal" }, { "sol": "ei", "sag": "ay" }, { "sol": "sch", "sag": "ş" }, { "sol": "Bis morgen", "sag": "Yarın görüşürüz" }], "aciklama": "Selam ve veda kalıpları ile 'ei' (ay) ve 'sch' (ş) okunuşları Modül 1'in ana konularıdır." },
+    { "id": "m1-s-q07", "tip": "dinleme", "soru": "Duyduğun vedanın anlamı nedir?", "okunacak": "Bis später", "mod": "sec", "secenekler": ["Yarın görüşürüz", "Sonra görüşürüz", "Yakında görüşürüz", "İyi geceler"], "dogruCevaplar": ["Sonra görüşürüz"], "aciklama": "'Bis später' sonra görüşürüz demektir; 'später' sonra anlamındadır." },
+    { "id": "m1-s-q08", "tip": "cumle-dizme", "soru": "Kelimeleri doğru sıraya diz: Nasılsınız, Bayan Müller?", "parcalar": ["Wie", "geht", "es", "Ihnen", "Frau", "Müller"], "dogruSiralar": [["Wie", "geht", "es", "Ihnen", "Frau", "Müller"]], "aciklama": "Resmi hal hatır sorusu 'Wie geht es Ihnen?' biçimindedir; hitap (Frau Müller) sona eklenir." },
+    { "id": "m1-s-q09", "tip": "dogru-yanlis", "soru": "Doğru mu, yanlış mı?", "ifade": "'Sport' kelimesi başta 'sp' değil 'şp' sesiyle okunur.", "dogru": true, "aciklama": "Doğru. Kelime başında 'sp' ve 'st' 'şp' ve 'şt' diye okunur." },
+    { "id": "m1-s-q10", "tip": "dinleme", "soru": "Duyduğun resmi vedayı yaz.", "okunacak": "Auf Wiedersehen", "mod": "yaz", "dogruCevaplar": ["Auf Wiedersehen"], "aciklama": "'Auf Wiedersehen' resmi vedadır; Wiedersehen tek kelime olarak yazılır." }
+  ]
+}

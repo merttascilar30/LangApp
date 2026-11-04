@@ -1,0 +1,12 @@
+{
+  "moduller": [
+    { "id": "modul-1", "sira": 1, "baslik": "Alfabe, telaffuz, selamlaşma ve vedalaşma", "partlar": ["ders-01", "ders-02", "ders-03", "ders-04", "ders-05"] },
+    { "id": "modul-2", "sira": 2, "baslik": "Kişi zamirleri, fiil çekimi ve kendini tanıtma", "partlar": [] },
+    { "id": "modul-3", "sira": 3, "baslik": "Sayılar, aylar, günler ve mevsimler", "partlar": [] },
+    { "id": "modul-4", "sira": 4, "baslik": "Artikel, çoğul, ülkeler ve W-Fragen", "partlar": [] },
+    { "id": "modul-5", "sira": 5, "baslik": "Meslekler, olumsuzluk ve saatler", "partlar": [] },
+    { "id": "modul-6", "sira": 6, "baslik": "Nominativ, Akkusativ, Dativ ve iyelik", "partlar": [] },
+    { "id": "modul-7", "sira": 7, "baslik": "Perfekt, modal fiiller ve Imperativ", "partlar": [] },
+    { "id": "modul-8", "sira": 8, "baslik": "Edatlar, Präteritum ve karşılaştırma", "partlar": [] }
+  ]
+}
