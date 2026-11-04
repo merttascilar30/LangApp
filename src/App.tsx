@@ -5,6 +5,8 @@ import { ModulePage } from './pages/ModulePage'
 import { PartPage } from './pages/PartPage'
 import { ExamPage } from './pages/ExamPage'
 import { PartTestPage } from './pages/PartTestPage'
+import { MistakesPage } from './pages/MistakesPage'
+import { FlashcardsPage } from './pages/FlashcardsPage'
 import { AppStateProvider } from './state/AppState'
 
 function Yakinda() {
@@ -58,8 +60,22 @@ export function AppRoutes() {
           </Layout>
         }
       />
-      <Route path="/defter" element={<Yakinda />} />
-      <Route path="/kartlar" element={<Yakinda />} />
+      <Route
+        path="/defter"
+        element={
+          <Layout>
+            <MistakesPage />
+          </Layout>
+        }
+      />
+      <Route
+        path="/kartlar"
+        element={
+          <Layout>
+            <FlashcardsPage />
+          </Layout>
+        }
+      />
       <Route path="/ilerleme" element={<Yakinda />} />
       <Route path="/ayarlar" element={<Yakinda />} />
     </Routes>
