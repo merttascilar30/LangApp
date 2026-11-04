@@ -55,3 +55,18 @@ body {
   font-size: 0.85em;
   color: #666;
 }
+.soru-metni { font-weight: 600; }
+.ifade { font-size: 1.2rem; }
+.secenekler { display: flex; flex-direction: column; gap: 0.5rem; }
+.secenek { padding: 0.6rem 1rem; border: 2px solid #ccc; border-radius: 6px; background: #fff; font: inherit; cursor: pointer; text-align: left; }
+.secenek[aria-pressed='true'] { border-color: #333; background: #eef; }
+.secenek:disabled { opacity: 0.6; cursor: not-allowed; }
+.artikel-der { border-color: #2563eb; color: #2563eb; }
+.artikel-die { border-color: #dc2626; color: #dc2626; }
+.artikel-das { border-color: #16a34a; color: #16a34a; }
+.artikel-der[aria-pressed='true'] { background: #dbeafe; }
+.artikel-die[aria-pressed='true'] { background: #fee2e2; }
+.artikel-das[aria-pressed='true'] { background: #dcfce7; }
+.eslestirme { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.eslestirme-kolon { display: flex; flex-direction: column; gap: 0.5rem; }
+.rozet { float: right; min-width: 1.4em; text-align: center; border-radius: 999px; background: #333; color: #fff; font-size: 0.85em; }
