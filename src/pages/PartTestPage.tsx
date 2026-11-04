@@ -10,16 +10,14 @@ import { useAppState } from '../state/AppState'
 import { ResultsView } from '../test-runner/ResultsView'
 import { TestRunner, type SoruSonucu } from '../test-runner/TestRunner'
 import { ModuleGate, NotFound } from './ModulePage'
-
-const TTS_UYARI =
-  "Bilgisayarında Almanca ses yok. Windows Ayarlar > Saat ve dil > Dil ve bölge'den Almanca'yı ekle. Dinleme soruları şimdilik atlanacak."
+import { useTtsUyari } from './useTtsUyari'
 
 function PartTest({ modul, part }: { modul: Modul; part: Modul['partlar'][number] }) {
-  const { ttsVar, progress, update } = useAppState()
+  const { ttsVar, update } = useAppState()
   const [deneme, setDeneme] = useState(0)
   const [sorular, setSorular] = useState<Question[] | null>(null)
   const [sonuclar, setSonuclar] = useState<SoruSonucu[] | null>(null)
-  const [uyari, setUyari] = useState(false)
+  const uyari = useTtsUyari()
 
   useEffect(() => {
     if (ttsVar === null) return
@@ -29,13 +27,6 @@ function PartTest({ modul, part }: { modul: Modul; part: Modul['partlar'][number
     // Her denemede (ve ses algılaması çözülünce) bir kez seçilir.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [ttsVar, deneme, part.id])
-
-  useEffect(() => {
-    if (ttsVar === false && !progress.ayarlar.ttsUyariGosterildi) {
-      setUyari(true)
-      update((s) => ({ ...s, ayarlar: { ...s.ayarlar, ttsUyariGosterildi: true } }))
-    }
-  }, [ttsVar, progress.ayarlar.ttsUyariGosterildi, update])
 
   const partLink = `/modul/${modul.id}/part/${part.id}`
 
@@ -77,14 +68,7 @@ function PartTest({ modul, part }: { modul: Modul; part: Modul['partlar'][number
   return (
     <div>
       <h1>{`Ders ${part.ders}: ${part.baslik} - Test`}</h1>
-      {uyari && (
-        <div className="uyari" role="alert">
-          <p>{TTS_UYARI}</p>
-          <button type="button" onClick={() => setUyari(false)}>
-            Kapat
-          </button>
-        </div>
-      )}
+      {uyari}
       {icerik}
     </div>
   )

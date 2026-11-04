@@ -3,6 +3,7 @@ import { Layout } from './components/Layout'
 import { HomePage } from './pages/HomePage'
 import { ModulePage } from './pages/ModulePage'
 import { PartPage } from './pages/PartPage'
+import { ExamPage } from './pages/ExamPage'
 import { PartTestPage } from './pages/PartTestPage'
 import { AppStateProvider } from './state/AppState'
 
@@ -49,7 +50,14 @@ export function AppRoutes() {
           </Layout>
         }
       />
-      <Route path="/modul/:modulId/sinav" element={<Yakinda />} />
+      <Route
+        path="/modul/:modulId/sinav"
+        element={
+          <Layout>
+            <ExamPage />
+          </Layout>
+        }
+      />
       <Route path="/defter" element={<Yakinda />} />
       <Route path="/kartlar" element={<Yakinda />} />
       <Route path="/ilerleme" element={<Yakinda />} />
