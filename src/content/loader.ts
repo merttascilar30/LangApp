@@ -4,6 +4,7 @@ import {
   modulesIndexSchema,
   partSchema,
   sinavSchema,
+  sozlukSchema,
   type Part,
   type Question,
   type Sinav,
@@ -15,6 +16,7 @@ export type Modul = {
   baslik: string
   partlar: (Part & { dosya: string })[]
   sinav: Sinav | null
+  sozluk: Record<string, string>
 }
 
 export type SoruKaydi = { soru: Question; modulId: string; partId: string | null }
@@ -93,7 +95,16 @@ export function loadContent(files: Record<string, unknown>): LoadResult {
       }
     }
 
-    moduller.push({ id: m.id, sira: m.sira, baslik: m.baslik, partlar, sinav })
+    const sozluk: Record<string, string> = {}
+    for (const p of partlar) for (const k of p.kelimeler) sozluk[k.de] = k.tr
+    const sozlukKey = `/content/${m.id}/sozluk.json`
+    if (sozlukKey in files) {
+      const z = parse(sozlukSchema, sozlukKey, files[sozlukKey])
+      if (z.ok) Object.assign(sozluk, z.value.girdiler)
+      else hatalar.push(z.error)
+    }
+
+    moduller.push({ id: m.id, sira: m.sira, baslik: m.baslik, partlar, sinav, sozluk })
   }
 
   hatalar.push(...checkUniqueIds(all))
