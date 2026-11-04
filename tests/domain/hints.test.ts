@@ -175,3 +175,39 @@ describe('applyAutoHint', () => {
     expect(applyAutoHint(q, a, { tur: 'ilkHarf', harf: 'b' })).toBe(a)
   })
 })
+
+describe('dinleme sec: tüm doğru cevaplar korunur', () => {
+  it('birden çok kabul edilen cevap asla elenmez', () => {
+    const q: Question = {
+      id: 'q', soru: 's', aciklama: 'a', tip: 'dinleme', okunacak: 'x', mod: 'sec',
+      secenekler: ['23', 'dreiundzwanzig', '32', '13'],
+      dogruCevaplar: ['dreiundzwanzig', '23'],
+    }
+    for (let seed = 0; seed < 100; seed++) {
+      const h = autoHint(q, createRng(seed))
+      expect(h?.tur).toBe('ele')
+      if (h?.tur === 'ele') {
+        expect(h.indeksler).not.toContain(0)
+        expect(h.indeksler).not.toContain(1)
+      }
+    }
+  })
+  it('applyAutoHint: ikinci kabul edilen cevap seçiliyken null olmaz', () => {
+    const q: Question = {
+      id: 'q', soru: 's', aciklama: 'a', tip: 'dinleme', okunacak: 'x', mod: 'sec',
+      secenekler: ['23', 'dreiundzwanzig', '32', '13'],
+      dogruCevaplar: ['dreiundzwanzig', '23'],
+    }
+    const a = { tip: 'dinleme', metin: '23' } as const
+    expect(applyAutoHint(q, a, { tur: 'ele', indeksler: [2] })).toBe(a)
+  })
+  it('ilkParca tekrarlayan parçalarda yalnızca ilk geçişi çıkarır', () => {
+    const q: Question = {
+      id: 'q', soru: 's', aciklama: 'a', tip: 'cumle-dizme',
+      parcalar: ['a', 'b', 'a'], dogruSiralar: [['a', 'b', 'a']],
+    }
+    expect(
+      applyAutoHint(q, { tip: 'cumle-dizme', sira: ['b', 'a', 'a'] }, { tur: 'ilkParca', parca: 'a' }),
+    ).toEqual({ tip: 'cumle-dizme', sira: ['a', 'b', 'a'] })
+  })
+})

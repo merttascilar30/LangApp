@@ -1,5 +1,6 @@
 import type { Question } from '../content/schema'
 import type { Answer } from './answers'
+import { matchesAny } from './normalize'
 import { shuffle } from './random'
 
 export type AutoHint =
@@ -20,7 +21,7 @@ function eleYanlis(yanlislar: number[], rng: () => number): AutoHint | null {
 }
 
 function ilkHarf(s: string | undefined): AutoHint | null {
-  const harf = s?.[0]
+  const harf = s === undefined ? undefined : [...s][0]
   return harf ? { tur: 'ilkHarf', harf } : null
 }
 
@@ -33,7 +34,7 @@ export function autoHint(q: Question, rng: () => number): AutoHint | null {
     case 'dinleme': {
       if (q.mod === 'yaz') return ilkHarf(q.dogruCevaplar[0])
       const secenekler = q.secenekler ?? []
-      const yanlislar = secenekler.map((_, i) => i).filter((i) => secenekler[i] !== q.dogruCevaplar[0])
+      const yanlislar = secenekler.map((_, i) => i).filter((i) => !matchesAny(secenekler[i], q.dogruCevaplar, q.harfDuyarli))
       return eleYanlis(yanlislar, rng)
     }
     case 'artikel': {
