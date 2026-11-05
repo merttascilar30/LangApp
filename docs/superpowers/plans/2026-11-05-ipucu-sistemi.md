@@ -263,7 +263,7 @@ content/modul-1/*            sozluk.json, ipucu, trickler
 - [ ] **Step 1: Failing testler** (`real-content.test.ts`'e ekle):
   - modul-1'deki her soruda (sınav ekSorular dahil) `ipucu` dolu.
   - her partta `trickler.length` 2–4.
-  - Kapsama: modul-1 tüm sorularının gloss alanlarından üretilen tokenlardan, harf içeren (`/\p{L}/u`) ve `___` olmayanların ≥ %80'i `glossTokens(..., modul.sozluk, q.sozlukEk)` ile `anlam` alır; test başarısızlıkta anlamsız kelimeleri listeler.
+  - Kapsama: modul-1 tüm sorularının gloss alanlarından üretilen tokenlardan, harf içeren (`/\p{L}/u`), `___` olmayan ve testteki açık `GLOSS_DISI` listesinde (Türkçe kelimeler, tek harfler, harf adları/okunuş yazımları, harflenmiş biçimler, ses grupları; gerçek Almanca kelime yok) bulunmayan, yani Almanca tokenların ≥ %80'i `glossTokens(..., modul.sozluk, q.sozlukEk)` ile `anlam` alır; test başarısızlıkta anlamsız kelimeleri listeler.
 - [ ] **Step 2:** `npx vitest run tests/content/real-content.test.ts` → FAIL.
 - [ ] **Step 3:** İçeriği yaz.
 - [ ] **Step 4:** Aynı komut → PASS; `npm test`.

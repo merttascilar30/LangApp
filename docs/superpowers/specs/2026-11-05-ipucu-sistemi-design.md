@@ -145,7 +145,7 @@ glossTokens(metin: string, sozluk: Record<string,string>, sozlukEk?: Record<stri
 - 116 sorunun hepsine `ipucu` (Türkçe, 1 cümle, cevabı söylemez).
 - Her derse 2–4 `trickler`.
 - Gerçek-içerik testi ek olarak: her soruda `ipucu`; her partta 2–4 trick; Modül 1
-  Almanca alanlarındaki (yukarıdaki gloss alanları) kelime tokenlarının ≥ %80'i gloss alır.
+  gloss alanlarındaki Almanca kelime tokenlarının ≥ %80'i gloss alır. Kapsama Almanca tokenlar üzerinden ölçülür; testteki açık `GLOSS_DISI` listesi (Türkçe kelimeler, tek harfler, harf adları/okunuş yazımları, harflenmiş biçimler, ses grupları) paydadan çıkarılır, listeye gerçek Almanca kelime eklenmez.
 
 ## 7. Testler
 - Domain: `autoHint` her tip için (eleme sayısı, doğru şık asla elenmez, `null` durumu);
