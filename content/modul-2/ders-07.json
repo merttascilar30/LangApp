@@ -68,7 +68,7 @@
         "`wohnen` `wir`, `sie` (onlar) ve `Sie` ile gelir; `ich` ile fiil `-e` alır."
       ],
       "aciklama": "Özne \"ich\" olunca kök (wohn-) -e eki alır: ich wohne.",
-      "ipucu": "Özne \"ben\" olduğunda köke hangi ekin geldiğini düşün.",
+      "ipucu": "Konuşan kişinin kendisi için kullandığı eki köke ekle.",
       "bicim": "bosluk",
       "kaynakTuru": "goethe",
       "kaynakCumle": "Ich wohne in München.",
@@ -122,7 +122,7 @@
         "`braucht` `er/sie/es` ve `ihr` ile gelir; `wir` ile fiil `-en` alır."
       ],
       "aciklama": "Özne \"wir\" olunca fiil mastar biçimindedir: wir brauchen.",
-      "ipucu": "Özne \"biz\" olduğunda fiil hangi biçime döner?",
+      "ipucu": "Mastar biçimiyle \"biz\" çekimini karşılaştır.",
       "bicim": "bosluk",
       "kaynakTuru": "goethe",
       "kaynakCumle": "Wir brauchen noch drei Gläser.",
@@ -149,7 +149,7 @@
         "`kommen` `wir`, `sie` (onlar) ve `Sie` ile gelir; `du` ile fiil `-st` alır."
       ],
       "aciklama": "Özne \"du\" olunca kök -st eki alır: du kommst.",
-      "ipucu": "Özne \"sen\" olduğunda köke gelen eki düşün.",
+      "ipucu": "Soruyu tek bir karşındaki kişiye yönelttiğin için ona ait eki seç.",
       "bicim": "bosluk",
       "kaynakTuru": "goethe",
       "kaynakCumle": "An welchem Wochentag kommst du?",
@@ -309,27 +309,27 @@
     {
       "id": "m2-d07-q10",
       "tip": "coktan-secmeli",
-      "soru": "Eşinle çok eski bir evde oturuyorsunuz ve komşuna bunu anlatıyorsun. Hangi cümle doğrudur?",
+      "soru": "Arkadaşınla ikiniz toplantı odasının önünde bekliyorsunuz. Görevliye \"Biz beş dakika daha bekliyoruz\" diyorsun. Hangi cümle doğrudur?",
       "secenekler": [
-        "Wir wohnt in einem sehr alten Haus.",
-        "Wir wohnen in einem sehr alten Haus.",
-        "Wir wohne in einem sehr alten Haus.",
-        "Wir wohnst in einem sehr alten Haus."
+        "Wir wartet noch fünf Minuten.",
+        "Wir warten noch fünf Minuten.",
+        "Wir warte noch fünf Minuten.",
+        "Wir wartest noch fünf Minuten."
       ],
       "dogru": 1,
       "celdiriciNotlari": [
-        "`wohnt` `er/sie/es` ve `ihr` ile gelir; `wir` ile fiil `-en` alır.",
+        "`wartet` `er/sie/es` ve `ihr` ile gelir; `wir` ile fiil `-en` alır.",
         "",
-        "`wohne` yalnızca `ich` ile gelir; `wir` ile fiil `-en` alır.",
-        "`wohnst` yalnızca `du` ile gelir; `wir` ile fiil `-en` alır."
+        "`warte` yalnızca `ich` ile gelir; `wir` ile fiil `-en` alır.",
+        "`wartest` yalnızca `du` ile gelir; `wir` ile fiil `-en` alır."
       ],
-      "aciklama": "Özne \"wir\" olunca fiil mastar biçimindedir: Wir wohnen.",
-      "ipucu": "Özne \"biz\" olduğuna göre fiilin hangi eki aldığını düşün.",
+      "aciklama": "Özne \"wir\" olunca fiil mastar biçimindedir: Wir warten.",
+      "ipucu": "Konuşanlar iki kişi olduğundan çoğul kişiye uygun eki seç.",
       "bicim": "senaryo",
       "kaynakTuru": "goethe",
-      "kaynakCumle": "Wir wohnen in einem sehr alten Haus.",
+      "kaynakCumle": "Wir warten noch fünf Minuten.",
       "sozlukEk": {
-        "wohnen": "oturmak fiilinin çekimi"
+        "warten": "beklemek fiilinin çekimi"
       }
     },
     {
@@ -385,24 +385,6 @@
       }
     },
     {
-      "id": "m2-d07-q13",
-      "tip": "ceviri",
-      "soru": "Yeni tanıştığın birine anlatıyorsun: \"Üç yıldır Köln'de oturuyorum.\" Almanca'ya çevir.",
-      "kaynak": "Üç yıldır Köln'de oturuyorum.",
-      "dogruCevaplar": [
-        "Ich wohne seit drei Jahren in Köln",
-        "Seit drei Jahren wohne ich in Köln",
-        "Ich wohne in Köln seit drei Jahren",
-        "Ich lebe seit drei Jahren in Köln",
-        "Seit drei Jahren lebe ich in Köln"
-      ],
-      "aciklama": "\"Ben\" için kök -e eki alır: ich wohne. \"Üç yıldır\" ifadesi seit drei Jahren ile kurulur.",
-      "ipucu": "Özne \"ben\" olduğu için fiil köküne \"ben\" eki gelir; \"üç yıldır\" ifadesi bir edatla başlar.",
-      "bicim": "senaryo",
-      "kaynakTuru": "goethe",
-      "kaynakCumle": "Ich wohne seit drei Jahren in Köln."
-    },
-    {
       "id": "m2-d07-q14",
       "tip": "dinleme",
       "soru": "Duyduğun cümlenin anlamı nedir?",
@@ -426,24 +408,29 @@
     {
       "id": "m2-d07-q15",
       "tip": "cumle-dizme",
-      "soru": "Kelimeleri doğru sıraya diz: Ben ailemin yanında oturuyorum.",
+      "soru": "Kelimeleri doğru sıraya diz: Ben Türkiye'denim.",
       "parcalar": [
         "Ich",
-        "wohne",
-        "bei meinen Eltern"
+        "komme",
+        "aus der Türkei"
       ],
       "dogruSiralar": [
         [
           "Ich",
-          "wohne",
-          "bei meinen Eltern"
+          "komme",
+          "aus der Türkei"
+        ],
+        [
+          "aus der Türkei",
+          "komme",
+          "Ich"
         ]
       ],
-      "aciklama": "Önce özne, sonra çekimli fiil, en sonda yer bildiren grup gelir.",
-      "ipucu": "Özneyle başla, çekimli fiili hemen arkasına koy.",
+      "aciklama": "Önce özne, sonra çekimli fiil, en sonda yer bildiren grup gelir; yer grubu başa geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Çekimli fiil kimin yaptığını gösteren öğenin hemen yanında durur.",
       "bicim": "siralama",
       "kaynakTuru": "goethe",
-      "kaynakCumle": "Ich wohne bei meinen Eltern."
+      "kaynakCumle": "Ich komme aus der Türkei."
     },
     {
       "id": "m2-d07-q16",
@@ -467,11 +454,50 @@
           "wohne",
           "in Köln",
           "seit drei Jahren"
+        ],
+        [
+          "seit drei Jahren",
+          "wohne",
+          "Ich",
+          "in Köln"
+        ],
+        [
+          "in Köln",
+          "wohne",
+          "Ich",
+          "seit drei Jahren"
         ]
       ],
       "aciklama": "Özne ve çekimli fiil başta gelir; zaman ve yer grupları arkasından iki sırayla da dizilebilir.",
       "ipucu": "Özne ve çekimli fiil başa gelir; kalan iki grubun sırası esnektir.",
       "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich wohne seit drei Jahren in Köln."
+    },
+    {
+      "id": "m2-d07-q13",
+      "tip": "ceviri",
+      "soru": "Yeni tanıştığın birine anlatıyorsun: \"Üç yıldır Köln'de oturuyorum.\" Almanca'ya çevir.",
+      "kaynak": "Üç yıldır Köln'de oturuyorum.",
+      "dogruCevaplar": [
+        "Ich wohne seit drei Jahren in Köln",
+        "Seit drei Jahren wohne ich in Köln",
+        "Ich wohne in Köln seit drei Jahren",
+        "Ich lebe seit drei Jahren in Köln",
+        "Seit drei Jahren lebe ich in Köln",
+        "In Köln wohne ich seit drei Jahren",
+        "In Köln lebe ich seit drei Jahren",
+        "Ich lebe in Köln seit drei Jahren",
+        "Ich wohne seit 3 Jahren in Köln",
+        "Seit 3 Jahren wohne ich in Köln",
+        "Ich wohne schon seit drei Jahren in Köln",
+        "Schon seit drei Jahren wohne ich in Köln",
+        "Ich lebe seit 3 Jahren in Köln",
+        "Seit 3 Jahren lebe ich in Köln"
+      ],
+      "aciklama": "\"Ben\" için kök -e eki alır: ich wohne. \"Üç yıldır\" ifadesi seit drei Jahren ile kurulur.",
+      "ipucu": "Özne \"ben\" olduğu için fiil köküne \"ben\" eki gelir; \"üç yıldır\" ifadesi bir edatla başlar.",
+      "bicim": "senaryo",
       "kaynakTuru": "goethe",
       "kaynakCumle": "Ich wohne seit drei Jahren in Köln."
     },
@@ -496,6 +522,18 @@
           "Ich",
           "hole",
           "aus der Küche",
+          "zwei Flaschen Wasser"
+        ],
+        [
+          "zwei Flaschen Wasser",
+          "hole",
+          "Ich",
+          "aus der Küche"
+        ],
+        [
+          "aus der Küche",
+          "hole",
+          "Ich",
           "zwei Flaschen Wasser"
         ]
       ],
@@ -565,7 +603,7 @@
         }
       ],
       "aciklama": "ich -e, du -st, er -t, wir -en eki alır: komme, kommst, kommt, kommen.",
-      "ipucu": "Mastar eki -en olan zamiri bul, sonra tek harfli ve iki harfli ekleri ayır.",
+      "ipucu": "Önce kendin ve karşındaki için gelen ekleri düşün, sonra kalanları ele.",
       "bicim": "kelime",
       "kaynakTuru": "yazildi"
     },
@@ -573,10 +611,10 @@
       "id": "m2-d07-q20",
       "tip": "dogru-yanlis",
       "soru": "Doğru mu, yanlış mı? Arkadaşına \"Sen polis teşkilatında çalışıyorsun\" demek istiyorsun ve şöyle yazıyorsun:",
-      "ifade": "Du arbeitet bei der Polizei.",
-      "dogru": false,
-      "aciklama": "Yanlış. \"du\" ile fiil -est alır: Du arbeitest bei der Polizei. \"arbeitet\" ise er, sie, es ve ihr içindir.",
-      "ipucu": "Özne \"sen\" olduğunda kök t ile bittiği için ek öncesine bir ünlü girer; fiildeki eki kontrol et.",
+      "ifade": "Du arbeitest bei der Polizei.",
+      "dogru": true,
+      "aciklama": "Doğru. \"du\" ile fiil -est alır; kök t ile bittiği için araya e girer: Du arbeitest bei der Polizei.",
+      "ipucu": "Cümleyi kendi içinde oku; özne ile fiil uyuşuyor mu?",
       "bicim": "senaryo",
       "kaynakTuru": "uyarlama",
       "kaynakCumle": "Er arbeitet bei der Polizei."

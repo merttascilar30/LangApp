@@ -74,7 +74,7 @@
         ""
       ],
       "aciklama": "Özne \"wir\" olunca fiil mastar biçimindedir: wir machen.",
-      "ipucu": "Özne \"biz\" olduğunda fiilin mastar biçimiyle aynı kaldığını hatırla.",
+      "ipucu": "Özne \"biz\" olduğunda ekin ne olduğunu düşün.",
       "bicim": "bosluk",
       "kaynakTuru": "goethe",
       "kaynakCumle": "Wir machen Anfang Juli Urlaub.",
@@ -101,7 +101,7 @@
         "`baden` `wir`, `sie` (onlar) ve `Sie` ile gelir; `ich` ile fiil `-e` alır."
       ],
       "aciklama": "Özne \"ich\" olunca kök (bad-) -e eki alır: ich bade.",
-      "ipucu": "Özne \"ben\" olduğunda köke hangi ekin geldiğini düşün.",
+      "ipucu": "Kendinden söz ederken köke gelen eki seç.",
       "bicim": "bosluk",
       "kaynakTuru": "goethe",
       "kaynakCumle": "Ich bade nicht so gern, ich dusche lieber.",
@@ -301,6 +301,24 @@
           "machen",
           "wir",
           "Urlaub"
+        ],
+        [
+          "wir",
+          "machen",
+          "Im Februar",
+          "Urlaub"
+        ],
+        [
+          "wir",
+          "machen",
+          "Urlaub",
+          "Im Februar"
+        ],
+        [
+          "Urlaub",
+          "machen",
+          "wir",
+          "Im Februar"
         ]
       ],
       "aciklama": "Cümle zaman ifadesiyle başlayınca çekimli fiil ikinci sırada kalır ve özne fiilin arkasına geçer.",
@@ -325,6 +343,24 @@
           "machen",
           "wir",
           "eine Party"
+        ],
+        [
+          "wir",
+          "machen",
+          "Heute Abend",
+          "eine Party"
+        ],
+        [
+          "wir",
+          "machen",
+          "eine Party",
+          "Heute Abend"
+        ],
+        [
+          "eine Party",
+          "machen",
+          "wir",
+          "Heute Abend"
         ]
       ],
       "aciklama": "\"Heute Abend\" tek bir öğedir; fiil hemen ardından gelir, sonra özne ve nesne dizilir.",
@@ -351,6 +387,48 @@
           "ich",
           "oft",
           "Fußball"
+        ],
+        [
+          "ich",
+          "spiele",
+          "In meiner Freizeit",
+          "oft",
+          "Fußball"
+        ],
+        [
+          "ich",
+          "spiele",
+          "oft",
+          "Fußball",
+          "In meiner Freizeit"
+        ],
+        [
+          "ich",
+          "spiele",
+          "oft",
+          "In meiner Freizeit",
+          "Fußball"
+        ],
+        [
+          "oft",
+          "spiele",
+          "ich",
+          "In meiner Freizeit",
+          "Fußball"
+        ],
+        [
+          "oft",
+          "spiele",
+          "ich",
+          "Fußball",
+          "In meiner Freizeit"
+        ],
+        [
+          "Fußball",
+          "spiele",
+          "ich",
+          "oft",
+          "In meiner Freizeit"
         ]
       ],
       "aciklama": "Başa gelen grup tek öğe sayılır; çekimli fiil ondan hemen sonra gelir.",
@@ -377,6 +455,48 @@
           "ich",
           "immer",
           "Kaffee"
+        ],
+        [
+          "ich",
+          "trinke",
+          "Zum Frühstück",
+          "immer",
+          "Kaffee"
+        ],
+        [
+          "ich",
+          "trinke",
+          "immer",
+          "Kaffee",
+          "Zum Frühstück"
+        ],
+        [
+          "ich",
+          "trinke",
+          "immer",
+          "Zum Frühstück",
+          "Kaffee"
+        ],
+        [
+          "immer",
+          "trinke",
+          "ich",
+          "Zum Frühstück",
+          "Kaffee"
+        ],
+        [
+          "immer",
+          "trinke",
+          "ich",
+          "Kaffee",
+          "Zum Frühstück"
+        ],
+        [
+          "Kaffee",
+          "trinke",
+          "ich",
+          "immer",
+          "Zum Frühstück"
         ]
       ],
       "aciklama": "\"Zum Frühstück\" cümle başına geçtiği için fiil ikinci, özne üçüncü sırada yer alır.",
@@ -407,6 +527,18 @@
           "mache",
           "bei Siemens",
           "ein Praktikum"
+        ],
+        [
+          "ein Praktikum",
+          "mache",
+          "Ich",
+          "bei Siemens"
+        ],
+        [
+          "bei Siemens",
+          "mache",
+          "Ich",
+          "ein Praktikum"
         ]
       ],
       "aciklama": "Özne ve çekimli fiil başta gelir; staj ve yer grupları iki sırayla da dizilebilir.",
@@ -436,7 +568,7 @@
         ]
       ],
       "aciklama": "Soru grubu başa gelir; çekimli fiil ikinci sırada, özne onun arkasında yer alır.",
-      "ipucu": "Soru grubuyla başla ve çekimli fiili ikinci sıraya koy.",
+      "ipucu": "Soru grubu başta; çekimli fiilin ve öznenin nerede durduğunu düşün.",
       "bicim": "siralama",
       "kaynakTuru": "goethe",
       "kaynakCumle": "Wie lange lernen Sie schon Deutsch?"
@@ -444,25 +576,25 @@
     {
       "id": "m2-d08-q15",
       "tip": "coktan-secmeli",
-      "soru": "Arkadaşına bu akşam parti yapacağınızı söylüyorsun ve cümleye \"bu akşam\" ile başlıyorsun. Hangi cümle doğrudur?",
+      "soru": "Arkadaşınla doktora gitmek istiyorsunuz. Cümleye \"en iyisi\" diye başlayıp \"Hemen bir randevu alalım\" diyorsun. Hangi cümle doğrudur?",
       "secenekler": [
-        "Heute Abend wir machen eine Party.",
-        "Heute Abend machen wir eine Party.",
-        "Heute Abend machen eine Party wir.",
-        "Heute Abend macht wir eine Party."
+        "Am besten wir machen sofort einen Termin.",
+        "Am besten machen wir sofort einen Termin.",
+        "Am besten machen sofort wir einen Termin.",
+        "Am besten macht wir sofort einen Termin."
       ],
       "dogru": 1,
       "celdiriciNotlari": [
         "Çekimli fiil ikinci öğe olmalı; burada özne araya girmiş.",
         "",
-        "Özne `wir` fiilin hemen arkasında olmalı; nesne ondan sonra gelir.",
+        "Özne `wir` fiilin hemen arkasında olmalı; `sofort` ondan sonra gelir.",
         "`macht` `er/sie/es` ve `ihr` ile gelir; `wir` ile fiil `-en` alır."
       ],
-      "aciklama": "\"Heute Abend\" tek öğedir; fiil ikinci öğe olur, özne fiilin arkasına geçer.",
-      "ipucu": "Başa gelen zaman ifadesinden hemen sonra çekimli fiil gelmeli.",
+      "aciklama": "\"Am besten\" tek öğedir; fiil ikinci öğe olur, özne fiilin arkasına geçer.",
+      "ipucu": "Başa gelen ifadeden hemen sonra çekimli fiil gelmeli.",
       "bicim": "senaryo",
       "kaynakTuru": "goethe",
-      "kaynakCumle": "Heute Abend machen wir eine Party.",
+      "kaynakCumle": "Am besten machen wir sofort einen Termin.",
       "sozlukEk": {
         "machen": "yapmak fiilinin çekimi"
       }
@@ -514,15 +646,18 @@
     {
       "id": "m2-d08-q18",
       "tip": "ceviri",
-      "soru": "Boş zamanlarını anlatıyorsun: \"Çok spor yapıyorum.\" Almanca'ya çevir.",
+      "soru": "Boş zamanlarını anlatıyorsun: \"Çok spor yapıyorum.\" Almanca'ya çevir (çok = viel; spor = Sport).",
       "kaynak": "Çok spor yapıyorum.",
       "dogruCevaplar": [
         "Ich mache viel Sport",
         "Ich treibe viel Sport",
-        "Ich mache sehr viel Sport"
+        "Ich mache sehr viel Sport",
+        "Ich treibe sehr viel Sport",
+        "Ich mache ganz viel Sport",
+        "Ich treibe ganz viel Sport"
       ],
       "aciklama": "Özne \"ich\" olduğundan fiil -e alır; \"çok\" için viel kullanılır: Ich mache viel Sport.",
-      "ipucu": "\"Yapmak\" fiilini \"ben\" için çek ve \"çok\" anlamındaki sözcüğü spordan önce yaz.",
+      "ipucu": "Cümleyi \"ben\" özneli kur; \"çok\" sözcüğünü spordan önce yaz.",
       "bicim": "senaryo",
       "kaynakTuru": "goethe",
       "kaynakCumle": "Ich mache viel Sport."
@@ -534,7 +669,7 @@
       "ifade": "Heute ich lerne Deutsch.",
       "dogru": false,
       "aciklama": "Yanlış. Başa zaman ifadesi gelince çekimli fiil ikinci sırada kalır ve özne arkasına geçer: Heute lerne ich Deutsch.",
-      "ipucu": "Cümle başında ne olursa olsun çekimli fiilin yeri değişmez.",
+      "ipucu": "Cümleyi sesli oku; Almanca bir düz cümleye uygun mu?",
       "bicim": "senaryo",
       "kaynakTuru": "uyarlama",
       "kaynakCumle": "Wir lernen Deutsch."

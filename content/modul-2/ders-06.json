@@ -4,10 +4,10 @@
   "baslik": "Kişi Zamirleri",
   "videoId": "PzQq3g5JHyU",
   "ozet": [
-    "Kişi zamirleri: ich (ben), du (sen), er (o, erkek), sie (o, kadın), es (o, cansız veya nötr), wir (biz), ihr (siz, samimi), sie (onlar) ve Sie (siz, resmî).",
+    "Kişi zamirleri: ich (ben), du (sen), er (o, erkek), sie (o, kadın), es (o, nötr isim; hava olayı), wir (biz), ihr (siz, samimi), sie (onlar) ve Sie (siz, resmî).",
     "Tek bir arkadaşa samimi olarak du, tanımadığın veya saygı duyduğun kişiye resmî olarak Sie denir; Sie her zaman büyük S ile yazılır.",
     "ihr birden çok kişiye samimi hitaptır; Sie ise hem tek hem çok kişiye resmî hitaptır.",
-    "Hava olaylarında ve cansız varlıklarda özne es olur: Es regnet = Yağmur yağıyor.",
+    "Hava olaylarında ve nötr (das) isimlerin yerine es kullanılır; der isimler için er, die isimler için sie kullanılır.",
     "Cümle başında Sie ve sie aynı görünür; anlamı fiil ve bağlam ayırır."
   ],
   "kelimeler": [
@@ -29,7 +29,7 @@
     },
     {
       "de": "es",
-      "tr": "o (cansız veya nötr)"
+      "tr": "o (nötr isim; hava olayı)"
     },
     {
       "de": "wir",
@@ -41,7 +41,7 @@
     },
     {
       "de": "Sie",
-      "tr": "o (kadın); onlar; büyük Sie: siz (resmî)"
+      "tr": "siz (resmî)"
     },
     {
       "de": "heißen",
@@ -92,7 +92,7 @@
       "dogru": 2,
       "celdiriciNotlari": [
         "`er` \"o\" demektir ama erkekler içindir; burada bir kadından söz ediyorsun.",
-        "`es` cansız ve nötr varlıklar içindir; kadın için kullanılmaz.",
+        "`es` nötr (das) isimler ve hava olayları içindir; burada kadın bir kişiden söz ediyorsun.",
         "",
         "`du` \"sen\" demektir; karşındakinin değil, üçüncü bir kadının adını soruyorsun."
       ],
@@ -146,8 +146,8 @@
         "`du` karşındaki kişi demektir; yağmuru yağdıran sen değilsin.",
         ""
       ],
-      "aciklama": "Hava olaylarında özne cansız-nötr zamir \"es\"tir: Es regnet = Yağmur yağıyor.",
-      "ipucu": "Hava olaylarında özne olarak cansız-nötr \"o\" zamiri gelir.",
+      "aciklama": "Hava olaylarında özne \"es\"tir: Es regnet = Yağmur yağıyor.",
+      "ipucu": "Yağmurun bir yapanı yoktur; bu tür cümlelerde sabit bir özne kullanılır.",
       "bicim": "bosluk",
       "kaynakTuru": "goethe",
       "kaynakCumle": "Es regnet.",
@@ -380,10 +380,15 @@
           "Wir",
           "lernen",
           "Deutsch"
+        ],
+        [
+          "Deutsch",
+          "lernen",
+          "Wir"
         ]
       ],
       "aciklama": "Önce özne olan \"Wir\", sonra fiil \"lernen\", en sonda öğrenilen dil gelir.",
-      "ipucu": "Özneyle başla, fiili hemen arkasına koy ve dil adını sona bırak.",
+      "ipucu": "Almanca cümlenin ilk öğesi kimin yaptığını gösterir; fiil nerede durur?",
       "bicim": "siralama",
       "kaynakTuru": "goethe",
       "kaynakCumle": "Wir lernen Deutsch."
@@ -405,7 +410,7 @@
         ]
       ],
       "aciklama": "Soru sözcüğü başa gelir, fiil ikinci sırada durur, resmî \"Sie\" zamiri fiilin arkasından gelir.",
-      "ipucu": "Soru sözcüğüyle başla, fiili ikinci sıraya koy ve zamiri sona bırak.",
+      "ipucu": "Soru sözcüğü başta; çekimli fiilin yerini ve zamirin nerede durduğunu düşün.",
       "bicim": "siralama",
       "kaynakTuru": "goethe",
       "kaynakCumle": "Woher kommen Sie?"
@@ -429,7 +434,7 @@
         ]
       ],
       "aciklama": "Soru sözcüğü \"Was\" başta, fiil ikinci sırada, ardından özne \"du\" ve zaman bildiren grup gelir.",
-      "ipucu": "Soru sözcüğünden sonra fiili, sonra zamiri, en sona zamanı koy.",
+      "ipucu": "Soru sözcüğü başta; çekimli fiil ikinci öğedir.",
       "bicim": "siralama",
       "kaynakTuru": "goethe",
       "kaynakCumle": "Was machst du heute Abend?"
@@ -519,19 +524,21 @@
       "ipucu": "Resmî hitapta kullanılan ve hep büyük harfle yazılan zamiri yaz.",
       "bicim": "bosluk",
       "kaynakTuru": "goethe",
-      "kaynakCumle": "Spielen Sie Karten?"
+      "kaynakCumle": "Spielen Sie Karten?",
+      "harfDuyarli": true
     },
     {
       "id": "m2-d06-q20",
       "tip": "dogru-yanlis",
       "soru": "Doğru mu, yanlış mı? Otel resepsiyonunda tanımadığın bir görevliye resmî biçimde \"Telefonunuz var mı?\" diyorsun ve şöyle yazıyorsun:",
-      "ifade": "Haben du Telefon?",
-      "dogru": false,
-      "aciklama": "Yanlış. Resmî hitapta \"du\" değil \"Sie\" kullanılır: Haben Sie Telefon?",
-      "ipucu": "Tanımadığın biriyle resmî konuşurken hangi zamir kullanıldığını düşün.",
+      "ifade": "Haben Sie Telefon?",
+      "dogru": true,
+      "aciklama": "Doğru. Resmî hitapta büyük harfle yazılan \"Sie\" kullanılır: Haben Sie Telefon? = Telefonunuz var mı?",
+      "ipucu": "Resmî bir durumda hangi hitap biçimi seçilir ve cümle buna uyuyor mu?",
       "bicim": "senaryo",
-      "kaynakTuru": "uyarlama",
-      "kaynakCumle": "Haben Sie Telefon?"
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Haben Sie Telefon?",
+      "glossKapali": true
     }
   ],
   "trickler": [
@@ -544,8 +551,8 @@
       "metin": "Tek arkadaşa du, birkaç arkadaşa ihr, tanımadığın veya saygı duyduğun kişiye (tek ya da çok) Sie dersin."
     },
     {
-      "baslik": "Hava ve nesnelerde es",
-      "metin": "Hava olaylarında ve cansız şeylerde özne es olur: Es regnet. Erkek için er, kadın için sie kullanılır."
+      "baslik": "Hava ve nötr isimlerde es",
+      "metin": "Hava olaylarında ve nötr (das) isimlerin yerine es kullanılır: Es regnet. der isimler için er, die isimler için sie gelir."
     }
   ]
 }
