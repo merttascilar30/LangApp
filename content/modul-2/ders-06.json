@@ -388,7 +388,7 @@
         ]
       ],
       "aciklama": "Önce özne olan \"Wir\", sonra fiil \"lernen\", en sonda öğrenilen dil gelir.",
-      "ipucu": "Almanca cümlenin ilk öğesi kimin yaptığını gösterir; fiil nerede durur?",
+      "ipucu": "Çekimli fiil cümlede hangi sırada durur?",
       "bicim": "siralama",
       "kaynakTuru": "goethe",
       "kaynakCumle": "Wir lernen Deutsch."

@@ -389,10 +389,31 @@
           "Fußball"
         ],
         [
+          "In meiner Freizeit",
+          "spiele",
+          "ich",
+          "Fußball",
+          "oft"
+        ],
+        [
           "ich",
           "spiele",
           "In meiner Freizeit",
           "oft",
+          "Fußball"
+        ],
+        [
+          "ich",
+          "spiele",
+          "In meiner Freizeit",
+          "Fußball",
+          "oft"
+        ],
+        [
+          "ich",
+          "spiele",
+          "oft",
+          "In meiner Freizeit",
           "Fußball"
         ],
         [
@@ -405,9 +426,16 @@
         [
           "ich",
           "spiele",
+          "Fußball",
           "oft",
+          "In meiner Freizeit"
+        ],
+        [
+          "ich",
+          "spiele",
+          "Fußball",
           "In meiner Freizeit",
-          "Fußball"
+          "oft"
         ],
         [
           "oft",
@@ -429,6 +457,13 @@
           "ich",
           "oft",
           "In meiner Freizeit"
+        ],
+        [
+          "Fußball",
+          "spiele",
+          "ich",
+          "In meiner Freizeit",
+          "oft"
         ]
       ],
       "aciklama": "Başa gelen grup tek öğe sayılır; çekimli fiil ondan hemen sonra gelir.",
@@ -457,10 +492,31 @@
           "Kaffee"
         ],
         [
+          "Zum Frühstück",
+          "trinke",
+          "ich",
+          "Kaffee",
+          "immer"
+        ],
+        [
           "ich",
           "trinke",
           "Zum Frühstück",
           "immer",
+          "Kaffee"
+        ],
+        [
+          "ich",
+          "trinke",
+          "Zum Frühstück",
+          "Kaffee",
+          "immer"
+        ],
+        [
+          "ich",
+          "trinke",
+          "immer",
+          "Zum Frühstück",
           "Kaffee"
         ],
         [
@@ -473,9 +529,16 @@
         [
           "ich",
           "trinke",
+          "Kaffee",
           "immer",
+          "Zum Frühstück"
+        ],
+        [
+          "ich",
+          "trinke",
+          "Kaffee",
           "Zum Frühstück",
-          "Kaffee"
+          "immer"
         ],
         [
           "immer",
@@ -497,6 +560,13 @@
           "ich",
           "immer",
           "Zum Frühstück"
+        ],
+        [
+          "Kaffee",
+          "trinke",
+          "ich",
+          "Zum Frühstück",
+          "immer"
         ]
       ],
       "aciklama": "\"Zum Frühstück\" cümle başına geçtiği için fiil ikinci, özne üçüncü sırada yer alır.",
@@ -565,6 +635,13 @@
           "Sie",
           "schon",
           "Deutsch"
+        ],
+        [
+          "Wie lange",
+          "lernen",
+          "Sie",
+          "Deutsch",
+          "schon"
         ]
       ],
       "aciklama": "Soru grubu başa gelir; çekimli fiil ikinci sırada, özne onun arkasında yer alır.",
@@ -590,7 +667,7 @@
         "Özne `wir` fiilin hemen arkasında olmalı; `sofort` ondan sonra gelir.",
         "`macht` `er/sie/es` ve `ihr` ile gelir; `wir` ile fiil `-en` alır."
       ],
-      "aciklama": "\"Am besten\" tek öğedir; fiil ikinci öğe olur, özne fiilin arkasına geçer.",
+      "aciklama": "\"Am besten\" tek öğedir; standart yazı dilinde çekimli fiil ikinci öğe olur, özne fiilin arkasına geçer.",
       "ipucu": "Başa gelen ifadeden hemen sonra çekimli fiil gelmeli.",
       "bicim": "senaryo",
       "kaynakTuru": "goethe",
