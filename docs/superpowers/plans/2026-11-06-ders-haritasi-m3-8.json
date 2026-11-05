@@ -839,7 +839,7 @@
       ],
       "aramaKaliplari": [
         "(?<!\\p{L})im (januar|februar|märz|april|mai|juni|juli|august|september|oktober|november|dezember|sommer|winter|frühling|herbst)(?!\\p{L})",
-        "(?<!\\p{L})um \\p{L}+ uhr(?!\\p{L})",
+        "(?<!\\p{L})um [\\p{L}\\d.]+( \\([^)]*\\))? uhr(?!\\p{L})",
         "(?<!\\p{L})von(?!\\p{L}).*(?<!\\p{L})bis(?!\\p{L})"
       ],
       "gramer": [
