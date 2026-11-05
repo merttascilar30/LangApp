@@ -7,7 +7,7 @@
     "Yaşı sormak için yakın birine Wie alt bist du?, tanımadığın veya saygı duyduğun birine Wie alt sind Sie? dersin. Cevap sein ile verilir: Ich bin 23. veya Ich bin dreiundzwanzig.",
     "Fiyat sorarken Wie viel kostet das? dersin; cevap Das kostet 10 Euro. olur. Toplamı Das macht zusammen 2 Euro 80. diye söylersin. Sayılabilen şeylerin adedi için viele kullanılır: Wie viele Kinder haben Sie?",
     "Telefon numarası (die Telefonnummer) genellikle rakam rakam okunur: 553221 = fünf fünf drei zwei zwei eins. Adreste kapı numarası (die Hausnummer) sokak adından sonra gelir: Ich wohne Messeplatz 5. Posta kodu da die Postleitzahl’dır.",
-    "Ölçü ve para birimleri: der Euro, der Cent, der Meter, der Quadratmeter (metrekare), das Kilo, das Gramm, das Prozent. Sayıdan sonra bu birimler genellikle tekil kalır: 5 Euro, 60 Quadratmeter, 62 Kilo. Ürünü ölçüyle istersin: Ein Kilo Birnen, bitte!",
+    "Ölçü ve para birimleri: der Euro, der Cent, der Meter, der Quadratmeter (metrekare), das Kilo, das Gramm, das Prozent, der Grad (derece): 30 Grad. Sayıdan sonra bu birimler genellikle tekil kalır: 5 Euro, 60 Quadratmeter, 62 Kilo. Ürünü ölçüyle istersin: Ein Kilo Birnen, bitte!",
     "Büyük sayılarda binlik ayıracı olarak nokta, ondalık için virgül kullanılır: 1.500 Euro (eintausendfünfhundert), 8.880 Meter, 1,15 m. Rakamlı sayı yerine yazıyla da yazabilirsin."
   ],
   "kelimeler": [
@@ -406,7 +406,7 @@
         "Ich habe noch 20 Euro"
       ],
       "aciklama": "Zwanzig 20 demektir. Euro sayıdan sonra tekil kalır; sayı rakamla da yazılabilir.",
-      "ipucu": "Cümlenin başında sahip olmayı anlatan bir fiil, sonunda para birimi var.",
+      "ipucu": "Telefonda biri elindeki parayı söylüyor.",
       "bicim": "senaryo",
       "kaynakTuru": "uyarlama",
       "kaynakCumle": "Ich habe noch 20 Euro."

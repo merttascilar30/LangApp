@@ -77,7 +77,7 @@
     "auch": "de, da; ayrıca",
     "in": "içinde",
     "immer": "her zaman",
-    "um": "etrafında; saat için: -de",
+    "um": "etrafında",
     "Uhr": "saat",
     "Von": "-den; ...-in",
     "hier": "burada",
@@ -179,6 +179,9 @@
     "Ende": "son, sonu",
     "Deutschkurs": "Almanca kursu",
     "kalt": "soğuk",
+    "Ihr": "sizin (resmî)",
+    "Frau": "Bayan",
+    "Kern": "soyadı",
     "Sommerferien": "yaz tatili"
   }
 }

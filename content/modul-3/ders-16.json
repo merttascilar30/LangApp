@@ -101,95 +101,6 @@
     {
       "id": "m3-d16-q02",
       "tip": "coktan-secmeli",
-      "soru": "Üniversitenin ekimde başladığını söylüyorsun. Boşluğa uygun ayı seç.",
-      "metin": "Das Studium beginnt im ___.",
-      "secenekler": [
-        "Oktober",
-        "September",
-        "November",
-        "Januar"
-      ],
-      "dogru": 0,
-      "celdiriciNotlari": [
-        "",
-        "`September` eylül demektir; sorudaki ay ekim.",
-        "`November` kasım demektir; sorudaki ay ekim.",
-        "`Januar` ocak demektir; sorudaki ay ekim."
-      ],
-      "aciklama": "Ekim Oktober'dır: Das Studium beginnt im Oktober.",
-      "ipucu": "Eylülden sonra gelen ayı seç.",
-      "bicim": "bosluk",
-      "kaynakTuru": "goethe",
-      "kaynakCumle": "Das Studium beginnt im Oktober.",
-      "glossKapali": true
-    },
-    {
-      "id": "m3-d16-q03",
-      "tip": "bosluk-doldurma",
-      "soru": "Eylül ayında izin alacağını söylüyorsun. Boşluğa ayın adını yaz.",
-      "metin": "Ich nehme im ___ Urlaub.",
-      "dogruCevaplar": [
-        "September"
-      ],
-      "aciklama": "Eylül September'dır; ay adının önünde im kullanılır: Ich nehme im September Urlaub.",
-      "ipucu": "Yaz ile sonbahar arasındaki ayın adını yaz.",
-      "bicim": "bosluk",
-      "kaynakTuru": "goethe",
-      "kaynakCumle": "Ich nehme im September Urlaub."
-    },
-    {
-      "id": "m3-d16-q04",
-      "tip": "coktan-secmeli",
-      "soru": "Parayı mart ayının birinde havale edeceğini söylüyorsun. Boşluğa 1. sıra sayısını seç.",
-      "metin": "Das Geld überweisen wir am ___ März auf Ihr Konto.",
-      "secenekler": [
-        "zweiten",
-        "einsten",
-        "dritten",
-        "ersten"
-      ],
-      "dogru": 3,
-      "celdiriciNotlari": [
-        "`zweiten` ikinci demektir; sorudaki gün ayın birincisi.",
-        "`einsten` diye bir sıra sayısı yoktur; 1. düzensizdir ve `erste` olur.",
-        "`dritten` üçüncü demektir; sorudaki gün ayın birincisi.",
-        ""
-      ],
-      "aciklama": "1. düzensizdir: erste. Tarih kalıbında am ersten März denir.",
-      "ipucu": "Birinci sıra sayısı eins + te ile kurulmaz, kendi kelimesi vardır.",
-      "bicim": "bosluk",
-      "kaynakTuru": "goethe",
-      "kaynakCumle": "Das Geld überweisen wir am ersten März auf Ihr Konto.",
-      "glossKapali": true
-    },
-    {
-      "id": "m3-d16-q05",
-      "tip": "coktan-secmeli",
-      "soru": "Arkadaşının doğum gününü kutluyorsun. Kalıbı tamamla.",
-      "metin": "Herzlichen Glückwunsch zum ___!",
-      "secenekler": [
-        "Monat",
-        "Datum",
-        "Geburtstag",
-        "Januar"
-      ],
-      "dogru": 2,
-      "celdiriciNotlari": [
-        "`Monat` ay demektir; bir ay için \"tebrikler\" denmez.",
-        "`Datum` tarih demektir; kutlama bir tarihe değil, doğum gününe yapılır.",
-        "",
-        "`Januar` ocak ayıdır; bir ay adı kutlama kalıbına girmez."
-      ],
-      "aciklama": "Doğum gününü kutlarken Herzlichen Glückwunsch zum Geburtstag! denir.",
-      "ipucu": "Kutlanan şey, her yıl bir kez gelen kişisel bir gün.",
-      "bicim": "bosluk",
-      "kaynakTuru": "goethe",
-      "kaynakCumle": "Herzlichen Glückwunsch zum Geburtstag!",
-      "glossKapali": true
-    },
-    {
-      "id": "m3-d16-q06",
-      "tip": "coktan-secmeli",
       "soru": "Lena ve Mert bu akşam ne yapacaklarını konuşuyor. Mert'in cümlesini tamamla.",
       "diyalog": [
         {
@@ -221,17 +132,106 @@
       "kaynakCumle": "Wir feiern heute meinen Geburtstag."
     },
     {
+      "id": "m3-d16-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Üniversitenin ekimde başladığını söylüyorsun. Boşluğa uygun ayı seç.",
+      "metin": "Das Studium beginnt im ___.",
+      "secenekler": [
+        "Oktober",
+        "September",
+        "November",
+        "Januar"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`September` eylül demektir; sorudaki ay ekim.",
+        "`November` kasım demektir; sorudaki ay ekim.",
+        "`Januar` ocak demektir; sorudaki ay ekim."
+      ],
+      "aciklama": "Ekim Oktober'dır: Das Studium beginnt im Oktober.",
+      "ipucu": "Eylülden sonra gelen ayı seç.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das Studium beginnt im Oktober.",
+      "glossKapali": true
+    },
+    {
+      "id": "m3-d16-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Arkadaşının doğum gününü kutluyorsun. Kalıbı tamamla.",
+      "metin": "Herzlichen Glückwunsch zum ___!",
+      "secenekler": [
+        "Monat",
+        "Datum",
+        "Geburtstag",
+        "Januar"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`Monat` ay demektir; bir ay için \"tebrikler\" denmez.",
+        "`Datum` tarih demektir; kutlama bir tarihe değil, doğum gününe yapılır.",
+        "",
+        "`Januar` ocak ayıdır; bir ay adı kutlama kalıbına girmez."
+      ],
+      "aciklama": "Doğum gününü kutlarken Herzlichen Glückwunsch zum Geburtstag! denir.",
+      "ipucu": "Kutlanan şey, her yıl bir kez gelen kişisel bir gün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Herzlichen Glückwunsch zum Geburtstag!",
+      "glossKapali": true
+    },
+    {
+      "id": "m3-d16-q05",
+      "tip": "bosluk-doldurma",
+      "soru": "Eylül ayında izin alacağını söylüyorsun. Boşluğa ayın adını yaz.",
+      "metin": "Ich nehme im ___ Urlaub.",
+      "dogruCevaplar": [
+        "September"
+      ],
+      "aciklama": "Eylül September'dır; ay adının önünde im kullanılır: Ich nehme im September Urlaub.",
+      "ipucu": "Yaz ile sonbahar arasındaki ayın adını yaz.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich nehme im September Urlaub."
+    },
+    {
+      "id": "m3-d16-q06",
+      "tip": "coktan-secmeli",
+      "soru": "Parayı mart ayının birinde havale edeceğini söylüyorsun. Boşluğa 1. sıra sayısını seç.",
+      "metin": "Das Geld überweisen wir am ___ März auf Ihr Konto.",
+      "secenekler": [
+        "zweiten",
+        "einsten",
+        "dritten",
+        "ersten"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`zweiten` ikinci demektir; sorudaki gün ayın birincisi.",
+        "`einsten` diye bir sıra sayısı yoktur; 1. düzensizdir ve `erste` olur.",
+        "`dritten` üçüncü demektir; sorudaki gün ayın birincisi.",
+        ""
+      ],
+      "aciklama": "1. düzensizdir: erste. Tarih kalıbında am ersten März denir.",
+      "ipucu": "Bu sıra sayısı kurala göre değil, ezberlenen biçimiyle söylenir.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das Geld überweisen wir am ersten März auf Ihr Konto.",
+      "glossKapali": true
+    },
+    {
       "id": "m3-d16-q07",
       "tip": "coktan-secmeli",
-      "soru": "Doğum günü tarihini soran arkadaşına 3 Mayıs'ta olduğunu söylüyorsun. Cevabı tamamla.",
+      "soru": "Bir bankada paranın ne zaman havale edileceği soruluyor. Cevabı tamamla.",
       "diyalog": [
         {
-          "kim": "Lena",
-          "metin": "Wann hast du Geburtstag?"
+          "kim": "Frau Kern",
+          "metin": "Wann überweisen Sie das Geld?"
         },
         {
-          "kim": "Mert",
-          "metin": "Ich habe ___ 3. Mai Geburtstag."
+          "kim": "Herr Weber",
+          "metin": "Das Geld überweisen wir ___ ersten März auf Ihr Konto."
         }
       ],
       "secenekler": [
@@ -247,12 +247,11 @@
         "`in` bu kalıpta kullanılmaz; tarihle `am` söylenir.",
         ""
       ],
-      "aciklama": "Tarih kalıbı am + gün + ay şeklindedir: am 3. Mai. Yalnızca ay söylenince im gelir.",
-      "ipucu": "Cevapta ayın yanında bir gün sayısı da var.",
+      "aciklama": "Tarih kalıbı am + sıra sayısı + ay şeklindedir: am ersten März. Yalnızca ay söylenince im gelir.",
+      "ipucu": "Cümlede ayın önünde bir sıra sayısı var.",
       "bicim": "diyalog",
-      "kaynakTuru": "uyarlama",
-      "kaynakCumle": "Das Geld überweisen wir am ersten März auf Ihr Konto.",
-      "glossKapali": true
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das Geld überweisen wir am ersten März auf Ihr Konto."
     },
     {
       "id": "m3-d16-q08",
@@ -367,41 +366,41 @@
     {
       "id": "m3-d16-q12",
       "tip": "coktan-secmeli",
-      "soru": "Doğum gününün mayısta olduğunu arkadaşına söylüyorsun. Hangi cümleyi kurarsın?",
+      "soru": "Eylül ayında izin alacağını söylüyorsun. Hangi cümleyi kurarsın?",
       "secenekler": [
-        "Ich habe in Mai Geburtstag.",
-        "Ich habe im Mai Geburtstag.",
-        "Ich bin im Mai Geburtstag.",
-        "Ich habe am Mai Geburtstag."
+        "Ich nehme am September Urlaub.",
+        "Ich nehme im September Urlaub.",
+        "Ich nehme in September Urlaub.",
+        "Ich nehmen im September Urlaub."
       ],
       "dogru": 1,
       "celdiriciNotlari": [
-        "Ay adının önünde `in` değil, hazır kalıp olan `im` gelir.",
+        "`am` tarihle gelir (`am 3. Mai`); yalnızca ay söylenince `im` kullanılır.",
         "",
-        "Doğum günü `haben` ile söylenir; `Ich bin Geburtstag` denmez.",
-        "`am` tarihle gelir (`am 3. Mai`); yalnızca ay söylenince `im` kullanılır."
+        "Ay adının önünde `in` değil, hazır kalıp olan `im` gelir.",
+        "`nehmen` `wir` ile gelir; `ich` ile `nehme` kullanılır."
       ],
-      "aciklama": "Doğum günü haben ile, ay ise im ile söylenir: Ich habe im Mai Geburtstag.",
-      "ipucu": "Hem fiile hem de ayın önündeki kısa kelimeye dikkat et.",
+      "aciklama": "Ay adının önünde im gelir, özne ich olunca fiil nehme olur: Ich nehme im September Urlaub.",
+      "ipucu": "Hem ayın önündeki kısa kelimeye hem de fiilin özneyle uyumuna bak.",
       "bicim": "senaryo",
-      "kaynakTuru": "uyarlama",
-      "kaynakCumle": "Im Mai beginnt der Kurs.",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich nehme im September Urlaub.",
       "glossKapali": true
     },
     {
       "id": "m3-d16-q13",
       "tip": "dinleme",
       "soru": "Bir arkadaşın doğum gününün ne zaman olduğunu söylüyor. Duyduğun tarihi seç.",
-      "okunacak": "Ich habe am dritten Mai Geburtstag.",
+      "okunacak": "Wir feiern am dritten Mai meinen Geburtstag.",
       "mod": "sec",
       "secenekler": [
-        "Doğum günüm 3 Mayıs.",
-        "Doğum günüm 7 Mayıs.",
-        "Doğum günüm 13 Mayıs.",
-        "Doğum günüm 3 Mart."
+        "Doğum günümü 3 Mayıs’ta kutluyoruz.",
+        "Doğum günümü 7 Mayıs’ta kutluyoruz.",
+        "Doğum günümü 13 Mayıs’ta kutluyoruz.",
+        "Doğum günümü 3 Mart’ta kutluyoruz."
       ],
       "dogruCevaplar": [
-        "Doğum günüm 3 Mayıs."
+        "Doğum günümü 3 Mayıs’ta kutluyoruz."
       ],
       "aciklama": "Dritten 3. demektir (düzensiz sıra sayısı); Mai mayıstır. Am dritten Mai = 3 Mayıs.",
       "ipucu": "Hem günün sıra sayısına hem de ayın adına kulak ver.",
@@ -420,7 +419,7 @@
         "Wir machen im Februar Urlaub"
       ],
       "aciklama": "Ay adının önünde im gelir; zaman ifadesi başa geçince özne fiilin arkasına kayar: Im Februar machen wir Urlaub.",
-      "ipucu": "Cümle bir ayla başlıyor; çekimli fiil ikinci sırada duyulur.",
+      "ipucu": "Cümle bir zaman ifadesiyle başlıyor.",
       "bicim": "senaryo",
       "kaynakTuru": "goethe",
       "kaynakCumle": "Im Februar machen wir Urlaub."
@@ -435,8 +434,7 @@
       "ipucu": "Cümlenin başındaki kısa kelimeyi ay adıyla birlikte kontrol et.",
       "bicim": "senaryo",
       "kaynakTuru": "goethe",
-      "kaynakCumle": "Im Januar ist es sehr kalt.",
-      "glossKapali": true
+      "kaynakCumle": "Im Januar ist es sehr kalt."
     },
     {
       "id": "m3-d16-q16",
@@ -448,8 +446,7 @@
       "ipucu": "Ay adının önünde hangi kısa kelimenin durduğunu hatırla.",
       "bicim": "senaryo",
       "kaynakTuru": "uyarlama",
-      "kaynakCumle": "Im August haben wir Sommerferien.",
-      "glossKapali": true
+      "kaynakCumle": "Im August haben wir Sommerferien."
     },
     {
       "id": "m3-d16-q17",

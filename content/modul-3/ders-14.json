@@ -101,8 +101,8 @@
     {
       "id": "m3-d14-q03",
       "tip": "coktan-secmeli",
-      "soru": "Bir sayı tablosuna 101 sayısının yazılışını giriyorsun. Boşluğu tamamla.",
-      "metin": "101 = ___.",
+      "soru": "Otelde odan 101 numaralı. Boşluğu tamamla.",
+      "metin": "Ihr Zimmer hat die Nummer ___.",
       "secenekler": [
         "hundertzehn",
         "eins hundert",
@@ -112,15 +112,14 @@
       "dogru": 3,
       "celdiriciNotlari": [
         "`hundertzehn` 110 demektir; 101 için yüzün arkasına 1 eklenir.",
-        "`eins hundert` Türkçe sıraya benziyor; Almanca'da yüz önce gelir ve sayı tek kelimedir.",
+        "`eins hundert` iki ayrı kelimedir ve sıra ters; Almanca'da yüz önce gelir ve sayı tek kelime yazılır.",
         "`einhundert` tam 100 demektir; 101 için arkasına kalan sayı eklenir.",
         ""
       ],
       "aciklama": "Yüzlük sayıda önce hundert gelir, kalan sayı hemen arkasına eklenir: 101 = hunderteins.",
-      "ipucu": "Önce yüzü söyle, sonra kalan sayıyı hiç boşluk bırakmadan ekle.",
+      "ipucu": "Önce yüzü söyle, sonra kalan sayıyı bitişik ekle.",
       "bicim": "bosluk",
-      "kaynakTuru": "goethe",
-      "kaynakCumle": "101 = hunderteins.",
+      "kaynakTuru": "yazildi",
       "glossKapali": true
     },
     {
@@ -287,37 +286,18 @@
     },
     {
       "id": "m3-d14-q10",
-      "tip": "coktan-secmeli",
-      "soru": "Lena kaç bardağa daha ihtiyaç olduğunu soruyor; Mert 3 diyor. Mert’in cevabını tamamla.",
-      "diyalog": [
-        {
-          "kim": "Lena",
-          "metin": "Wie viele Gläser brauchen wir noch?"
-        },
-        {
-          "kim": "Mert",
-          "metin": "Wir brauchen noch ___ Gläser."
-        }
+      "tip": "bosluk-doldurma",
+      "soru": "Kaç bardağa daha ihtiyacınız olduğunu söylüyorsun: 3. Boşluğa sayıyı yaz.",
+      "metin": "Wir brauchen noch ___ Gläser.",
+      "dogruCevaplar": [
+        "drei",
+        "3"
       ],
-      "secenekler": [
-        "dreißig",
-        "dreihundert",
-        "dreizehn",
-        "drei"
-      ],
-      "dogru": 3,
-      "celdiriciNotlari": [
-        "`dreißig` 30 demektir; sorudaki sayı 3.",
-        "`dreihundert` 300 demektir; sorudaki sayı 3.",
-        "`dreizehn` 13 demektir; sorudaki sayı 3.",
-        ""
-      ],
-      "aciklama": "3 yalnızca drei ile söylenir; dreizehn 13, dreißig 30, dreihundert 300'dür.",
-      "ipucu": "Bardak sayısı küçük bir sayı; yalnızca değeri uyan sözcük doğrudur.",
-      "bicim": "diyalog",
+      "aciklama": "3 yalnızca drei ile söylenir; dreizehn 13, dreißig 30, dreihundert 300'dür. Sayıyı rakamla da yazabilirsin.",
+      "ipucu": "Bardak sayısı küçük bir sayı; Almanca adını yaz.",
+      "bicim": "bosluk",
       "kaynakTuru": "goethe",
-      "kaynakCumle": "Wir brauchen noch drei Gläser.",
-      "glossKapali": true
+      "kaynakCumle": "Wir brauchen noch drei Gläser."
     },
     {
       "id": "m3-d14-q11",
@@ -384,7 +364,7 @@
         ]
       ],
       "aciklama": "Haben çekimli fiildir ve ikinci sırada durur; oda numarasını başa alırsan özne fiilin arkasına kayar.",
-      "ipucu": "Çekimli fiil, öznenin ya da oda bilgisinin hemen ardından gelir.",
+      "ipucu": "Çekimli fiil ikinci öğe olur.",
       "bicim": "siralama",
       "kaynakTuru": "goethe",
       "kaynakCumle": "Sie haben Zimmer Nummer zwölf."
@@ -448,50 +428,24 @@
     },
     {
       "id": "m3-d14-q17",
-      "tip": "ceviri",
-      "soru": "\"Yirmi üç\" sayısını Almanca yazıyla yaz.",
-      "kaynak": "yirmi üç",
-      "dogruCevaplar": [
-        "dreiundzwanzig"
-      ],
-      "aciklama": "Önce birim (drei), sonra und, sonra onluk (zwanzig); hepsi tek kelime: dreiundzwanzig.",
-      "ipucu": "Türkçedeki sırayı ters çevir ve parçaları bitişik yaz.",
-      "bicim": "kelime",
-      "kaynakTuru": "yazildi"
-    },
-    {
-      "id": "m3-d14-q18",
-      "tip": "coktan-secmeli",
-      "soru": "Bir etkinlik görevlisi Herr Arslan’ın 18 yaşından büyük olup olmadığını soruyor. Görevlinin sorusunu tamamla.",
-      "diyalog": [
-        {
-          "kim": "Herr Berg",
-          "metin": "Sind Sie über 18 (___)?"
-        },
-        {
-          "kim": "Herr Arslan",
-          "metin": "Ja, ich bin schon 25."
-        }
-      ],
+      "tip": "dinleme",
+      "soru": "Bir etkinlik girişinde görevli sana bir şey soruyor. Duyduğun soruyu seç.",
+      "okunacak": "Sind Sie über achtzehn?",
+      "mod": "sec",
       "secenekler": [
-        "achtzig",
-        "acht",
-        "achtundzwanzig",
-        "achtzehn"
+        "18 yaşından büyük müsünüz?",
+        "80 yaşından büyük müsünüz?",
+        "28 yaşından büyük müsünüz?",
+        "8 yaşından büyük müsünüz?"
       ],
-      "dogru": 3,
-      "celdiriciNotlari": [
-        "`achtzig` 80 demektir; sorudaki sayı 18.",
-        "`acht` yalnızca 8 demektir; 18 için -zehn'li biçim gerekir.",
-        "`achtundzwanzig` 28 demektir; sorudaki sayı 18.",
-        ""
+      "dogruCevaplar": [
+        "18 yaşından büyük müsünüz?"
       ],
-      "aciklama": "18, birim + zehn ile kurulur: achtzehn. Achtzig 80'dir.",
-      "ipucu": "13–19 arasındaki sayılar hangi parçayla biter, onu hatırla.",
-      "bicim": "diyalog",
-      "kaynakTuru": "goethe",
-      "kaynakCumle": "Sind Sie über 18 (achtzehn)?",
-      "glossKapali": true
+      "aciklama": "Achtzehn 18'dir (-zehn); achtzig 80, achtundzwanzig 28 olurdu.",
+      "ipucu": "Sayının sonundaki parçaya ve araya und girip girmediğine kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Sind Sie über 18 (achtzehn)?"
     }
   ],
   "trickler": [
