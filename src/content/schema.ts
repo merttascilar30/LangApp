@@ -8,6 +8,7 @@ const common = {
   aciklama: z.string().min(1),
   harfDuyarli: z.boolean().optional(),
   ipucu: z.string().min(1).optional(),
+  glossKapali: z.literal(true).optional(),
   sozlukEk: z.record(z.string()).optional(),
 }
 

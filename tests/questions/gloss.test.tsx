@@ -63,4 +63,14 @@ describe('Gloss', () => {
     )
     expect(container.querySelector('.gloss')?.getAttribute('data-anlam')).toBe('özel')
   })
+  it('glossKapali soruda gloss yok, bayraksız soruda var (QuestionView)', () => {
+    const goster = (soru: Question) =>
+      render(
+        <SozlukContext.Provider value={() => sozluk}>
+          <QuestionView soru={soru} cevap={null} onCevap={() => {}} kilitli={false} />
+        </SozlukContext.Provider>,
+      ).container
+    expect(goster({ ...cs, glossKapali: true } as Question).querySelector('.gloss')).toBeNull()
+    expect(goster(cs as Question).querySelector('.gloss')).not.toBeNull()
+  })
 })

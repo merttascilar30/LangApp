@@ -142,7 +142,8 @@
       ],
       "dogru": 2,
       "aciklama": "ß harfine 'Eszett' denir; çoğu yerde 'ss' sesini verir (Straße gibi).",
-      "ipucu": "Bu harfin adı, birleştiği iki harfin adının okunuşundan gelir."
+      "ipucu": "Bu harfin adı, birleştiği iki harfin adının okunuşundan gelir.",
+      "glossKapali": true
     },
     {
       "id": "m1-d01-q06",
@@ -151,7 +152,8 @@
       "ifade": "ß harfine Eszett denir.",
       "dogru": true,
       "aciklama": "Doğru. ß harfinin adı 'Eszett' (es-tset) şeklindedir.",
-      "ipucu": "Bu özel harfin adının hangi iki harfin adından türediğini düşün."
+      "ipucu": "Bu özel harfin adının hangi iki harfin adından türediğini düşün.",
+      "glossKapali": true
     },
     {
       "id": "m1-d01-q07",
@@ -165,7 +167,8 @@
       ],
       "dogru": 3,
       "aciklama": "Üzerinde iki nokta bulunan ä, ö, ü harflerine 'Umlaut' denir.",
-      "ipucu": "Bu üç harfin üzerindeki iki noktaya bak; adları \"ses değişimi\" fikrinden gelir."
+      "ipucu": "Üzerinde iki nokta olan bu üç harfin ortak adını derste öğrendiğin terimlerden hatırla.",
+      "glossKapali": true
     },
     {
       "id": "m1-d01-q08",
@@ -178,7 +181,8 @@
         "Umlauten"
       ],
       "aciklama": "ä, ö ve ü harfleri 'Umlaut' (çoğul: Umlaute) olarak adlandırılır.",
-      "ipucu": "Üzerinde iki nokta taşıyan harflerin ortak adını hatırla; çoğul biçimi de kabul edilir."
+      "ipucu": "Üzerinde iki nokta taşıyan harflerin ortak adını hatırla; çoğul biçimi de kabul edilir.",
+      "glossKapali": true
     },
     {
       "id": "m1-d01-q09",
@@ -196,7 +200,7 @@
         "M"
       ],
       "aciklama": "'Mutter' (anne) kelimesi M harfiyle başlar; M harfinin adı 'em' diye okunur.",
-      "ipucu": "Kelimeyi söylerken dudaklarının önce kapanıp sonra açıldığını fark et."
+      "ipucu": "Kelimeyi içinden söyleyip ilk sesin hangi harfle başladığını düşün."
     },
     {
       "id": "m1-d01-q10",
@@ -252,7 +256,7 @@
       "ifade": "J harfi Almanca'da 'ci' diye okunur.",
       "dogru": false,
       "aciklama": "Yanlış. J harfinin adı 'yot' şeklindedir ve kelime içinde Türkçe'deki 'y' sesine yakındır (Ja, Jahr).",
-      "ipucu": "Bu harfin adını ve kelime içindeki sesini düşün; Türkçe'deki benzer harflerle karıştırma."
+      "ipucu": "J harfinin adını ve kelime içindeki sesini ayrı ayrı düşün."
     },
     {
       "id": "m1-d01-q13",
@@ -278,7 +282,7 @@
         "Danke"
       ],
       "aciklama": "'Danke' (teşekkürler) kelimesi D-A-N-K-E harfleriyle yazılır.",
-      "ipucu": "Teşekkür etmek için kullanılan kelimeyi duyduğun gibi harf harf yaz."
+      "ipucu": "Kelimeyi duyduğun gibi harf harf yaz ve isim yazım kuralını uygula."
     },
     {
       "id": "m1-d01-q15",
@@ -301,7 +305,8 @@
       "ifade": "ä, ö ve ü harfleri Umlaut olarak adlandırılır.",
       "dogru": true,
       "aciklama": "Doğru. Bu üç harfe Umlaut denir; gerekirse ae, oe, ue olarak da yazılabilirler.",
-      "ipucu": "Üzerinde iki nokta taşıyan harflerin ortak adını hatırla."
+      "ipucu": "Üzerinde iki nokta taşıyan harflerin ortak adını hatırla.",
+      "glossKapali": true
     },
     {
       "id": "m1-d01-q17",
@@ -341,7 +346,8 @@
         "Es Zett"
       ],
       "aciklama": "ß harfi 'Eszett' (kısaca 'scharfes S' de denir) adını taşır.",
-      "ipucu": "Bu harfin adı, birleştiği iki harfin adının okunuşundan gelir."
+      "ipucu": "Bu harfin adı, birleştiği iki harfin adının okunuşundan gelir.",
+      "glossKapali": true
     },
     {
       "id": "m1-d01-q19",
@@ -354,7 +360,7 @@
         "Strasse"
       ],
       "aciklama": "'Straße' (cadde) kelimesi ß ile yazılır; ß yoksa 'ss' ile (Strasse) yazılabilir.",
-      "ipucu": "Cadde anlamındaki kelimede özel harfi kullan; yazamazsan iki harfli karşılığı da kabul edilir."
+      "ipucu": "Kelimedeki 'ss' sesini yazarken kullanılan özel harf kuralını hatırla; alternatif yazım da kabul edilir."
     },
     {
       "id": "m1-d01-q20",
@@ -377,7 +383,7 @@
       "ifade": "Almanca'da tüm isimler büyük harfle başlar.",
       "dogru": true,
       "aciklama": "Doğru. Almanca'da isimler (Haus, Mutter, Tag gibi) cümle içinde bile büyük harfle yazılır.",
-      "ipucu": "Almanca'da isimlerin yazımında Türkçe'den farklı bir kural olduğunu düşün."
+      "ipucu": "Almanca'da büyük harf kullanımının hangi kelime türlerini kapsadığını düşün."
     },
     {
       "id": "m1-d01-q22",
@@ -395,7 +401,7 @@
         "B"
       ],
       "aciklama": "'Buch' (kitap) kelimesi B harfiyle başlar; B harfinin adı 'be' diye okunur.",
-      "ipucu": "Kelimenin ilk sesinde dudakların önce kapanıp sonra açıldığını fark et."
+      "ipucu": "Kelimeyi içinden söyleyip ilk sesin hangi harfle başladığını düşün."
     }
   ],
   "trickler": [
@@ -404,7 +410,7 @@
       "metin": "ö ve ü Türkçe'deki gibi okunur; ä ise geniş bir 'e' sesi verir."
     },
     {
-      "baslik": "Eszett adını s ve z den alır",
+      "baslik": "Eszett adı: es + zett (s ve z)",
       "metin": "ß harfinin adı 'es' (s) ile 'zett' (z) harf adlarının birleşimidir; klavyede yoksa ss yazılır."
     },
     {

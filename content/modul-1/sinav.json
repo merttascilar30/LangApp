@@ -14,7 +14,8 @@
       ],
       "dogru": 1,
       "aciklama": "Akşam selamı 'Guten Abend'dir; 'Gute Nacht' ve 'Auf Wiedersehen' veda ifadeleridir.",
-      "ipucu": "Akşam saatine uygun selamı veda ifadelerinden ayır."
+      "ipucu": "Akşam saatine uygun selamı veda ifadelerinden ayır.",
+      "glossKapali": true
     },
     {
       "id": "m1-s-q02",
@@ -93,7 +94,8 @@
       "ipucu": "Önce selam ve veda kalıplarını, sonra okunuş eşleşmelerini çöz.",
       "sozlukEk": {
         "morgen": "yarın"
-      }
+      },
+      "glossKapali": true
     },
     {
       "id": "m1-s-q07",
@@ -144,7 +146,8 @@
         ]
       ],
       "aciklama": "Resmi hal hatır sorusu 'Wie geht es Ihnen?' biçimindedir; hitap (Frau Müller) başta ya da sonda yer alabilir.",
-      "ipucu": "Resmî hitap için bir zamir ve unvan var; hitap başta da sonda da olabilir."
+      "ipucu": "Resmî hitap için bir zamir ve unvan var; hitap başta da sonda da olabilir.",
+      "glossKapali": true
     },
     {
       "id": "m1-s-q09",

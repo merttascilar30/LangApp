@@ -89,7 +89,8 @@
       "ipucu": "Samimi mi resmî mi, telefonda mı, zaman bildiren 'Bis' kalıbı mı diye gruplayarak çöz.",
       "sozlukEk": {
         "morgen": "yarın"
-      }
+      },
+      "glossKapali": true
     },
     {
       "id": "m1-d05-q02",
@@ -107,7 +108,7 @@
         "Görüşmek üzere"
       ],
       "aciklama": "'Auf Wiedersehen' kelimesi kelimesine 'tekrar görüşmeye kadar' demektir; resmi bir vedadır.",
-      "ipucu": "Veda kalıbında 'tekrar' ve 'görmek' fikirlerinin birleşimine dikkat et."
+      "ipucu": "Kelimenin selam mı veda mı olduğunu ve resmî mi samimi mi olduğunu düşün."
     },
     {
       "id": "m1-d05-q03",
@@ -175,7 +176,7 @@
       "ifade": "'Auf Wiederhören' telefon görüşmesinin sonunda kullanılır.",
       "dogru": true,
       "aciklama": "Doğru. 'Wiedersehen' görmeyi, 'Wiederhören' duymayı anlatır; telefonda birbirini görmediğin için Wiederhören denir.",
-      "ipucu": "'Görmek' ve 'duymak' köklerini düşün; telefonda hangisi mümkün?"
+      "ipucu": "Telefonda ve yüz yüze görüşmede hangi veda kalıplarının kullanıldığını düşün."
     },
     {
       "id": "m1-d05-q07",
@@ -189,7 +190,8 @@
       ],
       "dogru": 3,
       "aciklama": "Telefonda resmi vedalaşma 'Auf Wiederhören' ile yapılır.",
-      "ipucu": "Telefonda karşındakini göremediğini düşün ve resmî vedayı seç."
+      "ipucu": "Telefonda karşındakini göremediğini düşün ve resmî vedayı seç.",
+      "glossKapali": true
     },
     {
       "id": "m1-d05-q08",
@@ -252,7 +254,8 @@
       ],
       "dogru": 1,
       "aciklama": "'Gute Nacht' iyi geceler demektir ve uyumadan önce söylenir.",
-      "ipucu": "Uyumadan önce söylenen dileğin günün hangi vaktine ait olduğunu düşün."
+      "ipucu": "Uyumadan önce söylenen dileğin günün hangi vaktine ait olduğunu düşün.",
+      "glossKapali": true
     },
     {
       "id": "m1-d05-q13",
@@ -293,7 +296,8 @@
       "ipucu": "'Bis' sözünden sonra gelen zaman kelimesini eşleştir; bilmediğini eleme yoluyla çöz.",
       "sozlukEk": {
         "morgen": "yarın"
-      }
+      },
+      "glossKapali": true
     },
     {
       "id": "m1-d05-q15",
@@ -335,7 +339,7 @@
         "Auf Wiedersehen"
       ],
       "aciklama": "Resmi veda karşılığı 'Auf Wiedersehen'dir.",
-      "ipucu": "Resmî veda için 'tekrar görüşmeye kadar' yapısını düşün."
+      "ipucu": "Yüz yüze resmî vedanın hangi kalıpla kurulduğunu hatırla."
     },
     {
       "id": "m1-d05-q18",
@@ -373,7 +377,8 @@
       ],
       "dogru": 0,
       "aciklama": "'Bis später' sonra görüşürüz demektir; diğer seçenekler selam, iyi geceler ve hal hatır sormadır.",
-      "ipucu": "Seçenekler arasında 'e kadar' anlamlı kelimeyle başlayan, zaman bildiren kalıbı ara."
+      "ipucu": "Seçeneklerin hangisinin selam, hangisinin veda olduğunu ayır; sonra zaman bildirenini seç.",
+      "glossKapali": true
     },
     {
       "id": "m1-d05-q21",
@@ -382,7 +387,10 @@
       "ifade": "'Bis morgen' yarın tekrar görüşeceğin birine söylenir.",
       "dogru": true,
       "aciklama": "Doğru. 'Bis morgen' yarına kadar, yani yarın görüşürüz anlamındadır.",
-      "ipucu": "'E kadar' sözünün ardından gelen kelimenin hangi zamanı gösterdiğini düşün."
+      "ipucu": "'E kadar' sözünün ardından gelen kelimenin hangi zamanı gösterdiğini düşün.",
+      "sozlukEk": {
+        "morgen": "yarın"
+      }
     }
   ],
   "trickler": [

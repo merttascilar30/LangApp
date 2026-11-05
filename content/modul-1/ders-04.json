@@ -104,7 +104,8 @@
         }
       ],
       "aciklama": "Morgen sabah, Tag gün, Abend akşam demektir; 'Guten' bu kelimelerin başına gelerek dilek bildirir.",
-      "ipucu": "Selamlarda 'Guten' sözünden sonra gelen kelimenin günün hangi vaktini bildirdiğine bak."
+      "ipucu": "Selamlarda 'Guten' sözünden sonra gelen kelimenin günün hangi vaktini bildirdiğine bak.",
+      "glossKapali": true
     },
     {
       "id": "m1-d04-q03",
@@ -151,7 +152,8 @@
       ],
       "dogru": 2,
       "aciklama": "'Moin' Hamburg gibi kuzey bölgelerde gün boyu söylenen selamdır; Servus ve Grüß Gott güneyde kullanılır.",
-      "ipucu": "Deniz kıyısındaki Hamburg gibi şehirlerde söylenen kısa selamı düşün."
+      "ipucu": "Deniz kıyısındaki Hamburg gibi şehirlerde söylenen kısa selamı düşün.",
+      "glossKapali": true
     },
     {
       "id": "m1-d04-q07",
@@ -172,7 +174,8 @@
         ]
       ],
       "aciklama": "Samimi hal hatır sorusu 'Wie geht es dir?' biçimindedir; 'dir' sen anlamındaki zamirdir.",
-      "ipucu": "Soru kelimesiyle başla, fiili ikinci sıraya koy ve 'sen' anlamındaki zamiri sona bırak."
+      "ipucu": "Soru kelimesiyle başla, fiili ikinci sıraya koy ve 'sen' anlamındaki zamiri sona bırak.",
+      "glossKapali": true
     },
     {
       "id": "m1-d04-q08",
@@ -289,7 +292,8 @@
       ],
       "dogru": 0,
       "aciklama": "Resmi ortamda 'Guten Tag' ve soyadı (Herr/Frau + soyad) kullanılır; diğerleri argo veya samimidir.",
-      "ipucu": "Tanımadığın yaşça büyük biriyle konuşuyorsun; soyadı ve unvanla yapılan nötr selamı seç."
+      "ipucu": "Bu kişiyle ne kadar yakın olduğunu ve konuşma ortamının resmî mi gündelik mi olduğunu düşün.",
+      "glossKapali": true
     },
     {
       "id": "m1-d04-q15",
@@ -310,7 +314,7 @@
         "Guten Abend"
       ],
       "aciklama": "'Guten Abend' akşam saatlerinde kullanılan selamdır; Abend bir isim olduğu için büyük harfle yazılır.",
-      "ipucu": "Selamın ikinci kelimesi büyük harfle yazılan bir isimdir; günün hangi vaktini anlatır?"
+      "ipucu": "Selamın ikinci kelimesi büyük harfle başlayan bir isimdir; duyduğun gibi yaz."
     },
     {
       "id": "m1-d04-q17",
@@ -375,9 +379,9 @@
       ],
       "dogru": 1,
       "aciklama": "Akşam saatlerinde selam olarak 'Guten Abend' kullanılır; 'Gute Nacht' ise uyumadan önceki veda sözüdür.",
-      "ipucu": "Saat 20:00 günün hangi vaktine denk geliyor? Selam mı veda mı aradığına da bak.",
+      "ipucu": "Saat 20:00'nin günün hangi vaktine denk geldiğini ve selam mı veda mı aradığını düşün.",
       "sozlukEk": {
-        "morgen": "yarın"
+        "morgen": "sabah; Bis morgen: yarın"
       }
     },
     {
@@ -396,7 +400,7 @@
       "metin": "Morgen (sabah), Tag (gün) ve Abend (akşam) kelimelerinin başına 'Guten' getirerek selamlaşırsın."
     },
     {
-      "baslik": "Ihnen: büyük I ile siz",
+      "baslik": "Ihnen: büyük I ile size",
       "metin": "Resmî 'size' anlamındaki Ihnen hep büyük I ile yazılır; samimi 'sana' ise dir'dir."
     },
     {

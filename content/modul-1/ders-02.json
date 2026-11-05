@@ -56,7 +56,7 @@
         "Banane"
       ],
       "aciklama": "'Banane' kelimesi B-A-N-A-N-E harfleriyle yazılır; sondaki E sesli okunur.",
-      "ipucu": "Meyvenin adını hecelerine ayırarak harf harf yaz ve isim olduğu için ilk harfi büyük yaz."
+      "ipucu": "Kelimeyi hecelerine ayırarak harf harf yaz ve isim olduğu için ilk harfi büyük yaz."
     },
     {
       "id": "m1-d02-q02",
@@ -81,7 +81,7 @@
       ],
       "dogru": 1,
       "aciklama": "'schreiben' yazmak demektir; bu soru bir kelimenin yazılışını sormak için kullanılır.",
-      "ipucu": "Cümledeki soru kelimesini ve fiilin yazmakla ilgisini birlikte düşün."
+      "ipucu": "Cümledeki soru kelimesini ve fiili sırayla çevirmeye çalış."
     },
     {
       "id": "m1-d02-q04",
@@ -122,7 +122,7 @@
         "Schule"
       ],
       "aciklama": "'Schule' (okul) kelimesinde 'sch' üç harfle yazılır ve tek bir 'ş' sesi verir: S-C-H-U-L-E.",
-      "ipucu": "Okul anlamındaki kelimeyi yazarken 'ş' sesinin üç harfle yazıldığını hatırla."
+      "ipucu": "Kelimenin ilk sesini veren üç harfli grubun yazım kuralını hatırla."
     },
     {
       "id": "m1-d02-q07",
@@ -180,7 +180,7 @@
       "ifade": "Telefonda isimleri harflerken 'A wie Anton' gibi kalıplar kullanılabilir.",
       "dogru": true,
       "aciklama": "Doğru. Almanca'da harfleme için 'A wie Anton' gibi örnek isimli kodlar kullanılır; son yıllarda şehir adlı kodlar da yaygındır.",
-      "ipucu": "Anlaşılması zor harfleri telefonda netleştirmek için ne yapıldığını düşün."
+      "ipucu": "Telefonda anlaşılması zor harflerin ayrı ayrı nasıl söylendiğini düşün."
     },
     {
       "id": "m1-d02-q11",
@@ -219,7 +219,7 @@
       ],
       "dogru": 1,
       "aciklama": "Harflerken çift harf 'Doppel-' ile söylenir; 'Doppel-T' iki T demektir.",
-      "ipucu": "'Doppel' kelimesinin Türkçe'deki 'çift' fikriyle bağlantısını düşün."
+      "ipucu": "'Doppel' ön ekinin harfler söylenirken kaç harfi anlattığını düşün."
     },
     {
       "id": "m1-d02-q14",
@@ -261,7 +261,8 @@
       ],
       "dogru": 2,
       "aciklama": "ß harfi harflerken 'Eszett' olarak söylenir; ä, ö, ü ise 'A-Umlaut' gibi söylenir.",
-      "ipucu": "Bu harfi harflerken bir özel ad söylemen gerekir; ä, ö, ü'den farklı bir yol izlenir."
+      "ipucu": "Bu harfi harflerken bir özel ad söylemen gerekir; ä, ö, ü'den farklı bir yol izlenir.",
+      "glossKapali": true
     },
     {
       "id": "m1-d02-q17",
@@ -303,7 +304,7 @@
         "Freund"
       ],
       "aciklama": "'Freund' (arkadaş) kelimesinde 'eu' birlikte 'oy' sesi verir: F-R-E-U-N-D.",
-      "ipucu": "Arkadaş anlamındaki kelimede 'oy' sesinin hangi iki ünlüyle yazıldığını hatırla."
+      "ipucu": "Kelimedeki 'oy' sesinin hangi iki ünlüyle yazıldığını hatırla."
     },
     {
       "id": "m1-d02-q20",
@@ -322,8 +323,8 @@
   ],
   "trickler": [
     {
-      "baslik": "Doppel- = dubleks gibi çift",
-      "metin": "Doppel-L, Türkçe'deki 'dubleks' kelimesindeki çift fikrinden gelir: iki tane L demektir."
+      "baslik": "Doppel- = double gibi çift",
+      "metin": "Doppel-L, İngilizce 'double' kelimesine benzer: iki tane L demektir."
     },
     {
       "baslik": "noch + einmal = bir kez daha",
@@ -334,8 +335,8 @@
       "metin": "'Nasıl yazılır bu?' diye çevirerek ezberle: schreiben yazmak, man kişi/insan demektir."
     },
     {
-      "baslik": "Modal fiil başta, asıl fiil sonda",
-      "metin": "'Können Sie das buchstabieren?' kalıbını bir bütün olarak ezberle; ana fiil hep sona gider."
+      "baslik": "Soruda modal fiil başta, asıl fiil sonda",
+      "metin": "Evet/hayır sorularında 'Können Sie das buchstabieren?' kalıbını bir bütün olarak ezberle; ana fiil sona gider."
     }
   ]
 }
