@@ -1,0 +1,868 @@
+{
+  "dersler": [
+    {
+      "ders": 14,
+      "modulId": "modul-3",
+      "dosya": "ders-14",
+      "baslik": "Sayılar",
+      "videoId": "vTPEpMTQ-mM",
+      "temalar": [
+        "Sayılar, günler, aylar, mevsimler ve hava",
+        "Ölçü ve para birimleri"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(eins|zwei|drei|vier|fünf|sechs|sieben|acht|neun|zehn|elf|zwölf|zwanzig|dreißig|hundert|tausend|\\d+)(?!\\p{L})"
+      ],
+      "gramer": [
+        "sayılar 0–1000"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 15,
+      "modulId": "modul-3",
+      "dosya": "ders-15",
+      "baslik": "Sayı Alıştırmaları",
+      "videoId": "kZKZy2XfcJo",
+      "temalar": [
+        "Sayılar, günler, aylar, mevsimler ve hava",
+        "Ölçü ve para birimleri"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(eins|zwei|drei|vier|fünf|sechs|sieben|acht|neun|zehn|elf|zwölf|zwanzig|dreißig|hundert|tausend|\\d+)(?!\\p{L})"
+      ],
+      "gramer": [
+        "yaş, fiyat, telefon"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 16,
+      "modulId": "modul-3",
+      "dosya": "ders-16",
+      "baslik": "Aylar, Doğum Günü, Sıra Sayıları",
+      "videoId": "FcFYDmYngaE",
+      "temalar": [
+        "Sayılar, günler, aylar, mevsimler ve hava"
+      ],
+      "aramaKaliplari": [
+        "Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember|Geburtstag"
+      ],
+      "gramer": [
+        "aylar",
+        "sıra sayıları"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 17,
+      "modulId": "modul-3",
+      "dosya": "ders-17",
+      "baslik": "Günler, Aylar, Mevsimler",
+      "videoId": "QaWYcOmchyI",
+      "temalar": [
+        "Sayılar, günler, aylar, mevsimler ve hava"
+      ],
+      "aramaKaliplari": [
+        "Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag|Woche|Frühling|Sommer|Herbst|Winter"
+      ],
+      "gramer": [
+        "günler",
+        "mevsimler"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 18,
+      "modulId": "modul-3",
+      "dosya": "ders-18",
+      "baslik": "Aylar ve Günler Alıştırma",
+      "videoId": "mAkiR0TLZCE",
+      "temalar": [
+        "Sayılar, günler, aylar, mevsimler ve hava"
+      ],
+      "aramaKaliplari": [
+        "Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember|Geburtstag",
+        "Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag|Woche|Frühling|Sommer|Herbst|Winter"
+      ],
+      "gramer": [
+        "tekrar"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 19,
+      "modulId": "modul-4",
+      "dosya": "ders-19",
+      "baslik": "Artikel Kuralları",
+      "videoId": "IQVCLqP2vhI",
+      "temalar": [
+        "Artikel (der, die, das, ein)",
+        "Artikel ve çoğul: aile ve insanlar",
+        "Artikel ve çoğul: ev ve eşyalar",
+        "Artikel ve çoğul: okul ve sınıf"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(der|die|das)(?!\\p{L})"
+      ],
+      "gramer": [
+        "Nominativ der/die/das",
+        "yalnızca Nominativ boşluk"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 20,
+      "modulId": "modul-4",
+      "dosya": "ders-20",
+      "baslik": "Çoğul",
+      "videoId": "5dx-x8k35G0",
+      "temalar": [
+        "Artikel ve çoğul: aile ve insanlar",
+        "Artikel ve çoğul: ev ve eşyalar",
+        "Artikel ve çoğul: okul ve sınıf"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(Namen|Vornamen|Familiennamen|Adressen|Straßen|Postleitzahlen|Telefone|Nummern|Handys|E-Mails|Vorwahlen|Geburtsorte|Geburtsjahre|Hobbys|Ausweise|Pässe|Formulare|Unterschriften|Millionen|Milliarden|Montage|Dienstage|Mittwoche|Donnerstage|Freitage|Samstage|Sonnabende|Sonntage|Wochenenden|Wochentage|Wochen|Tage|Monate|Jahre|Vormittage|Mittage|Nachmittage|Abende|Nächte|Frühlinge|Frühjahre|Herbste|Daten|Geburtstage|Feiertage|Sonnen|Winde|Prozente|Kilos|Gewichte|Länder|Sprachen|Deutschen|Türken|Türkinnen|Finnen|Finninnen|Mexikanerinnen|Familien|Väter|Mütter|Brüder|Schwestern|Söhne|Töchter|Kinder|Babys|Großmütter|Großväter|Omas|Opas|Männer|Ehefrauen|Ehemänner|Jungen|Freunde|Freundinnen|Menschen|Erwachsenen|Jugendlichen|Verwandten|Bekannten|Partnerinnen|Gäste|Damen|Häuser|Wohnungen|Apartments|Küchen|Bäder|Balkone|Gärten|Schränke|Tische|Betten|Sofas|Herde|Kühlschränke|Duschen|Toiletten|Lichter|Aufzüge|Treppen|Taschen|Bücher|Zeitungen|Papiere|Bleistifte|Bilder|Fotos|CDs|Autos|Faxe|Maschinen|Schilder|Hunde|Schulen|Klassen|Kurse|Kindergärten|Hausaufgaben|Aufgaben|Beispiele|Fragen|Antworten|Lösungen|Tests|Prüfungen|Texte|Sätze|Wörter|Teile|Gruppen|Themen|Aussagen|Bögen|Berufe|Arbeiten|Arbeitsplätze|Jobs|Stellen|Firmen|Ärzte|Ärztinnen|Lehrerinnen|Schülerinnen|Studenten|Studentinnen|Studien|Verkäuferinnen|Beamten|Beamtinnen|Chefs|Chefinnen|Kollegen|Kolleginnen|Kunden|Kundinnen|Hausfrauen|Hausmänner|Praxen|Praktika|Reisebüros|Urlaube|Pausen|Termine|Gespräche|Uhren|Sekunden|Minuten|Stunden|Brote|Tees|Säfte|Biere|Weine|Äpfel|Birnen|Bananen|Tomaten|Kartoffeln|Fische|Salate|Eier|Öle|Frühstücke|Getränke|Flaschen|Gläser|Geschäfte|Läden|Bäckereien|Kioske|Kassen|Preise|Jacken|Schuhe|Größen|Angebote|Geschenke|Blumen|Zigaretten|Speisekarten|Rechnungen|Restaurants|Lokale|Cafés|Karten|Mieten|Köpfe|Arme|Beine|Hände|Füße|Bäuche|Münder|Augen|Haare|Bahnhöfe|Bahnsteige|Gleise|Haltestellen|Flughäfen|Fahrkarten|Tickets|Reisen|Hotels|Rezeptionen|Sehenswürdigkeiten|Ausflüge|Abfahrten|Ankünfte|Abflüge|Autobahnen|Bahnen|S-Bahnen|Straßenbahnen|Züge|Busse|Taxis|Fahrräder|Flugzeuge|Lkws|Auskünfte|Informationen|Anschlüsse|Ansagen|Durchsagen|Pläne|Prospekte|Ausgänge|Eingänge|Automaten|Briefe|Briefmarken|Anrufe|Anzeigen|Einladungen|Anmeldungen|Banken|Konten|Reparaturen|Ergebnisse|Filme|Kinos|Discos|Partys|Hochzeiten|Lieder|Vereine|Schwimmbäder|Ecken|Plätze|Anfänge|Enden|Orte|Städte|Dörfer|Hallen|Räume|Stockwerke|Bäume|Meere|Seen|Farben|Probleme)(?!\\p{L})"
+      ],
+      "gramer": [
+        "çoğul; bankadaki plural alanı"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 21,
+      "modulId": "modul-4",
+      "dosya": "ders-21",
+      "baslik": "Belirli ve Belirsiz Artikel",
+      "videoId": "0unZQgXhVW0",
+      "temalar": [
+        "Artikel (der, die, das, ein)",
+        "Artikel ve çoğul: aile ve insanlar",
+        "Artikel ve çoğul: ev ve eşyalar",
+        "Artikel ve çoğul: okul ve sınıf"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(ein|eine|der|die|das)(?!\\p{L})"
+      ],
+      "gramer": [
+        "ein/eine ile der/die/das",
+        "yalnızca Nominativ boşluk"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 22,
+      "modulId": "modul-4",
+      "dosya": "ders-22",
+      "baslik": "Önemli Fiiller",
+      "videoId": "oAglnd1f-Xk",
+      "temalar": [
+        "Artikel (der, die, das, ein)"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(geh|komm|mach|fahr|ess|trink|kauf|nehm|seh|les|schreib|frag|sag)\\p{L}*(?!\\p{L})"
+      ],
+      "gramer": [
+        "sık fiiller; düzensiz formlar kalıp olarak"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 23,
+      "modulId": "modul-4",
+      "dosya": "ders-23",
+      "baslik": "Ülkeler, Uyruklar, Diller",
+      "videoId": "8hSkhFuddJg",
+      "temalar": [
+        "Ülkeler, diller ve milliyetler"
+      ],
+      "aramaKaliplari": [
+        "Deutschland|Türkei|Frankreich|Land|Sprache|Deutsch|Englisch|Italien|Österreich|Schweiz"
+      ],
+      "gramer": [
+        "ülke, uyruk, dil"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 24,
+      "modulId": "modul-4",
+      "dosya": "ders-24",
+      "baslik": "sprechen ve Diller",
+      "videoId": "bJ0KZZoTuzI",
+      "temalar": [
+        "Ülkeler, diller ve milliyetler"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(sprech\\p{L}*|sprich\\p{L}*)(?!\\p{L})"
+      ],
+      "gramer": [
+        "sprechen çekimi"
+      ],
+      "istisna": true,
+      "istisnaGerekcesi": "sprechen için bankada az cümle var"
+    },
+    {
+      "ders": 25,
+      "modulId": "modul-4",
+      "dosya": "ders-25",
+      "baslik": "W-Soruları",
+      "videoId": "iWcbF7F0dFQ",
+      "temalar": [
+        "W-Fragen"
+      ],
+      "aramaKaliplari": [
+        "^(wer|was|wo|woher|wohin|wann|wie|warum|welch\\p{L}*)(?!\\p{L})"
+      ],
+      "gramer": [
+        "W-Fragen",
+        "V2"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 26,
+      "modulId": "modul-5",
+      "dosya": "ders-26",
+      "baslik": "Meslekler",
+      "videoId": "bravFUDk5vI",
+      "temalar": [
+        "Meslekler ve iş hayatı"
+      ],
+      "aramaKaliplari": [
+        "Arzt|Lehrer|Beruf|arbeit|Firma|Büro|Ingenieur"
+      ],
+      "gramer": [
+        "meslek, artikelsiz kullanım"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 27,
+      "modulId": "modul-5",
+      "dosya": "ders-27",
+      "baslik": "Medeni Durum",
+      "videoId": "pozL8mSu1L4",
+      "temalar": [
+        "Meslekler ve iş hayatı"
+      ],
+      "aramaKaliplari": [
+        "verheiratet|ledig|geschieden|Kinder|Familie"
+      ],
+      "gramer": [
+        "aile durumu"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 28,
+      "modulId": "modul-5",
+      "dosya": "ders-28",
+      "baslik": "nicht",
+      "videoId": "oTYmWbM-eaM",
+      "temalar": [
+        "Olumsuzluk"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(nicht)(?!\\p{L})"
+      ],
+      "gramer": [
+        "nicht konumu"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 29,
+      "modulId": "modul-5",
+      "dosya": "ders-29",
+      "baslik": "nicht ve kein",
+      "videoId": "RYIHBt2B3hs",
+      "temalar": [
+        "Olumsuzluk"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(kein|keine|nicht)(?!\\p{L})"
+      ],
+      "gramer": [
+        "kein/nicht ayrımı; keinen karşıtlığı sorulmaz"
+      ],
+      "istisna": true,
+      "istisnaGerekcesi": "kein için bankada az cümle var"
+    },
+    {
+      "ders": 30,
+      "modulId": "modul-5",
+      "dosya": "ders-30",
+      "baslik": "Saatler",
+      "videoId": "bxUtK3XnrQ8",
+      "temalar": [
+        "Saatler ve günlük program"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(Uhr|halb)(?!\\p{L})|Viertel"
+      ],
+      "gramer": [
+        "resmî ve günlük saat"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 31,
+      "modulId": "modul-6",
+      "dosya": "ders-31",
+      "baslik": "Nominativ",
+      "videoId": "dcE7agmEir4",
+      "temalar": [
+        "İyelik zamirleri ve kişi zamirleri (Akkusativ / Dativ)",
+        "Yiyecek ve içecek",
+        "Alışveriş ve restoran"
+      ],
+      "aramaKaliplari": [
+        "^(der|die|das|ein|eine)(?!\\p{L})"
+      ],
+      "gramer": [
+        "özne, Nominativ"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 32,
+      "modulId": "modul-6",
+      "dosya": "ders-32",
+      "baslik": "Akkusativ",
+      "videoId": "aoIUfv5gkC8",
+      "temalar": [
+        "Akkusativ fiilleri",
+        "Yiyecek ve içecek",
+        "Alışveriş ve restoran"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(den|einen|keinen)(?!\\p{L})"
+      ],
+      "gramer": [
+        "nesne, den/einen"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 33,
+      "modulId": "modul-6",
+      "dosya": "ders-33",
+      "baslik": "Dativ",
+      "videoId": "0v9FefGFG4w",
+      "temalar": [
+        "Dativ fiilleri",
+        "Vücut ve sağlık"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(dem|einem|keinem)(?!\\p{L})"
+      ],
+      "gramer": [
+        "dem/der/den+n"
+      ],
+      "istisna": true,
+      "istisnaGerekcesi": "Dativ için kendi modülünde az cümle var"
+    },
+    {
+      "ders": 34,
+      "modulId": "modul-6",
+      "dosya": "ders-34",
+      "baslik": "Kişi Zamirleri N/A/D",
+      "videoId": "ggHnJqIpHq4",
+      "temalar": [
+        "İyelik zamirleri ve kişi zamirleri (Akkusativ / Dativ)"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(mich|dich|ihn|uns|euch|mir|dir|ihm|ihnen)(?!\\p{L})"
+      ],
+      "gramer": [
+        "zamir tablosu"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 35,
+      "modulId": "modul-6",
+      "dosya": "ders-35",
+      "baslik": "mein / dein",
+      "videoId": "chCJOwrT5X8",
+      "temalar": [
+        "İyelik zamirleri ve kişi zamirleri (Akkusativ / Dativ)"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(mein|meine|meinen|meinem|meiner|dein|deine|deinen|deinem|deiner)(?!\\p{L})"
+      ],
+      "gramer": [
+        "iyelik, üç hâl"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 36,
+      "modulId": "modul-6",
+      "dosya": "ders-36",
+      "baslik": "sein / ihr",
+      "videoId": "0kkIRL73yh0",
+      "temalar": [
+        "İyelik zamirleri ve kişi zamirleri (Akkusativ / Dativ)"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(seine|seinen|seinem|seiner|ihre|ihren|ihrem|ihrer)(?!\\p{L})"
+      ],
+      "gramer": [
+        "iyelik"
+      ],
+      "istisna": true,
+      "istisnaGerekcesi": "sein/ihr için bankada az cümle var"
+    },
+    {
+      "ders": 37,
+      "modulId": "modul-6",
+      "dosya": "ders-37",
+      "baslik": "unser / euer",
+      "videoId": "GvV3oqVNdcY",
+      "temalar": [
+        "İyelik zamirleri ve kişi zamirleri (Akkusativ / Dativ)"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(unser\\p{L}*|euer|eure\\p{L}*)(?!\\p{L})"
+      ],
+      "gramer": [
+        "iyelik, eure düşmesi"
+      ],
+      "istisna": true,
+      "istisnaGerekcesi": "unser/euer için bankada az cümle var"
+    },
+    {
+      "ders": 38,
+      "modulId": "modul-6",
+      "dosya": "ders-38",
+      "baslik": "Ihr / ihre",
+      "videoId": "u9sId2ZsDwo",
+      "temalar": [
+        "İyelik zamirleri ve kişi zamirleri (Akkusativ / Dativ)"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(Ihr|Ihre|Ihren|Ihrem|Ihrer)(?!\\p{L})"
+      ],
+      "gramer": [
+        "Ihr ve ihr ayrımı"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 39,
+      "modulId": "modul-6",
+      "dosya": "ders-39",
+      "baslik": "Ayrılabilen Fiiller",
+      "videoId": "4sL0WKvKPYU",
+      "temalar": [
+        "Ayrılabilen fiiller"
+      ],
+      "aramaKaliplari": [
+        "\\s(an|auf|ab|ein|aus|mit|zu|fern|vor|zurück)[.?!]$"
+      ],
+      "gramer": [
+        "ayrılabilen fiil, cümle sonu"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 40,
+      "modulId": "modul-7",
+      "dosya": "ders-40",
+      "baslik": "Perfekt",
+      "videoId": "K6uzkE2oVHU",
+      "temalar": [
+        "Hareket ve günlük fiiller (Perfekt)",
+        "Ulaşım ve seyahat"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(habe|hast|hat|haben|habt|bin|bist|ist|sind|seid)(?!\\p{L}).*(?<!\\p{L})\\p{L}*ge\\p{L}+(t|en)(?!\\p{L})"
+      ],
+      "gramer": [
+        "haben/sein + Partizip; banka perfekt alanıyla uyarlama"
+      ],
+      "istisna": true,
+      "istisnaGerekcesi": "Perfekt cümlesi az; banka perfekt alanından uyarlanır"
+    },
+    {
+      "ders": 41,
+      "modulId": "modul-7",
+      "dosya": "ders-41",
+      "baslik": "Perfekt Alıştırma",
+      "videoId": "bU2-2kBqkBg",
+      "temalar": [
+        "Hareket ve günlük fiiller (Perfekt)",
+        "Ulaşım ve seyahat"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(habe|hast|hat|haben|habt|bin|bist|ist|sind|seid)(?!\\p{L}).*(?<!\\p{L})\\p{L}*ge\\p{L}+(t|en)(?!\\p{L})"
+      ],
+      "gramer": [
+        "Perfekt"
+      ],
+      "istisna": true,
+      "istisnaGerekcesi": "Perfekt cümlesi az; banka perfekt alanından uyarlanır"
+    },
+    {
+      "ders": 42,
+      "modulId": "modul-7",
+      "dosya": "ders-42",
+      "baslik": "dürfen",
+      "videoId": "bm0JALUhxek",
+      "temalar": [
+        "Modal fiiller"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(darf|darfst|dürfen|dürft)(?!\\p{L})"
+      ],
+      "gramer": [
+        "modal + mastar yapısı burada öğretilir; dürfen"
+      ],
+      "istisna": true,
+      "istisnaGerekcesi": "dürfen için bankada az cümle var"
+    },
+    {
+      "ders": 43,
+      "modulId": "modul-7",
+      "dosya": "ders-43",
+      "baslik": "können",
+      "videoId": "vjuDIoW23eA",
+      "temalar": [
+        "Modal fiiller"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(kann|kannst|können|könnt)(?!\\p{L})"
+      ],
+      "gramer": [
+        "können"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 44,
+      "modulId": "modul-7",
+      "dosya": "ders-44",
+      "baslik": "mögen",
+      "videoId": "86JzzeaTJQE",
+      "temalar": [
+        "Modal fiiller",
+        "Yiyecek ve içecek"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(mag|magst|mögen|mögt)(?!\\p{L})"
+      ],
+      "gramer": [
+        "mögen"
+      ],
+      "istisna": true,
+      "istisnaGerekcesi": "mögen için yalnızca 3 banka cümlesi var"
+    },
+    {
+      "ders": 45,
+      "modulId": "modul-7",
+      "dosya": "ders-45",
+      "baslik": "möchten ve wollen",
+      "videoId": "YpdDB0kNY1U",
+      "temalar": [
+        "Modal fiiller"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(möchte|möchtest|möchten|möchtet|will|willst|wollen|wollt)(?!\\p{L})"
+      ],
+      "gramer": [
+        "istek"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 46,
+      "modulId": "modul-7",
+      "dosya": "ders-46",
+      "baslik": "müssen ve sollen",
+      "videoId": "HhoViM5airE",
+      "temalar": [
+        "Modal fiiller"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(muss|musst|müssen|müsst|soll|sollst|sollen|sollt)(?!\\p{L})"
+      ],
+      "gramer": [
+        "zorunluluk"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 47,
+      "modulId": "modul-7",
+      "dosya": "ders-47",
+      "baslik": "Ja/Nein ve doch",
+      "videoId": "cpK7Xp1IrvE",
+      "temalar": [
+        "Modal fiiller"
+      ],
+      "aramaKaliplari": [
+        "^(ist|sind|hast|haben|kannst|können|kommst|kommt|gehst|möchten|hat)(?!\\p{L}).*\\?$",
+        "(?<!\\p{L})(doch)(?!\\p{L})",
+        "^(ja|nein)(?!\\p{L})"
+      ],
+      "gramer": [
+        "evet/hayır soruları; cevap doch yazildi/uyarlama"
+      ],
+      "istisna": true,
+      "istisnaGerekcesi": "Bankadaki doch cümleleri edat değil dolgu; cevap doch kaynaktan gelmez"
+    },
+    {
+      "ders": 48,
+      "modulId": "modul-7",
+      "dosya": "ders-48",
+      "baslik": "mit, aus, von",
+      "videoId": "TE0Rf9_IZw0",
+      "temalar": [
+        "Edatlar",
+        "Ulaşım ve seyahat"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(mit|aus|von|vom)(?!\\p{L})"
+      ],
+      "gramer": [
+        "Dativ edatları"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 49,
+      "modulId": "modul-7",
+      "dosya": "ders-49",
+      "baslik": "bei",
+      "videoId": "S1ilK0ABE60",
+      "temalar": [
+        "Edatlar"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(bei|beim)(?!\\p{L})"
+      ],
+      "gramer": [
+        "bei"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 50,
+      "modulId": "modul-7",
+      "dosya": "ders-50",
+      "baslik": "nach, zu",
+      "videoId": "6t1SnybeHS8",
+      "temalar": [
+        "Edatlar",
+        "Ulaşım ve seyahat"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(nach|zu|zum|zur)(?!\\p{L})"
+      ],
+      "gramer": [
+        "yön"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 51,
+      "modulId": "modul-7",
+      "dosya": "ders-51",
+      "baslik": "Imperativ",
+      "videoId": "AKaMrHyEfoc",
+      "temalar": [
+        "Uyarılar ve Imperativ"
+      ],
+      "aramaKaliplari": [
+        "^(bitte\\s+)?\\p{L}+en Sie(?!\\p{L})[^?]*[.!]$|^(bitte\\s+)?(geh|komm|mach|nimm|gib|sag|schreib|lies|sprich|fahr|warte|hilf|ruf|zieh|bring|iss|trink|sei|hör|schau|kauf|öffne|stell|lass|nenn|zeig)(?!\\p{L})[^?]*[.!]$"
+      ],
+      "gramer": [
+        "du/ihr/Sie emir"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 52,
+      "modulId": "modul-8",
+      "dosya": "ders-52",
+      "baslik": "Sıklık Zarfları",
+      "videoId": "UfcdkM1LNXM",
+      "temalar": [
+        "Zarflar, bağlaçlar ve belirteçler"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(immer|manchmal|oft|nie|selten)(?!\\p{L})"
+      ],
+      "gramer": [
+        "sıklık, cümledeki yer"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 53,
+      "modulId": "modul-8",
+      "dosya": "ders-53",
+      "baslik": "bis, durch, für",
+      "videoId": "qs83lM8BaSs",
+      "temalar": [
+        "Edatlar"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(bis|durch|für)(?!\\p{L})"
+      ],
+      "gramer": [
+        "Akkusativ edatları"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 54,
+      "modulId": "modul-8",
+      "dosya": "ders-54",
+      "baslik": "gegen, ohne, um",
+      "videoId": "P8NugR_AP6M",
+      "temalar": [
+        "Edatlar"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(gegen|ohne|um)(?!\\p{L})"
+      ],
+      "gramer": [
+        "Akkusativ edatları"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 55,
+      "modulId": "modul-8",
+      "dosya": "ders-55",
+      "baslik": "Yer Edatları",
+      "videoId": "1eZIrJrIlQw",
+      "temalar": [
+        "Yer ve yön",
+        "Edatlar"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(auf|in|im|ins|an|am|über|unter|hinter|zwischen|vor|neben)(?!\\p{L})"
+      ],
+      "gramer": [
+        "wo/wohin"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 56,
+      "modulId": "modul-8",
+      "dosya": "ders-56",
+      "baslik": "Präteritum",
+      "videoId": "-9ChL8KZE2E",
+      "temalar": [
+        "Hareket ve günlük fiiller (Perfekt)",
+        "Modal fiiller"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(war|warst|waren|wart|hatte|hattest|hatten|konnte|musste|wollte)(?!\\p{L})"
+      ],
+      "gramer": [
+        "war, hatte, modal; banka praeteritum alanıyla uyarlama"
+      ],
+      "istisna": true,
+      "istisnaGerekcesi": "Präteritum cümlesi az"
+    },
+    {
+      "ders": 57,
+      "modulId": "modul-8",
+      "dosya": "ders-57",
+      "baslik": "Karşılaştırma",
+      "videoId": "pY-HWUqNqIQ",
+      "temalar": [
+        "Sıfatlar ve karşılaştırma"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})\\p{L}+er als(?!\\p{L})|(?<!\\p{L})am \\p{L}+sten(?!\\p{L})",
+        "(?<!\\p{L})(besser|mehr|lieber|größer|schöner|billiger|teurer|älter|jünger)(?!\\p{L})"
+      ],
+      "gramer": [
+        "Komparativ, Superlativ; banka komparativ alanıyla uyarlama"
+      ],
+      "istisna": true,
+      "istisnaGerekcesi": "Karşılaştırma cümlesi az"
+    },
+    {
+      "ders": 58,
+      "modulId": "modul-8",
+      "dosya": "ders-58",
+      "baslik": "Akk/Dat Alan Fiiller",
+      "videoId": "WBKR738u6nE",
+      "temalar": [
+        "Dativ fiilleri"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(danke|danken|gefällt|gefallen|passt|passen|schmeckt|schmecken|hilft|helfen|gehört)(?!\\p{L})"
+      ],
+      "gramer": [
+        "danken, gefallen, passen, schmecken"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 59,
+      "modulId": "modul-8",
+      "dosya": "ders-59",
+      "baslik": "Zaman Edatı an",
+      "videoId": "VLu7rT4IXU8",
+      "temalar": [
+        "Edatlar",
+        "Sayılar, günler, aylar, mevsimler ve hava"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})am (montag|dienstag|mittwoch|donnerstag|freitag|samstag|sonntag|wochenende|morgen|abend|nachmittag|vormittag)(?!\\p{L})"
+      ],
+      "gramer": [
+        "am + gün/vakit"
+      ],
+      "istisna": true,
+      "istisnaGerekcesi": "Kendi modülünde cümle yok; bankada az"
+    },
+    {
+      "ders": 60,
+      "modulId": "modul-8",
+      "dosya": "ders-60",
+      "baslik": "in, um, von…bis",
+      "videoId": "Lhpey3W-gRI",
+      "temalar": [
+        "Edatlar",
+        "Sayılar, günler, aylar, mevsimler ve hava"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})im (januar|februar|märz|april|mai|juni|juli|august|september|oktober|november|dezember|sommer|winter|frühling|herbst)(?!\\p{L})",
+        "(?<!\\p{L})um \\p{L}+ uhr(?!\\p{L})",
+        "(?<!\\p{L})von(?!\\p{L}).*(?<!\\p{L})bis(?!\\p{L})"
+      ],
+      "gramer": [
+        "zaman edatları"
+      ],
+      "istisna": false
+    },
+    {
+      "ders": 61,
+      "modulId": "modul-8",
+      "dosya": "ders-61",
+      "baslik": "nach, vor, seit, ab",
+      "videoId": "fZP272ApXnY",
+      "temalar": [
+        "Edatlar"
+      ],
+      "aramaKaliplari": [
+        "(?<!\\p{L})(seit|vor|nach|ab)(?!\\p{L})"
+      ],
+      "gramer": [
+        "zaman edatları"
+      ],
+      "istisna": false
+    }
+  ]
+}
