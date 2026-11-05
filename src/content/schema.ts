@@ -10,6 +10,9 @@ const common = {
   ipucu: z.string().min(1).optional(),
   glossKapali: z.literal(true).optional(),
   sozlukEk: z.record(z.string()).optional(),
+  bicim: z.enum(['bosluk', 'diyalog', 'siralama', 'senaryo', 'kelime']).optional(),
+  kaynakTuru: z.enum(['goethe', 'uyarlama', 'yazildi']).optional(),
+  kaynakCumle: z.string().min(1).optional(),
 }
 
 const coktanSecmeli = z.object({
@@ -17,6 +20,9 @@ const coktanSecmeli = z.object({
   tip: z.literal('coktan-secmeli'),
   secenekler: z.array(z.string()).min(2),
   dogru: z.number(),
+  metin: z.string().optional(),
+  diyalog: z.array(z.object({ kim: z.string(), metin: z.string() })).min(2).optional(),
+  celdiriciNotlari: z.array(z.string()).optional(),
 })
 
 const boslukDoldurma = z.object({
