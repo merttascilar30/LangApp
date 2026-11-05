@@ -1,0 +1,595 @@
+{
+  "id": "m2-d08",
+  "ders": 8,
+  "baslik": "Fiil Çekimleri Alıştırma",
+  "videoId": "PuQ6czK0YAY",
+  "ozet": [
+    "Düzenli fiillerde kök sabit kalır; ek kişiye göre değişir: -e, -st, -t, -en, -t, -en.",
+    "Düz cümlede çekimli fiil her zaman ikinci sırada durur (V2): Ich mache ein Praktikum.",
+    "Cümleye zaman veya yer ifadesiyle başlarsan özne fiilin arkasına geçer: Heute Abend machen wir eine Party.",
+    "Soru sözcüğü (Wie lange, Woher) başa gelir ve çekimli fiil yine ikinci sırada kalır.",
+    "Zaman ve yer gruplarının sırası esnek olabilir; çekimli fiilin yeri ise değişmez."
+  ],
+  "kelimeler": [
+    {
+      "de": "baden",
+      "tr": "küvette yıkanmak"
+    },
+    {
+      "de": "duschen",
+      "tr": "duş almak"
+    },
+    {
+      "de": "lachen",
+      "tr": "gülmek"
+    },
+    {
+      "de": "leben",
+      "tr": "yaşamak"
+    },
+    {
+      "de": "spielen",
+      "tr": "oynamak"
+    },
+    {
+      "de": "glauben",
+      "tr": "inanmak, sanmak"
+    },
+    {
+      "de": "der Urlaub",
+      "tr": "tatil",
+      "artikel": "der"
+    },
+    {
+      "de": "die Party",
+      "tr": "parti",
+      "artikel": "die"
+    },
+    {
+      "de": "gleich",
+      "tr": "birazdan, hemen"
+    },
+    {
+      "de": "nie",
+      "tr": "asla, hiçbir zaman"
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m2-d08-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Arkadaşınla temmuz başında tatile çıkacağınızı anlatıyorsun. Fiilin doğru çekimini seç.",
+      "metin": "Wir ___ Anfang Juli Urlaub.",
+      "secenekler": [
+        "mache",
+        "machst",
+        "macht",
+        "machen"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`mache` yalnızca `ich` ile gelir; `wir` ile fiil `-en` alır.",
+        "`machst` `du` ile gelir; `wir` ile fiil `-en` alır.",
+        "`macht` `er/sie/es` ve `ihr` ile gelir; `wir` ile fiil `-en` alır.",
+        ""
+      ],
+      "aciklama": "Özne \"wir\" olunca fiil mastar biçimindedir: wir machen.",
+      "ipucu": "Özne \"biz\" olduğunda fiilin mastar biçimiyle aynı kaldığını hatırla.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir machen Anfang Juli Urlaub.",
+      "sozlukEk": {
+        "machen": "yapmak fiilinin çekimi"
+      }
+    },
+    {
+      "id": "m2-d08-q02",
+      "tip": "coktan-secmeli",
+      "soru": "Banyo yapmak yerine duş almayı sevdiğini anlatıyorsun. Fiilin doğru çekimini seç.",
+      "metin": "Ich ___ nicht so gern, ich dusche lieber.",
+      "secenekler": [
+        "bade",
+        "badest",
+        "badet",
+        "baden"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`badest` `du` ile gelir; `ich` ile fiil `-e` alır.",
+        "`badet` `er/sie/es` ve `ihr` ile gelir; `ich` ile fiil `-e` alır.",
+        "`baden` `wir`, `sie` (onlar) ve `Sie` ile gelir; `ich` ile fiil `-e` alır."
+      ],
+      "aciklama": "Özne \"ich\" olunca kök (bad-) -e eki alır: ich bade.",
+      "ipucu": "Özne \"ben\" olduğunda köke hangi ekin geldiğini düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich bade nicht so gern, ich dusche lieber.",
+      "sozlukEk": {
+        "baden": "küvette yıkanmak fiilinin çekimi"
+      }
+    },
+    {
+      "id": "m2-d08-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Apartmanın en alt katında oturan bir erkek komşundan söz ediyorsun. Fiilin doğru çekimini seç.",
+      "metin": "Er ___ ganz unten im Haus.",
+      "secenekler": [
+        "wohne",
+        "wohnst",
+        "wohnt",
+        "wohnen"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`wohne` yalnızca `ich` ile gelir; `er` ile fiil `-t` alır.",
+        "`wohnst` `du` ile gelir; `er` ile fiil `-t` alır.",
+        "",
+        "`wohnen` `wir`, `sie` (onlar) ve `Sie` ile gelir; `er` ile fiil `-t` alır."
+      ],
+      "aciklama": "Özne \"er\" olunca kök -t eki alır: er wohnt.",
+      "ipucu": "Üçüncü tekil kişi (erkek) için gereken eki seç.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Er wohnt ganz unten im Haus.",
+      "sozlukEk": {
+        "wohnen": "oturmak fiilinin çekimi"
+      }
+    },
+    {
+      "id": "m2-d08-q04",
+      "tip": "bosluk-doldurma",
+      "soru": "Haritada oturduğun yeri gösteriyorsun: \"Burada oturuyorum.\" Boşluğa \"oturmak\" fiilini (wohnen) \"ben\" için çekerek yaz.",
+      "metin": "Hier ___ ich.",
+      "dogruCevaplar": [
+        "wohne"
+      ],
+      "aciklama": "Cümle \"hier\" ile başlasa da özne \"ich\" olduğundan fiil -e alır: Hier wohne ich.",
+      "ipucu": "Cümle başında ne olursa olsun, fiil özneye göre çekilir.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Hier wohne ich."
+    },
+    {
+      "id": "m2-d08-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Neşeli bir iş arkadaşından, Frau Mertens'ten söz ediyorsun. Fiilin doğru çekimini seç.",
+      "metin": "Frau Mertens ist lustig. Sie ___ immer.",
+      "secenekler": [
+        "lache",
+        "lachst",
+        "lacht",
+        "lachen"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`lache` yalnızca `ich` ile gelir; sözünü ettiğin kişi Frau Mertens.",
+        "`lachst` `du` ile gelir; Frau Mertens karşındaki kişi değil.",
+        "",
+        "`lachen` çoğul özneler içindir; Frau Mertens tek kişi, bu yüzden fiil `-t` alır."
+      ],
+      "aciklama": "Tek bir kadın için \"sie\" ile fiil -t alır: sie lacht.",
+      "ipucu": "Sözü edilen kişi tek bir kadın; ona uygun eki seç.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Frau Mertens ist lustig. Sie lacht immer.",
+      "sozlukEk": {
+        "lachen": "gülmek fiilinin çekimi"
+      }
+    },
+    {
+      "id": "m2-d08-q06",
+      "tip": "coktan-secmeli",
+      "soru": "Max, Tom'un nerede olduğunu soruyor. Lisa'nın cevabını tamamla.",
+      "diyalog": [
+        {
+          "kim": "Max",
+          "metin": "Wo ist Tom?"
+        },
+        {
+          "kim": "Lisa",
+          "metin": "Ich glaube, er ___ gleich."
+        }
+      ],
+      "secenekler": [
+        "komme",
+        "kommt",
+        "kommst",
+        "kommen"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`komme` yalnızca `ich` ile gelir; `er` ile fiil `-t` alır.",
+        "",
+        "`kommst` `du` ile gelir; `er` ile fiil `-t` alır.",
+        "`kommen` `wir`, `sie` (onlar) ve `Sie` ile gelir; `er` ile fiil `-t` alır."
+      ],
+      "aciklama": "İkinci cümlenin öznesi \"er\" olduğundan fiil -t alır: er kommt.",
+      "ipucu": "Gelen kişi Tom; yani sorulan kişi üçüncü bir erkek.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich glaube, er kommt gleich.",
+      "sozlukEk": {
+        "kommen": "gelmek fiilinin çekimi"
+      }
+    },
+    {
+      "id": "m2-d08-q07",
+      "tip": "coktan-secmeli",
+      "soru": "Anna, Ben'e Almanya'da ne zamandır olduğunu soruyor. Ben'in cevabını tamamla.",
+      "diyalog": [
+        {
+          "kim": "Anna",
+          "metin": "Wohnst du schon lange in Deutschland?"
+        },
+        {
+          "kim": "Ben",
+          "metin": "Ich ___ seit zwei Jahren in Deutschland."
+        }
+      ],
+      "secenekler": [
+        "lebe",
+        "lebst",
+        "lebt",
+        "leben"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`lebst` `du` ile gelir; cevap veren kişi kendinden söz ediyor, yani `ich`.",
+        "`lebt` `er/sie/es` ve `ihr` ile gelir; `ich` ile fiil `-e` alır.",
+        "`leben` `wir`, `sie` (onlar) ve `Sie` ile gelir; `ich` ile fiil `-e` alır."
+      ],
+      "aciklama": "Özne \"ich\" olunca kök (leb-) -e eki alır: ich lebe.",
+      "ipucu": "Ben kendinden söz ediyor; \"ben\" için gereken eki seç.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich lebe seit zwei Jahren in Deutschland.",
+      "sozlukEk": {
+        "leben": "yaşamak fiilinin çekimi"
+      }
+    },
+    {
+      "id": "m2-d08-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Anna, Tom ile arkadaşına partiye gelip gelmeyeceklerini soruyor. Tom'un cevabını tamamla.",
+      "diyalog": [
+        {
+          "kim": "Anna",
+          "metin": "Kommt ihr beide zur Party?"
+        },
+        {
+          "kim": "Tom",
+          "metin": "Ja, wir ___ beide."
+        }
+      ],
+      "secenekler": [
+        "komme",
+        "kommst",
+        "kommen",
+        "kommt"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`komme` yalnızca `ich` ile gelir; `wir` ile fiil `-en` alır.",
+        "`kommst` `du` ile gelir; `wir` ile fiil `-en` alır.",
+        "",
+        "`kommt` `er/sie/es` ve `ihr` ile gelir; `wir` ile fiil `-en` alır."
+      ],
+      "aciklama": "Özne \"wir\" olunca fiil mastar biçimindedir: wir kommen.",
+      "ipucu": "Tom kendisi ve arkadaşı adına konuşuyor; çoğul \"biz\" ekini seç.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir kommen beide.",
+      "sozlukEk": {
+        "kommen": "gelmek fiilinin çekimi"
+      }
+    },
+    {
+      "id": "m2-d08-q09",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Şubatta tatil yapıyoruz.",
+      "parcalar": [
+        "Im Februar",
+        "machen",
+        "wir",
+        "Urlaub"
+      ],
+      "dogruSiralar": [
+        [
+          "Im Februar",
+          "machen",
+          "wir",
+          "Urlaub"
+        ]
+      ],
+      "aciklama": "Cümle zaman ifadesiyle başlayınca çekimli fiil ikinci sırada kalır ve özne fiilin arkasına geçer.",
+      "ipucu": "Zaman bildiren grup başta olsa bile çekimli fiil ikinci sırada durur.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Im Februar machen wir Urlaub."
+    },
+    {
+      "id": "m2-d08-q10",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Bu akşam parti yapıyoruz.",
+      "parcalar": [
+        "Heute Abend",
+        "machen",
+        "wir",
+        "eine Party"
+      ],
+      "dogruSiralar": [
+        [
+          "Heute Abend",
+          "machen",
+          "wir",
+          "eine Party"
+        ]
+      ],
+      "aciklama": "\"Heute Abend\" tek bir öğedir; fiil hemen ardından gelir, sonra özne ve nesne dizilir.",
+      "ipucu": "Cümle zaman ifadesiyle başlıyorsa özne fiilin arkasına geçer.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Heute Abend machen wir eine Party."
+    },
+    {
+      "id": "m2-d08-q11",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Boş zamanımda sık sık futbol oynarım.",
+      "parcalar": [
+        "In meiner Freizeit",
+        "spiele",
+        "ich",
+        "oft",
+        "Fußball"
+      ],
+      "dogruSiralar": [
+        [
+          "In meiner Freizeit",
+          "spiele",
+          "ich",
+          "oft",
+          "Fußball"
+        ]
+      ],
+      "aciklama": "Başa gelen grup tek öğe sayılır; çekimli fiil ondan hemen sonra gelir.",
+      "ipucu": "Baştaki grubu tek bir öğe say ve fiili hemen ikinci sıraya koy.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "In meiner Freizeit spiele ich oft Fußball."
+    },
+    {
+      "id": "m2-d08-q12",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Kahvaltıda hep kahve içerim.",
+      "parcalar": [
+        "Zum Frühstück",
+        "trinke",
+        "ich",
+        "immer",
+        "Kaffee"
+      ],
+      "dogruSiralar": [
+        [
+          "Zum Frühstück",
+          "trinke",
+          "ich",
+          "immer",
+          "Kaffee"
+        ]
+      ],
+      "aciklama": "\"Zum Frühstück\" cümle başına geçtiği için fiil ikinci, özne üçüncü sırada yer alır.",
+      "ipucu": "Cümle başındaki grubun hemen ardından çekimli fiil gelir.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Zum Frühstück trinke ich immer Kaffee."
+    },
+    {
+      "id": "m2-d08-q13",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Siemens'te staj yapıyorum.",
+      "parcalar": [
+        "Ich",
+        "mache",
+        "ein Praktikum",
+        "bei Siemens"
+      ],
+      "dogruSiralar": [
+        [
+          "Ich",
+          "mache",
+          "ein Praktikum",
+          "bei Siemens"
+        ],
+        [
+          "Ich",
+          "mache",
+          "bei Siemens",
+          "ein Praktikum"
+        ]
+      ],
+      "aciklama": "Özne ve çekimli fiil başta gelir; staj ve yer grupları iki sırayla da dizilebilir.",
+      "ipucu": "Özne ve fiil başa gelir; kalan iki grubun sırası esnektir.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich mache ein Praktikum bei Siemens."
+    },
+    {
+      "id": "m2-d08-q14",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Ne zamandır Almanca öğreniyorsunuz? (resmî)",
+      "parcalar": [
+        "Wie lange",
+        "lernen",
+        "Sie",
+        "schon",
+        "Deutsch"
+      ],
+      "dogruSiralar": [
+        [
+          "Wie lange",
+          "lernen",
+          "Sie",
+          "schon",
+          "Deutsch"
+        ]
+      ],
+      "aciklama": "Soru grubu başa gelir; çekimli fiil ikinci sırada, özne onun arkasında yer alır.",
+      "ipucu": "Soru grubuyla başla ve çekimli fiili ikinci sıraya koy.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wie lange lernen Sie schon Deutsch?"
+    },
+    {
+      "id": "m2-d08-q15",
+      "tip": "coktan-secmeli",
+      "soru": "Arkadaşına bu akşam parti yapacağınızı söylüyorsun ve cümleye \"bu akşam\" ile başlıyorsun. Hangi cümle doğrudur?",
+      "secenekler": [
+        "Heute Abend wir machen eine Party.",
+        "Heute Abend machen wir eine Party.",
+        "Heute Abend machen eine Party wir.",
+        "Heute Abend macht wir eine Party."
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "Çekimli fiil ikinci öğe olmalı; burada özne araya girmiş.",
+        "",
+        "Özne `wir` fiilin hemen arkasında olmalı; nesne ondan sonra gelir.",
+        "`macht` `er/sie/es` ve `ihr` ile gelir; `wir` ile fiil `-en` alır."
+      ],
+      "aciklama": "\"Heute Abend\" tek öğedir; fiil ikinci öğe olur, özne fiilin arkasına geçer.",
+      "ipucu": "Başa gelen zaman ifadesinden hemen sonra çekimli fiil gelmeli.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Heute Abend machen wir eine Party.",
+      "sozlukEk": {
+        "machen": "yapmak fiilinin çekimi"
+      }
+    },
+    {
+      "id": "m2-d08-q16",
+      "tip": "coktan-secmeli",
+      "soru": "Arkadaşın Tom hep geç kalıyor. Annene \"O hiç zamanında gelmez\" diyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Er kommst nie pünktlich.",
+        "Er nie kommt pünktlich.",
+        "Du kommt nie pünktlich.",
+        "Er kommt nie pünktlich."
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`kommst` `du` ile gelir; `er` ile fiil `-t` alır.",
+        "Çekimli fiil ikinci sırada olmalı; `nie` ondan sonra gelir.",
+        "`du` ile fiil `-st` alır; üstelik Tom'dan söz ediyorsun, yani `er` gerekir.",
+        ""
+      ],
+      "aciklama": "Tom için \"er\" ve ona uygun ek -t gerekir; fiil ikinci sırada kalır: Er kommt nie pünktlich.",
+      "ipucu": "Hem zamirin hem fiil ekinin hem de fiil yerinin doğru olduğu tek cümleyi bul.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Er kommt nie pünktlich."
+    },
+    {
+      "id": "m2-d08-q17",
+      "tip": "dinleme",
+      "soru": "Duyduğun cümlenin anlamı nedir?",
+      "okunacak": "Wir machen Urlaub am Meer.",
+      "mod": "sec",
+      "secenekler": [
+        "Biz deniz kenarında tatil yapıyoruz.",
+        "Ben deniz kenarında tatil yapıyorum.",
+        "O deniz kenarında tatil yapıyor.",
+        "Sen deniz kenarında tatil yapıyorsun."
+      ],
+      "dogruCevaplar": [
+        "Biz deniz kenarında tatil yapıyoruz."
+      ],
+      "aciklama": "\"Wir machen\" biz yapıyoruz demektir; \"Urlaub am Meer\" deniz kenarında tatil anlamına gelir.",
+      "ipucu": "Cümlenin ilk sözcüğü ve fiilin sonundaki ek kaç kişiden söz edildiğini gösterir.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir machen Urlaub am Meer."
+    },
+    {
+      "id": "m2-d08-q18",
+      "tip": "ceviri",
+      "soru": "Boş zamanlarını anlatıyorsun: \"Çok spor yapıyorum.\" Almanca'ya çevir.",
+      "kaynak": "Çok spor yapıyorum.",
+      "dogruCevaplar": [
+        "Ich mache viel Sport",
+        "Ich treibe viel Sport",
+        "Ich mache sehr viel Sport"
+      ],
+      "aciklama": "Özne \"ich\" olduğundan fiil -e alır; \"çok\" için viel kullanılır: Ich mache viel Sport.",
+      "ipucu": "\"Yapmak\" fiilini \"ben\" için çek ve \"çok\" anlamındaki sözcüğü spordan önce yaz.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich mache viel Sport."
+    },
+    {
+      "id": "m2-d08-q19",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Cümleye \"bugün\" ile başlamak isteyen bir arkadaşın \"Bugün Almanca öğreniyorum\" yazıyor:",
+      "ifade": "Heute ich lerne Deutsch.",
+      "dogru": false,
+      "aciklama": "Yanlış. Başa zaman ifadesi gelince çekimli fiil ikinci sırada kalır ve özne arkasına geçer: Heute lerne ich Deutsch.",
+      "ipucu": "Cümle başında ne olursa olsun çekimli fiilin yeri değişmez.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Wir lernen Deutsch."
+    },
+    {
+      "id": "m2-d08-q20",
+      "tip": "fiil-cekimi",
+      "soru": "\"arbeiten\" fiilini her zamire göre çek.",
+      "fiil": "arbeiten",
+      "satirlar": [
+        {
+          "zamir": "ich",
+          "cevap": "arbeite",
+          "verilen": true
+        },
+        {
+          "zamir": "du",
+          "cevap": "arbeitest"
+        },
+        {
+          "zamir": "er/sie/es",
+          "cevap": "arbeitet"
+        },
+        {
+          "zamir": "wir",
+          "cevap": "arbeiten",
+          "verilen": true
+        },
+        {
+          "zamir": "ihr",
+          "cevap": "arbeitet"
+        },
+        {
+          "zamir": "sie/Sie",
+          "cevap": "arbeiten"
+        }
+      ],
+      "aciklama": "Kök t ile bittiği için du, er ve ihr ile araya e girer: arbeitest, arbeitet, arbeitet.",
+      "ipucu": "Kök t ile bittiği için bazı kişilerde ekten önce bir ünlü girer.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    }
+  ],
+  "trickler": [
+    {
+      "baslik": "V2: fiil ikinci sırada",
+      "metin": "Cümleye özne, zaman, yer veya soru sözcüğüyle başla; çekimli fiil her zaman ikinci öğe olur."
+    },
+    {
+      "baslik": "Başa zaman gelince özne kayar",
+      "metin": "Ich mache heute Sport → Heute mache ich Sport. Fiil sabit kalır, özne fiilin arkasına geçer."
+    },
+    {
+      "baslik": "Öğe: bir ya da birkaç kelime",
+      "metin": "Heute Abend ve In meiner Freizeit gibi gruplar tek öğe sayılır; fiil bu grubun hemen ardından gelir."
+    }
+  ]
+}

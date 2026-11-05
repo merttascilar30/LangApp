@@ -1,0 +1,599 @@
+{
+  "id": "m2-d07",
+  "ders": 7,
+  "baslik": "Fiil Çekimleri",
+  "videoId": "bIwRfIAtjLc",
+  "ozet": [
+    "Düzenli fiillerde mastardaki -en atılınca kök kalır; kök ve kişiye göre ek: ich -e, du -st, er/sie/es -t, wir -en, ihr -t, sie/Sie -en.",
+    "Kök değişmez, yalnızca ek değişir: kommen → komm- → ich komme, du kommst, er kommt, wir kommen.",
+    "wir, sie (onlar) ve Sie ile fiil hep mastarla aynıdır; er/sie/es ile ihr aynı eki (-t) alır.",
+    "Kökü t veya d ile biten fiillerde (arbeiten, baden) du, er ve ihr için araya e girer: du arbeitest, er arbeitet.",
+    "Kökü s, ß veya z ile biten fiillerde du ekinde s düşer: du heißt."
+  ],
+  "kelimeler": [
+    {
+      "de": "wohnen",
+      "tr": "oturmak"
+    },
+    {
+      "de": "kommen",
+      "tr": "gelmek"
+    },
+    {
+      "de": "lernen",
+      "tr": "öğrenmek"
+    },
+    {
+      "de": "machen",
+      "tr": "yapmak"
+    },
+    {
+      "de": "trinken",
+      "tr": "içmek"
+    },
+    {
+      "de": "arbeiten",
+      "tr": "çalışmak"
+    },
+    {
+      "de": "studieren",
+      "tr": "üniversitede okumak"
+    },
+    {
+      "de": "brauchen",
+      "tr": "ihtiyacı olmak"
+    },
+    {
+      "de": "holen",
+      "tr": "getirmek"
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m2-d07-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Kendi oturduğun şehri söylüyorsun. Fiilin doğru çekimini seç.",
+      "metin": "Ich ___ in München.",
+      "secenekler": [
+        "wohnst",
+        "wohne",
+        "wohnt",
+        "wohnen"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`wohnst` `du` ile gelir; `ich` ile fiil `-e` alır.",
+        "",
+        "`wohnt` `er/sie/es` ve `ihr` ile gelir; `ich` ile fiil `-e` alır.",
+        "`wohnen` `wir`, `sie` (onlar) ve `Sie` ile gelir; `ich` ile fiil `-e` alır."
+      ],
+      "aciklama": "Özne \"ich\" olunca kök (wohn-) -e eki alır: ich wohne.",
+      "ipucu": "Özne \"ben\" olduğunda köke hangi ekin geldiğini düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich wohne in München.",
+      "sozlukEk": {
+        "wohnen": "oturmak fiilinin çekimi"
+      }
+    },
+    {
+      "id": "m2-d07-q02",
+      "tip": "coktan-secmeli",
+      "soru": "Tanımadığın bir kişiye ne zamandır Almanca öğrendiğini resmî biçimde soruyorsun. Fiilin doğru çekimini seç.",
+      "metin": "Wie lange ___ Sie schon Deutsch?",
+      "secenekler": [
+        "lerne",
+        "lernst",
+        "lernt",
+        "lernen"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`lerne` yalnızca `ich` ile gelir; resmî `Sie` ile fiil `-en` alır.",
+        "`lernst` `du` ile gelir; `Sie` ile fiil `-en` alır.",
+        "`lernt` `er/sie/es` ve `ihr` ile gelir; `Sie` ile fiil `-en` alır.",
+        ""
+      ],
+      "aciklama": "Resmî \"Sie\" ile fiil mastar biçimindedir: Sie lernen.",
+      "ipucu": "Resmî \"siz\" zamiri çoğul özneler gibi çekilir.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wie lange lernen Sie schon Deutsch?",
+      "sozlukEk": {
+        "lernen": "öğrenmek fiilinin çekimi"
+      }
+    },
+    {
+      "id": "m2-d07-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Misafirler geldi ve bardaklar yetmiyor. Fiilin doğru çekimini seç.",
+      "metin": "Wir ___ noch drei Gläser.",
+      "secenekler": [
+        "brauche",
+        "brauchst",
+        "brauchen",
+        "braucht"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`brauche` yalnızca `ich` ile gelir; `wir` ile fiil `-en` alır.",
+        "`brauchst` `du` ile gelir; `wir` ile fiil `-en` alır.",
+        "",
+        "`braucht` `er/sie/es` ve `ihr` ile gelir; `wir` ile fiil `-en` alır."
+      ],
+      "aciklama": "Özne \"wir\" olunca fiil mastar biçimindedir: wir brauchen.",
+      "ipucu": "Özne \"biz\" olduğunda fiil hangi biçime döner?",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir brauchen noch drei Gläser.",
+      "sozlukEk": {
+        "brauchen": "ihtiyacı olmak fiilinin çekimi"
+      }
+    },
+    {
+      "id": "m2-d07-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Arkadaşına hangi gün geleceğini soruyorsun. Fiilin doğru çekimini seç.",
+      "metin": "An welchem Wochentag ___ du?",
+      "secenekler": [
+        "komme",
+        "kommst",
+        "kommt",
+        "kommen"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`komme` yalnızca `ich` ile gelir; `du` ile fiil `-st` alır.",
+        "",
+        "`kommt` `er/sie/es` ve `ihr` ile gelir; `du` ile fiil `-st` alır.",
+        "`kommen` `wir`, `sie` (onlar) ve `Sie` ile gelir; `du` ile fiil `-st` alır."
+      ],
+      "aciklama": "Özne \"du\" olunca kök -st eki alır: du kommst.",
+      "ipucu": "Özne \"sen\" olduğunda köke gelen eki düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "An welchem Wochentag kommst du?",
+      "sozlukEk": {
+        "kommen": "gelmek fiilinin çekimi"
+      }
+    },
+    {
+      "id": "m2-d07-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Eski iş arkadaşının artık başka bir firmada çalıştığını anlatıyorsun. Fiilin doğru çekimini seç.",
+      "metin": "Er ___ jetzt bei einer anderen Firma.",
+      "secenekler": [
+        "arbeite",
+        "arbeitest",
+        "arbeitet",
+        "arbeiten"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`arbeite` yalnızca `ich` ile gelir; `er` ile fiil `-et` alır.",
+        "`arbeitest` `du` ile gelir; `er` ile `arbeitet` olur.",
+        "",
+        "`arbeiten` `wir`, `sie` (onlar) ve `Sie` ile gelir; `er` ile fiil `-t` biçimini alır."
+      ],
+      "aciklama": "Kökü t ile biten fiillerde okunabilsin diye araya e girer: er arbeitet.",
+      "ipucu": "Kökü t ile biten fiillerde ek eklenirken okunuşu kolaylaştıran bir ünlü araya girer.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Er arbeitet jetzt bei einer anderen Firma.",
+      "sozlukEk": {
+        "arbeiten": "çalışmak fiilinin çekimi"
+      }
+    },
+    {
+      "id": "m2-d07-q06",
+      "tip": "bosluk-doldurma",
+      "soru": "Sabah alışkanlığını anlatıyorsun. Boşluğa \"içmek\" fiilini (trinken) \"ben\" için çekerek yaz.",
+      "metin": "Ich ___ morgens immer Tee.",
+      "dogruCevaplar": [
+        "trinke"
+      ],
+      "aciklama": "Özne \"ich\" olunca kök (trink-) -e eki alır: ich trinke.",
+      "ipucu": "Fiilin kökünü bul ve sonuna \"ben\" için gereken eki ekle.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich trinke morgens immer Tee."
+    },
+    {
+      "id": "m2-d07-q07",
+      "tip": "coktan-secmeli",
+      "soru": "Otel resepsiyonunda görevli, konuğa nereli olduğunu resmî biçimde soruyor. Görevlinin sorusunu tamamla.",
+      "diyalog": [
+        {
+          "kim": "Frau Berger",
+          "metin": "Guten Tag! Woher ___ Sie?"
+        },
+        {
+          "kim": "Herr Lopez",
+          "metin": "Aus Frankreich."
+        }
+      ],
+      "secenekler": [
+        "kommen",
+        "kommst",
+        "kommt",
+        "komme"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`kommst` `du` ile gelir; resmî `Sie` ile fiil `-en` alır.",
+        "`kommt` `er/sie/es` ve `ihr` ile gelir; `Sie` ile fiil `-en` alır.",
+        "`komme` yalnızca `ich` ile gelir; `Sie` ile fiil `-en` alır."
+      ],
+      "aciklama": "Resmî \"Sie\" ile fiil mastar biçimindedir: Woher kommen Sie? = Nerelisiniz?",
+      "ipucu": "Resmî \"siz\" zamirinin fiilde hangi eki aldığını hatırla.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Woher kommen Sie? – Aus Frankreich.",
+      "sozlukEk": {
+        "kommen": "gelmek fiilinin çekimi"
+      }
+    },
+    {
+      "id": "m2-d07-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Anna, Ben'e nerede okuduğunu soruyor. Ben'in cevabını tamamla.",
+      "diyalog": [
+        {
+          "kim": "Anna",
+          "metin": "Wo studierst du?"
+        },
+        {
+          "kim": "Ben",
+          "metin": "Ich ___ in Mainz."
+        }
+      ],
+      "secenekler": [
+        "studierst",
+        "studiere",
+        "studiert",
+        "studieren"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`studierst` `du` ile gelir; cevap veren kişi kendinden söz ediyor, yani `ich`.",
+        "",
+        "`studiert` `er/sie/es` ve `ihr` ile gelir; `ich` ile fiil `-e` alır.",
+        "`studieren` `wir`, `sie` (onlar) ve `Sie` ile gelir; `ich` ile fiil `-e` alır."
+      ],
+      "aciklama": "Özne \"ich\" olunca kök -e eki alır: Ich studiere in Mainz.",
+      "ipucu": "Ben kendinden söz ediyor; \"ben\" için kullanılan eki seç.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich studiere in Mainz.",
+      "sozlukEk": {
+        "studieren": "üniversitede okumak fiilinin çekimi"
+      }
+    },
+    {
+      "id": "m2-d07-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Lisa, Tom'a ev sahibini soruyor. Tom'un cevabını tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lisa",
+          "metin": "Wer ist Herr Huber?"
+        },
+        {
+          "kim": "Tom",
+          "metin": "Unser Vermieter heißt Huber. Er ___ auch hier."
+        }
+      ],
+      "secenekler": [
+        "wohne",
+        "wohnst",
+        "wohnt",
+        "wohnen"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`wohne` yalnızca `ich` ile gelir; `er` ile fiil `-t` alır.",
+        "`wohnst` `du` ile gelir; `er` ile fiil `-t` alır.",
+        "",
+        "`wohnen` `wir`, `sie` (onlar) ve `Sie` ile gelir; `er` ile fiil `-t` alır."
+      ],
+      "aciklama": "Özne \"er\" olunca kök -t eki alır: er wohnt.",
+      "ipucu": "Özne üçüncü bir erkek olduğunda köke gelen eki düşün.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Unser Vermieter heißt Huber. Er wohnt auch hier.",
+      "sozlukEk": {
+        "wohnen": "oturmak fiilinin çekimi"
+      }
+    },
+    {
+      "id": "m2-d07-q10",
+      "tip": "coktan-secmeli",
+      "soru": "Eşinle çok eski bir evde oturuyorsunuz ve komşuna bunu anlatıyorsun. Hangi cümle doğrudur?",
+      "secenekler": [
+        "Wir wohnt in einem sehr alten Haus.",
+        "Wir wohnen in einem sehr alten Haus.",
+        "Wir wohne in einem sehr alten Haus.",
+        "Wir wohnst in einem sehr alten Haus."
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`wohnt` `er/sie/es` ve `ihr` ile gelir; `wir` ile fiil `-en` alır.",
+        "",
+        "`wohne` yalnızca `ich` ile gelir; `wir` ile fiil `-en` alır.",
+        "`wohnst` yalnızca `du` ile gelir; `wir` ile fiil `-en` alır."
+      ],
+      "aciklama": "Özne \"wir\" olunca fiil mastar biçimindedir: Wir wohnen.",
+      "ipucu": "Özne \"biz\" olduğuna göre fiilin hangi eki aldığını düşün.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir wohnen in einem sehr alten Haus.",
+      "sozlukEk": {
+        "wohnen": "oturmak fiilinin çekimi"
+      }
+    },
+    {
+      "id": "m2-d07-q11",
+      "tip": "coktan-secmeli",
+      "soru": "Biri sana babanın ne iş yaptığını soruyor. Baban polis teşkilatında çalışıyor. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Er arbeitest bei der Polizei.",
+        "Er arbeite bei der Polizei.",
+        "Er arbeitet bei der Polizei.",
+        "Er arbeiten bei der Polizei."
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`arbeitest` `du` ile gelir; `er` ile `arbeitet` olur.",
+        "`arbeite` yalnızca `ich` ile gelir; `er` ile fiil `-et` alır.",
+        "",
+        "`arbeiten` `wir`, `sie` (onlar) ve `Sie` ile gelir; `er` ile fiil `-t` biçimini alır."
+      ],
+      "aciklama": "Özne \"er\" olunca fiil -t alır; kök t ile bittiği için araya e girer: er arbeitet.",
+      "ipucu": "Babandan söz ettiğin için üçüncü tekil kişi eki gerekir; kökün son harfine de dikkat et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Er arbeitet bei der Polizei.",
+      "sozlukEk": {
+        "arbeiten": "çalışmak fiilinin çekimi"
+      }
+    },
+    {
+      "id": "m2-d07-q12",
+      "tip": "coktan-secmeli",
+      "soru": "Arkadaşın Tom partiye gelmedi. Ortak arkadaşınıza \"Tom neden gelmiyor?\" diye soruyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Warum kommt er nicht?",
+        "Warum kommst du nicht?",
+        "Warum komme ich nicht?",
+        "Warum kommen wir nicht?"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "\"Sen neden gelmiyorsun?\" demektir; sorduğun kişi Tom değil.",
+        "\"Ben neden gelmiyorum?\" demektir; sen Tom'u soruyorsun.",
+        "\"Biz neden gelmiyoruz?\" demektir; tek bir kişiden söz ediliyor."
+      ],
+      "aciklama": "Tom hakkında soru sorduğun için \"er\" ve onun eki -t gerekir: Warum kommt er nicht?",
+      "ipucu": "Sorulan kişi sen ya da karşındaki değil, üçüncü bir erkek.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Warum kommt er nicht?",
+      "sozlukEk": {
+        "kommen": "gelmek fiilinin çekimi"
+      }
+    },
+    {
+      "id": "m2-d07-q13",
+      "tip": "ceviri",
+      "soru": "Yeni tanıştığın birine anlatıyorsun: \"Üç yıldır Köln'de oturuyorum.\" Almanca'ya çevir.",
+      "kaynak": "Üç yıldır Köln'de oturuyorum.",
+      "dogruCevaplar": [
+        "Ich wohne seit drei Jahren in Köln",
+        "Seit drei Jahren wohne ich in Köln",
+        "Ich wohne in Köln seit drei Jahren",
+        "Ich lebe seit drei Jahren in Köln",
+        "Seit drei Jahren lebe ich in Köln"
+      ],
+      "aciklama": "\"Ben\" için kök -e eki alır: ich wohne. \"Üç yıldır\" ifadesi seit drei Jahren ile kurulur.",
+      "ipucu": "Özne \"ben\" olduğu için fiil köküne \"ben\" eki gelir; \"üç yıldır\" ifadesi bir edatla başlar.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich wohne seit drei Jahren in Köln."
+    },
+    {
+      "id": "m2-d07-q14",
+      "tip": "dinleme",
+      "soru": "Duyduğun cümlenin anlamı nedir?",
+      "okunacak": "Ich komme gleich.",
+      "mod": "sec",
+      "secenekler": [
+        "Hemen geliyorum.",
+        "Hemen geliyorsun.",
+        "O hemen geliyor.",
+        "Hemen geliyoruz."
+      ],
+      "dogruCevaplar": [
+        "Hemen geliyorum."
+      ],
+      "aciklama": "\"Ich komme\" ben geliyorum demektir; fiilin -e eki \"ich\" ile uyumludur.",
+      "ipucu": "Cümlenin öznesini ve fiilin sonundaki eki dinle.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich komme gleich."
+    },
+    {
+      "id": "m2-d07-q15",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Ben ailemin yanında oturuyorum.",
+      "parcalar": [
+        "Ich",
+        "wohne",
+        "bei meinen Eltern"
+      ],
+      "dogruSiralar": [
+        [
+          "Ich",
+          "wohne",
+          "bei meinen Eltern"
+        ]
+      ],
+      "aciklama": "Önce özne, sonra çekimli fiil, en sonda yer bildiren grup gelir.",
+      "ipucu": "Özneyle başla, çekimli fiili hemen arkasına koy.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich wohne bei meinen Eltern."
+    },
+    {
+      "id": "m2-d07-q16",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Üç yıldır Köln'de oturuyorum.",
+      "parcalar": [
+        "Ich",
+        "wohne",
+        "seit drei Jahren",
+        "in Köln"
+      ],
+      "dogruSiralar": [
+        [
+          "Ich",
+          "wohne",
+          "seit drei Jahren",
+          "in Köln"
+        ],
+        [
+          "Ich",
+          "wohne",
+          "in Köln",
+          "seit drei Jahren"
+        ]
+      ],
+      "aciklama": "Özne ve çekimli fiil başta gelir; zaman ve yer grupları arkasından iki sırayla da dizilebilir.",
+      "ipucu": "Özne ve çekimli fiil başa gelir; kalan iki grubun sırası esnektir.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich wohne seit drei Jahren in Köln."
+    },
+    {
+      "id": "m2-d07-q17",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Mutfaktan iki şişe su getiriyorum.",
+      "parcalar": [
+        "Ich",
+        "hole",
+        "zwei Flaschen Wasser",
+        "aus der Küche"
+      ],
+      "dogruSiralar": [
+        [
+          "Ich",
+          "hole",
+          "zwei Flaschen Wasser",
+          "aus der Küche"
+        ],
+        [
+          "Ich",
+          "hole",
+          "aus der Küche",
+          "zwei Flaschen Wasser"
+        ]
+      ],
+      "aciklama": "Özne ve çekimli fiil başta gelir; getirilen şey ve yer grubu arkasından iki sırayla da dizilebilir.",
+      "ipucu": "Özne ve çekimli fiil başa gelir; kalan iki grubu iki farklı biçimde dizebilirsin.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich hole zwei Flaschen Wasser aus der Küche."
+    },
+    {
+      "id": "m2-d07-q18",
+      "tip": "fiil-cekimi",
+      "soru": "\"kommen\" fiilini her zamire göre çek.",
+      "fiil": "kommen",
+      "satirlar": [
+        {
+          "zamir": "ich",
+          "cevap": "komme",
+          "verilen": true
+        },
+        {
+          "zamir": "du",
+          "cevap": "kommst"
+        },
+        {
+          "zamir": "er/sie/es",
+          "cevap": "kommt"
+        },
+        {
+          "zamir": "wir",
+          "cevap": "kommen"
+        },
+        {
+          "zamir": "ihr",
+          "cevap": "kommt"
+        },
+        {
+          "zamir": "sie/Sie",
+          "cevap": "kommen"
+        }
+      ],
+      "aciklama": "Kök (komm-) hep aynı kalır; ek zamire göre değişir: -e, -st, -t, -en, -t, -en.",
+      "ipucu": "Kök hep aynı kalır; yalnızca sonuna gelen ek zamire göre değişir.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m2-d07-q19",
+      "tip": "eslestirme",
+      "soru": "Zamirleri, fiil köküne gelen ekle eşleştir.",
+      "ciftler": [
+        {
+          "sol": "ich",
+          "sag": "-e"
+        },
+        {
+          "sol": "du",
+          "sag": "-st"
+        },
+        {
+          "sol": "er",
+          "sag": "-t"
+        },
+        {
+          "sol": "wir",
+          "sag": "-en"
+        }
+      ],
+      "aciklama": "ich -e, du -st, er -t, wir -en eki alır: komme, kommst, kommt, kommen.",
+      "ipucu": "Mastar eki -en olan zamiri bul, sonra tek harfli ve iki harfli ekleri ayır.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m2-d07-q20",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Arkadaşına \"Sen polis teşkilatında çalışıyorsun\" demek istiyorsun ve şöyle yazıyorsun:",
+      "ifade": "Du arbeitet bei der Polizei.",
+      "dogru": false,
+      "aciklama": "Yanlış. \"du\" ile fiil -est alır: Du arbeitest bei der Polizei. \"arbeitet\" ise er, sie, es ve ihr içindir.",
+      "ipucu": "Özne \"sen\" olduğunda kök t ile bittiği için ek öncesine bir ünlü girer; fiildeki eki kontrol et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Er arbeitet bei der Polizei."
+    }
+  ],
+  "trickler": [
+    {
+      "baslik": "Kökü bul: -en'i at",
+      "metin": "Mastardaki -en'i at ve kökü bul; sonra kişiye göre eki ekle: komm-en → komm- → ich komme."
+    },
+    {
+      "baslik": "Ek tablosu: -e, -st, -t, -en, -t, -en",
+      "metin": "ich -e, du -st, er/sie/es -t, wir -en, ihr -t, sie/Sie -en. wir, sie ve Sie ile fiil mastarla aynıdır."
+    },
+    {
+      "baslik": "t veya d ile bitince araya e",
+      "metin": "arbeiten ve baden gibi kökü t ya da d ile biten fiillerde du, er ve ihr için araya e girer: du arbeitest, er arbeitet."
+    }
+  ]
+}

@@ -19,4 +19,5 @@ export const GLOSS_DISI: Record<string, ReadonlySet<string>> = {
     'karşılaşınca', 'yarın', 'tekrar', 'görüşeceğin', 'birine', 'söylenir', 'durumda',
     'kelimesi', 'başta', 'değil',
   ]),
+  'modul-2': new Set<string>([]),
 }
