@@ -46,7 +46,7 @@ zorunluluk kalite testiyle sağlanır (§5).
 
 ### Tüm soru tiplerine ortak
 - `bicim`: `bosluk` | `diyalog` | `siralama` | `senaryo` | `kelime`
-- `kaynak`: `goethe` | `uyarlama` | `yazildi`
+- `kaynakTuru`: `goethe` | `uyarlama` | `yazildi`
   - `goethe`: bankadaki cümle, birebir.
   - `uyarlama`: banka cümlesinden veya banka alanından türetilmiş (Perfekt'e çevrilmiş, özne
     değiştirilmiş, iki cümle diyalog olarak eşleştirilmiş).
@@ -55,7 +55,7 @@ zorunluluk kalite testiyle sağlanır (§5).
 
 ### `coktan-secmeli`e eklenenler
 - `metin?: string`: tam bir `___` içeren Almanca cümle.
-- `diyalog?: { kim: string; metin: string }[]`: en az 2 satır; tam bir satır `___` içerir.
+- `diyalog?: { kim: string; metin: string }[]`: en az 2 satır; tam bir satır `___` içerir (satırın tamamı ya da bir parçası boş olabilir, `Wie ___ es dir?`).
 - `celdiriciNotlari?: string[]`: `secenekler` ile aynı uzunlukta; doğru şıkta boş string, yanlış
   şıklarda kısa Türkçe gerekçe.
 
@@ -67,7 +67,7 @@ zorunluluk kalite testiyle sağlanır (§5).
 | `bosluk` | `coktan-secmeli` + `metin` (cümle içi artikel soruları dahil) veya yazılı `bosluk-doldurma` |
 | `diyalog` | `coktan-secmeli` + `diyalog` |
 | `siralama` | `cumle-dizme` |
-| `senaryo` | `coktan-secmeli` (Türkçe durum tarifi, Almanca şıklar); tam cümleli `dinleme` |
+| `senaryo` | `coktan-secmeli` (Türkçe durum tarifi, Almanca şıklar; `metin` ve `diyalog` yok); tam cümleli `dinleme`, tam cümleli `ceviri`, Almanca cümle içeren `dogru-yanlis` |
 | `kelime` | tek kelimelik çeviri, `eslestirme`, `fiil-cekimi`, `artikel` |
 
 ## 3. Arayüz
@@ -75,7 +75,7 @@ zorunluluk kalite testiyle sağlanır (§5).
 - `CoktanSecmeli`:
   - `metin` varsa soru yönergesinin altında `Gloss` ile gösterilir.
   - `diyalog` varsa konuşma balonları olarak gösterilir (`kim` etiketi + metin, `Gloss` ile).
-    `___` satırı boş bir balon olarak görünür; şık seçilince seçilen şık balonda gösterilir.
+    Satırdaki `___` yerine seçim yokken `…`, şık seçilince seçilen şık gösterilir; satırın kalanı korunur.
 - Geri bildirim (`FeedbackPanel`) ve sınav sonu (`ResultsView`): seçilen şık yanlış ve o şıkkın
   `celdiriciNotlari` değeri doluysa, "Neden olmadı: {not}" satırı gösterilir. Cevap verilmemişse ya
   da seçilen şık doğruysa gösterilmez. Sınav sırasında hiçbir not gösterilmez.
@@ -103,12 +103,13 @@ zorunluluk kalite testiyle sağlanır (§5).
 | Kural | Değer |
 |---|---|
 | Soru sayısı, tip çeşitliliği | 15–25, en az 4 soru tipi |
-| `bicim` ve `kaynak` | Her soruda dolu |
+| `bicim` ve `kaynakTuru` | Her soruda dolu |
 | `kelime` biçimi | En fazla %15 |
-| Her cümle biçimi (`bosluk`, `diyalog`, `siralama`, `senaryo`) | En az 2 soru |
+| Her cümle biçimi (`bosluk`, `diyalog`, `siralama`, `senaryo`) | En az 2 soru; `senaryo` için en az 2'si `coktan-secmeli` |
+| `bicim` ile soru tipi | §2 tablosuyla uyumlu; `eslestirme`, `fiil-cekimi`, `artikel` yalnızca `kelime` olabilir; `senaryo` sorusunun doğru cevabı en az 2 kelime |
 | `goethe` | En az %50; `istisna` derste aranmaz |
 | `yazildi` | En fazla %15; `istisna` derste en fazla %40 |
-| `kaynakCumle` | `goethe` ve `uyarlama` için dolu ve bankada birebir mevcut |
+| `kaynakCumle` | `goethe` ve `uyarlama` için dolu ve bankanın `modul-2`..`modul-8` bölümünde birebir mevcut |
 | `goethe` tutarlılığı | Doğru cevap yerine konunca oluşan metin `kaynakCumle` ile eşleşir (bkz. aşağı) |
 | Cümle tekrarı | Aynı `kaynakCumle` bir derste en fazla 2 soruda |
 | `celdiriciNotlari` | Şıklı `bosluk` ve `diyalog` sorularında zorunlu; yanlış şıkların her biri dolu |
@@ -125,7 +126,9 @@ zorunluluk kalite testiyle sağlanır (§5).
 - `cumle-dizme`: `dogruSiralar`'dan en az biri `kaynakCumle` ile eşit olmalı.
 - `coktan-secmeli` senaryo: doğru şık `kaynakCumle` ile eşit olmalı.
 - `dinleme`: `okunacak`, `kaynakCumle` ile eşit olmalı.
-- Diğerleri: yalnızca bankada mevcut olma denetlenir.
+- `ceviri`: `dogruCevaplar[0]`, `kaynakCumle` ile eşit olmalı.
+- `dogru-yanlis`: `ifade`, `kaynakCumle` ile eşit olmalı.
+- `kelime` biçimindeki diğer tipler: `goethe` olarak işaretlenemez.
 
 Test, cevabın doğru mantıkta olduğunu bilemez; bu nedenle elle inceleme zorunludur (§6).
 
