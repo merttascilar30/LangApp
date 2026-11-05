@@ -48,8 +48,8 @@ export function useUmlautInsert(apply: (input: HTMLInputElement, value: string) 
 
   const insert = (ch: string) => {
     let el = son.current
-    if (!el || !el.isConnected || el.disabled) {
-      el = kapsayici.current?.querySelector<HTMLInputElement>('input:not(:disabled)') ?? null
+    if (!el || !el.isConnected || el.disabled || el.readOnly) {
+      el = kapsayici.current?.querySelector<HTMLInputElement>('input:not(:disabled):not([readonly])') ?? null
       if (!el) return
       son.current = null
       const v = el.value

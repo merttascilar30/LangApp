@@ -119,4 +119,40 @@ describe('loadContent', () => {
     expect(r.hatalar.every((h) => h.mesaj.includes('tekrar'))).toBe(true)
     expect(r.soruIndex.get('m1-d1-q0')?.partId).toBe('m1-d1')
   })
+
+  describe('sozluk', () => {
+    function withKelime(): Record<string, unknown> {
+      const f = base()
+      f['/content/modul-1/ders-01.json'] = {
+        ...part('m1-d1', 1),
+        kelimeler: [{ de: 'der Tisch', tr: 'masa' }],
+      }
+      return f
+    }
+
+    it('kelimeler + sozluk.json birleşir, sozluk.json üzerine yazar', () => {
+      const f = withKelime()
+      f['/content/modul-1/sozluk.json'] = { girdiler: { 'der Tisch': 'masa (sözlük)', geht: 'gidiyor' } }
+      const r = loadContent(f)
+      expect(r.hatalar).toEqual([])
+      expect(r.moduller[0].sozluk).toEqual({ 'der Tisch': 'masa (sözlük)', geht: 'gidiyor' })
+    })
+
+    it('sozluk.json yoksa sadece kelimeler', () => {
+      const r = loadContent(withKelime())
+      expect(r.hatalar).toEqual([])
+      expect(r.moduller[0].sozluk).toEqual({ 'der Tisch': 'masa' })
+      expect(r.moduller[1].sozluk).toEqual({})
+    })
+
+    it('bozuk sozluk.json şema hatası verir, sözlük kelimelerden oluşur', () => {
+      const f = withKelime()
+      f['/content/modul-1/sozluk.json'] = { girdiler: 5 }
+      const r = loadContent(f)
+      expect(r.hatalar).toHaveLength(1)
+      expect(r.hatalar[0].dosya).toBe('/content/modul-1/sozluk.json')
+      expect(r.hatalar[0].mesaj).toContain('Şema hatası')
+      expect(r.moduller[0].sozluk).toEqual({ 'der Tisch': 'masa' })
+    })
+  })
 })

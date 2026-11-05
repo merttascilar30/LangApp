@@ -2,8 +2,9 @@ import { useMemo } from 'react'
 import type { CumleDizmeQuestion } from '../content/schema'
 import { createRng, hashString, shuffle } from '../domain/random'
 import type { QuestionProps } from './types'
+import { Gloss } from './Gloss'
 
-export function CumleDizme({ soru, cevap, onCevap, kilitli }: QuestionProps<CumleDizmeQuestion>) {
+export function CumleDizme({ soru, cevap, onCevap, kilitli, ipucu }: QuestionProps<CumleDizmeQuestion>) {
   const sira = cevap?.tip === 'cumle-dizme' ? cevap.sira : []
   const yayinla = (s: string[]) => onCevap({ tip: 'cumle-dizme', sira: s })
 
@@ -28,17 +29,24 @@ export function CumleDizme({ soru, cevap, onCevap, kilitli }: QuestionProps<Cuml
     <div className="soru">
       <p className="soru-metni">{soru.soru}</p>
       <div className="cevap-satiri" data-testid="cevap-satiri">
-        {sira.map((tok, pos) => (
+        {sira.map((tok, pos) => {
+          const kilitliParca = pos === 0 && ipucu?.tur === 'ilkParca'
+          return (
           <button
             key={`${pos}-${kullanilan[pos]}`}
             type="button"
-            className="cip secili"
+            className={kilitliParca ? 'cip secili ipucu-kilitli' : 'cip secili'}
             disabled={kilitli}
-            onClick={() => yayinla(sira.filter((_, p) => p !== pos))}
+            aria-disabled={kilitliParca ? true : undefined}
+            onClick={() => {
+              if (kilitliParca) return
+              yayinla(sira.filter((_, p) => p !== pos))
+            }}
           >
-            {tok}
+            <Gloss metin={tok} odaklanabilir={false} />
           </button>
-        ))}
+          )
+        })}
       </div>
       <div className="cip-havuzu" data-testid="cip-havuzu">
         {havuz.map((i) => (
@@ -49,7 +57,7 @@ export function CumleDizme({ soru, cevap, onCevap, kilitli }: QuestionProps<Cuml
             disabled={kilitli}
             onClick={() => yayinla([...sira, soru.parcalar[i]])}
           >
-            {soru.parcalar[i]}
+            <Gloss metin={soru.parcalar[i]} odaklanabilir={false} />
           </button>
         ))}
       </div>

@@ -37,7 +37,7 @@ export function MistakesPage() {
   const bitti = (sonuclar: SoruSonucu[]) => {
     update((p) => {
       let next = p
-      for (const x of sonuclar) next = applyAnswer(next, x.soruId, x.dogru)
+      for (const x of sonuclar) next = applyAnswer(next, x.soruId, x.dogru, x.ipucu === true)
       return next
     })
     setOturum((o) => (o ? { ...o, sonuclar } : o))
@@ -107,6 +107,12 @@ export function MistakesPage() {
             <li key={g.id}>
               <div>{g.soru.soru}</div>
               <small>{`Modül ${m?.sira ?? ''} · ${kaynak}`}</small>
+              {progress.defter[g.id]?.ipucuyla && (
+                <>
+                  {' '}
+                  <small className="rozet-ipucu">💡 ipucuyla</small>
+                </>
+              )}
             </li>
           )
         })}

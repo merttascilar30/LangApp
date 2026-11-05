@@ -2,8 +2,9 @@ import { useMemo, useState } from 'react'
 import type { EslestirmeQuestion } from '../content/schema'
 import { createRng, hashString, shuffle } from '../domain/random'
 import type { QuestionProps } from './types'
+import { Gloss } from './Gloss'
 
-export function Eslestirme({ soru, cevap, onCevap, kilitli }: QuestionProps<EslestirmeQuestion>) {
+export function Eslestirme({ soru, cevap, onCevap, kilitli, ipucu }: QuestionProps<EslestirmeQuestion>) {
   const [secili, setSecili] = useState<string | null>(null)
   const eslesme = cevap?.tip === 'eslestirme' ? cevap.eslesme : {}
   const sagListe = useMemo(
@@ -13,6 +14,9 @@ export function Eslestirme({ soru, cevap, onCevap, kilitli }: QuestionProps<Esle
   const solSirasi = soru.ciftler.map((c) => c.sol)
   const numara = (sol: string) => solSirasi.indexOf(sol) + 1
   const solOf = (sag: string) => Object.keys(eslesme).find((k) => eslesme[k] === sag)
+
+  const kilitSol = ipucu?.tur === 'cift' ? ipucu.sol : null
+  const kilitSag = ipucu?.tur === 'cift' ? ipucu.sag : null
 
   const yayinla = (m: Record<string, string>) => onCevap({ tip: 'eslestirme', eslesme: m })
 
@@ -27,7 +31,8 @@ export function Eslestirme({ soru, cevap, onCevap, kilitli }: QuestionProps<Esle
     }
   }
   const sagTikla = (sag: string) => {
-    if (secili === null || solOf(sag) !== undefined) return
+    if (secili !== null && secili === kilitSol) setSecili(null)
+    if (secili === null || secili === kilitSol || solOf(sag) !== undefined) return
     setSecili(null)
     yayinla({ ...eslesme, [secili]: sag })
   }
@@ -41,12 +46,12 @@ export function Eslestirme({ soru, cevap, onCevap, kilitli }: QuestionProps<Esle
             <button
               key={sol}
               type="button"
-              className="secenek"
+              className={sol === kilitSol ? 'secenek ipucu-kilitli' : 'secenek'}
               aria-pressed={secili === sol || sol in eslesme}
-              disabled={kilitli}
+              disabled={kilitli || sol === kilitSol}
               onClick={() => solTikla(sol)}
             >
-              {sol}
+              <Gloss metin={sol} odaklanabilir={false} />
               {sol in eslesme && (
                 <span className="rozet" aria-hidden="true">
                   {numara(sol)}
@@ -62,9 +67,9 @@ export function Eslestirme({ soru, cevap, onCevap, kilitli }: QuestionProps<Esle
               <button
                 key={sag}
                 type="button"
-                className="secenek"
+                className={sag === kilitSag ? 'secenek ipucu-kilitli' : 'secenek'}
                 aria-pressed={s !== undefined}
-                disabled={kilitli}
+                disabled={kilitli || sag === kilitSag}
                 onClick={() => sagTikla(sag)}
               >
                 {sag}

@@ -2,7 +2,7 @@ import type { CeviriQuestion } from '../content/schema'
 import type { QuestionProps } from './types'
 import { UmlautKeys, useUmlautInsert } from './UmlautKeys'
 
-export function Ceviri({ soru, cevap, onCevap, kilitli }: QuestionProps<CeviriQuestion>) {
+export function Ceviri({ soru, cevap, onCevap, kilitli, ipucu }: QuestionProps<CeviriQuestion>) {
   const deger = cevap?.tip === 'ceviri' ? cevap.metin : ''
   const yaz = (metin: string) => onCevap({ tip: 'ceviri', metin })
   const { kapsayici, izle, insert } = useUmlautInsert((_, v) => yaz(v))
@@ -22,6 +22,7 @@ export function Ceviri({ soru, cevap, onCevap, kilitli }: QuestionProps<CeviriQu
         disabled={kilitli}
         onChange={(e) => yaz(e.target.value)}
       />
+      {ipucu?.tur === 'ilkHarf' && <p className="ilk-harf">İlk harf: {ipucu.harf}</p>}
       <UmlautKeys onInsert={insert} disabled={kilitli} />
     </div>
   )

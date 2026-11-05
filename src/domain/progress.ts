@@ -2,7 +2,7 @@ export type ProgressState = {
   surum: 1
   sinavlar: Record<string, { enIyi: number; deneme: number; gecti: boolean }>
   partlar: Record<string, { enIyi?: number; izlendi: boolean }>
-  defter: Record<string, { ardisikDogru: number }>
+  defter: Record<string, { ardisikDogru: number; ipucuyla?: true }>
   kartlar: Record<string, 1 | 2 | 3>
   ayarlar: { ttsUyariGosterildi: boolean }
 }
@@ -59,13 +59,21 @@ export function isModuleUnlocked(
   return s.sinavlar[siraliModulIds[i - 1]]?.gecti === true
 }
 
-export function applyAnswer(s: ProgressState, soruId: string, dogru: boolean): ProgressState {
+export function applyAnswer(
+  s: ProgressState,
+  soruId: string,
+  dogru: boolean,
+  ipucuKullanildi = false,
+): ProgressState {
   if (!dogru) return { ...s, defter: { ...s.defter, [soruId]: { ardisikDogru: 0 } } }
   const prev = s.defter[soruId]
+  if (ipucuKullanildi) {
+    return { ...s, defter: { ...s.defter, [soruId]: { ardisikDogru: 0, ipucuyla: true } } }
+  }
   if (!prev) return { ...s, defter: { ...s.defter } }
   const n = prev.ardisikDogru + 1
   const defter = { ...s.defter }
   if (n >= 2) delete defter[soruId]
-  else defter[soruId] = { ardisikDogru: n }
+  else defter[soruId] = prev.ipucuyla ? { ardisikDogru: n, ipucuyla: true } : { ardisikDogru: n }
   return { ...s, defter }
 }

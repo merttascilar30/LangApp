@@ -5,7 +5,7 @@ import { speak } from '../speech/speech'
 import type { QuestionProps } from './types'
 import { UmlautKeys, useUmlautInsert } from './UmlautKeys'
 
-export function Dinleme({ soru, cevap, onCevap, kilitli }: QuestionProps<DinlemeQuestion>) {
+export function Dinleme({ soru, cevap, onCevap, kilitli, ipucu }: QuestionProps<DinlemeQuestion>) {
   const metin = cevap?.tip === 'dinleme' ? cevap.metin : ''
   const yaz = (m: string) => onCevap({ tip: 'dinleme', metin: m })
   const { kapsayici, izle, insert } = useUmlautInsert((_, v) => yaz(v))
@@ -13,6 +13,9 @@ export function Dinleme({ soru, cevap, onCevap, kilitli }: QuestionProps<Dinleme
     () => shuffle(soru.secenekler ?? [], createRng(hashString(soru.id))),
     [soru.id, soru.secenekler],
   )
+
+  const elenenler = ipucu?.tur === 'ele' ? ipucu.indeksler.map((i) => (soru.secenekler ?? [])[i]) : []
+  const harf = ipucu?.tur === 'ilkHarf' ? ipucu.harf : null
 
   return (
     <div className="soru" ref={kapsayici} onFocusCapture={izle}>
@@ -36,9 +39,9 @@ export function Dinleme({ soru, cevap, onCevap, kilitli }: QuestionProps<Dinleme
             <button
               key={s}
               type="button"
-              className="secenek"
+              className={elenenler.includes(s) ? 'secenek elendi' : 'secenek'}
               aria-pressed={metin === s}
-              disabled={kilitli}
+              disabled={kilitli || elenenler.includes(s)}
               onClick={() => yaz(s)}
             >
               {s}
@@ -58,6 +61,7 @@ export function Dinleme({ soru, cevap, onCevap, kilitli }: QuestionProps<Dinleme
             disabled={kilitli}
             onChange={(e) => yaz(e.target.value)}
           />
+          {harf && <p className="ilk-harf">İlk harf: {harf}</p>}
           <UmlautKeys onInsert={insert} disabled={kilitli} />
         </>
       )}

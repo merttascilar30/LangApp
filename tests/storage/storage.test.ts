@@ -110,6 +110,23 @@ describe('storage', () => {
     ).not.toThrow()
   })
 
+  it('ipucuyla alanlı kayıt gidiş-dönüş, alansız eski kayıt ok', () => {
+    const st = fakeStore()
+    const s = sample()
+    s.defter = { a: { ardisikDogru: 0, ipucuyla: true }, b: { ardisikDogru: 1 } }
+    saveProgress(s, st)
+    const r = loadProgress(st)
+    expect(r.durum).toBe('ok')
+    expect(r.state).toEqual(s)
+    st.data[STORAGE_KEY] = JSON.stringify(sample())
+    expect(loadProgress(st).durum).toBe('ok')
+  })
+
+  it('parseImport ipucuyla:false içeren dosyayı reddeder', () => {
+    const bad = { ...sample(), defter: { a: { ardisikDogru: 0, ipucuyla: false } } }
+    expect(parseImport(JSON.stringify(bad)).ok).toBe(false)
+  })
+
   it.each([
     ['{"surum":2,"sinavlar":{},"partlar":{},"defter":{},"kartlar":{},"ayarlar":{"ttsUyariGosterildi":false}}'],
     ['{"surum":1}'],

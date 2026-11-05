@@ -12,6 +12,7 @@ import { contentFiles } from '../content/files'
 import { loadContent, type LoadResult } from '../content/loader'
 import { type ProgressState } from '../domain/progress'
 import { detectGermanVoice } from '../speech/speech'
+import { SozlukContext } from './SozlukContext'
 import { loadProgress, saveProgress, type LoadDurum } from '../storage/storage'
 
 type Store = Pick<Storage, 'getItem' | 'setItem' | 'removeItem'>
@@ -98,7 +99,17 @@ export function AppStateProvider({
     [content, progress, depolamaDurumu, update, replaceProgress, ttsVar],
   )
 
-  return <AppStateContext.Provider value={value}>{children}</AppStateContext.Provider>
+  const sozlukFor = useCallback(
+    (soruId: string) =>
+      content.moduller.find((m) => m.id === content.soruIndex.get(soruId)?.modulId)?.sozluk ?? {},
+    [content],
+  )
+
+  return (
+    <AppStateContext.Provider value={value}>
+      <SozlukContext.Provider value={sozlukFor}>{children}</SozlukContext.Provider>
+    </AppStateContext.Provider>
+  )
 }
 
 export function useAppState(): AppState {

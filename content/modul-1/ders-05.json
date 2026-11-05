@@ -85,7 +85,12 @@
           "sag": "Yakında görüşürüz"
         }
       ],
-      "aciklama": "Tschüss samimi, Auf Wiedersehen resmi vedadır; 'Bis' kalıpları ise ne zaman görüşüleceğini belirtir."
+      "aciklama": "Tschüss samimi, Auf Wiedersehen resmi vedadır; 'Bis' kalıpları ise ne zaman görüşüleceğini belirtir.",
+      "ipucu": "Samimi mi resmî mi, telefonda mı, zaman bildiren 'Bis' kalıbı mı diye gruplayarak çöz.",
+      "sozlukEk": {
+        "morgen": "yarın"
+      },
+      "glossKapali": true
     },
     {
       "id": "m1-d05-q02",
@@ -102,7 +107,8 @@
       "dogruCevaplar": [
         "Görüşmek üzere"
       ],
-      "aciklama": "'Auf Wiedersehen' kelimesi kelimesine 'tekrar görüşmeye kadar' demektir; resmi bir vedadır."
+      "aciklama": "'Auf Wiedersehen' kelimesi kelimesine 'tekrar görüşmeye kadar' demektir; resmi bir vedadır.",
+      "ipucu": "Kelimenin selam mı veda mı olduğunu ve resmî mi samimi mi olduğunu düşün."
     },
     {
       "id": "m1-d05-q03",
@@ -112,7 +118,8 @@
       "dogruCevaplar": [
         "Wiedersehen"
       ],
-      "aciklama": "'Auf Wiedersehen' resmi veda kalıbıdır; Wiedersehen tek kelime olarak yazılır."
+      "aciklama": "'Auf Wiedersehen' resmi veda kalıbıdır; Wiedersehen tek kelime olarak yazılır.",
+      "ipucu": "Yüz yüze resmî vedada 'tekrar görmek' anlamındaki tek kelimeyi yaz."
     },
     {
       "id": "m1-d05-q04",
@@ -126,7 +133,8 @@
         "Machs gut",
         "Mach es gut"
       ],
-      "aciklama": "Samimi veda 'Tschüss' olup 'Tschüs' diye de yazılabilir; 'Mach's gut' da samimi bir vedadır."
+      "aciklama": "Samimi veda 'Tschüss' olup 'Tschüs' diye de yazılabilir; 'Mach's gut' da samimi bir vedadır.",
+      "ipucu": "Arkadaşına söylediğin tek kelimelik samimi vedayı düşün."
     },
     {
       "id": "m1-d05-q05",
@@ -155,15 +163,21 @@
           "Nacht"
         ]
       ],
-      "aciklama": "'Gute Nacht' iyi geceler, 'bis morgen' ise yarın görüşürüz demektir; 'und' ile birleşirler."
+      "aciklama": "'Gute Nacht' iyi geceler, 'bis morgen' ise yarın görüşürüz demektir; 'und' ile birleşirler.",
+      "ipucu": "İki dilek var; birini 've' ile ötekine bağla, sıraları değişebilir.",
+      "sozlukEk": {
+        "morgen": "yarın"
+      }
     },
     {
       "id": "m1-d05-q06",
+      "glossKapali": true,
       "tip": "dogru-yanlis",
       "soru": "Doğru mu, yanlış mı?",
       "ifade": "'Auf Wiederhören' telefon görüşmesinin sonunda kullanılır.",
       "dogru": true,
-      "aciklama": "Doğru. 'Wiedersehen' görmeyi, 'Wiederhören' duymayı anlatır; telefonda birbirini görmediğin için Wiederhören denir."
+      "aciklama": "Doğru. 'Wiedersehen' görmeyi, 'Wiederhören' duymayı anlatır; telefonda birbirini görmediğin için Wiederhören denir.",
+      "ipucu": "Telefonda ve yüz yüze görüşmede hangi veda kalıplarının kullanıldığını düşün."
     },
     {
       "id": "m1-d05-q07",
@@ -176,7 +190,9 @@
         "Auf Wiederhören"
       ],
       "dogru": 3,
-      "aciklama": "Telefonda resmi vedalaşma 'Auf Wiederhören' ile yapılır."
+      "aciklama": "Telefonda resmi vedalaşma 'Auf Wiederhören' ile yapılır.",
+      "ipucu": "Telefonda karşındakini göremediğini düşün ve resmî vedayı seç.",
+      "glossKapali": true
     },
     {
       "id": "m1-d05-q08",
@@ -193,7 +209,8 @@
       "dogruCevaplar": [
         "Yarın görüşürüz"
       ],
-      "aciklama": "'bis' ...e kadar, 'morgen' yarın demektir; 'Bis morgen' yarın görüşürüz anlamına gelir."
+      "aciklama": "'bis' ...e kadar, 'morgen' yarın demektir; 'Bis morgen' yarın görüşürüz anlamına gelir.",
+      "ipucu": "'Bis' sözünün 'e kadar' anlamını ve ikinci kelimenin bir zaman olduğunu düşün."
     },
     {
       "id": "m1-d05-q09",
@@ -203,7 +220,8 @@
       "dogruCevaplar": [
         "Bis morgen"
       ],
-      "aciklama": "'Bis morgen' ifadesinde 'bis' kelimesi 'e kadar' anlamındadır."
+      "aciklama": "'Bis morgen' ifadesinde 'bis' kelimesi 'e kadar' anlamındadır.",
+      "ipucu": "'E kadar' anlamındaki kelimeyi 'yarın' ile birleştir."
     },
     {
       "id": "m1-d05-q10",
@@ -213,15 +231,18 @@
       "dogruCevaplar": [
         "Bis"
       ],
-      "aciklama": "'Bis bald' yakında görüşürüz demektir; 'bald' yakında anlamındadır."
+      "aciklama": "'Bis bald' yakında görüşürüz demektir; 'bald' yakında anlamındadır.",
+      "ipucu": "Yakında görüşürüz kalıbının ilk kelimesi 'e kadar' anlamındadır."
     },
     {
       "id": "m1-d05-q11",
+      "glossKapali": true,
       "tip": "dogru-yanlis",
       "soru": "Doğru mu, yanlış mı?",
       "ifade": "'Tschüss' resmi ortamlarda kullanılan en uygun veda sözüdür.",
       "dogru": false,
-      "aciklama": "Yanlış. 'Tschüss' samimidir; resmi ortamlarda 'Auf Wiedersehen' tercih edilir."
+      "aciklama": "Yanlış. 'Tschüss' samimidir; resmi ortamlarda 'Auf Wiedersehen' tercih edilir.",
+      "ipucu": "Resmî ortamda hangi vedanın tercih edildiğini ve bu sözün tonunu düşün."
     },
     {
       "id": "m1-d05-q12",
@@ -234,15 +255,19 @@
         "Hallo"
       ],
       "dogru": 1,
-      "aciklama": "'Gute Nacht' iyi geceler demektir ve uyumadan önce söylenir."
+      "aciklama": "'Gute Nacht' iyi geceler demektir ve uyumadan önce söylenir.",
+      "ipucu": "Uyumadan önce söylenen dileğin günün hangi vaktine ait olduğunu düşün.",
+      "glossKapali": true
     },
     {
       "id": "m1-d05-q13",
+      "glossKapali": true,
       "tip": "dogru-yanlis",
       "soru": "Doğru mu, yanlış mı?",
       "ifade": "'Gute Nacht' gün içinde biriyle karşılaşınca kullanılan bir selamdır.",
       "dogru": false,
-      "aciklama": "Yanlış. 'Gute Nacht' selam değil, gece ayrılırken söylenen bir iyi geceler dileğidir."
+      "aciklama": "Yanlış. 'Gute Nacht' selam değil, gece ayrılırken söylenen bir iyi geceler dileğidir.",
+      "ipucu": "Bu sözün karşılaşırken mi ayrılırken mi söylendiğini düşün."
     },
     {
       "id": "m1-d05-q14",
@@ -270,7 +295,12 @@
           "sag": "Birazdan görüşürüz"
         }
       ],
-      "aciklama": "'Bis' + zaman ifadesi 'o zamana kadar' anlamı taşır: später (sonra), morgen (yarın), bald (yakında), gleich (birazdan)."
+      "aciklama": "'Bis' + zaman ifadesi 'o zamana kadar' anlamı taşır: später (sonra), morgen (yarın), bald (yakında), gleich (birazdan).",
+      "ipucu": "'Bis' sözünden sonra gelen zaman kelimesini eşleştir; bilmediğini eleme yoluyla çöz.",
+      "sozlukEk": {
+        "morgen": "yarın"
+      },
+      "glossKapali": true
     },
     {
       "id": "m1-d05-q15",
@@ -288,7 +318,8 @@
           "noch"
         ]
       ],
-      "aciklama": "'Schönen Tag noch!' ayrılırken karşıdakine güzel bir gün dilemek için kullanılır."
+      "aciklama": "'Schönen Tag noch!' ayrılırken karşıdakine güzel bir gün dilemek için kullanılır.",
+      "ipucu": "Sıfat ve isimden oluşan dilek önce, küçük pekiştirme kelimesi sonda gelir."
     },
     {
       "id": "m1-d05-q16",
@@ -299,7 +330,8 @@
       "dogruCevaplar": [
         "Gute Nacht"
       ],
-      "aciklama": "'Gute Nacht' iki kelimedir ve Nacht isim olduğu için büyük harfle yazılır."
+      "aciklama": "'Gute Nacht' iki kelimedir ve Nacht isim olduğu için büyük harfle yazılır.",
+      "ipucu": "İki kelime yaz ve ikincisi isim olduğu için büyük harfle başlasın."
     },
     {
       "id": "m1-d05-q17",
@@ -309,7 +341,8 @@
       "dogruCevaplar": [
         "Auf Wiedersehen"
       ],
-      "aciklama": "Resmi veda karşılığı 'Auf Wiedersehen'dir."
+      "aciklama": "Resmi veda karşılığı 'Auf Wiedersehen'dir.",
+      "ipucu": "Yüz yüze resmî vedanın hangi kalıpla kurulduğunu hatırla."
     },
     {
       "id": "m1-d05-q18",
@@ -319,7 +352,8 @@
       "dogruCevaplar": [
         "Nacht"
       ],
-      "aciklama": "'Nacht' gece demektir; 'Gute Nacht' iyi geceler anlamına gelir."
+      "aciklama": "'Nacht' gece demektir; 'Gute Nacht' iyi geceler anlamına gelir.",
+      "ipucu": "Günün karanlık vaktini anlatan ismi yaz ve ilk harfini büyük yaz."
     },
     {
       "id": "m1-d05-q19",
@@ -331,7 +365,8 @@
         "Tschüss",
         "Tschüs"
       ],
-      "aciklama": "'Tschüss' samimi vedadır; 'ss' yerine tek 's' ile 'Tschüs' diye de yazılır."
+      "aciklama": "'Tschüss' samimi vedadır; 'ss' yerine tek 's' ile 'Tschüs' diye de yazılır.",
+      "ipucu": "Samimi vedayı yaz; 'ş' sesini veren harf grubuyla başladığını unutma."
     },
     {
       "id": "m1-d05-q20",
@@ -344,15 +379,40 @@
         "Wie geht's?"
       ],
       "dogru": 0,
-      "aciklama": "'Bis später' sonra görüşürüz demektir; diğer seçenekler selam, iyi geceler ve hal hatır sormadır."
+      "aciklama": "'Bis später' sonra görüşürüz demektir; diğer seçenekler selam, iyi geceler ve hal hatır sormadır.",
+      "ipucu": "Seçeneklerin hangisinin selam, hangisinin veda olduğunu ayır; sonra zaman bildirenini seç.",
+      "glossKapali": true
     },
     {
       "id": "m1-d05-q21",
+      "glossKapali": true,
       "tip": "dogru-yanlis",
       "soru": "Doğru mu, yanlış mı?",
       "ifade": "'Bis morgen' yarın tekrar görüşeceğin birine söylenir.",
       "dogru": true,
-      "aciklama": "Doğru. 'Bis morgen' yarına kadar, yani yarın görüşürüz anlamındadır."
+      "aciklama": "Doğru. 'Bis morgen' yarına kadar, yani yarın görüşürüz anlamındadır.",
+      "ipucu": "'E kadar' sözünün ardından gelen kelimenin hangi zamanı gösterdiğini düşün.",
+      "sozlukEk": {
+        "morgen": "yarın"
+      }
+    }
+  ],
+  "trickler": [
+    {
+      "baslik": "Wieder-sehen, Wieder-hören",
+      "metin": "Wieder-sehen yeniden görmek, Wieder-hören yeniden duymak demektir; telefonda göremediğin için hören."
+    },
+    {
+      "baslik": "Bis + zaman = o zamana kadar",
+      "metin": "'Bis' e kadar demektir: Bis morgen yarına kadar, Bis bald yakında; ikinci kelime zamanı verir."
+    },
+    {
+      "baslik": "Gute Nacht bir selam değil",
+      "metin": "Gute Nacht uyumadan önceki dilektir; geceleyin karşılaşınca selam olarak Guten Abend dersin."
+    },
+    {
+      "baslik": "Tschüss arkadaşa, Wiedersehen resmî",
+      "metin": "Arkadaşına Tschüss, patronuna Auf Wiedersehen de: veda tonunu karşındakine göre seç."
     }
   ]
 }

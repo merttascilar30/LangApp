@@ -1,8 +1,9 @@
 import type { BoslukDoldurmaQuestion } from '../content/schema'
 import type { QuestionProps } from './types'
+import { Gloss } from './Gloss'
 import { UmlautKeys, useUmlautInsert } from './UmlautKeys'
 
-export function BoslukDoldurma({ soru, cevap, onCevap, kilitli }: QuestionProps<BoslukDoldurmaQuestion>) {
+export function BoslukDoldurma({ soru, cevap, onCevap, kilitli, ipucu }: QuestionProps<BoslukDoldurmaQuestion>) {
   const deger = cevap?.tip === 'bosluk-doldurma' ? cevap.metin : ''
   const yaz = (metin: string) => onCevap({ tip: 'bosluk-doldurma', metin })
   const { kapsayici, izle, insert } = useUmlautInsert((_, v) => yaz(v))
@@ -14,7 +15,7 @@ export function BoslukDoldurma({ soru, cevap, onCevap, kilitli }: QuestionProps<
     <div className="soru" ref={kapsayici} onFocusCapture={izle}>
       <p className="soru-metni">{soru.soru}</p>
       <p className="bosluk-cumle">
-        {once}
+        <Gloss metin={once} />
         <input
           type="text"
           className="yazi-girdisi"
@@ -26,8 +27,9 @@ export function BoslukDoldurma({ soru, cevap, onCevap, kilitli }: QuestionProps<
           disabled={kilitli}
           onChange={(e) => yaz(e.target.value)}
         />
-        {sonra}
+        <Gloss metin={sonra} />
       </p>
+      {ipucu?.tur === 'ilkHarf' && <p className="ilk-harf">İlk harf: {ipucu.harf}</p>}
       <UmlautKeys onInsert={insert} disabled={kilitli} />
     </div>
   )

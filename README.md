@@ -35,6 +35,13 @@ Kurallar:
 - Her soruda Türkçe açıklama zorunlu
 - 3–5 özet maddesi
 - 5–15 kelime
+- `ipucu`: her soruda zorunlu, tek cümle; doğru cevabı açık etmez
+- `trickler`: her partta 2–4 adet (başlık ≤ 40 karakter)
+- `sozluk.json`: modülün kelime/kalıp anlamları; sorulardaki Almanca metinlerde anlam balonu olarak çıkar
+- `sozlukEk`: bir soruya özel anlam ekleri veya modül sözlüğünü ezen girdiler
+- `glossKapali: true`: kelime/kalıp anlamını test eden sorularda kullan; anlamlar cevap verildikten sonra geri gelir
+
+Her yeni modülde anlam balonlarının tam listesi elle okunmalıdır: otomatik koruma testi yalnızca birebir sızıntıları yakalar. Anlam balonu metni boşluklara göre parçalar; bu yüzden `an`, `er`, `in` gibi kısa Almanca anahtarlar, Türkçe ile Almanca karışık alanlarda Türkçe kelimelerle çakışabilir.
 
 `npm test`, gerçek içeriği `tests/content/real-content.test.ts` ile doğrular.
 

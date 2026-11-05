@@ -7,6 +7,9 @@ const common = {
   soru: z.string(),
   aciklama: z.string().min(1),
   harfDuyarli: z.boolean().optional(),
+  ipucu: z.string().min(1).optional(),
+  glossKapali: z.literal(true).optional(),
+  sozlukEk: z.record(z.string()).optional(),
 }
 
 const coktanSecmeli = z.object({
@@ -93,6 +96,15 @@ export const kelimeSchema = z.object({
   artikel: artikelEnum.optional(),
 })
 
+export const trickSchema = z.object({
+  baslik: z.string().min(1),
+  metin: z.string().min(1),
+})
+
+export const sozlukSchema = z.object({
+  girdiler: z.record(z.string()),
+})
+
 export const partSchema = z.object({
   id: z.string(),
   ders: z.number(),
@@ -101,6 +113,7 @@ export const partSchema = z.object({
   ozet: z.array(z.string()).min(3).max(5),
   kelimeler: z.array(kelimeSchema),
   sorular: z.array(questionSchema),
+  trickler: z.array(trickSchema).optional(),
 })
 
 export const sinavSchema = z.object({
@@ -132,6 +145,8 @@ export type DogruYanlisQuestion = z.infer<typeof dogruYanlis>
 export type DinlemeQuestion = z.infer<typeof dinleme>
 export type CeviriQuestion = z.infer<typeof ceviri>
 export type Kelime = z.infer<typeof kelimeSchema>
+export type Trick = z.infer<typeof trickSchema>
+export type Sozluk = z.infer<typeof sozlukSchema>
 export type Part = z.infer<typeof partSchema>
 export type Sinav = z.infer<typeof sinavSchema>
 export type ModulesIndex = z.infer<typeof modulesIndexSchema>

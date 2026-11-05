@@ -7,7 +7,7 @@ export const progressSchema = z.object({
   surum: z.literal(1),
   sinavlar: z.record(z.object({ enIyi: z.number(), deneme: z.number(), gecti: z.boolean() })),
   partlar: z.record(z.object({ enIyi: z.number().optional(), izlendi: z.boolean() })),
-  defter: z.record(z.object({ ardisikDogru: z.number() })),
+  defter: z.record(z.object({ ardisikDogru: z.number(), ipucuyla: z.literal(true).optional() })),
   kartlar: z.record(z.union([z.literal(1), z.literal(2), z.literal(3)])),
   ayarlar: z.object({ ttsUyariGosterildi: z.boolean() }),
 })

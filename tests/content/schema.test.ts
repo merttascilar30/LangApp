@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { questionSchema, sinavSchema } from '../../src/content/schema'
+import { partSchema, questionSchema, sinavSchema, sozlukSchema } from '../../src/content/schema'
 
 const base = { id: 'q1', soru: 'Soru?', aciklama: 'Açıklama' }
 
@@ -48,5 +48,37 @@ describe('questionSchema', () => {
 describe('sinavSchema', () => {
   it('applies defaults', () => {
     expect(sinavSchema.parse({ ekSorular: [] })).toEqual({ soruSayisi: 25, gecmeNotu: 80, ekSorular: [] })
+  })
+})
+
+describe('ipucu / sozlukEk / trickler / sozluk', () => {
+  it('accepts ipucu and sozlukEk on a question', () => {
+    const r = questionSchema.parse({ ...(samples['artikel'] as object), ipucu: 'ipucu', sozlukEk: { geht: 'gidiyor' } })
+    expect(r.ipucu).toBe('ipucu')
+    expect(r.sozlukEk).toEqual({ geht: 'gidiyor' })
+  })
+
+  it('rejects empty ipucu', () => {
+    expect(() => questionSchema.parse({ ...(samples['artikel'] as object), ipucu: '' })).toThrow()
+  })
+
+  it('accepts part with trickler', () => {
+    const part = {
+      id: 'p',
+      ders: 1,
+      baslik: 'b',
+      videoId: 'v',
+      ozet: ['a', 'b', 'c'],
+      kelimeler: [],
+      sorular: [],
+      trickler: [{ baslik: 'T', metin: 'M' }],
+    }
+    expect(partSchema.parse(part).trickler).toEqual([{ baslik: 'T', metin: 'M' }])
+    expect(() => partSchema.parse({ ...part, trickler: [{ baslik: '', metin: 'M' }] })).toThrow()
+  })
+
+  it('sozlukSchema', () => {
+    expect(sozlukSchema.parse({ girdiler: { a: 'b' } })).toEqual({ girdiler: { a: 'b' } })
+    expect(() => sozlukSchema.parse({ girdiler: 5 })).toThrow()
   })
 })
