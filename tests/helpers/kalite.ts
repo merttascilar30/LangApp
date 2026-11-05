@@ -140,6 +140,7 @@ export function soruKaynakHatalari(q: Question, banka: ReadonlySet<string>): str
         if (i === q.dogru) {
           if (not !== '') hata("celdiriciNotlari doğru şıkta '' olmalı")
         } else if (not.trim() === '') hata(`celdiriciNotlari[${i}] boş (yanlış şık)`)
+        if ((not.match(/`/g) ?? []).length % 2 !== 0) hata(`celdiriciNotlari[${i}] backtick sayısı tek`)
       })
     }
   }

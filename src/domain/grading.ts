@@ -48,6 +48,16 @@ export function celdiriciNotu(q: Question, a: Answer | null): string | null {
   return not ? not : null
 }
 
+/** Boşluklu çoktan seçmeli sorunun doğru şıkla dolu cümlesi (metin / diyalog); yoksa null. */
+export function doluCumle(q: Question): string | null {
+  if (q.tip !== 'coktan-secmeli') return null
+  const dogru = q.secenekler[q.dogru] ?? ''
+  const doldur = (m: string) => m.split('___').join(dogru)
+  if (q.metin !== undefined) return doldur(q.metin)
+  const satir = q.diyalog?.find((s) => s.metin.includes('___'))
+  return satir ? doldur(satir.metin) : null
+}
+
 export function correctAnswerText(q: Question): string {
   switch (q.tip) {
     case 'coktan-secmeli':

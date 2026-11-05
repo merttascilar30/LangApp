@@ -71,6 +71,20 @@ describe.each(doluModuller.map((m) => [m.id, m] as const))('Faz 2 içerik: %s', 
     expect(cevapKonumuHatalari(modul.sinav?.ekSorular ?? [])).toEqual([])
   })
 
+  it('backtick yalnızca çeldirici notlarında', () => {
+    const bulunan: string[] = []
+    for (const p of modul.partlar) {
+      for (const o of p.ozet) if (o.includes('`')) bulunan.push(`${p.id} ozet`)
+      for (const t of p.trickler ?? []) if (t.baslik.includes('`') || t.metin.includes('`')) bulunan.push(`${p.id} trick`)
+    }
+    for (const q of sorular) {
+      for (const [alan, v] of [['aciklama', q.aciklama], ['ipucu', q.ipucu ?? ''], ['soru', q.soru]] as const) {
+        if (v.includes('`')) bulunan.push(`${q.id} ${alan}`)
+      }
+    }
+    expect(bulunan).toEqual([])
+  })
+
   it('her soruda ipucu dolu', () => {
     expect(sorular.filter((q) => !q.ipucu?.trim()).map((q) => q.id)).toEqual([])
   })

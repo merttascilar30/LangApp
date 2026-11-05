@@ -144,7 +144,7 @@
         "`habe` yalnızca `ich` ile gelir; özne `wir`."
       ],
       "aciklama": "Sahip olunan şey haben ile söylenir; wir ile haben gelir ve Wohnung feminin olduğu için eine alır.",
-      "ipucu": "Hem sahipliği anlatan fiile hem de dişil isme uyan artikele dikkat et.",
+      "ipucu": "Özne wir ve cümle sahip olmayı anlatıyor; fiilin çekimini buna göre seç.",
       "bicim": "senaryo",
       "kaynakTuru": "goethe",
       "kaynakCumle": "Wir haben eine neue Wohnung."

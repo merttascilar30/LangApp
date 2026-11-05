@@ -1,5 +1,6 @@
 import type { Question } from '../content/schema'
 import type { Answer } from '../domain/answers'
+import { NotMetni } from './NotMetni'
 import { celdiriciNotu, correctAnswerText } from '../domain/grading'
 
 export function FeedbackPanel({
@@ -19,7 +20,11 @@ export function FeedbackPanel({
       <strong>{dogru ? 'Doğru!' : 'Yanlış'}</strong>
       {ipucuyla && <p>💡 İpucuyla çözüldü</p>}
       <p>Doğru cevap: {correctAnswerText(soru)}</p>
-      {not && <p>Neden olmadı: {not}</p>}
+      {not && (
+        <p className="celdirici-notu">
+          Neden olmadı: <NotMetni metin={not} />
+        </p>
+      )}
       <p>{soru.aciklama}</p>
     </div>
   )

@@ -275,7 +275,7 @@
       "aciklama": "Toilette feminindir (die Toilette); ismin yerine sie kullanılır: Sie ist dort hinten rechts.",
       "ipucu": "Garson, sorulan ismin yerine geçen zamiri kullanıyor; o ismin artikeline bak.",
       "bicim": "diyalog",
-      "kaynakTuru": "goethe",
+      "kaynakTuru": "uyarlama",
       "kaynakCumle": "Wo ist die Toilette, bitte?",
       "glossKapali": true
     },
@@ -368,8 +368,7 @@
       "aciklama": "Tisch maskulin bir isimdir (der Tisch); maskulin isimlerle belirsiz artikel ein olur: ein Tisch.",
       "ipucu": "Belirsiz artikel, ismin cinsiyetine göre seçilir.",
       "bicim": "diyalog",
-      "kaynakTuru": "uyarlama",
-      "kaynakCumle": "Was ist das?",
+      "kaynakTuru": "yazildi",
       "sozlukEk": {
         "ein": "bir (belirsiz tanımlık)",
         "eine": "bir (belirsiz tanımlık)",

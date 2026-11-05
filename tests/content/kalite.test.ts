@@ -281,6 +281,10 @@ describe('dersKaliteHatalari', () => {
     expect(icerir(ders(gecerli20()), 'kaynakCumle tekrarı')).toBe(false)
   })
 
+  it('celdiriciNotlari tek sayıda backtick → hata', () => {
+    const q = degistir(gecerli20(), 0, { celdiriciNotlari: ['', '`mir bana', 'Gerekçe'] })
+    expect(ders(q).some((m) => m.startsWith('q00:') && m.includes('backtick'))).toBe(true)
+  })
   it('celdiriciNotlari eksik veya boş → hata', () => {
     const eksik = degistir(gecerli20(), 0, { celdiriciNotlari: undefined })
     expect(ders(eksik).some((m) => m.startsWith('q00:') && m.includes('celdiriciNotlari'))).toBe(true)

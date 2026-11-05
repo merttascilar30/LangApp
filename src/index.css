@@ -73,6 +73,10 @@ body {
 .geri-bildirim { padding: 0.75rem 1rem; border-radius: 6px; margin: 0.75rem 0; border: 2px solid; }
 .geri-bildirim.ok { background: #dcfce7; border-color: #16a34a; color: #166534; }
 .geri-bildirim.hata { background: #fee2e2; border-color: #dc2626; color: #991b1b; }
+.celdirici-notu { margin: 0.25rem 0; font-size: 0.95em; }
+.celdirici-notu em { font-style: italic; font-weight: 600; }
+.dolu-cumle { margin: 0.35rem 0; padding: 0.4rem 0.75rem; border-left: 3px solid #16a34a; background: #f0fdf4; border-radius: 4px; color: #166534; }
+.dolu-cumle p { margin: 0.15rem 0; }
 .test-nav { display: flex; gap: 0.5rem; margin-top: 1rem; }
 .ilerleme { font-size: 0.85em; color: #666; }
 .sonuc-listesi { list-style: none; padding: 0; }
