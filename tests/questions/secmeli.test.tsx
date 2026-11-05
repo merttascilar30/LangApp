@@ -117,3 +117,18 @@ describe('QuestionView', () => {
     expect(screen.getByText('Desteklenmeyen soru tipi')).toBeInTheDocument()
   })
 })
+
+describe('Dinleme sec ele ipucu', () => {
+  it('elenen seçenek metne göre pasif, doğru olan açık', async () => {
+    const { Dinleme } = await import('../../src/questions/Dinleme')
+    const d = {
+      id: 'dl-ele', tip: 'dinleme' as const, soru: 'Dinle', aciklama: 'a', mod: 'sec' as const,
+      okunacak: 'bin', metin: 'bin', secenekler: ['bin', 'bist', 'ist', 'sind'], dogru: 0,
+    }
+    render(<Dinleme soru={d as never} cevap={null} onCevap={() => {}} kilitli={false} ipucu={{ tur: 'ele', indeksler: [1, 3] }} />)
+    expect(screen.getByRole('button', { name: 'bist' })).toBeDisabled()
+    expect(screen.getByRole('button', { name: 'sind' })).toBeDisabled()
+    expect(screen.getByRole('button', { name: 'ist' })).toBeEnabled()
+    expect(screen.getByRole('button', { name: 'bin' })).toBeEnabled()
+  })
+})

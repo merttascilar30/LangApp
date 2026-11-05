@@ -310,6 +310,7 @@
     },
     {
       "id": "m1-d01-q17",
+      "glossKapali": true,
       "tip": "eslestirme",
       "soru": "Özel harfleri, yerine yazılabilen karşılıklarıyla eşleştir.",
       "ciftler": [

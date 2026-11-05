@@ -10,7 +10,7 @@ function GlossKelime({ metin, anlam, odaklanabilir }: { metin: string; anlam: st
   const [acik, setAcik] = useState(false)
   return (
     <span
-      className="gloss"
+      className={acik ? 'gloss acik' : 'gloss'}
       tabIndex={odaklanabilir ? 0 : undefined}
       data-anlam={anlam}
       onMouseEnter={() => setAcik(true)}
@@ -19,11 +19,9 @@ function GlossKelime({ metin, anlam, odaklanabilir }: { metin: string; anlam: st
       onBlur={() => setAcik(false)}
     >
       {metin}
-      {acik && (
-        <span role="tooltip" className="gloss-ipucu">
-          {anlam}
-        </span>
-      )}
+      <span role="tooltip" className="gloss-ipucu" aria-hidden={acik ? undefined : true}>
+        {anlam}
+      </span>
     </span>
   )
 }

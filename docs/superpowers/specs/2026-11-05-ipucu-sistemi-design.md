@@ -30,7 +30,7 @@ daha sonra tekrar karşısına çıkar.
 ### Soru (tüm tiplere ortak, isteğe bağlı)
 - `ipucu?: string` — Türkçe, 1 cümle kural hatırlatması. Cevabı doğrudan söylememeli.
 - `sozlukEk?: Record<string, string>` — bu soruya özel kelime anlamları; anahtar Almanca kelime.
-- `glossKapali?: true` — bu sorunun alanlarında kelime anlamı balonu gösterilmez (kelime/kalıp anlamını test eden sorularda cevap sızmasın diye).
+- `glossKapali?: true` — bu sorunun alanlarında cevaplanana kadar (`kilitli` olana dek) kelime anlamı balonu gösterilmez; cevaptan sonra anlamlar geri gelir (kelime/kalıp anlamını test eden sorularda cevap sızmasın diye).
 
 ### Part (isteğe bağlı)
 - `trickler?: { baslik: string; metin: string }[]` — 2–4 kart (Modül 1 içerik kuralı).
@@ -132,7 +132,8 @@ glossTokens(metin: string, sozluk: Record<string,string>, sozlukEk?: Record<stri
   `fiil-cekimi.fiil`. Türkçe alanlara (`soru`, `kaynak`, `aciklama`) uygulanmaz.
   `dinleme` seçeneklerine uygulanmaz.
 - Seçenek düğmesi içindeki gloss, düğme tıklamasını engellemez.
-- `glossKapali: true` olan soruda `QuestionView` `GlossContext`e `null` verir; gloss düz metin olarak çizilir.
+- `glossKapali: true` olan soruda, `kilitli` değilken `QuestionView` `GlossContext`e `null` verir; gloss düz metin olarak çizilir. Kilitlenince anlamlar döner (sınavda sınav boyunca `kilitli` olmadığı için kapalı kalır).
+- Tooltip öğesi her zaman `.gloss` içinde çizilir (CSS `display:none`; `:hover`/`.acik` ile görünür), kapalıyken `aria-hidden="true"`; böylece pasif (`disabled`) düğmelerde de çalışır.
 
 ### Trick kartları
 - `TrickList({ trickler })`: `<details>` kartları ("🎯 {baslik}").

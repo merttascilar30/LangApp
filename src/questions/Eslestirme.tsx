@@ -31,7 +31,8 @@ export function Eslestirme({ soru, cevap, onCevap, kilitli, ipucu }: QuestionPro
     }
   }
   const sagTikla = (sag: string) => {
-    if (secili === null || solOf(sag) !== undefined) return
+    if (secili !== null && secili === kilitSol) setSecili(null)
+    if (secili === null || secili === kilitSol || solOf(sag) !== undefined) return
     setSecili(null)
     yayinla({ ...eslesme, [secili]: sag })
   }

@@ -131,3 +131,23 @@ describe('FiilCekimi hucre', () => {
     expect(onCevap).toHaveBeenCalledWith({ tip: 'fiil-cekimi', hucreler: ['', 'bist', 'ist'] })
   })
 })
+
+describe('Eslestirme kilitli çift seçili sol ile çakışırsa', () => {
+  it('seçili kilitli sol, başka sağ tıklanınca çifti ezmez', () => {
+    const onCevap = vi.fn()
+    const { rerender } = render(<Eslestirme soru={es} cevap={null} onCevap={onCevap} kilitli={false} />)
+    fireEvent.click(screen.getByRole('button', { name: 'Hund' }))
+    rerender(
+      <Eslestirme
+        soru={es}
+        cevap={{ tip: 'eslestirme', eslesme: { Hund: 'köpek' } }}
+        onCevap={onCevap}
+        kilitli={false}
+        ipucu={{ tur: 'cift', sol: 'Hund', sag: 'köpek' }}
+      />,
+    )
+    fireEvent.click(screen.getByRole('button', { name: 'kedi' }))
+    for (const c of onCevap.mock.calls) expect(c[0].eslesme.Hund).toBe('köpek')
+    expect(onCevap).not.toHaveBeenCalled()
+  })
+})

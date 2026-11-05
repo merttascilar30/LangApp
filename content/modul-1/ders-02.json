@@ -175,6 +175,7 @@
     },
     {
       "id": "m1-d02-q10",
+      "glossKapali": true,
       "tip": "dogru-yanlis",
       "soru": "Doğru mu, yanlış mı?",
       "ifade": "Telefonda isimleri harflerken 'A wie Anton' gibi kalıplar kullanılabilir.",
@@ -308,6 +309,7 @@
     },
     {
       "id": "m1-d02-q20",
+      "glossKapali": true,
       "tip": "coktan-secmeli",
       "soru": "Telefonda bir ismin yazılışını sormak için hangi cümle uygundur?",
       "secenekler": [

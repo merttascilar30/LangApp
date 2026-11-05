@@ -127,6 +127,15 @@ export function TestRunner({ sorular, mod, onBitti }: Props) {
   // İpucu düğmesi kaybolunca odağı Kontrol et'e (pasifse kapsayıcıya) taşı.
   useEffect(() => {
     if (odakSayaci === 0) return;
+    if (ipuclari[index]?.tur === "ilkHarf") {
+      const girdi = kapsayici.current?.querySelector<HTMLInputElement>(
+        'input[type="text"]:not(:disabled)',
+      );
+      if (girdi) {
+        girdi.focus();
+        return;
+      }
+    }
     const k = kontrolDugmesi.current;
     if (k && !k.disabled) k.focus();
     else kapsayici.current?.focus();

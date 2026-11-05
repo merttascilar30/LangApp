@@ -171,6 +171,7 @@
     },
     {
       "id": "m1-d05-q06",
+      "glossKapali": true,
       "tip": "dogru-yanlis",
       "soru": "Doğru mu, yanlış mı?",
       "ifade": "'Auf Wiederhören' telefon görüşmesinin sonunda kullanılır.",
@@ -235,6 +236,7 @@
     },
     {
       "id": "m1-d05-q11",
+      "glossKapali": true,
       "tip": "dogru-yanlis",
       "soru": "Doğru mu, yanlış mı?",
       "ifade": "'Tschüss' resmi ortamlarda kullanılan en uygun veda sözüdür.",
@@ -259,6 +261,7 @@
     },
     {
       "id": "m1-d05-q13",
+      "glossKapali": true,
       "tip": "dogru-yanlis",
       "soru": "Doğru mu, yanlış mı?",
       "ifade": "'Gute Nacht' gün içinde biriyle karşılaşınca kullanılan bir selamdır.",
@@ -382,6 +385,7 @@
     },
     {
       "id": "m1-d05-q21",
+      "glossKapali": true,
       "tip": "dogru-yanlis",
       "soru": "Doğru mu, yanlış mı?",
       "ifade": "'Bis morgen' yarın tekrar görüşeceğin birine söylenir.",

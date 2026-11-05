@@ -318,6 +318,7 @@
     },
     {
       "id": "m1-d04-q17",
+      "glossKapali": true,
       "tip": "eslestirme",
       "soru": "Selamlaşma ifadelerini kullanıldıkları ortamla eşleştir.",
       "ciftler": [
@@ -343,6 +344,7 @@
     },
     {
       "id": "m1-d04-q18",
+      "glossKapali": true,
       "tip": "dogru-yanlis",
       "soru": "Doğru mu, yanlış mı?",
       "ifade": "Servus güney Almanya ve Avusturya'da kullanılan bir selamlaşma sözüdür.",
@@ -369,6 +371,7 @@
     },
     {
       "id": "m1-d04-q20",
+      "glossKapali": true,
       "tip": "coktan-secmeli",
       "soru": "Saat 20:00. Bir kafede garsonu selamlıyorsun. Hangisini söylersin?",
       "secenekler": [
@@ -386,6 +389,7 @@
     },
     {
       "id": "m1-d04-q21",
+      "glossKapali": true,
       "tip": "dogru-yanlis",
       "soru": "Doğru mu, yanlış mı?",
       "ifade": "'Guten Morgen' sabah saatlerinde kullanılan bir selamdır.",

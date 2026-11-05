@@ -155,3 +155,13 @@ describe('TestRunner ipucu düğmesi', () => {
     expect(screen.getByRole('button', { name: 'Kontrol et' })).toHaveFocus()
   })
 })
+
+describe('TestRunner ilk harf ipucu odağı', () => {
+  it('ilk harf ipucundan sonra odak yazı girdisine gider, Kontrol et’e değil', () => {
+    render(<TestRunner sorular={[bosluk('b1')]} mod="pratik" onBitti={vi.fn()} />)
+    fireEvent.click(ipucuDugme()!)
+    expect(screen.getByText(/İlk harf/)).toBeInTheDocument()
+    expect(screen.getByLabelText('Boşluk')).toHaveFocus()
+    expect(screen.getByRole('button', { name: 'Kontrol et' })).not.toHaveFocus()
+  })
+})

@@ -15,7 +15,7 @@ import { SozlukContext } from '../state/SozlukContext'
 
 export function QuestionView(props: QuestionProps<Question>) {
   const sozlukFor = useContext(SozlukContext)
-  const kapali = props.soru.glossKapali === true
+  const kapali = props.soru.glossKapali === true && !props.kilitli
   const glossDeger = useMemo(
     () => (kapali ? null : { sozluk: sozlukFor(props.soru.id), ek: props.soru.sozlukEk }),
     [kapali, sozlukFor, props.soru.id, props.soru.sozlukEk],

@@ -138,4 +138,24 @@ describe('gerçek içerik (modül 1)', () => {
     const oran = anlamli / toplam
     expect(oran, `kapsama ${(oran * 100).toFixed(1)}%; anlamsız: ${eksik.join(' ')}`).toBeGreaterThanOrEqual(0.8)
   })
+  it('modül 1: glossKapali olmayan sorularda tooltip kabul edilen cevabı sızdırmaz', () => {
+    const m = m1()
+    const sizan: string[] = []
+    for (const q of m1Sorular()) {
+      if (q.glossKapali) continue
+      let cevaplar: string[] = []
+      if (q.tip === 'bosluk-doldurma') cevaplar = q.dogruCevaplar
+      else if (q.tip === 'eslestirme') cevaplar = q.ciftler.map((c) => c.sag)
+      cevaplar = cevaplar.filter((c) => [...c.replace(/[^\p{L}]/gu, '')].length >= 3)
+      for (const alan of glossAlanlari(q)) {
+        for (const t of glossTokens(alan, m.sozluk, q.sozlukEk)) {
+          if (t.anlam === undefined) continue
+          for (const c of cevaplar) {
+            if (geciyor(t.anlam, c)) sizan.push(`${q.id}: kelime "${t.metin}" tooltip "${t.anlam}" cevap "${c}"`)
+          }
+        }
+      }
+    }
+    expect(sizan).toEqual([])
+  })
 })

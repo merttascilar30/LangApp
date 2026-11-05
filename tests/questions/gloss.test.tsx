@@ -22,7 +22,7 @@ describe('Gloss', () => {
       </GlossContext.Provider>,
     )
     const g = container.querySelector('.gloss') as HTMLElement
-    expect(g.textContent).toBe('bin')
+    expect(g.firstChild?.textContent).toBe('bin')
     expect(screen.queryByRole('tooltip')).toBeNull()
     expect(screen.getByRole('button', { name: 'bin' })).toBeInTheDocument()
     fireEvent.mouseEnter(g)
@@ -38,7 +38,7 @@ describe('Gloss', () => {
         <BoslukDoldurma soru={bd} cevap={null} onCevap={() => {}} kilitli={false} />
       </GlossContext.Provider>,
     )
-    expect(container.querySelector('.gloss')?.textContent).toBe('Ich')
+    expect(container.querySelector('.gloss')?.firstChild?.textContent).toBe('Ich')
     expect(screen.getByLabelText('Boşluk')).toBeInTheDocument()
   })
   it('dinleme seçeneklerinde gloss yok', () => {
@@ -72,5 +72,36 @@ describe('Gloss', () => {
       ).container
     expect(goster({ ...cs, glossKapali: true } as Question).querySelector('.gloss')).toBeNull()
     expect(goster(cs as Question).querySelector('.gloss')).not.toBeNull()
+  })
+})
+
+describe('Gloss ek davranışlar', () => {
+  const goster = (soru: Question, kilitli: boolean) =>
+    render(
+      <SozlukContext.Provider value={() => sozluk}>
+        <QuestionView soru={soru} cevap={null} onCevap={() => {}} kilitli={kilitli} />
+      </SozlukContext.Provider>,
+    ).container
+  it('glossKapali yalnız cevaplamadan önce kapalı; kilitlenince anlamlar döner', () => {
+    const soru = { ...cs, glossKapali: true } as Question
+    expect(goster(soru, false).querySelector('.gloss')).toBeNull()
+    expect(goster(soru, true).querySelector('.gloss')).not.toBeNull()
+  })
+  it('tooltip her zaman DOM’da, kapalıyken aria-hidden; açılınca kalkar', () => {
+    const { container } = render(
+      <GlossContext.Provider value={{ sozluk }}>
+        <CoktanSecmeli soru={cs} cevap={null} onCevap={() => {}} kilitli={true} />
+      </GlossContext.Provider>,
+    )
+    const g = container.querySelector('.gloss') as HTMLElement
+    const tip = g.querySelector('[role=tooltip]') as HTMLElement
+    expect(tip).toHaveAttribute('aria-hidden', 'true')
+    expect(tip.textContent).toBe('(ben) -im')
+    expect(screen.queryByRole('tooltip')).toBeNull()
+    fireEvent.focus(g)
+    expect(g).toHaveClass('acik')
+    expect(tip).not.toHaveAttribute('aria-hidden')
+    fireEvent.blur(g)
+    expect(g).not.toHaveClass('acik')
   })
 })
