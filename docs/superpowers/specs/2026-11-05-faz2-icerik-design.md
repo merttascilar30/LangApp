@@ -112,7 +112,12 @@ zorunluluk kalite testiyle sağlanır (§5).
 | `kaynakCumle` | `goethe` ve `uyarlama` için dolu ve bankanın `modul-2`..`modul-8` bölümünde birebir mevcut |
 | `goethe` tutarlılığı | Doğru cevap yerine konunca oluşan metin `kaynakCumle` ile eşleşir (bkz. aşağı) |
 | Cümle tekrarı | Aynı `kaynakCumle` bir derste en fazla 2 soruda |
-| `celdiriciNotlari` | Şıklı `bosluk` ve `diyalog` sorularında zorunlu; yanlış şıkların her biri dolu |
+| `celdiriciNotlari` | Şıklı `bosluk`, `diyalog` ve `senaryo` `coktan-secmeli` sorularında zorunlu; yanlış şıkların her biri dolu, doğru şıkta boş |
+| Cümle dizme büyük harf | `parcalar` cümle içindeki doğal yazımla yazılır (bkz. aşağı); ilk sözcüğü kapalı listede olan büyük harfli parça hata |
+| Şık sayısı (Modül 3+) | Her `coktan-secmeli` en az 3 şıklı (Modül 2 pilotu muaf) |
+| `dogru-yanlis` dengesi (modül) | Modülde en az 4 `dogru-yanlis` varsa doğru oranı %30–%70 |
+| `ipucu` tekrarı (modül) | Aynı `ipucu` modülde iki kez kullanılamaz |
+| Sınav kopyası (modül) | Sınav `ekSorular`ı bir ders sorusuyla aynı `kaynakCumle` + `tip` ya da aynı `metin`, `parcalar`, `ifade` taşıyamaz |
 | İpucu, trick, sözlük | Modül 1 kuralları: her soruda `ipucu`, 2–4 trick, baloncuk sızıntı testi, cevap ipucunda geçmez, Almanca kelime kapsaması ≥ %80 |
 
 %85 kuralı, `kelime` üst sınırı ile aynı anlama gelir; ayrı denetlenmez.
@@ -121,16 +126,31 @@ zorunluluk kalite testiyle sağlanır (§5).
 `’` ile `'` eşit sayılır):
 - `metin`: `___` doğru şıkla doldurulur, `kaynakCumle` ile eşit olmalı.
 - `bosluk-doldurma`: `___`, `dogruCevaplar[0]` ile doldurulur, `kaynakCumle` ile eşit olmalı.
-- `diyalog`: `___` doğru şıkla doldurulur, satırlar birleştirilir; `kaynakCumle` bu metnin içinde
-  geçmeli.
-- `cumle-dizme`: `dogruSiralar`'dan en az biri `kaynakCumle` ile eşit olmalı.
+- `diyalog`: yalnızca `___` içeren satır doğru şıkla doldurulur; bu satırın normalize hâli
+  `kaynakCumle`nin içinde (sözcük sınırında) geçmeli. Boşluk banka satırındadır; banka cümlesi
+  başka satırdaysa ya da boşluklu satır bankadan fazlasını içeriyorsa soru `uyarlama` olur.
+- `cumle-dizme`: `dogruSiralar[0]`, `kaynakCumle` ile eşit olmalı (diğer geçerli dizilimler serbest).
 - `coktan-secmeli` senaryo: doğru şık `kaynakCumle` ile eşit olmalı.
 - `dinleme`: `okunacak`, `kaynakCumle` ile eşit olmalı.
 - `ceviri`: `dogruCevaplar[0]`, `kaynakCumle` ile eşit olmalı.
 - `dogru-yanlis`: `ifade`, `kaynakCumle` ile eşit olmalı.
 - `kelime` biçimindeki diğer tipler: `goethe` olarak işaretlenemez.
 
-Test, cevabın doğru mantıkta olduğunu bilemez; bu nedenle elle inceleme zorunludur (§6).
+**Cümle dizme büyük harf kuralı.** `parcalar` ve `dogruSiralar` cümle içindeki doğal yazımla yazılır:
+isimler ve resmî `Sie`/`Ihnen` büyük, geri kalan her şey küçük harfle (`im Februar`, `wir`, `der Zug`).
+Cevap satırının ilk parçası ekranda büyük harfle gösterilir (`ilkBuyuk`, yalnızca ilk harf), `Doğru cevap`
+metni de aynı biçimdedir; seçilen cevap (`sira`) ve puanlama ham parçalarla çalışır. Test, parçanın ilk
+sözcüğü şu kapalı listedeyse hata verir: `Ich, Du, Er, Es, Wir, Wer, Was, Wo, Woher, Wohin, Wann, Wie,
+Warum, Welche, Im, In, Am, An, Auf, Mit, Aus, Von, Bei, Nach, Zu, Zum, Zur, Für, Der, Die, Das, Den, Dem,
+Ein, Eine, Einen, Mein, Meine, Dein, Deine, Heute, Gestern`. `Ihr` ve `Sie` listede değildir (elle
+incelenir). `Morgen`, yalnızca parça tam `Morgen` ise ve bir `dogruSiralar` dizilimini açıyorsa hata
+sayılır. Kural Modül 2 ve sonrasına uygulanır; Modül 1 içeriğine dokunulmaz.
+
+Test, cevabın doğru mantıkta olduğunu bilemez; bu nedenle elle inceleme zorunludur (§6). Yardımcı
+olarak `node scripts/modul-raporu.mjs modul-N` ders başına biçim ve kaynak dağılımını, katı `goethe`
+oranını (kaynağı tek satır olan `goethe` diyaloglar sayılmaz), doğru şık konumlarını ve ders
+anlatımında (`ozet`, `trickler`, `kelimeler`) hiç geçmeyen şık sözcüklerini listeler. Son liste bir
+inceleme aracıdır, otomatik kural değildir.
 
 ### Beklenen istisna dersler
 Perfekt (40, 41), Präteritum (56), Komparativ (57), `dürfen` (42), Ja/Nein ve `doch` (47), `kein` (29).
@@ -154,6 +174,7 @@ ders beklenmez.
 Bu spec'in ilk uygulama planı yalnızca 1. ve 2. adımı kapsar.
 
 ## 7. Kapsam dışı
-Modül 1 içeriğinde değişiklik; banka dosyasında değişiklik (hatalı veri görülürse raporlanır);
+Modül 1 içeriğinde değişiklik (cümle dizme büyük harf kuralı ve diğer yeni kurallar dahil: yalnızca
+Modül 2 ve sonrası denetlenir); banka dosyasında değişiklik (hatalı veri görülürse raporlanır);
 yeni soru tipi eklemek (mevcut tipler genişletilir); telaffuz değerlendirme; videoların
 izlenip cümlelerle eşleştirilmesi (sorular videoyla birebir uyumlu olmaz, konuyu kapsar).

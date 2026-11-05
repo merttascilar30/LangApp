@@ -257,7 +257,7 @@
       "aciklama": "İki kişiyi birlikte (Peter und Helmut) özne yapınca sein fiili sind olur.",
       "ipucu": "İki isim \"und\" ile bağlandığında özne tekil mi çoğul mu olur, bir düşün.",
       "bicim": "diyalog",
-      "kaynakTuru": "goethe",
+      "kaynakTuru": "uyarlama",
       "kaynakCumle": "Peter und Helmut sind meine Söhne."
     },
     {
@@ -368,14 +368,14 @@
       "tip": "cumle-dizme",
       "soru": "Kelimeleri doğru sıraya diz: Zagreb'de doğdum.",
       "parcalar": [
-        "Ich",
+        "ich",
         "bin",
         "in Zagreb",
         "geboren"
       ],
       "dogruSiralar": [
         [
-          "Ich",
+          "ich",
           "bin",
           "in Zagreb",
           "geboren"
@@ -383,13 +383,13 @@
         [
           "in Zagreb",
           "bin",
-          "Ich",
+          "ich",
           "geboren"
         ],
         [
           "geboren",
           "bin",
-          "Ich",
+          "ich",
           "in Zagreb"
         ]
       ],
@@ -404,20 +404,20 @@
       "tip": "cumle-dizme",
       "soru": "Kelimeleri doğru sıraya diz: Giriş köşede.",
       "parcalar": [
-        "Der Eingang",
+        "der Eingang",
         "ist",
         "um die Ecke"
       ],
       "dogruSiralar": [
         [
-          "Der Eingang",
+          "der Eingang",
           "ist",
           "um die Ecke"
         ],
         [
           "um die Ecke",
           "ist",
-          "Der Eingang"
+          "der Eingang"
         ]
       ],
       "aciklama": "Sein fiili de çekimli fiildir ve ikinci sırada durur; yer grubu başa geçerse özne fiilin arkasına kayar.",

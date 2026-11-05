@@ -228,7 +228,7 @@
       "aciklama": "Resmî \"Sie\" ile fiil mastar biçimindedir: Woher kommen Sie? = Nerelisiniz?",
       "ipucu": "Resmî \"siz\" zamirinin fiilde hangi eki aldığını hatırla.",
       "bicim": "diyalog",
-      "kaynakTuru": "goethe",
+      "kaynakTuru": "uyarlama",
       "kaynakCumle": "Woher kommen Sie? – Aus Frankreich.",
       "sozlukEk": {
         "kommen": "gelmek fiilinin çekimi"
@@ -410,20 +410,20 @@
       "tip": "cumle-dizme",
       "soru": "Kelimeleri doğru sıraya diz: Ben Türkiye'denim.",
       "parcalar": [
-        "Ich",
+        "ich",
         "komme",
         "aus der Türkei"
       ],
       "dogruSiralar": [
         [
-          "Ich",
+          "ich",
           "komme",
           "aus der Türkei"
         ],
         [
           "aus der Türkei",
           "komme",
-          "Ich"
+          "ich"
         ]
       ],
       "aciklama": "Önce özne, sonra çekimli fiil, en sonda yer bildiren grup gelir; yer grubu başa geçerse özne fiilin arkasına kayar.",
@@ -437,20 +437,20 @@
       "tip": "cumle-dizme",
       "soru": "Kelimeleri doğru sıraya diz: Üç yıldır Köln'de oturuyorum.",
       "parcalar": [
-        "Ich",
+        "ich",
         "wohne",
         "seit drei Jahren",
         "in Köln"
       ],
       "dogruSiralar": [
         [
-          "Ich",
+          "ich",
           "wohne",
           "seit drei Jahren",
           "in Köln"
         ],
         [
-          "Ich",
+          "ich",
           "wohne",
           "in Köln",
           "seit drei Jahren"
@@ -458,13 +458,13 @@
         [
           "seit drei Jahren",
           "wohne",
-          "Ich",
+          "ich",
           "in Köln"
         ],
         [
           "in Köln",
           "wohne",
-          "Ich",
+          "ich",
           "seit drei Jahren"
         ]
       ],
@@ -506,20 +506,20 @@
       "tip": "cumle-dizme",
       "soru": "Kelimeleri doğru sıraya diz: Mutfaktan iki şişe su getiriyorum.",
       "parcalar": [
-        "Ich",
+        "ich",
         "hole",
         "zwei Flaschen Wasser",
         "aus der Küche"
       ],
       "dogruSiralar": [
         [
-          "Ich",
+          "ich",
           "hole",
           "zwei Flaschen Wasser",
           "aus der Küche"
         ],
         [
-          "Ich",
+          "ich",
           "hole",
           "aus der Küche",
           "zwei Flaschen Wasser"
@@ -527,13 +527,13 @@
         [
           "zwei Flaschen Wasser",
           "hole",
-          "Ich",
+          "ich",
           "aus der Küche"
         ],
         [
           "aus der Küche",
           "hole",
-          "Ich",
+          "ich",
           "zwei Flaschen Wasser"
         ]
       ],

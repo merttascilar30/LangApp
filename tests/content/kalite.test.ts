@@ -3,12 +3,23 @@ import type { Part, Question } from '../../src/content/schema'
 import {
   bankaCumleleri,
   bicimHatalari,
+  buyukHarfliParcaHatalari,
   cevapKonumuHatalari,
   dersKaliteHatalari,
+  dogruYanlisDengesi,
+  enAzUcSikHatalari,
+  ipucuTekrari,
+  modulKaliteHatalari,
   normCumle,
+  sinavKopyaHatalari,
   soruKaynakHatalari,
 } from '../helpers/kalite'
-import { haritaEksikleri, sinavEksikleri, tooltipSizintilari } from '../helpers/icerik-kontrol'
+import {
+  haritaEksikleri,
+  istisnaGerekcesizler,
+  sinavEksikleri,
+  tooltipSizintilari,
+} from '../helpers/icerik-kontrol'
 
 // ---------- Fixture kurucuları ----------
 const S = {
@@ -66,8 +77,9 @@ function diyQ(id: string, kt: KT, s: string, ans: string, kaynak: string = s): Q
     celdiriciNotlari: ['', 'Yanlış biçim', 'Yanlış kelime'],
   }
 }
+/** Parçalar cümle içi doğal yazımla: ilk sözcük küçük (yalnızca Sie büyük kalır). */
 function dizQ(id: string, kt: KT, s: string, kaynak: string = s): Question {
-  const parcalar = s.split(' ')
+  const parcalar = s.split(' ').map((p, i) => (i === 0 && p !== 'Sie' ? p[0].toLowerCase() + p.slice(1) : p))
   return {
     ...ortak(id, 'siralama', kt, kaynak),
     tip: 'cumle-dizme',
@@ -82,6 +94,7 @@ function senCoktanQ(id: string, kt: KT, s: string, kaynak: string = s): Question
     soru: 'Açlığını söylemek istiyorsun.',
     secenekler: [s, 'Ich habe Durst.', 'Ich bin müde.'],
     dogru: 0,
+    celdiriciNotlari: ['', 'Durst susuzluktur', 'müde yorgunluktur'],
   }
 }
 function senDinQ(id: string, kt: KT, s: string, kaynak: string = s): Question {
@@ -380,6 +393,15 @@ describe('goethe tutarlılığı (soruKaynakHatalari)', () => {
     expect(tut(dizQ('a', 'goethe', S.s5))).toEqual([])
     expect(uyumsuz(dizQ('a', 'goethe', S.s5, S.s6))).toBe(true)
   })
+  it('cumle-dizme: kaynakla eşleşen yalnızca dogruSiralar[0] olabilir', () => {
+    const dogru = dizQ('a', 'goethe', S.s5)
+    const baska = dizQ('a', 'goethe', S.s6)
+    if (dogru.tip !== 'cumle-dizme' || baska.tip !== 'cumle-dizme') throw new Error('fixture')
+    const ikinci: Question = { ...dogru, dogruSiralar: [baska.dogruSiralar[0], dogru.dogruSiralar[0]] }
+    expect(uyumsuz(ikinci)).toBe(true)
+    const alternatifli: Question = { ...dogru, dogruSiralar: [dogru.dogruSiralar[0], baska.dogruSiralar[0]] }
+    expect(uyumsuz(alternatifli)).toBe(false)
+  })
   it('senaryo coktan-secmeli', () => {
     expect(tut(senCoktanQ('a', 'goethe', S.s7))).toEqual([])
     expect(uyumsuz(senCoktanQ('a', 'goethe', S.s7, S.s1))).toBe(true)
@@ -411,6 +433,52 @@ describe('goethe tutarlılığı (soruKaynakHatalari)', () => {
     const b = new Set(['Hallo Inge! Wie geht’s?'])
     const q = yazQ('a', 'goethe', "hallo inge wie geht's", 'Inge', 'Hallo Inge! Wie geht’s?')
     expect(soruKaynakHatalari(q, b)).toEqual([])
+  })
+  it('diyalog: boşluklu satır kaynakCumle içinde değilse tutarsız (kaynak başka satırdaysa bile)', () => {
+    const b = new Set(['Wie geht es dir?'])
+    const q: Question = {
+      ...ortak('d', 'diyalog', 'goethe', 'Wie geht es dir?'),
+      tip: 'coktan-secmeli',
+      diyalog: [
+        { kim: 'A', metin: 'Wie geht es dir?' },
+        { kim: 'B', metin: 'Ich ___ gut.' },
+      ],
+      secenekler: ['bin', 'habe', 'heiße'],
+      dogru: 0,
+      celdiriciNotlari: ['', 'haben değil', 'heißen değil'],
+    }
+    expect(soruKaynakHatalari(q, b).some((m) => m.includes('goethe tutarsız'))).toBe(true)
+    expect(soruKaynakHatalari({ ...q, kaynakTuru: 'uyarlama' }, b)).toEqual([])
+  })
+  it('diyalog: kaynak sözcük sınırında aranır (kısmi sözcük eşleşmesi sayılmaz)', () => {
+    const b = new Set(['Ich bin Anna.'])
+    const q: Question = {
+      ...ortak('d', 'diyalog', 'goethe', 'Ich bin Anna.'),
+      tip: 'coktan-secmeli',
+      diyalog: [
+        { kim: 'A', metin: 'Hallo!' },
+        { kim: 'B', metin: 'Ich bin ___' },
+      ],
+      secenekler: ['An', 'Anna', 'Ann'],
+      dogru: 0,
+      celdiriciNotlari: ['', 'Anna yazılışı', 'Ann yazılışı'],
+    }
+    expect(soruKaynakHatalari(q, b).some((m) => m.includes('goethe tutarsız'))).toBe(true)
+    expect(soruKaynakHatalari({ ...q, dogru: 1, celdiriciNotlari: ['Eksik', '', 'Ann yazılışı'] }, b)).toEqual([])
+  })
+  it('diyalog: boşluklu satır yoksa goethe tutarsız', () => {
+    const q: Question = {
+      ...ortak('d', 'diyalog', 'goethe', S.s3),
+      tip: 'coktan-secmeli',
+      secenekler: ['geht', 'gehe', 'gehst'],
+      dogru: 0,
+      celdiriciNotlari: ['', 'Yanlış biçim', 'Yanlış kişi'],
+      diyalog: [
+        { kim: 'A', metin: 'Hallo!' },
+        { kim: 'B', metin: S.s3 },
+      ],
+    }
+    expect(uyumsuz(q)).toBe(true)
   })
   it('diyalog: banka cümlesi iki satıra bölünmüş olabilir', () => {
     const b = new Set(['Woher kommen Sie? – Aus Frankreich.'])
@@ -489,5 +557,282 @@ describe('haritaEksikleri / sinavEksikleri', () => {
     expect(sinavEksikleri(moduller, yarim)).toEqual([])
     const sinavli = [{ id: 'modul-2', partlar: [{ ders: 6 }, { ders: 7 }], sinav: {} }]
     expect(sinavEksikleri(sinavli, tam)).toEqual([])
+  })
+})
+
+// ---------- Pilottan kalan negatif testler ----------
+describe('soruKaynakHatalari: kaynakCumle ve çeldirici notu negatifleri', () => {
+  const tut = (q: Question) => soruKaynakHatalari(q, BANKA)
+  it('goethe veya uyarlamada boş / eksik kaynakCumle → hata', () => {
+    expect(tut({ ...metinQ('a', 'goethe', S.s0, 'heiße'), kaynakCumle: '' } as Question).some((m) => m.includes('kaynakCumle boş'))).toBe(true)
+    expect(tut({ ...metinQ('a', 'goethe', S.s0, 'heiße'), kaynakCumle: undefined } as Question).some((m) => m.includes('kaynakCumle boş'))).toBe(true)
+    expect(tut({ ...yazQ('b', 'uyarlama', 'Du wohnst hier.', 'wohnst'), kaynakCumle: undefined } as Question).some((m) => m.includes('kaynakCumle boş'))).toBe(true)
+  })
+  it('bankada olmayan uyarlama kaynakCumle → hata', () => {
+    const q = metinQ('a', 'uyarlama', 'Du heißt Anna.', 'heißt', 'Das steht nicht in der Bank.')
+    expect(tut(q).some((m) => m.startsWith('a:') && m.includes('bankada yok'))).toBe(true)
+  })
+  it('yazildi için kaynakCumle gerekmez', () => {
+    expect(tut({ ...yazQ('a', 'yazildi', 'Du wohnst hier.', 'wohnst'), kaynakCumle: undefined } as Question)).toEqual([])
+  })
+  it('celdiriciNotlari uzunluğu secenekler ile uyuşmuyorsa hata', () => {
+    const q = { ...metinQ('a', 'goethe', S.s0, 'heiße'), celdiriciNotlari: ['', 'Tek not'] } as Question
+    expect(tut(q).some((m) => m.includes('uzunluğu'))).toBe(true)
+    const fazla = { ...metinQ('a', 'goethe', S.s0, 'heiße'), celdiriciNotlari: ['', 'a', 'b', 'c'] } as Question
+    expect(tut(fazla).some((m) => m.includes('uzunluğu'))).toBe(true)
+  })
+  it('celdiriciNotlari doğru şıkta dolu → hata', () => {
+    const q = { ...metinQ('a', 'goethe', S.s0, 'heiße'), celdiriciNotlari: ['Gerek yok', 'Yanlış biçim', 'Yanlış kelime'] } as Question
+    expect(tut(q).some((m) => m.includes("doğru şıkta '' olmalı"))).toBe(true)
+  })
+  it('senaryo coktan-secmeli: celdiriciNotlari zorunlu', () => {
+    expect(tut(senCoktanQ('a', 'goethe', S.s7))).toEqual([])
+    const yok = { ...senCoktanQ('a', 'goethe', S.s7), celdiriciNotlari: undefined } as Question
+    expect(tut(yok).some((m) => m.includes('celdiriciNotlari eksik'))).toBe(true)
+    const kisa = { ...senCoktanQ('a', 'goethe', S.s7), celdiriciNotlari: ['', 'Tek'] } as Question
+    expect(tut(kisa).some((m) => m.includes('uzunluğu'))).toBe(true)
+    const bosNot = { ...senCoktanQ('a', 'goethe', S.s7), celdiriciNotlari: ['', 'Dolu', ' '] } as Question
+    expect(tut(bosNot).some((m) => m.includes('celdiriciNotlari[2] boş'))).toBe(true)
+  })
+  it('kelime biçimli coktan-secmeli notsuz olabilir', () => {
+    const q: Question = {
+      ...ortak('k', 'kelime', 'yazildi'),
+      tip: 'coktan-secmeli',
+      secenekler: ['a', 'b', 'c'],
+      dogru: 0,
+    }
+    expect(tut(q)).toEqual([])
+  })
+})
+
+describe('istisnaGerekcesizler', () => {
+  const kayit = (ders: number, istisna: boolean, gerekce?: string) => ({
+    ders,
+    modulId: 'modul-2',
+    dosya: `ders-${ders}`,
+    baslik: 'b',
+    videoId: 'v',
+    temalar: [],
+    aramaKaliplari: [],
+    gramer: [],
+    istisna,
+    istisnaGerekcesi: gerekce,
+  })
+  it('gerekçesiz veya boşluk gerekçeli istisna hata verir', () => {
+    const h = istisnaGerekcesizler({ dersler: [kayit(6, true), kayit(7, true, '  '), kayit(8, true, 'Bankada az cümle var.'), kayit(9, false)] })
+    expect(h).toEqual(['modul-2 ders 6', 'modul-2 ders 7'])
+  })
+  it('istisna olmayan ders gerekçe istemez', () => {
+    expect(istisnaGerekcesizler({ dersler: [kayit(6, false)] })).toEqual([])
+  })
+})
+
+describe('buyukHarfliParcaHatalari', () => {
+  const dz = (parcalar: string[], siralar: string[][] = [parcalar]): Question => ({
+    ...ortak('b1', 'siralama', 'yazildi'),
+    tip: 'cumle-dizme',
+    parcalar,
+    dogruSiralar: siralar,
+  })
+  const KAPALI_LISTE = [
+    'Ich', 'Du', 'Er', 'Es', 'Wir', 'Wer', 'Was', 'Wo', 'Woher', 'Wohin', 'Wann', 'Wie', 'Warum', 'Welche',
+    'Im', 'In', 'Am', 'An', 'Auf', 'Mit', 'Aus', 'Von', 'Bei', 'Nach', 'Zu', 'Zum', 'Zur', 'Für',
+    'Der', 'Die', 'Das', 'Den', 'Dem', 'Ein', 'Eine', 'Einen', 'Mein', 'Meine', 'Dein', 'Deine', 'Heute', 'Gestern',
+  ]
+
+  it('doğal yazımlı parçalar hatasız', () => {
+    expect(buyukHarfliParcaHatalari(dz(['ich', 'im Februar', 'Kaffee', 'Sie', 'Ihr Beruf']))).toEqual([])
+  })
+  it('Ihr ve Sie listede değildir (elle incelenir)', () => {
+    expect(buyukHarfliParcaHatalari(dz(['Ihr Beruf', 'ist']))).toEqual([])
+    expect(buyukHarfliParcaHatalari(dz(['Sie', 'kommen']))).toEqual([])
+  })
+  it.each(KAPALI_LISTE)('listedeki büyük harfli ilk sözcük hata verir: %s', (w) => {
+    const h = buyukHarfliParcaHatalari(dz([`${w} Haus`, 'ist']))
+    expect(h).toHaveLength(1)
+    expect(h[0]).toContain('b1:')
+    expect(h[0]).toContain(`${w} Haus`)
+  })
+  it('yalnızca parçanın İLK sözcüğüne bakar; tek sözcük ve noktalama da yakalanır', () => {
+    expect(buyukHarfliParcaHatalari(dz(['Ich', 'bin']))).toHaveLength(1)
+    expect(buyukHarfliParcaHatalari(dz(['Wie?', 'geht']))).toHaveLength(1)
+    expect(buyukHarfliParcaHatalari(dz(['aus Berlin', 'ich']))).toEqual([])
+    expect(buyukHarfliParcaHatalari(dz(['Guten Tag', 'Berlin']))).toEqual([])
+  })
+  it('küçük harfli ilk sözcük listede olsa da hatasız', () => {
+    expect(buyukHarfliParcaHatalari(dz(['wir', 'im Februar', 'heute', 'in Berlin']))).toEqual([])
+  })
+  it('Morgen: tam parça ve bir dogruSiralar ilk öğesi ise hata', () => {
+    expect(buyukHarfliParcaHatalari(dz(['Morgen', 'komme', 'ich']))).toHaveLength(1)
+    expect(buyukHarfliParcaHatalari(dz(['Morgen', 'komme', 'ich'], [['ich', 'komme', 'Morgen'], ['Morgen', 'komme', 'ich']]))).toHaveLength(1)
+  })
+  it('Morgen: hiçbir dizilimde başta değilse (isim) hata değil; Guten Morgen ve morgen hata değil', () => {
+    expect(buyukHarfliParcaHatalari(dz(['Guten', 'Morgen']))).toEqual([])
+    expect(buyukHarfliParcaHatalari(dz(['Morgen', 'ist', 'schön'], [['ist', 'Morgen', 'schön']]))).toEqual([])
+    expect(buyukHarfliParcaHatalari(dz(['morgen', 'komme', 'ich']))).toEqual([])
+  })
+  it('cumle-dizme dışındaki tipler denetlenmez', () => {
+    expect(buyukHarfliParcaHatalari(yazQ('y', 'yazildi', 'Ich bin hier.', 'bin'))).toEqual([])
+  })
+  it('soruKaynakHatalari ve dersKaliteHatalari bu kuralı çalıştırır', () => {
+    const q = dz(['Ich', 'bin', 'Anna'])
+    expect(soruKaynakHatalari(q, BANKA).some((m) => m.includes('Ich'))).toBe(true)
+    const kotu = degistirTam(gecerli20(), 5, {
+      ...dizQ('q05', 'goethe', S.s5),
+      parcalar: ['Ich', 'bin', 'Student.'],
+      dogruSiralar: [['Ich', 'bin', 'Student.']],
+    } as Question)
+    expect(ders(kotu).some((m) => m.includes('q05') && m.includes('Ich'))).toBe(true)
+  })
+})
+
+describe('enAzUcSikHatalari', () => {
+  const sik = (n: number): Question => ({
+    ...ortak('s1', 'kelime', 'yazildi'),
+    tip: 'coktan-secmeli',
+    secenekler: Array.from({ length: n }, (_, i) => `opt${i}`),
+    dogru: 0,
+  })
+  it('2 şık hata, 3 ve 4 şık geçer', () => {
+    expect(enAzUcSikHatalari(sik(2))).toHaveLength(1)
+    expect(enAzUcSikHatalari(sik(2))[0]).toContain('s1:')
+    expect(enAzUcSikHatalari(sik(3))).toEqual([])
+    expect(enAzUcSikHatalari(sik(4))).toEqual([])
+  })
+  it('coktan-secmeli olmayan tipler etkilenmez', () => {
+    expect(enAzUcSikHatalari(kelCeviri('c'))).toEqual([])
+  })
+})
+
+describe('dogruYanlisDengesi', () => {
+  const dy = (dogru: boolean, i: number): Question => ({
+    ...ortak(`dy${i}`, 'senaryo', 'yazildi'),
+    tip: 'dogru-yanlis',
+    ifade: `Ich bin hier ${i}.`,
+    dogru,
+  })
+  const dizi = (dogruSayisi: number, toplam: number) => Array.from({ length: toplam }, (_, i) => dy(i < dogruSayisi, i))
+  it('4 ve fazlası varsa doğru oranı %30–%70', () => {
+    expect(dogruYanlisDengesi(dizi(4, 4))).toHaveLength(1)
+    expect(dogruYanlisDengesi(dizi(0, 4))).toHaveLength(1)
+    expect(dogruYanlisDengesi(dizi(2, 4))).toEqual([])
+    expect(dogruYanlisDengesi(dizi(1, 4))).toHaveLength(1)
+    expect(dogruYanlisDengesi(dizi(3, 4))).toHaveLength(1)
+  })
+  it('sınırlar dahildir: 3/10 ve 7/10 geçer, 2/10 ve 8/10 hata', () => {
+    expect(dogruYanlisDengesi(dizi(3, 10))).toEqual([])
+    expect(dogruYanlisDengesi(dizi(7, 10))).toEqual([])
+    expect(dogruYanlisDengesi(dizi(2, 10))).toHaveLength(1)
+    expect(dogruYanlisDengesi(dizi(8, 10))).toHaveLength(1)
+  })
+  it('4’ten azsa denetlenmez; dogru-yanlis olmayanlar sayılmaz', () => {
+    expect(dogruYanlisDengesi(dizi(3, 3))).toEqual([])
+    expect(dogruYanlisDengesi([...dizi(3, 3), kelCeviri('x'), kelArtikel('y')])).toEqual([])
+  })
+})
+
+describe('ipucuTekrari', () => {
+  const ip = (id: string, ipucu?: string): Question => ({ ...kelCeviri(id), ipucu })
+  it('aynı ipucu iki kez → hata, iki id yi söyler', () => {
+    const h = ipucuTekrari([ip('a', 'Fiile bak.'), ip('b', 'Başka'), ip('c', 'Fiile bak.')])
+    expect(h).toHaveLength(1)
+    expect(h[0]).toContain('a')
+    expect(h[0]).toContain('c')
+  })
+  it('boşluk ve büyük-küçük harf farkı yok sayılır', () => {
+    expect(ipucuTekrari([ip('a', 'Fiile bak.'), ip('b', '  fiile bak. ')])).toHaveLength(1)
+  })
+  it('farklı veya boş ipuçları geçer', () => {
+    expect(ipucuTekrari([ip('a', 'Bir'), ip('b', 'İki'), ip('c'), ip('d')])).toEqual([])
+  })
+})
+
+describe('sinavKopyaHatalari', () => {
+  it('aynı kaynakCumle + tip → hata, iki id yi söyler', () => {
+    const h = sinavKopyaHatalari([metinQ('s1', 'goethe', S.s0, 'Anna')], [metinQ('d1', 'goethe', S.s0, 'heiße')])
+    expect(h.length).toBeGreaterThan(0)
+    expect(h[0]).toContain('s1')
+    expect(h[0]).toContain('d1')
+  })
+  it('aynı kaynakCumle farklı tip → geçer', () => {
+    expect(sinavKopyaHatalari([senDinQ('s1', 'goethe', S.s0)], [metinQ('d1', 'goethe', S.s0, 'heiße')])).toEqual([])
+  })
+  it('kaynakCumle yoksa kaynakCumle ile eşleşmez', () => {
+    const a = { ...kelCeviri('s1'), dogruCevaplar: ['Katze'] } as Question
+    const b = { ...kelCeviri('d1'), dogruCevaplar: ['Hund'] } as Question
+    expect(sinavKopyaHatalari([a], [b])).toEqual([])
+  })
+  it('aynı metin → hata (kaynakCumle farklı olsa da)', () => {
+    const d = metinQ('d1', 'goethe', S.s0, 'heiße')
+    const s = metinQ('s1', 'uyarlama', S.s0, 'heiße', S.s11)
+    expect(sinavKopyaHatalari([s], [d]).length).toBeGreaterThan(0)
+  })
+  it('aynı metin yalnızca büyük-küçük harf / noktalama farkıyla → hata', () => {
+    const d = yazQ('d1', 'yazildi', 'Ich wohne in Berlin.', 'wohne')
+    const s = yazQ('s1', 'yazildi', 'ich wohne in berlin', 'wohne')
+    expect(sinavKopyaHatalari([s], [d]).length).toBeGreaterThan(0)
+  })
+  it('aynı parcalar (sıra ve büyük-küçük harf fark etmez) → hata', () => {
+    const d: Question = { ...ortak('d1', 'siralama', 'yazildi'), tip: 'cumle-dizme', parcalar: ['ich', 'bin', 'Anna'], dogruSiralar: [['ich', 'bin', 'Anna']] }
+    const s: Question = { ...ortak('s1', 'siralama', 'yazildi'), tip: 'cumle-dizme', parcalar: ['Anna', 'ich', 'bin'], dogruSiralar: [['ich', 'bin', 'Anna']] }
+    expect(sinavKopyaHatalari([s], [d]).length).toBeGreaterThan(0)
+  })
+  it('aynı ifade → hata', () => {
+    const d = senDYQ('d1', 'goethe', S.s10)
+    const s = { ...senDYQ('s1', 'yazildi', S.s10), kaynakCumle: undefined } as Question
+    expect(sinavKopyaHatalari([s], [d]).length).toBeGreaterThan(0)
+  })
+  it('farklı sorular → hata yok', () => {
+    const dersler = [metinQ('d1', 'goethe', S.s0, 'heiße'), senDYQ('d2', 'goethe', S.s10), dizQ('d3', 'goethe', S.s5)]
+    const sinav = [metinQ('s1', 'goethe', S.s1, 'kommen'), senDYQ('s2', 'goethe', S.s11), dizQ('s3', 'goethe', S.s6)]
+    expect(sinavKopyaHatalari(sinav, dersler)).toEqual([])
+  })
+})
+
+describe('modulKaliteHatalari (modül düzeyi kuralların bağlantısı)', () => {
+  const iki = (id: string): Question => ({
+    ...ortak(id, 'kelime', 'yazildi'),
+    tip: 'coktan-secmeli',
+    secenekler: ['a', 'b'],
+    dogru: 0,
+    ipucu: `ipucu ${id}`,
+  })
+  const dyler = (dogruSayisi: number, n: number, onek = 'dy'): Question[] =>
+    Array.from({ length: n }, (_, i) => ({
+      ...ortak(`${onek}${i}`, 'senaryo', 'yazildi'),
+      tip: 'dogru-yanlis' as const,
+      ifade: `Ich bin ${onek} ${i}.`,
+      dogru: i < dogruSayisi,
+      ipucu: `${onek} ipucu ${i}`,
+    }))
+  const girdi = (modulNo: number, dersSorulari: Question[], ekSorular: Question[] = []) => ({ modulNo, dersSorulari, ekSorular })
+
+  it('Modül 2 iki şıklı soruya izin verir, Modül 3 ve sonrası vermez', () => {
+    expect(modulKaliteHatalari(girdi(2, [iki('a')]))).toEqual([])
+    expect(modulKaliteHatalari(girdi(3, [iki('a')])).length).toBeGreaterThan(0)
+    expect(modulKaliteHatalari(girdi(8, [], [iki('s')])).length).toBeGreaterThan(0)
+  })
+  it('doğru-yanlış dengesini tüm modül sorularında (ders + sınav) arar', () => {
+    expect(modulKaliteHatalari(girdi(2, dyler(4, 4))).length).toBeGreaterThan(0)
+    expect(modulKaliteHatalari(girdi(2, dyler(2, 4)))).toEqual([])
+    // ders ve sınav ayrı ayrı 2'şer soru (4'ten az), birlikte 4/4 doğru → hata
+    expect(modulKaliteHatalari(girdi(2, dyler(2, 2, 'a'), dyler(2, 2, 'e'))).length).toBeGreaterThan(0)
+    expect(modulKaliteHatalari(girdi(2, dyler(1, 2, 'a'), dyler(1, 2, 'e')))).toEqual([])
+  })
+  it('modülde tekrarlanan ipucunu yakalar (dersler arası ve sınavla)', () => {
+    const a = { ...kelCeviri('a'), ipucu: 'Aynı' } as Question
+    const b = { ...kelCeviri('b'), ipucu: 'Aynı' } as Question
+    expect(modulKaliteHatalari(girdi(2, [a], [b])).length).toBeGreaterThan(0)
+    expect(modulKaliteHatalari(girdi(2, [a, b])).length).toBeGreaterThan(0)
+  })
+  it('sınavın ders sorusunu kopyalamasını yakalar', () => {
+    const d = metinQ('d1', 'goethe', S.s0, 'heiße')
+    const s = metinQ('s1', 'goethe', S.s0, 'heiße')
+    expect(modulKaliteHatalari(girdi(2, [d], [s])).length).toBeGreaterThan(0)
+  })
+  it('temiz modül hatasız', () => {
+    const d = { ...metinQ('d1', 'goethe', S.s0, 'heiße'), ipucu: 'bir' } as Question
+    const s = { ...metinQ('s1', 'goethe', S.s1, 'kommen'), ipucu: 'iki' } as Question
+    expect(modulKaliteHatalari(girdi(3, [d], [s]))).toEqual([])
   })
 })

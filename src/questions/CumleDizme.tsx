@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
 import type { CumleDizmeQuestion } from '../content/schema'
+import { ilkBuyuk } from '../domain/grading'
 import { createRng, hashString, shuffle } from '../domain/random'
 import type { QuestionProps } from './types'
 import { Gloss } from './Gloss'
@@ -43,7 +44,7 @@ export function CumleDizme({ soru, cevap, onCevap, kilitli, ipucu }: QuestionPro
               yayinla(sira.filter((_, p) => p !== pos))
             }}
           >
-            <Gloss metin={tok} odaklanabilir={false} />
+            <Gloss metin={pos === 0 ? ilkBuyuk(tok) : tok} odaklanabilir={false} />
           </button>
           )
         })}

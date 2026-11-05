@@ -8,11 +8,18 @@ import {
   glossKapsami,
   haritaEksikleri,
   ipucuSizintilari,
+  istisnaGerekcesizler,
   sinavEksikleri,
   tooltipSizintilari,
   type DersHaritasi,
 } from '../helpers/icerik-kontrol'
-import { bankaCumleleri, cevapKonumuHatalari, dersKaliteHatalari, soruKaynakHatalari } from '../helpers/kalite'
+import {
+  bankaCumleleri,
+  cevapKonumuHatalari,
+  dersKaliteHatalari,
+  modulKaliteHatalari,
+  soruKaynakHatalari,
+} from '../helpers/kalite'
 
 const banka = bankaCumleleri(bankaJson as unknown as Parameters<typeof bankaCumleleri>[0])
 const harita = haritaJson as unknown as DersHaritasi
@@ -26,8 +33,7 @@ describe('Faz 2 kalite testi düzeneği', () => {
   })
 
   it('harita istisna dersleri gerekçeli', () => {
-    const gerekcesiz = harita.dersler.filter((d) => d.istisna && !d.istisnaGerekcesi?.trim())
-    expect(gerekcesiz.map((d) => `${d.modulId} ders ${d.ders}`)).toEqual([])
+    expect(istisnaGerekcesizler(harita)).toEqual([])
   })
 })
 
@@ -65,6 +71,12 @@ describe.each(doluModuller.map((m) => [m.id, m] as const))('Faz 2 içerik: %s', 
     expect(ek.length).toBeGreaterThanOrEqual(8)
     expect(ek.length).toBeLessThanOrEqual(12)
     expect(ek.flatMap((q) => soruKaynakHatalari(q, banka))).toEqual([])
+  })
+
+  it('modül düzeyi kurallar: doğru-yanlış dengesi, ipucu tekrarı, sınav kopyası, en az 3 şık (Modül 3+)', () => {
+    const modulNo = Number(modul.id.replace('modul-', ''))
+    const dersSorulari = modul.partlar.flatMap((p) => p.sorular)
+    expect(modulKaliteHatalari({ modulNo, dersSorulari, ekSorular: modul.sinav?.ekSorular ?? [] })).toEqual([])
   })
 
   it('sınav ekSorular: doğru şık konumu dağılmış', () => {

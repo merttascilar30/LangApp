@@ -58,7 +58,10 @@ Her soruda `bicim` ve `kaynakTuru` dolu olmalıdır.
 - `bicim`: `bosluk` (cümle içi boşluk: şıklı `coktan-secmeli` + `metin` veya `bosluk-doldurma`), `diyalog` (`coktan-secmeli` + `diyalog`), `siralama` (`cumle-dizme`), `senaryo` (Türkçe durum tarifi, Almanca şıklar; tam cümleli `dinleme`/`ceviri`, `dogru-yanlis`), `kelime` (tek kelime: çeviri, `eslestirme`, `fiil-cekimi`, `artikel`).
 - `kaynakTuru`: `goethe` (bankadaki cümle, birebir), `uyarlama` (banka cümlesinden türetilmiş), `yazildi` (tamamen yeni).
 - `kaynakCumle`: `goethe` ve `uyarlama` için zorunlu; bankanın `modul-2`..`modul-8` bölümünde birebir bulunmalıdır. Aynı cümle bir derste en fazla 2 soruda kullanılır.
-- Şıklı `bosluk` ve `diyalog` sorularında `celdiriciNotlari` zorunludur (doğru şıkta boş, yanlış şıklarda kısa Türkçe gerekçe).
+- Şıklı `bosluk`, `diyalog` ve `senaryo` çoktan seçmeli sorularında `celdiriciNotlari` zorunludur (doğru şıkta boş, yanlış şıklarda kısa Türkçe gerekçe). Modül 3 ve sonrasında her çoktan seçmeli en az 3 şıklıdır.
+- `goethe` diyalog: yalnızca boşluklu satır doldurulunca `kaynakCumle`nin içinde olmalıdır; değilse soru `uyarlama` olur. `goethe` cümle dizmede `dogruSiralar[0]`, `kaynakCumle` ile eşleşir.
+- Cümle dizme parçaları cümle içindeki doğal yazımla yazılır (`im Februar`, `wir`; isimler ve `Sie` büyük). Ekran, cevap satırının ilk parçasını ve `Doğru cevap` metnini büyük harfle gösterir; puanlama ham parçalarla çalışır. `Ich`, `Wir`, `Im`, `Der` gibi büyük harfli parçalar kalite testinde hata verir.
+- Modül düzeyinde: en az 4 `dogru-yanlis` varsa doğru oranı %30–%70; aynı `ipucu` iki kez kullanılamaz; sınav, ders sorularının kopyası olamaz.
 
 ### Kota tablosu (ders başına)
 
@@ -78,6 +81,14 @@ node scripts/ders-adaylari.mjs 9     # veya: npm run adaylar -- 9
 ```
 
 Dersin gramerini, kendi modülünden sonra diğer modüllerden (Modül 1 hariç) aday banka cümlelerini, ilgili kelimeleri ve her cümlenin mevcut derslerde `kaynakCumle` olarak kullanıldığı yerleri markdown olarak yazar. Bilinmeyen ders için çıkış kodu 1'dir. Yalnızca okur, dosya yazmaz.
+
+### Modül raporu scripti
+
+```
+node scripts/modul-raporu.mjs modul-2     # veya: npm run rapor -- modul-2
+```
+
+Ders başına soru sayısı, biçim ve kaynak dağılımı, katı `goethe` oranı (kaynağı tek satır olan `goethe` diyaloglar sayılmaz), doğru şık konumları ve ders anlatımında hiç geçmeyen şık sözcükleri (otomatik kural değil, inceleme listesi) yazar. Bilinmeyen modül için çıkış kodu 1'dir. Yalnızca okur, dosya yazmaz.
 
 ## Ayrıntılar
 

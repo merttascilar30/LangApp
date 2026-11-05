@@ -58,6 +58,14 @@ export function doluCumle(q: Question): string | null {
   return satir ? doldur(satir.metin) : null
 }
 
+/**
+ * Cümle dizmede cevap satırının ilk parçasını ekranda büyük harfle gösterir (yalnızca ilk harf).
+ * Yalnızca gösterim içindir: puanlama ve kayıtlı cevap ham parçalarla çalışır.
+ */
+export function ilkBuyuk(tok: string): string {
+  return tok.charAt(0).toUpperCase() + tok.slice(1)
+}
+
 export function correctAnswerText(q: Question): string {
   switch (q.tip) {
     case 'coktan-secmeli':
@@ -71,7 +79,7 @@ export function correctAnswerText(q: Question): string {
     case 'fiil-cekimi':
       return q.satirlar.map((s) => `${s.zamir} ${s.cevap}`).join(', ')
     case 'cumle-dizme':
-      return q.dogruSiralar[0].join(' ')
+      return ilkBuyuk(q.dogruSiralar[0].join(' '))
     case 'eslestirme':
       return q.ciftler.map((c) => `${c.sol} = ${c.sag}`).join('; ')
     case 'dogru-yanlis':
