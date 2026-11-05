@@ -9,7 +9,8 @@
     "lint": "oxlint",
     "test": "vitest run",
     "typecheck": "tsc -b --noEmit",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "adaylar": "node scripts/ders-adaylari.mjs"
   },
   "dependencies": {
     "react": "^19.3.1",

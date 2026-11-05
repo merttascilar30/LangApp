@@ -45,6 +45,37 @@ describe('questionSchema', () => {
   })
 })
 
+describe('Faz 2 alanları', () => {
+  const cs = samples['coktan-secmeli'] as object
+  it('accepts bicim / kaynakTuru / kaynakCumle', () => {
+    const r = questionSchema.parse({ ...cs, bicim: 'diyalog', kaynakTuru: 'goethe', kaynakCumle: 'Wie heißt du?' })
+    expect(r.bicim).toBe('diyalog')
+    expect(r.kaynakTuru).toBe('goethe')
+    expect(r.kaynakCumle).toBe('Wie heißt du?')
+  })
+  it('rejects bad bicim, kaynakTuru and empty kaynakCumle', () => {
+    expect(() => questionSchema.parse({ ...cs, bicim: 'x' })).toThrow()
+    expect(() => questionSchema.parse({ ...cs, kaynakTuru: 'x' })).toThrow()
+    expect(() => questionSchema.parse({ ...cs, kaynakCumle: '' })).toThrow()
+  })
+  it('accepts metin / diyalog / celdiriciNotlari on coktan-secmeli', () => {
+    const r = questionSchema.parse({
+      ...cs,
+      metin: 'Ich ___ Anna.',
+      diyalog: [{ kim: 'A', metin: 'Hallo' }, { kim: 'B', metin: '___' }],
+      celdiriciNotlari: ['', 'not'],
+    })
+    expect(r.tip === 'coktan-secmeli' && r.celdiriciNotlari).toEqual(['', 'not'])
+  })
+  it('rejects diyalog with fewer than 2 lines', () => {
+    expect(() => questionSchema.parse({ ...cs, diyalog: [{ kim: 'A', metin: 'x' }] })).toThrow()
+  })
+  it('keeps ceviri.kaynak intact', () => {
+    const r = questionSchema.parse({ ...(samples['ceviri'] as object), kaynakTuru: 'yazildi' })
+    expect(r.tip === 'ceviri' && r.kaynak).toBe('Merhaba')
+  })
+})
+
 describe('sinavSchema', () => {
   it('applies defaults', () => {
     expect(sinavSchema.parse({ ekSorular: [] })).toEqual({ soruSayisi: 25, gecmeNotu: 80, ekSorular: [] })

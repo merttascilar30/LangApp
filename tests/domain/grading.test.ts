@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { correctAnswerText, gradeQuestion, scorePercent } from '../../src/domain/grading'
+import { celdiriciNotu, correctAnswerText, doluCumle, gradeQuestion, scorePercent } from '../../src/domain/grading'
 import type { Question } from '../../src/content/schema'
 
 const base = { id: 'q', soru: 's', aciklama: 'a' }
@@ -122,5 +122,47 @@ describe('scorePercent', () => {
     expect(scorePercent(2, 3)).toBeCloseTo(66.6667, 3)
     expect(scorePercent(0, 0)).toBe(0)
     expect(scorePercent(29, 100)).toBe(29)
+  })
+})
+
+describe('celdiriciNotu', () => {
+  const q = { ...cs, celdiriciNotlari: ['', 'neden b', 'neden c'] } as Question
+  it('yanlış şıkta notu döner', () => {
+    expect(celdiriciNotu(q, { tip: 'coktan-secmeli', secilen: 2 })).toBe('neden c')
+  })
+  it('doğru şıkta, null cevapta, notsuz soruda ve başka tipte null', () => {
+    expect(celdiriciNotu(q, { tip: 'coktan-secmeli', secilen: 1 })).toBeNull()
+    expect(celdiriciNotu(q, null)).toBeNull()
+    expect(celdiriciNotu(cs, { tip: 'coktan-secmeli', secilen: 0 })).toBeNull()
+    expect(celdiriciNotu(bd, { tip: 'bosluk-doldurma', metin: 'x' })).toBeNull()
+    expect(celdiriciNotu(q, { tip: 'artikel', secilen: 'der' })).toBeNull()
+  })
+  it('boş not ve aralık dışı seçim null', () => {
+    expect(celdiriciNotu(q, { tip: 'coktan-secmeli', secilen: 0 })).toBeNull()
+    expect(celdiriciNotu(q, { tip: 'coktan-secmeli', secilen: 7 })).toBeNull()
+  })
+})
+
+describe('doluCumle', () => {
+  it('metin: boşluk doğru şıkla dolar', () => {
+    const q: Question = { ...base, tip: 'coktan-secmeli', metin: 'Wir ___ aus Berlin.', secenekler: ['kommen', 'kommt'], dogru: 0 }
+    expect(doluCumle(q)).toBe('Wir kommen aus Berlin.')
+  })
+  it('diyalog: boşluk içeren satırı doldurur', () => {
+    const q: Question = {
+      ...base,
+      tip: 'coktan-secmeli',
+      diyalog: [
+        { kim: 'A', metin: 'Woher ___ Sie?' },
+        { kim: 'B', metin: 'Aus Rom.' },
+      ],
+      secenekler: ['kommt', 'kommen'],
+      dogru: 1,
+    }
+    expect(doluCumle(q)).toBe('Woher kommen Sie?')
+  })
+  it('düz soru null', () => {
+    expect(doluCumle(cs)).toBeNull()
+    expect(doluCumle(bd)).toBeNull()
   })
 })

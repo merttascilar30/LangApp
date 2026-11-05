@@ -47,6 +47,38 @@ Her yeni modülde anlam balonlarının tam listesi elle okunmalıdır: otomatik 
 
 Soru `tip` değerleri: `coktan-secmeli`, `bosluk-doldurma`, `artikel`, `fiil-cekimi`, `cumle-dizme`, `eslestirme`, `dogru-yanlis`, `dinleme`, `ceviri`.
 
+## Faz 2 içerik kuralları (Modül 2–8)
+
+Modül 1 dışındaki her ders `npm test` ile `tests/content/faz2-icerik.test.ts` tarafından denetlenir. Ders listesi ve her dersin arama kalıpları `content/ders-haritasi.json` içindedir (`istisna: true` dersler için `istisnaGerekcesi` zorunludur).
+
+### Soru biçimi ve kaynak etiketleri
+
+Her soruda `bicim` ve `kaynakTuru` dolu olmalıdır.
+
+- `bicim`: `bosluk` (cümle içi boşluk: şıklı `coktan-secmeli` + `metin` veya `bosluk-doldurma`), `diyalog` (`coktan-secmeli` + `diyalog`), `siralama` (`cumle-dizme`), `senaryo` (Türkçe durum tarifi, Almanca şıklar; tam cümleli `dinleme`/`ceviri`, `dogru-yanlis`), `kelime` (tek kelime: çeviri, `eslestirme`, `fiil-cekimi`, `artikel`).
+- `kaynakTuru`: `goethe` (bankadaki cümle, birebir), `uyarlama` (banka cümlesinden türetilmiş), `yazildi` (tamamen yeni).
+- `kaynakCumle`: `goethe` ve `uyarlama` için zorunlu; bankanın `modul-2`..`modul-8` bölümünde birebir bulunmalıdır. Aynı cümle bir derste en fazla 2 soruda kullanılır.
+- Şıklı `bosluk` ve `diyalog` sorularında `celdiriciNotlari` zorunludur (doğru şıkta boş, yanlış şıklarda kısa Türkçe gerekçe).
+
+### Kota tablosu (ders başına)
+
+| Kural | Değer |
+|---|---|
+| Soru sayısı, tip çeşitliliği | 15–25, en az 4 soru tipi |
+| `kelime` biçimi | en fazla %15 |
+| `bosluk`, `diyalog`, `siralama`, `senaryo` | her biri en az 2 soru (`senaryo` için en az 2'si `coktan-secmeli`) |
+| `goethe` | en az %50 (`istisna` derste aranmaz) |
+| `yazildi` | en fazla %15 (`istisna` derste %40) |
+| İpucu, trick, sözlük | Modül 1 kuralları: her soruda `ipucu`, 2–4 trick, Almanca kelime kapsaması en az %80 |
+
+### Aday cümle scripti
+
+```
+node scripts/ders-adaylari.mjs 9     # veya: npm run adaylar -- 9
+```
+
+Dersin gramerini, kendi modülünden sonra diğer modüllerden (Modül 1 hariç) aday banka cümlelerini, ilgili kelimeleri ve her cümlenin mevcut derslerde `kaynakCumle` olarak kullanıldığı yerleri markdown olarak yazar. Bilinmeyen ders için çıkış kodu 1'dir. Yalnızca okur, dosya yazmaz.
+
 ## Ayrıntılar
 
 Tasarım ve uygulama planları için `docs/superpowers/specs` ve `docs/superpowers/plans` klasörlerine bakın.

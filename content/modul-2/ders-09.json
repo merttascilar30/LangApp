@@ -1,0 +1,583 @@
+{
+  "id": "m2-d09",
+  "ders": 9,
+  "baslik": "sein Fiili",
+  "videoId": "vDQht96Rp0k",
+  "ozet": [
+    "Sein (olmak) düzensiz bir fiildir; ekleri düzenli fiillerdeki gibi köke eklemekle bulunmaz, çekimi bir bütün olarak öğrenilir.",
+    "Çekim: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind.",
+    "Wir, sie (onlar) ve Sie için fiil aynıdır: sind. Çoğul isimler de sind alır: Peter und Helmut sind meine Söhne.",
+    "Tekil isimlerle ist kullanılır: Mein Name ist Thomas Schmidt. Das ist meine Heimat.",
+    "Yaş, ad, medeni durum ve uyruk sein ile söylenir: Ich bin dreiundzwanzig. Ich bin verheiratet."
+  ],
+  "kelimeler": [
+    {
+      "de": "sein",
+      "tr": "olmak"
+    },
+    {
+      "de": "verheiratet",
+      "tr": "evli"
+    },
+    {
+      "de": "ledig",
+      "tr": "bekâr"
+    },
+    {
+      "de": "geboren",
+      "tr": "doğmuş"
+    },
+    {
+      "de": "fertig",
+      "tr": "hazır, bitmiş"
+    },
+    {
+      "de": "kalt",
+      "tr": "soğuk"
+    },
+    {
+      "de": "der Name",
+      "tr": "isim, ad",
+      "artikel": "der"
+    },
+    {
+      "de": "der Ausweis",
+      "tr": "kimlik",
+      "artikel": "der"
+    },
+    {
+      "de": "das Hobby",
+      "tr": "hobi",
+      "artikel": "das"
+    },
+    {
+      "de": "die Heimat",
+      "tr": "vatan, memleket",
+      "artikel": "die"
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m2-d09-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Yeni tanıştığın birine kaç yaşında olduğunu söylüyorsun. Fiilin doğru çekimini seç.",
+      "metin": "Ich ___ dreiundzwanzig.",
+      "secenekler": [
+        "bist",
+        "bin",
+        "ist",
+        "sind"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`bist` `du` ile gelir; konuşan kişi kendinden söz ediyor, yani `ich`.",
+        "",
+        "`ist` `er/sie/es` ve tekil isimlerle gelir; bu cümlenin öznesi `ich`.",
+        "`sind` `wir`, `sie` (onlar), `Sie` ve çoğul isimlerle gelir; bu cümlenin öznesi `ich`."
+      ],
+      "aciklama": "Özne \"ich\" olunca sein fiili bin olur: Ich bin dreiundzwanzig. Almanca'da yaş sein ile söylenir.",
+      "ipucu": "Düzensiz bir fiil olduğu için eki köke eklemekle bulamazsın; kendine ait biçimi hatırla.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich bin dreiundzwanzig."
+    },
+    {
+      "id": "m2-d09-q02",
+      "tip": "coktan-secmeli",
+      "soru": "Resmî bir formu dolduruyorsun: adın Thomas Schmidt. Fiilin doğru çekimini seç.",
+      "metin": "Mein Name ___ Thomas Schmidt.",
+      "secenekler": [
+        "sind",
+        "bin",
+        "ist",
+        "seid"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`sind` `wir`, `sie` (onlar), `Sie` ve çoğul isimlerle gelir; `Name` tekil bir isimdir.",
+        "`bin` yalnızca `ich` ile gelir; özne burada `Name`, yani üçüncü tekil kişi.",
+        "",
+        "`seid` yalnızca `ihr` ile gelir; özne `Name` tekildir."
+      ],
+      "aciklama": "Özne tekil bir isim olunca (er/sie/es gibi) sein fiili ist olur: Mein Name ist Thomas Schmidt.",
+      "ipucu": "Özne bir isim; yerine hangi kişi zamirinin geçebileceğini düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Mein Name ist Thomas Schmidt."
+    },
+    {
+      "id": "m2-d09-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Hobilerini sayıyorsun. Fiilin doğru çekimini seç.",
+      "metin": "Meine Hobbys ___ Wandern und Schwimmen.",
+      "secenekler": [
+        "ist",
+        "sind",
+        "bist",
+        "bin"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`ist` tekil isimlerle gelir; `Hobbys` çoğuldur.",
+        "",
+        "`bist` `du` ile gelir; özne `Hobbys` çoğul bir isimdir.",
+        "`bin` yalnızca `ich` ile gelir; özne `Hobbys` çoğul bir isimdir."
+      ],
+      "aciklama": "Özne çoğul bir isim olunca sein fiili sind olur: Meine Hobbys sind Wandern und Schwimmen.",
+      "ipucu": "Özne birden fazla şey bildirdiğinde fiilin hangi biçime geçtiğini düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Meine Hobbys sind Wandern und Schwimmen."
+    },
+    {
+      "id": "m2-d09-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Zarfın üstünde senin adın yazıyor, yani alıcı sensin. Fiilin doğru çekimini seç.",
+      "metin": "Auf dem Brief steht dein Name, also ___ du der Empfänger.",
+      "secenekler": [
+        "bin",
+        "ist",
+        "bist",
+        "seid"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`bin` yalnızca `ich` ile gelir; burada özne `du`.",
+        "`ist` `er/sie/es` ve tekil isimlerle gelir; burada özne `du`.",
+        "",
+        "`seid` yalnızca `ihr` ile gelir; burada özne tek kişi olan `du`."
+      ],
+      "aciklama": "Özne \"du\" olunca sein fiili bist olur: du bist.",
+      "ipucu": "Karşındaki tek kişiye hitap eden zamiri bul ve ona ait biçimi seç.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Auf dem Brief steht dein Name, also bist du der Empfänger."
+    },
+    {
+      "id": "m2-d09-q05",
+      "tip": "coktan-secmeli",
+      "soru": "İsviçre'den geldiğini ve orasının memleketin olduğunu söylüyorsun. Fiilin doğru çekimini seç.",
+      "metin": "Ich komme aus der Schweiz. Das ___ meine Heimat.",
+      "secenekler": [
+        "ist",
+        "sind",
+        "bin",
+        "bist"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`sind` çoğul adlarla gelir; `Heimat` tekildir.",
+        "`bin` yalnızca `ich` ile gelir; özne burada `Das`.",
+        "`bist` `du` ile gelir; özne burada `Das`."
+      ],
+      "aciklama": "\"Das\" ile ve tekil bir isimle (meine Heimat) sein fiili ist olur: Das ist meine Heimat.",
+      "ipucu": "İşaret zamirinin tekil bir şeyi gösterdiğini göz önünde tut.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich komme aus der Schweiz. Das ist meine Heimat.",
+      "sozlukEk": {
+        "das": "bu, şu (işaret zamiri)"
+      }
+    },
+    {
+      "id": "m2-d09-q06",
+      "tip": "bosluk-doldurma",
+      "soru": "Karşındaki kişi İspanyol olduğunu söyledi, sen de İspanyol olduğunu belirtiyorsun. Boşluğa \"olmak\" fiilini (sein) \"ben\" için çekerek yaz.",
+      "metin": "Ich ___ auch Spanier.",
+      "dogruCevaplar": [
+        "bin"
+      ],
+      "aciklama": "Özne \"ich\" olunca sein fiili bin olur: Ich bin auch Spanier.",
+      "ipucu": "Boşluk, konuşanın kendi uyruğunu bildiren cümlenin fiilini bekliyor.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich bin auch Spanier."
+    },
+    {
+      "id": "m2-d09-q07",
+      "tip": "coktan-secmeli",
+      "soru": "Kayıt görevlisi Herr Aydın'a medeni durumunu resmî biçimde soruyor. Görevlinin sorusunu tamamla.",
+      "diyalog": [
+        {
+          "kim": "Frau Keller",
+          "metin": "___ Sie verheiratet?"
+        },
+        {
+          "kim": "Herr Aydın",
+          "metin": "Nein. Ledig."
+        }
+      ],
+      "secenekler": [
+        "Bist",
+        "Sind",
+        "Ist",
+        "Seid"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`Bist` `du` ile gelir; resmî `Sie` ile `Sind` kullanılır.",
+        "",
+        "`Ist` tekil üçüncü kişiyle gelir; resmî `Sie` ile `Sind` kullanılır.",
+        "`Seid` yalnızca `ihr` ile gelir; resmî `Sie` ile `Sind` kullanılır."
+      ],
+      "aciklama": "Resmî \"Sie\" ile sein fiili sind olur: Sind Sie verheiratet?",
+      "ipucu": "Görevli yabancı birine \"siz\" diye hitap ediyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Sind Sie verheiratet? – Nein. Ledig."
+    },
+    {
+      "id": "m2-d09-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Röportajda Frau Hofer çocuklarını tanıtıyor. Cevabını tamamla.",
+      "diyalog": [
+        {
+          "kim": "Herr Lang",
+          "metin": "Haben Sie Kinder?"
+        },
+        {
+          "kim": "Frau Hofer",
+          "metin": "Ja. Peter und Helmut ___ meine Söhne."
+        }
+      ],
+      "secenekler": [
+        "ist",
+        "sind",
+        "bin",
+        "seid"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`ist` tekil özneyle gelir; `Peter und Helmut` iki kişidir.",
+        "",
+        "`bin` yalnızca `ich` ile gelir; özne `Peter und Helmut` birden fazla kişidir.",
+        "`seid` yalnızca `ihr` ile gelir; özne `Peter und Helmut` üçüncü kişilerdir."
+      ],
+      "aciklama": "İki kişiyi birlikte (Peter und Helmut) özne yapınca sein fiili sind olur.",
+      "ipucu": "İki isim \"und\" ile bağlandığında özne tekil mi çoğul mu olur, bir düşün.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Peter und Helmut sind meine Söhne."
+    },
+    {
+      "id": "m2-d09-q09",
+      "tip": "coktan-secmeli",
+      "soru": "İki kişi Herr Klein'ı arıyor. Cevap veren kişinin cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Anna",
+          "metin": "Ist Herr Klein schon da?"
+        },
+        {
+          "kim": "Tom",
+          "metin": "Da hinten ___ er ja."
+        }
+      ],
+      "secenekler": [
+        "ist",
+        "sind",
+        "bist",
+        "bin"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`sind` `wir`, `sie` (onlar) ve `Sie` ile gelir; `er` ile `ist` kullanılır.",
+        "`bist` `du` ile gelir; Tom üçüncü bir erkekten, yani `er`den söz ediyor.",
+        "`bin` yalnızca `ich` ile gelir; Tom üçüncü bir erkekten, yani `er`den söz ediyor."
+      ],
+      "aciklama": "Özne \"er\" olunca sein fiili ist olur: Da hinten ist er ja.",
+      "ipucu": "Tom konuşan da karşısındaki de değil, üçüncü bir erkekten söz ediyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Da hinten ist er ja.",
+      "sozlukEk": {
+        "ja": "işte (vurgu sözcüğü)"
+      }
+    },
+    {
+      "id": "m2-d09-q10",
+      "tip": "coktan-secmeli",
+      "soru": "Otel resepsiyonunda kimliğini uzatıp \"İşte kimliğim\" diyorsun. Hangi cümleyi söylersin?",
+      "secenekler": [
+        "Hier ist mein Ausweis.",
+        "Hier bin mein Ausweis.",
+        "Hier sind mein Ausweis.",
+        "Hier bist mein Ausweis."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`bin` yalnızca `ich` ile gelir; özne burada `mein Ausweis`.",
+        "`sind` çoğul özneyle gelir; `mein Ausweis` tekildir.",
+        "`bist` yalnızca `du` ile gelir; özne burada `mein Ausweis`."
+      ],
+      "aciklama": "Özne tekil bir isimse sein fiili ist olur: Hier ist mein Ausweis.",
+      "ipucu": "Uzattığın şey tek bir nesne, yani üçüncü tekil kişi gibi çekilir.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Hier ist mein Ausweis."
+    },
+    {
+      "id": "m2-d09-q11",
+      "tip": "coktan-secmeli",
+      "soru": "Pencere açık ve üşüyorsun. Odadaki arkadaşına durumu söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Mir ist kalt.",
+        "Ich bin kalt.",
+        "Mir bin kalt.",
+        "Mir sind kalt."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`Ich bin kalt` üşümeyi değil, \"ben soğuk biriyim\" gibi bir anlamı anlatır.",
+        "`bin` yalnızca `ich` ile gelir; `mir` ile bu kalıpta `ist` kullanılır.",
+        "`sind` çoğul özneyle gelir; üşümeyi anlatan kalıpta `ist` kullanılır."
+      ],
+      "aciklama": "Üşümek Almanca'da sabit bir kalıpla söylenir: Mir ist kalt. Kalıbı olduğu gibi öğren.",
+      "ipucu": "Bu cümle kelime kelime çevrilemeyen hazır bir kalıptır.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Mir ist kalt."
+    },
+    {
+      "id": "m2-d09-q12",
+      "tip": "dinleme",
+      "soru": "Yeni tanıştığın biri yaşadığı ülkeyi anlatıyor. Duyduğun cümlenin anlamı nedir?",
+      "okunacak": "Das Leben in diesem Land ist teuer.",
+      "mod": "sec",
+      "secenekler": [
+        "Bu ülkede hayat pahalı.",
+        "Bu ülkede hayat ucuz.",
+        "Bu şehirde hayat pahalı.",
+        "Bu ülkede hayat güzel."
+      ],
+      "dogruCevaplar": [
+        "Bu ülkede hayat pahalı."
+      ],
+      "aciklama": "\"Das Leben in diesem Land ist teuer\" bu ülkede hayatın pahalı olduğunu söyler; fiil ist tekil özne \"Leben\" ile uyumludur.",
+      "ipucu": "Cümlenin sonundaki sıfata ve \"Land\" sözcüğüne dikkat et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das Leben in diesem Land ist teuer."
+    },
+    {
+      "id": "m2-d09-q13",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Zagreb'de doğdum.",
+      "parcalar": [
+        "Ich",
+        "bin",
+        "in Zagreb",
+        "geboren"
+      ],
+      "dogruSiralar": [
+        [
+          "Ich",
+          "bin",
+          "in Zagreb",
+          "geboren"
+        ],
+        [
+          "in Zagreb",
+          "bin",
+          "Ich",
+          "geboren"
+        ],
+        [
+          "geboren",
+          "bin",
+          "Ich",
+          "in Zagreb"
+        ]
+      ],
+      "aciklama": "Çekimli sein fiili ikinci sırada durur ve geboren sonda kalır; yer grubu başa geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Çekimli fiil ikinci öğe olarak kalır.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich bin in Zagreb geboren."
+    },
+    {
+      "id": "m2-d09-q14",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Giriş köşede.",
+      "parcalar": [
+        "Der Eingang",
+        "ist",
+        "um die Ecke"
+      ],
+      "dogruSiralar": [
+        [
+          "Der Eingang",
+          "ist",
+          "um die Ecke"
+        ],
+        [
+          "um die Ecke",
+          "ist",
+          "Der Eingang"
+        ]
+      ],
+      "aciklama": "Sein fiili de çekimli fiildir ve ikinci sırada durur; yer grubu başa geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Fiil sein olsa da cümlede yine ikinci öğe olur.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Der Eingang ist um die Ecke."
+    },
+    {
+      "id": "m2-d09-q15",
+      "tip": "ceviri",
+      "soru": "Arkadaşına hazır olup olmadığını soruyorsun: \"Hazır mısın?\" Almanca'ya çevir. (hazır = fertig)",
+      "kaynak": "Hazır mısın?",
+      "dogruCevaplar": [
+        "Bist du fertig",
+        "Bist du bereit"
+      ],
+      "aciklama": "\"Sen\" için sein fiili bist olur ve soruda özneden önce gelir: Bist du fertig?",
+      "ipucu": "Karşındaki tek kişiye hitap ettiğin için ona uygun sein biçimini kur.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Bist du fertig?"
+    },
+    {
+      "id": "m2-d09-q16",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Thomas Schmidt adlı kişinin ön adını ve soyadını ayırt etmek için şöyle yazıyorsun:",
+      "ifade": "Mein Vorname ist Thomas; Schmidt ist der Familienname.",
+      "dogru": true,
+      "aciklama": "Doğru. İki özne de tekil olduğu için sein fiili ist olur: Mein Vorname ist Thomas; Schmidt ist der Familienname.",
+      "ipucu": "Her iki yan cümlede özneyi bul ve fiille uyuşup uyuşmadığına bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Mein Vorname ist Thomas; Schmidt ist der Familienname."
+    },
+    {
+      "id": "m2-d09-q17",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Yeni taşındığınızı komşuya anlatırken kendin ve arkadaşın adına şöyle yazıyorsun:",
+      "ifade": "Wir ist neu hier.",
+      "dogru": false,
+      "aciklama": "Yanlış. Özne \"wir\" olduğu için sein fiili sind olmalı: Wir sind neu hier.",
+      "ipucu": "Özne ile fiilin kişi bakımından uyuşup uyuşmadığını kontrol et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Wir sind neu hier. Wir möchten Sie kennenlernen."
+    },
+    {
+      "id": "m2-d09-q18",
+      "tip": "fiil-cekimi",
+      "soru": "\"sein\" fiilini her zamire göre çek.",
+      "fiil": "sein",
+      "satirlar": [
+        {
+          "zamir": "ich",
+          "cevap": "bin",
+          "verilen": true
+        },
+        {
+          "zamir": "du",
+          "cevap": "bist"
+        },
+        {
+          "zamir": "er/sie/es",
+          "cevap": "ist"
+        },
+        {
+          "zamir": "wir",
+          "cevap": "sind"
+        },
+        {
+          "zamir": "ihr",
+          "cevap": "seid"
+        },
+        {
+          "zamir": "sie/Sie",
+          "cevap": "sind"
+        }
+      ],
+      "aciklama": "Sein düzensizdir: bin, bist, ist, sind, seid, sind. Wir, sie ve Sie için fiil aynıdır.",
+      "ipucu": "Bu fiilde kök sabit kalmaz; her kişi için ayrı bir biçim vardır.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m2-d09-q19",
+      "tip": "eslestirme",
+      "soru": "Zamirleri sein fiilinin çekimiyle eşleştir.",
+      "ciftler": [
+        {
+          "sol": "ich",
+          "sag": "bin"
+        },
+        {
+          "sol": "du",
+          "sag": "bist"
+        },
+        {
+          "sol": "er",
+          "sag": "ist"
+        },
+        {
+          "sol": "wir",
+          "sag": "sind"
+        },
+        {
+          "sol": "ihr",
+          "sag": "seid"
+        }
+      ],
+      "aciklama": "ich bin, du bist, er ist, wir sind, ihr seid.",
+      "ipucu": "Önce kendin ve karşındaki için olan biçimleri eşle, kalanları sonra ele.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m2-d09-q20",
+      "tip": "coktan-secmeli",
+      "soru": "Öğretmen sınıfa girip çocuklara sesleniyor. Öğretmenin sorusunu tamamla.",
+      "diyalog": [
+        {
+          "kim": "Frau Becker",
+          "metin": "Guten Morgen, Kinder! ___ ihr alle da?"
+        },
+        {
+          "kim": "Lena",
+          "metin": "Ja, wir sind alle hier."
+        }
+      ],
+      "secenekler": [
+        "Seid",
+        "Bist",
+        "Sind",
+        "Ist"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`Bist` yalnızca `du` ile gelir; birden fazla kişiye hitap ederken `ihr` kullanılır.",
+        "`Sind` `wir`, `sie` (onlar) ve `Sie` ile gelir; `ihr` ile `Seid` kullanılır.",
+        "`Ist` tekil üçüncü kişiyle gelir; `ihr` ile `Seid` kullanılır."
+      ],
+      "aciklama": "Birden fazla tanıdık kişiye hitap eden \"ihr\" ile sein fiili seid olur: Seid ihr alle da?",
+      "ipucu": "Öğretmen sınıfın tamamına sen yerine kullanılan çoğul zamirle sesleniyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "yazildi"
+    }
+  ],
+  "trickler": [
+    {
+      "baslik": "Çekimi bir bütün olarak ezberle",
+      "metin": "Sein düzensizdir, kökten türetilemez: bin, bist, ist, sind, seid, sind. Tabloyu tek parça olarak öğren."
+    },
+    {
+      "baslik": "wir, sie ve Sie hep sind",
+      "metin": "Wir, sie (onlar) ve resmî Sie için sein fiili aynıdır: sind. Çoğul isimler de aynı fiili alır: Peter und Helmut sind meine Söhne."
+    },
+    {
+      "baslik": "Mir ist kalt: üşümek için hazır kalıp",
+      "metin": "Üşüdüğünü söylerken Mir ist kalt dersin. Ich bin kalt başka bir anlama gelir; kalıbı olduğu gibi öğren."
+    }
+  ]
+}

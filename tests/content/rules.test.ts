@@ -56,7 +56,58 @@ describe('checkQuestionRules', () => {
   })
 })
 
-const mkPart = (n: number): Part => ({
+describe('checkQuestionRules Faz 2', () => {
+  const cs = { ...base, tip: 'coktan-secmeli' as const, secenekler: ['a', 'b', 'c'], dogru: 1 }
+  const expectOne = (q: Question, icerir: string) => {
+    const errs = checkQuestionRules('d.json', q)
+    expect(errs).toHaveLength(1)
+    expect(errs[0].soruId).toBe('q1')
+    expect(errs[0].mesaj).toContain(icerir)
+  }
+
+  it('valid metin / diyalog / notlar give no errors', () => {
+    expect(checkQuestionRules('d.json', { ...cs, metin: 'Ich ___ Anna.' })).toEqual([])
+    expect(
+      checkQuestionRules('d.json', {
+        ...cs,
+        diyalog: [{ kim: 'A', metin: 'Hallo' }, { kim: 'B', metin: 'Ich ___' }],
+        celdiriciNotlari: ['x', '', 'y'],
+        kaynakTuru: 'goethe',
+        kaynakCumle: 'Hallo',
+      }),
+    ).toEqual([])
+  })
+  it.each(['Ich bin Anna.', 'Ich ___ ___ Anna.'])('metin ___ count: %s', (metin) => {
+    expectOne({ ...cs, metin }, 'metin')
+  })
+  it.each([
+    [[{ kim: 'A', metin: 'Hallo' }, { kim: 'B', metin: 'Tag' }]],
+    [[{ kim: 'A', metin: '___' }, { kim: 'B', metin: '___' }]],
+    [[{ kim: 'A', metin: '___ ___' }, { kim: 'B', metin: 'Tag' }]],
+  ])('diyalog ___ rule %#', (diyalog) => {
+    expectOne({ ...cs, diyalog }, 'diyalog')
+  })
+  it('metin and diyalog together', () => {
+    expectOne(
+      { ...cs, metin: 'a ___', diyalog: [{ kim: 'A', metin: '___' }, { kim: 'B', metin: 'x' }] },
+      'birlikte',
+    )
+  })
+  it('celdiriciNotlari length mismatch', () => {
+    expectOne({ ...cs, celdiriciNotlari: ['x', ''] }, 'celdiriciNotlari')
+  })
+  it('celdiriciNotlari correct slot not empty', () => {
+    expectOne({ ...cs, celdiriciNotlari: ['x', 'y', 'z'] }, 'celdiriciNotlari')
+  })
+  it.each(['goethe', 'uyarlama'] as const)('kaynakTuru %s requires kaynakCumle', (kaynakTuru) => {
+    expectOne({ ...cs, kaynakTuru }, 'kaynakCumle')
+  })
+  it('kaynakTuru yazildi needs no kaynakCumle', () => {
+    expect(checkQuestionRules('d.json', { ...cs, kaynakTuru: 'yazildi' })).toEqual([])
+  })
+})
+
+const mkPart =(n: number): Part => ({
   id: 'p1', ders: 1, baslik: 'B', videoId: 'v', ozet: ['a', 'b', 'c'], kelimeler: [],
   sorular: Array.from({ length: n }, (_, i) => ({
     ...base, id: `q${i}`, tip: 'dogru-yanlis' as const, ifade: 'x', dogru: true,

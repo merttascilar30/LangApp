@@ -1,0 +1,610 @@
+{
+  "id": "m2-d10",
+  "ders": 10,
+  "baslik": "haben ve sein Farkı",
+  "videoId": "YFXBI1-aDsE",
+  "ozet": [
+    "Haben (sahip olmak) düzensizdir: ich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben. Wir, sie ve Sie ile fiil mastarla aynıdır.",
+    "Sahip olunan şey haben ile söylenir: Ich habe ein neues Auto. Die Wohnung hat drei Zimmer.",
+    "Kimlik, yaş, medeni durum gibi bilgiler sein ile söylenir: Ich bin dreiundzwanzig. Yaş için haben kullanılmaz (Ich habe 23 Jahre denmez).",
+    "Hunger, Durst ve Fieber birer isimdir ve haben ile kullanılır: Ich habe Hunger. Ich bin Hunger denmez.",
+    "Bir cümlede iki bilgi varsa her biri kendi fiilini alır: Ich bin verheiratet und habe drei Kinder."
+  ],
+  "kelimeler": [
+    {
+      "de": "haben",
+      "tr": "sahip olmak"
+    },
+    {
+      "de": "der Hunger",
+      "tr": "açlık",
+      "artikel": "der"
+    },
+    {
+      "de": "der Durst",
+      "tr": "susuzluk",
+      "artikel": "der"
+    },
+    {
+      "de": "das Fieber",
+      "tr": "ateş (hastalık)",
+      "artikel": "das"
+    },
+    {
+      "de": "die Zeit",
+      "tr": "zaman, vakit",
+      "artikel": "die"
+    },
+    {
+      "de": "die Frage",
+      "tr": "soru",
+      "artikel": "die"
+    },
+    {
+      "de": "das Auto",
+      "tr": "araba",
+      "artikel": "das"
+    },
+    {
+      "de": "die Wohnung",
+      "tr": "daire, ev",
+      "artikel": "die"
+    },
+    {
+      "de": "müde",
+      "tr": "yorgun"
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m2-d10-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Yeni bir araban olduğunu anlatıyorsun. Fiilin doğru çekimini seç.",
+      "metin": "Ich ___ ein neues Auto.",
+      "secenekler": [
+        "hat",
+        "hast",
+        "habe",
+        "haben"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`hat` `er/sie/es` ve tekil isimlerle gelir; bu cümlenin öznesi `ich`.",
+        "`hast` `du` ile gelir; konuşan kişi kendinden söz ediyor, yani `ich`.",
+        "",
+        "`haben` `wir`, `sie` (onlar) ve `Sie` ile gelir; bu cümlenin öznesi `ich`."
+      ],
+      "aciklama": "Özne \"ich\" olunca haben fiili habe olur: Ich habe ein neues Auto.",
+      "ipucu": "Sahip olan kişi konuşanın kendisi; ona ait biçimi hatırla.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich habe ein neues Auto.",
+      "sozlukEk": {
+        "haben": "sahip olmak fiilinin çekimi"
+      }
+    },
+    {
+      "id": "m2-d10-q02",
+      "tip": "coktan-secmeli",
+      "soru": "Karnın çok aç ve yemeğin ne zaman hazır olacağını soruyorsun. Boşluğa uygun fiili seç.",
+      "metin": "Ich ___ Hunger! Wann ist das Essen fertig?",
+      "secenekler": [
+        "bin",
+        "habe",
+        "hast",
+        "ist"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`bin` `ich` ile gelir ama `Hunger` bir isimdir ve açlık `haben` ile söylenir.",
+        "",
+        "`hast` `du` ile gelir; konuşan kişi kendinden söz ediyor, yani `ich`.",
+        "`ist` `er/sie/es` ile gelir; üstelik açlık `haben` ile söylenir."
+      ],
+      "aciklama": "Açlık Almanca'da bir isim olarak \"haben\" ile söylenir: Ich habe Hunger. (Ich bin Hunger denmez.)",
+      "ipucu": "Türkçedeki \"açım\" Almanca'da bir isim ve ona uygun fiille kurulur.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich habe Hunger! Wann ist das Essen fertig?"
+    },
+    {
+      "id": "m2-d10-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Bir evi tarif ediyorsun: üç odalı. Fiilin doğru biçimini seç.",
+      "metin": "Die Wohnung ___ drei Zimmer.",
+      "secenekler": [
+        "hat",
+        "ist",
+        "sind",
+        "haben"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`ist` \"olmak\" demektir; burada odalara sahip olma anlatılıyor, bu yüzden `haben` ailesi gerekir.",
+        "`sind` çoğul özneyle gelir; `Wohnung` tekildir ve sahip olma anlatılıyor.",
+        "`haben` `wir`, `sie` (onlar) ve `Sie` ile gelir; `Wohnung` tekil bir isimdir."
+      ],
+      "aciklama": "Bir şeyin sahip olduğu özellik haben ile söylenir; tekil isimle hat gelir: Die Wohnung hat drei Zimmer.",
+      "ipucu": "Önce hangi fiilin gerektiğine, sonra öznenin kişisine karar ver.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Wohnung hat drei Zimmer.",
+      "sozlukEk": {
+        "haben": "sahip olmak fiilinin çekimi"
+      }
+    },
+    {
+      "id": "m2-d10-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Hafta sonu evinize misafir geleceğini söylüyorsun. Fiilin doğru çekimini seç.",
+      "metin": "Am Wochenende ___ wir mehrere Gäste.",
+      "secenekler": [
+        "habe",
+        "hat",
+        "habt",
+        "haben"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`habe` yalnızca `ich` ile gelir; bu cümlenin öznesi `wir`.",
+        "`hat` `er/sie/es` ve tekil isimlerle gelir; bu cümlenin öznesi `wir`.",
+        "`habt` yalnızca `ihr` ile gelir; bu cümlenin öznesi `wir`.",
+        ""
+      ],
+      "aciklama": "Özne \"wir\" olunca haben fiili haben olur; cümle zaman ifadesiyle başlasa da özne fiilin arkasında kalır.",
+      "ipucu": "Cümle zaman ifadesiyle başlıyor; yine de özneyi bulup çekimi ona göre seç.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Am Wochenende haben wir mehrere Gäste.",
+      "sozlukEk": {
+        "haben": "sahip olmak fiilinin çekimi"
+      }
+    },
+    {
+      "id": "m2-d10-q05",
+      "tip": "bosluk-doldurma",
+      "soru": "Arkadaşının gözlerinin mavi olduğunu söylüyorsun. Boşluğa \"sahip olmak\" fiilini (haben) \"o\" (erkek) için çekerek yaz.",
+      "metin": "Er ___ blaue Augen.",
+      "dogruCevaplar": [
+        "hat"
+      ],
+      "aciklama": "Özne \"er\" olunca haben fiili hat olur: Er hat blaue Augen.",
+      "ipucu": "Bu fiil düzensizdir; üçüncü tekil kişi için kullanılan kısa biçimi hatırla.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Er hat blaue Augen."
+    },
+    {
+      "id": "m2-d10-q06",
+      "tip": "coktan-secmeli",
+      "soru": "Müdür çalışanını yanına çağırıyor; çalışan şu an bir müşteriyle ilgileniyor. Çalışanın cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Herr Weber",
+          "metin": "Frau Kern, kommen Sie bitte kurz zu mir?"
+        },
+        {
+          "kim": "Frau Kern",
+          "metin": "Einen Moment, bitte. Ich ___ eine Kundin."
+        }
+      ],
+      "secenekler": [
+        "hast",
+        "habe",
+        "hat",
+        "habt"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`hast` `du` ile gelir; Frau Kern kendinden söz ediyor, yani `ich`.",
+        "",
+        "`hat` `er/sie/es` ve tekil isimlerle gelir; Frau Kern kendinden söz ediyor, yani `ich`.",
+        "`habt` yalnızca `ihr` ile gelir; Frau Kern kendinden söz ediyor, yani `ich`."
+      ],
+      "aciklama": "Özne \"ich\" olunca haben fiili habe olur: Ich habe eine Kundin.",
+      "ipucu": "Çalışan kendi durumunu anlatıyor; kendisi için kullanılan biçimi seç.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Einen Moment, bitte. Ich habe eine Kundin."
+    },
+    {
+      "id": "m2-d10-q07",
+      "tip": "coktan-secmeli",
+      "soru": "Kurs kaydında görevli Herr Demir'e yaşını soruyor. Herr Demir'in cevabını tamamla.",
+      "diyalog": [
+        {
+          "kim": "Frau Keller",
+          "metin": "Wie alt sind Sie?"
+        },
+        {
+          "kim": "Herr Demir",
+          "metin": "Ich ___ dreiundzwanzig."
+        }
+      ],
+      "secenekler": [
+        "ist",
+        "habe",
+        "bin",
+        "hast"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`ist` `er/sie/es` ve tekil isimlerle gelir; Herr Demir kendinden söz ediyor, yani `ich`.",
+        "`habe` `ich` ile gelir ama Almanca'da yaş `haben` ile değil `sein` ile söylenir.",
+        "",
+        "`hast` `du` ile gelir; Herr Demir kendinden söz ediyor, yani `ich`."
+      ],
+      "aciklama": "Almanca'da yaş haben ile değil sein ile söylenir: Ich bin dreiundzwanzig.",
+      "ipucu": "Yaşı söylerken hangi tür bilginin verildiğini düşün.",
+      "bicim": "diyalog",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich bin dreiundzwanzig."
+    },
+    {
+      "id": "m2-d10-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Bir anket görevlisi Frau Lang'a aile durumunu soruyor. Görevlinin sorusunu tamamla.",
+      "diyalog": [
+        {
+          "kim": "Anketör",
+          "metin": "Wie viele Kinder ___ Sie?"
+        },
+        {
+          "kim": "Frau Lang",
+          "metin": "Ich habe zwei Kinder. Einen Jungen und ein Mädchen."
+        }
+      ],
+      "secenekler": [
+        "haben",
+        "habe",
+        "hat",
+        "habt"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`habe` yalnızca `ich` ile gelir; resmî `Sie` ile `haben` kullanılır.",
+        "`hat` `er/sie/es` ile gelir; resmî `Sie` ile `haben` kullanılır.",
+        "`habt` yalnızca `ihr` ile gelir; resmî `Sie` ile `haben` kullanılır."
+      ],
+      "aciklama": "Resmî \"Sie\" ile haben fiili haben olur: Wie viele Kinder haben Sie?",
+      "ipucu": "Anketör yabancı birine \"siz\" diye hitap ediyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Wie viele Kinder haben Sie?",
+      "sozlukEk": {
+        "haben": "sahip olmak fiilinin çekimi"
+      }
+    },
+    {
+      "id": "m2-d10-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Frau Schmidt kursunun büyük olup olmadığı sorusuna cevap veriyor. Cevabını tamamla.",
+      "diyalog": [
+        {
+          "kim": "Herr Brandt",
+          "metin": "Ist Ihr Kurs groß, Frau Schmidt?"
+        },
+        {
+          "kim": "Frau Schmidt",
+          "metin": "Ja. In meinem Kurs ___ acht Schülerinnen und fünf Schüler."
+        }
+      ],
+      "secenekler": [
+        "hat",
+        "ist",
+        "haben",
+        "sind"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`hat` \"sahip olmak\" demektir ve tekil özneyle gelir; burada özne çoğul ve sahip olma yok.",
+        "`ist` tekil özneyle gelir; özne burada `acht Schülerinnen und fünf Schüler`, yani çoğul.",
+        "`haben` \"sahip olmak\" demektir; cümlede kursta kimlerin bulunduğu anlatılıyor, sahip olma yok.",
+        ""
+      ],
+      "aciklama": "Kursta kimlerin bulunduğunu söylerken sein fiili kullanılır; özne çoğul olduğu için sind gelir.",
+      "ipucu": "Kursta kimlerin olduğu söyleniyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "In meinem Kurs sind acht Schülerinnen und fünf Schüler.",
+      "sozlukEk": {
+        "haben": "sahip olmak fiilinin çekimi",
+        "Ihr": "sizin (resmî)"
+      }
+    },
+    {
+      "id": "m2-d10-q10",
+      "tip": "coktan-secmeli",
+      "soru": "Büyükannenin yetmiş yaşında olduğunu anlatıyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Meine Oma hat schon siebzig Jahre.",
+        "Meine Oma hat schon siebzig Jahre alt.",
+        "Meine Oma ist schon siebzig Jahre alt.",
+        "Meine Oma sind schon siebzig Jahre alt."
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`hat ... Jahre` denmez; yaş `sein` ile söylenir.",
+        "Yaş `haben` ile değil `sein` ile söylenir; `hat alt` kalıbı yoktur.",
+        "",
+        "`sind` çoğul özneyle gelir; `Oma` tekildir."
+      ],
+      "aciklama": "Yaş sein ile söylenir; tekil özneyle ist gelir: Meine Oma ist schon siebzig Jahre alt.",
+      "ipucu": "Yaşın sahip olunan bir şey mi yoksa bir durum mu olduğunu düşün.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Meine Oma ist schon siebzig Jahre alt."
+    },
+    {
+      "id": "m2-d10-q11",
+      "tip": "coktan-secmeli",
+      "soru": "Eşinin ateşi hâlâ düşmedi; doktora telefonda durumu anlatıyorsun. Hangi cümleyi söylersin?",
+      "secenekler": [
+        "Mein Mann ist noch immer Fieber.",
+        "Mein Mann hat noch immer Fieber.",
+        "Mein Mann habe noch immer Fieber.",
+        "Mein Mann bin noch immer Fieber."
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`ist` \"olmak\" demektir; ateş bir isimdir ve `haben` ile söylenir.",
+        "",
+        "`habe` yalnızca `ich` ile gelir; `Mann` için `hat` gerekir.",
+        "`bin` yalnızca `ich` ile gelir; üstelik ateş `haben` ile söylenir."
+      ],
+      "aciklama": "Ateş bir isimdir ve haben ile söylenir; tekil özneyle hat gelir: Mein Mann hat Fieber.",
+      "ipucu": "Ateşin bir isim olduğunu ve Almanca'da hangi fiille kullanıldığını düşün.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Mein Mann hat noch immer Fieber.",
+      "sozlukEk": {
+        "noch": "hâlâ",
+        "immer": "her zaman; noch immer: hâlâ"
+      }
+    },
+    {
+      "id": "m2-d10-q12",
+      "tip": "dinleme",
+      "soru": "Toplantı öncesinde yanındaki biri sana bir şey söylüyor. Duyduğun cümlenin anlamı nedir?",
+      "okunacak": "Ich habe eine Frage.",
+      "mod": "sec",
+      "secenekler": [
+        "Bir sorum var.",
+        "Hiç sorum yok.",
+        "Onun bir sorusu var.",
+        "Sana bir soru soruyorlar."
+      ],
+      "dogruCevaplar": [
+        "Bir sorum var."
+      ],
+      "aciklama": "\"Ich habe eine Frage\" bir sorun olduğunu söyler; fiilin -e eki \"ich\" ile uyumludur.",
+      "ipucu": "Cümlenin öznesine ve fiilin sonundaki eke kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich habe eine Frage."
+    },
+    {
+      "id": "m2-d10-q13",
+      "tip": "coktan-secmeli",
+      "soru": "Bir arkadaşının evindesin ve çok susadın; ondan içecek bir şey istiyorsun. Hangi iki cümleyi söylersin?",
+      "secenekler": [
+        "Hast du etwas zu trinken? Ich habe großen Durst.",
+        "Hast du etwas zu trinken? Ich bin großen Durst.",
+        "Habt du etwas zu trinken? Ich habe großen Durst.",
+        "Bist du etwas zu trinken? Ich habe großen Durst."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`bin` `ich` ile gelir ama susuzluk bir isimdir ve `haben` ile söylenir.",
+        "`habt` yalnızca `ihr` ile gelir; `du` ile `haben` fiili `hast` olur.",
+        "`bist` \"olmak\" demektir; \"içecek bir şeyin var mı\" sorusu `haben` ile kurulur."
+      ],
+      "aciklama": "Tek kişiye \"sende var mı?\" diye sorarken du hast, susuzluğu söylerken ise ich habe Durst kullanılır.",
+      "ipucu": "İki cümlenin öznesi farklı; her birine uygun fiili ayrı ayrı seç.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Hast du etwas zu trinken? Ich habe großen Durst."
+    },
+    {
+      "id": "m2-d10-q14",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Bugün vaktim yok.",
+      "parcalar": [
+        "Ich",
+        "habe",
+        "heute",
+        "keine Zeit"
+      ],
+      "dogruSiralar": [
+        [
+          "Ich",
+          "habe",
+          "heute",
+          "keine Zeit"
+        ],
+        [
+          "heute",
+          "habe",
+          "Ich",
+          "keine Zeit"
+        ],
+        [
+          "Ich",
+          "habe",
+          "keine Zeit",
+          "heute"
+        ],
+        [
+          "keine Zeit",
+          "habe",
+          "Ich",
+          "heute"
+        ]
+      ],
+      "aciklama": "Özne ve çekimli fiil başta gelir; zaman ifadesi başa geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Çekimli fiil, hangi öğeyle başlarsan başla ikinci sırada kalır.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich habe heute keine Zeit."
+    },
+    {
+      "id": "m2-d10-q15",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Yeni bir müdürümüz var.",
+      "parcalar": [
+        "Wir",
+        "haben",
+        "eine neue Chefin"
+      ],
+      "dogruSiralar": [
+        [
+          "Wir",
+          "haben",
+          "eine neue Chefin"
+        ],
+        [
+          "eine neue Chefin",
+          "haben",
+          "Wir"
+        ]
+      ],
+      "aciklama": "Haben de çekimli fiildir ve ikinci sırada durur; sahip olunan şeyi başa alırsan özne fiilin arkasına kayar.",
+      "ipucu": "Çekimli fiili öznenin hemen yanında, ikinci öğe olarak yerleştir.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir haben eine neue Chefin."
+    },
+    {
+      "id": "m2-d10-q16",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Başvuru formunda evli olduğunu ve üç çocuğun bulunduğunu şöyle yazıyorsun:",
+      "ifade": "Ich bin verheiratet und habe drei Kinder.",
+      "dogru": true,
+      "aciklama": "Doğru. Medeni durum sein ile (bin verheiratet), çocuk sahibi olmak haben ile (habe drei Kinder) söylenir.",
+      "ipucu": "Cümlede iki ayrı bilgi var; her birinin fiilini anlamına göre değerlendir.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich bin verheiratet und habe drei Kinder."
+    },
+    {
+      "id": "m2-d10-q17",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Karnın aç ve bunu şöyle söylüyorsun:",
+      "ifade": "Ich bin Hunger.",
+      "dogru": false,
+      "aciklama": "Yanlış. Hunger bir isimdir ve haben ile kullanılır: Ich habe Hunger.",
+      "ipucu": "Hunger sözcüğünün cümledeki görevine ve yanındaki fiile bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich habe Hunger! Wann ist das Essen fertig?"
+    },
+    {
+      "id": "m2-d10-q18",
+      "tip": "fiil-cekimi",
+      "soru": "\"haben\" fiilini her zamire göre çek.",
+      "fiil": "haben",
+      "satirlar": [
+        {
+          "zamir": "ich",
+          "cevap": "habe",
+          "verilen": true
+        },
+        {
+          "zamir": "du",
+          "cevap": "hast"
+        },
+        {
+          "zamir": "er/sie/es",
+          "cevap": "hat"
+        },
+        {
+          "zamir": "wir",
+          "cevap": "haben"
+        },
+        {
+          "zamir": "ihr",
+          "cevap": "habt"
+        },
+        {
+          "zamir": "sie/Sie",
+          "cevap": "haben"
+        }
+      ],
+      "aciklama": "Haben, du ve er/sie/es için düzensizdir: hast, hat. Diğer kişilerde kök hab- kalır ve ek eklenir: habe, haben, habt, haben.",
+      "ipucu": "Bu fiilin bazı kişilerinde kökteki bir harf düşer; tabloyu bu gözle gözden geçir.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m2-d10-q19",
+      "tip": "eslestirme",
+      "soru": "Cümle parçalarını doğru fiille eşleştir.",
+      "ciftler": [
+        {
+          "sol": "Ich ... Hunger",
+          "sag": "habe"
+        },
+        {
+          "sol": "Ich ... müde",
+          "sag": "bin"
+        },
+        {
+          "sol": "Er ... Zeit",
+          "sag": "hat"
+        },
+        {
+          "sol": "Wir ... neu hier",
+          "sag": "sind"
+        }
+      ],
+      "aciklama": "Açlık ve zaman haben ile, \"müde\" gibi durumlar ve \"neu hier\" gibi bulunma ifadeleri sein ile kurulur.",
+      "ipucu": "Önce isimle kurulan sahiplik ifadelerini, sonra sıfatla kurulan durum ifadelerini ayır.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m2-d10-q20",
+      "tip": "coktan-secmeli",
+      "soru": "Arkadaşın Jenny'nin postanede yeni bir iş bulduğunu anlatıyorsun. Fiilin doğru biçimini seç.",
+      "metin": "Jenny ___ einen neuen Job bei der Post.",
+      "secenekler": [
+        "habe",
+        "ist",
+        "haben",
+        "hat"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`habe` yalnızca `ich` ile gelir; özne burada `Jenny`.",
+        "`ist` \"olmak\" demektir; burada bir işe sahip olma anlatılıyor, bu yüzden `haben` ailesi gerekir.",
+        "`haben` `wir`, `sie` (onlar) ve `Sie` ile gelir; `Jenny` tek bir kişidir.",
+        ""
+      ],
+      "aciklama": "Bir işe sahip olmak haben ile söylenir; özne tek kişi olunca hat gelir: Jenny hat einen neuen Job.",
+      "ipucu": "Jenny'nin yeni bir işe sahip olduğunu anlatıyorsun; özne üçüncü tekil kişi.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Jenny hat einen neuen Job bei der Post.",
+      "sozlukEk": {
+        "haben": "sahip olmak fiilinin çekimi"
+      }
+    }
+  ],
+  "trickler": [
+    {
+      "baslik": "Hunger, Durst, Fieber: haben",
+      "metin": "Açlık, susuzluk ve ateş birer isimdir: Ich habe Hunger, Ich habe Durst, Er hat Fieber. Ich bin Hunger demek yanlıştır."
+    },
+    {
+      "baslik": "Yaş için sein, haben değil",
+      "metin": "Türkçedeki \"23 yaşındayım\" Almanca'da Ich bin dreiundzwanzig olur. Yaş için \"haben\" kullanılmaz."
+    },
+    {
+      "baslik": "habe, hast, hat, haben, habt, haben",
+      "metin": "Düzensiz yer du ve er/sie/es: hast, hat. Wir, sie ve Sie ile fiil mastarla aynıdır: haben."
+    }
+  ]
+}

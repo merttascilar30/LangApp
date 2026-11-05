@@ -191,6 +191,7 @@ export function TestRunner({ sorular, mod, onBitti }: Props) {
               <FeedbackPanel
                 dogru={gradeQuestion(soru, cevap)}
                 soru={soru}
+                cevap={cevap}
                 ipucuyla={kademe >= 1 && gradeQuestion(soru, cevap)}
               />
               <button type="button" onClick={devam}>

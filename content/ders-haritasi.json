@@ -1,0 +1,12 @@
+{
+  "dersler": [
+    { "ders": 6, "modulId": "modul-2", "dosya": "ders-06", "baslik": "Kişi Zamirleri", "videoId": "PzQq3g5JHyU", "temalar": ["Kişi zamirleri, fiil çekimi ve kendini tanıtma"], "aramaKaliplari": ["\\b(ich|du|er|sie|es|wir|ihr|Sie)\\b"], "gramer": ["kişi zamirleri"], "istisna": false },
+    { "ders": 7, "modulId": "modul-2", "dosya": "ders-07", "baslik": "Fiil Çekimleri", "videoId": "bIwRfIAtjLc", "temalar": ["Kişi zamirleri, fiil çekimi ve kendini tanıtma"], "aramaKaliplari": ["\\b(ich|du|er|sie|wir|ihr)\\b"], "gramer": ["düzenli fiil çekimi"], "istisna": false },
+    { "ders": 8, "modulId": "modul-2", "dosya": "ders-08", "baslik": "Fiil Çekimleri Alıştırma", "videoId": "PuQ6czK0YAY", "temalar": ["Kişi zamirleri, fiil çekimi ve kendini tanıtma"], "aramaKaliplari": ["\\b(ich|du|er|sie|wir|ihr)\\b"], "gramer": ["düzenli fiil çekimi", "V2"], "istisna": false },
+    { "ders": 9, "modulId": "modul-2", "dosya": "ders-09", "baslik": "sein Fiili", "videoId": "vDQht96Rp0k", "temalar": ["Kişi zamirleri, fiil çekimi ve kendini tanıtma"], "aramaKaliplari": ["\\b(bin|bist|ist|sind|seid)\\b"], "gramer": ["sein çekimi"], "istisna": false },
+    { "ders": 10, "modulId": "modul-2", "dosya": "ders-10", "baslik": "haben ve sein Farkı", "videoId": "YFXBI1-aDsE", "temalar": ["Kişi zamirleri, fiil çekimi ve kendini tanıtma"], "aramaKaliplari": ["\\b(habe|hast|hat|haben|habt|bin|bist|ist|sind|seid)\\b"], "gramer": ["haben ve sein"], "istisna": false },
+    { "ders": 11, "modulId": "modul-2", "dosya": "ders-11", "baslik": "Artikel Nedir?", "videoId": "prCfES7w7wQ", "temalar": ["Kişi zamirleri, fiil çekimi ve kendini tanıtma"], "aramaKaliplari": ["\\b(der|die|das|ein|eine)\\b"], "gramer": ["der/die/das, ein/eine"], "istisna": false },
+    { "ders": 12, "modulId": "modul-2", "dosya": "ders-12", "baslik": "Kendini Tanıtma", "videoId": "cP4s88B_DWI", "temalar": ["Kişi zamirleri, fiil çekimi ve kendini tanıtma"], "aramaKaliplari": ["heiß|komm|wohn|Jahre|Name|sprech"], "gramer": ["kendini tanıtma kalıpları"], "istisna": false },
+    { "ders": 13, "modulId": "modul-2", "dosya": "ders-13", "baslik": "Nasılsın Kalıpları", "videoId": "uARcADpIlsA", "temalar": ["Kişi zamirleri, fiil çekimi ve kendini tanıtma"], "aramaKaliplari": ["\\bgeht\\b|geht's|geht’s|\\bgut\\b|danke|schlecht"], "gramer": ["hal hatır kalıpları"], "istisna": true, "istisnaGerekcesi": "Bankada hal hatır konusunda yalnızca 5–6 uygun cümle var; yazildi oranı %15 sınırını aşıyor (%25)." }
+  ]
+}

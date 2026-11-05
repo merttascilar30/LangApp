@@ -1,0 +1,558 @@
+{
+  "id": "m2-d06",
+  "ders": 6,
+  "baslik": "Kişi Zamirleri",
+  "videoId": "PzQq3g5JHyU",
+  "ozet": [
+    "Kişi zamirleri: ich (ben), du (sen), er (o, erkek), sie (o, kadın), es (o, nötr isim; hava olayı), wir (biz), ihr (siz, samimi), sie (onlar) ve Sie (siz, resmî).",
+    "Tek bir arkadaşa samimi olarak du, tanımadığın veya saygı duyduğun kişiye resmî olarak Sie denir; Sie her zaman büyük S ile yazılır.",
+    "ihr birden çok kişiye samimi hitaptır; Sie ise hem tek hem çok kişiye resmî hitaptır.",
+    "Hava olaylarında ve nötr (das) isimlerin yerine es kullanılır; der isimler için er, die isimler için sie kullanılır.",
+    "Cümle başında Sie ve sie aynı görünür; anlamı fiil ve bağlam ayırır."
+  ],
+  "kelimeler": [
+    {
+      "de": "ich",
+      "tr": "ben"
+    },
+    {
+      "de": "du",
+      "tr": "sen"
+    },
+    {
+      "de": "er",
+      "tr": "o (erkek)"
+    },
+    {
+      "de": "sie",
+      "tr": "o (kadın); onlar; büyük Sie: siz (resmî)"
+    },
+    {
+      "de": "es",
+      "tr": "o (nötr isim; hava olayı)"
+    },
+    {
+      "de": "wir",
+      "tr": "biz"
+    },
+    {
+      "de": "ihr",
+      "tr": "siz (samimi, çoğul)"
+    },
+    {
+      "de": "Sie",
+      "tr": "siz (resmî)"
+    },
+    {
+      "de": "heißen",
+      "tr": "adı ... olmak"
+    },
+    {
+      "de": "lernen",
+      "tr": "öğrenmek"
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m2-d06-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Yeni komşunla tanışıyorsun ve kendi adını söylüyorsun. Boşluğa hangi zamir gelir?",
+      "metin": "___ heiße Veronika.",
+      "secenekler": [
+        "Ich",
+        "Du",
+        "Er",
+        "Wir"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`du` \"sen\" demektir; kendi adını söylerken \"ben\" anlamındaki zamir gerekir.",
+        "`er` \"o\" (erkek) demektir; sen kendinden söz ediyorsun.",
+        "`wir` \"biz\" demektir; adını söyleyen tek kişi, yani sensin."
+      ],
+      "aciklama": "Kendinden söz ederken \"ich\" (ben) kullanılır: Ich heiße Veronika = Adım Veronika.",
+      "ipucu": "Kendini tanıtırken konuşan kişiyi gösteren zamiri düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich heiße Veronika.",
+      "glossKapali": true
+    },
+    {
+      "id": "m2-d06-q02",
+      "tip": "coktan-secmeli",
+      "soru": "Yan masadaki bir kadının adını arkadaşına soruyorsun: \"O kadının adı ne?\" Boşluğa hangi zamir gelir?",
+      "metin": "Wie heißt ___?",
+      "secenekler": [
+        "er",
+        "es",
+        "sie",
+        "du"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`er` \"o\" demektir ama erkekler içindir; burada bir kadından söz ediyorsun.",
+        "`es` nötr (das) isimler ve hava olayları içindir; burada kadın bir kişiden söz ediyorsun.",
+        "",
+        "`du` \"sen\" demektir; karşındakinin değil, üçüncü bir kadının adını soruyorsun."
+      ],
+      "aciklama": "Kadın için \"sie\" (o) kullanılır: Wie heißt sie? = O kadının adı ne?",
+      "ipucu": "Konuşulan kişi senin dışında, üçüncü bir kişi ve kadın.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wie heißt sie?",
+      "glossKapali": true
+    },
+    {
+      "id": "m2-d06-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Okul çıkışında arkadaşına \"Her şeyin var mı?\" diye soruyorsun. Boşluğa hangi zamir gelir?",
+      "metin": "Hast ___ alles?",
+      "secenekler": [
+        "ihr",
+        "du",
+        "Sie",
+        "er"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`ihr` birden çok arkadaşa \"siz\" demek içindir; burada tek arkadaşa soruyorsun.",
+        "",
+        "`Sie` resmî \"siz\"dir; arkadaşınla samimi konuşuyorsun.",
+        "`er` \"o\" (erkek) demektir; sen karşındaki kişiye soruyorsun, ondan söz etmiyorsun."
+      ],
+      "aciklama": "Tek bir arkadaşa samimi hitapta \"du\" (sen) kullanılır: Hast du alles?",
+      "ipucu": "Karşındaki tek kişi ve arkadaşın; ona nasıl hitap edersin?",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Hast du alles?",
+      "glossKapali": true
+    },
+    {
+      "id": "m2-d06-q04",
+      "tip": "coktan-secmeli",
+      "soru": "\"Yağmur yağıyor\" diyorsun. Hava olayında özne olan zamir hangisi?",
+      "metin": "___ regnet.",
+      "secenekler": [
+        "Er",
+        "Sie",
+        "Du",
+        "Es"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`er` bir erkek içindir; hava olaylarında özne kişi değildir.",
+        "`sie` kadın veya birden çok kişi içindir; yağmurun öznesi kişi değildir.",
+        "`du` karşındaki kişi demektir; yağmuru yağdıran sen değilsin.",
+        ""
+      ],
+      "aciklama": "Hava olaylarında özne \"es\"tir: Es regnet = Yağmur yağıyor.",
+      "ipucu": "Yağmurun bir yapanı yoktur; bu tür cümlelerde sabit bir özne kullanılır.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Es regnet.",
+      "glossKapali": true
+    },
+    {
+      "id": "m2-d06-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Eşinle yeni taşındığınız apartmanda komşuna diyorsun: \"Biz burada yeniyiz. Sizinle tanışmak istiyoruz.\" Boşluğa hangi zamir gelir?",
+      "metin": "Wir sind neu hier. ___ möchten Sie kennenlernen.",
+      "secenekler": [
+        "Wir",
+        "Ich",
+        "Er",
+        "Ihr"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`ich` \"ben\" demektir; burada sen ve eşin birlikte konuşuyorsunuz.",
+        "`er` \"o\" demektir; sen kendi grubundan söz ediyorsun, başkasından değil.",
+        "`ihr` \"siz\" (samimi, çoğul) demektir; konuşan sizsiniz, karşıdakiler değil."
+      ],
+      "aciklama": "Kendini de içine alan topluluk için \"wir\" (biz) kullanılır. Cümledeki \"Sie\" ise karşındaki komşuya resmî hitaptır.",
+      "ipucu": "Sen ve eşin birlikte konuşuyorsunuz; kendini de içine alan çoğul zamiri düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir sind neu hier. Wir möchten Sie kennenlernen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m2-d06-q06",
+      "tip": "bosluk-doldurma",
+      "soru": "Arkadaşına bu akşam ne yapacağını soruyorsun. Boşluğa \"sen\" anlamındaki samimi zamiri yaz.",
+      "metin": "Was machst ___ heute Abend?",
+      "dogruCevaplar": [
+        "du"
+      ],
+      "aciklama": "Tek bir arkadaşa samimi hitapta \"du\" (sen) kullanılır: Was machst du heute Abend? = Bu akşam ne yapıyorsun?",
+      "ipucu": "Tek bir arkadaşa samimi biçimde \"sen\" diyen zamiri yaz.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Was machst du heute Abend?"
+    },
+    {
+      "id": "m2-d06-q07",
+      "tip": "coktan-secmeli",
+      "soru": "Bir ofiste memur seni ilk kez görüyor ve resmî konuşuyor. Memurun sorusunu tamamla.",
+      "diyalog": [
+        {
+          "kim": "Frau Keller",
+          "metin": "Guten Tag. Wie heißen ___, bitte?"
+        },
+        {
+          "kim": "Ben",
+          "metin": "Ich heiße Mehmet Kaya."
+        }
+      ],
+      "secenekler": [
+        "Sie",
+        "du",
+        "ihr",
+        "wir"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`du` samimi \"sen\"dir; ilk kez gördüğün biriyle resmî konuşurken `Sie` kullanılır.",
+        "`ihr` birden çok kişiye samimi hitaptır; karşıdaki tek kişidir ve konuşma resmîdir.",
+        "`wir` \"biz\" demektir; memur karşısındakinin adını soruyor."
+      ],
+      "aciklama": "Tanımadığın veya saygı duyduğun kişiye resmî \"Sie\" (siz) denir: Wie heißen Sie, bitte? = Adınız nedir?",
+      "ipucu": "Memur seni tanımıyor ve resmî konuşuyor; hangi hitap biçimini seçer?",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wie heißen Sie, bitte?",
+      "glossKapali": true
+    },
+    {
+      "id": "m2-d06-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Lena, Tom'a erkek arkadaşının adını soruyor. Tom'un cevabını tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Wie heißt dein Freund?"
+        },
+        {
+          "kim": "Tom",
+          "metin": "___ heißt Ali."
+        }
+      ],
+      "secenekler": [
+        "Sie",
+        "Er",
+        "Ich",
+        "Wir"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`sie` kadın veya birden çok kişi içindir; sorulan kişi bir erkek arkadaştır.",
+        "",
+        "`ich` \"ben\" demektir; Tom kendi adını değil, arkadaşının adını söylüyor.",
+        "`wir` \"biz\" demektir; tek bir kişiden söz ediliyor."
+      ],
+      "aciklama": "Üçüncü bir erkekten söz ederken \"er\" (o) kullanılır: Er heißt Ali = Onun adı Ali.",
+      "ipucu": "Adı söylenen kişi konuşanlardan biri değil, üçüncü bir erkek.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Er heißt Ali.",
+      "glossKapali": true
+    },
+    {
+      "id": "m2-d06-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Max, arkadaşı Lisa'ya havuza gelip gelmeyeceğini soruyor. Max'in sorusunu tamamla.",
+      "diyalog": [
+        {
+          "kim": "Max",
+          "metin": "Ich gehe jetzt schwimmen. Kommst ___ mit ins Schwimmbad?"
+        },
+        {
+          "kim": "Lisa",
+          "metin": "Ja, gern!"
+        }
+      ],
+      "secenekler": [
+        "ihr",
+        "Sie",
+        "du",
+        "wir"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`ihr` birden çok kişiye hitap eder; Max tek bir kişiye, Lisa'ya soruyor.",
+        "`Sie` resmî \"siz\"dir; Max ile Lisa arkadaş ve samimi konuşuyor.",
+        "",
+        "`wir` \"biz\" demektir; Max karşısındakine soru soruyor."
+      ],
+      "aciklama": "Tek bir arkadaşa samimi hitapta \"du\" kullanılır: Kommst du mit ins Schwimmbad? = Havuza geliyor musun?",
+      "ipucu": "Max tek bir arkadaşına soruyor ve aralarında resmîlik yok.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Kommst du mit ins Schwimmbad?",
+      "glossKapali": true
+    },
+    {
+      "id": "m2-d06-q10",
+      "tip": "coktan-secmeli",
+      "soru": "Yeni tanıştığın birine, arkadaşınla ikinizin birlikte Almanca öğrendiğinizi anlatıyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Sie lernen Deutsch.",
+        "Er lernt Deutsch.",
+        "Wir lernen Deutsch.",
+        "Ich lerne Deutsch."
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "\"Onlar Almanca öğreniyor\" demektir; sen de öğrenenlerin arasındasın.",
+        "Tek bir erkeğin Almanca öğrendiğini anlatır; siz iki kişisiniz.",
+        "",
+        "Yalnızca senin öğrendiğini anlatır; arkadaşın da öğreniyor."
+      ],
+      "aciklama": "Kendini de içine alan topluluk için \"wir\" kullanılır: Wir lernen Deutsch = Biz Almanca öğreniyoruz.",
+      "ipucu": "Cümlenin öznesi sen ve arkadaşın olduğuna göre, ikinizi birden kapsayan zamiri seç.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir lernen Deutsch.",
+      "glossKapali": true
+    },
+    {
+      "id": "m2-d06-q11",
+      "tip": "coktan-secmeli",
+      "soru": "Erkek arkadaşın Tom'a mesaj attın ama cevap vermiyor. Annene durumu anlatıyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Sie antwortet nicht.",
+        "Er antwortet nicht.",
+        "Ich antworte nicht.",
+        "Wir antworten nicht."
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`sie` kadın içindir; Tom bir erkek.",
+        "",
+        "\"Ben cevap vermiyorum\" demektir; cevap vermeyen sen değilsin.",
+        "\"Biz cevap vermiyoruz\" demektir; cevap vermeyen yalnızca Tom."
+      ],
+      "aciklama": "Üçüncü bir erkekten söz ederken \"er\" kullanılır: Er antwortet nicht = O cevap vermiyor.",
+      "ipucu": "Cevap vermeyen kişi konuşan sen değilsin; üçüncü bir erkek.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Er antwortet nicht.",
+      "glossKapali": true
+    },
+    {
+      "id": "m2-d06-q12",
+      "tip": "coktan-secmeli",
+      "soru": "Bir etkinlikte tanımadığın yaşlı bir beyefendiye, resmî biçimde nerede çalıştığını soruyorsun. Hangi soruyu sorarsın?",
+      "secenekler": [
+        "Wo arbeiten Sie?",
+        "Wo arbeitest du?",
+        "Wo arbeitet er?",
+        "Wo arbeite ich?"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`du` samimidir; tanımadığın biriyle resmî `Sie` kullanılır.",
+        "\"O nerede çalışıyor?\" demektir; karşındakine değil, üçüncü bir kişiye sorar.",
+        "\"Ben nerede çalışıyorum?\" demektir; kendi çalıştığın yeri sormazsın."
+      ],
+      "aciklama": "Tanımadığın kişiye resmî \"Sie\" ile sorulur: Wo arbeiten Sie? = Nerede çalışıyorsunuz?",
+      "ipucu": "Karşındaki kişiyle aranda resmî bir mesafe var; buna uygun hitabı seç.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wo arbeiten Sie?",
+      "glossKapali": true
+    },
+    {
+      "id": "m2-d06-q13",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Biz Almanca öğreniyoruz.",
+      "parcalar": [
+        "Wir",
+        "lernen",
+        "Deutsch"
+      ],
+      "dogruSiralar": [
+        [
+          "Wir",
+          "lernen",
+          "Deutsch"
+        ],
+        [
+          "Deutsch",
+          "lernen",
+          "Wir"
+        ]
+      ],
+      "aciklama": "Önce özne olan \"Wir\", sonra fiil \"lernen\", en sonda öğrenilen dil gelir.",
+      "ipucu": "Çekimli fiil cümlede hangi sırada durur?",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir lernen Deutsch."
+    },
+    {
+      "id": "m2-d06-q14",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Nerelisiniz? (resmî)",
+      "parcalar": [
+        "Woher",
+        "kommen",
+        "Sie"
+      ],
+      "dogruSiralar": [
+        [
+          "Woher",
+          "kommen",
+          "Sie"
+        ]
+      ],
+      "aciklama": "Soru sözcüğü başa gelir, fiil ikinci sırada durur, resmî \"Sie\" zamiri fiilin arkasından gelir.",
+      "ipucu": "Soru sözcüğü başta; çekimli fiilin yerini ve zamirin nerede durduğunu düşün.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Woher kommen Sie?"
+    },
+    {
+      "id": "m2-d06-q15",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Bu akşam ne yapıyorsun? (arkadaşına)",
+      "parcalar": [
+        "Was",
+        "machst",
+        "du",
+        "heute Abend"
+      ],
+      "dogruSiralar": [
+        [
+          "Was",
+          "machst",
+          "du",
+          "heute Abend"
+        ]
+      ],
+      "aciklama": "Soru sözcüğü \"Was\" başta, fiil ikinci sırada, ardından özne \"du\" ve zaman bildiren grup gelir.",
+      "ipucu": "Soru sözcüğü başta; çekimli fiil ikinci öğedir.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Was machst du heute Abend?"
+    },
+    {
+      "id": "m2-d06-q16",
+      "tip": "eslestirme",
+      "soru": "Kişi zamirlerini Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        {
+          "sol": "ich",
+          "sag": "ben"
+        },
+        {
+          "sol": "du",
+          "sag": "sen"
+        },
+        {
+          "sol": "er",
+          "sag": "o (erkek)"
+        },
+        {
+          "sol": "wir",
+          "sag": "biz"
+        },
+        {
+          "sol": "ihr",
+          "sag": "siz (samimi)"
+        },
+        {
+          "sol": "Sie",
+          "sag": "siz (resmî)"
+        }
+      ],
+      "aciklama": "ich ben, du sen, er o (erkek), wir biz; ihr birden çok kişiye samimi \"siz\", Sie ise resmî \"siz\"dir.",
+      "ipucu": "Önce tek kişiyi gösterenleri, sonra \"siz\" anlamına gelen iki zamiri ayır.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m2-d06-q17",
+      "tip": "dinleme",
+      "soru": "Duyduğun cümlede adı söylenen kişi kim?",
+      "okunacak": "Er heißt Ali.",
+      "mod": "sec",
+      "secenekler": [
+        "Konuşan kişinin kendisi",
+        "Karşıdaki kişi",
+        "Üçüncü bir erkek",
+        "Üçüncü bir kadın"
+      ],
+      "dogruCevaplar": [
+        "Üçüncü bir erkek"
+      ],
+      "aciklama": "\"Er\" üçüncü bir erkeği gösterir: Er heißt Ali = Onun adı Ali.",
+      "ipucu": "Cümlenin ilk sözcüğü konuşanı, karşıdakini ya da başka birini gösterir; hangisi olduğuna dikkat et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Er heißt Ali."
+    },
+    {
+      "id": "m2-d06-q18",
+      "tip": "ceviri",
+      "soru": "Yeni tanıştığın birine kendini tanıtıyorsun: \"Adım Veronika.\" Almanca'ya çevir.",
+      "kaynak": "Adım Veronika.",
+      "dogruCevaplar": [
+        "Ich heiße Veronika",
+        "Mein Name ist Veronika",
+        "Ich bin Veronika"
+      ],
+      "aciklama": "Kendini tanıtırken \"ich\" zamiriyle \"heißen\" fiili kullanılır: Ich heiße Veronika.",
+      "ipucu": "Kendinden söz ettiğin için ilk kelime \"ben\" anlamındaki zamir olsun, ardından adı bildiren fiili getir.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich heiße Veronika."
+    },
+    {
+      "id": "m2-d06-q19",
+      "tip": "bosluk-doldurma",
+      "soru": "Tanımadığın yaşlı bir komşuya \"Kâğıt oynar mısınız?\" diye resmî biçimde soruyorsun. Boşluğa zamiri yaz.",
+      "metin": "Spielen ___ Karten?",
+      "dogruCevaplar": [
+        "Sie"
+      ],
+      "aciklama": "Resmî hitapta büyük harfle yazılan \"Sie\" (siz) kullanılır: Spielen Sie Karten? = Kâğıt oynar mısınız?",
+      "ipucu": "Resmî hitapta kullanılan ve hep büyük harfle yazılan zamiri yaz.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Spielen Sie Karten?",
+      "harfDuyarli": true
+    },
+    {
+      "id": "m2-d06-q20",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Otel resepsiyonunda tanımadığın bir görevliye resmî biçimde \"Telefonunuz var mı?\" diyorsun ve şöyle yazıyorsun:",
+      "ifade": "Haben Sie Telefon?",
+      "dogru": true,
+      "aciklama": "Doğru. Resmî hitapta büyük harfle yazılan \"Sie\" kullanılır: Haben Sie Telefon? = Telefonunuz var mı?",
+      "ipucu": "Resmî bir durumda hangi hitap biçimi seçilir ve cümle buna uyuyor mu?",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Haben Sie Telefon?",
+      "glossKapali": true
+    }
+  ],
+  "trickler": [
+    {
+      "baslik": "Sie ile sie: büyük harf farkı",
+      "metin": "Cümle ortasında büyük S ile yazılan Sie resmî \"siz\" demektir; küçük s ile yazılan sie \"o\" (kadın) veya \"onlar\" demektir."
+    },
+    {
+      "baslik": "du, ihr, Sie: hitap biçimleri",
+      "metin": "Tek arkadaşa du (sen), birkaç arkadaşa ihr (siz), tanımadığın veya saygı duyduğun kişiye (tek ya da çok) Sie (resmî siz) dersin."
+    },
+    {
+      "baslik": "Hava ve nötr isimlerde es",
+      "metin": "Hava olaylarında ve nötr (das) isimlerin yerine es kullanılır: Es regnet. der isimler için er, die isimler için sie gelir."
+    }
+  ]
+}

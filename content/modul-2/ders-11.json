@@ -1,0 +1,590 @@
+{
+  "id": "m2-d11",
+  "ders": 11,
+  "baslik": "Artikel Nedir?",
+  "videoId": "prCfES7w7wQ",
+  "ozet": [
+    "Almanca'da her ismin bir cinsiyeti vardır: maskulin (der), feminin (die) veya nötr (das). Artikel, ismin cinsiyetini gösterir.",
+    "Cinsiyet çoğunlukla anlamdan tahmin edilemez: der Tisch, die Lampe, das Buch; ayrıca der Hund, die Schule, das Zimmer. Bu yüzden ismi her zaman artikeliyle öğren.",
+    "Kişi bildiren bazı kelimelerde cinsiyet gerçek cinsiyetle uyumludur (der Vater, die Mutter), ama bu her kelimede geçerli değildir: das Mädchen nötrdür.",
+    "Belirsiz artikel (bir): maskulin ve nötr isimlerle ein, feminin isimlerle eine kullanılır: ein Tisch, ein Buch, eine Lampe.",
+    "İsmin yerine geçen zamir de cinsiyete göre seçilir: der Tisch → er, die Lampe → sie, das Buch → es."
+  ],
+  "kelimeler": [
+    {
+      "de": "der Tisch",
+      "tr": "masa",
+      "artikel": "der"
+    },
+    {
+      "de": "die Lampe",
+      "tr": "lamba",
+      "artikel": "die"
+    },
+    {
+      "de": "das Buch",
+      "tr": "kitap",
+      "artikel": "das"
+    },
+    {
+      "de": "der Hund",
+      "tr": "köpek",
+      "artikel": "der"
+    },
+    {
+      "de": "die Schule",
+      "tr": "okul",
+      "artikel": "die"
+    },
+    {
+      "de": "das Zimmer",
+      "tr": "oda",
+      "artikel": "das"
+    },
+    {
+      "de": "der Zug",
+      "tr": "tren",
+      "artikel": "der"
+    },
+    {
+      "de": "die Sonne",
+      "tr": "güneş",
+      "artikel": "die"
+    },
+    {
+      "de": "das Sofa",
+      "tr": "kanepe",
+      "artikel": "das"
+    },
+    {
+      "de": "der Mantel",
+      "tr": "palto",
+      "artikel": "der"
+    },
+    {
+      "de": "der Platz",
+      "tr": "yer, koltuk",
+      "artikel": "der"
+    },
+    {
+      "de": "der Koffer",
+      "tr": "bavul",
+      "artikel": "der"
+    },
+    {
+      "de": "die Toilette",
+      "tr": "tuvalet",
+      "artikel": "die"
+    },
+    {
+      "de": "die Banane",
+      "tr": "muz",
+      "artikel": "die"
+    },
+    {
+      "de": "die Tomate",
+      "tr": "domates",
+      "artikel": "die"
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m2-d11-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Bir otel odasını tarif ediyorsun: oda büyük. Boşluğa uygun artikeli seç.",
+      "metin": "___ Zimmer ist groß.",
+      "secenekler": [
+        "der",
+        "die",
+        "das"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`der` maskulin isimlerle kullanılır; `Zimmer` nötr bir isimdir (das Zimmer).",
+        "`die` feminin isimlerle kullanılır; `Zimmer` nötr bir isimdir (das Zimmer).",
+        ""
+      ],
+      "aciklama": "Zimmer nötr bir isimdir: das Zimmer. Cinsiyet kelimeden tahmin edilmez, artikeliyle birlikte öğrenilir.",
+      "ipucu": "Zimmer, bu dersin kelime listesinde artikeliyle verilen isimlerden biri.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das Zimmer ist groß."
+    },
+    {
+      "id": "m2-d11-q02",
+      "tip": "coktan-secmeli",
+      "soru": "Küçük bir köpekten söz ediyorsun: hâlâ yavru. Boşluğa uygun artikeli seç.",
+      "metin": "___ Hund ist noch jung.",
+      "secenekler": [
+        "die",
+        "der",
+        "das"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`die` feminin isimlerle kullanılır; `Hund` maskulin bir isimdir (der Hund).",
+        "",
+        "`das` nötr isimlerle kullanılır; `Hund` maskulin bir isimdir (der Hund)."
+      ],
+      "aciklama": "Hund maskulin bir isimdir: der Hund. Hayvan adlarının da cinsiyeti vardır ve artikeliyle öğrenilir.",
+      "ipucu": "Hund da kelime listesindeki isimlerden; artikeline oradan bak.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Der Hund ist noch jung.",
+      "sozlukEk": {
+        "noch": "hâlâ"
+      }
+    },
+    {
+      "id": "m2-d11-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Okulun hemen yakında, köşede olduğunu söylüyorsun. Boşluğa uygun artikeli seç.",
+      "metin": "___ Schule ist gleich hier um die Ecke.",
+      "secenekler": [
+        "die",
+        "das",
+        "der"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`das` nötr isimlerle kullanılır; `Schule` feminin bir isimdir (die Schule).",
+        "`der` maskulin isimlerle kullanılır; `Schule` feminin bir isimdir (die Schule)."
+      ],
+      "aciklama": "Schule feminin bir isimdir: die Schule.",
+      "ipucu": "Cinsiyeti anlamdan değil, listede verilen artikelden çıkar.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Schule ist gleich hier um die Ecke.",
+      "sozlukEk": {
+        "gleich": "hemen, tam (gleich hier: tam burası)"
+      }
+    },
+    {
+      "id": "m2-d11-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Askıdaki paltonun rengini söylüyorsun. Boşluğa uygun artikeli seç.",
+      "metin": "___ Mantel ist grau.",
+      "secenekler": [
+        "die",
+        "das",
+        "der"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`die` feminin isimlerle kullanılır; `Mantel` maskulin bir isimdir (der Mantel).",
+        "`das` nötr isimlerle kullanılır; `Mantel` maskulin bir isimdir (der Mantel).",
+        ""
+      ],
+      "aciklama": "Mantel maskulin bir isimdir: der Mantel.",
+      "ipucu": "Palto sözcüğünün cinsiyetini sezgiyle değil kelime listesinden bul.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Der Mantel ist grau."
+    },
+    {
+      "id": "m2-d11-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Odaya yeni bir lamba koydun ve arkadaşına gösteriyorsun. Boşluğa uygun belirsiz artikeli seç.",
+      "metin": "Das ist ___ Lampe.",
+      "secenekler": [
+        "eine",
+        "ein"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`ein` maskulin ve nötr isimlerle kullanılır; `Lampe` feminin bir isimdir (die Lampe)."
+      ],
+      "aciklama": "Lampe feminin bir isimdir (die Lampe); feminin isimlerle belirsiz artikel eine olur: eine Lampe.",
+      "ipucu": "Belirsiz artikeli seçmek için önce ismin cinsiyetini listeden kontrol et.",
+      "bicim": "bosluk",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Das ist eine europäische Stadt.",
+      "sozlukEk": {
+        "ein": "bir (belirsiz tanımlık)",
+        "eine": "bir (belirsiz tanımlık)",
+        "das": "bu (işaret zamiri)"
+      }
+    },
+    {
+      "id": "m2-d11-q06",
+      "tip": "coktan-secmeli",
+      "soru": "Masanın üstündeki nesneyi gösterip ne olduğunu söylüyorsun. Boşluğa uygun belirsiz artikeli seç.",
+      "metin": "Das ist ___ Buch.",
+      "secenekler": [
+        "eine",
+        "ein"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`eine` feminin isimlerle kullanılır; `Buch` nötr bir isimdir (das Buch).",
+        ""
+      ],
+      "aciklama": "Buch nötr bir isimdir (das Buch); nötr isimlerle belirsiz artikel ein olur: ein Buch.",
+      "ipucu": "Belirsiz artikel de ismin cinsiyetine bağlıdır; Buch'un artikelini listeden kontrol et.",
+      "bicim": "bosluk",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Das ist ein Freund von mir.",
+      "sozlukEk": {
+        "ein": "bir (belirsiz tanımlık)",
+        "eine": "bir (belirsiz tanımlık)",
+        "das": "bu (işaret zamiri)"
+      }
+    },
+    {
+      "id": "m2-d11-q07",
+      "tip": "bosluk-doldurma",
+      "soru": "Hava açıldı ve güneşin parladığını söylüyorsun. Boşluğa uygun belirli artikeli (der, die veya das) yaz.",
+      "metin": "___ Sonne scheint.",
+      "dogruCevaplar": [
+        "Die",
+        "die"
+      ],
+      "aciklama": "Sonne feminin bir isimdir: die Sonne.",
+      "ipucu": "Yazacağın artikeli ismin cinsiyeti belirler; Sonne dersin listesinde artikeliyle verilmiş.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Sonne scheint."
+    },
+    {
+      "id": "m2-d11-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Restoranda tuvaleti soruyorsun ve garson cevap veriyor. Garsonun cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Gast",
+          "metin": "Entschuldigung, wo ist die Toilette, bitte?"
+        },
+        {
+          "kim": "Kellnerin",
+          "metin": "___ ist dort hinten rechts."
+        }
+      ],
+      "secenekler": [
+        "Es",
+        "Er",
+        "Sie"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`Es` nötr isimlerin yerine geçer; `Toilette` feminin bir isimdir (die Toilette).",
+        "`Er` maskulin isimlerin yerine geçer; `Toilette` feminin bir isimdir (die Toilette).",
+        ""
+      ],
+      "aciklama": "Toilette feminindir (die Toilette); ismin yerine sie kullanılır: Sie ist dort hinten rechts.",
+      "ipucu": "Garson, sorulan ismin yerine geçen zamiri kullanıyor; o ismin artikeline bak.",
+      "bicim": "diyalog",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Wo ist die Toilette, bitte?",
+      "glossKapali": true
+    },
+    {
+      "id": "m2-d11-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Bir yer arayan kişiye oturan biri cevap veriyor. Cevabın boşluğunu tamamla.",
+      "diyalog": [
+        {
+          "kim": "Anna",
+          "metin": "Ist hier noch frei?"
+        },
+        {
+          "kim": "Tom",
+          "metin": "Tut mir leid, ___ Platz ist besetzt."
+        }
+      ],
+      "secenekler": [
+        "der",
+        "das",
+        "die"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`das` nötr isimlerle kullanılır; `Platz` maskulin bir isimdir (der Platz).",
+        "`die` feminin isimlerle kullanılır; `Platz` maskulin bir isimdir (der Platz)."
+      ],
+      "aciklama": "Platz maskulin bir isimdir: der Platz.",
+      "ipucu": "Platz da bu dersin kelime listesinde artikeliyle verilmiş.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Tut mir leid, der Platz ist besetzt."
+    },
+    {
+      "id": "m2-d11-q10",
+      "tip": "coktan-secmeli",
+      "soru": "Arkadaşın paltonun rengini soruyor. Cevabının boşluğunu tamamla.",
+      "diyalog": [
+        {
+          "kim": "Anna",
+          "metin": "Welche Farbe hat der Mantel?"
+        },
+        {
+          "kim": "Tom",
+          "metin": "___ ist grau."
+        }
+      ],
+      "secenekler": [
+        "Es",
+        "Er",
+        "Sie"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`Es` nötr isimlerin yerine geçer; `Mantel` maskulin bir isimdir (der Mantel).",
+        "",
+        "`Sie` feminin isimlerin yerine geçer; `Mantel` maskulin bir isimdir (der Mantel)."
+      ],
+      "aciklama": "Mantel maskulindir (der Mantel); ismin yerine er kullanılır: Er ist grau.",
+      "ipucu": "Cevaptaki zamir, sorudaki ismin yerine geçiyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Der Mantel ist grau.",
+      "glossKapali": true
+    },
+    {
+      "id": "m2-d11-q11",
+      "tip": "coktan-secmeli",
+      "soru": "Anna arkadaşına bir eşyayı soruyor. Tom'un cevabını tamamla.",
+      "diyalog": [
+        {
+          "kim": "Anna",
+          "metin": "Was ist das?"
+        },
+        {
+          "kim": "Tom",
+          "metin": "Das ist ___ Tisch."
+        }
+      ],
+      "secenekler": [
+        "ein",
+        "eine"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`eine` feminin isimlerle kullanılır; `Tisch` maskulin bir isimdir (der Tisch)."
+      ],
+      "aciklama": "Tisch maskulin bir isimdir (der Tisch); maskulin isimlerle belirsiz artikel ein olur: ein Tisch.",
+      "ipucu": "Belirsiz artikel, ismin cinsiyetine göre seçilir.",
+      "bicim": "diyalog",
+      "kaynakTuru": "yazildi",
+      "sozlukEk": {
+        "ein": "bir (belirsiz tanımlık)",
+        "eine": "bir (belirsiz tanımlık)",
+        "das": "bu (işaret zamiri)"
+      }
+    },
+    {
+      "id": "m2-d11-q12",
+      "tip": "coktan-secmeli",
+      "soru": "Yeni taşındığın evde misafirine yeni aldığın kanepeyi gösteriyorsun: \"Kanepe yeni.\" Hangi cümleyi söylersin?",
+      "secenekler": [
+        "Das Sofa sind neu.",
+        "Der Sofa ist neu.",
+        "Die Sofa ist neu.",
+        "Das Sofa ist neu."
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`sind` çoğul özneyle gelir; `Sofa` tekildir.",
+        "`der` maskulin isimlerle kullanılır; `Sofa` nötrdür.",
+        "`die` feminin isimlerle kullanılır; `Sofa` nötrdür.",
+        ""
+      ],
+      "aciklama": "Sofa nötr bir isimdir: das Sofa. Tekil özneyle fiil ist olur.",
+      "ipucu": "Sofa, dersin kelime listesinde artikeliyle birlikte verilen isimlerden.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das Sofa ist neu."
+    },
+    {
+      "id": "m2-d11-q13",
+      "tip": "coktan-secmeli",
+      "soru": "Pazarda domatesin henüz olgunlaşmadığını, hâlâ yeşil olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Der Tomate ist noch grün.",
+        "Die Tomate ist noch grün.",
+        "Das Tomate ist noch grün.",
+        "Die Tomate sind noch grün."
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`der` maskulin isimlerle kullanılır; `Tomate` feminindir.",
+        "",
+        "`das` nötr isimlerle kullanılır; `Tomate` feminindir.",
+        "`sind` çoğul özneyle gelir; `Tomate` tekildir."
+      ],
+      "aciklama": "Tomate feminin bir isimdir: die Tomate. Tekil özneyle fiil ist olur.",
+      "ipucu": "Hem ismin cinsiyetine hem fiilin özneye uymasına dikkat et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Tomate ist noch grün.",
+      "sozlukEk": {
+        "noch": "hâlâ"
+      }
+    },
+    {
+      "id": "m2-d11-q14",
+      "tip": "dinleme",
+      "soru": "Pazarda bir satıcının meyveyi anlattığını duyuyorsun. Duyduğun cümlenin anlamı nedir?",
+      "okunacak": "Die Banane ist gelb.",
+      "mod": "sec",
+      "secenekler": [
+        "Muz sarı.",
+        "Muz yeşil.",
+        "Limon sarı.",
+        "Muz kırmızı."
+      ],
+      "dogruCevaplar": [
+        "Muz sarı."
+      ],
+      "aciklama": "\"Die Banane ist gelb\" muzun sarı olduğunu söyler; Banane feminin bir isimdir, bu yüzden die Banane.",
+      "ipucu": "Cümlenin ilk ismine ve sondaki renk sözcüğüne kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Banane ist gelb."
+    },
+    {
+      "id": "m2-d11-q15",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Pazarda domatesin rengini söylerken şöyle yazıyorsun:",
+      "ifade": "Die Tomate ist rot.",
+      "dogru": true,
+      "aciklama": "Doğru. Tomate feminin bir isimdir: die Tomate.",
+      "ipucu": "Cümlenin yapısına ve ismin artikeline bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Tomate ist rot."
+    },
+    {
+      "id": "m2-d11-q16",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Havalimanında bavulunun hafif olduğunu şöyle yazıyorsun:",
+      "ifade": "Die Koffer ist leicht.",
+      "dogru": false,
+      "aciklama": "Yanlış. Koffer maskulindir: Der Koffer ist leicht.",
+      "ipucu": "Koffer'in artikelini dersin kelime listesiyle karşılaştır.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Der Koffer ist leicht."
+    },
+    {
+      "id": "m2-d11-q17",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Tren beş dakika sonra geliyor.",
+      "parcalar": [
+        "Der Zug",
+        "kommt",
+        "in fünf Minuten"
+      ],
+      "dogruSiralar": [
+        [
+          "Der Zug",
+          "kommt",
+          "in fünf Minuten"
+        ],
+        [
+          "in fünf Minuten",
+          "kommt",
+          "Der Zug"
+        ]
+      ],
+      "aciklama": "Artikelli özne çekimli fiilin önünde durur; zaman grubu başa geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Artikel ile isim bir bütündür; çekimli fiil ikinci öğe olur.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Der Zug kommt in fünf Minuten."
+    },
+    {
+      "id": "m2-d11-q18",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Kurs saat altıda başlıyor.",
+      "parcalar": [
+        "Der Kurs",
+        "beginnt",
+        "um sechs Uhr"
+      ],
+      "dogruSiralar": [
+        [
+          "Der Kurs",
+          "beginnt",
+          "um sechs Uhr"
+        ],
+        [
+          "um sechs Uhr",
+          "beginnt",
+          "Der Kurs"
+        ]
+      ],
+      "aciklama": "Artikelli özne çekimli fiilin önünde durur; saat ifadesi başa geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Artikelle başlayan öğe bir tek parça sayılır ve fiilin yerini değiştirmez.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Der Kurs beginnt um sechs Uhr."
+    },
+    {
+      "id": "m2-d11-q19",
+      "tip": "artikel",
+      "soru": "Bu ismin artikelini seç.",
+      "isim": "Tisch",
+      "dogru": "der",
+      "aciklama": "Tisch maskulindir: der Tisch. Belirsiz hâli ein Tisch, ismin yerine er kullanılır.",
+      "ipucu": "Masa sözcüğünü kelime listesinde hangi artikelle bulacağına bak.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m2-d11-q20",
+      "tip": "artikel",
+      "soru": "Bu ismin artikelini seç.",
+      "isim": "Lampe",
+      "dogru": "die",
+      "aciklama": "Lampe feminindir: die Lampe. Belirsiz hâli eine Lampe, ismin yerine sie kullanılır.",
+      "ipucu": "Cinsiyet kelimenin anlamından çıkarılamaz; kelime listesindeki artikeli kullan.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m2-d11-q21",
+      "tip": "coktan-secmeli",
+      "soru": "Bir odayı anlatıyorsun. İkinci cümlede aynı odadan söz ediyorsun. Boşluğa uygun zamiri seç.",
+      "metin": "Das Zimmer ist groß. ___ ist auch neu.",
+      "secenekler": [
+        "Er",
+        "Sie",
+        "Es"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`Er` maskulin isimlerin yerine geçer; `Zimmer` nötr bir isimdir (das Zimmer).",
+        "`Sie` feminin isimlerin yerine geçer; `Zimmer` nötr bir isimdir (das Zimmer).",
+        ""
+      ],
+      "aciklama": "Zimmer nötrdür (das Zimmer); ismin yerine es kullanılır: Es ist auch neu.",
+      "ipucu": "Zamir, ilk cümledeki ismin artikeline uyar.",
+      "bicim": "bosluk",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Das Zimmer ist groß.",
+      "glossKapali": true
+    }
+  ],
+  "trickler": [
+    {
+      "baslik": "İsmi artikeliyle öğren",
+      "metin": "Cinsiyeti tahmin etmeye çalışma; \"Tisch\" değil \"der Tisch\" diye ezberle. Her yeni isimde artikeli de kaydet."
+    },
+    {
+      "baslik": "Bu dersin isimleri",
+      "metin": "der: Tisch, Hund, Zug, Mantel, Platz, Koffer. die: Lampe, Schule, Sonne, Toilette, Banane, Tomate. das: Buch, Zimmer, Sofa."
+    },
+    {
+      "baslik": "ein ve eine: Nominativ'de ayrım",
+      "metin": "Maskulin ve nötr isimlerde ein, feminin isimlerde eine: ein Tisch, ein Buch, eine Lampe. Önce ismin artikelini bil, sonra belirsiz artikeli çıkar."
+    },
+    {
+      "baslik": "Artikel, zamiri de belirler",
+      "metin": "der Tisch → er, die Lampe → sie, das Buch → es. Bu yüzden Tisch için \"Er ist neu\" dersin."
+    }
+  ]
+}

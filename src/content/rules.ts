@@ -12,10 +12,34 @@ export function checkQuestionRules(dosya: string, q: Question): ContentError[] {
   const err = (mesaj: string): ContentError => ({ dosya, soruId: q.id, mesaj })
   const errors: ContentError[] = []
 
+  if ((q.kaynakTuru === 'goethe' || q.kaynakTuru === 'uyarlama') && !q.kaynakCumle) {
+    errors.push(err(`kaynakTuru '${q.kaynakTuru}' iken kaynakCumle zorunlu`))
+  }
+
   switch (q.tip) {
     case 'coktan-secmeli':
       if (!Number.isInteger(q.dogru) || q.dogru < 0 || q.dogru >= q.secenekler.length) {
         errors.push(err(`dogru indeksi seçenekler aralığında değil (0-${q.secenekler.length - 1})`))
+      }
+      if (q.metin !== undefined && q.diyalog !== undefined) {
+        errors.push(err('metin ve diyalog birlikte olamaz'))
+      } else if (q.metin !== undefined) {
+        const count = q.metin.split('___').length - 1
+        if (count !== 1) errors.push(err(`metin tam olarak bir tane ___ içermeli (bulunan: ${count})`))
+      } else if (q.diyalog !== undefined) {
+        const counts = q.diyalog.map((s) => s.metin.split('___').length - 1)
+        const satirSayisi = counts.filter((c) => c > 0).length
+        const toplam = counts.reduce((a, b) => a + b, 0)
+        if (satirSayisi !== 1 || toplam !== 1) {
+          errors.push(err(`diyalog satırlarından tam biri tam bir ___ içermeli (bulunan: ${toplam}, satır: ${satirSayisi})`))
+        }
+      }
+      if (q.celdiriciNotlari !== undefined) {
+        if (q.celdiriciNotlari.length !== q.secenekler.length) {
+          errors.push(err('celdiriciNotlari uzunluğu secenekler ile aynı olmalı'))
+        } else if (q.celdiriciNotlari[q.dogru] !== '') {
+          errors.push(err("celdiriciNotlari doğru şıkta '' olmalı"))
+        }
       }
       break
     case 'bosluk-doldurma': {
