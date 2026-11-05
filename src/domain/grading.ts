@@ -41,6 +41,13 @@ export function gradeQuestion(q: Question, a: Answer | null): boolean {
   }
 }
 
+export function celdiriciNotu(q: Question, a: Answer | null): string | null {
+  if (q.tip !== 'coktan-secmeli' || a === null || a.tip !== 'coktan-secmeli') return null
+  if (a.secilen === q.dogru) return null
+  const not = q.celdiriciNotlari?.[a.secilen]
+  return not ? not : null
+}
+
 export function correctAnswerText(q: Question): string {
   switch (q.tip) {
     case 'coktan-secmeli':

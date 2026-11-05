@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { correctAnswerText, gradeQuestion, scorePercent } from '../../src/domain/grading'
+import { celdiriciNotu, correctAnswerText, gradeQuestion, scorePercent } from '../../src/domain/grading'
 import type { Question } from '../../src/content/schema'
 
 const base = { id: 'q', soru: 's', aciklama: 'a' }
@@ -122,5 +122,23 @@ describe('scorePercent', () => {
     expect(scorePercent(2, 3)).toBeCloseTo(66.6667, 3)
     expect(scorePercent(0, 0)).toBe(0)
     expect(scorePercent(29, 100)).toBe(29)
+  })
+})
+
+describe('celdiriciNotu', () => {
+  const q = { ...cs, celdiriciNotlari: ['', 'neden b', 'neden c'] } as Question
+  it('yanlış şıkta notu döner', () => {
+    expect(celdiriciNotu(q, { tip: 'coktan-secmeli', secilen: 2 })).toBe('neden c')
+  })
+  it('doğru şıkta, null cevapta, notsuz soruda ve başka tipte null', () => {
+    expect(celdiriciNotu(q, { tip: 'coktan-secmeli', secilen: 1 })).toBeNull()
+    expect(celdiriciNotu(q, null)).toBeNull()
+    expect(celdiriciNotu(cs, { tip: 'coktan-secmeli', secilen: 0 })).toBeNull()
+    expect(celdiriciNotu(bd, { tip: 'bosluk-doldurma', metin: 'x' })).toBeNull()
+    expect(celdiriciNotu(q, { tip: 'artikel', secilen: 'der' })).toBeNull()
+  })
+  it('boş not ve aralık dışı seçim null', () => {
+    expect(celdiriciNotu(q, { tip: 'coktan-secmeli', secilen: 0 })).toBeNull()
+    expect(celdiriciNotu(q, { tip: 'coktan-secmeli', secilen: 7 })).toBeNull()
   })
 })

@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react'
 import type { Question } from '../content/schema'
-import { correctAnswerText, scorePercent } from '../domain/grading'
+import { celdiriciNotu, correctAnswerText, scorePercent } from '../domain/grading'
 import { speak } from '../speech/speech'
 import type { SoruSonucu } from './TestRunner'
 
@@ -27,6 +27,7 @@ export function ResultsView({ sorular, sonuclar, gecmeNotu, baslik, children }: 
           const ok = sonuclar[i]?.dogru ?? false
           const sesli = q.tip !== 'dogru-yanlis' && q.tip !== 'eslestirme'
           const metin = correctAnswerText(q)
+          const not = celdiriciNotu(q, sonuclar[i]?.cevap ?? null)
           return (
             <li key={q.id} className={ok ? 'ok' : 'hata'}>
               <span aria-label={ok ? 'Doğru' : 'Yanlış'}>{ok ? '✓' : '✗'}</span> {q.soru}
@@ -38,6 +39,7 @@ export function ResultsView({ sorular, sonuclar, gecmeNotu, baslik, children }: 
                   </button>
                 )}
               </div>
+              {not && <div className="celdirici-notu">Neden olmadı: {not}</div>}
               <div className="aciklama">{q.aciklama}</div>
             </li>
           )
