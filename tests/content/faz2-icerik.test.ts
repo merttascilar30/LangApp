@@ -12,7 +12,7 @@ import {
   tooltipSizintilari,
   type DersHaritasi,
 } from '../helpers/icerik-kontrol'
-import { bankaCumleleri, dersKaliteHatalari, soruKaynakHatalari } from '../helpers/kalite'
+import { bankaCumleleri, cevapKonumuHatalari, dersKaliteHatalari, soruKaynakHatalari } from '../helpers/kalite'
 
 const banka = bankaCumleleri(bankaJson as unknown as Parameters<typeof bankaCumleleri>[0])
 const harita = haritaJson as unknown as DersHaritasi
@@ -65,6 +65,10 @@ describe.each(doluModuller.map((m) => [m.id, m] as const))('Faz 2 içerik: %s', 
     expect(ek.length).toBeGreaterThanOrEqual(8)
     expect(ek.length).toBeLessThanOrEqual(12)
     expect(ek.flatMap((q) => soruKaynakHatalari(q, banka))).toEqual([])
+  })
+
+  it('sınav ekSorular: doğru şık konumu dağılmış', () => {
+    expect(cevapKonumuHatalari(modul.sinav?.ekSorular ?? [])).toEqual([])
   })
 
   it('her soruda ipucu dolu', () => {

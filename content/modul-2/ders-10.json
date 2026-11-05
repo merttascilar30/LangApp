@@ -62,16 +62,16 @@
       "soru": "Yeni bir araban olduğunu anlatıyorsun. Fiilin doğru çekimini seç.",
       "metin": "Ich ___ ein neues Auto.",
       "secenekler": [
-        "habe",
-        "hast",
         "hat",
+        "hast",
+        "habe",
         "haben"
       ],
-      "dogru": 0,
+      "dogru": 2,
       "celdiriciNotlari": [
-        "",
-        "`hast` `du` ile gelir; konuşan kişi kendinden söz ediyor, yani `ich`.",
         "`hat` `er/sie/es` ve tekil isimlerle gelir; bu cümlenin öznesi `ich`.",
+        "`hast` `du` ile gelir; konuşan kişi kendinden söz ediyor, yani `ich`.",
+        "",
         "`haben` `wir`, `sie` (onlar) ve `Sie` ile gelir; bu cümlenin öznesi `ich`."
       ],
       "aciklama": "Özne \"ich\" olunca haben fiili habe olur: Ich habe ein neues Auto.",
@@ -142,15 +142,15 @@
       "secenekler": [
         "habe",
         "hat",
-        "haben",
-        "habt"
+        "habt",
+        "haben"
       ],
-      "dogru": 2,
+      "dogru": 3,
       "celdiriciNotlari": [
         "`habe` yalnızca `ich` ile gelir; bu cümlenin öznesi `wir`.",
         "`hat` `er/sie/es` ve tekil isimlerle gelir; bu cümlenin öznesi `wir`.",
-        "",
-        "`habt` yalnızca `ihr` ile gelir; bu cümlenin öznesi `wir`."
+        "`habt` yalnızca `ihr` ile gelir; bu cümlenin öznesi `wir`.",
+        ""
       ],
       "aciklama": "Özne \"wir\" olunca haben fiili haben olur; cümle zaman ifadesiyle başlasa da özne fiilin arkasında kalır.",
       "ipucu": "Cümle zaman ifadesiyle başlıyor; yine de özneyi bulup çekimi ona göre seç.",
@@ -190,15 +190,15 @@
         }
       ],
       "secenekler": [
-        "habe",
         "hast",
+        "habe",
         "hat",
         "habt"
       ],
-      "dogru": 0,
+      "dogru": 1,
       "celdiriciNotlari": [
-        "",
         "`hast` `du` ile gelir; Frau Kern kendinden söz ediyor, yani `ich`.",
+        "",
         "`hat` `er/sie/es` ve tekil isimlerle gelir; Frau Kern kendinden söz ediyor, yani `ich`.",
         "`habt` yalnızca `ihr` ile gelir; Frau Kern kendinden söz ediyor, yani `ich`."
       ],
@@ -223,16 +223,16 @@
         }
       ],
       "secenekler": [
-        "bin",
-        "habe",
         "ist",
+        "habe",
+        "bin",
         "hast"
       ],
-      "dogru": 0,
+      "dogru": 2,
       "celdiriciNotlari": [
-        "",
-        "`habe` `ich` ile gelir ama Almanca'da yaş `haben` ile değil `sein` ile söylenir.",
         "`ist` `er/sie/es` ve tekil isimlerle gelir; Herr Demir kendinden söz ediyor, yani `ich`.",
+        "`habe` `ich` ile gelir ama Almanca'da yaş `haben` ile değil `sein` ile söylenir.",
+        "",
         "`hast` `du` ile gelir; Herr Demir kendinden söz ediyor, yani `ich`."
       ],
       "aciklama": "Almanca'da yaş haben ile değil sein ile söylenir: Ich bin dreiundzwanzig.",
@@ -292,17 +292,17 @@
         }
       ],
       "secenekler": [
-        "sind",
+        "hat",
         "ist",
         "haben",
-        "hat"
+        "sind"
       ],
-      "dogru": 0,
+      "dogru": 3,
       "celdiriciNotlari": [
-        "",
+        "`hat` \"sahip olmak\" demektir ve tekil özneyle gelir; burada özne çoğul ve sahip olma yok.",
         "`ist` tekil özneyle gelir; özne burada `acht Schülerinnen und fünf Schüler`, yani çoğul.",
         "`haben` \"sahip olmak\" demektir; cümlede kursta kimlerin bulunduğu anlatılıyor, sahip olma yok.",
-        "`hat` \"sahip olmak\" demektir ve tekil özneyle gelir; burada özne çoğul ve sahip olma yok."
+        ""
       ],
       "aciklama": "Kursta kimlerin bulunduğunu söylerken sein fiili kullanılır; özne çoğul olduğu için sind gelir.",
       "ipucu": "Kursta kimlerin olduğu söyleniyor.",
@@ -319,16 +319,16 @@
       "tip": "coktan-secmeli",
       "soru": "Büyükannenin yetmiş yaşında olduğunu anlatıyorsun. Hangi cümleyi kurarsın?",
       "secenekler": [
-        "Meine Oma ist schon siebzig Jahre alt.",
-        "Meine Oma hat schon siebzig Jahre alt.",
         "Meine Oma hat schon siebzig Jahre.",
+        "Meine Oma hat schon siebzig Jahre alt.",
+        "Meine Oma ist schon siebzig Jahre alt.",
         "Meine Oma sind schon siebzig Jahre alt."
       ],
-      "dogru": 0,
+      "dogru": 2,
       "celdiriciNotlari": [
-        "",
-        "Yaş `haben` ile değil `sein` ile söylenir; `hat alt` kalıbı yoktur.",
         "`hat ... Jahre` denmez; yaş `sein` ile söylenir.",
+        "Yaş `haben` ile değil `sein` ile söylenir; `hat alt` kalıbı yoktur.",
+        "",
         "`sind` çoğul özneyle gelir; `Oma` tekildir."
       ],
       "aciklama": "Yaş sein ile söylenir; tekil özneyle ist gelir: Meine Oma ist schon siebzig Jahre alt.",
@@ -342,15 +342,15 @@
       "tip": "coktan-secmeli",
       "soru": "Eşinin ateşi hâlâ düşmedi; doktora telefonda durumu anlatıyorsun. Hangi cümleyi söylersin?",
       "secenekler": [
-        "Mein Mann hat noch immer Fieber.",
         "Mein Mann ist noch immer Fieber.",
+        "Mein Mann hat noch immer Fieber.",
         "Mein Mann habe noch immer Fieber.",
         "Mein Mann bin noch immer Fieber."
       ],
-      "dogru": 0,
+      "dogru": 1,
       "celdiriciNotlari": [
-        "",
         "`ist` \"olmak\" demektir; ateş bir isimdir ve `haben` ile söylenir.",
+        "",
         "`habe` yalnızca `ich` ile gelir; `Mann` için `hat` gerekir.",
         "`bin` yalnızca `ich` ile gelir; üstelik ateş `haben` ile söylenir."
       ],
@@ -571,17 +571,17 @@
       "soru": "Arkadaşın Jenny'nin postanede yeni bir iş bulduğunu anlatıyorsun. Fiilin doğru biçimini seç.",
       "metin": "Jenny ___ einen neuen Job bei der Post.",
       "secenekler": [
-        "hat",
+        "habe",
         "ist",
         "haben",
-        "habe"
+        "hat"
       ],
-      "dogru": 0,
+      "dogru": 3,
       "celdiriciNotlari": [
-        "",
+        "`habe` yalnızca `ich` ile gelir; özne burada `Jenny`.",
         "`ist` \"olmak\" demektir; burada bir işe sahip olma anlatılıyor, bu yüzden `haben` ailesi gerekir.",
         "`haben` `wir`, `sie` (onlar) ve `Sie` ile gelir; `Jenny` tek bir kişidir.",
-        "`habe` yalnızca `ich` ile gelir; özne burada `Jenny`."
+        ""
       ],
       "aciklama": "Bir işe sahip olmak haben ile söylenir; özne tek kişi olunca hat gelir: Jenny hat einen neuen Job.",
       "ipucu": "Jenny'nin yeni bir işe sahip olduğunu anlatıyorsun; özne üçüncü tekil kişi.",

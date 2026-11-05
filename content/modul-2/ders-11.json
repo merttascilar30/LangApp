@@ -141,14 +141,14 @@
       "soru": "Okulun hemen yakında, köşede olduğunu söylüyorsun. Boşluğa uygun artikeli seç.",
       "metin": "___ Schule ist gleich hier um die Ecke.",
       "secenekler": [
-        "das",
         "die",
+        "das",
         "der"
       ],
-      "dogru": 1,
+      "dogru": 0,
       "celdiriciNotlari": [
-        "`das` nötr isimlerle kullanılır; `Schule` feminin bir isimdir (die Schule).",
         "",
+        "`das` nötr isimlerle kullanılır; `Schule` feminin bir isimdir (die Schule).",
         "`der` maskulin isimlerle kullanılır; `Schule` feminin bir isimdir (die Schule)."
       ],
       "aciklama": "Schule feminin bir isimdir: die Schule.",
@@ -188,13 +188,13 @@
       "soru": "Odaya yeni bir lamba koydun ve arkadaşına gösteriyorsun. Boşluğa uygun belirsiz artikeli seç.",
       "metin": "Das ist ___ Lampe.",
       "secenekler": [
-        "ein",
-        "eine"
+        "eine",
+        "ein"
       ],
-      "dogru": 1,
+      "dogru": 0,
       "celdiriciNotlari": [
-        "`ein` maskulin ve nötr isimlerle kullanılır; `Lampe` feminin bir isimdir (die Lampe).",
-        ""
+        "",
+        "`ein` maskulin ve nötr isimlerle kullanılır; `Lampe` feminin bir isimdir (die Lampe)."
       ],
       "aciklama": "Lampe feminin bir isimdir (die Lampe); feminin isimlerle belirsiz artikel eine olur: eine Lampe.",
       "ipucu": "Belirsiz artikeli seçmek için önce ismin cinsiyetini listeden kontrol et.",
@@ -263,14 +263,14 @@
       ],
       "secenekler": [
         "Es",
-        "Sie",
-        "Er"
+        "Er",
+        "Sie"
       ],
-      "dogru": 1,
+      "dogru": 2,
       "celdiriciNotlari": [
         "`Es` nötr isimlerin yerine geçer; `Toilette` feminin bir isimdir (die Toilette).",
-        "",
-        "`Er` maskulin isimlerin yerine geçer; `Toilette` feminin bir isimdir (die Toilette)."
+        "`Er` maskulin isimlerin yerine geçer; `Toilette` feminin bir isimdir (die Toilette).",
+        ""
       ],
       "aciklama": "Toilette feminindir (die Toilette); ismin yerine sie kullanılır: Sie ist dort hinten rechts.",
       "ipucu": "Garson, sorulan ismin yerine geçen zamiri kullanıyor; o ismin artikeline bak.",
@@ -294,14 +294,14 @@
         }
       ],
       "secenekler": [
-        "das",
         "der",
+        "das",
         "die"
       ],
-      "dogru": 1,
+      "dogru": 0,
       "celdiriciNotlari": [
-        "`das` nötr isimlerle kullanılır; `Platz` maskulin bir isimdir (der Platz).",
         "",
+        "`das` nötr isimlerle kullanılır; `Platz` maskulin bir isimdir (der Platz).",
         "`die` feminin isimlerle kullanılır; `Platz` maskulin bir isimdir (der Platz)."
       ],
       "aciklama": "Platz maskulin bir isimdir: der Platz.",
@@ -381,17 +381,17 @@
       "tip": "coktan-secmeli",
       "soru": "Yeni taşındığın evde misafirine yeni aldığın kanepeyi gösteriyorsun: \"Kanepe yeni.\" Hangi cümleyi söylersin?",
       "secenekler": [
-        "Das Sofa ist neu.",
+        "Das Sofa sind neu.",
         "Der Sofa ist neu.",
         "Die Sofa ist neu.",
-        "Das Sofa sind neu."
+        "Das Sofa ist neu."
       ],
-      "dogru": 0,
+      "dogru": 3,
       "celdiriciNotlari": [
-        "",
+        "`sind` çoğul özneyle gelir; `Sofa` tekildir.",
         "`der` maskulin isimlerle kullanılır; `Sofa` nötrdür.",
         "`die` feminin isimlerle kullanılır; `Sofa` nötrdür.",
-        "`sind` çoğul özneyle gelir; `Sofa` tekildir."
+        ""
       ],
       "aciklama": "Sofa nötr bir isimdir: das Sofa. Tekil özneyle fiil ist olur.",
       "ipucu": "Sofa, dersin kelime listesinde artikeliyle birlikte verilen isimlerden.",

@@ -62,21 +62,24 @@
       "soru": "Almanca kursunun ilk günü; kendini tanıtıyorsun ve adın Charlotte Meier. Boşluğa doğru fiil çekimini seç.",
       "metin": "Ich ___ Charlotte Meier.",
       "secenekler": [
-        "heiße",
         "heißt",
+        "heiße",
         "heißen"
       ],
-      "dogru": 0,
+      "dogru": 1,
       "celdiriciNotlari": [
-        "",
         "`heißt` `du`, `er/sie/es` ve `ihr` ile gelir; bu cümlenin öznesi `ich`.",
+        "",
         "`heißen` `wir`, `sie` (onlar) ve `Sie` ile gelir; bu cümlenin öznesi `ich`."
       ],
       "aciklama": "Özne \"ich\" olunca heißen fiili heiße olur: Ich heiße Charlotte Meier.",
       "ipucu": "Kendi adını söylüyorsun, bu yüzden konuşanın kendisine uyan eki seç.",
       "bicim": "bosluk",
       "kaynakTuru": "goethe",
-      "kaynakCumle": "Ich heiße Charlotte Meier."
+      "kaynakCumle": "Ich heiße Charlotte Meier.",
+      "sozlukEk": {
+        "heißen": "adı ... olmak fiilinin çekimi"
+      }
     },
     {
       "id": "m2-d12-q02",
@@ -84,20 +87,20 @@
       "soru": "Yaşıtın olan tek bir kurs arkadaşına adını soruyorsun. Boşluğa uygun zamiri seç.",
       "metin": "Wie heißt ___?",
       "secenekler": [
-        "du",
-        "Sie",
         "er",
+        "Sie",
+        "du",
         "wir"
       ],
-      "dogru": 0,
+      "dogru": 2,
       "celdiriciNotlari": [
-        "",
-        "`Sie` ile fiil `heißen` olur (`Wie heißen Sie?`); burada fiil `heißt`.",
         "`Wie heißt er?` \"onun adı ne?\" demektir; sen karşındaki kişiye doğrudan soruyorsun.",
+        "`Sie` ile fiil `heißen` olur (`Wie heißen Sie?`); burada fiil `heißt`.",
+        "",
         "`wir` ile fiil `heißen` olur; üstelik soru tek bir kişiye yöneltiliyor."
       ],
       "aciklama": "Yaşıt tek bir kişiye samimi hitap du ile yapılır ve fiil heißt olur: Wie heißt du?",
-      "ipucu": "Karşındaki yaşıt ve tek kişi; fiilin sonundaki -t ekine uyan zamiri bul.",
+      "ipucu": "Karşındaki yaşıt ve tek kişi; ona doğrudan hitap ederken kullanılan samimi zamiri seç.",
       "bicim": "bosluk",
       "kaynakTuru": "goethe",
       "kaynakCumle": "Wie heißt du?",
@@ -156,23 +159,26 @@
         }
       ],
       "secenekler": [
-        "kommen",
+        "komme",
         "kommst",
         "kommt",
-        "komme"
+        "kommen"
       ],
-      "dogru": 0,
+      "dogru": 3,
       "celdiriciNotlari": [
-        "",
+        "`komme` yalnızca `ich` ile gelir; görevli kendinden değil karşısındakinden söz ediyor.",
         "`kommst` `du` ile gelir; Frau Roth tanımadığı birine `Sie` ile hitap ediyor.",
         "`kommt` `er/sie/es` ve `ihr` ile gelir; cümledeki özne `Sie`.",
-        "`komme` yalnızca `ich` ile gelir; görevli kendinden değil karşısındakinden söz ediyor."
+        ""
       ],
       "aciklama": "Resmî Sie ile fiil mastarla aynıdır: Woher kommen Sie?",
       "ipucu": "Görevli tanımadığı birine resmî hitap ediyor; hangi çekim Sie'ye uyar?",
       "bicim": "diyalog",
       "kaynakTuru": "goethe",
-      "kaynakCumle": "Woher kommen Sie? – Aus Frankreich."
+      "kaynakCumle": "Woher kommen Sie? – Aus Frankreich.",
+      "sozlukEk": {
+        "kommen": "gelmek fiilinin çekimi"
+      }
     },
     {
       "id": "m2-d12-q06",
@@ -189,15 +195,15 @@
         }
       ],
       "secenekler": [
-        "kommst",
         "kommen",
+        "kommst",
         "kommt",
         "komme"
       ],
-      "dogru": 0,
+      "dogru": 1,
       "celdiriciNotlari": [
-        "",
         "`kommen` `wir`, `sie` (onlar) ve `Sie` ile gelir; cümlenin öznesi `du`.",
+        "",
         "`kommt` `er/sie/es` ve `ihr` ile gelir; cümlenin öznesi `du`.",
         "`komme` yalnızca `ich` ile gelir; cümlenin öznesi `du`."
       ],
@@ -205,7 +211,10 @@
       "ipucu": "Soru yaşıt tek bir kişiye yöneltiliyor; zamire uyan eki düşün.",
       "bicim": "diyalog",
       "kaynakTuru": "uyarlama",
-      "kaynakCumle": "Woher kommen Sie?"
+      "kaynakCumle": "Woher kommen Sie?",
+      "sozlukEk": {
+        "kommen": "gelmek fiilinin çekimi"
+      }
     },
     {
       "id": "m2-d12-q07",
@@ -222,23 +231,26 @@
         }
       ],
       "secenekler": [
-        "wohnen",
-        "wohnst",
         "wohnt",
+        "wohnst",
+        "wohnen",
         "wohne"
       ],
-      "dogru": 0,
+      "dogru": 2,
       "celdiriciNotlari": [
-        "",
-        "`wohnst` `du` ile gelir; memur tanımadığı birine `Sie` ile hitap ediyor.",
         "`wohnt` `er/sie/es` ve `ihr` ile gelir; cümledeki özne `Sie`.",
+        "`wohnst` `du` ile gelir; memur tanımadığı birine `Sie` ile hitap ediyor.",
+        "",
         "`wohne` yalnızca `ich` ile gelir; memur kendinden söz etmiyor."
       ],
       "aciklama": "Resmî Sie ile fiil mastarla aynıdır: In welcher Straße wohnen Sie?",
       "ipucu": "Çekimi, sorunun yöneldiği kişiye verilen hitap belirler.",
       "bicim": "diyalog",
       "kaynakTuru": "goethe",
-      "kaynakCumle": "In welcher Straße wohnen Sie?"
+      "kaynakCumle": "In welcher Straße wohnen Sie?",
+      "sozlukEk": {
+        "wohnen": "oturmak fiilinin çekimi"
+      }
     },
     {
       "id": "m2-d12-q08",
@@ -288,23 +300,26 @@
         }
       ],
       "secenekler": [
-        "spreche",
+        "sprechen",
         "sprichst",
         "spricht",
-        "sprechen"
+        "spreche"
       ],
-      "dogru": 0,
+      "dogru": 3,
       "celdiriciNotlari": [
-        "",
+        "`sprechen` `wir`, `sie` (onlar) ve `Sie` ile gelir; öğrenci kendinden söz ediyor, yani `ich`.",
         "`sprichst` `du` ile gelir; öğrenci kendinden söz ediyor, yani `ich`.",
         "`spricht` `er/sie/es` ile gelir; öğrenci kendinden söz ediyor, yani `ich`.",
-        "`sprechen` `wir`, `sie` (onlar) ve `Sie` ile gelir; öğrenci kendinden söz ediyor, yani `ich`."
+        ""
       ],
       "aciklama": "Özne \"ich\" olunca sprechen fiili spreche olur: Ich spreche Englisch.",
       "ipucu": "Öğrenci kendi adına konuşuyor; ich ile gelen biçimi seç.",
       "bicim": "diyalog",
       "kaynakTuru": "goethe",
-      "kaynakCumle": "Ich spreche Englisch, Französisch und ein bisschen Deutsch."
+      "kaynakCumle": "Ich spreche Englisch, Französisch und ein bisschen Deutsch.",
+      "sozlukEk": {
+        "sprechen": "konuşmak fiilinin çekimi"
+      }
     },
     {
       "id": "m2-d12-q10",
@@ -361,6 +376,14 @@
           "und",
           "ist",
           "Finne"
+        ],
+        [
+          "aus Helsinki",
+          "kommt",
+          "Mikko",
+          "und",
+          "ist",
+          "Finne"
         ]
       ],
       "aciklama": "İki bilginin öznesi de Mikko'dur; und ile bağlanır ve sırası değiştirilebilir.",
@@ -374,15 +397,15 @@
       "tip": "coktan-secmeli",
       "soru": "Bir kurs ofisinde çalışıyorsun ve tanımadığın bir kursiyerin mesleğini resmî biçimde soruyorsun. Hangi cümleyi söylersin?",
       "secenekler": [
-        "Was sind Sie von Beruf?",
         "Was bist du von Beruf?",
+        "Was sind Sie von Beruf?",
         "Was sind du von Beruf?",
         "Was bist Sie von Beruf?"
       ],
-      "dogru": 0,
+      "dogru": 1,
       "celdiriciNotlari": [
-        "",
         "`Was bist du von Beruf?` doğru bir cümledir ama `du` samimi hitaptır; tanımadığın biri için `Sie` gerekir.",
+        "",
         "`du` ile fiil `bist` olur, `sind` olmaz.",
         "`Sie` ile fiil `sind` olur, `bist` olmaz."
       ],
@@ -398,16 +421,16 @@
       "tip": "coktan-secmeli",
       "soru": "Yıllardır tanıdığın yakın arkadaşına ne zamandır Almanca öğrendiğini soruyorsun. Hangi cümleyi söylersin?",
       "secenekler": [
-        "Wie lange lernst du schon Deutsch?",
-        "Wie lange lernen Sie schon Deutsch?",
         "Wie lange lernst Sie schon Deutsch?",
+        "Wie lange lernen Sie schon Deutsch?",
+        "Wie lange lernst du schon Deutsch?",
         "Wie lange lernen du schon Deutsch?"
       ],
-      "dogru": 0,
+      "dogru": 2,
       "celdiriciNotlari": [
-        "",
-        "`Sie` ile cümle doğrudur ama resmî hitaptır; yakın arkadaşına `du` dersin.",
         "`Sie` ile fiil `lernen` olur, `lernst` olmaz.",
+        "`Sie` ile cümle doğrudur ama resmî hitaptır; yakın arkadaşına `du` dersin.",
+        "",
         "`du` ile fiil `lernst` olur, `lernen` olmaz."
       ],
       "aciklama": "Yakın arkadaşa du ve lernst kullanılır: Wie lange lernst du schon Deutsch?",
@@ -471,7 +494,9 @@
       "kaynak": "Türkiye'denim.",
       "dogruCevaplar": [
         "Ich komme aus der Türkei.",
-        "Ich bin aus der Türkei."
+        "Ich bin aus der Türkei.",
+        "Aus der Türkei komme ich.",
+        "Aus der Türkei bin ich."
       ],
       "aciklama": "Köken \"kommen aus\" ile söylenir; Türkei artikelle gelir: Ich komme aus der Türkei.",
       "ipucu": "Memleketi söylerken fiil ve aus edatı birlikte kullanılır.",
@@ -565,7 +590,10 @@
       "ipucu": "Özne tek bir kişi; üçüncü tekil kişinin ekini seç.",
       "bicim": "bosluk",
       "kaynakTuru": "goethe",
-      "kaynakCumle": "Meine Großmutter heißt Eva."
+      "kaynakCumle": "Meine Großmutter heißt Eva.",
+      "sozlukEk": {
+        "heißen": "adı ... olmak fiilinin çekimi"
+      }
     }
   ],
   "trickler": [

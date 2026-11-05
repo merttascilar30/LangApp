@@ -5,31 +5,40 @@
     {
       "id": "m2-s-q01",
       "tip": "coktan-secmeli",
-      "soru": "İki oğlundan söz ediyorsun: Peter ve Helmut. Boşluğa doğru fiili seç.",
-      "metin": "Peter und Helmut ___ meine Söhne.",
+      "soru": "Frau Lang iş arkadaşına ailesini anlatıyor. Çocuklarının evli olduğunu ve Köln şehrinde yaşadıklarını söylüyor. Konuşan kişinin son cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Kollege",
+          "metin": "Haben Sie Kinder, Frau Lang?"
+        },
+        {
+          "kim": "Frau Lang",
+          "metin": "Ja, zwei. Meine Kinder ___ glücklich verheiratet und wohnen in Köln."
+        }
+      ],
       "secenekler": [
-        "sind",
         "ist",
+        "sind",
         "haben",
         "seid"
       ],
-      "dogru": 0,
+      "dogru": 1,
       "celdiriciNotlari": [
+        "`ist` tekil özneyle gelir; özne `Meine Kinder` çoğuldur.",
         "",
-        "`ist` tekil özneyle gelir; burada iki kişi var.",
-        "`haben` \"sahip olmak\" demektir; burada kimlik bildiriliyor.",
-        "`seid` yalnızca `ihr` ile gelir; özne iki isimdir."
+        "`haben` \"sahip olmak\" demektir; burada çocukların medeni durumu anlatılıyor.",
+        "`seid` yalnızca `ihr` ile gelir; özne `Meine Kinder`."
       ],
-      "aciklama": "Çoğul özneyle sein fiili sind olur: Peter und Helmut sind meine Söhne.",
-      "ipucu": "Özne iki kişi; hem fiilin türüne hem de çoğul çekimine bak.",
-      "bicim": "bosluk",
+      "aciklama": "Medeni durum sein ile söylenir; çoğul özneyle sind gelir: Meine Kinder sind glücklich verheiratet.",
+      "ipucu": "Medeni durum bir sahiplik değildir ve özne çoğuldur.",
+      "bicim": "diyalog",
       "kaynakTuru": "goethe",
-      "kaynakCumle": "Peter und Helmut sind meine Söhne."
+      "kaynakCumle": "Meine Kinder sind glücklich verheiratet."
     },
     {
       "id": "m2-s-q02",
       "tip": "coktan-secmeli",
-      "soru": "Kursun ilk günü. Öğretmen Frau Kern, yeni öğrenci Herr Demir'e hal hatır soruyor, sonra nereli olduğunu soruyor. Öğretmenin son sorusunu tamamla.",
+      "soru": "Kursun ilk günü. Öğretmen Frau Kern, yeni öğrencisi Herr Demir ile konuşuyor: önce hâlini, sonra nerede doğduğunu soruyor. Öğretmenin son sorusunu tamamla.",
       "diyalog": [
         {
           "kim": "Frau Kern",
@@ -41,27 +50,36 @@
         },
         {
           "kim": "Frau Kern",
-          "metin": "Woher ___ Sie?"
+          "metin": "Wo ___ Sie geboren?"
+        },
+        {
+          "kim": "Herr Demir",
+          "metin": "In Istanbul."
         }
       ],
       "secenekler": [
-        "kommen",
-        "kommst",
-        "kommt",
-        "komme"
+        "seid",
+        "bist",
+        "ist",
+        "sind"
       ],
-      "dogru": 0,
+      "dogru": 3,
       "celdiriciNotlari": [
-        "",
-        "`kommst` `du` ile gelir; öğretmen öğrenciye `Sie` ile hitap ediyor.",
-        "`kommt` `er/sie/es` ve `ihr` ile gelir; cümledeki özne `Sie`.",
-        "`komme` yalnızca `ich` ile gelir; öğretmen kendinden söz etmiyor."
+        "`seid` yalnızca `ihr` ile gelir; öğretmen tek bir öğrenciye soruyor.",
+        "`bist` `du` ile gelir; öğretmen öğrenciye `Sie` ile hitap ediyor.",
+        "`ist` `er/sie/es` ile gelir; cümledeki özne `Sie`.",
+        ""
       ],
-      "aciklama": "Resmî Sie ile fiil mastarla aynıdır: Woher kommen Sie?",
-      "ipucu": "Konuşma baştan sona resmî; hitaba uyan çekimi seç.",
+      "aciklama": "Resmî Sie ile sein fiili sind olur: Wo sind Sie geboren?",
+      "ipucu": "Konuşma baştan sona resmî; Sie ile kullanılan sein biçimini düşün.",
       "bicim": "diyalog",
       "kaynakTuru": "goethe",
-      "kaynakCumle": "Woher kommen Sie?"
+      "kaynakCumle": "Wo sind Sie geboren?",
+      "sozlukEk": {
+        "es": "(hâl hatır kalıbında) es",
+        "geht": "gider; hâl hatır sorarken: nasıl gidiyor",
+        "geboren": "doğmuş"
+      }
     },
     {
       "id": "m2-s-q03",
@@ -101,23 +119,28 @@
       "aciklama": "Yakın arkadaşa du ile hitap edilir ve fiil wohnst olur: Wo wohnst du jetzt?",
       "ipucu": "İkisi birbirine samimi hitap ediyor; zamire uyan eki seç.",
       "bicim": "diyalog",
-      "kaynakTuru": "yazildi"
+      "kaynakTuru": "yazildi",
+      "sozlukEk": {
+        "es": "(hâl hatır kalıbında) es",
+        "geht": "gider; hâl hatır sorarken: nasıl gidiyor",
+        "wohnen": "oturmak fiilinin çekimi"
+      }
     },
     {
       "id": "m2-s-q04",
       "tip": "coktan-secmeli",
       "soru": "Arkadaşına yeni bir daireniz olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
       "secenekler": [
-        "Wir haben eine neue Wohnung.",
-        "Wir sind eine neue Wohnung.",
         "Wir hat eine neue Wohnung.",
+        "Wir sind eine neue Wohnung.",
+        "Wir haben eine neue Wohnung.",
         "Wir habe eine neue Wohnung."
       ],
-      "dogru": 0,
+      "dogru": 2,
       "celdiriciNotlari": [
-        "",
-        "`sind` \"olmak\" demektir; sahip olunan şey `haben` ile söylenir.",
         "`hat` `er/sie/es` ile gelir; özne `wir`.",
+        "`sind` \"olmak\" demektir; sahip olunan şey `haben` ile söylenir.",
+        "",
         "`habe` yalnızca `ich` ile gelir; özne `wir`."
       ],
       "aciklama": "Sahip olunan şey haben ile söylenir; wir ile haben gelir ve Wohnung feminin olduğu için eine alır.",
@@ -136,10 +159,7 @@
       "ipucu": "İkinci cümledeki zamirin hangi ismin yerine geçtiğini ve o ismin artikelini düşün.",
       "bicim": "senaryo",
       "kaynakTuru": "yazildi",
-      "glossKapali": true,
-      "sozlukEk": {
-        "Tisch": "masa"
-      }
+      "glossKapali": true
     },
     {
       "id": "m2-s-q06",
@@ -169,7 +189,8 @@
       "kaynak": "Adım Thomas Schmidt.",
       "dogruCevaplar": [
         "Mein Name ist Thomas Schmidt.",
-        "Ich heiße Thomas Schmidt."
+        "Ich heiße Thomas Schmidt.",
+        "Ich bin Thomas Schmidt."
       ],
       "aciklama": "Adını Mein Name ist ... veya Ich heiße ... ile söylersin.",
       "ipucu": "Kendini tanıtırken kullanılan iki kalıptan birini kur.",
@@ -180,44 +201,35 @@
     {
       "id": "m2-s-q08",
       "tip": "cumle-dizme",
-      "soru": "Kelimeleri doğru sıraya diz: Üç yıldır Köln'de oturuyorum.",
+      "soru": "Kelimeleri doğru sıraya diz: Bizim altımızda üç çocuklu bir aile oturuyor.",
       "parcalar": [
-        "Ich",
-        "wohne",
-        "seit drei Jahren",
-        "in Köln"
+        "Unter uns",
+        "wohnt",
+        "eine Familie mit drei Kindern"
       ],
       "dogruSiralar": [
         [
-          "Ich",
-          "wohne",
-          "seit drei Jahren",
-          "in Köln"
+          "Unter uns",
+          "wohnt",
+          "eine Familie mit drei Kindern"
         ],
         [
-          "Ich",
-          "wohne",
-          "in Köln",
-          "seit drei Jahren"
-        ],
-        [
-          "seit drei Jahren",
-          "wohne",
-          "Ich",
-          "in Köln"
-        ],
-        [
-          "in Köln",
-          "wohne",
-          "Ich",
-          "seit drei Jahren"
+          "eine Familie mit drei Kindern",
+          "wohnt",
+          "Unter uns"
         ]
       ],
-      "aciklama": "Çekimli fiil ikinci öğe olur; başa zaman ya da yer ifadesi gelirse özne fiilin arkasına kayar.",
+      "aciklama": "Çekimli fiil ikinci öğe olur; yer ifadesi başa geçerse özne fiilin arkasına kayar.",
       "ipucu": "Hangi öğeyle başlarsan başla çekimli fiil ikinci sırada kalır.",
       "bicim": "siralama",
       "kaynakTuru": "goethe",
-      "kaynakCumle": "Ich wohne seit drei Jahren in Köln."
+      "kaynakCumle": "Unter uns wohnt eine Familie mit drei Kindern.",
+      "sozlukEk": {
+        "Unter": "altında",
+        "uns": "bize",
+        "Familie": "aile",
+        "Kindern": "çocuklar"
+      }
     },
     {
       "id": "m2-s-q09",
@@ -238,15 +250,15 @@
       "tip": "coktan-secmeli",
       "soru": "Sınıfta yeni tanıştığın yaşıt bir arkadaşına adını söylüyor ve hâlini soruyorsun. Hangisi uygun olur?",
       "secenekler": [
-        "Ich heiße Ali. Und wie geht es dir?",
         "Ich heiße Ali. Und wie geht es Ihnen?",
+        "Ich heiße Ali. Und wie geht es dir?",
         "Ich heißt Ali. Und wie geht es dir?",
         "Ich heiße Ali. Und wie gehst du?"
       ],
-      "dogru": 0,
+      "dogru": 1,
       "celdiriciNotlari": [
-        "",
         "Cümle doğrudur ama `Ihnen` resmî hitaptır; yaşıt bir arkadaşa `dir` dersin.",
+        "",
         "`heißt` `ich` ile gelmez; `ich` ile `heiße` olur.",
         "`wie gehst du` \"sen nasıl gidiyorsun\" gibi anlaşılır; hâl sorarken `geht es dir` kullanılır."
       ],

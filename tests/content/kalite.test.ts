@@ -3,6 +3,7 @@ import type { Part, Question } from '../../src/content/schema'
 import {
   bankaCumleleri,
   bicimHatalari,
+  cevapKonumuHatalari,
   dersKaliteHatalari,
   normCumle,
   soruKaynakHatalari,
@@ -115,7 +116,27 @@ const kelEsles = (id: string, kt: KT = 'yazildi', kaynak?: string): Question => 
   ],
 })
 
+/** coktan-secmeli sorunun doğru şıkkını (ve notunu) verilen konuma taşır. */
+function konumla(q: Question, slot: number): Question {
+  if (q.tip !== 'coktan-secmeli' || q.dogru === slot) return q
+  const sec = [...q.secenekler]
+  ;[sec[q.dogru], sec[slot]] = [sec[slot], sec[q.dogru]]
+  const out: Question = { ...q, secenekler: sec, dogru: slot }
+  if (q.celdiriciNotlari) {
+    const n = [...q.celdiriciNotlari]
+    ;[n[q.dogru], n[slot]] = [n[slot], n[q.dogru]]
+    out.celdiriciNotlari = n
+  }
+  return out
+}
+
 function gecerli20(): Question[] {
+  const SLOTLAR = [0, 1, 2, 0, 1, 2, 1]
+  let k = 0
+  return ham20().map((q) => (q.tip === 'coktan-secmeli' ? konumla(q, SLOTLAR[k++ % SLOTLAR.length]) : q))
+}
+
+function ham20(): Question[] {
   return [
     metinQ('q00', 'goethe', S.s0, 'heiße'),
     metinQ('q01', 'goethe', S.s1, 'kommen'),
@@ -275,6 +296,33 @@ describe('dersKaliteHatalari', () => {
   it('tutarlılık hataları soru id sini taşır', () => {
     const h = ders(degistir(gecerli20(), 8, { okunacak: 'Etwas ganz anderes.' }))
     expect(h.some((m) => m.startsWith('q08:'))).toBe(true)
+  })
+})
+
+describe('cevapKonumuHatalari', () => {
+  const dort = (slotlar: number[]) =>
+    slotlar.map((s, i) => konumla(metinQ(`k${i}`, 'goethe', S.s0, 'heiße'), s))
+
+  it('4 çoktan seçmeli sorunun hepsi aynı konumdaysa hata ve konumu adlandırır', () => {
+    const h = cevapKonumuHatalari(dort([0, 0, 0, 0]))
+    expect(h).toHaveLength(1)
+    expect(h[0]).toContain('konum 1')
+    expect(h[0]).toContain('4/4')
+  })
+
+  it('doğru cevaplar dağılmışsa hata yok; yarı yarıya sınırda da geçer', () => {
+    expect(cevapKonumuHatalari(dort([0, 1, 2, 0]))).toEqual([])
+    expect(cevapKonumuHatalari(dort([0, 0, 1, 2]))).toEqual([])
+  })
+
+  it('4 çoktan seçmeliden azsa denetlenmez', () => {
+    expect(cevapKonumuHatalari(dort([0, 0, 0]))).toEqual([])
+  })
+
+  it('dersKaliteHatalari 20 soruluk derste yığılmayı yakalar', () => {
+    const yigin = gecerli20().map((q) => (q.tip === 'coktan-secmeli' ? konumla(q, 0) : q))
+    expect(icerir(ders(yigin), 'konum')).toBe(true)
+    expect(icerir(ders(gecerli20()), 'konum')).toBe(false)
   })
 })
 

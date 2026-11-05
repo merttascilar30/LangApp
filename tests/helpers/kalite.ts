@@ -146,6 +146,24 @@ export function soruKaynakHatalari(q: Question, banka: ReadonlySet<string>): str
   return hatalar
 }
 
+/**
+ * Çoktan seçmeli sorularda doğru şık hep aynı konumda olmasın: soru sayısı >= 4 ise
+ * hiçbir konum cevapların %50'sinden fazlasını taşıyamaz.
+ */
+export function cevapKonumuHatalari(sorular: readonly Question[]): string[] {
+  const cs = sorular.filter((q) => q.tip === 'coktan-secmeli')
+  if (cs.length < 4) return []
+  const sayac = new Map<number, number>()
+  for (const q of cs) if (q.tip === 'coktan-secmeli') sayac.set(q.dogru, (sayac.get(q.dogru) ?? 0) + 1)
+  const hatalar: string[] = []
+  for (const [konum, n] of sayac) {
+    if (n / cs.length > 0.5) {
+      hatalar.push(`doğru şık konum ${konum + 1} içinde yığılmış: ${n}/${cs.length} çoktan seçmeli soru (en fazla %50)`)
+    }
+  }
+  return hatalar
+}
+
 /** Spec §5 tablosu: tek bir dersin (part) kalite hataları. */
 export function dersKaliteHatalari(g: KaliteGirdisi): string[] {
   const { part, istisna, bankaCumleleri: banka } = g
@@ -180,6 +198,8 @@ export function dersKaliteHatalari(g: KaliteGirdisi): string[] {
   if (toplam > 0 && yazildi / toplam > yazildiSiniri) {
     pHata(`yazildi oranı en fazla %${yazildiSiniri * 100} olmalı (bulunan: ${yazildi}/${toplam})`)
   }
+
+  for (const h of cevapKonumuHatalari(sorular)) pHata(h)
 
   const kullanim = new Map<string, number>()
   for (const q of sorular) {

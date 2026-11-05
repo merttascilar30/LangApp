@@ -8,7 +8,7 @@
     "Cevaplar: Sehr gut. Gut, danke. Es geht. (idare eder) Schlecht. Kendi halini Es geht mir schon besser. gibi cümlelerle de anlatırsın.",
     "Karşılık sorusu da hitaba uyar: yakın birine Und dir?, resmî ortamda Und Ihnen?",
     "Kendini kötü hissetmek için Mir ist schlecht! denir; yapısı Mir ist kalt ile aynıdır, kalıbı olduğu gibi öğren.",
-    "Teşekkür: Danke! Danke sehr! Karşılığı Bitte! veya Bitte sehr! Bir ikram ya da yardım teklifini kibarca geri çevirirken Nein, danke! denir."
+    "Teşekkür: Danke! Danke sehr! Resmî ortamda Ich danke Ihnen für die Einladung. Karşılığı Bitte! veya Bitte sehr! Yardım teklifi Soll ich Ihnen helfen? ile yapılır; ikram ya da yardımı kibarca geri çevirirken Nein, danke! denir."
   ],
   "kelimeler": [
     {
@@ -65,14 +65,14 @@
         }
       ],
       "secenekler": [
-        "dir",
         "Ihnen",
+        "dir",
         "mir"
       ],
-      "dogru": 0,
+      "dogru": 1,
       "celdiriciNotlari": [
-        "",
         "`Ihnen` resmî hitapta kullanılır; Kerem yakın arkadaşıyla konuşuyor.",
+        "",
         "`mir` \"bana\" demektir; Kerem kendi halini değil Ali'nin halini soruyor."
       ],
       "aciklama": "Yakın arkadaşa hal hatır sorarken dir kullanılır: Wie geht es dir?",
@@ -97,15 +97,15 @@
         }
       ],
       "secenekler": [
-        "Ihnen",
+        "mir",
         "dir",
-        "mir"
+        "Ihnen"
       ],
-      "dogru": 0,
+      "dogru": 2,
       "celdiriciNotlari": [
-        "",
+        "`mir` \"bana\" demektir; Frau Richter karşısındakinin halini soruyor.",
         "`dir` yakın arkadaşa kullanılır; ikisi birbirine resmî hitap ediyor.",
-        "`mir` \"bana\" demektir; Frau Richter karşısındakinin halini soruyor."
+        ""
       ],
       "aciklama": "Resmî hitapta hal hatır sorusu Ihnen ile biter: Wie geht es Ihnen?",
       "ipucu": "İki komşu birbirine saygıyla hitap ediyor; resmî hitaba uyan sözcüğü seç.",
@@ -148,7 +148,7 @@
     {
       "id": "m2-d13-q04",
       "tip": "coktan-secmeli",
-      "soru": "Dün hasta olan Selin bugün dünden biraz daha iyi, ama henüz tam iyileşmedi. Arkadaşı soruyor; Selin'in cevabını tamamla.",
+      "soru": "Selin dün hastaydı. Bugün durumu dünkünden farklı, ama henüz tamamen düzelmedi. Arkadaşı hâlini soruyor; Selin'in cevabını tamamla.",
       "diyalog": [
         {
           "kim": "Jan",
@@ -160,17 +160,17 @@
         }
       ],
       "secenekler": [
-        "besser",
+        "danke",
         "gut",
         "schlecht",
-        "danke"
+        "besser"
       ],
-      "dogru": 0,
+      "dogru": 3,
       "celdiriciNotlari": [
-        "",
+        "`danke` teşekkür etmek içindir, kendi halini anlatmaz.",
         "`gut` \"iyi\" demektir; Selin dünden daha iyi olduğunu söylüyor ve bu `besser` ile anlatılır.",
         "`schlecht` \"kötü\" demektir; Selin dünden daha iyi.",
-        "`danke` teşekkür etmek içindir, kendi halini anlatmaz."
+        ""
       ],
       "aciklama": "Dünden daha iyi olmak besser ile söylenir: Es geht mir schon besser.",
       "ipucu": "Selin'in durumu dünkünden farklı; iyileşmeyi anlatan sözcüğü ara.",
@@ -194,20 +194,20 @@
         }
       ],
       "secenekler": [
-        "Nein",
         "Ja",
+        "Nein",
         "Bitte",
         "Hallo"
       ],
-      "dogru": 0,
+      "dogru": 1,
       "celdiriciNotlari": [
-        "",
         "`Ja, danke!` yardımı kabul etmek anlamına gelir; müşteri yardım istemiyor.",
+        "",
         "`Bitte` \"lütfen\" demektir; müşteri teklifi geri çeviriyor.",
         "`Hallo` selamlaşma sözüdür; burada kibar bir ret gerekiyor."
       ],
       "aciklama": "Teklifi kibarca geri çevirirken Nein, danke! denir.",
-      "ipucu": "Müşteri teklifi geri çeviriyor; kibar bir ret kalıbının ilk sözcüğünü düşün.",
+      "ipucu": "Müşteri yardımı kabul etmiyor; kibar bir ret kalıbı düşün.",
       "bicim": "diyalog",
       "kaynakTuru": "goethe",
       "kaynakCumle": "Soll ich Ihnen helfen? - Nein, danke!",
@@ -219,16 +219,16 @@
       "soru": "Otobüste yolculuk ederken midenin bulandığını söylüyorsun. Boşluğa doğru fiili seç.",
       "metin": "Mir ___ schlecht!",
       "secenekler": [
-        "ist",
-        "bin",
         "hat",
+        "bin",
+        "ist",
         "sind"
       ],
-      "dogru": 0,
+      "dogru": 2,
       "celdiriciNotlari": [
-        "",
-        "`bin` yalnızca `ich` ile gelir; bu kalıpta `mir` ile `ist` kullanılır, `Mir ist kalt` gibi.",
         "`hat` \"sahip olmak\" demektir; kendini kötü hissetme bu kalıpla söylenmez.",
+        "`bin` yalnızca `ich` ile gelir; bu kalıpta `mir` ile `ist` kullanılır, `Mir ist kalt` gibi.",
+        "",
         "`sind` çoğul özneyle gelir; bu kalıpta `ist` kullanılır."
       ],
       "aciklama": "Kendini kötü hissetmek Mir ist schlecht! kalıbıyla söylenir, tıpkı Mir ist kalt gibi.",
@@ -274,7 +274,14 @@
       "ipucu": "Özne es; ona uygun üçüncü tekil kişi ekini seç.",
       "bicim": "bosluk",
       "kaynakTuru": "goethe",
-      "kaynakCumle": "Es geht mir schon besser."
+      "kaynakCumle": "Es geht mir schon besser.",
+      "sozlukEk": {
+        "es": "(hâl hatır kalıbında) es",
+        "geht": "gitmek fiilinin çekimi",
+        "gehe": "gitmek fiilinin çekimi",
+        "gehst": "gitmek fiilinin çekimi",
+        "gehen": "gitmek fiilinin çekimi"
+      }
     },
     {
       "id": "m2-d13-q09",
@@ -282,17 +289,17 @@
       "soru": "Kantinde yemekten çok memnun kaldın ve bunu söylüyorsun. Boşluğa uygun sözcüğü seç.",
       "metin": "Das Essen ist heute sehr ___.",
       "secenekler": [
-        "gut",
+        "danke",
         "schlecht",
         "besser",
-        "danke"
+        "gut"
       ],
-      "dogru": 0,
+      "dogru": 3,
       "celdiriciNotlari": [
-        "",
+        "`danke` bir teşekkür sözüdür, sıfat yerine geçmez.",
         "`schlecht` \"kötü\" demektir; sen yemekten memnunsun.",
         "`besser` karşılaştırma yapar ve `sehr` ile birlikte kullanılmaz; burada karşılaştırma yok.",
-        "`danke` bir teşekkür sözüdür, sıfat yerine geçmez."
+        ""
       ],
       "aciklama": "Memnuniyeti anlatan sıfat gut'tur: Das Essen ist heute sehr gut.",
       "ipucu": "Memnuniyeti anlatan, olumlu bir sıfat gerekiyor.",
@@ -307,15 +314,15 @@
       "soru": "Arkadaşın seni doğum günü yemeğine davet etti ve ona teşekkür ediyorsun. Boşluğa uygun sözcüğü seç.",
       "metin": "___ für die Einladung!",
       "secenekler": [
-        "Danke",
         "Bitte",
+        "Danke",
         "Hallo",
         "Tschüss"
       ],
-      "dogru": 0,
+      "dogru": 1,
       "celdiriciNotlari": [
-        "",
         "`Bitte` \"rica ederim\" demektir; teşekkür eden sensin.",
+        "",
         "`Hallo` selamlaşma sözüdür; teşekkür için kullanılmaz.",
         "`Tschüss` bir vedadır; teşekkür etmez."
       ],
@@ -389,32 +396,50 @@
           "mir",
           "gut",
           "Danke"
+        ],
+        [
+          "Danke",
+          "gut",
+          "geht",
+          "es",
+          "mir"
+        ],
+        [
+          "gut",
+          "geht",
+          "es",
+          "mir",
+          "Danke"
         ]
       ],
       "aciklama": "Çekimli fiil geht ikinci öğe olur; teşekkür başta ya da sonda yer alabilir.",
       "ipucu": "Cümlede bir teşekkür ve bir durum bildirimi var; fiilin ikinci öğe olduğunu unutma.",
       "bicim": "siralama",
-      "kaynakTuru": "yazildi"
+      "kaynakTuru": "yazildi",
+      "sozlukEk": {
+        "es": "(hâl hatır kalıbında) es",
+        "geht": "gider; hâl hatır sorarken: nasıl gidiyor"
+      }
     },
     {
       "id": "m2-d13-q13",
       "tip": "coktan-secmeli",
       "soru": "Tanımadığın biri yere düşen çantanı alıp sana uzatıyor. Ona çok teşekkür etmek için ne dersin?",
       "secenekler": [
-        "Danke sehr!",
-        "Bitte sehr!",
         "Nein, danke!",
+        "Bitte sehr!",
+        "Danke sehr!",
         "Gute Nacht!"
       ],
-      "dogru": 0,
+      "dogru": 2,
       "celdiriciNotlari": [
-        "",
-        "`Bitte sehr!` \"rica ederim\" demektir; teşekküre karşılık veren kişi söyler.",
         "`Nein, danke!` bir teklifi geri çevirir; burada teşekkür gerekiyor.",
+        "`Bitte sehr!` \"rica ederim\" demektir; teşekküre karşılık veren kişi söyler.",
+        "",
         "`Gute Nacht!` bir vedadır."
       ],
       "aciklama": "Çok teşekkür etmek için Danke sehr! denir.",
-      "ipucu": "Bir iyilik gören kişi olarak teşekkürünü güçlendiren sözcüğü seç.",
+      "ipucu": "Bir iyilik gören sensin; teşekkürünü nasıl dile getirirsin?",
       "bicim": "senaryo",
       "kaynakTuru": "goethe",
       "kaynakCumle": "Danke sehr!",
@@ -447,19 +472,19 @@
     {
       "id": "m2-d13-q15",
       "tip": "coktan-secmeli",
-      "soru": "Arkadaşın \"Wie geht's?\" diye soruyor. Ne harikasın ne de kötüsün, idare ediyorsun. Ne cevap verirsin?",
+      "soru": "Arkadaşın \"Wie geht's?\" diye soruyor. Günün öyle iyi de kötü de geçmedi, öylesine bir gün. Ne cevap verirsin?",
       "secenekler": [
-        "Es geht.",
+        "Danke sehr!",
         "Sehr gut!",
         "Mir ist schlecht!",
-        "Danke sehr!"
+        "Es geht."
       ],
-      "dogru": 0,
+      "dogru": 3,
       "celdiriciNotlari": [
-        "",
+        "`Danke sehr!` teşekkür sözüdür, hâlini anlatmaz.",
         "`Sehr gut!` çok iyi olduğunu söyler; sen sadece idare ediyorsun.",
         "`Mir ist schlecht!` kendini kötü hissettiğini söyler; sen sadece idare ediyorsun.",
-        "`Danke sehr!` teşekkür sözüdür, hâlini anlatmaz."
+        ""
       ],
       "aciklama": "Es geht. \"idare eder\" demektir; ne iyi ne kötü.",
       "ipucu": "Hâlin ne uçlardan birinde ne de iyi; ortadaki kısa cevabı seç.",
