@@ -337,7 +337,7 @@
         "`sind` çoğul özneyle gelir; üşümeyi anlatan kalıpta `ist` kullanılır."
       ],
       "aciklama": "Üşümek Almanca'da sabit bir kalıpla söylenir: Mir ist kalt. Kalıbı olduğu gibi öğren.",
-      "ipucu": "Türkçedeki \"üşüyorum\" Almanca'da kişi zamirinin başka bir biçimiyle kurulan hazır bir kalıptır.",
+      "ipucu": "Bu cümle kelime kelime çevrilemeyen hazır bir kalıptır.",
       "bicim": "senaryo",
       "kaynakTuru": "goethe",
       "kaynakCumle": "Mir ist kalt."
@@ -345,7 +345,7 @@
     {
       "id": "m2-d09-q12",
       "tip": "dinleme",
-      "soru": "Duyduğun cümlenin anlamı nedir?",
+      "soru": "Yeni tanıştığın biri yaşadığı ülkeyi anlatıyor. Duyduğun cümlenin anlamı nedir?",
       "okunacak": "Das Leben in diesem Land ist teuer.",
       "mod": "sec",
       "secenekler": [
@@ -385,6 +385,12 @@
           "bin",
           "Ich",
           "geboren"
+        ],
+        [
+          "geboren",
+          "bin",
+          "Ich",
+          "in Zagreb"
         ]
       ],
       "aciklama": "Çekimli sein fiili ikinci sırada durur ve geboren sonda kalır; yer grubu başa geçerse özne fiilin arkasına kayar.",

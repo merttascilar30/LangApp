@@ -6,7 +6,7 @@
   "ozet": [
     "Haben (sahip olmak) düzensizdir: ich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben. Wir, sie ve Sie ile fiil mastarla aynıdır.",
     "Sahip olunan şey haben ile söylenir: Ich habe ein neues Auto. Die Wohnung hat drei Zimmer.",
-    "Kimlik, yaş, medeni durum gibi bilgiler sein ile söylenir: Ich bin dreiundzwanzig. Türkçedeki \"yaşım var\" mantığıyla haben kullanılmaz.",
+    "Kimlik, yaş, medeni durum gibi bilgiler sein ile söylenir: Ich bin dreiundzwanzig. Yaş için haben kullanılmaz (Ich habe 23 Jahre denmez).",
     "Hunger, Durst ve Fieber birer isimdir ve haben ile kullanılır: Ich habe Hunger. Ich bin Hunger denmez.",
     "Bir cümlede iki bilgi varsa her biri kendi fiilini alır: Ich bin verheiratet und habe drei Kinder."
   ],
@@ -235,8 +235,8 @@
         "`ist` `er/sie/es` ve tekil isimlerle gelir; Herr Demir kendinden söz ediyor, yani `ich`.",
         "`hast` `du` ile gelir; Herr Demir kendinden söz ediyor, yani `ich`."
       ],
-      "aciklama": "Türkçede \"yaşım var\" gibi düşünsek de Almanca'da yaş sein ile söylenir: Ich bin dreiundzwanzig.",
-      "ipucu": "Almanca'da yaşın, kimlik bilgilerini veren fiille mi yoksa sahiplik fiiliyle mi söylendiğini düşün.",
+      "aciklama": "Almanca'da yaş haben ile değil sein ile söylenir: Ich bin dreiundzwanzig.",
+      "ipucu": "Yaşı söylerken hangi tür bilginin verildiğini düşün.",
       "bicim": "diyalog",
       "kaynakTuru": "uyarlama",
       "kaynakCumle": "Ich bin dreiundzwanzig."
@@ -305,7 +305,7 @@
         "`hat` \"sahip olmak\" demektir ve tekil özneyle gelir; burada özne çoğul ve sahip olma yok."
       ],
       "aciklama": "Kursta kimlerin bulunduğunu söylerken sein fiili kullanılır; özne çoğul olduğu için sind gelir.",
-      "ipucu": "Kursta kaç kişinin bulunduğu söyleniyor; bu bir sahiplik değil, bir bulunma durumudur.",
+      "ipucu": "Kursta kimlerin olduğu söyleniyor.",
       "bicim": "diyalog",
       "kaynakTuru": "goethe",
       "kaynakCumle": "In meinem Kurs sind acht Schülerinnen und fünf Schüler.",
@@ -328,7 +328,7 @@
       "celdiriciNotlari": [
         "",
         "Yaş `haben` ile değil `sein` ile söylenir; `hat alt` kalıbı yoktur.",
-        "Türkçedeki \"yaşı var\" mantığıyla `hat ... Jahre` denmez; yaş `sein` ile söylenir.",
+        "`hat ... Jahre` denmez; yaş `sein` ile söylenir.",
         "`sind` çoğul özneyle gelir; `Oma` tekildir."
       ],
       "aciklama": "Yaş sein ile söylenir; tekil özneyle ist gelir: Meine Oma ist schon siebzig Jahre alt.",
@@ -367,7 +367,7 @@
     {
       "id": "m2-d10-q12",
       "tip": "dinleme",
-      "soru": "Duyduğun cümlenin anlamı nedir?",
+      "soru": "Toplantı öncesinde yanındaki biri sana bir şey söylüyor. Duyduğun cümlenin anlamı nedir?",
       "okunacak": "Ich habe eine Frage.",
       "mod": "sec",
       "secenekler": [
@@ -435,6 +435,12 @@
           "Ich",
           "habe",
           "keine Zeit",
+          "heute"
+        ],
+        [
+          "keine Zeit",
+          "habe",
+          "Ich",
           "heute"
         ]
       ],
