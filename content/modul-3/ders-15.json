@@ -1,0 +1,506 @@
+{
+  "id": "m3-d15",
+  "ders": 15,
+  "baslik": "Sayı Alıştırmaları",
+  "videoId": "kZKZy2XfcJo",
+  "ozet": [
+    "Yaşı sormak için yakın birine Wie alt bist du?, tanımadığın veya saygı duyduğun birine Wie alt sind Sie? dersin. Cevap sein ile verilir: Ich bin 23. veya Ich bin dreiundzwanzig.",
+    "Fiyat sorarken Wie viel kostet das? dersin; cevap Das kostet 10 Euro. olur. Toplamı Das macht zusammen 2 Euro 80. diye söylersin. Sayılabilen şeylerin adedi için viele kullanılır: Wie viele Kinder haben Sie?",
+    "Telefon numarası (die Telefonnummer) genellikle rakam rakam okunur: 553221 = fünf fünf drei zwei zwei eins. Adreste kapı numarası (die Hausnummer) sokak adından sonra gelir: Ich wohne Messeplatz 5. Posta kodu da die Postleitzahl’dır.",
+    "Ölçü ve para birimleri: der Euro, der Cent, der Meter, der Quadratmeter (metrekare), das Kilo, das Gramm, das Prozent. Sayıdan sonra bu birimler genellikle tekil kalır: 5 Euro, 60 Quadratmeter, 62 Kilo. Ürünü ölçüyle istersin: Ein Kilo Birnen, bitte!",
+    "Büyük sayılarda binlik ayıracı olarak nokta, ondalık için virgül kullanılır: 1.500 Euro (eintausendfünfhundert), 8.880 Meter, 1,15 m. Rakamlı sayı yerine yazıyla da yazabilirsin."
+  ],
+  "kelimeler": [
+    {
+      "de": "kosten",
+      "tr": "mal olmak, ücreti ... olmak"
+    },
+    {
+      "de": "der Preis",
+      "tr": "fiyat",
+      "artikel": "der"
+    },
+    {
+      "de": "der Euro",
+      "tr": "avro",
+      "artikel": "der"
+    },
+    {
+      "de": "der Cent",
+      "tr": "sent",
+      "artikel": "der"
+    },
+    {
+      "de": "die Telefonnummer",
+      "tr": "telefon numarası",
+      "artikel": "die"
+    },
+    {
+      "de": "die Hausnummer",
+      "tr": "kapı numarası",
+      "artikel": "die"
+    },
+    {
+      "de": "der Meter",
+      "tr": "metre",
+      "artikel": "der"
+    },
+    {
+      "de": "der Quadratmeter",
+      "tr": "metrekare",
+      "artikel": "der"
+    },
+    {
+      "de": "das Kilo",
+      "tr": "kilo",
+      "artikel": "das"
+    },
+    {
+      "de": "das Gramm",
+      "tr": "gram",
+      "artikel": "das"
+    },
+    {
+      "de": "das Prozent",
+      "tr": "yüzde",
+      "artikel": "das"
+    },
+    {
+      "de": "das Ticket",
+      "tr": "bilet",
+      "artikel": "das"
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m3-d15-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Kurs kaydında görevli Herr Demir'e yaşını soruyor. Görevlinin sorusunu tamamla.",
+      "diyalog": [
+        {
+          "kim": "Beamter",
+          "metin": "Wie alt ___ Sie?"
+        },
+        {
+          "kim": "Herr Demir",
+          "metin": "Ich bin dreiundzwanzig."
+        }
+      ],
+      "secenekler": [
+        "bist",
+        "seid",
+        "sind",
+        "ist"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`bist` yalnızca `du` ile gelir; görevli yabancı birine \"siz\" diye hitap ediyor.",
+        "`seid` yalnızca `ihr` ile gelir; resmî `Sie` ile `sind` kullanılır.",
+        "",
+        "`ist` `er/sie/es` ve tekil isimlerle gelir; resmî `Sie` ile `sind` kullanılır."
+      ],
+      "aciklama": "Resmî \"Sie\" ile sein fiili sind olur: Wie alt sind Sie?",
+      "ipucu": "Görevli karşısındaki yabancıya saygılı hitap ediyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wie alt sind Sie?"
+    },
+    {
+      "id": "m3-d15-q02",
+      "tip": "coktan-secmeli",
+      "soru": "Müzeye giriş ücretinin 5 euro olduğunu söylüyorsun. Boşluğa uygun sayıyı seç.",
+      "metin": "Der Preis für den Eintritt ist ___ Euro.",
+      "secenekler": [
+        "fünf",
+        "fünfzehn",
+        "fünfzig",
+        "fünfhundert"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`fünfzehn` 15 demektir; sorudaki fiyat 5.",
+        "`fünfzig` 50 demektir; sorudaki fiyat 5.",
+        "`fünfhundert` 500 demektir; sorudaki fiyat 5."
+      ],
+      "aciklama": "5 yalnızca fünf ile söylenir; fünfzehn 15, fünfzig 50'dir. Euro sayıdan sonra tekil kalır.",
+      "ipucu": "Fiyat küçük, tek haneli bir tutar; seçenekleri değerlerine göre ayır.",
+      "bicim": "bosluk",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Der Preis für den Eintritt ist 5 Euro.",
+      "glossKapali": true
+    },
+    {
+      "id": "m3-d15-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Bir dükkânda bir eşyanın fiyatını soruyorsun; satıcı \"10 Euro\" diye cevap veriyor. Sorunu tamamla.",
+      "diyalog": [
+        {
+          "kim": "Kunde",
+          "metin": "Wie viel ___ das?"
+        },
+        {
+          "kim": "Verkäufer",
+          "metin": "10 Euro."
+        }
+      ],
+      "secenekler": [
+        "kosten",
+        "kostest",
+        "koste",
+        "kostet"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`kosten` `wir`, `sie` (onlar) ve `Sie` ile gelir; `das` tekil bir şeydir.",
+        "`kostest` yalnızca `du` ile gelir; `das` tekil bir şeydir.",
+        "`koste` yalnızca `ich` ile gelir; `das` tekil bir şeydir.",
+        ""
+      ],
+      "aciklama": "Tekil bir şeyin fiyatı sorulurken er/sie/es biçimi kullanılır: Wie viel kostet das?",
+      "ipucu": "Fiyatı sorulan şey tek bir nesne.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wie viel kostet das? – 10 Euro."
+    },
+    {
+      "id": "m3-d15-q04",
+      "tip": "bosluk-doldurma",
+      "soru": "Kasada tutar 5 euro 95 sent çıktı. Parantez içine 95 sayısını yazıyla yaz.",
+      "metin": "Das macht 5 Euro 95 (___).",
+      "dogruCevaplar": [
+        "fünfundneunzig"
+      ],
+      "aciklama": "Önce birim, sonra und, sonra onluk gelir: fünf-und-neunzig. Bitişik yazılır.",
+      "ipucu": "Türkçedeki \"doksan beş\" sırasının tersine git ve sayıyı tek kelime yap.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das macht 5 Euro 95 (fünfundneunzig)."
+    },
+    {
+      "id": "m3-d15-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Dünyanın en yüksek dağının yüksekliğini veriyorsun. Sayının yanına doğru birimi seç.",
+      "metin": "Der Mount Everest ist 8.880 ___ hoch.",
+      "secenekler": [
+        "Prozent",
+        "Meter",
+        "Kilo",
+        "Quadratmeter"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`Prozent` yüzde demektir; bir yüksekliği ölçmek için kullanılmaz.",
+        "",
+        "`Kilo` ağırlık birimidir; yükseklik için kullanılmaz.",
+        "`Quadratmeter` alan birimidir; yükseklik uzunluk birimiyle verilir."
+      ],
+      "aciklama": "Yükseklik uzunluk birimiyle ölçülür: 8.880 Meter hoch. Birim sayıdan sonra tekil kalır.",
+      "ipucu": "Yükseklik bir uzunluktur; uzunluk için hangi birim kullanılır?",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Der Mount Everest ist 8.880 Meter hoch.",
+      "glossKapali": true
+    },
+    {
+      "id": "m3-d15-q06",
+      "tip": "coktan-secmeli",
+      "soru": "Gişede bir bilet fiyatını öğrenmek istiyorsun. Hangi soruyu sorarsın?",
+      "secenekler": [
+        "Wie viele kostet das Ticket?",
+        "Wie viel kosten das Ticket?",
+        "Wie viel kostet das Ticket?",
+        "Wie viel kostest das Ticket?"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`viele` sayılabilen çoğul şeylerle gelir; fiyat sorarken `viel` kullanılır.",
+        "`kosten` çoğul özneyle gelir; `das Ticket` tekildir.",
+        "",
+        "`kostest` yalnızca `du` ile gelir; `das Ticket` tekildir."
+      ],
+      "aciklama": "Fiyat sorulurken Wie viel kostet ...? denir; tekil özneyle kostet gelir.",
+      "ipucu": "Soru bir miktar sorusu, adet sorusu değil; öznenin tekil olduğunu da unutma.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wie viel kostet das Ticket?"
+    },
+    {
+      "id": "m3-d15-q07",
+      "tip": "dinleme",
+      "soru": "Telefonda biri numarasını söylüyor. Duyduğun numarayı seç.",
+      "okunacak": "Hier ist null sechs eins drei eins, fünf fünf drei zwei zwei eins, Pamela Linke.",
+      "mod": "sec",
+      "secenekler": [
+        "06131-553221",
+        "06131-553212",
+        "06113-553221",
+        "06131-533221"
+      ],
+      "dogruCevaplar": [
+        "06131-553221"
+      ],
+      "aciklama": "Telefon numarası rakam rakam okunur: 06131 = null sechs eins drei eins, 553221 = fünf fünf drei zwei zwei eins.",
+      "ipucu": "Rakamları tek tek takip et; yer değiştirmiş iki rakama dikkat et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Hier ist 06131-553221, Pamela Linke."
+    },
+    {
+      "id": "m3-d15-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Bir formu dolduruyorsun; görevli adres bilgini soruyor. Görevlinin sorusunu tamamla.",
+      "diyalog": [
+        {
+          "kim": "Beamtin",
+          "metin": "Welche ___ haben Sie?"
+        },
+        {
+          "kim": "Herr Kurz",
+          "metin": "Ich wohne Messeplatz 5."
+        }
+      ],
+      "secenekler": [
+        "Hausnummer",
+        "Telefonnummer",
+        "Postleitzahl"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`Telefonnummer` telefon numarasıdır; cevapta bir adres ve kapı numarası var.",
+        "`Postleitzahl` posta kodudur; cevapta sokak adı ve kapı numarası veriliyor."
+      ],
+      "aciklama": "Sokak adından sonra gelen sayı kapı numarasıdır: die Hausnummer.",
+      "ipucu": "Cevapta bir sokak adı ve yanında küçük bir sayı var.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Welche Hausnummer haben Sie?",
+      "glossKapali": true
+    },
+    {
+      "id": "m3-d15-q09",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Toplam 2 euro 80 sent tutuyor.",
+      "parcalar": [
+        "zusammen",
+        "2 Euro 80",
+        "macht",
+        "das"
+      ],
+      "dogruSiralar": [
+        [
+          "das",
+          "macht",
+          "zusammen",
+          "2 Euro 80"
+        ],
+        [
+          "das",
+          "macht",
+          "2 Euro 80",
+          "zusammen"
+        ],
+        [
+          "zusammen",
+          "macht",
+          "das",
+          "2 Euro 80"
+        ],
+        [
+          "2 Euro 80",
+          "macht",
+          "das",
+          "zusammen"
+        ]
+      ],
+      "aciklama": "Çekimli fiil macht ikinci sırada kalır; baştaki öğe değişirse özne fiilin arkasına geçer.",
+      "ipucu": "Çekimli fiili, başa hangi öğeyi koyarsan koy, ikinci öğe yap.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das macht zusammen 2 Euro 80."
+    },
+    {
+      "id": "m3-d15-q10",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Dairenin 60 metrekaresi var.",
+      "parcalar": [
+        "hat",
+        "60 Quadratmeter",
+        "die Wohnung"
+      ],
+      "dogruSiralar": [
+        [
+          "die Wohnung",
+          "hat",
+          "60 Quadratmeter"
+        ],
+        [
+          "60 Quadratmeter",
+          "hat",
+          "die Wohnung"
+        ]
+      ],
+      "aciklama": "Hat çekimli fiildir ve ikinci sırada durur; alanı başa alırsan özne fiilin arkasına kayar.",
+      "ipucu": "Çekimli fiilin yeri sabit; önce ve sonra gelen öğeleri ona göre yerleştir.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Wohnung hat 60 Quadratmeter."
+    },
+    {
+      "id": "m3-d15-q11",
+      "tip": "coktan-secmeli",
+      "soru": "Pazarda bir kilo armut almak istiyorsun. Hangi cümleyi söylersin?",
+      "secenekler": [
+        "Ein Meter Birnen, bitte!",
+        "Eine Kilo Birnen, bitte!",
+        "Ein Prozent Birnen, bitte!",
+        "Ein Kilo Birnen, bitte!"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`Meter` uzunluk birimidir; meyve ağırlıkla alınır.",
+        "`Kilo` nötr (`das`) bir kelimedir; `ein` ile kullanılır, `eine` ile değil.",
+        "`Prozent` yüzde demektir; ağırlık birimi değildir.",
+        ""
+      ],
+      "aciklama": "Meyve kilo ile alınır; das Kilo nötr olduğu için ein Kilo denir.",
+      "ipucu": "Armut ağırlıkla satılır; birimin artikelini de kontrol et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ein Kilo Birnen, bitte!",
+      "glossKapali": true
+    },
+    {
+      "id": "m3-d15-q12",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Para birimleri hakkında şöyle yazmışsın:",
+      "ifade": "1 Euro = 100 Cent.",
+      "dogru": true,
+      "aciklama": "Doğru. Bir euro 100 sentten oluşur: 1 Euro = 100 Cent.",
+      "ipucu": "Euro ile Cent arasındaki oranı düşün.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "1 Euro = 100 Cent."
+    },
+    {
+      "id": "m3-d15-q13",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? 23 yaşında olduğunu şöyle söylüyorsun:",
+      "ifade": "Ich habe 23 Jahre.",
+      "dogru": false,
+      "aciklama": "Yanlış. Yaş haben ile değil sein ile söylenir: Ich bin 23 (Jahre alt).",
+      "ipucu": "Yaşın hangi fiille söylendiğini hatırla.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Meine Oma ist schon siebzig Jahre alt."
+    },
+    {
+      "id": "m3-d15-q14",
+      "tip": "dinleme",
+      "soru": "Arkadaşın cüzdanına bakıp ne kadar parası kaldığını söylüyor. Duyduğun cümleyi yaz; sayıyı rakamla da yazabilirsin.",
+      "okunacak": "Ich habe noch zwanzig Euro.",
+      "mod": "yaz",
+      "dogruCevaplar": [
+        "Ich habe noch zwanzig Euro",
+        "Ich habe noch 20 Euro"
+      ],
+      "aciklama": "Zwanzig 20 demektir. Euro sayıdan sonra tekil kalır; sayı rakamla da yazılabilir.",
+      "ipucu": "Cümlenin başında sahip olmayı anlatan bir fiil, sonunda para birimi var.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich habe noch 20 Euro."
+    },
+    {
+      "id": "m3-d15-q15",
+      "tip": "coktan-secmeli",
+      "soru": "Dairenin kirasının 600 euro olduğunu söylüyorsun. Boşluğa uygun sayıyı seç.",
+      "metin": "Die Miete für diese Wohnung ist ___ Euro.",
+      "secenekler": [
+        "sechzig",
+        "sechshundert",
+        "sechstausend",
+        "sechzehn"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`sechzig` 60 demektir; sorudaki kira 600.",
+        "",
+        "`sechstausend` 6000 demektir; sorudaki kira 600.",
+        "`sechzehn` 16 demektir; sorudaki kira 600."
+      ],
+      "aciklama": "600, birim + hundert ile kurulur: sechshundert (sechs + hundert).",
+      "ipucu": "Sayı yüzlük; yüz kelimesinin hangi biçimde geldiğine dikkat et.",
+      "bicim": "bosluk",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Die Miete für diese Wohnung ist 600 Euro.",
+      "glossKapali": true
+    },
+    {
+      "id": "m3-d15-q16",
+      "tip": "eslestirme",
+      "soru": "Ölçü ve para birimlerini sayılarla eşleştir.",
+      "ciftler": [
+        {
+          "sol": "Gewicht: 62 ...",
+          "sag": "Kilo"
+        },
+        {
+          "sol": "Wohnung: 60 ...",
+          "sag": "Quadratmeter"
+        },
+        {
+          "sol": "1 Euro = 100 ...",
+          "sag": "Cent"
+        },
+        {
+          "sol": "Wetter: 30 ...",
+          "sag": "Grad"
+        }
+      ],
+      "aciklama": "Ağırlık kilo ile, alan metrekare ile, para sent ile, sıcaklık derece ile ölçülür.",
+      "ipucu": "Her sayının neyi ölçtüğünü düşün: ağırlık, alan, para veya sıcaklık.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m3-d15-q17",
+      "tip": "coktan-secmeli",
+      "soru": "Mainz ile Frankfurt arasının yaklaşık 50 kilometre olduğunu söylüyorsun. Boşluğa uygun sayıyı seç.",
+      "metin": "Von Mainz nach Frankfurt sind es circa ___ Kilometer.",
+      "secenekler": [
+        "fünfzehn",
+        "fünfundzwanzig",
+        "fünfzig",
+        "fünfhundert"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`fünfzehn` 15 demektir; sorudaki mesafe 50.",
+        "`fünfundzwanzig` 25 demektir; sorudaki mesafe 50.",
+        "",
+        "`fünfhundert` 500 demektir; sorudaki mesafe 50."
+      ],
+      "aciklama": "50 bir onluktur ve -zig ile biter: fünfzig.",
+      "ipucu": "Mesafe tam bir onluk; sayıyı oluşturan parçaya dikkat et.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Von Mainz nach Frankfurt sind es circa fünfzig Kilometer.",
+      "glossKapali": true
+    }
+  ],
+  "trickler": [
+    {
+      "baslik": "Wie viel mi, wie viele mi?",
+      "metin": "Fiyat ve miktar için viel: Wie viel kostet das? Sayılabilen şeylerin adedi için viele: Wie viele Kinder haben Sie? Fiil de uyar: tekil şey için kostet."
+    },
+    {
+      "baslik": "5 Euro, 62 Kilo: birim tekil",
+      "metin": "Sayıdan sonra Euro, Cent, Meter, Kilo, Quadratmeter genellikle çoğul eki almaz: 5 Euro, 60 Quadratmeter, 62 Kilo. Bu birimlere çoğul eki eklemezsin."
+    },
+    {
+      "baslik": "Telefon numarası: tek tek oku",
+      "metin": "553221 → fünf fünf drei zwei zwei eins. Sıfır için null denir. Telefonda numarayı tek tek söylemeye ve tek tek anlamaya hazır ol."
+    }
+  ]
+}

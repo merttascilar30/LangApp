@@ -1,0 +1,511 @@
+{
+  "id": "m3-d14",
+  "ders": 14,
+  "baslik": "Sayılar",
+  "videoId": "vTPEpMTQ-mM",
+  "ozet": [
+    "Sayılar 0'dan 12'ye kadar tek tek öğrenilir: null, eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn, elf, zwölf. Elf ve zwölf kendi başına kelimelerdir; zehn ile kurulmaz.",
+    "13–19 arası sayılar birim + zehn ile kurulur: dreizehn, vierzehn, fünfzehn, achtzehn, neunzehn. Sechzehn ve siebzehn'de birim kısalır: sechs → sech-, sieben → sieb-.",
+    "Onluklar -zig ile biter: zwanzig, dreißig (ß ile yazılır), vierzig, fünfzig, sechzig, siebzig, achtzig, neunzig. Aynı birim -zehn ile -zig arasında sayıyı değiştirir: vierzehn 14, vierzig 40; achtzehn 18, achtzig 80.",
+    "21–99 arası sayılarda önce birim, sonra und, sonra onluk gelir ve hepsi tek kelime yazılır: 23 = dreiundzwanzig (üç-ve-yirmi). Türkçedeki \"yirmi üç\" sırasının tersidir. 21 için eins değil ein kullanılır: einundzwanzig.",
+    "100 hundert (einhundert de denir), 1000 tausend. Yüzlük ve binlik sayılar birim + hundert/tausend ile bitişik yazılır: 200 zweihundert, 300 dreihundert, 6000 sechstausend. Yüzden sonra kalan gelir: 101 hunderteins, 120 hundertzwanzig. Sayı rakamla da yazıyla da yazılabilir: Ich bin 23. / Ich bin dreiundzwanzig."
+  ],
+  "kelimeler": [
+    {
+      "de": "null",
+      "tr": "sıfır"
+    },
+    {
+      "de": "elf",
+      "tr": "on bir"
+    },
+    {
+      "de": "zwölf",
+      "tr": "on iki"
+    },
+    {
+      "de": "dreizehn",
+      "tr": "on üç"
+    },
+    {
+      "de": "zwanzig",
+      "tr": "yirmi"
+    },
+    {
+      "de": "dreißig",
+      "tr": "otuz"
+    },
+    {
+      "de": "vierzig",
+      "tr": "kırk"
+    },
+    {
+      "de": "hundert",
+      "tr": "yüz"
+    },
+    {
+      "de": "tausend",
+      "tr": "bin"
+    },
+    {
+      "de": "die Zahl",
+      "tr": "sayı",
+      "artikel": "die"
+    },
+    {
+      "de": "die Nummer",
+      "tr": "numara",
+      "artikel": "die"
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m3-d14-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Hava çok sıcak: termometre 30 derece gösteriyor. Boşluğa uygun sayıyı seç.",
+      "metin": "Heute haben wir ___ Grad.",
+      "secenekler": [
+        "dreizehn",
+        "dreißig",
+        "dreihundert",
+        "drei"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`dreizehn` 13 demektir; 30 için `-zig` ile biten onluk gerekir.",
+        "",
+        "`dreihundert` 300 demektir; sorudaki sayı 30.",
+        "`drei` yalnızca 3 demektir; 30 için onluk biçim gerekir."
+      ],
+      "aciklama": "30 tam bir onluktur ve -zig ile biter, ß ile yazılır: dreißig. Dreizehn 13'tür.",
+      "ipucu": "Sayının 13–19 arası mı yoksa tam bir onluk mu olduğuna karar ver.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Heute haben wir dreißig Grad.",
+      "glossKapali": true
+    },
+    {
+      "id": "m3-d14-q02",
+      "tip": "bosluk-doldurma",
+      "soru": "Claudia 21 yaşında ve buna şaşırıyorsun. Parantez içine 21 sayısını yazıyla yaz.",
+      "metin": "Claudia ist 21 (___). Was? Noch so jung?",
+      "dogruCevaplar": [
+        "einundzwanzig"
+      ],
+      "aciklama": "Önce birim, sonra und, sonra onluk gelir ve hepsi bitişik yazılır; 1 için ein kullanılır: einundzwanzig.",
+      "ipucu": "Türkçedeki sıranın tersine git ve sayıyı tek kelime olarak yaz.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Claudia ist 21 (einundzwanzig). Was? Noch so jung?"
+    },
+    {
+      "id": "m3-d14-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Bir sayı tablosuna 101 sayısının yazılışını giriyorsun. Boşluğu tamamla.",
+      "metin": "101 = ___.",
+      "secenekler": [
+        "hundertzehn",
+        "eins hundert",
+        "einhundert",
+        "hunderteins"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`hundertzehn` 110 demektir; 101 için yüzün arkasına 1 eklenir.",
+        "`eins hundert` Türkçe sıraya benziyor; Almanca'da yüz önce gelir ve sayı tek kelimedir.",
+        "`einhundert` tam 100 demektir; 101 için arkasına kalan sayı eklenir.",
+        ""
+      ],
+      "aciklama": "Yüzlük sayıda önce hundert gelir, kalan sayı hemen arkasına eklenir: 101 = hunderteins.",
+      "ipucu": "Önce yüzü söyle, sonra kalan sayıyı hiç boşluk bırakmadan ekle.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "101 = hunderteins.",
+      "glossKapali": true
+    },
+    {
+      "id": "m3-d14-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Anket görevlisi büyükbabanın yaşını soruyor. Büyükbaban 80 yaşında; cevabını tamamla.",
+      "diyalog": [
+        {
+          "kim": "Anketör",
+          "metin": "Wie alt ist Ihr Großvater?"
+        },
+        {
+          "kim": "Frau Weber",
+          "metin": "Mein Großvater ist schon 80 (___)."
+        }
+      ],
+      "secenekler": [
+        "achtzig",
+        "achtzehn",
+        "siebzig",
+        "acht"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`achtzehn` 18 demektir; 80 için `-zig` ile biten onluk gerekir.",
+        "`siebzig` 70 demektir; sorudaki sayı 80.",
+        "`acht` yalnızca 8 demektir; 80 için onluk biçim gerekir."
+      ],
+      "aciklama": "80 bir onluktur ve -zig ile biter: achtzig. Achtzehn 18'dir.",
+      "ipucu": "Sondaki parça, sayının 18 gibi bir sayı mı yoksa 80 gibi bir onluk mu olduğunu belirler.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Mein Großvater ist schon 80 (achtzig).",
+      "glossKapali": true
+    },
+    {
+      "id": "m3-d14-q05",
+      "tip": "dinleme",
+      "soru": "Kayıt masasında biri Claudia'nın yaşını söylüyor. Duyduğun yaşı seç.",
+      "okunacak": "Claudia ist einundzwanzig.",
+      "mod": "sec",
+      "secenekler": [
+        "Claudia 12 yaşında.",
+        "Claudia 20 yaşında.",
+        "Claudia 21 yaşında.",
+        "Claudia 11 yaşında."
+      ],
+      "dogruCevaplar": [
+        "Claudia 21 yaşında."
+      ],
+      "aciklama": "Einundzwanzig önce birimi (ein), sonra und, sonra onluğu (zwanzig) söyler: 21.",
+      "ipucu": "Sayının ilk parçasında birim, ortasında und, sonunda onluk duyulur.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Claudia ist 21 (einundzwanzig). Was? Noch so jung?"
+    },
+    {
+      "id": "m3-d14-q06",
+      "tip": "coktan-secmeli",
+      "soru": "Mağazada 40 numara bir ceket arıyorsun. Satıcıya sorunu tamamla.",
+      "diyalog": [
+        {
+          "kim": "Verkäuferin",
+          "metin": "Guten Tag! Was möchten Sie?"
+        },
+        {
+          "kim": "Kunde",
+          "metin": "Haben Sie das auch in Größe 40 (___)?"
+        }
+      ],
+      "secenekler": [
+        "vierzehn",
+        "vierhundert",
+        "vierzig",
+        "vier"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`vierzehn` 14 demektir; 40 için `-zig` ile biten onluk gerekir.",
+        "`vierhundert` 400 demektir; sorudaki beden 40.",
+        "",
+        "`vier` yalnızca 4 demektir; 40 için onluk biçim gerekir."
+      ],
+      "aciklama": "40 bir onluktur: vierzig. Vierzehn 14'tür.",
+      "ipucu": "Sayı 14 değil, tam bir onluk; sonunda hangi parçanın durduğunu düşün.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Haben Sie das auch in Größe 40 (vierzig)?",
+      "glossKapali": true
+    },
+    {
+      "id": "m3-d14-q07",
+      "tip": "coktan-secmeli",
+      "soru": "Otel resepsiyonisti sana 12 numaralı odanın verildiğini söylüyor. Resepsiyonistin cümlesi hangisidir?",
+      "secenekler": [
+        "Sie haben Zimmer Nummer zwölf.",
+        "Sie haben Zimmer Nummer zwei.",
+        "Sie haben Zimmer Nummer zwanzig.",
+        "Sie haben Zimmer Nummer zweihundert."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`zwei` yalnızca 2 demektir; 12 için ayrı bir kelime gerekir.",
+        "`zwanzig` 20 demektir; sorudaki oda 12.",
+        "`zweihundert` 200 demektir; sorudaki oda 12."
+      ],
+      "aciklama": "12 için zehn kullanılmaz; zwölf ayrı bir kelimedir. Zwanzig 20, zweihundert 200'dür.",
+      "ipucu": "On bir ve on iki, diğer on-lu sayılar gibi kurulmaz, kendi kelimeleri vardır.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Sie haben Zimmer Nummer zwölf.",
+      "glossKapali": true
+    },
+    {
+      "id": "m3-d14-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Her sabah saat 4'te kalkman gerektiğini anlatıyorsun. Boşluğa uygun sayıyı seç.",
+      "metin": "Ich muss immer um ___ Uhr aufstehen.",
+      "secenekler": [
+        "vierzehn",
+        "vierzig",
+        "vier",
+        "fünf"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`vierzehn` 14 demektir; sorudaki saat 4.",
+        "`vierzig` 40 demektir; sorudaki saat 4.",
+        "",
+        "`fünf` 5 demektir; sorudaki saat 4."
+      ],
+      "aciklama": "4 yalnızca vier ile söylenir; vierzehn 14, vierzig 40'tır.",
+      "ipucu": "Saat tek haneli bir sayıdır; seçenekleri değerlerine göre karşılaştır.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich muss immer um vier Uhr aufstehen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m3-d14-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Bir arkadaşına gideceğin yerin buradan 200 kilometre uzakta olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Von hier sind es zwanzig Kilometer.",
+        "Von hier sind es zweihundert Kilometer.",
+        "Von hier sind es hundertzwei Kilometer.",
+        "Von hier sind es zwei Kilometer hundert."
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`zwanzig` 20 demektir; 200 için yüzlük bir sayı gerekir.",
+        "",
+        "`hundertzwei` 102 demektir; 200 için önce birim, sonra hundert gelir.",
+        "Sayı bölünmez; 200 tek kelime olarak yazılır."
+      ],
+      "aciklama": "Yüzlük sayıda birim hundert'in önüne gelir ve sayı tek kelimedir: zweihundert = 200.",
+      "ipucu": "Birim yüzden önce gelir ve sayı tek parça yazılır.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Von hier sind es zweihundert Kilometer.",
+      "glossKapali": true
+    },
+    {
+      "id": "m3-d14-q10",
+      "tip": "coktan-secmeli",
+      "soru": "Lena kaç bardağa daha ihtiyaç olduğunu soruyor; Mert 3 diyor. Mert’in cevabını tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Wie viele Gläser brauchen wir noch?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Wir brauchen noch ___ Gläser."
+        }
+      ],
+      "secenekler": [
+        "dreißig",
+        "dreihundert",
+        "dreizehn",
+        "drei"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`dreißig` 30 demektir; sorudaki sayı 3.",
+        "`dreihundert` 300 demektir; sorudaki sayı 3.",
+        "`dreizehn` 13 demektir; sorudaki sayı 3.",
+        ""
+      ],
+      "aciklama": "3 yalnızca drei ile söylenir; dreizehn 13, dreißig 30, dreihundert 300'dür.",
+      "ipucu": "Bardak sayısı küçük bir sayı; yalnızca değeri uyan sözcük doğrudur.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir brauchen noch drei Gläser.",
+      "glossKapali": true
+    },
+    {
+      "id": "m3-d14-q11",
+      "tip": "dinleme",
+      "soru": "Radyoda hava durumu veriliyor. Duyduğun cümleyi yaz; sayıyı rakamla da yazabilirsin.",
+      "okunacak": "Heute haben wir dreißig Grad.",
+      "mod": "yaz",
+      "dogruCevaplar": [
+        "Heute haben wir dreißig Grad",
+        "Heute haben wir 30 Grad"
+      ],
+      "aciklama": "Dreißig 30 demektir; ß yerine ss de yazabilirsin. Cümlede sayı rakamla da yazıyla da yazılabilir.",
+      "ipucu": "Sayıyı yazıyla da rakamla da yazabilirsin; cümle günün hava durumunu verir.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Heute haben wir dreißig Grad."
+    },
+    {
+      "id": "m3-d14-q12",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: O saat yedide geliyor.",
+      "parcalar": [
+        "um sieben Uhr",
+        "er",
+        "kommt"
+      ],
+      "dogruSiralar": [
+        [
+          "er",
+          "kommt",
+          "um sieben Uhr"
+        ],
+        [
+          "um sieben Uhr",
+          "kommt",
+          "er"
+        ]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; saat ifadesi başa geçerse özne fiilin arkasına gelir.",
+      "ipucu": "Hangi öğeyle başlarsan başla çekimli fiili ikinci öğe yap.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Er kommt um sieben Uhr."
+    },
+    {
+      "id": "m3-d14-q13",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Size on iki numaralı oda ayrıldı.",
+      "parcalar": [
+        "Zimmer Nummer zwölf",
+        "haben",
+        "Sie"
+      ],
+      "dogruSiralar": [
+        [
+          "Sie",
+          "haben",
+          "Zimmer Nummer zwölf"
+        ],
+        [
+          "Zimmer Nummer zwölf",
+          "haben",
+          "Sie"
+        ]
+      ],
+      "aciklama": "Haben çekimli fiildir ve ikinci sırada durur; oda numarasını başa alırsan özne fiilin arkasına kayar.",
+      "ipucu": "Çekimli fiil, öznenin ya da oda bilgisinin hemen ardından gelir.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Sie haben Zimmer Nummer zwölf."
+    },
+    {
+      "id": "m3-d14-q14",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Büyükbaban 80 yaşında ve bunu şöyle söylüyorsun:",
+      "ifade": "Mein Großvater ist schon achtzehn.",
+      "dogru": false,
+      "aciklama": "Yanlış. Achtzehn 18'dir; 80 için achtzig gerekir: Mein Großvater ist schon achtzig.",
+      "ipucu": "Cümledeki sayının sonuna bak ve hangi sayı grubuna ait olduğunu düşün.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Mein Großvater ist schon 80 (achtzig).",
+      "glossKapali": true
+    },
+    {
+      "id": "m3-d14-q15",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? 13 sayısını parantez içinde şöyle yazmışsın:",
+      "ifade": "Ich komme um 13 (dreizehn) Uhr.",
+      "dogru": true,
+      "aciklama": "Doğru. 13 birim + zehn ile kurulur: dreizehn.",
+      "ipucu": "Parantez içindeki yazılışın rakamla uyuşup uyuşmadığına bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich komme um 13 (dreizehn) Uhr.",
+      "glossKapali": true
+    },
+    {
+      "id": "m3-d14-q16",
+      "tip": "eslestirme",
+      "soru": "Rakamları yazılışlarıyla eşleştir.",
+      "ciftler": [
+        {
+          "sol": "12",
+          "sag": "zwölf"
+        },
+        {
+          "sol": "16",
+          "sag": "sechzehn"
+        },
+        {
+          "sol": "60",
+          "sag": "sechzig"
+        },
+        {
+          "sol": "17",
+          "sag": "siebzehn"
+        },
+        {
+          "sol": "70",
+          "sag": "siebzig"
+        }
+      ],
+      "aciklama": "16 ve 17'de birim kısalır (sechs → sech-, sieben → sieb-). -zehn 13–19 arasını, -zig onluğu gösterir; 12 ise zwölf ayrı kelimesidir.",
+      "ipucu": "Önce -zehn ile biten ve -zig ile biten sayıları ayır.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m3-d14-q17",
+      "tip": "ceviri",
+      "soru": "\"Yirmi üç\" sayısını Almanca yazıyla yaz.",
+      "kaynak": "yirmi üç",
+      "dogruCevaplar": [
+        "dreiundzwanzig"
+      ],
+      "aciklama": "Önce birim (drei), sonra und, sonra onluk (zwanzig); hepsi tek kelime: dreiundzwanzig.",
+      "ipucu": "Türkçedeki sırayı ters çevir ve parçaları bitişik yaz.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m3-d14-q18",
+      "tip": "coktan-secmeli",
+      "soru": "Bir etkinlik görevlisi Herr Arslan’ın 18 yaşından büyük olup olmadığını soruyor. Görevlinin sorusunu tamamla.",
+      "diyalog": [
+        {
+          "kim": "Herr Berg",
+          "metin": "Sind Sie über 18 (___)?"
+        },
+        {
+          "kim": "Herr Arslan",
+          "metin": "Ja, ich bin schon 25."
+        }
+      ],
+      "secenekler": [
+        "achtzig",
+        "acht",
+        "achtundzwanzig",
+        "achtzehn"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`achtzig` 80 demektir; sorudaki sayı 18.",
+        "`acht` yalnızca 8 demektir; 18 için -zehn'li biçim gerekir.",
+        "`achtundzwanzig` 28 demektir; sorudaki sayı 18.",
+        ""
+      ],
+      "aciklama": "18, birim + zehn ile kurulur: achtzehn. Achtzig 80'dir.",
+      "ipucu": "13–19 arasındaki sayılar hangi parçayla biter, onu hatırla.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Sind Sie über 18 (achtzehn)?",
+      "glossKapali": true
+    }
+  ],
+  "trickler": [
+    {
+      "baslik": "Yirmi üç: drei-und-zwanzig",
+      "metin": "Türkçede önce onluğu söylersin, Almanca'da ise önce birimi: 23 = drei-und-zwanzig, yazılışta dreiundzwanzig. Sayıyı sondan başa kur: birim, und, onluk."
+    },
+    {
+      "baslik": "-zehn mi, -zig mi?",
+      "metin": "Dreizehn 13, dreißig 30; vierzehn 14, vierzig 40. Sondaki parça sayının 13–19 arası mı yoksa onluk mu olduğunu söyler. Sechzehn/sechzig ve siebzehn/siebzig'de birim kısalır."
+    },
+    {
+      "baslik": "Bir sayı, bir kelime",
+      "metin": "Einundzwanzig 21, zweihundert 200, hunderteins 101: Almanca'da sayı boşluksuz tek kelime olarak yazılır."
+    }
+  ]
+}
