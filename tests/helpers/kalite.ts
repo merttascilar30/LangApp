@@ -88,7 +88,10 @@ function goetheTutarsizligi(q: Question): string | null {
       const dogru = q.secenekler[q.dogru] ?? ''
       if (q.metin !== undefined) tutarli = esit(doldur(q.metin, dogru))
       else if (q.diyalog !== undefined) {
-        tutarli = normCumle(q.diyalog.map((s) => doldur(s.metin, dogru)).join(' ')).includes(kaynak)
+        // Yalnızca boşluklu satır doldurulur ve kaynak cümlenin içinde (sözcük sınırında) aranır.
+        const satir = q.diyalog.find((s) => s.metin.includes('___'))
+        const dolu = satir ? normCumle(doldur(satir.metin, dogru)) : ''
+        tutarli = dolu !== '' && ` ${kaynak} `.includes(` ${dolu} `)
       } else tutarli = esit(dogru)
       break
     }
@@ -96,7 +99,7 @@ function goetheTutarsizligi(q: Question): string | null {
       tutarli = esit(doldur(q.metin, q.dogruCevaplar[0] ?? ''))
       break
     case 'cumle-dizme':
-      tutarli = q.dogruSiralar.some((s) => esit(s.join(' ')))
+      tutarli = esit((q.dogruSiralar[0] ?? []).join(' '))
       break
     case 'dinleme':
       tutarli = esit(q.okunacak)
@@ -131,7 +134,12 @@ export function soruKaynakHatalari(q: Question, banka: ReadonlySet<string>): str
     if (t) hatalar.push(t)
   }
 
-  if (q.tip === 'coktan-secmeli' && (q.metin !== undefined || q.diyalog !== undefined)) {
+  hatalar.push(...buyukHarfliParcaHatalari(q))
+
+  if (
+    q.tip === 'coktan-secmeli' &&
+    (q.metin !== undefined || q.diyalog !== undefined || q.bicim === 'senaryo')
+  ) {
     const n = q.celdiriciNotlari
     if (n === undefined) hata('celdiriciNotlari eksik')
     else if (n.length !== q.secenekler.length) hata('celdiriciNotlari uzunluğu secenekler ile aynı değil')
@@ -212,5 +220,103 @@ export function dersKaliteHatalari(g: KaliteGirdisi): string[] {
     if (n > 2) pHata(`kaynakCumle tekrarı: "${k}" ${n} soruda (en fazla 2)`)
   }
 
+  return hatalar
+}
+
+// ---------- Cümle dizme büyük harf kuralı ----------
+/** Cümle başında büyük yazılan, ama cümle içinde küçük yazılması gereken sözcükler (kapalı liste). */
+const BUYUK_YAZILAN_ILK_SOZCUKLER: ReadonlySet<string> = new Set([
+  'Ich', 'Du', 'Er', 'Es', 'Wir', 'Wer', 'Was', 'Wo', 'Woher', 'Wohin', 'Wann', 'Wie', 'Warum', 'Welche',
+  'Im', 'In', 'Am', 'An', 'Auf', 'Mit', 'Aus', 'Von', 'Bei', 'Nach', 'Zu', 'Zum', 'Zur', 'Für',
+  'Der', 'Die', 'Das', 'Den', 'Dem', 'Ein', 'Eine', 'Einen', 'Mein', 'Meine', 'Dein', 'Deine', 'Heute', 'Gestern',
+])
+
+/**
+ * `parcalar` cümle içindeki doğal yazımıyla yazılır (ilk harf büyütülmez; ekran ilk parçayı büyütür).
+ * Parçanın ilk sözcüğü kapalı listedeyse hata. `Ihr` ve `Sie` listede değildir (elle incelenir).
+ * `Morgen`: yalnızca parça tam `Morgen` ise ve bir `dogruSiralar` dizilimini açıyorsa (isim olarak
+ * cümle ortasında geçen `Morgen` serbesttir).
+ */
+export function buyukHarfliParcaHatalari(q: Question): string[] {
+  if (q.tip !== 'cumle-dizme') return []
+  const hatalar: string[] = []
+  for (const parca of q.parcalar) {
+    const ilk = /^\p{L}+/u.exec(parca.trim())?.[0]
+    const morgen = parca === 'Morgen' && q.dogruSiralar.some((d) => d[0] === 'Morgen')
+    if ((ilk !== undefined && BUYUK_YAZILAN_ILK_SOZCUKLER.has(ilk)) || morgen) {
+      hatalar.push(`${q.id}: parça "${parca}" büyük harfle başlıyor; cümle içi doğal yazım kullanılmalı`)
+    }
+  }
+  return hatalar
+}
+
+// ---------- Modül düzeyi kurallar ----------
+/** Modül 3+ çoktan seçmeli sorular en az 3 şıklıdır (Modül 2 pilotu `faz2-icerik.test.ts`te muaftır). */
+export function enAzUcSikHatalari(q: Question): string[] {
+  if (q.tip !== 'coktan-secmeli' || q.secenekler.length >= 3) return []
+  return [`${q.id}: çoktan seçmeli en az 3 şık içermeli (bulunan: ${q.secenekler.length})`]
+}
+
+/** Modülde en az 4 `dogru-yanlis` varsa doğru olanların oranı %30–%70 olmalı. */
+export function dogruYanlisDengesi(sorular: readonly Question[]): string[] {
+  const dy = sorular.filter((q) => q.tip === 'dogru-yanlis')
+  if (dy.length < 4) return []
+  const dogru = dy.filter((q) => q.tip === 'dogru-yanlis' && q.dogru).length
+  if (dogru * 10 < dy.length * 3 || dogru * 10 > dy.length * 7) {
+    return [`dogru-yanlis dengesiz: ${dogru}/${dy.length} doğru (olması gereken %30–%70)`]
+  }
+  return []
+}
+
+/** Modülde aynı `ipucu` iki kez kullanılamaz (boşluk ve büyük-küçük harf farkı yok sayılır). */
+export function ipucuTekrari(sorular: readonly Question[]): string[] {
+  const kullanim = new Map<string, string[]>()
+  for (const q of sorular) {
+    const ip = q.ipucu?.trim().replace(/\s+/g, ' ').toLowerCase()
+    if (!ip) continue
+    kullanim.set(ip, [...(kullanim.get(ip) ?? []), q.id])
+  }
+  return [...kullanim]
+    .filter(([, idler]) => idler.length > 1)
+    .map(([ip, idler]) => `ipucu tekrarı: "${ip}" (${idler.join(', ')})`)
+}
+
+/** Bir sorunun "aynı soru" anahtarları: kaynakCumle+tip, metin, parçalar (sırasız), ifade. */
+function kopyaAnahtarlari(q: Question): string[] {
+  const k: string[] = []
+  if (q.kaynakCumle) k.push(`kaynak|${q.tip}|${normCumle(q.kaynakCumle)}`)
+  if ((q.tip === 'coktan-secmeli' || q.tip === 'bosluk-doldurma') && q.metin !== undefined) {
+    k.push(`metin|${normCumle(q.metin)}`)
+  }
+  if (q.tip === 'cumle-dizme') k.push(`parcalar|${q.parcalar.map(normCumle).sort().join('|')}`)
+  if (q.tip === 'dogru-yanlis') k.push(`ifade|${normCumle(q.ifade)}`)
+  return k
+}
+
+/** Sınav ek soruları ders sorusunun kopyası olamaz. */
+export function sinavKopyaHatalari(ekSorular: readonly Question[], dersSorulari: readonly Question[]): string[] {
+  const dersAnahtarlari = new Map<string, string>()
+  for (const d of dersSorulari) for (const a of kopyaAnahtarlari(d)) if (!dersAnahtarlari.has(a)) dersAnahtarlari.set(a, d.id)
+  const hatalar: string[] = []
+  for (const e of ekSorular) {
+    for (const a of kopyaAnahtarlari(e)) {
+      const dersId = dersAnahtarlari.get(a)
+      if (dersId !== undefined) hatalar.push(`${e.id}: ders sorusu ${dersId} ile aynı (${a.split('|')[0]})`)
+    }
+  }
+  return hatalar
+}
+
+export type ModulKaliteGirdisi = {
+  modulNo: number
+  dersSorulari: readonly Question[]
+  ekSorular: readonly Question[]
+}
+
+/** Bir modülün tüm modül düzeyi kuralları (`faz2-icerik.test.ts` bunu çağırır). */
+export function modulKaliteHatalari({ modulNo, dersSorulari, ekSorular }: ModulKaliteGirdisi): string[] {
+  const hepsi = [...dersSorulari, ...ekSorular]
+  const hatalar = [...dogruYanlisDengesi(hepsi), ...ipucuTekrari(hepsi), ...sinavKopyaHatalari(ekSorular, dersSorulari)]
+  if (modulNo >= 3) for (const q of hepsi) hatalar.push(...enAzUcSikHatalari(q))
   return hatalar
 }

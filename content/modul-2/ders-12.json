@@ -326,20 +326,20 @@
       "tip": "cumle-dizme",
       "soru": "Kelimeleri doğru sıraya diz: Anne babamın yanında oturuyorum.",
       "parcalar": [
-        "Ich",
+        "ich",
         "wohne",
         "bei meinen Eltern"
       ],
       "dogruSiralar": [
         [
-          "Ich",
+          "ich",
           "wohne",
           "bei meinen Eltern"
         ],
         [
           "bei meinen Eltern",
           "wohne",
-          "Ich"
+          "ich"
         ]
       ],
       "aciklama": "Çekimli fiil ikinci sırada kalır; yer ifadesi başa geçerse özne fiilin arkasına kayar.",

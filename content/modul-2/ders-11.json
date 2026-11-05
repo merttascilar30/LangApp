@@ -474,20 +474,20 @@
       "tip": "cumle-dizme",
       "soru": "Kelimeleri doğru sıraya diz: Tren beş dakika sonra geliyor.",
       "parcalar": [
-        "Der Zug",
+        "der Zug",
         "kommt",
         "in fünf Minuten"
       ],
       "dogruSiralar": [
         [
-          "Der Zug",
+          "der Zug",
           "kommt",
           "in fünf Minuten"
         ],
         [
           "in fünf Minuten",
           "kommt",
-          "Der Zug"
+          "der Zug"
         ]
       ],
       "aciklama": "Artikelli özne çekimli fiilin önünde durur; zaman grubu başa geçerse özne fiilin arkasına kayar.",
@@ -501,20 +501,20 @@
       "tip": "cumle-dizme",
       "soru": "Kelimeleri doğru sıraya diz: Kurs saat altıda başlıyor.",
       "parcalar": [
-        "Der Kurs",
+        "der Kurs",
         "beginnt",
         "um sechs Uhr"
       ],
       "dogruSiralar": [
         [
-          "Der Kurs",
+          "der Kurs",
           "beginnt",
           "um sechs Uhr"
         ],
         [
           "um sechs Uhr",
           "beginnt",
-          "Der Kurs"
+          "der Kurs"
         ]
       ],
       "aciklama": "Artikelli özne çekimli fiilin önünde durur; saat ifadesi başa geçerse özne fiilin arkasına kayar.",

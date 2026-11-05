@@ -173,7 +173,9 @@ describe('CumleDizme', () => {
     fireEvent.click(havuz().getAllByRole('button', { name: 'a' })[0])
     fireEvent.click(havuz().getAllByRole('button', { name: 'a' })[0])
     expect(calls.at(-1)).toEqual({ tip: 'cumle-dizme', sira: ['a', 'a'] })
-    expect(screen.getAllByRole('button', { name: 'a' })).toHaveLength(2)
+    // İlk cevap çipi ekranda büyük harfle görünür ('A'), ikincisi ham kalır ('a').
+    const satir = within(screen.getByTestId('cevap-satiri'))
+    expect(satir.getAllByRole('button').map((b) => b.textContent)).toEqual(['A', 'a'])
   })
   it('kilitli iken çipler disabled', () => {
     render(<CumleDizme soru={cd} cevap={null} onCevap={() => {}} kilitli />)

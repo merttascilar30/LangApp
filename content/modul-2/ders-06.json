@@ -222,7 +222,7 @@
       "aciklama": "Tanımadığın veya saygı duyduğun kişiye resmî \"Sie\" (siz) denir: Wie heißen Sie, bitte? = Adınız nedir?",
       "ipucu": "Memur seni tanımıyor ve resmî konuşuyor; hangi hitap biçimini seçer?",
       "bicim": "diyalog",
-      "kaynakTuru": "goethe",
+      "kaynakTuru": "uyarlama",
       "kaynakCumle": "Wie heißen Sie, bitte?",
       "glossKapali": true
     },
@@ -290,7 +290,7 @@
       "aciklama": "Tek bir arkadaşa samimi hitapta \"du\" kullanılır: Kommst du mit ins Schwimmbad? = Havuza geliyor musun?",
       "ipucu": "Max tek bir arkadaşına soruyor ve aralarında resmîlik yok.",
       "bicim": "diyalog",
-      "kaynakTuru": "goethe",
+      "kaynakTuru": "uyarlama",
       "kaynakCumle": "Kommst du mit ins Schwimmbad?",
       "glossKapali": true
     },
@@ -371,20 +371,20 @@
       "tip": "cumle-dizme",
       "soru": "Kelimeleri doğru sıraya diz: Biz Almanca öğreniyoruz.",
       "parcalar": [
-        "Wir",
+        "wir",
         "lernen",
         "Deutsch"
       ],
       "dogruSiralar": [
         [
-          "Wir",
+          "wir",
           "lernen",
           "Deutsch"
         ],
         [
           "Deutsch",
           "lernen",
-          "Wir"
+          "wir"
         ]
       ],
       "aciklama": "Önce özne olan \"Wir\", sonra fiil \"lernen\", en sonda öğrenilen dil gelir.",
@@ -398,13 +398,13 @@
       "tip": "cumle-dizme",
       "soru": "Kelimeleri doğru sıraya diz: Nerelisiniz? (resmî)",
       "parcalar": [
-        "Woher",
+        "woher",
         "kommen",
         "Sie"
       ],
       "dogruSiralar": [
         [
-          "Woher",
+          "woher",
           "kommen",
           "Sie"
         ]
@@ -420,14 +420,14 @@
       "tip": "cumle-dizme",
       "soru": "Kelimeleri doğru sıraya diz: Bu akşam ne yapıyorsun? (arkadaşına)",
       "parcalar": [
-        "Was",
+        "was",
         "machst",
         "du",
         "heute Abend"
       ],
       "dogruSiralar": [
         [
-          "Was",
+          "was",
           "machst",
           "du",
           "heute Abend"

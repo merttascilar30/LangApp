@@ -307,7 +307,7 @@
       "aciklama": "Kursta kimlerin bulunduğunu söylerken sein fiili kullanılır; özne çoğul olduğu için sind gelir.",
       "ipucu": "Kursta kimlerin olduğu söyleniyor.",
       "bicim": "diyalog",
-      "kaynakTuru": "goethe",
+      "kaynakTuru": "uyarlama",
       "kaynakCumle": "In meinem Kurs sind acht Schülerinnen und fünf Schüler.",
       "sozlukEk": {
         "haben": "sahip olmak fiilinin çekimi",
@@ -413,14 +413,14 @@
       "tip": "cumle-dizme",
       "soru": "Kelimeleri doğru sıraya diz: Bugün vaktim yok.",
       "parcalar": [
-        "Ich",
+        "ich",
         "habe",
         "heute",
         "keine Zeit"
       ],
       "dogruSiralar": [
         [
-          "Ich",
+          "ich",
           "habe",
           "heute",
           "keine Zeit"
@@ -428,11 +428,11 @@
         [
           "heute",
           "habe",
-          "Ich",
+          "ich",
           "keine Zeit"
         ],
         [
-          "Ich",
+          "ich",
           "habe",
           "keine Zeit",
           "heute"
@@ -440,7 +440,7 @@
         [
           "keine Zeit",
           "habe",
-          "Ich",
+          "ich",
           "heute"
         ]
       ],
@@ -455,20 +455,20 @@
       "tip": "cumle-dizme",
       "soru": "Kelimeleri doğru sıraya diz: Yeni bir müdürümüz var.",
       "parcalar": [
-        "Wir",
+        "wir",
         "haben",
         "eine neue Chefin"
       ],
       "dogruSiralar": [
         [
-          "Wir",
+          "wir",
           "haben",
           "eine neue Chefin"
         ],
         [
           "eine neue Chefin",
           "haben",
-          "Wir"
+          "wir"
         ]
       ],
       "aciklama": "Haben de çekimli fiildir ve ikinci sırada durur; sahip olunan şeyi başa alırsan özne fiilin arkasına kayar.",

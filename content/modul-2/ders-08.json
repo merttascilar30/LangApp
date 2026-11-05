@@ -279,7 +279,7 @@
       "aciklama": "Özne \"wir\" olunca fiil mastar biçimindedir: wir kommen.",
       "ipucu": "Tom kendisi ve arkadaşı adına konuşuyor; çoğul \"biz\" ekini seç.",
       "bicim": "diyalog",
-      "kaynakTuru": "goethe",
+      "kaynakTuru": "uyarlama",
       "kaynakCumle": "Wir kommen beide.",
       "sozlukEk": {
         "kommen": "gelmek fiilinin çekimi"
@@ -290,14 +290,14 @@
       "tip": "cumle-dizme",
       "soru": "Kelimeleri doğru sıraya diz: Şubatta tatil yapıyoruz.",
       "parcalar": [
-        "Im Februar",
+        "im Februar",
         "machen",
         "wir",
         "Urlaub"
       ],
       "dogruSiralar": [
         [
-          "Im Februar",
+          "im Februar",
           "machen",
           "wir",
           "Urlaub"
@@ -305,20 +305,20 @@
         [
           "wir",
           "machen",
-          "Im Februar",
+          "im Februar",
           "Urlaub"
         ],
         [
           "wir",
           "machen",
           "Urlaub",
-          "Im Februar"
+          "im Februar"
         ],
         [
           "Urlaub",
           "machen",
           "wir",
-          "Im Februar"
+          "im Februar"
         ]
       ],
       "aciklama": "Cümle zaman ifadesiyle başlayınca çekimli fiil ikinci sırada kalır ve özne fiilin arkasına geçer.",
@@ -332,14 +332,14 @@
       "tip": "cumle-dizme",
       "soru": "Kelimeleri doğru sıraya diz: Bu akşam parti yapıyoruz.",
       "parcalar": [
-        "Heute Abend",
+        "heute Abend",
         "machen",
         "wir",
         "eine Party"
       ],
       "dogruSiralar": [
         [
-          "Heute Abend",
+          "heute Abend",
           "machen",
           "wir",
           "eine Party"
@@ -347,20 +347,20 @@
         [
           "wir",
           "machen",
-          "Heute Abend",
+          "heute Abend",
           "eine Party"
         ],
         [
           "wir",
           "machen",
           "eine Party",
-          "Heute Abend"
+          "heute Abend"
         ],
         [
           "eine Party",
           "machen",
           "wir",
-          "Heute Abend"
+          "heute Abend"
         ]
       ],
       "aciklama": "\"Heute Abend\" tek bir öğedir; fiil hemen ardından gelir, sonra özne ve nesne dizilir.",
@@ -374,7 +374,7 @@
       "tip": "cumle-dizme",
       "soru": "Kelimeleri doğru sıraya diz: Boş zamanımda sık sık futbol oynarım.",
       "parcalar": [
-        "In meiner Freizeit",
+        "in meiner Freizeit",
         "spiele",
         "ich",
         "oft",
@@ -382,14 +382,14 @@
       ],
       "dogruSiralar": [
         [
-          "In meiner Freizeit",
+          "in meiner Freizeit",
           "spiele",
           "ich",
           "oft",
           "Fußball"
         ],
         [
-          "In meiner Freizeit",
+          "in meiner Freizeit",
           "spiele",
           "ich",
           "Fußball",
@@ -398,14 +398,14 @@
         [
           "ich",
           "spiele",
-          "In meiner Freizeit",
+          "in meiner Freizeit",
           "oft",
           "Fußball"
         ],
         [
           "ich",
           "spiele",
-          "In meiner Freizeit",
+          "in meiner Freizeit",
           "Fußball",
           "oft"
         ],
@@ -413,7 +413,7 @@
           "ich",
           "spiele",
           "oft",
-          "In meiner Freizeit",
+          "in meiner Freizeit",
           "Fußball"
         ],
         [
@@ -421,27 +421,27 @@
           "spiele",
           "oft",
           "Fußball",
-          "In meiner Freizeit"
+          "in meiner Freizeit"
         ],
         [
           "ich",
           "spiele",
           "Fußball",
           "oft",
-          "In meiner Freizeit"
+          "in meiner Freizeit"
         ],
         [
           "ich",
           "spiele",
           "Fußball",
-          "In meiner Freizeit",
+          "in meiner Freizeit",
           "oft"
         ],
         [
           "oft",
           "spiele",
           "ich",
-          "In meiner Freizeit",
+          "in meiner Freizeit",
           "Fußball"
         ],
         [
@@ -449,20 +449,20 @@
           "spiele",
           "ich",
           "Fußball",
-          "In meiner Freizeit"
+          "in meiner Freizeit"
         ],
         [
           "Fußball",
           "spiele",
           "ich",
           "oft",
-          "In meiner Freizeit"
+          "in meiner Freizeit"
         ],
         [
           "Fußball",
           "spiele",
           "ich",
-          "In meiner Freizeit",
+          "in meiner Freizeit",
           "oft"
         ]
       ],
@@ -477,7 +477,7 @@
       "tip": "cumle-dizme",
       "soru": "Kelimeleri doğru sıraya diz: Kahvaltıda hep kahve içerim.",
       "parcalar": [
-        "Zum Frühstück",
+        "zum Frühstück",
         "trinke",
         "ich",
         "immer",
@@ -485,14 +485,14 @@
       ],
       "dogruSiralar": [
         [
-          "Zum Frühstück",
+          "zum Frühstück",
           "trinke",
           "ich",
           "immer",
           "Kaffee"
         ],
         [
-          "Zum Frühstück",
+          "zum Frühstück",
           "trinke",
           "ich",
           "Kaffee",
@@ -501,14 +501,14 @@
         [
           "ich",
           "trinke",
-          "Zum Frühstück",
+          "zum Frühstück",
           "immer",
           "Kaffee"
         ],
         [
           "ich",
           "trinke",
-          "Zum Frühstück",
+          "zum Frühstück",
           "Kaffee",
           "immer"
         ],
@@ -516,7 +516,7 @@
           "ich",
           "trinke",
           "immer",
-          "Zum Frühstück",
+          "zum Frühstück",
           "Kaffee"
         ],
         [
@@ -524,27 +524,27 @@
           "trinke",
           "immer",
           "Kaffee",
-          "Zum Frühstück"
+          "zum Frühstück"
         ],
         [
           "ich",
           "trinke",
           "Kaffee",
           "immer",
-          "Zum Frühstück"
+          "zum Frühstück"
         ],
         [
           "ich",
           "trinke",
           "Kaffee",
-          "Zum Frühstück",
+          "zum Frühstück",
           "immer"
         ],
         [
           "immer",
           "trinke",
           "ich",
-          "Zum Frühstück",
+          "zum Frühstück",
           "Kaffee"
         ],
         [
@@ -552,20 +552,20 @@
           "trinke",
           "ich",
           "Kaffee",
-          "Zum Frühstück"
+          "zum Frühstück"
         ],
         [
           "Kaffee",
           "trinke",
           "ich",
           "immer",
-          "Zum Frühstück"
+          "zum Frühstück"
         ],
         [
           "Kaffee",
           "trinke",
           "ich",
-          "Zum Frühstück",
+          "zum Frühstück",
           "immer"
         ]
       ],
@@ -580,20 +580,20 @@
       "tip": "cumle-dizme",
       "soru": "Kelimeleri doğru sıraya diz: Siemens'te staj yapıyorum.",
       "parcalar": [
-        "Ich",
+        "ich",
         "mache",
         "ein Praktikum",
         "bei Siemens"
       ],
       "dogruSiralar": [
         [
-          "Ich",
+          "ich",
           "mache",
           "ein Praktikum",
           "bei Siemens"
         ],
         [
-          "Ich",
+          "ich",
           "mache",
           "bei Siemens",
           "ein Praktikum"
@@ -601,13 +601,13 @@
         [
           "ein Praktikum",
           "mache",
-          "Ich",
+          "ich",
           "bei Siemens"
         ],
         [
           "bei Siemens",
           "mache",
-          "Ich",
+          "ich",
           "ein Praktikum"
         ]
       ],
@@ -622,7 +622,7 @@
       "tip": "cumle-dizme",
       "soru": "Kelimeleri doğru sıraya diz: Ne zamandır Almanca öğreniyorsunuz? (resmî)",
       "parcalar": [
-        "Wie lange",
+        "wie lange",
         "lernen",
         "Sie",
         "schon",
@@ -630,14 +630,14 @@
       ],
       "dogruSiralar": [
         [
-          "Wie lange",
+          "wie lange",
           "lernen",
           "Sie",
           "schon",
           "Deutsch"
         ],
         [
-          "Wie lange",
+          "wie lange",
           "lernen",
           "Sie",
           "Deutsch",

@@ -78,7 +78,7 @@
       "aciklama": "Yakın arkadaşa hal hatır sorarken dir kullanılır: Wie geht es dir?",
       "ipucu": "Kerem yakın bir arkadaşa soruyor; samimi hitaba uyan sözcüğü seç.",
       "bicim": "diyalog",
-      "kaynakTuru": "goethe",
+      "kaynakTuru": "uyarlama",
       "kaynakCumle": "Sag mal, wie geht es dir denn?",
       "glossKapali": true
     },
@@ -338,14 +338,14 @@
       "tip": "cumle-dizme",
       "soru": "Kelimeleri doğru sıraya diz: Size yardım edeyim mi?",
       "parcalar": [
-        "Soll",
+        "soll",
         "ich",
         "Ihnen",
         "helfen"
       ],
       "dogruSiralar": [
         [
-          "Soll",
+          "soll",
           "ich",
           "Ihnen",
           "helfen"
@@ -362,7 +362,7 @@
       "tip": "cumle-dizme",
       "soru": "Kelimeleri doğru sıraya diz: Teşekkürler, iyiyim.",
       "parcalar": [
-        "Danke",
+        "danke",
         "mir",
         "geht",
         "es",
@@ -370,14 +370,14 @@
       ],
       "dogruSiralar": [
         [
-          "Danke",
+          "danke",
           "mir",
           "geht",
           "es",
           "gut"
         ],
         [
-          "Danke",
+          "danke",
           "es",
           "geht",
           "mir",
@@ -388,17 +388,17 @@
           "geht",
           "es",
           "gut",
-          "Danke"
+          "danke"
         ],
         [
           "es",
           "geht",
           "mir",
           "gut",
-          "Danke"
+          "danke"
         ],
         [
-          "Danke",
+          "danke",
           "gut",
           "geht",
           "es",
@@ -409,7 +409,7 @@
           "geht",
           "es",
           "mir",
-          "Danke"
+          "danke"
         ]
       ],
       "aciklama": "Çekimli fiil geht ikinci öğe olur; teşekkür başta ya da sonda yer alabilir.",

@@ -32,7 +32,7 @@
       "aciklama": "Medeni durum sein ile söylenir; çoğul özneyle sind gelir: Meine Kinder sind glücklich verheiratet.",
       "ipucu": "Medeni durum bir sahiplik değildir ve özne çoğuldur.",
       "bicim": "diyalog",
-      "kaynakTuru": "goethe",
+      "kaynakTuru": "uyarlama",
       "kaynakCumle": "Meine Kinder sind glücklich verheiratet."
     },
     {
@@ -203,20 +203,20 @@
       "tip": "cumle-dizme",
       "soru": "Kelimeleri doğru sıraya diz: Bizim altımızda üç çocuklu bir aile oturuyor.",
       "parcalar": [
-        "Unter uns",
+        "unter uns",
         "wohnt",
         "eine Familie mit drei Kindern"
       ],
       "dogruSiralar": [
         [
-          "Unter uns",
+          "unter uns",
           "wohnt",
           "eine Familie mit drei Kindern"
         ],
         [
           "eine Familie mit drei Kindern",
           "wohnt",
-          "Unter uns"
+          "unter uns"
         ]
       ],
       "aciklama": "Çekimli fiil ikinci öğe olur; yer ifadesi başa geçerse özne fiilin arkasına kayar.",

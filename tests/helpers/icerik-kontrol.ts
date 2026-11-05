@@ -131,3 +131,8 @@ export function sinavEksikleri(moduller: readonly ModulOzeti[], harita: DersHari
   }
   return hatalar
 }
+
+/** `istisna: true` olup gerekçesi boş olan dersler (`modul-N ders M`). */
+export function istisnaGerekcesizler(harita: DersHaritasi): string[] {
+  return harita.dersler.filter((d) => d.istisna && !d.istisnaGerekcesi?.trim()).map((d) => `${d.modulId} ders ${d.ders}`)
+}

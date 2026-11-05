@@ -10,7 +10,8 @@
     "test": "vitest run",
     "typecheck": "tsc -b --noEmit",
     "preview": "vite preview",
-    "adaylar": "node scripts/ders-adaylari.mjs"
+    "adaylar": "node scripts/ders-adaylari.mjs",
+    "rapor": "node scripts/modul-raporu.mjs"
   },
   "dependencies": {
     "react": "^19.3.1",
