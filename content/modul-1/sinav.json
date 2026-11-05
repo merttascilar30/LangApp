@@ -13,7 +13,8 @@
         "Gute Nacht"
       ],
       "dogru": 1,
-      "aciklama": "Akşam selamı 'Guten Abend'dir; 'Gute Nacht' ve 'Auf Wiedersehen' veda ifadeleridir."
+      "aciklama": "Akşam selamı 'Guten Abend'dir; 'Gute Nacht' ve 'Auf Wiedersehen' veda ifadeleridir.",
+      "ipucu": "Akşam saatine uygun selamı veda ifadelerinden ayır."
     },
     {
       "id": "m1-s-q02",
@@ -26,7 +27,8 @@
         "Vater"
       ],
       "dogru": 2,
-      "aciklama": "'sch' 'ş' sesini verir (Schule); Zeit 'ts', Wasser 'v', Vater 'f' ile başlar."
+      "aciklama": "'sch' 'ş' sesini verir (Schule); Zeit 'ts', Wasser 'v', Vater 'f' ile başlar.",
+      "ipucu": "Türkçe'deki 'ş' sesini veren harf grubunu hatırla ve onunla başlayan kelimeyi bul."
     },
     {
       "id": "m1-s-q03",
@@ -34,7 +36,8 @@
       "soru": "Doğru mu, yanlış mı?",
       "ifade": "'Gute Nacht' ve 'Guten Abend' aynı durumda kullanılır.",
       "dogru": false,
-      "aciklama": "Yanlış. 'Guten Abend' akşam karşılaşınca söylenen selamdır; 'Gute Nacht' ayrılırken ve yatmadan önce söylenen vedadır."
+      "aciklama": "Yanlış. 'Guten Abend' akşam karşılaşınca söylenen selamdır; 'Gute Nacht' ayrılırken ve yatmadan önce söylenen vedadır.",
+      "ipucu": "Selamla vedanın farkını ve iki ifadenin hangi anlarda söylendiğini düşün."
     },
     {
       "id": "m1-s-q04",
@@ -44,7 +47,8 @@
       "dogruCevaplar": [
         "Auf Wiederhören"
       ],
-      "aciklama": "Telefonda görüşmeyi bitirirken 'Auf Wiederhören' denir."
+      "aciklama": "Telefonda görüşmeyi bitirirken 'Auf Wiederhören' denir.",
+      "ipucu": "Telefonda 'duymak' fiiline dayanan resmî vedayı kur."
     },
     {
       "id": "m1-s-q05",
@@ -56,7 +60,8 @@
         "Guten Abend und bis morgen",
         "Guten Abend bis morgen"
       ],
-      "aciklama": "Akşam selamı 'Guten Abend' ile yarın görüşmeyi belirten 'Bis morgen' kalıbı birlikte kullanılabilir."
+      "aciklama": "Akşam selamı 'Guten Abend' ile yarın görüşmeyi belirten 'Bis morgen' kalıbı birlikte kullanılabilir.",
+      "ipucu": "İki kalıbı virgülle ya da 've' ile birleştirebilirsin; akşam selamını ve yarın kalıbını düşün."
     },
     {
       "id": "m1-s-q06",
@@ -84,7 +89,11 @@
           "sag": "Yarın görüşürüz"
         }
       ],
-      "aciklama": "Selam ve veda kalıpları ile 'ei' (ay) ve 'sch' (ş) okunuşları Modül 1'in ana konularıdır."
+      "aciklama": "Selam ve veda kalıpları ile 'ei' (ay) ve 'sch' (ş) okunuşları Modül 1'in ana konularıdır.",
+      "ipucu": "Önce selam ve veda kalıplarını, sonra okunuş eşleşmelerini çöz.",
+      "sozlukEk": {
+        "morgen": "yarın"
+      }
     },
     {
       "id": "m1-s-q07",
@@ -101,7 +110,8 @@
       "dogruCevaplar": [
         "Sonra görüşürüz"
       ],
-      "aciklama": "'Bis später' sonra görüşürüz demektir; 'später' sonra anlamındadır."
+      "aciklama": "'Bis später' sonra görüşürüz demektir; 'später' sonra anlamındadır.",
+      "ipucu": "'Bis' kalıbındaki ikinci kelimenin hangi zamanı anlattığını düşün."
     },
     {
       "id": "m1-s-q08",
@@ -133,7 +143,8 @@
           "Ihnen"
         ]
       ],
-      "aciklama": "Resmi hal hatır sorusu 'Wie geht es Ihnen?' biçimindedir; hitap (Frau Müller) başta ya da sonda yer alabilir."
+      "aciklama": "Resmi hal hatır sorusu 'Wie geht es Ihnen?' biçimindedir; hitap (Frau Müller) başta ya da sonda yer alabilir.",
+      "ipucu": "Resmî hitap için bir zamir ve unvan var; hitap başta da sonda da olabilir."
     },
     {
       "id": "m1-s-q09",
@@ -141,7 +152,8 @@
       "soru": "Doğru mu, yanlış mı?",
       "ifade": "'Sport' kelimesi başta 'sp' değil 'şp' sesiyle okunur.",
       "dogru": true,
-      "aciklama": "Doğru. Kelime başında 'sp' ve 'st' 'şp' ve 'şt' diye okunur."
+      "aciklama": "Doğru. Kelime başında 'sp' ve 'st' 'şp' ve 'şt' diye okunur.",
+      "ipucu": "Kelime başında 'sp' ikilisinin okunuşuna dair öğrendiğin kuralı hatırla."
     },
     {
       "id": "m1-s-q10",
@@ -152,7 +164,8 @@
       "dogruCevaplar": [
         "Auf Wiedersehen"
       ],
-      "aciklama": "'Auf Wiedersehen' resmi vedadır; Wiedersehen tek kelime olarak yazılır."
+      "aciklama": "'Auf Wiedersehen' resmi vedadır; Wiedersehen tek kelime olarak yazılır.",
+      "ipucu": "Resmî ve yüz yüze vedayı yaz; ikinci kelime tek parça ve büyük harfle başlar."
     }
   ]
 }
