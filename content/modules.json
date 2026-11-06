@@ -49,14 +49,18 @@
         "ders-21",
         "ders-22",
         "ders-23",
-        "ders-24", "ders-25"
+        "ders-24",
+        "ders-25"
       ]
     },
     {
       "id": "modul-5",
       "sira": 5,
       "baslik": "Meslekler, olumsuzluk ve saatler",
-      "partlar": ["ders-26"]
+      "partlar": [
+        "ders-26",
+        "ders-27"
+      ]
     },
     {
       "id": "modul-6",

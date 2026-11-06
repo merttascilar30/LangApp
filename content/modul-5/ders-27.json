@@ -1,0 +1,459 @@
+{
+  "id": "m5-d27",
+  "ders": 27,
+  "baslik": "Medeni Durum",
+  "videoId": "pozL8mSu1L4",
+  "ozet": [
+    "Medeni durum: der Familienstand. Üç temel durum: ledig (bekâr), verheiratet (evli), geschieden (boşanmış). Sorulur: Sind Sie verheiratet? Cevap: Nein. Ledig. Kendini anlatırken sein kullanılır: Ich bin verheiratet. Ich bin geschieden. Bu sözcükler sıfattır ve erkek için de kadın için de aynı kalır.",
+    "Çocuk: das Kind, çoğulu die Kinder. Sayıdan ve wie viele (kaç) sözcüğünden sonra çoğul gelir: Wie viele Kinder haben Sie? Ich habe zwei Kinder. Ich bin verheiratet und habe drei Kinder. (haben = sahip olmak: ich habe, Sie haben.) Türkçede \"iki çocuk\" tekil kalır, Almanca çoğul ister. Örnek: Meine Kinder sind glücklich verheiratet. (meine Kinder = çocuklarım, glücklich = mutlu.)",
+    "Aile: die Familie. Meine Familie lebt in Spanien. (leben = yaşamak, Spanien = İspanya; Meine Familie lebt: aile tekil olduğu için lebt.) Ad: der Vorname, soyadı: der Familienname. Mein Vorname ist Thomas; Schmidt ist der Familienname.",
+    "Çocuklar için başka bir örnek: Die Kinder spielen draußen. (spielen = oynamak, draußen = dışarıda.)"
+  ],
+  "kelimeler": [
+    {
+      "de": "der Familienstand",
+      "tr": "medeni durum",
+      "artikel": "der"
+    },
+    {
+      "de": "ledig",
+      "tr": "bekâr"
+    },
+    {
+      "de": "verheiratet",
+      "tr": "evli"
+    },
+    {
+      "de": "geschieden",
+      "tr": "boşanmış"
+    },
+    {
+      "de": "das Kind",
+      "tr": "çocuk (çoğul: die Kinder, çocuklar; meine Kinder = çocuklarım)",
+      "artikel": "das"
+    },
+    {
+      "de": "die Familie",
+      "tr": "aile",
+      "artikel": "die"
+    },
+    {
+      "de": "der Vorname",
+      "tr": "ad",
+      "artikel": "der"
+    },
+    {
+      "de": "der Familienname",
+      "tr": "soyadı",
+      "artikel": "der"
+    },
+    {
+      "de": "glücklich",
+      "tr": "mutlu"
+    },
+    {
+      "de": "leben",
+      "tr": "yaşamak"
+    },
+    {
+      "de": "spielen",
+      "tr": "oynamak"
+    },
+    {
+      "de": "draußen",
+      "tr": "dışarıda"
+    }
+  ],
+  "trickler": [
+    {
+      "baslik": "Medeni durum için ich bin",
+      "metin": "Medeni durum haben ile değil sein ile söylenir: Ich bin ledig. Ich bin verheiratet. Ich bin geschieden."
+    },
+    {
+      "baslik": "Sayıdan sonra çoğul: Kinder",
+      "metin": "Wie viele, zwei, drei gibi sözcüklerden sonra Kinder çoğul gelir: Ich habe drei Kinder. Türkçede \"üç çocuk\" tekil kalır."
+    },
+    {
+      "baslik": "Familienstand ve Familienname",
+      "metin": "Familienstand evli mi bekâr mı olduğunu bildirir, Familienname soyadıdır. Ad ise Vorname diye geçer."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m5-d27-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Formda adının Thomas, soyadının Schmidt olduğunu yazıyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Mein Vorname ist Thomas; Schmidt ist der ___.",
+      "secenekler": [
+        "Vorname",
+        "Familienstand",
+        "Familienname",
+        "Familie"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`Vorname` ad demektir; Schmidt soyadı.",
+        "`Familienstand` medeni durum demektir; Schmidt soyadı.",
+        "",
+        "`Familie` aile demektir; Schmidt soyadı."
+      ],
+      "aciklama": "Soyadı Familienname'dir: Mein Vorname ist Thomas; Schmidt ist der Familienname.",
+      "ipucu": "Schmidt kişinin adı değil, ailesinden gelen ismi.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Mein Vorname ist Thomas; Schmidt ist der Familienname.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d27-q02",
+      "tip": "bosluk-doldurma",
+      "soru": "Çocukların dışarıda oynadığını söylüyorsun. Boşluğa fiili yaz.",
+      "metin": "Die Kinder ___ draußen.",
+      "dogruCevaplar": [
+        "spielen"
+      ],
+      "aciklama": "Oynamak spielen'dir; Kinder çoğul olduğu için fiil spielen olur: Die Kinder spielen draußen.",
+      "ipucu": "Özne çoğul olduğu için fiilin sonu -en olur.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Kinder spielen draußen."
+    },
+    {
+      "id": "m5-d27-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Ailenin İspanya'da yaşadığını söylüyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Meine ___ lebt in Spanien.",
+      "secenekler": [
+        "Familienstand",
+        "Familie",
+        "Kinder",
+        "Firma"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`Familienstand` medeni durum demektir ve `der` ile kullanılır; `Meine` ile uymaz.",
+        "",
+        "`Kinder` çoğuldur; `lebt` tekil özneyle gelir.",
+        "`Firma` firma demektir; sorudaki özne aile."
+      ],
+      "aciklama": "Aile Familie'dir: Meine Familie lebt in Spanien.",
+      "ipucu": "Birlikte yaşayan kişilerin oluşturduğu topluluğu düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Meine Familie lebt in Spanien.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d27-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Çocuklarının mutlu bir evliliği olduğunu söylüyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Meine Kinder sind glücklich ___.",
+      "secenekler": [
+        "ledig",
+        "geschieden",
+        "verheiratet",
+        "arbeitslos"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`ledig` bekâr demektir; sorudaki çocuklar evli.",
+        "`geschieden` boşanmış demektir; sorudaki çocuklar evli.",
+        "",
+        "`arbeitslos` işsiz demektir; sorudaki durum evlilik."
+      ],
+      "aciklama": "Evli verheiratet'tir: Meine Kinder sind glücklich verheiratet.",
+      "ipucu": "Evlilik durumunu bildiren sözcüğü ara.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Meine Kinder sind glücklich verheiratet.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d27-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Frau Berger, Anna'ya kaç çocuğu olduğunu soruyor. Boşluğa uygun sözcüğü seç.",
+      "diyalog": [
+        {
+          "kim": "Frau Berger",
+          "metin": "Wie viele ___ haben Sie?"
+        },
+        {
+          "kim": "Anna",
+          "metin": "Ich habe zwei."
+        }
+      ],
+      "secenekler": [
+        "Kind",
+        "Familie",
+        "Familienstand",
+        "Kinder"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`Kind` tekildir; `wie viele` sözcüğünden sonra çoğul gelir.",
+        "`Familie` aile demektir; sorulan şey çocuk sayısı.",
+        "`Familienstand` medeni durum demektir; sorulan şey çocuk sayısı.",
+        ""
+      ],
+      "aciklama": "Çocuklar Kinder'dir ve wie viele sonrası çoğul gelir: Wie viele Kinder haben Sie?",
+      "ipucu": "Sorulan şey sayılabilen ve çoğul gelen bir sözcük.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wie viele Kinder haben Sie?",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d27-q06",
+      "tip": "coktan-secmeli",
+      "soru": "Lena, Mert'e evli olup olmadığını soruyor. Mert bekâr olduğunu söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Sind Sie verheiratet?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Nein. ___."
+        }
+      ],
+      "secenekler": [
+        "Verheiratet",
+        "Geschieden",
+        "Ledig",
+        "Kinder"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`Verheiratet` evli demektir; Mert evli değil, bekâr.",
+        "`Geschieden` boşanmış demektir; Mert bekâr.",
+        "",
+        "`Kinder` çocuklar demektir; medeni durum bildirmez."
+      ],
+      "aciklama": "Bekâr ledig'dir: Sind Sie verheiratet? – Nein. Ledig.",
+      "ipucu": "Mert evli değil ve hiç evlenmemiş.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Sind Sie verheiratet? – Nein. Ledig.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d27-q07",
+      "tip": "coktan-secmeli",
+      "soru": "Lena, Mert'e evli olup olmadığını soruyor. Mert evli olduğunu ve üç çocuğu olduğunu söylüyor.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Sind Sie verheiratet?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Ich bin ___ und habe drei Kinder."
+        }
+      ],
+      "secenekler": [
+        "ledig",
+        "verheiratet",
+        "geschieden",
+        "Familie"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`ledig` bekâr demektir; Mert evli.",
+        "",
+        "`geschieden` boşanmış demektir; Mert evli.",
+        "`Familie` aile demektir; `Ich bin` ile bir durum sıfatı gerekir."
+      ],
+      "aciklama": "Evli verheiratet'tir: Ich bin verheiratet und habe drei Kinder.",
+      "ipucu": "Mert'in anlattığı durum Lena'nın sorusundaki sözcükle aynı.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich bin verheiratet und habe drei Kinder.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d27-q08",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Çocuklar dışarıda oynuyor.",
+      "parcalar": [
+        "draußen",
+        "spielen",
+        "die Kinder"
+      ],
+      "dogruSiralar": [
+        [
+          "die Kinder",
+          "spielen",
+          "draußen"
+        ],
+        [
+          "draußen",
+          "spielen",
+          "die Kinder"
+        ]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; draußen başa geçerse özne fiilin arkasına kayar: Die Kinder spielen draußen.",
+      "ipucu": "Yer bilgisi başta ya da sonda olabilir, fiil ise ikinci sırada kalır.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Kinder spielen draußen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d27-q09",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Ailem İspanya'da yaşıyor.",
+      "parcalar": [
+        "in Spanien",
+        "lebt",
+        "meine Familie"
+      ],
+      "dogruSiralar": [
+        [
+          "meine Familie",
+          "lebt",
+          "in Spanien"
+        ],
+        [
+          "in Spanien",
+          "lebt",
+          "meine Familie"
+        ]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; yer ifadesi başa geçerse özne fiilin arkasına kayar: Meine Familie lebt in Spanien.",
+      "ipucu": "Fiil iki seçenekte de ortada durur.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Meine Familie lebt in Spanien.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d27-q10",
+      "tip": "coktan-secmeli",
+      "soru": "Medeni durumunu sorduklarında boşanmış olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Ich bin geschieden.",
+        "Ich habe geschieden.",
+        "Ich geschieden bin.",
+        "Ich bin Kinder."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "Medeni durum `haben` ile değil `sein` ile söylenir.",
+        "Çekimli fiil `bin` ikinci sırada durur.",
+        "`Kinder` çocuklar demektir; medeni durum bildirmez."
+      ],
+      "aciklama": "Medeni durum sein ile söylenir: Ich bin geschieden.",
+      "ipucu": "Hem fiile hem cümledeki sözcük sırasına bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich bin verheiratet und habe drei Kinder.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d27-q11",
+      "tip": "coktan-secmeli",
+      "soru": "Birine üç çocuğun olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Ich habe drei Kind.",
+        "Ich bin drei Kinder.",
+        "Ich drei Kinder habe.",
+        "Ich habe drei Kinder."
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`drei` sonrası çoğul `Kinder` gelir; tekil `Kind` olmaz.",
+        "`bin` bir durum bildirir; çocuk sahibi olmak için `habe` gerekir.",
+        "Çekimli fiil `habe` ikinci sırada durur.",
+        ""
+      ],
+      "aciklama": "Sayıdan sonra çoğul gelir ve sahip olmak haben ile söylenir: Ich habe drei Kinder.",
+      "ipucu": "Hem fiile hem çocuk sözcüğünün biçimine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich habe zwei Kinder. Einen Jungen und ein Mädchen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d27-q12",
+      "tip": "dinleme",
+      "soru": "Bir arkadaşın çocuklarının durumunu anlatıyor. Duyduğun cümleyi seç.",
+      "okunacak": "Meine Kinder sind glücklich verheiratet.",
+      "mod": "sec",
+      "secenekler": [
+        "Çocuklarım mutlu ve evli.",
+        "Çocuklarım mutlu ve bekâr.",
+        "Çocuklarım mutlu ve boşanmış.",
+        "Kız kardeşim mutlu ve evli."
+      ],
+      "dogruCevaplar": [
+        "Çocuklarım mutlu ve evli."
+      ],
+      "aciklama": "Kinder çocuklar, verheiratet evli demektir: Meine Kinder sind glücklich verheiratet.",
+      "ipucu": "Cümlenin öznesine ve son sözcüğe kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Meine Kinder sind glücklich verheiratet."
+    },
+    {
+      "id": "m5-d27-q13",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Formdaki soyadını şöyle yazıyorsun:",
+      "ifade": "Mein Vorname ist Thomas; Schmidt ist der Familienstand.",
+      "dogru": false,
+      "aciklama": "Yanlış. Soyadı Familienname'dir, Familienstand medeni durumdur: Schmidt ist der Familienname.",
+      "ipucu": "Cümle sonundaki sözcüğün anlamını düşün.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Mein Vorname ist Thomas; Schmidt ist der Familienname.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d27-q14",
+      "tip": "eslestirme",
+      "soru": "Almanca sözcükleri Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        {
+          "sol": "ledig",
+          "sag": "bekâr"
+        },
+        {
+          "sol": "verheiratet",
+          "sag": "evli"
+        },
+        {
+          "sol": "geschieden",
+          "sag": "boşanmış"
+        },
+        {
+          "sol": "Kinder",
+          "sag": "çocuklar"
+        },
+        {
+          "sol": "Familie",
+          "sag": "aile"
+        },
+        {
+          "sol": "Familienname",
+          "sag": "soyadı"
+        }
+      ],
+      "aciklama": "Medeni durum sözcükleri ich bin ile kullanılır: Ich bin ledig.",
+      "ipucu": "Önce medeni durumu bildiren üç sözcüğü ayır.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d27-q15",
+      "tip": "artikel",
+      "soru": "Bu ismin artikelini seç.",
+      "isim": "Familie",
+      "dogru": "die",
+      "aciklama": "Familie feminindir: die Familie. Belirsiz hâli eine Familie, ismin yerine sie kullanılır.",
+      "ipucu": "Kelime listesinde aile sözcüğünün önündeki artikele bak.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    }
+  ]
+}
