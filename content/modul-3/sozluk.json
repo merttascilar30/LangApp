@@ -41,7 +41,7 @@
     "er": "o (erkek)",
     "es": "o (nötr isim; hava olayı)",
     "wir": "biz",
-    "ihr": "siz (samimi)",
+    "ihr": "siz (samimi); büyük Ihr: sizin (resmî)",
     "Sie": "o (kadın); onlar; büyük Sie: siz (resmî)",
     "ist": "olmak fiilinin çekimi",
     "sind": "olmak fiilinin çekimi",
@@ -181,7 +181,6 @@
     "machen": "yapmak fiilinin çekimi",
     "Deutschkurs": "Almanca kursu",
     "kalt": "soğuk",
-    "Ihr": "sizin (resmî)",
     "Frau": "Bayan",
     "Kern": "soyadı",
     "Sommerferien": "yaz tatili"
