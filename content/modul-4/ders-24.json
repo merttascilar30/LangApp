@@ -1,0 +1,309 @@
+{
+  "id": "m4-d24",
+  "ders": 24,
+  "baslik": "sprechen ve Diller",
+  "videoId": "bJ0KZZoTuzI",
+  "ozet": [
+    "Sprechen (konuşmak) düzensiz bir fiildir: ich spreche, du sprichst, er/sie/es spricht, wir sprechen, ihr sprecht, sie/Sie sprechen. Ünlü e yalnızca du ve er/sie/es ile i olur; diğer kişilerde kök sprech- aynı kalır. Örnek: Sprichst du Finnisch? Meine Schwester spricht Türkisch.",
+    "Sprechen ile dil adı artikelsiz ve büyük harfle kullanılır: Ich spreche Englisch, Französisch und ein bisschen Deutsch. Konuşulan şey dildir; ülke adı değil: Ich spreche Finnisch, Finnland denmez. Dil: die Sprache (die Sprachen). Soru: Welche Sprachen sprichst du?",
+    "Bir konu hakkında konuşmak için sprechen über kullanılır: Wir sprechen über Paul. Konu: das Thema (die Themen), bugün: heute. Örnek: Wir sprechen heute über das Thema „Essen und Trinken“."
+  ],
+  "kelimeler": [
+    { "de": "sprechen", "tr": "konuşmak" },
+    { "de": "über", "tr": "hakkında" },
+    { "de": "das Thema", "tr": "konu (çoğul: die Themen)", "artikel": "das" },
+    { "de": "heute", "tr": "bugün" },
+    { "de": "die Sprache", "tr": "dil (çoğul: die Sprachen)", "artikel": "die" },
+    { "de": "Finnisch", "tr": "Fince" },
+    { "de": "Italienisch", "tr": "İtalyanca" },
+    { "de": "Türkisch", "tr": "Türkçe" }
+  ],
+  "trickler": [
+    {
+      "baslik": "e, i olur: du sprichst, er spricht",
+      "metin": "Sprechen'de ünlü değişimi yalnızca du ve er/sie/es ile olur: du sprichst, er spricht. Diğerlerinde kök aynı kalır: ich spreche, wir sprechen, ihr sprecht."
+    },
+    {
+      "baslik": "Konuşulan şey dil adıdır",
+      "metin": "Sprechen ile dil adı artikelsiz ve büyük harfle gelir: Ich spreche Finnisch. Ülke adı kullanılmaz; Finnland ülke, Finnisch dildir."
+    },
+    {
+      "baslik": "Hakkında konuşmak: sprechen über",
+      "metin": "Türkçedeki hakkında konuşmak için über gelir: Wir sprechen über Paul. Wir sprechen heute über das Thema „Essen und Trinken“."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m4-d24-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Bir arkadaşına Fince konuşup konuşmadığını soruyorsun. Boşluğa uygun fiil biçimini seç.",
+      "metin": "___ du Finnisch?",
+      "secenekler": ["spreche", "sprichst", "spricht", "sprecht"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`spreche` ich ile gelir; `du` ile kullanılmaz.",
+        "",
+        "`spricht` er/sie/es ile gelir; `du` ile kullanılmaz.",
+        "`sprecht` ihr ile gelir; `du` ile kullanılmaz."
+      ],
+      "aciklama": "Özne du olduğu için sprechen ünlüyü değiştirir ve -st alır: Sprichst du Finnisch?",
+      "ipucu": "Soru cümlesinde özne sen olduğu için fiilin ünlüsü değişir.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Sprichst du Finnisch?",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d24-q02",
+      "tip": "coktan-secmeli",
+      "soru": "Bugün hangi konu hakkında konuşulacağını söylüyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Wir sprechen heute über das ___ „Essen und Trinken“.",
+      "secenekler": ["Thema", "Land", "Sprache"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`Land` ülke demektir; „Essen und Trinken“ bir ülke değil, bir konudur.",
+        "`Sprache` dil demektir ve `die` alır; burada `das` ile konu gerekir."
+      ],
+      "aciklama": "Konu das Thema'dır: Wir sprechen heute über das Thema „Essen und Trinken“.",
+      "ipucu": "Yemek ve içmek hakkında konuşulan şey bir konudur.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir sprechen heute über das Thema „Essen und Trinken“.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d24-q03",
+      "tip": "bosluk-doldurma",
+      "soru": "Kız kardeşinin Türkçe konuştuğunu söylüyorsun. Boşluğa sprechen fiilinin uygun biçimini yaz.",
+      "metin": "Meine Schwester ___ Türkisch.",
+      "dogruCevaplar": ["spricht"],
+      "aciklama": "Özne meine Schwester yani sie olduğu için sprechen ünlüyü değiştirir ve -t alır: Meine Schwester spricht Türkisch.",
+      "ipucu": "Kız kardeşin yerine o anlamındaki zamiri düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Wir sprechen gerade über Paul. Da kommt er ja gerade.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d24-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Lena Mert'e hangi dilleri konuştuğunu soruyor. Mert İngilizce, Fransızca ve biraz Almanca konuştuğunu söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Welche Sprachen sprichst du?" },
+        { "kim": "Mert", "metin": "Ich ___ Englisch, Französisch und ein bisschen Deutsch." }
+      ],
+      "secenekler": ["sprichst", "spricht", "spreche", "sprechen"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`sprichst` du ile gelir; Mert kendinden söz ediyor, özne `ich`.",
+        "`spricht` er/sie/es ile gelir; Mert kendinden söz ediyor, özne `ich`.",
+        "",
+        "`sprechen` wir ve sie/Sie ile gelir; Mert kendinden söz ediyor, özne `ich`."
+      ],
+      "aciklama": "Özne ich olduğu için sprechen -e alır: Ich spreche Englisch, Französisch und ein bisschen Deutsch.",
+      "ipucu": "Mert kendisi hakkında konuşuyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich spreche Englisch, Französisch und ein bisschen Deutsch.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d24-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Lena Anna'nın Finlandiya'dan gelip gelmediğini soruyor. Mert evet diyor ve Anna'nın Fince konuştuğunu ekliyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Und Anna? Kommt sie aus Finnland?" },
+        { "kim": "Mert", "metin": "Ja, und sie ___ Finnisch." }
+      ],
+      "secenekler": ["sprichst", "spreche", "sprechen", "spricht"],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`sprichst` du ile gelir; burada sözü edilen tek kişi Anna, yani `sie`.",
+        "`spreche` ich ile gelir; burada sözü edilen tek kişi Anna, yani `sie`.",
+        "`sprechen` çoğul özneyle gelir; Lena'nın sorusunda tek kişi Anna var.",
+        ""
+      ],
+      "aciklama": "Anna tek kişidir, özne sie olur ve sprechen ünlüyü değiştirip -t alır: Ja, und sie spricht Finnisch.",
+      "ipucu": "Anna tek kişi; onun yerine geçen zamire göre fiili çek.",
+      "bicim": "diyalog",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Sprichst du Finnisch?",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d24-q06",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Paul hakkında konuşuyoruz.",
+      "parcalar": ["über Paul", "wir", "sprechen"],
+      "dogruSiralar": [
+        ["wir", "sprechen", "über Paul"],
+        ["über Paul", "sprechen", "wir"]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; über Paul başa geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Konuyu bildiren kısım über ile Paul'dan oluşan bir bütündür.",
+      "bicim": "siralama",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Wir sprechen gerade über Paul. Da kommt er ja gerade."
+    },
+    {
+      "id": "m4-d24-q07",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Hangi dilleri konuşuyorsun?",
+      "parcalar": ["sprichst", "welche Sprachen", "du"],
+      "dogruSiralar": [
+        ["welche Sprachen", "sprichst", "du"]
+      ],
+      "aciklama": "Soru sözcüğü başta, çekimli fiil ikinci sırada, özne fiilin arkasında durur: Welche Sprachen sprichst du?",
+      "ipucu": "Soru sözcüğünden sonra hemen fiil gelir.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Welche Sprachen sprichst du?"
+    },
+    {
+      "id": "m4-d24-q08",
+      "tip": "coktan-secmeli",
+      "soru": "İki arkadaşına Fransızca konuşup konuşmadıklarını soruyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Sprecht ihr Französisch?",
+        "Sprichst ihr Französisch?",
+        "Sprechen ihr Französisch?",
+        "Spreche ihr Französisch?"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`sprichst` du ile gelir; `ihr` ile fiil `-t` alır ve ünlü değişmez.",
+        "`sprechen` wir ve sie/Sie ile gelir; `ihr` ile fiil `-t` alır.",
+        "`spreche` ich ile gelir; `ihr` ile fiil `-t` alır."
+      ],
+      "aciklama": "Özne ihr olduğu için sprechen ünlüyü değiştirmez ve -t alır: Sprecht ihr Französisch?",
+      "ipucu": "İki kişiye samimi seslenirken ünlü değişmez.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Welche Sprachen sprichst du?",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d24-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Toplantıda bugün Paul hakkında konuşacağınızı söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Wir sprechen heute aus Paul.",
+        "Wir sprechen heute auf Paul.",
+        "Wir sprechen heute in Paul.",
+        "Wir sprechen heute über Paul."
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`aus` nereden geldiğini bildirir; hakkında konuşmak için `über` gelir.",
+        "`auf` dil adlarının önünde kullanılır (`auf Deutsch`); hakkında konuşmak için `über` gelir.",
+        "`in` içinde anlamındadır; hakkında konuşmak için `über` gelir.",
+        ""
+      ],
+      "aciklama": "Hakkında konuşmak sprechen über ile söylenir: Wir sprechen heute über Paul.",
+      "ipucu": "Türkçedeki hakkında karşılığı olan kısa sözcüğü seç.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Wir sprechen heute über das Thema „Essen und Trinken“.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d24-q10",
+      "tip": "dinleme",
+      "soru": "Yeni tanıştığın biri hangi dilleri konuştuğunu söylüyor. Duyduğun cümleyi seç.",
+      "okunacak": "Ich spreche Englisch, Französisch und ein bisschen Deutsch.",
+      "mod": "sec",
+      "secenekler": [
+        "Ben İngilizce, Fransızca ve biraz Almanca konuşuyorum.",
+        "Ben İngilizce, İtalyanca ve biraz Almanca konuşuyorum.",
+        "Ben İngilizce, Fransızca ve biraz Türkçe konuşuyorum.",
+        "Biz İngilizce, Fransızca ve biraz Almanca konuşuyoruz."
+      ],
+      "dogruCevaplar": ["Ben İngilizce, Fransızca ve biraz Almanca konuşuyorum."],
+      "aciklama": "Ich spreche ben konuşuyorum demektir: Ich spreche Englisch, Französisch und ein bisschen Deutsch.",
+      "ipucu": "Cümlenin öznesine ve sondaki dile kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich spreche Englisch, Französisch und ein bisschen Deutsch."
+    },
+    {
+      "id": "m4-d24-q11",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Karşındaki kişinin Fince konuştuğunu söylüyorsun:",
+      "ifade": "Du sprechst Finnisch.",
+      "dogru": false,
+      "aciklama": "Yanlış. Du ile sprechen ünlüyü değiştirir ve -st alır: Du sprichst Finnisch.",
+      "ipucu": "Fiilin du ile aldığı biçimin ünlüsüne bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d24-q12",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Kız kardeşinin İtalyanca konuştuğunu söylüyorsun:",
+      "ifade": "Meine Schwester spricht Italienisch.",
+      "dogru": true,
+      "aciklama": "Doğru. Özne sie olduğu için sprechen spricht olur ve dil adı büyük harfle yazılır: Meine Schwester spricht Italienisch.",
+      "ipucu": "Fiilin üçüncü tekil kişideki biçimine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d24-q13",
+      "tip": "coktan-secmeli",
+      "soru": "Bir arkadaşının Türkçe konuştuğunu söylüyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Mein Freund spricht ___.",
+      "secenekler": ["Türkei", "Türkisch", "Türke"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`Türkei` ülke adıdır; konuşulan şey dil adı olmalı.",
+        "",
+        "`Türke` Türk erkeği demektir; konuşulan şey dil adı olmalı."
+      ],
+      "aciklama": "Sprechen ile dil adı gelir: Mein Freund spricht Türkisch.",
+      "ipucu": "Konuşulan şey ne ülke ne de kişidir.",
+      "bicim": "bosluk",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d24-q14",
+      "tip": "eslestirme",
+      "soru": "Almanca sözcükleri Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        { "sol": "sprechen", "sag": "konuşmak" },
+        { "sol": "Thema", "sag": "konu" },
+        { "sol": "heute", "sag": "bugün" },
+        { "sol": "über", "sag": "hakkında" },
+        { "sol": "Finnisch", "sag": "Fince" },
+        { "sol": "Sprache", "sag": "dil" }
+      ],
+      "aciklama": "Sprechen konuşmak, über hakkında demektir: Wir sprechen heute über das Thema.",
+      "ipucu": "Önce fiili ve kısa bağlaç benzeri sözcüğü, sonra isimleri ayır.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d24-q15",
+      "tip": "fiil-cekimi",
+      "soru": "\"sprechen\" fiilini her zamire göre çek.",
+      "fiil": "sprechen",
+      "satirlar": [
+        { "zamir": "ich", "cevap": "spreche" },
+        { "zamir": "du", "cevap": "sprichst" },
+        { "zamir": "er/sie/es", "cevap": "spricht" },
+        { "zamir": "wir", "cevap": "sprechen", "verilen": true },
+        { "zamir": "ihr", "cevap": "sprecht" },
+        { "zamir": "sie/Sie", "cevap": "sprechen" }
+      ],
+      "aciklama": "Ünlü sadece du ve er/sie/es için i olur: sprichst, spricht; diğerlerinde kök sprech- kalır.",
+      "ipucu": "Verilen biçim kökü gösterir; ünlünün hangi kişilerde değiştiğini düşün.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    }
+  ]
+}

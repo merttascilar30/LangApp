@@ -1,0 +1,181 @@
+{
+  "soruSayisi": 25,
+  "gecmeNotu": 80,
+  "ekSorular": [
+    {
+      "id": "m4-s-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Frau Berg, Herr Moreau'ya nereden geldiğini soruyor. Herr Moreau Fransa'dan geldiğini söylüyor. Cevabı tamamla.",
+      "diyalog": [
+        { "kim": "Frau Berg", "metin": "Woher kommen Sie?" },
+        { "kim": "Herr Moreau", "metin": "Aus ___." }
+      ],
+      "secenekler": ["Französisch", "Deutsch", "Frankreich"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`Französisch` dil adıdır; `aus` ile ülke adı gelir.",
+        "`Deutsch` dil adıdır; `aus` ile ülke adı gelir.",
+        ""
+      ],
+      "aciklama": "Woher sorusuna ülke adıyla cevap verilir: Aus Frankreich.",
+      "ipucu": "Geliş yerini söylerken dil değil ülke adı gerekir.",
+      "bicim": "diyalog",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-s-q02",
+      "tip": "coktan-secmeli",
+      "soru": "İki arkadaşına bu akşam ne yaptıklarını soruyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Was macht ihr heute Abend?",
+        "Was machst ihr heute Abend?",
+        "Was machen ihr heute Abend?",
+        "Was ihr macht heute Abend?"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`machst` du ile gelir; `ihr` ile fiil `-t` alır.",
+        "`machen` wir ve sie/Sie ile gelir; `ihr` ile fiil `-t` alır.",
+        "Özne fiilden önce gelmiş; soru sözcüğünden sonra çekimli fiil gelir."
+      ],
+      "aciklama": "Soru sözcüğünden sonra fiil gelir; ihr ile machen -t alır: Was macht ihr heute Abend?",
+      "ipucu": "Hem fiilin yerine hem de ihr ile aldığı sona bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Was machst du heute Abend?",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-s-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Birine kaç çocuğu olduğunu soruyorsun. Boşluğa uygun ismi seç.",
+      "metin": "Wie viele ___ haben Sie?",
+      "secenekler": ["Kind", "Kinder", "Kinden"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`Kind` tekildir; `wie viele` çoğul isimle gelir.",
+        "",
+        "`Kinden` Almancada çoğul biçim değildir; `das Kind` sözcüğünün çoğulu `Kinder`dir."
+      ],
+      "aciklama": "Wie viele çoğul isimle gelir ve das Kind'in çoğulu Kinder'dir: Wie viele Kinder haben Sie?",
+      "ipucu": "Kaç sorusundan sonra isim çoğul olur.",
+      "bicim": "bosluk",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-s-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Frau Berg, Herr Kaya'ya hangi dilleri konuştuğunu soruyor. Herr Kaya Türkçe ve biraz Almanca konuştuğunu söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Frau Berg", "metin": "Welche Sprachen sprechen Sie?" },
+        { "kim": "Herr Kaya", "metin": "Ich ___ Türkisch und ein bisschen Deutsch." }
+      ],
+      "secenekler": ["sprichst", "sprechen", "spreche", "spricht"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`sprichst` du ile gelir; Herr Kaya kendinden söz ediyor, özne `ich`.",
+        "`sprechen` wir ve sie/Sie ile gelir; özne `ich`.",
+        "",
+        "`spricht` er/sie/es ile gelir; özne `ich`."
+      ],
+      "aciklama": "Özne ich olduğu için sprechen -e alır: Ich spreche Türkisch und ein bisschen Deutsch.",
+      "ipucu": "Herr Kaya soruyu kendisi için cevaplıyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-s-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Lena sınavın ne zaman olduğunu soruyor. Mert sınavın pazartesi günü olduğunu söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Wann ist die Prüfung?" },
+        { "kim": "Mert", "metin": "Die Prüfung ist ___ Montag." }
+      ],
+      "secenekler": ["am", "im", "um"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`im` ay ve mevsim adlarıyla gelir; gün adının önünde `am` kullanılır.",
+        "`um` saatle gelir; gün adının önünde `am` kullanılır."
+      ],
+      "aciklama": "Wann sorusuna gün adıyla cevap verilir ve gün adının önünde am kullanılır: Die Prüfung ist am Montag.",
+      "ipucu": "Gün adlarının önünde hangi kısa sözcük gelir, hatırla.",
+      "bicim": "diyalog",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Die Prüfung ist am Montag um 8.00 Uhr.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-s-q06",
+      "tip": "bosluk-doldurma",
+      "soru": "Resmî biçimde birinin adını soruyorsun. Boşluğa heißen fiilinin uygun biçimini yaz.",
+      "metin": "Wie ___ Sie?",
+      "dogruCevaplar": ["heißen", "heissen"],
+      "aciklama": "Özne Sie olduğu için fiil heißen olur: Wie heißen Sie?",
+      "ipucu": "Siz ile kullanılan fiil, mastarla aynı biçimdedir.",
+      "bicim": "bosluk",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Wie heißen Sie, bitte?",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-s-q07",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Bir arkadaşına nereye gittiğini soruyorsun:",
+      "ifade": "Woher gehst du?",
+      "dogru": false,
+      "aciklama": "Yanlış. Nereye gidildiğini sormak için wohin gerekir: Wohin gehst du? Woher nereden demektir.",
+      "ipucu": "Gidilen yeri soran soru sözcüğünün sonuna bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-s-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Bir lokantada tuvaletin nerede olduğunu soruyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Wohin ist die Toilette, bitte?",
+        "Wer ist die Toilette, bitte?",
+        "Wo die Toilette ist, bitte?",
+        "Wo ist die Toilette, bitte?"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`wohin` nereye demektir; bir şeyin bulunduğu yer `wo` ile sorulur.",
+        "`wer` kim demektir; tuvalet bir kişi değil, bir yerdir.",
+        "Özne fiilden önce gelmiş; soru sözcüğünden sonra çekimli fiil gelir.",
+        ""
+      ],
+      "aciklama": "Bulunduğu yer wo ile sorulur ve fiil ikinci sırada kalır: Wo ist die Toilette, bitte?",
+      "ipucu": "Hem soru sözcüğüne hem de fiilin yerine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wo ist die Toilette, bitte?",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-s-q09",
+      "tip": "dinleme",
+      "soru": "Biri bir kadın hakkında soru soruyor. Duyduğun soruyu seç.",
+      "okunacak": "Wie heißt sie?",
+      "mod": "sec",
+      "secenekler": [
+        "Onun adı ne?",
+        "Senin adın ne?",
+        "O nerede?",
+        "O kim?"
+      ],
+      "dogruCevaplar": ["Onun adı ne?"],
+      "aciklama": "Wie heißt sie? onun adı ne demektir.",
+      "ipucu": "Soru sözcüğünün ardından gelen fiile ve zamire kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wie heißt sie?"
+    }
+  ]
+}

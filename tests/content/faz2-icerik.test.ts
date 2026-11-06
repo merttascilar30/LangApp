@@ -10,6 +10,7 @@ import {
   ipucuSizintilari,
   istisnaGerekcesizler,
   sinavEksikleri,
+  sozlukCakismalari,
   tooltipSizintilari,
   type DersHaritasi,
 } from '../helpers/icerik-kontrol'
@@ -39,6 +40,11 @@ describe('Faz 2 kalite testi düzeneği', () => {
 
 describe.each(doluModuller.map((m) => [m.id, m] as const))('Faz 2 içerik: %s', (_id, modul) => {
   const sorular = [...modul.partlar.flatMap((p) => p.sorular), ...(modul.sinav?.ekSorular ?? [])]
+
+  it('sözlükte büyük-küçük harf çakışması yok', () => {
+    const ham = contentFiles[`/content/${modul.id}/sozluk.json`] as { girdiler?: Record<string, string> } | undefined
+    expect(sozlukCakismalari(ham?.girdiler ?? {})).toEqual([])
+  })
 
   it('her ders haritada', () => {
     expect(haritaEksikleri([modul], harita)).toEqual([])

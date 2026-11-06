@@ -43,7 +43,14 @@
       "id": "modul-4",
       "sira": 4,
       "baslik": "Artikel, çoğul, ülkeler ve W-Fragen",
-      "partlar": []
+      "partlar": [
+        "ders-19",
+        "ders-20",
+        "ders-21",
+        "ders-22",
+        "ders-23",
+        "ders-24", "ders-25"
+      ]
     },
     {
       "id": "modul-5",

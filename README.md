@@ -80,7 +80,9 @@ Her soruda `bicim` ve `kaynakTuru` dolu olmalıdır.
 node scripts/ders-adaylari.mjs 9     # veya: npm run adaylar -- 9
 ```
 
-Dersin gramerini, kendi modülünden sonra diğer modüllerden (Modül 1 hariç) aday banka cümlelerini, ilgili kelimeleri ve her cümlenin mevcut derslerde `kaynakCumle` olarak kullanıldığı yerleri markdown olarak yazar. Bilinmeyen ders için çıkış kodu 1'dir. Yalnızca okur, dosya yazmaz.
+Dersin gramerini, kendi modülünden sonra diğer modüllerden (Modül 1 hariç) aday banka cümlelerini, ilgili kelimeleri ve her cümlenin mevcut derslerde `kaynakCumle` olarak kullanıldığı yerleri markdown olarak yazar. Çıktı kendi modülünden en fazla 40, diğer modüllerden toplam 20 cümleyle sınırlıdır, kullanılmamış cümleler önce gelir ve gösterilmeyen sayı yazılır; tamamı için `--hepsi` ekleyin. Bilinmeyen ders için çıkış kodu 1'dir. Yalnızca okur, dosya yazmaz.
+
+Yeni modül içeriği `.claude/workflows/modul-icerik.js` workflow'u ve `.claude/agents/` altındaki `icerik-yazar`, `icerik-inceleyici` ajanlarıyla yazılır.
 
 ### Modül raporu scripti
 

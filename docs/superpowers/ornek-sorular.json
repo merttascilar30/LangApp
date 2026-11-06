@@ -1,0 +1,284 @@
+{
+ "_not": "Biçim örneği; bu sorular kopyalanmaz.",
+ "ders": {
+  "id": "m3-d17",
+  "ders": 17,
+  "baslik": "Günler, Aylar, Mevsimler",
+  "videoId": "QaWYcOmchyI",
+  "ozet": [
+   "Haftanın günleri: Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag (kuzeyde Sonnabend), Sonntag. Hepsi maskulindir (der Montag) ve büyük harfle yazılır. Hafta: die Woche, hafta sonu: das Wochenende, hafta içi günü: der Wochentag.",
+   "Gün adının önünde am kullanılır: am Montag, am Freitag. Hafta sonu için de am gelir: am Wochenende. Örnek: Meine Schwester kommt am Dienstag.",
+   "Mevsimler: der Frühling (ilkbahar), der Sommer (yaz), der Herbst (sonbahar), der Winter (kış). Hepsi maskulindir. Mevsim adının önünde im kullanılır: im Frühling, im Sommer, im Herbst, im Winter. Ayların önündeki im ile aynı kalıptır."
+  ],
+  "kelimeler": [
+   {
+    "de": "der Montag",
+    "tr": "pazartesi",
+    "artikel": "der"
+   },
+   {
+    "de": "der Dienstag",
+    "tr": "salı",
+    "artikel": "der"
+   }
+  ],
+  "trickler": [
+   {
+    "baslik": "Gün için am, mevsim için im",
+    "metin": "Haftanın günlerinde am gelir: am Montag, am Wochenende. Mevsimlerde im gelir: im Sommer, im Winter. Ay adlarında da im kullanılır."
+   }
+  ]
+ },
+ "sinav": {
+  "soruSayisi": 25,
+  "gecmeNotu": 80,
+  "ekSorular": [
+   "..."
+  ]
+ },
+ "sorular": {
+  "bosluk_sikli": {
+   "id": "m3-d17-q01",
+   "tip": "coktan-secmeli",
+   "soru": "Kışın kar yağdığını ve havanın soğuk olduğunu söylüyorsun. Boşluğa uygun mevsimi seç.",
+   "metin": "Im ___ schneit es und es ist kalt.",
+   "secenekler": [
+    "Sommer",
+    "Frühling",
+    "Herbst",
+    "Winter"
+   ],
+   "dogru": 3,
+   "celdiriciNotlari": [
+    "`Sommer` yaz demektir; sorudaki mevsim kış.",
+    "`Frühling` ilkbahar demektir; sorudaki mevsim kış.",
+    "`Herbst` sonbahar demektir; sorudaki mevsim kış.",
+    ""
+   ],
+   "aciklama": "Kış Winter'dır; mevsim adının önünde im kullanılır: Im Winter schneit es und es ist kalt.",
+   "ipucu": "Karın yağdığı mevsimi düşün.",
+   "bicim": "bosluk",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Im Winter schneit es und es ist kalt.",
+   "glossKapali": true
+  },
+  "bosluk_yazili": {
+   "id": "m3-d17-q05",
+   "tip": "bosluk-doldurma",
+   "soru": "Sınavın pazartesi günü sabah 8'de olduğunu söylüyorsun. Boşluğa günün adını yaz.",
+   "metin": "Die Prüfung ist am ___ um 8.00 Uhr.",
+   "dogruCevaplar": [
+    "Montag"
+   ],
+   "aciklama": "Pazartesi Montag'dır: Die Prüfung ist am Montag um 8.00 Uhr.",
+   "ipucu": "Haftanın ilk günü.",
+   "bicim": "bosluk",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Die Prüfung ist am Montag um 8.00 Uhr.",
+   "glossKapali": true
+  },
+  "diyalog": {
+   "id": "m3-d17-q03",
+   "tip": "coktan-secmeli",
+   "soru": "Lena kursun ne zaman olduğunu soruyor. Mert kursun her perşembe olduğunu söylüyor. Cümlesini tamamla.",
+   "diyalog": [
+    {
+     "kim": "Lena",
+     "metin": "Wann ist der Kurs?"
+    },
+    {
+     "kim": "Mert",
+     "metin": "Der Kurs ist immer am ___."
+    }
+   ],
+   "secenekler": [
+    "Dienstag",
+    "Mittwoch",
+    "Donnerstag",
+    "Freitag"
+   ],
+   "dogru": 2,
+   "celdiriciNotlari": [
+    "`Dienstag` salı demektir; Mert perşembe diyor.",
+    "`Mittwoch` çarşamba demektir; Mert perşembe diyor.",
+    "",
+    "`Freitag` cuma demektir; Mert perşembe diyor."
+   ],
+   "aciklama": "Perşembe Donnerstag'dır: Der Kurs ist immer am Donnerstag.",
+   "ipucu": "Çarşambadan bir sonraki günü seç.",
+   "bicim": "diyalog",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Der Kurs ist immer am Donnerstag.",
+   "glossKapali": true
+  },
+  "siralama": {
+   "id": "m3-d17-q08",
+   "tip": "cumle-dizme",
+   "soru": "Kelimeleri doğru sıraya diz: Kız kardeşim salı günü geliyor.",
+   "parcalar": [
+    "am Dienstag",
+    "meine Schwester",
+    "kommt"
+   ],
+   "dogruSiralar": [
+    [
+     "meine Schwester",
+     "kommt",
+     "am Dienstag"
+    ],
+    [
+     "am Dienstag",
+     "kommt",
+     "meine Schwester"
+    ]
+   ],
+   "aciklama": "Çekimli fiil ikinci sırada kalır; gün ifadesi başa geçerse özne fiilin arkasına kayar.",
+   "ipucu": "Kız kardeşin ve gün bilgisi yer değiştirebilir, ama fiilin yeri sabit kalır.",
+   "bicim": "siralama",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Meine Schwester kommt am Dienstag."
+  },
+  "senaryo": {
+   "id": "m3-d17-q07",
+   "tip": "coktan-secmeli",
+   "soru": "Sonbaharda havanın genellikle rüzgârlı olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+   "secenekler": [
+    "Im Herbst ist das Wetter oft windig.",
+    "Am Herbst ist das Wetter oft windig.",
+    "In Herbst ist das Wetter oft windig.",
+    "Im Herbst sind das Wetter oft windig."
+   ],
+   "dogru": 0,
+   "celdiriciNotlari": [
+    "",
+    "`am` gün adıyla gelir (`am Montag`); mevsim adının önünde `im` kullanılır.",
+    "Mevsim adının önünde `in` değil, hazır kalıp olan `im` gelir.",
+    "`das Wetter` tekildir; `sind` çoğul özneyle gelir, tekilde `ist` kullanılır."
+   ],
+   "aciklama": "Mevsim adının önünde im gelir, tekil özne das Wetter ile fiil ist olur: Im Herbst ist das Wetter oft windig.",
+   "ipucu": "Hem mevsimin önündeki kısa kelimeye hem de fiilin özneye uymasına bak.",
+   "bicim": "senaryo",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Im Herbst ist das Wetter oft windig.",
+   "glossKapali": true
+  },
+  "dinleme": {
+   "id": "m3-d17-q11",
+   "tip": "dinleme",
+   "soru": "Bir arkadaşın hangi gün müsait olmadığını söylüyor. Duyduğun cümleyi seç.",
+   "okunacak": "Am Mittwoch habe ich leider keine Zeit.",
+   "mod": "sec",
+   "secenekler": [
+    "Çarşamba günü maalesef vaktim yok.",
+    "Salı günü maalesef vaktim yok.",
+    "Perşembe günü maalesef vaktim yok.",
+    "Cuma günü maalesef vaktim yok."
+   ],
+   "dogruCevaplar": [
+    "Çarşamba günü maalesef vaktim yok."
+   ],
+   "aciklama": "Mittwoch çarşambadır; keine Zeit vaktim yok demektir: Am Mittwoch habe ich leider keine Zeit.",
+   "ipucu": "Cümlede geçen gün adına kulak ver.",
+   "bicim": "senaryo",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Am Mittwoch habe ich leider keine Zeit."
+  },
+  "dogru_yanlis": {
+   "id": "m3-d17-q13",
+   "tip": "dogru-yanlis",
+   "soru": "Doğru mu, yanlış mı? Pazar gününü şöyle anlatıyorsun:",
+   "ifade": "Am Sonntag frühstücke ich gern im Bett.",
+   "dogru": true,
+   "aciklama": "Doğru. Gün adının önünde am kullanılır: Am Sonntag frühstücke ich gern im Bett.",
+   "ipucu": "Cümleyi başlatan kısa kelime ile gün adının uyumuna bak.",
+   "bicim": "senaryo",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Am Sonntag frühstücke ich gern im Bett.",
+   "glossKapali": true
+  },
+  "eslestirme": {
+   "id": "m3-d17-q14",
+   "tip": "eslestirme",
+   "soru": "Almanca gün ve mevsim adlarını Türkçe karşılıklarıyla eşleştir.",
+   "ciftler": [
+    {
+     "sol": "Montag",
+     "sag": "pazartesi"
+    },
+    {
+     "sol": "Mittwoch",
+     "sag": "çarşamba"
+    },
+    {
+     "sol": "Samstag",
+     "sag": "cumartesi"
+    },
+    {
+     "sol": "Frühling",
+     "sag": "ilkbahar"
+    },
+    {
+     "sol": "Herbst",
+     "sag": "sonbahar"
+    },
+    {
+     "sol": "Winter",
+     "sag": "kış"
+    }
+   ],
+   "aciklama": "Günler am, mevsimler im ile kullanılır: am Montag, im Winter.",
+   "ipucu": "Önce günleri, sonra mevsimleri kendi içinde ayır.",
+   "bicim": "kelime",
+   "glossKapali": true,
+   "kaynakTuru": "yazildi"
+  },
+  "fiil_cekimi": {
+   "id": "m2-d07-q18",
+   "tip": "fiil-cekimi",
+   "soru": "\"kommen\" fiilini her zamire göre çek.",
+   "fiil": "kommen",
+   "satirlar": [
+    {
+     "zamir": "ich",
+     "cevap": "komme",
+     "verilen": true
+    },
+    {
+     "zamir": "du",
+     "cevap": "kommst"
+    },
+    {
+     "zamir": "er/sie/es",
+     "cevap": "kommt"
+    },
+    {
+     "zamir": "wir",
+     "cevap": "kommen"
+    },
+    {
+     "zamir": "ihr",
+     "cevap": "kommt"
+    },
+    {
+     "zamir": "sie/Sie",
+     "cevap": "kommen"
+    }
+   ],
+   "aciklama": "Kök (komm-) hep aynı kalır; ek zamire göre değişir: -e, -st, -t, -en, -t, -en.",
+   "ipucu": "Kök hep aynı kalır; yalnızca sonuna gelen ek zamire göre değişir.",
+   "bicim": "kelime",
+   "kaynakTuru": "yazildi"
+  },
+  "artikel": {
+   "id": "m2-d11-q19",
+   "tip": "artikel",
+   "soru": "Bu ismin artikelini seç.",
+   "isim": "Tisch",
+   "dogru": "der",
+   "aciklama": "Tisch maskulindir: der Tisch. Belirsiz hâli ein Tisch, ismin yerine er kullanılır.",
+   "ipucu": "Masa sözcüğünü kelime listesinde hangi artikelle bulacağına bak.",
+   "bicim": "kelime",
+   "kaynakTuru": "yazildi"
+  }
+ }
+}
