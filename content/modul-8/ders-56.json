@@ -183,7 +183,7 @@
         "`wart` ihr ile gelir; `der Test` tekildir."
       ],
       "aciklama": "Tekil özne der Test ile sein fiili war olur: Der Test war einfach.",
-      "ipucu": "Soruda geçen fiilin cevaptaki biçimini düşün.",
+      "ipucu": "Özne tekil ve üçüncü kişi: sein fiilinin ich/er/sie/es biçimi hangisi?",
       "bicim": "diyalog",
       "kaynakTuru": "goethe",
       "kaynakCumle": "Der Test war einfach.",
@@ -217,7 +217,7 @@
         ""
       ],
       "aciklama": "Tekil özne der Termin ile sein fiili war olur: Der Termin war vor einer Stunde.",
-      "ipucu": "Özne tekil; fiil Lena'nın sorusunda da geçiyor.",
+      "ipucu": "Özne tekil ve üçüncü kişi; sein fiilinin ich ile aynı biçimi hangisi?",
       "bicim": "diyalog",
       "kaynakTuru": "goethe",
       "kaynakCumle": "Der Termin war vor einer Stunde.",
