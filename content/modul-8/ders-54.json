@@ -390,6 +390,9 @@
       ],
       "aciklama": "Çekimli fiil ikinci sırada kalır; edatlı ifade başa geçerse özne fiilin arkasına kayar.",
       "ipucu": "Özne ile edatlı ifade yer değiştirebilir, ama fiilin yeri sabit kalır.",
+      "sozlukEk": {
+        "um": "etrafında"
+      },
       "bicim": "siralama",
       "kaynakTuru": "goethe",
       "kaynakCumle": "Wir wandern um den Chiemsee."
