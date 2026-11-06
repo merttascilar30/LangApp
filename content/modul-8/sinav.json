@@ -1,0 +1,194 @@
+{
+  "soruSayisi": 25,
+  "gecmeNotu": 80,
+  "ekSorular": [
+    {
+      "id": "m8-s-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Birine yolu tarif ediyorsun: en iyisi Breite Straße'nin içinden geçmesi. Boşluğa uygun artikeli seç.",
+      "metin": "Am besten gehen Sie durch ___ Breite Straße.",
+      "secenekler": ["den", "dem", "die", "der"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`den` eril isimle gelir; `Straße` dişildir.",
+        "`dem` Dativ biçimidir; `durch` Akkusativ ister.",
+        "",
+        "`durch` Akkusativ ister; dişil isimde `der` değil `die` gelir."
+      ],
+      "aciklama": "durch Akkusativ ister ve die Straße dişildir, artikel die kalır: Am besten gehen Sie durch die Breite Straße.",
+      "ipucu": "Edatın hangi hâli istediğine ve ismin cinsine bak.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Am besten gehen Sie durch die Breite Straße.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-s-q02",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Banka cumartesi günü kapalı.",
+      "parcalar": ["die Bank", "hat", "am Samstag", "geschlossen"],
+      "dogruSiralar": [
+        ["die Bank", "hat", "am Samstag", "geschlossen"],
+        ["am Samstag", "hat", "die Bank", "geschlossen"]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; gün ifadesi başa geçerse özne fiilin arkasına kayar: Die Bank hat am Samstag geschlossen.",
+      "ipucu": "Gün ifadesi başa geçse bile çekimli fiilin yeri sabit kalır.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Bank hat am Samstag geschlossen."
+    },
+    {
+      "id": "m8-s-q03",
+      "tip": "dinleme",
+      "soru": "Bir meslektaşın randevunun ne zaman olduğunu söylüyor. Duyduğun cümleyi seç.",
+      "okunacak": "Der Termin war vor einer Stunde.",
+      "mod": "sec",
+      "secenekler": [
+        "Randevu bir saat önce.",
+        "Randevu bir saat sonra.",
+        "Randevu iki saat önce.",
+        "Randevu yarın."
+      ],
+      "dogruCevaplar": ["Randevu bir saat önce."],
+      "aciklama": "vor \"-den önce\" demektir: Der Termin war vor einer Stunde.",
+      "ipucu": "Cümledeki edatın zamanı geçmişe mi geleceğe mi bağladığına kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Der Termin war vor einer Stunde."
+    },
+    {
+      "id": "m8-s-q04",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Arkadaşına çiçekleri onun için aldığını söylüyorsun:",
+      "ifade": "Die Blumen sind für dir.",
+      "dogru": false,
+      "aciklama": "Yanlış. für Akkusativ ister, bu yüzden für dich olmalı: Die Blumen sind für dich.",
+      "ipucu": "Edattan sonra gelen kişi zamirinin hangi hâlde durduğuna bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Die Blumen sind für dich.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-s-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Mert dün kursa gelemediğini söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Du warst gestern nicht im Kurs." },
+        { "kim": "Mert", "metin": "Ja, gestern ___ ich leider nicht kommen." }
+      ],
+      "secenekler": ["konnte", "konntest", "konnten", "konntet"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`konntest` du ile gelir; özne `ich` olduğu için `konnte` gerekir.",
+        "`konnten` wir ve sie/Sie ile gelir; `ich` ile `konnte` kullanılır.",
+        "`konntet` ihr ile gelir; `ich` ile `konnte` kullanılır."
+      ],
+      "aciklama": "Geçmişte ich ile können fiili konnte olur, ana fiil sonda mastar kalır: Gestern konnte ich leider nicht kommen.",
+      "ipucu": "Özneye ve cümlenin geçmişi anlattığına bak.",
+      "bicim": "diyalog",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich kann Deutsch und Russisch.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-s-q06",
+      "tip": "coktan-secmeli",
+      "soru": "Komşuna elindeki anahtarın ev kapısı için olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Das ist der Schlüssel für den Haustür.",
+        "Das ist der Schlüssel für die Haustür.",
+        "Das ist der Schlüssel durch die Haustür.",
+        "Das ist der Schlüssel für der Haustür."
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`den` eril isimle gelir; `Haustür` dişildir, doğrusu `die`.",
+        "",
+        "`durch` içinden geçmeyi anlatır; \"için\" demek için `für` gerekir.",
+        "`für` Akkusativ ister; dişil isimde `der` değil `die` gelir."
+      ],
+      "aciklama": "für \"için\" demektir ve Akkusativ ister, die Haustür dişil olduğu için die kalır: Das ist der Schlüssel für die Haustür.",
+      "ipucu": "Hem edatın anlamına hem de ismin cinsine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das ist der Schlüssel für die Haustür.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-s-q07",
+      "tip": "coktan-secmeli",
+      "soru": "Bir iş arkadaşının hiçbir zaman zamanında gelmediğini söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Er kommt nie nicht pünktlich.",
+        "Er nie kommt pünktlich.",
+        "Nie er kommt pünktlich.",
+        "Er kommt nie pünktlich."
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`nie` zaten olumsuzdur; yanına `nicht` eklenmez.",
+        "Sıklık zarfı çekimli fiilden sonra gelir; `nie` fiilin önüne geçmez.",
+        "Cümle `nie` ile başlarsa çekimli fiil ikinci sırada kalır ve özne arkasına geçer.",
+        ""
+      ],
+      "aciklama": "nie çekimli fiilden sonra gelir ve nicht almaz: Er kommt nie pünktlich.",
+      "ipucu": "Zarfın cümledeki yerine ve olumsuzluğun nasıl kurulduğuna dikkat et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Er kommt nie pünktlich.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-s-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Taksinin otobüsten daha pahalı olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Das Taxi ist teuerer als der Bus.",
+        "Das Taxi ist teuer als der Bus.",
+        "Das Taxi ist teurer als der Bus.",
+        "Das Taxi teurer ist als der Bus."
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`teuer` sıfatında karşılaştırırken `e` düşer: `teurer`.",
+        "`als` ile karşılaştırma için sıfata `-er` eklenir; `teuer` yalnızca \"pahalı\" demektir.",
+        "",
+        "Çekimli fiil ikinci sırada kalır; `ist` öznenin hemen arkasına gelir."
+      ],
+      "aciklama": "teuer karşılaştırmada teurer olur ve als ile bağlanır: Das Taxi ist teurer als der Bus.",
+      "ipucu": "Sıfatın karşılaştırma biçimine ve fiilin yerine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Dieses Auto kostet 1.000 Euro mehr als das andere.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-s-q09",
+      "tip": "bosluk-doldurma",
+      "soru": "Saatin 3.15 olduğunu söylüyorsun. Boşluğa uygun sözcüğü yaz.",
+      "metin": "Es ist Viertel ___ drei.",
+      "dogruCevaplar": ["nach"],
+      "aciklama": "Çeyrek geçe Viertel nach denir: Es ist Viertel nach drei.",
+      "ipucu": "Saatin üçten önce mi sonra mı olduğunu düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Es ist Viertel nach zwei.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-s-q10",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Okulun yerini şöyle tarif ediyorsun:",
+      "ifade": "Die Schule ist gleich hier um die Ecke.",
+      "dogru": true,
+      "aciklama": "Doğru. um isimle \"etrafında\" anlamı verir ve Akkusativ ister; die Ecke dişil olduğu için artikel aynı kalır: Die Schule ist gleich hier um die Ecke.",
+      "ipucu": "Edattan sonra gelen ismin artikeline bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Schule ist gleich hier um die Ecke.",
+      "glossKapali": true
+    }
+  ]
+}
