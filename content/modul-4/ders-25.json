@@ -1,0 +1,313 @@
+{
+  "id": "m4-d25",
+  "ders": 25,
+  "baslik": "W-Soruları",
+  "videoId": "iWcbF7F0dFQ",
+  "ozet": [
+    "W-sorularında soru sözcüğü cümlenin başına gelir: wer (kim), was (ne), wo (nerede), woher (nereden), wohin (nereye), wann (ne zaman), wie (nasıl), warum (neden). Örnek: Wer ist das? Was ist das? Wo ist die Post? Woher kommen Sie? Wie heißt du? Wohin gehst du?",
+    "Soru sözcüğünden sonra çekimli fiil ikinci sırada durur, özne fiilin arkasına geçer: Wann bist du fertig? Wo arbeiten Sie? Wann sind Sie geboren? İki sözcükten oluşan soru ifadeleri tek öğe sayılır: wie viel (ne kadar), wie viele (kaç), wie lange (ne kadar süre). Örnek: Wie lange lernen Sie schon Deutsch?",
+    "Wie viel sayılamayan isimle gelir: Wie viel Milch nehmen Sie? Wie viele sayılabilen çoğul isimle gelir: Wie viele Kinder haben Sie? Welch- (hangi) ismin artikeline uyar: Welche Sprachen sprichst du? Welche Hausnummer haben Sie? Welche çoğul ve die isimlerle kullanılır."
+  ],
+  "kelimeler": [
+    { "de": "wer", "tr": "kim" },
+    { "de": "was", "tr": "ne" },
+    { "de": "wo", "tr": "nerede" },
+    { "de": "woher", "tr": "nereden" },
+    { "de": "wohin", "tr": "nereye" },
+    { "de": "wann", "tr": "ne zaman" },
+    { "de": "wie", "tr": "nasıl" },
+    { "de": "warum", "tr": "neden" },
+    { "de": "welche", "tr": "hangi" },
+    { "de": "wie viel", "tr": "ne kadar" },
+    { "de": "wie viele", "tr": "kaç" },
+    { "de": "wie lange", "tr": "ne kadar süre" }
+  ],
+  "trickler": [
+    {
+      "baslik": "Soru sözcüğü başta, fiil ikinci",
+      "metin": "W-sorusunda önce soru sözcüğü, hemen ardından çekimli fiil, sonra özne gelir: Wann bist du fertig? Wo arbeiten Sie? Fiili cümle sonuna atmazsın."
+    },
+    {
+      "baslik": "wo, woher, wohin ayrımı",
+      "metin": "Wo bulunduğun yeri sorar: Wo arbeiten Sie? Woher çıkış noktasını sorar: Woher kommen Sie? Wohin gidilen yeri sorar: Wohin gehst du?"
+    },
+    {
+      "baslik": "wie viel ve wie viele",
+      "metin": "Sayılamayan isimle wie viel kullanılır: Wie viel Milch nehmen Sie? Sayılabilen çoğul isimle wie viele kullanılır: Wie viele Kinder haben Sie?"
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m4-d25-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Bir fotoğraftaki kişinin kim olduğunu soruyorsun. Boşluğa uygun soru sözcüğünü seç.",
+      "metin": "___ ist das?",
+      "secenekler": ["Wer", "Wo", "Wann", "Warum"],
+      "celdiriciNotlari": [
+        "",
+        "`Wo` nerede demektir; burada bir kişi soruluyor.",
+        "`Wann` ne zaman demektir; burada bir kişi soruluyor.",
+        "`Warum` neden demektir; burada bir kişi soruluyor."
+      ],
+      "dogru": 0,
+      "aciklama": "Kişiyi sormak için wer kullanılır: Wer ist das?",
+      "ipucu": "Cevapta bir isim duymak istiyorsun.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wer ist das?",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d25-q02",
+      "tip": "coktan-secmeli",
+      "soru": "Karşındaki kişiye nereden geldiğini soruyorsun. Boşluğa uygun soru sözcüğünü seç.",
+      "metin": "___ kommen Sie?",
+      "secenekler": ["Wohin", "Woher", "Wo", "Wann"],
+      "celdiriciNotlari": [
+        "`Wohin` nereye demektir; burada geliş yeri soruluyor.",
+        "",
+        "`Wo` nerede demektir; burada geliş yeri soruluyor.",
+        "`Wann` ne zaman demektir; burada geliş yeri soruluyor."
+      ],
+      "dogru": 1,
+      "aciklama": "Geliş yeri woher ile sorulur: Woher kommen Sie?",
+      "ipucu": "Sorduğun şey bir ülke veya şehir olabilir.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Woher kommen Sie?",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d25-q03",
+      "tip": "bosluk-doldurma",
+      "soru": "Karşındakinin adını soruyorsun. Boşluğa heißen fiilinin uygun biçimini yaz.",
+      "metin": "Wie ___ du?",
+      "dogruCevaplar": ["heißt", "heisst"],
+      "aciklama": "Özne du olduğu için heißen -t alır: Wie heißt du?",
+      "ipucu": "Özne sen olduğu için fiilin sonu değişir.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wie heißt du?",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d25-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Frau Berg, Herr Kaya'ya doğum yerini soruyor. Herr Kaya İstanbul diyor. Soruyu tamamla.",
+      "diyalog": [
+        { "kim": "Frau Berg", "metin": "___ sind Sie geboren?" },
+        { "kim": "Herr Kaya", "metin": "In Istanbul." }
+      ],
+      "secenekler": ["Wann", "Wer", "Wo", "Wie"],
+      "celdiriciNotlari": [
+        "`Wann` ne zaman demektir; cevapta bir yer var, zaman yok.",
+        "`Wer` kim demektir; cevapta bir yer var, kişi yok.",
+        "",
+        "`Wie` nasıl demektir; cevapta bir yer var."
+      ],
+      "dogru": 2,
+      "aciklama": "Cevap bir yer olduğu için wo sorulur: Wo sind Sie geboren?",
+      "ipucu": "Cevaptaki In sözcüğü sorunun neyi sorduğunu gösterir.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wo sind Sie geboren?",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d25-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Lena, Mert'e bir eşyanın ne olduğunu soruyor. Mert bunun bir bilgisayar olduğunu söylüyor. Soruyu tamamla.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "___ ist das?" },
+        { "kim": "Mert", "metin": "Das ist ein Computer." }
+      ],
+      "secenekler": ["Wer", "Was", "Wo", "Wann"],
+      "celdiriciNotlari": [
+        "`Wer` kim demektir; cevap bir kişi değil, bir eşya.",
+        "",
+        "`Wo` nerede demektir; cevap bir yer değil, bir eşya.",
+        "`Wann` ne zaman demektir; cevap bir zaman değil, bir eşya."
+      ],
+      "dogru": 1,
+      "aciklama": "Eşyanın ne olduğu was ile sorulur: Was ist das?",
+      "ipucu": "Cevap bir kişi, yer ya da zaman bildirmiyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Was ist das?",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d25-q06",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Ne zaman hazırsın?",
+      "parcalar": ["bist", "wann", "fertig", "du"],
+      "dogruSiralar": [["wann", "bist", "du", "fertig"]],
+      "aciklama": "Soru sözcüğü başta, çekimli fiil ikinci sırada, özne fiilin arkasında durur: Wann bist du fertig?",
+      "ipucu": "Önce soru sözcüğünü, hemen ardından çekimli fiili düşün.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wann bist du fertig?"
+    },
+    {
+      "id": "m4-d25-q07",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Kaç çocuğunuz var?",
+      "parcalar": ["haben", "Sie", "wie viele Kinder"],
+      "dogruSiralar": [["wie viele Kinder", "haben", "Sie"]],
+      "aciklama": "Wie viele Kinder tek öğedir ve başa gelir; çekimli fiil ikinci sırada kalır: Wie viele Kinder haben Sie?",
+      "ipucu": "Soru ifadesi birden fazla sözcükten oluşsa da tek bir bütündür.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wie viele Kinder haben Sie?"
+    },
+    {
+      "id": "m4-d25-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Yeni tanıştığın birine nerede çalıştığını soruyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Wo Sie arbeiten?",
+        "Arbeiten wo Sie?",
+        "Wo arbeitet Sie?",
+        "Wo arbeiten Sie?"
+      ],
+      "celdiriciNotlari": [
+        "Özne fiilden önce gelmiş; W-sorusunda soru sözcüğünden sonra çekimli fiil gelir.",
+        "Soru sözcüğü cümlenin başında olmalı.",
+        "`arbeitet` er/sie/es ile gelir; `Sie` (siz) ile fiil `arbeiten` olur.",
+        ""
+      ],
+      "dogru": 3,
+      "aciklama": "Soru sözcüğü başta, ardından çekimli fiil ve özne gelir: Wo arbeiten Sie?",
+      "ipucu": "Hem soru sözcüğünün yerine hem de Sie ile kullanılan fiil biçimine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wo arbeiten Sie?",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d25-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Birine ne kadar süredir Almanca öğrendiğini soruyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Wie lange lernen Sie schon Deutsch?",
+        "Wann lernen Sie schon Deutsch?",
+        "Warum lernen Sie schon Deutsch?",
+        "Wie lange Sie lernen schon Deutsch?"
+      ],
+      "celdiriciNotlari": [
+        "",
+        "`Wann` ne zaman demektir; süre sormak için `wie lange` gerekir.",
+        "`Warum` neden demektir; süre sormak için `wie lange` gerekir.",
+        "Özne fiilden önce gelmiş; soru ifadesinden sonra çekimli fiil gelir."
+      ],
+      "dogru": 0,
+      "aciklama": "Süre wie lange ile sorulur ve fiil ikinci sırada kalır: Wie lange lernen Sie schon Deutsch?",
+      "ipucu": "Sorduğun şey bir süre; fiilin yerine de dikkat et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wie lange lernen Sie schon Deutsch?",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d25-q10",
+      "tip": "dinleme",
+      "soru": "Biri sana doğum tarihini soruyor. Duyduğun soruyu seç.",
+      "okunacak": "Wann sind Sie geboren?",
+      "mod": "sec",
+      "secenekler": [
+        "Ne zaman doğdunuz?",
+        "Nerede doğdunuz?",
+        "Nereden geliyorsunuz?",
+        "Adınız ne?"
+      ],
+      "dogruCevaplar": ["Ne zaman doğdunuz?"],
+      "aciklama": "Wann ne zaman demektir: Wann sind Sie geboren?",
+      "ipucu": "Cümlenin başındaki soru sözcüğüne kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wann sind Sie geboren?"
+    },
+    {
+      "id": "m4-d25-q11",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Birine ne zaman hazır olacağını soruyorsun:",
+      "ifade": "Wann du bist fertig?",
+      "dogru": false,
+      "aciklama": "Yanlış. W-sorusunda çekimli fiil soru sözcüğünün hemen ardından gelir: Wann bist du fertig?",
+      "ipucu": "Fiilin soru sözcüğüne göre yerine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d25-q12",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Bir sözcüğün Almancasını soruyorsun:",
+      "ifade": "Wie heißt das auf Deutsch?",
+      "dogru": true,
+      "aciklama": "Doğru. Soru sözcüğü başta, fiil ikinci sırada: Wie heißt das auf Deutsch?",
+      "ipucu": "Cümlede soru sözcüğü ve fiil doğru sırada mı diye bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wie heißt das auf Deutsch?",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d25-q13",
+      "tip": "coktan-secmeli",
+      "soru": "Birine hangi kapı numarasında oturduğunu soruyorsun. Boşluğa uygun soru sözcüğünü seç.",
+      "metin": "___ Hausnummer haben Sie?",
+      "secenekler": ["Wie", "Wer", "Welche", "Wann"],
+      "celdiriciNotlari": [
+        "`Wie` nasıl demektir; hangi sorusu için `welche` gerekir.",
+        "`Wer` kim demektir; hangi sorusu için `welche` gerekir.",
+        "",
+        "`Wann` ne zaman demektir; hangi sorusu için `welche` gerekir."
+      ],
+      "dogru": 2,
+      "aciklama": "Die Hausnummer dişil bir isimdir; hangi sorusu için welche kullanılır: Welche Hausnummer haben Sie?",
+      "ipucu": "Birden fazla numara arasından seçim yapılıyor.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Welche Hausnummer haben Sie?",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d25-q14",
+      "tip": "coktan-secmeli",
+      "soru": "Birine ne kadar süt aldığını soruyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Wie ___ Milch nehmen Sie?",
+      "secenekler": ["viele", "viel", "lange"],
+      "celdiriciNotlari": [
+        "`viele` sayılabilen çoğul isimle gelir; `Milch` sayılamaz.",
+        "",
+        "`lange` süre sorar; burada miktar soruluyor."
+      ],
+      "dogru": 1,
+      "aciklama": "Sayılamayan isimle wie viel kullanılır: Wie viel Milch nehmen Sie?",
+      "ipucu": "Süt sayılabilen bir şey değil, miktarı ölçülen bir şey.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wie viel Milch nehmen Sie?",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d25-q15",
+      "tip": "eslestirme",
+      "soru": "Almanca soru sözcüklerini Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        { "sol": "wer", "sag": "kim" },
+        { "sol": "wo", "sag": "nerede" },
+        { "sol": "woher", "sag": "nereden" },
+        { "sol": "wohin", "sag": "nereye" },
+        { "sol": "wann", "sag": "ne zaman" },
+        { "sol": "warum", "sag": "neden" }
+      ],
+      "aciklama": "Wo, woher ve wohin yer sorar: nerede, nereden, nereye.",
+      "ipucu": "Önce wo ile başlayan üç sözcüğü kendi içinde ayır.",
+      "bicim": "kelime",
+      "glossKapali": true,
+      "kaynakTuru": "yazildi"
+    }
+  ]
+}
