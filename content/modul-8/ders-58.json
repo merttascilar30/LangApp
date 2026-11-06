@@ -1,0 +1,480 @@
+{
+  "id": "m8-d58",
+  "ders": 58,
+  "baslik": "Akk/Dat Alan Fiiller",
+  "videoId": "WBKR738u6nE",
+  "ozet": [
+    "Bazı fiiller kişiyi Dativ ile alır: danken (teşekkür etmek), gefallen (hoşa gitmek), passen (uymak), schmecken (tadı olmak), helfen (yardım etmek), gehören (ait olmak). Kişi Türkçedeki \"-e/-a\" sorusuna cevap verir: Ich danke Ihnen für die Einladung. (Size teşekkür ederim.) Können Sie mir helfen, bitte? (mir = bana, helfen = yardım etmek.)",
+    "gefallen ve schmecken'de hoşlanan ya da tadan kişi Dativ'dedir, beğenilen şey özne olur ve fiil ona uyar. Die Farbe gefällt mir gut. (Renk bana hoş geliyor.) Gefallen dir die Blumen? (Çiçekler hoşuna gidiyor mu?) Çoğul özne gelince gefällt yerine gefallen kullanılır. Das gefällt mir.",
+    "schmecken tat için kullanılır: Das Essen schmeckt wunderbar. (das Essen = yemek, wunderbar = harika.) Der Kaffee schmeckt bitter. (bitter = acı.) Wie schmeckt dir der Salat? Schmeckt das gut? passen uymak demektir: Die Jacke passt mir gut. (die Jacke = ceket.) gehören aitlik bildirir: Wem gehört das? (wem = kime.)",
+    "Dativ zamirleri: mir (bana), dir (sana), ihm (ona), ihr (ona), uns (bize), euch (size), Ihnen (size, resmî). Teşekkür ederken sebebi für ile bağlarsın: Danke für die Einladung! (die Einladung = davet.) Danke für das schöne Geschenk. (das Geschenk = hediye.) Soll ich Ihnen helfen? - Nein, danke!"
+  ],
+  "kelimeler": [
+    {
+      "de": "danken",
+      "tr": "teşekkür etmek"
+    },
+    {
+      "de": "gefallen",
+      "tr": "hoşa gitmek"
+    },
+    {
+      "de": "passen",
+      "tr": "uymak, yakışmak"
+    },
+    {
+      "de": "schmecken",
+      "tr": "tadı olmak"
+    },
+    {
+      "de": "helfen",
+      "tr": "yardım etmek"
+    },
+    {
+      "de": "gehören",
+      "tr": "ait olmak"
+    },
+    {
+      "de": "wem",
+      "tr": "kime"
+    },
+    {
+      "de": "wunderbar",
+      "tr": "harika"
+    },
+    {
+      "de": "bitter",
+      "tr": "acı"
+    },
+    {
+      "de": "die Farbe",
+      "tr": "renk",
+      "artikel": "die"
+    },
+    {
+      "de": "die Einladung",
+      "tr": "davet",
+      "artikel": "die"
+    },
+    {
+      "de": "das Geschenk",
+      "tr": "hediye",
+      "artikel": "das"
+    },
+    {
+      "de": "die Jacke",
+      "tr": "ceket",
+      "artikel": "die"
+    }
+  ],
+  "trickler": [
+    {
+      "baslik": "Kişi Dativ'de kalır",
+      "metin": "danken, gefallen, passen, schmecken, helfen, gehören kişiyi \"-e\" hâliyle alır: mir, dir, ihm, ihr, uns, euch, Ihnen."
+    },
+    {
+      "baslik": "gefallen ve schmecken özneye uyar",
+      "metin": "Beğenilen şey özne olur: Die Farbe gefällt mir, Die Blumen gefallen mir. Tekilde gefällt, çoğulda gefallen."
+    },
+    {
+      "baslik": "Danke für ...",
+      "metin": "Teşekkür sebebini für ile bağla: Danke für die Einladung! Kişiye teşekkür edince Dativ gelir: Ich danke Ihnen."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m8-d58-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Bir rengin hoşuna gittiğini söylüyorsun. Boşluğa uygun fiili seç.",
+      "metin": "Die Farbe ___ mir gut.",
+      "secenekler": [
+        "gefällt",
+        "gefallen",
+        "danke",
+        "schmeckt"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`gefallen` çoğul özneyle gelir; `die Farbe` tekildir.",
+        "`danke` teşekkür fiilidir; renk için anlam vermez.",
+        "`schmeckt` tat için kullanılır; renk için olmaz."
+      ],
+      "aciklama": "Tekil özne die Farbe ile gefällt gelir, kişi mir Dativ'dedir: Die Farbe gefällt mir gut.",
+      "ipucu": "Özne tekil, kişi ise \"bana\" demek.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Farbe gefällt mir gut.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d58-q02",
+      "tip": "coktan-secmeli",
+      "soru": "Yemeğin tadının harika olduğunu söylüyorsun. Boşluğa uygun fiili seç.",
+      "metin": "Das Essen ___ wunderbar.",
+      "secenekler": [
+        "schmecken",
+        "schmeckt",
+        "danke",
+        "gehört"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`schmecken` çoğul özneyle gelir; `das Essen` tekildir.",
+        "",
+        "`danke` teşekkür eder; yemeğin tadını anlatmaz.",
+        "`gehört` aitlik bildirir; tat anlatmaz."
+      ],
+      "aciklama": "Tekil özne das Essen ile schmeckt gelir: Das Essen schmeckt wunderbar.",
+      "ipucu": "Yemeğin tadını anlatan, tekil öznenin fiili.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das Essen schmeckt wunderbar.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d58-q03",
+      "tip": "bosluk-doldurma",
+      "soru": "Kahvenin acı olduğunu söylüyorsun. Boşluğa uygun fiili yaz.",
+      "metin": "Der Kaffee ___ bitter.",
+      "dogruCevaplar": [
+        "schmeckt"
+      ],
+      "aciklama": "Tat için schmecken kullanılır, tekil özne der Kaffee ile schmeckt olur: Der Kaffee schmeckt bitter.",
+      "ipucu": "Tat bildiren fiilin üçüncü tekil kişi biçimi gerekiyor.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Der Kaffee schmeckt bitter.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d58-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Mert, Lena'ya salatanın tadını soruyor. Cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Mert",
+          "metin": "Wie schmeckt ___ der Salat?"
+        },
+        {
+          "kim": "Lena",
+          "metin": "Sehr gut, danke!"
+        }
+      ],
+      "secenekler": [
+        "du",
+        "dich",
+        "dir",
+        "mir"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`du` özne hâlidir; `schmecken` ile kişi Dativ olur.",
+        "`dich` Akkusativ'dir; `schmecken` kişiyi Dativ ile alır.",
+        "",
+        "`mir` konuşanı gösterir; soru karşıdaki kişiye sorulur."
+      ],
+      "aciklama": "Karşıdaki kişi Dativ'de dir olur: Wie schmeckt dir der Salat?",
+      "ipucu": "Soruyu karşındaki kişiye yöneltiyorsun.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wie schmeckt dir der Salat?",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d58-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Mert, Lena'ya çiçeklerin hoşuna gidip gitmediğini soruyor. Cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Hier sind die Blumen."
+        },
+        {
+          "kim": "Mert",
+          "metin": "___ dir die Blumen?"
+        }
+      ],
+      "secenekler": [
+        "Gefällt",
+        "Schmeckt",
+        "Danke",
+        "Gefallen"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`Gefällt` tekil özneyle gelir; `die Blumen` çoğuldur.",
+        "`Schmeckt` tat için kullanılır; çiçekler için olmaz.",
+        "`Danke` teşekkürdür; beğeniyi sormaz.",
+        ""
+      ],
+      "aciklama": "Çoğul özne die Blumen ile gefallen gelir: Gefallen dir die Blumen?",
+      "ipucu": "Öznenin tekil mi çoğul mu olduğuna bak.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Gefallen dir die Blumen?",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d58-q06",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Bu kimin?",
+      "parcalar": [
+        "Wem",
+        "gehört",
+        "das"
+      ],
+      "dogruSiralar": [
+        [
+          "Wem",
+          "gehört",
+          "das"
+        ]
+      ],
+      "aciklama": "Soru sözcüğü Wem başa gelir, çekimli fiil ikinci sırada kalır: Wem gehört das?",
+      "ipucu": "Soru sözcüğü başta, çekimli fiil hemen arkasında.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wem gehört das?"
+    },
+    {
+      "id": "m8-d58-q07",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Davet için size teşekkür ederim.",
+      "parcalar": [
+        "ich",
+        "danke",
+        "Ihnen",
+        "für die Einladung"
+      ],
+      "dogruSiralar": [
+        [
+          "ich",
+          "danke",
+          "Ihnen",
+          "für die Einladung"
+        ],
+        [
+          "Ihnen",
+          "danke",
+          "ich",
+          "für die Einladung"
+        ],
+        [
+          "für die Einladung",
+          "danke",
+          "ich",
+          "Ihnen"
+        ]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; başa özne, kişi ya da teşekkür sebebi geçebilir.",
+      "ipucu": "Ne olursa olsun çekimli fiil ikinci sırada durur.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich danke Ihnen für die Einladung."
+    },
+    {
+      "id": "m8-d58-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Tanımadığın birinden nazikçe yardım istiyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Können Sie mir helfen, bitte?",
+        "Können Sie mich helfen, bitte?",
+        "Kannst Sie mir helfen, bitte?",
+        "Können Sie ich helfen, bitte?"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`helfen` kişiyi Dativ ile alır; `mich` Akkusativ'dir.",
+        "`Sie` ile `Können Sie` gelir; `kannst` du içindir.",
+        "`ich` özne hâlidir; yardım edilen kişi `mir` olur."
+      ],
+      "aciklama": "helfen kişiyi Dativ ile alır ve Sie ile Können Sie kullanılır: Können Sie mir helfen, bitte?",
+      "ipucu": "Hem hitap şekline hem de \"bana\" karşılığına dikkat et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Können Sie mir helfen, bitte?",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d58-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Yeni ceketin sana iyi oturduğunu söylüyorsun (die Jacke = ceket). Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Die Jacke passen mir gut.",
+        "Die Jacke passt ich gut.",
+        "Die Jacke passt mir gut.",
+        "Die Jacke passt mich gut."
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`passen` çoğul özneyle gelir; `die Jacke` tekildir.",
+        "`ich` özne hâlidir; kişi `mir` olarak Dativ'de gelir.",
+        "",
+        "`mich` Akkusativ'dir; `passen` kişiyi Dativ ile alır."
+      ],
+      "aciklama": "Tekil özne die Jacke ile passt gelir, kişi mir Dativ'dedir: Die Jacke passt mir gut.",
+      "ipucu": "Hem fiilin özneye uymasına hem de kişinin hâline bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Die Farbe gefällt mir gut.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d58-q10",
+      "tip": "dinleme",
+      "soru": "Bir arkadaşın gösterdiğin bir şey hakkında görüşünü söylüyor. Duyduğun cümleyi seç.",
+      "okunacak": "Das gefällt mir.",
+      "mod": "sec",
+      "secenekler": [
+        "Bu hoşuma gidiyor.",
+        "Bu bana ait.",
+        "Bu bana yardım ediyor.",
+        "Bu bana uyuyor."
+      ],
+      "dogruCevaplar": [
+        "Bu hoşuma gidiyor."
+      ],
+      "aciklama": "gefallen hoşa gitmek demektir: Das gefällt mir.",
+      "ipucu": "Fiil bir beğeniyi dile getiriyor.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das gefällt mir."
+    },
+    {
+      "id": "m8-d58-q11",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Bir davet için resmî biçimde teşekkür ediyorsun:",
+      "ifade": "Ich danke Ihnen für die Einladung.",
+      "dogru": true,
+      "aciklama": "Doğru. danken kişiyi Dativ ile alır, resmî Sie için Ihnen olur: Ich danke Ihnen für die Einladung.",
+      "ipucu": "Teşekkür edilen kişinin hâline bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich danke Ihnen für die Einladung.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d58-q12",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Çiçeklerin hoşuna gittiğini söylüyorsun:",
+      "ifade": "Die Blumen gefällt mir.",
+      "dogru": false,
+      "aciklama": "Yanlış. Die Blumen çoğuldur, fiil gefallen olmalı: Die Blumen gefallen mir.",
+      "ipucu": "Öznenin sayısıyla fiilin biçimi uyuşuyor mu?",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Gefallen dir die Blumen?"
+    },
+    {
+      "id": "m8-d58-q13",
+      "tip": "bosluk-doldurma",
+      "soru": "Bir davet için teşekkür ediyorsun. Boşluğa uygun sözcüğü yaz.",
+      "metin": "Danke ___ die Einladung!",
+      "dogruCevaplar": [
+        "für"
+      ],
+      "aciklama": "Teşekkür edilen şey für ile gelir: Danke für die Einladung!",
+      "ipucu": "Teşekkürün sebebini bağlayan kısa bir sözcük.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Danke für die Einladung!",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d58-q14",
+      "tip": "coktan-secmeli",
+      "soru": "Bir eşyanın sahibini soruyorsun. Boşluğa uygun fiili seç.",
+      "metin": "Wem ___ das?",
+      "secenekler": [
+        "gehören",
+        "hilft",
+        "danke",
+        "gehört"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`gehören` çoğul özneyle gelir; `das` tekildir.",
+        "`hilft` yardım etmek demektir; sahibi sormaz.",
+        "`danke` teşekkür fiilidir; sahibi sormaz.",
+        ""
+      ],
+      "aciklama": "Aitlik için gehören kullanılır, tekil das ile gehört olur: Wem gehört das?",
+      "ipucu": "Fiil aitlik bildiriyor.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wem gehört das?",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d58-q15",
+      "tip": "eslestirme",
+      "soru": "Almanca fiilleri Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        {
+          "sol": "danken",
+          "sag": "teşekkür etmek"
+        },
+        {
+          "sol": "gefallen",
+          "sag": "hoşa gitmek"
+        },
+        {
+          "sol": "passen",
+          "sag": "uymak, yakışmak"
+        },
+        {
+          "sol": "schmecken",
+          "sag": "tadı olmak"
+        },
+        {
+          "sol": "helfen",
+          "sag": "yardım etmek"
+        },
+        {
+          "sol": "gehören",
+          "sag": "ait olmak"
+        }
+      ],
+      "aciklama": "Bu fiillerin hepsi kişiyi Dativ ile alır: Ich danke Ihnen, Das gefällt mir.",
+      "ipucu": "Önce anlamını tahmin edebildiklerinle başla.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d58-q16",
+      "tip": "coktan-secmeli",
+      "soru": "Satıcı müşteriye yardım teklif ediyor, müşteri nazikçe reddediyor. Cümleyi tamamla.",
+      "diyalog": [
+        {
+          "kim": "Verkäufer",
+          "metin": "Soll ich ___ helfen?"
+        },
+        {
+          "kim": "Kunde",
+          "metin": "Nein, danke!"
+        }
+      ],
+      "secenekler": [
+        "Sie",
+        "Ihr",
+        "Ihnen",
+        "du"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`Sie` Akkusativ'dir; `helfen` kişiyi Dativ ile alır.",
+        "`Ihr` sahiplik sözcüğüdür; kişi yerine geçmez.",
+        "",
+        "`du` özne hâlidir; resmî hitapta `Ihnen` gerekir."
+      ],
+      "aciklama": "helfen kişiyi Dativ ile alır, resmî hitapta Ihnen olur: Soll ich Ihnen helfen?",
+      "ipucu": "Resmî hitapta \"size\" karşılığı gerekiyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Soll ich Ihnen helfen? - Nein, danke!"
+    }
+  ]
+}
