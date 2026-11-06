@@ -217,7 +217,10 @@
       "ipucu": "Modal fiilin yeri sabit, mastar ise en sonda.",
       "bicim": "siralama",
       "kaynakTuru": "uyarlama",
-      "kaynakCumle": "Achtung! Das dürfen Sie nicht tun."
+      "kaynakCumle": "Achtung! Das dürfen Sie nicht tun.",
+      "sozlukEk": {
+        "das": "bunu, onu (işaret zamiri)"
+      }
     },
     {
       "id": "m7-d42-q06",
