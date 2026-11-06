@@ -1,0 +1,199 @@
+{
+  "soruSayisi": 25,
+  "gecmeNotu": 80,
+  "ekSorular": [
+    {
+      "id": "m5-s-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Lena, Herr Aydin'in mesleğini soruyor. Herr Aydin doktor olduğunu ve muayenehanesinin sekizden itibaren açık olduğunu söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Was sind Sie von Beruf?" },
+        { "kim": "Herr Aydin", "metin": "Ich bin Arzt. Die Praxis ist ___ acht Uhr geöffnet." }
+      ],
+      "secenekler": ["bis", "ab", "halb"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`bis` -e kadar demektir; Herr Aydin sekizden itibaren diyor.",
+        "",
+        "`halb` yarım demektir ve burada saatin önüne gelmez."
+      ],
+      "aciklama": "Başlangıç saati ab ile bildirilir: Die Praxis ist ab acht Uhr geöffnet.",
+      "ipucu": "Doktorun hangi saatten başladığını bildiren sözcüğü seç.",
+      "bicim": "diyalog",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Die Praxis ist ab acht Uhr geöffnet.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-s-q02",
+      "tip": "coktan-secmeli",
+      "soru": "Bekâr olmadığını söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Ich bin nicht ledig.",
+        "Ich bin kein ledig.",
+        "Ich habe nicht ledig.",
+        "Ich nicht bin ledig."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`kein` isimle gelir; `ledig` sıfattır, sıfatı `nicht` olumsuzlar.",
+        "Medeni durum `haben` ile değil `sein` ile söylenir.",
+        "Çekimli fiil ikinci sırada kalır; `nicht` fiilden sonra gelir."
+      ],
+      "aciklama": "sein ile nicht sıfatın önüne gelir: Ich bin nicht ledig.",
+      "ipucu": "Hem fiile hem de olumsuzluk sözcüğünün yerine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Er antwortet nicht.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-s-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Bugün saat 14'te hiç vaktin olmadığını söylüyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Ich habe heute um 14 Uhr ___ Zeit.",
+      "secenekler": ["kein", "keine", "nicht"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`kein` nötr isimle gelir; `die Zeit` dişildir.",
+        "",
+        "`nicht` artikelsiz isimle kullanılmaz; bu durumda `kein-` gelir."
+      ],
+      "aciklama": "Zeit dişildir ve artikelsizdir; olumsuzu keine olur: Ich habe heute keine Zeit.",
+      "ipucu": "Zeit sözcüğünün artikelini düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Es gibt keine Karten mehr.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-s-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Kendini tanıtırken kadın öğrenci ve evli olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Ich bin Student und verheiratet.",
+        "Ich bin Studentin und habe verheiratet.",
+        "Ich bin Studentin und verheiratet.",
+        "Ich habe Studentin und bin verheiratet."
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "Kadın için `Student` değil `Studentin` kullanılır.",
+        "Medeni durum `haben` ile değil `sein` ile söylenir.",
+        "",
+        "Meslek `haben` ile değil `sein` ile söylenir."
+      ],
+      "aciklama": "Kadın meslek adı -in alır ve her ikisi de sein ile söylenir: Ich bin Studentin und verheiratet.",
+      "ipucu": "Kadın biçimine ve fiile birlikte dikkat et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Bei „Familienstand“ musst du „ledig“ ankreuzen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-s-q05",
+      "tip": "dinleme",
+      "soru": "Bir arkadaşın kocasının nerede çalıştığını söylüyor. Duyduğun cümleyi seç.",
+      "okunacak": "Mein Mann arbeitet im Reisebüro.",
+      "mod": "sec",
+      "secenekler": [
+        "Kocam seyahat acentesinde çalışıyor.",
+        "Kocam polis teşkilatında çalışıyor.",
+        "Kocam bir firmada çalışıyor.",
+        "Kocam işsiz."
+      ],
+      "dogruCevaplar": ["Kocam seyahat acentesinde çalışıyor."],
+      "aciklama": "im Reisebüro seyahat acentesinde demektir: Mein Mann arbeitet im Reisebüro.",
+      "ipucu": "Cümlenin sonundaki yer ifadesine kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Mein Mann arbeitet im Reisebüro."
+    },
+    {
+      "id": "m5-s-q06",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Saati şöyle söylüyorsun:",
+      "ifade": "Es ist Viertel nach drei (2.15 Uhr).",
+      "dogru": false,
+      "aciklama": "Yanlış. Viertel nach drei 3.15'tir; 2.15 için Viertel nach zwei denir.",
+      "ipucu": "Çeyrek geçen saatin hangi sayıyla söylendiğine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Es ist Viertel nach zwei.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-s-q07",
+      "tip": "coktan-secmeli",
+      "soru": "Mert, Paul'un evde olmadığını ve saat yedide geleceğini söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Ist Paul zu Hause?" },
+        { "kim": "Mert", "metin": "Er ist ___ zu Hause. Er kommt um sieben Uhr." }
+      ],
+      "secenekler": ["nicht", "kein", "nein"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`kein` isimle gelir; `zu Hause` yer ifadesidir, onu `nicht` olumsuzlar.",
+        "`nein` cevabın başında hayır demektir, cümle içinde olumsuzluk yapmaz."
+      ],
+      "aciklama": "Yer ifadesi nicht ile olumsuzlanır: Paul ist nicht zu Hause.",
+      "ipucu": "Olumsuzlanan şey isim değil yer ifadesi.",
+      "bicim": "diyalog",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Der Bus fährt nicht weiter.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-s-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Muayenehanenin saat 4.30'a kadar açık olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Die Praxis ist bis halb vier geöffnet.",
+        "Die Praxis ist bis Viertel nach fünf geöffnet.",
+        "Die Praxis ist ab halb fünf geöffnet.",
+        "Die Praxis ist bis halb fünf geöffnet."
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`halb vier` 3.30'dur; 4.30 için `halb fünf` gelir.",
+        "`Viertel nach fünf` 5.15'tir.",
+        "`ab` -den itibaren demektir; burada 4.30'a kadar isteniyor.",
+        ""
+      ],
+      "aciklama": "Üst sınır bis ile, 4.30 ise halb fünf ile söylenir: Die Praxis ist bis halb fünf geöffnet.",
+      "ipucu": "Hem sınır sözcüğüne hem de yarımın hangi sayıyla söylendiğine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Die Praxis ist ab acht Uhr geöffnet.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-s-q09",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Saati şöyle söylüyorsun:",
+      "ifade": "Es ist halb vier (3.30 Uhr).",
+      "dogru": true,
+      "aciklama": "Doğru. halb bir sonraki saati söyler: halb vier = 3.30.",
+      "ipucu": "halb ile söylenen sayının hangi saati gösterdiğini hatırla.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Die Geschäfte schließen um 18.30 Uhr.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-s-q10",
+      "tip": "bosluk-doldurma",
+      "soru": "Hiç çocuğun olmadığını söylüyorsun. Boşluğa uygun sözcüğü yaz.",
+      "metin": "Ich habe ___ Kinder.",
+      "dogruCevaplar": ["keine"],
+      "aciklama": "Kinder çoğuldur; olumsuzu keine olur: Ich habe keine Kinder.",
+      "ipucu": "Çoğul isimlerde olumsuzluk eki hangisi?",
+      "bicim": "bosluk",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich habe leider keine Geschwister.",
+      "glossKapali": true
+    }
+  ]
+}

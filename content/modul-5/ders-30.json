@@ -1,0 +1,336 @@
+{
+  "id": "m5-d30",
+  "ders": 30,
+  "baslik": "Saatler",
+  "videoId": "bxUtK3XnrQ8",
+  "ozet": [
+    "Saati sormak için Wie spät ist es? denir (spät = geç). Cevap Es ist ... Uhr kalıbıyla verilir: Es ist vier Uhr. (die Uhr = saat; sayıdan sonra gelir.) Bir olayın saatini söylerken sayının önüne um gelir: Das Gespräch mit Frau Kunz ist um 14 Uhr. Er kommt um sieben Uhr. (das Gespräch = görüşme.)",
+    "Resmî saat (program, anons, tren) 24 saatlik sistemle söylenir: önce saat, sonra Uhr, sonra dakika. 13.17 Uhr = dreizehn Uhr siebzehn; 15.30 Uhr = fünfzehn Uhr dreißig. Das Spiel beginnt um 15.30 Uhr. (das Spiel = maç, beginnen = başlamak.) 13'ten sonraki bir saati günlük saate çevirmek için 12 çıkarılır: 15.30, öğleden sonra 3.30'dur.",
+    "Günlük konuşmada Viertel ve halb kullanılır. Viertel nach zwei = 2.15 (ikiyi çeyrek geçiyor); Viertel vor zwei = 1.45 (ikiye çeyrek var). (das Viertel = çeyrek, nach = geçe, vor = kala.) halb (yarım) ise bir sonraki saati söyler: halb drei = 2.30, yani üçe yarım saat var. Türkçedeki iki buçuk ile aynı saati verir, ama Almanca üç der; halb zwei 1.30'dur. Es ist halb drei (2.30 Uhr).",
+    "Aralık ve sınır: von ... bis ... Uhr = ...den ...e kadar; ab = ...den itibaren; bis = ...e kadar. Von 12.00 bis 12.30 Uhr haben wir Mittagspause. Die Praxis ist ab acht Uhr geöffnet. Der Laden ist samstags bis 16.00 Uhr geöffnet. (die Mittagspause = öğle arası, die Praxis = muayenehane, geöffnet = açık, der Laden = dükkân, samstags = cumartesi günleri.)"
+  ],
+  "kelimeler": [
+    { "de": "die Uhr", "tr": "saat", "artikel": "die" },
+    { "de": "das Viertel", "tr": "çeyrek", "artikel": "das" },
+    { "de": "halb", "tr": "yarım" },
+    { "de": "vor", "tr": "kala" },
+    { "de": "nach", "tr": "geçe" },
+    { "de": "ab", "tr": "-den itibaren" },
+    { "de": "bis", "tr": "-e kadar" },
+    { "de": "geöffnet", "tr": "açık" },
+    { "de": "die Praxis", "tr": "muayenehane", "artikel": "die" },
+    { "de": "die Mittagspause", "tr": "öğle arası", "artikel": "die" },
+    { "de": "das Gespräch", "tr": "görüşme", "artikel": "das" }
+  ],
+  "trickler": [
+    {
+      "baslik": "halb bir sonraki saati söyler",
+      "metin": "halb drei = 2.30 (3.30 değil). halb, içinde bulunduğun saati değil gelecek saati söyler: halb zwei = 1.30."
+    },
+    {
+      "baslik": "vor kala, nach geçe",
+      "metin": "Viertel vor zwei = 1.45 (ikiye çeyrek var). Viertel nach zwei = 2.15 (ikiyi çeyrek geçiyor)."
+    },
+    {
+      "baslik": "Resmî saatte 24 saat kullanılır",
+      "metin": "15.30 Uhr = fünfzehn Uhr dreißig. Günlük saate çevirmek için 12 çıkar: 15.30, öğleden sonra 3.30'dur."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m5-d30-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Saatin iki buçuk olduğunu söylüyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Es ist ___ drei (2.30 Uhr).",
+      "secenekler": ["Viertel", "halb", "vor", "nach"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`Viertel` çeyrek demektir; 2.30 yarımdır.",
+        "",
+        "`vor` kala demektir; yarım için `halb` gelir.",
+        "`nach` geçe demektir; yarım için `halb` gelir."
+      ],
+      "aciklama": "Yarım saat için halb kullanılır ve bir sonraki saat söylenir: Es ist halb drei (2.30 Uhr).",
+      "ipucu": "Yarım anlamına gelen sözcüğü düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Es ist halb drei (2.30 Uhr).",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d30-q02",
+      "tip": "coktan-secmeli",
+      "soru": "Saatin ikiye çeyrek olduğunu (1.45) söylüyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Es ist Viertel ___ zwei.",
+      "secenekler": ["vor", "nach", "halb", "von"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`nach` geçe demektir; 1.45'te ikiye çeyrek vardır.",
+        "`halb` yarım demektir ve `Viertel` ile birlikte kullanılmaz.",
+        "`von` saat söylerken çeyrek kalayı bildirmez."
+      ],
+      "aciklama": "Çeyrek kala vor ile söylenir: Es ist Viertel vor zwei.",
+      "ipucu": "Saate kalan süreyi bildiren sözcüğü seç.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Es ist Viertel vor zwei.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d30-q03",
+      "tip": "bosluk-doldurma",
+      "soru": "Frau Kunz ile görüşmenin saat 14'te olduğunu söylüyorsun. Boşluğa saatin önüne gelen sözcüğü yaz.",
+      "metin": "Das Gespräch mit Frau Kunz ist ___ 14 Uhr.",
+      "dogruCevaplar": ["um"],
+      "aciklama": "Belirli bir saatin önüne um gelir: Das Gespräch mit Frau Kunz ist um 14 Uhr.",
+      "ipucu": "Saatin önünde kullanılan kısa sözcüğü düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das Gespräch mit Frau Kunz ist um 14 Uhr.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d30-q04",
+      "tip": "bosluk-doldurma",
+      "soru": "Muayenehanenin sabah sekizden itibaren açık olduğunu söylüyorsun. Boşluğa uygun sözcüğü yaz.",
+      "metin": "Die Praxis ist ___ acht Uhr geöffnet.",
+      "dogruCevaplar": ["ab"],
+      "aciklama": "Başlangıç saati ab ile bildirilir: Die Praxis ist ab acht Uhr geöffnet.",
+      "ipucu": "Başlangıcı bildiren kısa sözcüğü düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Praxis ist ab acht Uhr geöffnet.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d30-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Lena maçın ne zaman başladığını soruyor. Mert öğleden sonra 3.30'u resmî saatle söylüyor. Boşluğa uygun saati seç.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Wann beginnt das Spiel?" },
+        { "kim": "Mert", "metin": "Das Spiel beginnt um ___ Uhr." }
+      ],
+      "secenekler": ["13.30", "15.03", "15.30", "5.30"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "13.30 öğleden sonra 1.30'dur.",
+        "15.03 üçü üç geçedir, buçuk değil.",
+        "",
+        "5.30 sabahın 5.30'udur; resmî saatle öğleden sonra 3.30, 15.30 olur."
+      ],
+      "aciklama": "Öğleden sonra 3.30 resmî saatte 15.30'dur: Das Spiel beginnt um 15.30 Uhr.",
+      "ipucu": "Öğleden sonraki saate 12 eklemeyi unutma.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das Spiel beginnt um 15.30 Uhr.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d30-q06",
+      "tip": "coktan-secmeli",
+      "soru": "Mert saati soruyor. Lena saatin tam dört olduğunu söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Mert", "metin": "Wie spät ist es?" },
+        { "kim": "Lena", "metin": "Es ist vier ___." }
+      ],
+      "secenekler": ["um", "Viertel", "halb", "Uhr"],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`um` saatin önünde gelir, sayıdan sonra durmaz.",
+        "`Viertel` çeyrek demektir; Lena tam saat söylüyor.",
+        "`halb` yarım demektir; Lena tam saat söylüyor.",
+        ""
+      ],
+      "aciklama": "Tam saatlerde sayıdan sonra Uhr gelir: Es ist vier Uhr.",
+      "ipucu": "Tam saatte sayıdan sonra gelen sözcüğü hatırla.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Es ist vier Uhr.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d30-q07",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: O saat yedide geliyor.",
+      "parcalar": ["um sieben Uhr", "er", "kommt"],
+      "dogruSiralar": [
+        ["er", "kommt", "um sieben Uhr"],
+        ["um sieben Uhr", "kommt", "er"]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; saat ifadesi başa geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Çekimli fiil iki dizilişte de aynı sırada durur.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Er kommt um sieben Uhr."
+    },
+    {
+      "id": "m5-d30-q08",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Maç saat 15.30'da başlıyor.",
+      "parcalar": ["um 15.30 Uhr", "das Spiel", "beginnt"],
+      "dogruSiralar": [
+        ["das Spiel", "beginnt", "um 15.30 Uhr"],
+        ["um 15.30 Uhr", "beginnt", "das Spiel"]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; saat başa geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Maçı ya da saati başa koyabilirsin; fiilin yerine dikkat et.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das Spiel beginnt um 15.30 Uhr."
+    },
+    {
+      "id": "m5-d30-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Saatin 2.15 olduğunu arkadaşına günlük konuşma diliyle söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Es ist Viertel vor zwei.",
+        "Es ist Viertel nach zwei.",
+        "Es ist halb zwei.",
+        "Es ist halb drei."
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`Viertel vor zwei` 1.45'tir; 2.15 için `nach` gelir.",
+        "",
+        "`halb zwei` 1.30'dur.",
+        "`halb drei` 2.30'dur."
+      ],
+      "aciklama": "İkiyi çeyrek geçe Viertel nach zwei olur: Es ist Viertel nach zwei.",
+      "ipucu": "Çeyrek geçiyorsa saati nasıl bağlayacağını düşün.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Es ist Viertel nach zwei.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d30-q10",
+      "tip": "coktan-secmeli",
+      "soru": "Dükkânın cumartesi günleri saat 16.00'ya kadar açık olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Der Laden ist samstags bis 16.00 Uhr geöffnet.",
+        "Der Laden ist samstags ab 16.00 Uhr geöffnet.",
+        "Der Laden ist samstags von 16.00 Uhr geöffnet."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`ab` -den itibaren demektir; burada 16.00'ya kadar isteniyor.",
+        "`von` başlangıcı bildirir; `kadar` için `bis` gerekir."
+      ],
+      "aciklama": "Üst sınır bis ile söylenir: Der Laden ist samstags bis 16.00 Uhr geöffnet.",
+      "ipucu": "Kapanış sınırını bildiren sözcüğü seç.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Der Laden ist samstags bis 16.00 Uhr geöffnet.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d30-q11",
+      "tip": "dinleme",
+      "soru": "Bir iş arkadaşın görüşmenin saatini söylüyor. Duyduğun cümleyi seç.",
+      "okunacak": "Das Gespräch mit Frau Kunz ist um 14 Uhr.",
+      "mod": "sec",
+      "secenekler": [
+        "Frau Kunz ile görüşme saat 14'te.",
+        "Frau Kunz ile görüşme saat 4'te.",
+        "Frau Kunz ile görüşme saat 12'de.",
+        "Frau Kunz ile görüşme saat 16'da."
+      ],
+      "dogruCevaplar": ["Frau Kunz ile görüşme saat 14'te."],
+      "aciklama": "um 14 Uhr saat 14'te demektir: Das Gespräch mit Frau Kunz ist um 14 Uhr.",
+      "ipucu": "Saatin önündeki sayıyı dikkatle dinle.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das Gespräch mit Frau Kunz ist um 14 Uhr."
+    },
+    {
+      "id": "m5-d30-q12",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Saati şöyle söylüyorsun:",
+      "ifade": "Es ist halb drei (3.30 Uhr).",
+      "dogru": false,
+      "aciklama": "Yanlış. halb drei 2.30'dur, 3.30 değil: Es ist halb drei (2.30 Uhr).",
+      "ipucu": "halb hangi saati söyler, ona bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Es ist halb drei (2.30 Uhr).",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d30-q13",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Resmî saati şöyle okuyorsun:",
+      "ifade": "13.17 Uhr = dreizehn Uhr siebzehn.",
+      "dogru": true,
+      "aciklama": "Doğru. Resmî saatte önce saat, sonra dakika okunur: 13.17 Uhr = dreizehn Uhr siebzehn.",
+      "ipucu": "Resmî saatte sayıların hangi sırayla okunduğuna bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "13.17 Uhr = dreizehn Uhr siebzehn.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d30-q14",
+      "tip": "coktan-secmeli",
+      "soru": "Anons saati 14.45 olarak veriyor. Günlük konuşma diliyle hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Es ist Viertel nach drei.",
+        "Es ist halb drei.",
+        "Es ist Viertel vor drei.",
+        "Es ist Viertel vor zwei."
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`Viertel nach drei` 3.15'tir.",
+        "`halb drei` 2.30'dur.",
+        "",
+        "`Viertel vor zwei` 1.45'tir; 14.45 öğleden sonra 2.45'tir."
+      ],
+      "aciklama": "14.45 günlük saatle 2.45'tir, yani üçe çeyrek var: Es ist Viertel vor drei.",
+      "ipucu": "Önce 24 saatlik saati günlük saate çevir.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Es ist Viertel vor zwei.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d30-q15",
+      "tip": "eslestirme",
+      "soru": "Almanca sözcükleri Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        { "sol": "die Praxis", "sag": "muayenehane" },
+        { "sol": "das Gespräch", "sag": "görüşme" },
+        { "sol": "das Viertel", "sag": "çeyrek" },
+        { "sol": "halb", "sag": "yarım" },
+        { "sol": "geöffnet", "sag": "açık" },
+        { "sol": "die Mittagspause", "sag": "öğle arası" }
+      ],
+      "aciklama": "Saat ve günlük program sözcükleri: Viertel çeyrek, halb yarım, Mittagspause öğle arasıdır.",
+      "ipucu": "Önce anlamını bildiğin sözcükleri eşleştir.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d30-q16",
+      "tip": "coktan-secmeli",
+      "soru": "Öğle arasının 12.00'den 12.30'a kadar olduğunu söylüyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Von 12.00 ___ 12.30 Uhr haben wir Mittagspause.",
+      "secenekler": ["ab", "um", "vor", "bis"],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`ab` -den itibaren demektir; aralığın sonunu bildirmez.",
+        "`um` tek bir saatin önünde gelir, aralıkta kullanılmaz.",
+        "`vor` kala demektir; aralığı bağlamaz.",
+        ""
+      ],
+      "aciklama": "Aralık von ... bis ... ile kurulur: Von 12.00 bis 12.30 Uhr haben wir Mittagspause.",
+      "ipucu": "von ile birlikte kullanılan eşini düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Von 12.00 bis 12.30 Uhr haben wir Mittagspause.",
+      "glossKapali": true
+    }
+  ]
+}
