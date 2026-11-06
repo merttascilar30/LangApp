@@ -1,0 +1,326 @@
+{
+  "id": "m4-d20",
+  "ders": 20,
+  "baslik": "Çoğul",
+  "videoId": "5dx-x8k35G0",
+  "ozet": [
+    "Almanca çoğulda artikel her zaman die olur; eril, dişil ve nötr ayrımı kalmaz: der Tisch, die Tische; das Kind, die Kinder; die Tasche, die Taschen. Özne çoğulsa fiil de çoğula uyar: ist yerine sind, hat yerine haben gelir. Örnek: Die Kinder spielen draußen. (draußen: dışarıda)",
+    "Çoğul biçimi tek bir ekle yapılmaz, ismin kendisine bağlıdır. -e alanlar: der Tisch, die Tische; der Kurs, die Kurse; ünlü değişerek: der Gast, die Gäste; der Sohn, die Söhne. -n veya -en alanlar: die Tasche, die Taschen; die Banane, die Bananen; der Mensch, die Menschen.",
+    "-er alanlar çoğu zaman ünlü değiştirir: das Kind, die Kinder; das Buch, die Bücher; das Glas, die Gläser. -s alanlar: das Sofa, die Sofas; das Hobby, die Hobbys. Bazı isimler değişmez: das Zimmer, die Zimmer; der Koffer, die Koffer. Sadece ünlüsü değişenler de vardır: die Tochter, die Töchter; die Mutter, die Mütter.",
+    "Sayı veya miktar bildiren sözcüklerden sonra isim çoğul olur: zwei Kurse, viele Kinder, mehrere Gäste, beide Eltern. Türkçede \"iki kitap\" denir, Almancada ise zwei Bücher gerekir. Bazı isimler yalnızca çoğul kullanılır: die Eltern (anne baba). Örnek: Gute Bücher sind oft sehr teuer."
+  ],
+  "kelimeler": [
+    { "de": "das Kind", "tr": "çocuk (çoğul: die Kinder)", "artikel": "das" },
+    { "de": "das Buch", "tr": "kitap (çoğul: die Bücher)", "artikel": "das" },
+    { "de": "der Tisch", "tr": "masa (çoğul: die Tische)", "artikel": "der" },
+    { "de": "der Kurs", "tr": "kurs (çoğul: die Kurse)", "artikel": "der" },
+    { "de": "der Gast", "tr": "misafir (çoğul: die Gäste)", "artikel": "der" },
+    { "de": "der Sohn", "tr": "oğul (çoğul: die Söhne)", "artikel": "der" },
+    { "de": "die Tochter", "tr": "kız evlat (çoğul: die Töchter)", "artikel": "die" },
+    { "de": "die Tasche", "tr": "çanta (çoğul: die Taschen)", "artikel": "die" },
+    { "de": "die Banane", "tr": "muz (çoğul: die Bananen)", "artikel": "die" },
+    { "de": "das Sofa", "tr": "kanepe (çoğul: die Sofas)", "artikel": "das" },
+    { "de": "das Glas", "tr": "bardak (çoğul: die Gläser)", "artikel": "das" },
+    { "de": "die Eltern", "tr": "anne baba (yalnızca çoğul)", "artikel": "die" }
+  ],
+  "trickler": [
+    {
+      "baslik": "Çoğulda artikel hep die",
+      "metin": "Çoğulda cinsiyet ayrımı kalmaz: der Tisch, die Tische; das Kind, die Kinder; die Tasche, die Taschen. Fiil de çoğula uyar: Die Tische sind neu."
+    },
+    {
+      "baslik": "Sayıdan sonra çoğul",
+      "metin": "Türkçede sayıdan sonra isim tekil kalır: iki kitap. Almancada isim çoğul olur: zwei Bücher, viele Kinder, mehrere Gäste."
+    },
+    {
+      "baslik": "Çoğulu isimle birlikte öğren",
+      "metin": "Çoğul eki isme göre değişir: -e (Tische), -n (Taschen), -er (Kinder), -s (Sofas), bazen de hiç değişmez (Zimmer). Ünlü de değişebilir: Gast, Gäste; Buch, Bücher."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m4-d20-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Kitapların genellikle çok pahalı olduğunu söylüyorsun. Boşluğa uygun çoğul biçimi seç.",
+      "metin": "Gute ___ sind oft sehr teuer.",
+      "secenekler": ["Buch", "Buchen", "Bücher"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`Buch` tekildir; `sind` çoğul özne ister.",
+        "`Buch` çoğulda `-en` almaz; ünlü değişip `-er` alır.",
+        ""
+      ],
+      "aciklama": "Das Buch çoğulda die Bücher olur; özne çoğul olduğu için fiil sind'dir: Gute Bücher sind oft sehr teuer.",
+      "ipucu": "Fiilin biçimine bakarak öznenin tekil mi çoğul mu olduğunu çıkar.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Gute Bücher sind oft sehr teuer.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d20-q02",
+      "tip": "bosluk-doldurma",
+      "soru": "Bardakların dolapta durduğunu söylüyorsun. Boşluğa bardak sözcüğünün çoğul biçimini yaz.",
+      "metin": "Die ___ stehen im Schrank.",
+      "dogruCevaplar": ["Gläser", "Glaeser"],
+      "aciklama": "Das Glas çoğulda die Gläser olur: Die Gläser stehen im Schrank.",
+      "ipucu": "Derste bardak için verilen çoğul örneğini hatırla.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Gläser stehen im Schrank.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d20-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Peter ve Helmut'un senin oğulların olduğunu söylüyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Peter und Helmut sind meine ___.",
+      "secenekler": ["Sohn", "Söhne", "Sohne"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`Sohn` tekildir; iki kişi ve `sind` çoğul ister.",
+        "",
+        "`Sohne` yazımında ünlü değişmemiştir; çoğulda `o` harfi `ö` olur."
+      ],
+      "aciklama": "Der Sohn çoğulda die Söhne olur: Peter und Helmut sind meine Söhne.",
+      "ipucu": "İki kişiden söz ediliyor; ismin ünlüsünü de kontrol et.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Peter und Helmut sind meine Söhne.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d20-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Frau Kern, Herr Huber'e kaç çocuğu olduğunu soruyor. Boşluğa uygun sözcüğü seç.",
+      "diyalog": [
+        { "kim": "Frau Kern", "metin": "Wie viele ___ haben Sie?" },
+        { "kim": "Herr Huber", "metin": "Ich habe drei." }
+      ],
+      "secenekler": ["Kinder", "Kind", "Kinden"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`Kind` tekildir; `viele` çoğul isim ister.",
+        "`Kind` çoğulda `-en` almaz; `-er` alır."
+      ],
+      "aciklama": "Viele sözcüğünden sonra isim çoğul olur; das Kind çoğulda die Kinder'dir: Wie viele Kinder haben Sie?",
+      "ipucu": "Soru kelimesindeki miktar sözcüğüne dikkat et.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wie viele Kinder haben Sie?",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d20-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Lena, Mert'in baba ve annesinin çalışıp çalışmadığını soruyor. Mert'in cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Arbeiten dein Vater und deine Mutter?" },
+        { "kim": "Mert", "metin": "Beide ___ arbeiten." }
+      ],
+      "secenekler": ["Mutter", "Kinder", "Eltern"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`Mutter` tekildir; `beide` ve `arbeiten` çoğul ister.",
+        "`Kinder` çocuklar demektir; Lena baba ve anneyi soruyor.",
+        ""
+      ],
+      "aciklama": "Eltern anne baba demektir ve yalnızca çoğul kullanılır: Beide Eltern arbeiten.",
+      "ipucu": "Baba ile anneyi birlikte anlatan çoğul bir sözcük gerekiyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Beide Eltern arbeiten.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d20-q06",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Hobilerim yürüyüş ve yüzmedir.",
+      "parcalar": ["meine Hobbys", "sind", "Wandern und Schwimmen"],
+      "dogruSiralar": [
+        ["meine Hobbys", "sind", "Wandern und Schwimmen"],
+        ["Wandern und Schwimmen", "sind", "meine Hobbys"]
+      ],
+      "aciklama": "Çekimli fiil sind ikinci sırada kalır; iki isim öbeği fiilin iki yanında yer değiştirebilir.",
+      "ipucu": "Önce çekimli fiilin yerini bul, kalan öbekleri iki yanına koy.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Meine Hobbys sind Wandern und Schwimmen."
+    },
+    {
+      "id": "m4-d20-q07",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Çocuklar dışarıda oynuyor.",
+      "parcalar": ["die Kinder", "spielen", "draußen"],
+      "dogruSiralar": [
+        ["die Kinder", "spielen", "draußen"],
+        ["draußen", "spielen", "die Kinder"]
+      ],
+      "aciklama": "Çoğul özneyle fiil spielen olur ve ikinci sırada kalır; yer bilgisi başa geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Yer bilgisini cümlenin başına alırsan özne fiilin arkasında kalır.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Kinder spielen draußen."
+    },
+    {
+      "id": "m4-d20-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Okulun iki kursu olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Die Schule hat zwei Kurs.",
+        "Die Schule hat zwei Kurse.",
+        "Die Schule hat zwei Kursen.",
+        "Die Schule haben zwei Kurse."
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`zwei` sayısından sonra isim çoğul olur; `Kurs` tekildir.",
+        "",
+        "`Kurs` çoğulda `-en` almaz; `-e` alır.",
+        "`die Schule` tekildir; fiil `hat` olur."
+      ],
+      "aciklama": "Sayıdan sonra isim çoğul olur ve der Kurs çoğulda die Kurse'dir; die Schule tekil olduğu için fiil hat'tır: Die Schule hat zwei Kurse.",
+      "ipucu": "Önce fiilin özneye uyup uymadığına, sonra Kurs sözcüğünün aldığı çoğul ekine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Welche Sprachen sprichst du?",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d20-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Çantaların odada olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Die Taschen sind im Zimmer.",
+        "Die Taschen ist im Zimmer.",
+        "Der Taschen sind im Zimmer.",
+        "Die Tasche sind im Zimmer."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`Taschen` çoğuldur; fiil `ist` değil `sind` olur.",
+        "Çoğulda artikel `der` değil `die` olur.",
+        "`Tasche` tekildir; `sind` çoğul özneyle gelir."
+      ],
+      "aciklama": "Çoğulda artikel die, fiil sind olur; die Tasche çoğulda die Taschen'dir: Die Taschen sind im Zimmer.",
+      "ipucu": "Artikel, isim ve fiil aynı sayıda, yani çoğulda olmalı.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Die Fotos liegen auf dem Tisch.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d20-q10",
+      "tip": "dinleme",
+      "soru": "Pazarda biri kaç muz istediğini söylüyor. Duyduğun cümleyi seç.",
+      "okunacak": "Drei Bananen, bitte!",
+      "mod": "sec",
+      "secenekler": [
+        "Üç muz, lütfen!",
+        "Bir muz, lütfen!",
+        "Üç domates, lütfen!",
+        "Üç bardak, lütfen!"
+      ],
+      "dogruCevaplar": ["Üç muz, lütfen!"],
+      "aciklama": "Drei üç, Bananen muzlar demektir: Drei Bananen, bitte!",
+      "ipucu": "Hem sayıya hem de meyvenin adına kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Drei Bananen, bitte!"
+    },
+    {
+      "id": "m4-d20-q11",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Hafta sonu birkaç misafirin olacağını şöyle söylüyorsun:",
+      "ifade": "Am Wochenende haben wir mehrere Gäste.",
+      "dogru": true,
+      "aciklama": "Doğru. Mehrere sözcüğünden sonra isim çoğul olur; der Gast çoğulda die Gäste'dir: Am Wochenende haben wir mehrere Gäste.",
+      "ipucu": "Miktar bildiren sözcükten sonra gelen ismin biçimine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Am Wochenende haben wir mehrere Gäste.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d20-q12",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Masaların yeni olduğunu şöyle söylüyorsun:",
+      "ifade": "Die Tische ist neu.",
+      "dogru": false,
+      "aciklama": "Yanlış. Die Tische çoğuldur, bu yüzden fiil sind olur: Die Tische sind neu.",
+      "ipucu": "Öznenin sayısı ile fiilin biçimi uyuşuyor mu, kontrol et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Die Kinder spielen draußen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d20-q13",
+      "tip": "coktan-secmeli",
+      "soru": "Odada iki kanepe olduğunu söylüyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Wir haben zwei ___ im Zimmer.",
+      "secenekler": ["Sofa", "Sofen", "Sofas"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`Sofa` tekildir; `zwei` sayısından sonra çoğul gerekir.",
+        "`Sofa` çoğulda `-en` almaz; `-s` alır.",
+        ""
+      ],
+      "aciklama": "Das Sofa çoğulda die Sofas olur ve sayıdan sonra isim çoğul gelir: Wir haben zwei Sofas im Zimmer.",
+      "ipucu": "Sayıdan sonra çoğul gerekir; derste kanepe için verilen çoğul örneğini hatırla.",
+      "bicim": "bosluk",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "In diesem Wörterbuch finden Sie mehr als 20.000 Wörter.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d20-q14",
+      "tip": "eslestirme",
+      "soru": "Tekil isimleri çoğul biçimleriyle eşleştir.",
+      "ciftler": [
+        { "sol": "das Kind", "sag": "die Kinder" },
+        { "sol": "das Buch", "sag": "die Bücher" },
+        { "sol": "der Tisch", "sag": "die Tische" },
+        { "sol": "die Tasche", "sag": "die Taschen" },
+        { "sol": "das Sofa", "sag": "die Sofas" }
+      ],
+      "aciklama": "Çoğul eki isme göre değişir: Kinder, Bücher, Tische, Taschen, Sofas.",
+      "ipucu": "Çoğul biçimlerde ünlü değişimi ve son ek farklı farklıdır.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d20-q15",
+      "tip": "artikel",
+      "soru": "Bu ismin artikelini seç.",
+      "isim": "Bücher",
+      "dogru": "die",
+      "aciklama": "Çoğulda artikel her zaman die'dir: die Bücher.",
+      "ipucu": "Çoğul isimlerde üç artikelin yerine tek bir artikel kullanılır.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m4-d20-q16",
+      "tip": "coktan-secmeli",
+      "soru": "Frau Kern'in iki kızı olduğunu söylüyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Frau Kern hat zwei ___.",
+      "secenekler": ["Tochter", "Töchter", "Tochtern"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`Tochter` tekildir; `zwei` sayısından sonra çoğul gerekir.",
+        "",
+        "`Tochter` çoğulda `-n` almaz; yalnızca ünlüsü değişir."
+      ],
+      "aciklama": "Die Tochter çoğulda die Töchter olur ve sayıdan sonra isim çoğul gelir: Frau Kern hat zwei Töchter.",
+      "ipucu": "Sayıdan sonra çoğul gerekir; derste kız evlat için verilen çoğul örneğini hatırla.",
+      "bicim": "bosluk",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich habe zwei Kinder. Einen Jungen und ein Mädchen.",
+      "glossKapali": true
+    }
+  ]
+}
