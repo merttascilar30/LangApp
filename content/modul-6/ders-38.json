@@ -1,0 +1,441 @@
+{
+ "id": "m6-d38",
+ "ders": 38,
+ "baslik": "Ihr / ihre",
+ "videoId": "u9sId2ZsDwo",
+ "ozet": [
+  "ihr ve Ihr dört ayrı iş görür; hangisi olduğunu ek, cümledeki yer ve harf büyüklüğü belirler. Önce iyelikler: küçük ihr + isim, sahip kadın (veya birden çok kişi) ise onun/onların demektir: ihre Schwester, ihr Mann. Cümle ortasında büyük Ihr + isim resmî sizin demektir: Ist das Ihr Koffer? (der Koffer = bavul.) Was ist Ihr Beruf? (der Beruf = meslek.) Ist Ihr Gepäck sehr schwer? (das Gepäck = bagaj, schwer = ağır.) Cümle başında her sözcük büyük harfle başlar; bu yüzden ihr ile Ihr ayrımını anlama bakarak yaparsın.",
+  "İyelik olan ihr/Ihr her zaman bir isimle birlikte durur ve ek alır: ihre, ihren, ihrem, ihrer (resmî: Ihre, Ihren, Ihrem, Ihrer). Ekler mein ile aynıdır: Akkusativ'de yalnız eril değişir, Dativ'de -em, -er, -en gelir. Frau Weber ruft ihren Sohn an. Sie lebt bei ihrer Schwester. (O, kız kardeşinin yanında yaşıyor.) Sie lebt bei ihren Eltern. (O, anne babasının yanında yaşıyor.) Sie leben bei Ihrer Schwester. (Siz kız kardeşinizin yanında yaşıyorsunuz.) Ich lebe bei meiner Schwester. (Ben kız kardeşimin yanında yaşıyorum.) Wie ist Ihre Postleitzahl? Hier fehlt noch Ihre Unterschrift. Ich habe Ihre E-Mail nicht bekommen.",
+  "Üçüncü ve dördüncü iş zamirdir. Zamir olan ihr isimsiz durur ve ek almaz. Fiil -t ile çekilmişse ihr özne olur ve sizler (birden çok arkadaşın) demektir: Spielt ihr gerne Fußball? (spielen = oynamak, gerne = severek, der Fußball = futbol.) Habt ihr heute Zeit? Dativ'de kadın için ihr ona demektir: Gib ihr bitte das Buch. (gib = ver, geben fiilinin emir biçimi; das Buch = kitap.) Ich schicke ihr eine E-Mail. (schicken = göndermek.) Erkek için aynı yerde ihm gelir.",
+  "Özet: ihre Schwester (onun, iyelik); Ihr Koffer (sizin, resmî); Spielt ihr? (sizler, özne); Gib ihr das Buch (ona, Dativ). Bir ihr/Ihr görünce önce arkasında isim olup olmadığına, sonra ek alıp almadığına, en son harf büyüklüğüne bak."
+ ],
+ "kelimeler": [
+  {
+   "de": "der Koffer",
+   "tr": "bavul",
+   "artikel": "der"
+  },
+  {
+   "de": "der Beruf",
+   "tr": "meslek",
+   "artikel": "der"
+  },
+  {
+   "de": "das Gepäck",
+   "tr": "bagaj",
+   "artikel": "das"
+  },
+  {
+   "de": "schwer",
+   "tr": "ağır"
+  },
+  {
+   "de": "spielen",
+   "tr": "oynamak"
+  },
+  {
+   "de": "gerne",
+   "tr": "severek, isteyerek"
+  },
+  {
+   "de": "der Fußball",
+   "tr": "futbol",
+   "artikel": "der"
+  },
+  {
+   "de": "das Buch",
+   "tr": "kitap",
+   "artikel": "das"
+  },
+  {
+   "de": "gib",
+   "tr": "ver (emir)"
+  },
+  {
+   "de": "schicke",
+   "tr": "gönderirim (schicken)"
+  },
+  {
+   "de": "ihm",
+   "tr": "ona (erkek, Dativ)"
+  }
+ ],
+ "trickler": [
+  {
+   "baslik": "Ek alıyorsa iyelik, almıyorsa zamir",
+   "metin": "ihre, ihren, ihrem, ihrer ek alır ve isimle gelir: ihre Schwester. Ek almayan ihr zamirdir: Spielt ihr gerne Fußball? Gib ihr bitte das Buch."
+  },
+  {
+   "baslik": "Büyük Ihr sizin, küçük ihr onun",
+   "metin": "Cümle ortasında büyük Ihr/Ihre resmî sizin demektir: Ihr Koffer. Küçük ihre sahibi kadın olan şeyi gösterir: ihre Schwester."
+  },
+  {
+   "baslik": "ihr: sizler mi, ona mı?",
+   "metin": "Fiil -t ile çekilmişse ihr özne ve sizler demektir: Habt ihr Zeit? Kadına verilen şeyde ihr ona demektir: Gib ihr das Buch. Erkek için ihm gelir."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "m6-d38-q01",
+   "tip": "coktan-secmeli",
+   "soru": "Havalimanında tanımadığın birine, yanındaki bavulun onun olup olmadığını resmî biçimde soruyorsun. Boşluğa uygun sözcüğü seç.",
+   "metin": "Ist das ___ Koffer?",
+   "secenekler": [
+    "Ihr",
+    "Ihre",
+    "Ihren",
+    "Ihrem"
+   ],
+   "dogru": 0,
+   "celdiriciNotlari": [
+    "",
+    "`Ihre` dişil ve çoğul isimlerle gelir; `der Koffer` erildir.",
+    "`Ihren` eril Akkusativ biçimidir; burada `der Koffer` Nominativ'dedir.",
+    "`Ihrem` Dativ biçimidir; cümlede Dativ gerektiren bir şey yok."
+   ],
+   "aciklama": "Koffer eril ve cümlede Nominativ'dedir; resmî sizin için Ihr gelir: Ist das Ihr Koffer?",
+   "ipucu": "Önce bavulun artikelini, sonra cümledeki görevini düşün.",
+   "bicim": "bosluk",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Ist das Ihr Koffer?",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d38-q02",
+   "tip": "bosluk-doldurma",
+   "soru": "Resmî bir formda tanımadığın birine mesleğini soruyorsun. Boşluğa uygun sözcüğü yaz.",
+   "metin": "Was ist ___ Beruf?",
+   "dogruCevaplar": [
+    "Ihr"
+   ],
+   "harfDuyarli": true,
+   "aciklama": "Beruf eril ve Nominativ'dedir; resmî sizin için cümle ortasında büyük Ihr gelir: Was ist Ihr Beruf?",
+   "ipucu": "Bu soruda harf büyüklüğü de cevabın parçasıdır.",
+   "bicim": "bosluk",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Was ist Ihr Beruf?"
+  },
+  {
+   "id": "m6-d38-q03",
+   "tip": "coktan-secmeli",
+   "soru": "Lena iki arkadaşına futbolu sevip sevmediklerini soruyor. Cümlesini tamamla.",
+   "diyalog": [
+    {
+     "kim": "Lena",
+     "metin": "Hallo Mert, hallo Peter!"
+    },
+    {
+     "kim": "Mert",
+     "metin": "Hallo Lena!"
+    },
+    {
+     "kim": "Lena",
+     "metin": "Spielt ___ gerne Fußball?"
+    }
+   ],
+   "secenekler": [
+    "euer",
+    "ihre",
+    "ihr",
+    "eure"
+   ],
+   "dogru": 2,
+   "celdiriciNotlari": [
+    "`euer` iyelik sözcüğüdür ve bir isim ister; burada isim yok.",
+    "`ihre` iyelik biçimidir ve bir isim ister; burada isim yok.",
+    "",
+    "`eure` iyelik biçimidir ve bir isim ister; burada isim yok."
+   ],
+   "aciklama": "Fiil -t ile çekilmiş ve soru iki arkadaşa yöneltiliyor; özne olan zamir ihr gelir: Spielt ihr gerne Fußball?",
+   "ipucu": "Lena'nın kimlere konuştuğuna ve fiilin sonundaki -t'ye bak.",
+   "bicim": "diyalog",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Spielt ihr gerne Fußball?",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d38-q04",
+   "tip": "bosluk-doldurma",
+   "soru": "Bir arkadaşına Lena'yı gösterip onun kız kardeşini tanıtıyorsun. Boşluğa uygun sözcüğü yaz.",
+   "metin": "Lena ist meine Freundin. Das ist ___ Schwester.",
+   "dogruCevaplar": [
+    "ihre"
+   ],
+   "harfDuyarli": true,
+   "aciklama": "Sahip kadındır ve Schwester dişildir (Nominativ); dişilde ihre gelir: Das ist ihre Schwester.",
+   "ipucu": "Sahibin kim olduğuna ve ismin hangi cinsten olduğuna bak.",
+   "bicim": "bosluk",
+   "kaynakTuru": "uyarlama",
+   "kaynakCumle": "Sie lebt bei ihrer Schwester."
+  },
+  {
+   "id": "m6-d38-q05",
+   "tip": "coktan-secmeli",
+   "soru": "Bay Müller, Bayan Weber'e resmî hitap ederek adresini soruyor. Cümlesini tamamla.",
+   "diyalog": [
+    {
+     "kim": "Frau Weber",
+     "metin": "Hallo, Herr Müller!"
+    },
+    {
+     "kim": "Herr Müller",
+     "metin": "Hallo, Frau Weber! Wie ist ___ Adresse?"
+    }
+   ],
+   "secenekler": [
+    "Ihr",
+    "Ihre",
+    "Ihren",
+    "Ihrem"
+   ],
+   "dogru": 1,
+   "celdiriciNotlari": [
+    "`Ihr` eril ve nötr isimlerle gelir; `die Adresse` dişildir.",
+    "",
+    "`Ihren` eril Akkusativ biçimidir; `die Adresse` dişildir.",
+    "`Ihrem` Dativ biçimidir; cümlede Dativ gerektiren bir şey yok."
+   ],
+   "aciklama": "Adresse dişildir ve Nominativ'dedir; resmî sizin için Ihre gelir: Wie ist Ihre Adresse?",
+   "ipucu": "Adresin artikelini kelime listesinden hatırla.",
+   "bicim": "diyalog",
+   "kaynakTuru": "uyarlama",
+   "kaynakCumle": "Können Sie mir Ihre Nummer geben?",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d38-q06",
+   "tip": "cumle-dizme",
+   "soru": "Kelimeleri doğru sıraya diz: Bagajınız çok ağır mı?",
+   "parcalar": [
+    "Ihr Gepäck",
+    "sehr schwer",
+    "ist"
+   ],
+   "dogruSiralar": [
+    [
+     "ist",
+     "Ihr Gepäck",
+     "sehr schwer"
+    ]
+   ],
+   "aciklama": "Evet-hayır sorusunda çekimli fiil başa gelir: Ist Ihr Gepäck sehr schwer?",
+   "ipucu": "Evet-hayır sorusunda çekimli fiilin yerini düşün.",
+   "bicim": "siralama",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Ist Ihr Gepäck sehr schwer?"
+  },
+  {
+   "id": "m6-d38-q07",
+   "tip": "cumle-dizme",
+   "soru": "Kelimeleri doğru sıraya diz: Posta kodunuz nedir?",
+   "parcalar": [
+    "Ihre Postleitzahl",
+    "wie",
+    "ist"
+   ],
+   "dogruSiralar": [
+    [
+     "wie",
+     "ist",
+     "Ihre Postleitzahl"
+    ]
+   ],
+   "aciklama": "Soru sözcüğü başta, çekimli fiil ikinci sırada durur: Wie ist Ihre Postleitzahl?",
+   "ipucu": "Soru cümlesinde soru sözcüğü ilk sırada olur.",
+   "bicim": "siralama",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Wie ist Ihre Postleitzahl?"
+  },
+  {
+   "id": "m6-d38-q08",
+   "tip": "coktan-secmeli",
+   "soru": "Yanındaki arkadaşına, orada duran Lena'ya (bir kız) kitabı vermesini söylüyorsun. Hangi cümleyi kurarsın?",
+   "secenekler": [
+    "Gib ihm bitte das Buch.",
+    "Gib ihre bitte das Buch.",
+    "Gib ihn bitte das Buch.",
+    "Gib ihr bitte das Buch."
+   ],
+   "dogru": 3,
+   "celdiriciNotlari": [
+    "`ihm` ona (erkek) demektir; Lena kadındır.",
+    "`ihre` iyelik sözcüğüdür ve isimle gelir; burada isimsiz zamir lazım.",
+    "`ihn` erkek ve Akkusativ içindir; kitabı alan kişi Dativ'de olmalı.",
+    ""
+   ],
+   "aciklama": "Kitabı alan kadın Dativ'dedir ve zamir olarak ek almaz: Gib ihr bitte das Buch.",
+   "ipucu": "Kitabı alacak kişinin cinsiyetine ve hâline bak.",
+   "bicim": "senaryo",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Gib ihr bitte das Buch.",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d38-q09",
+   "tip": "coktan-secmeli",
+   "soru": "Lena'ya (kız arkadaşın) bir e-posta göndereceğini söylüyorsun. Hangi cümleyi kurarsın?",
+   "secenekler": [
+    "Ich schicke ihr eine E-Mail.",
+    "Ich schicke Ihr eine E-Mail.",
+    "Ich schicke ihm eine E-Mail.",
+    "Ich schicke ihre eine E-Mail."
+   ],
+   "dogru": 0,
+   "celdiriciNotlari": [
+    "",
+    "Büyük `Ihr` resmî sizin demektir ve isimle gelir; burada ona anlamında zamir lazım.",
+    "`ihm` ona (erkek) demektir; Lena kadındır.",
+    "`ihre` iyelik sözcüğüdür ve isimle gelir; burada isimsiz zamir lazım."
+   ],
+   "aciklama": "Kadına giden e-posta Dativ'dedir ve zamir ihr ek almaz: Ich schicke ihr eine E-Mail.",
+   "ipucu": "E-postayı alacak kişinin kim olduğuna ve cümlede isimsiz kalmasına bak.",
+   "bicim": "senaryo",
+   "kaynakTuru": "uyarlama",
+   "kaynakCumle": "Gib ihr bitte das Buch.",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d38-q10",
+   "tip": "dinleme",
+   "soru": "Bir arkadaşın bir kadının nerede yaşadığını anlatıyor. Duyduğun cümleyi seç.",
+   "okunacak": "Sie lebt bei ihrer Schwester.",
+   "mod": "sec",
+   "secenekler": [
+    "O, kız kardeşinin yanında yaşıyor.",
+    "O, anne babasının yanında yaşıyor.",
+    "Siz kız kardeşinizin yanında yaşıyorsunuz.",
+    "Ben kız kardeşimin yanında yaşıyorum."
+   ],
+   "dogruCevaplar": [
+    "O, kız kardeşinin yanında yaşıyor."
+   ],
+   "aciklama": "lebt üçüncü tekil kişiyi gösterir; bei ihrer Schwester kız kardeşinin yanında demektir: Sie lebt bei ihrer Schwester.",
+   "ipucu": "Fiilin sonundaki ek ve yer bildiren kısım kimden söz edildiğini gösterir.",
+   "bicim": "senaryo",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Sie lebt bei ihrer Schwester."
+  },
+  {
+   "id": "m6-d38-q11",
+   "tip": "dogru-yanlis",
+   "soru": "Doğru mu, yanlış mı? Resmî konuştuğun kişiye imzasının eksik olduğunu şöyle söylüyorsun:",
+   "ifade": "Hier fehlt noch Ihre Unterschrift.",
+   "dogru": true,
+   "aciklama": "Doğru. Unterschrift dişildir ve resmî sizin için Ihre gelir: Hier fehlt noch Ihre Unterschrift.",
+   "ipucu": "Hitap şekline ve ismin cinsine birlikte bak.",
+   "bicim": "senaryo",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Hier fehlt noch Ihre Unterschrift.",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d38-q12",
+   "tip": "dogru-yanlis",
+   "soru": "Doğru mu, yanlış mı? Bayan Weber'in kocasının orada durduğunu, Bayan Weber'i tanıyan bir arkadaşına şöyle söylüyorsun:",
+   "ifade": "Frau Weber ist hier. Dort steht Ihr Mann.",
+   "dogru": false,
+   "aciklama": "Yanlış. Üçüncü kişi olan Bayan Weber'in kocası için küçük ihr gerekir; büyük Ihr sizin demektir: Dort steht ihr Mann.",
+   "ipucu": "İyelik sözcüğünün kime ait olduğuna ve harf büyüklüğüne bak.",
+   "bicim": "senaryo",
+   "kaynakTuru": "uyarlama",
+   "kaynakCumle": "Was tut Ihr Mann?",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d38-q13",
+   "tip": "coktan-secmeli",
+   "soru": "Bayan Weber'in oğlunu aradığını söylüyorsun. Boşluğa uygun sözcüğü seç.",
+   "metin": "Frau Weber ruft ___ Sohn an.",
+   "secenekler": [
+    "ihr",
+    "ihre",
+    "ihren",
+    "ihrem"
+   ],
+   "dogru": 2,
+   "celdiriciNotlari": [
+    "`ihr` eril Nominativ biçimidir; `anrufen` Akkusativ ister.",
+    "`ihre` dişil ve çoğul isimlerle gelir; `der Sohn` erildir.",
+    "",
+    "`ihrem` Dativ biçimidir; `anrufen` Akkusativ ister."
+   ],
+   "aciklama": "Sohn eril ve anrufen Akkusativ ister; eril Akkusativ'de ihren gelir: Frau Weber ruft ihren Sohn an.",
+   "ipucu": "Fiilin hangi hâli istediğini ve ismin cinsini birlikte düşün.",
+   "bicim": "bosluk",
+   "kaynakTuru": "uyarlama",
+   "kaynakCumle": "Peter ruft kurz seine Freundin an.",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d38-q14",
+   "tip": "coktan-secmeli",
+   "soru": "Hangi cümlede ihr, birden çok arkadaşına seslenen \"sizler\" anlamındaki özne zamiridir?",
+   "secenekler": [
+    "Sie lebt bei ihrer Schwester.",
+    "Habt ihr heute Zeit?",
+    "Frau Weber ruft ihren Sohn an.",
+    "Gib ihr bitte das Buch."
+   ],
+   "dogru": 1,
+   "celdiriciNotlari": [
+    "`ihrer` iyelik biçimidir ve `Schwester` isminden önce gelir.",
+    "",
+    "`ihren` iyelik biçimidir ve `Sohn` isminden önce gelir.",
+    "`ihr` burada ona demektir; kitabı alan kişiyi gösterir."
+   ],
+   "aciklama": "Habt ihr heute Zeit? cümlesinde ihr isimsizdir ve habt ile birlikte özne olarak sizler demektir.",
+   "ipucu": "Fiilin sonundaki -t ile eşleşen isimsiz ihr'i ara.",
+   "bicim": "senaryo",
+   "kaynakTuru": "uyarlama",
+   "kaynakCumle": "Spielt ihr gerne Fußball?",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d38-q15",
+   "tip": "eslestirme",
+   "soru": "Almanca sözcükleri Türkçe karşılıklarıyla eşleştir.",
+   "ciftler": [
+    {
+     "sol": "Koffer",
+     "sag": "bavul"
+    },
+    {
+     "sol": "Beruf",
+     "sag": "meslek"
+    },
+    {
+     "sol": "Gepäck",
+     "sag": "bagaj"
+    },
+    {
+     "sol": "schwer",
+     "sag": "ağır"
+    },
+    {
+     "sol": "Buch",
+     "sag": "kitap"
+    },
+    {
+     "sol": "Fußball",
+     "sag": "futbol"
+    }
+   ],
+   "aciklama": "Bu derste ihr/Ihr ile birlikte geçen sözcükler: Ihr Koffer, Ihr Beruf, Ihr Gepäck, das Buch.",
+   "ipucu": "Önce ders örneklerinde gördüğün sözcükleri eşleştir.",
+   "bicim": "kelime",
+   "kaynakTuru": "yazildi",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d38-q16",
+   "tip": "artikel",
+   "soru": "Bu ismin artikelini seç.",
+   "isim": "Fußball",
+   "dogru": "der",
+   "aciklama": "Fußball maskulindir: der Fußball. Belirsiz hâli ein Fußball, ismin yerine er kullanılır.",
+   "ipucu": "Futbol sözcüğünü kelime listesinde hangi artikelle bulacağına bak.",
+   "bicim": "kelime",
+   "kaynakTuru": "yazildi"
+  }
+ ]
+}
