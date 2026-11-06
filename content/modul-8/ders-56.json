@@ -1,0 +1,444 @@
+{
+  "id": "m8-d56",
+  "ders": 56,
+  "baslik": "Präteritum",
+  "videoId": "-9ChL8KZE2E",
+  "ozet": [
+    "Präteritum geçmişi anlatan bir zamandır. Günlük konuşmada en çok sein, haben ve modal fiillerde kullanılır. sein: ich war, du warst, er/sie/es war, wir waren, ihr wart, sie/Sie waren. Örnek: Gestern war ich krank. (gestern = dün, krank = hasta.) Wo waren Sie im Urlaub? (wo = nerede, der Urlaub = tatil.) Türkçedeki \"idim, idi\" yapısına benzer.",
+    "haben: ich hatte, du hattest, er/sie/es hatte, wir hatten, ihr hattet, sie/Sie hatten. ich ve er/sie/es için biçim aynıdır. Örnek: Wir hatten schlechtes Wetter. (das Wetter = hava, schlecht = kötü.)",
+    "Modal fiiller: können → konnte, müssen → musste, wollen → wollte. Ekler haben ile aynıdır: ich konnte, du konntest, er konnte, wir konnten, ihr konntet, sie konnten. Ä, ö, ü harfi düşer: müssen → musste. Ana fiil sonda mastar kalır: Gestern musste ich bis 18 Uhr arbeiten. (arbeiten = çalışmak.)",
+    "Çekimli fiil yine ikinci sırada kalır. Başa gestern ya da früher gelirse özne fiilin arkasına geçer: Früher waren wir oft zusammen im Kino. (früher = eskiden, oft = sık sık, zusammen = birlikte, das Kino = sinema.) Soru örnekleri: Wie war der Test? Der Test war einfach. (der Test = sınav, einfach = kolay.) Wann war der Termin? Der Termin war vor einer Stunde. (der Termin = randevu, die Stunde = saat.)"
+  ],
+  "kelimeler": [
+    {
+      "de": "war",
+      "tr": "idi, bulunuyordu (sein)"
+    },
+    {
+      "de": "hatte",
+      "tr": "vardı, sahipti (haben)"
+    },
+    {
+      "de": "konnte",
+      "tr": "yapabiliyordu (können)"
+    },
+    {
+      "de": "musste",
+      "tr": "zorundaydı (müssen)"
+    },
+    {
+      "de": "wollte",
+      "tr": "istiyordu (wollen)"
+    },
+    {
+      "de": "gestern",
+      "tr": "dün"
+    },
+    {
+      "de": "früher",
+      "tr": "eskiden"
+    },
+    {
+      "de": "krank",
+      "tr": "hasta"
+    },
+    {
+      "de": "einfach",
+      "tr": "kolay"
+    },
+    {
+      "de": "der Urlaub",
+      "tr": "tatil",
+      "artikel": "der"
+    },
+    {
+      "de": "das Wetter",
+      "tr": "hava",
+      "artikel": "das"
+    },
+    {
+      "de": "der Termin",
+      "tr": "randevu",
+      "artikel": "der"
+    }
+  ],
+  "trickler": [
+    {
+      "baslik": "ich ve er/sie/es aynı biçim",
+      "metin": "Präteritum'da ich ve er/sie/es aynı biçimi alır: ich war, er war; ich hatte, sie hatte; ich konnte, es konnte. du için -st gelir: du warst, du hattest, du konntest."
+    },
+    {
+      "baslik": "Modalde ä, ö, ü düşer",
+      "metin": "können → konnte, müssen → musste. Präteritum'da modal fiilin ä, ö, ü harfi kalmaz ve -te eki gelir. Ana fiil mastar olarak sonda durur: Ich musste arbeiten."
+    },
+    {
+      "baslik": "Yine ikinci sırada fiil",
+      "metin": "Cümle gestern ya da früher ile başlarsa özne fiilden sonra gelir: Gestern war ich krank. Früher waren wir oft zusammen im Kino."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m8-d56-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Tatilden dönen birine resmî konuşup nerede olduğunu soruyorsun. Boşluğa uygun fiili seç.",
+      "metin": "Wo ___ Sie im Urlaub?",
+      "secenekler": [
+        "war",
+        "waren",
+        "wart",
+        "warst"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`war` ich ve er/sie/es ile gelir; `Sie` ile kullanılmaz.",
+        "",
+        "`wart` ihr ile gelir; `Sie` ile kullanılmaz.",
+        "`warst` du ile gelir; `Sie` ile kullanılmaz."
+      ],
+      "aciklama": "Sie ile sein fiilinin Präteritum biçimi waren olur: Wo waren Sie im Urlaub?",
+      "ipucu": "Özneye bak: nazik hitap şekli hangi çekimi ister?",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wo waren Sie im Urlaub?",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d56-q02",
+      "tip": "bosluk-doldurma",
+      "soru": "Sınavın kolay olduğunu geçmişte söylüyorsun. Boşluğa sein fiilinin uygun biçimini yaz.",
+      "metin": "Der Test ___ einfach.",
+      "dogruCevaplar": [
+        "war"
+      ],
+      "aciklama": "Tekil özne der Test ile sein fiili war olur: Der Test war einfach.",
+      "ipucu": "Özne tekil ve üçüncü kişidir.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Der Test war einfach."
+    },
+    {
+      "id": "m8-d56-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Tatilde havanın kötü olduğunu anlatıyorsun. Boşluğa uygun fiili seç.",
+      "metin": "Wir ___ schlechtes Wetter.",
+      "secenekler": [
+        "hatten",
+        "hatte",
+        "hattet",
+        "hattest"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`hatte` ich ve er/sie/es ile gelir; `wir` ile kullanılmaz.",
+        "`hattet` ihr ile gelir; `wir` ile kullanılmaz.",
+        "`hattest` du ile gelir; `wir` ile kullanılmaz."
+      ],
+      "aciklama": "wir ile haben fiilinin Präteritum biçimi hatten olur: Wir hatten schlechtes Wetter.",
+      "ipucu": "Çoğul özneye hangi ek gelir?",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir hatten schlechtes Wetter.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d56-q04",
+      "tip": "bosluk-doldurma",
+      "soru": "Eskiden birlikte sık sık sinemaya gittiğinizi anlatıyorsun. Boşluğa sein fiilinin uygun biçimini yaz.",
+      "metin": "Früher ___ wir oft zusammen im Kino.",
+      "dogruCevaplar": [
+        "waren"
+      ],
+      "aciklama": "wir ile sein fiilinin Präteritum biçimi waren olur: Früher waren wir oft zusammen im Kino.",
+      "ipucu": "Özne wir; fiil ikinci sırada duruyor.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Früher waren wir oft zusammen im Kino."
+    },
+    {
+      "id": "m8-d56-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Lena sınavın nasıl geçtiğini soruyor. Mert sınavın kolay olduğunu söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Wie war der Test?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Der Test ___ einfach."
+        }
+      ],
+      "secenekler": [
+        "waren",
+        "hatte",
+        "war",
+        "wart"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`waren` çoğul özneyle gelir; `der Test` tekildir.",
+        "`hatte` haben fiilidir ve \"vardı\" demektir; burada \"idi\" gerekir.",
+        "",
+        "`wart` ihr ile gelir; `der Test` tekildir."
+      ],
+      "aciklama": "Tekil özne der Test ile sein fiili war olur: Der Test war einfach.",
+      "ipucu": "Soruda geçen fiilin cevaptaki biçimini düşün.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Der Test war einfach.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d56-q06",
+      "tip": "coktan-secmeli",
+      "soru": "Lena randevunun ne zaman olduğunu soruyor. Mert bir saat önce olduğunu söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Wann war der Termin?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Der Termin ___ vor einer Stunde."
+        }
+      ],
+      "secenekler": [
+        "waren",
+        "hatten",
+        "wart",
+        "war"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`waren` çoğul özneyle gelir; `der Termin` tekildir.",
+        "`hatten` haben fiilidir ve \"vardı\" demektir; burada \"idi\" gerekir.",
+        "`wart` ihr ile gelir; `der Termin` tekildir.",
+        ""
+      ],
+      "aciklama": "Tekil özne der Termin ile sein fiili war olur: Der Termin war vor einer Stunde.",
+      "ipucu": "Özne tekil; fiil Lena'nın sorusunda da geçiyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Der Termin war vor einer Stunde.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d56-q07",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Havamız kötüydü.",
+      "parcalar": [
+        "wir",
+        "hatten",
+        "schlechtes Wetter"
+      ],
+      "dogruSiralar": [
+        [
+          "wir",
+          "hatten",
+          "schlechtes Wetter"
+        ],
+        [
+          "schlechtes Wetter",
+          "hatten",
+          "wir"
+        ]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; başa schlechtes Wetter geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Hangi parçayla başlarsan başla, fiilin yeri değişmez.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir hatten schlechtes Wetter."
+    },
+    {
+      "id": "m8-d56-q08",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Randevu bir saat önceydi.",
+      "parcalar": [
+        "der Termin",
+        "war",
+        "vor einer Stunde"
+      ],
+      "dogruSiralar": [
+        [
+          "der Termin",
+          "war",
+          "vor einer Stunde"
+        ],
+        [
+          "vor einer Stunde",
+          "war",
+          "der Termin"
+        ]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; zaman ifadesi başa geçerse özne fiilin arkasına kayar.",
+      "ipucu": "İki parça başa geçebilir, ama fiil ortada kalır.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Der Termin war vor einer Stunde.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d56-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Dün hasta olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Gestern ich war krank.",
+        "Gestern war ich krank.",
+        "Gestern warst ich krank.",
+        "Gestern hatte ich krank."
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`Gestern` başta ise çekimli fiil hemen arkasından, ikinci sırada gelir.",
+        "",
+        "`warst` du ile gelir; `ich` ile `war` kullanılır.",
+        "`hatte` \"vardı\" demektir; hasta olmak için `war` gerekir."
+      ],
+      "aciklama": "Gestern ile başlayınca fiil ikinci sırada kalır ve ich ile war gelir: Gestern war ich krank.",
+      "ipucu": "Hem fiilin yerine hem de özneye uyan çekime bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Gestern war ich krank.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d56-q10",
+      "tip": "coktan-secmeli",
+      "soru": "Dün saat 18'e kadar çalışmak zorunda kaldığını söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Gestern ich musste bis 18 Uhr arbeiten.",
+        "Gestern muss ich bis 18 Uhr arbeiten.",
+        "Gestern musste ich bis 18 Uhr arbeiten.",
+        "Gestern musste bis 18 Uhr ich arbeiten."
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`Gestern` başta ise çekimli fiil hemen arkasından, ikinci sırada gelir.",
+        "`muss` şimdiki zamandır; dün için `musste` gerekir.",
+        "",
+        "Çekimli fiilden hemen sonra özne `ich` gelir; zaman ifadesi ondan sonra gelir."
+      ],
+      "aciklama": "Modal fiilin Präteritum biçimi musste olur, ana fiil mastar kalır: Gestern musste ich bis 18 Uhr arbeiten.",
+      "ipucu": "Hem modal fiilin zamanına hem sondaki fiilin biçimine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich muss jeden Tag von 8 Uhr bis 18 Uhr arbeiten.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d56-q11",
+      "tip": "dinleme",
+      "soru": "Bir arkadaşın eskiden neler yaptığınızı anlatıyor. Duyduğun cümleyi seç.",
+      "okunacak": "Früher waren wir oft zusammen im Kino.",
+      "mod": "sec",
+      "secenekler": [
+        "Eskiden sık sık birlikte sinemadaydık.",
+        "Şimdi sık sık birlikte sinemadayız.",
+        "Eskiden sık sık sinemaya yalnız gidiyordum.",
+        "Dün birlikte sinemadaydık."
+      ],
+      "dogruCevaplar": [
+        "Eskiden sık sık birlikte sinemadaydık."
+      ],
+      "aciklama": "Früher eskiden demektir, waren geçmişte olmayı anlatır: Früher waren wir oft zusammen im Kino.",
+      "ipucu": "Cümlenin başındaki zaman sözcüğüne ve fiile kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Früher waren wir oft zusammen im Kino."
+    },
+    {
+      "id": "m8-d56-q12",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Bir arkadaşına eskiden Almanca ve Rusça bildiğini söylüyorsun:",
+      "ifade": "Du konnte Deutsch und Russisch.",
+      "dogru": false,
+      "aciklama": "Yanlış. du ile Präteritum'da -st eki gelir: Du konntest Deutsch und Russisch.",
+      "ipucu": "Öznenin du olduğuna dikkat et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich kann Deutsch und Russisch."
+    },
+    {
+      "id": "m8-d56-q13",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Dün kahve içmek istediğini söylüyorsun:",
+      "ifade": "Gestern wollte ich einen Kaffee trinken.",
+      "dogru": true,
+      "aciklama": "Doğru. ich ile wollen fiilinin Präteritum biçimi wollte olur ve ana fiil sonda mastar kalır: Gestern wollte ich einen Kaffee trinken.",
+      "ipucu": "Modal fiilin biçimine ve ana fiilin yerine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Wollen Sie einen Kaffee trinken?"
+    },
+    {
+      "id": "m8-d56-q14",
+      "tip": "eslestirme",
+      "soru": "Almanca Präteritum biçimlerini Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        {
+          "sol": "war",
+          "sag": "idi"
+        },
+        {
+          "sol": "hatte",
+          "sag": "vardı"
+        },
+        {
+          "sol": "konnte",
+          "sag": "yapabiliyordu"
+        },
+        {
+          "sol": "musste",
+          "sag": "zorundaydı"
+        },
+        {
+          "sol": "wollte",
+          "sag": "istiyordu"
+        }
+      ],
+      "aciklama": "Bunlar sein, haben ve modal fiillerin ich biçimidir: war, hatte, konnte, musste, wollte.",
+      "ipucu": "Önce sein ve haben, sonra modal fiilleri ayır.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d56-q15",
+      "tip": "fiil-cekimi",
+      "soru": "\"sein\" fiilini Präteritum'da her zamire göre çek.",
+      "fiil": "sein",
+      "satirlar": [
+        {
+          "zamir": "ich",
+          "cevap": "war",
+          "verilen": true
+        },
+        {
+          "zamir": "du",
+          "cevap": "warst"
+        },
+        {
+          "zamir": "er/sie/es",
+          "cevap": "war"
+        },
+        {
+          "zamir": "wir",
+          "cevap": "waren"
+        },
+        {
+          "zamir": "ihr",
+          "cevap": "wart"
+        },
+        {
+          "zamir": "sie/Sie",
+          "cevap": "waren"
+        }
+      ],
+      "aciklama": "Kök war- olur; ek: -, -st, -, -en, -t, -en. ich ve er/sie/es aynıdır.",
+      "ipucu": "İlk satırdaki biçimden yola çık; ek yalnızca du, wir, ihr ve sie için eklenir.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    }
+  ]
+}
