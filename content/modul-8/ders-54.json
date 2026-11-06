@@ -1,0 +1,482 @@
+{
+  "id": "m8-d54",
+  "ders": 54,
+  "baslik": "gegen, ohne, um",
+  "videoId": "P8NugR_AP6M",
+  "ozet": [
+    "gegen, ohne ve um Akkusativ edatlarıdır: gegen \"-e karşı\", ohne \"-sız, -siz\", um \"etrafında\" ve saatle birlikte \"saat ...de\" demektir. Bu edatlardan sonra gelen isim Akkusativ'e girer, yani eril isimde der olur den; die, das ve çoğul die aynı kalır.",
+    "gegen karşıtlık ya da çarpma anlatır. Örnek: Fahr nicht gegen den Baum! (der Baum = ağaç.) Ich bin gegen diese Lösung. (die Lösung = çözüm.) Wer spielt gegen wen? (spielen = oynamak, wer = kim, wen = kimi; gegen'den sonra wer değil wen gelir.)",
+    "ohne eksikliği anlatır ve çoğunlukla artikelsiz gelir. Örnek: Ohne Geld kann er nichts kaufen. (das Geld = para, kaufen = satın almak, nichts = hiçbir şey.) Den Salat machen wir ohne Öl. (der Salat = salata, das Öl = yağ.) Da ist ein Brief für dich ohne Absender. (der Brief = mektup, der Absender = gönderen.) Ich trinke den Kaffee ohne Milch. (trinken = içmek, der Kaffee = kahve, die Milch = süt.)",
+    "um saatle \"saat ...de\" demektir: Die Bank schließt schon um vier Uhr. (schließen = kapanmak.) Das Spiel beginnt um 15.30 Uhr. (das Spiel = maç, beginnen = başlamak.) Bir şeyin çevresini de anlatır: Wir wandern um den Chiemsee. (wandern = yürüyüş yapmak, der Chiemsee = göl adı.) Die Schule ist gleich hier um die Ecke. (die Ecke = köşe: köşede, köşeyi dönünce.) Da kommt er gerade um die Ecke. (gerade = tam şimdi.)"
+  ],
+  "kelimeler": [
+    {
+      "de": "gegen",
+      "tr": "-e karşı"
+    },
+    {
+      "de": "ohne",
+      "tr": "-sız, -siz"
+    },
+    {
+      "de": "um",
+      "tr": "etrafında; saat ...de"
+    },
+    {
+      "de": "der Baum",
+      "tr": "ağaç",
+      "artikel": "der"
+    },
+    {
+      "de": "die Lösung",
+      "tr": "çözüm",
+      "artikel": "die"
+    },
+    {
+      "de": "das Geld",
+      "tr": "para",
+      "artikel": "das"
+    },
+    {
+      "de": "kaufen",
+      "tr": "satın almak"
+    },
+    {
+      "de": "das Öl",
+      "tr": "yağ",
+      "artikel": "das"
+    },
+    {
+      "de": "der Absender",
+      "tr": "gönderen",
+      "artikel": "der"
+    },
+    {
+      "de": "die Ecke",
+      "tr": "köşe",
+      "artikel": "die"
+    },
+    {
+      "de": "wandern",
+      "tr": "yürüyüş yapmak"
+    },
+    {
+      "de": "die Milch",
+      "tr": "süt",
+      "artikel": "die"
+    }
+  ],
+  "trickler": [
+    {
+      "baslik": "gegen, ohne, um Akkusativ ister",
+      "metin": "Bu üç edattan sonra eril isimde der olur den: gegen den Baum, um den Chiemsee. die, das ve çoğul die aynı kalır: um die Ecke."
+    },
+    {
+      "baslik": "um: saat ve etraf",
+      "metin": "um saatle \"saat ...de\" demektir: um vier Uhr. İsimle \"etrafında\" demektir: um den Chiemsee, um die Ecke."
+    },
+    {
+      "baslik": "ohne çoğunlukla artikelsiz",
+      "metin": "ohne \"-sız\" demektir: ohne Geld, ohne Öl, ohne Milch. Böyle kullanımda artikel değişimi aramazsın."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m8-d54-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Bir arkadaşına arabayla ağaca çarpmamasını söylüyorsun. Boşluğa uygun edatı seç.",
+      "metin": "Fahr nicht ___ den Baum!",
+      "secenekler": [
+        "ohne",
+        "gegen",
+        "für",
+        "mit"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`ohne` \"-sız\" demektir; çarpma anlamı vermez.",
+        "",
+        "`für` \"için\" demektir; çarpma anlamı vermez.",
+        "`mit` Dativ ister; `den Baum` ise Akkusativ biçimidir."
+      ],
+      "aciklama": "\"-e karşı, çarpmak\" gegen ile söylenir ve eril isim den alır: Fahr nicht gegen den Baum!",
+      "ipucu": "Arabanın ağaca doğru yönelip çarpmasını anlatan edatı düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Fahr nicht gegen den Baum!",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d54-q02",
+      "tip": "bosluk-doldurma",
+      "soru": "Bu çözüme karşı olduğunu söylüyorsun. Boşluğa edatı yaz.",
+      "metin": "Ich bin ___ diese Lösung.",
+      "dogruCevaplar": [
+        "gegen"
+      ],
+      "aciklama": "\"-e karşı\" gegen ile söylenir: Ich bin gegen diese Lösung.",
+      "ipucu": "Bir fikre karşı çıkmayı anlatan edatı yaz.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich bin gegen diese Lösung.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d54-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Lena, Mert'in ne zaman geleceğini soruyor. Mert saat 13'te geleceğini söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Wann kommst du?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Ich komme ___ 13 Uhr."
+        },
+        {
+          "kim": "Lena",
+          "metin": "Gut!"
+        }
+      ],
+      "secenekler": [
+        "um",
+        "ohne",
+        "durch",
+        "mit"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`ohne` \"-sız\" demektir; saat bildirmez.",
+        "`durch` bir yerin içinden geçmeyi anlatır; saat bildirmez.",
+        "`mit` Dativ ister ve saat bildirmez."
+      ],
+      "aciklama": "Saat bildirirken um kullanılır: Ich komme um 13 Uhr.",
+      "ipucu": "Saatin önüne gelen küçük edatı düşün.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich komme um 13 Uhr. – Gut!",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d54-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Bir arkadaşının parası olmadan hiçbir şey alamayacağını söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Gegen Geld kann er nichts kaufen.",
+        "Ohne Geld er kann nichts kaufen.",
+        "Ohne Geld kann er nichts kaufen.",
+        "Um Geld kann er nichts kaufen."
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`gegen` \"-e karşı\" demektir; \"parasız\" anlamı vermez.",
+        "Çekimli fiil ikinci sırada olmalı; burada `er` ikinci sırada kalmış.",
+        "",
+        "`um` \"etrafında, saat ...de\" demektir; \"parasız\" anlamı vermez."
+      ],
+      "aciklama": "\"-sız\" ohne ile söylenir ve çekimli fiil ikinci sırada kalır: Ohne Geld kann er nichts kaufen.",
+      "ipucu": "Hem eksikliği bildiren edata hem de fiilin cümledeki yerine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ohne Geld kann er nichts kaufen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d54-q05",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Bu çözüme karşıyım.",
+      "parcalar": [
+        "ich",
+        "bin",
+        "gegen diese Lösung"
+      ],
+      "dogruSiralar": [
+        [
+          "ich",
+          "bin",
+          "gegen diese Lösung"
+        ],
+        [
+          "gegen diese Lösung",
+          "bin",
+          "ich"
+        ]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; edatlı ifade başa geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Edatlı ifade ile özne yer değiştirebilir, ama fiilin yeri sabit kalır.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich bin gegen diese Lösung."
+    },
+    {
+      "id": "m8-d54-q06",
+      "tip": "dinleme",
+      "soru": "Biri, beklediğiniz arkadaşınızın nerede olduğunu söylüyor. Duyduğun cümleyi seç.",
+      "okunacak": "Da kommt er gerade um die Ecke.",
+      "mod": "sec",
+      "secenekler": [
+        "O köşede.",
+        "O burada.",
+        "O evde.",
+        "O orada."
+      ],
+      "dogruCevaplar": [
+        "O köşede."
+      ],
+      "aciklama": "um die Ecke köşede, köşeyi dönünce demektir: Da kommt er gerade um die Ecke.",
+      "ipucu": "Cümledeki edatla birlikte duyduğun isme kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Da kommt er gerade um die Ecke."
+    },
+    {
+      "id": "m8-d54-q07",
+      "tip": "coktan-secmeli",
+      "soru": "Salatayı yağsız yaptığınızı söylüyorsun. Boşluğa uygun edatı seç.",
+      "metin": "Den Salat machen wir ___ Öl.",
+      "secenekler": [
+        "um",
+        "ohne",
+        "gegen",
+        "für"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`um` \"etrafında, saat ...de\" demektir; \"yağsız\" anlamı vermez.",
+        "",
+        "`gegen` \"-e karşı\" demektir; \"yağsız\" anlamı vermez.",
+        "`für` \"için\" demektir; \"yağsız\" anlamı vermez."
+      ],
+      "aciklama": "\"-sız\" ohne ile söylenir ve burada artikelsiz gelir: Den Salat machen wir ohne Öl.",
+      "ipucu": "Yağın eksik olduğunu anlatan edatı seç.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Den Salat machen wir ohne Öl.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d54-q08",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Bir arkadaşını şöyle uyarıyorsun:",
+      "ifade": "Fahr nicht gegen dem Baum!",
+      "dogru": false,
+      "aciklama": "Yanlış. gegen Akkusativ ister ve eril isim den alır: Fahr nicht gegen den Baum!",
+      "ipucu": "Edattan sonra gelen artikelin hâline bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Fahr nicht gegen den Baum!",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d54-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Lena okulun nerede olduğunu soruyor. Mert okulun hemen köşede olduğunu söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Wo ist die Schule?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Die Schule ist gleich hier ___ die Ecke."
+        }
+      ],
+      "secenekler": [
+        "gegen",
+        "ohne",
+        "durch",
+        "um"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`gegen` \"-e karşı\" demektir; konum bildirmez.",
+        "`ohne` \"-sız\" demektir; konum bildirmez.",
+        "`durch` bir yerin içinden geçmeyi anlatır; köşe için kalıp `um die Ecke` olur.",
+        ""
+      ],
+      "aciklama": "Köşede, köşeyi dönünce um die Ecke ile söylenir: Die Schule ist gleich hier um die Ecke.",
+      "ipucu": "Köşenin çevresini anlatan edatı düşün.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Schule ist gleich hier um die Ecke.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d54-q10",
+      "tip": "coktan-secmeli",
+      "soru": "Bankanın saat dörtte kapandığını söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Die Bank schließt schon um vier Uhr.",
+        "Die Bank schließt schon ohne vier Uhr.",
+        "Die Bank um schließt schon vier Uhr.",
+        "Die Bank schließt schon durch vier Uhr."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`ohne` \"-sız\" demektir; saat bildirmez.",
+        "`um` saatin hemen önünde durur: `um vier Uhr`.",
+        "`durch` bir yerin içinden geçmeyi anlatır; saat bildirmez."
+      ],
+      "aciklama": "Saat bildirirken um saatin önüne gelir: Die Bank schließt schon um vier Uhr.",
+      "ipucu": "Edatın hem anlamına hem de saatle yan yana durmasına bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Bank schließt schon um vier Uhr.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d54-q11",
+      "tip": "bosluk-doldurma",
+      "soru": "Gönderen adı yazmayan bir mektubun senin için geldiğini söylüyorsun. Boşluğa edatı yaz.",
+      "metin": "Da ist ein Brief für dich ___ Absender.",
+      "dogruCevaplar": [
+        "ohne"
+      ],
+      "aciklama": "\"-sız\" ohne ile söylenir: Da ist ein Brief für dich ohne Absender.",
+      "ipucu": "Göndereni eksik olan mektubu anlatan edatı yaz.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Da ist ein Brief für dich ohne Absender.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d54-q12",
+      "tip": "coktan-secmeli",
+      "soru": "Maçta kimin kime karşı oynadığını soruyorsun. Boşluğa uygun soru sözcüğünü seç.",
+      "metin": "Wer spielt gegen ___?",
+      "secenekler": [
+        "wer",
+        "wen",
+        "wie",
+        "wo"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`wer` Nominativ'dir; `gegen`'den sonra Akkusativ gelir.",
+        "",
+        "`wie` \"nasıl\" demektir; \"kime karşı\" sorusu kurmaz.",
+        "`wo` \"nerede\" demektir; \"kime karşı\" sorusu kurmaz."
+      ],
+      "aciklama": "gegen Akkusativ ister; wer'in Akkusativ'i wen olur: Wer spielt gegen wen?",
+      "ipucu": "Edattan sonra gelen soru sözcüğünün hâline bak.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wer spielt gegen wen?",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d54-q13",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Chiemsee gölünün etrafında yürüyüş yapıyoruz.",
+      "parcalar": [
+        "wir",
+        "wandern",
+        "um den Chiemsee"
+      ],
+      "dogruSiralar": [
+        [
+          "wir",
+          "wandern",
+          "um den Chiemsee"
+        ],
+        [
+          "um den Chiemsee",
+          "wandern",
+          "wir"
+        ]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; edatlı ifade başa geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Özne ile edatlı ifade yer değiştirebilir, ama fiilin yeri sabit kalır.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir wandern um den Chiemsee."
+    },
+    {
+      "id": "m8-d54-q14",
+      "tip": "coktan-secmeli",
+      "soru": "Kahveni sütsüz içtiğini söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Ich trinke den Kaffee um Milch.",
+        "Ich den Kaffee trinke ohne Milch.",
+        "Ich trinke den Kaffee ohne Milch.",
+        "Ich trinke den Kaffee gegen Milch."
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`um` \"etrafında, saat ...de\" demektir; \"sütsüz\" anlamı vermez.",
+        "Çekimli fiil ikinci sırada olmalı; burada `trinke` dördüncü sırada kalmış.",
+        "",
+        "`gegen` \"-e karşı\" demektir; \"sütsüz\" anlamı vermez."
+      ],
+      "aciklama": "\"-sız\" ohne ile söylenir ve fiil ikinci sırada kalır: Ich trinke den Kaffee ohne Milch.",
+      "ipucu": "Hem eksikliği bildiren edata hem de fiilin yerine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d54-q15",
+      "tip": "coktan-secmeli",
+      "soru": "Maçın tam saat 15.30'da başladığını söylüyorsun. Boşluğa uygun edatı seç.",
+      "metin": "Das Spiel beginnt ___ 15.30 Uhr.",
+      "secenekler": [
+        "ohne",
+        "durch",
+        "für",
+        "um"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`ohne` \"-sız\" demektir; saat bildirmez.",
+        "`durch` bir yerin içinden geçmeyi anlatır; saat bildirmez.",
+        "`für` \"için\" demektir; başlama saatini bildirmez.",
+        ""
+      ],
+      "aciklama": "Saat bildirirken um kullanılır: Das Spiel beginnt um 15.30 Uhr.",
+      "ipucu": "Başlama saatinin önünde duran edatı düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das Spiel beginnt um 15.30 Uhr.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d54-q16",
+      "tip": "eslestirme",
+      "soru": "Almanca sözcükleri Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        {
+          "sol": "gegen",
+          "sag": "-e karşı"
+        },
+        {
+          "sol": "ohne",
+          "sag": "-sız"
+        },
+        {
+          "sol": "der Baum",
+          "sag": "ağaç"
+        },
+        {
+          "sol": "das Geld",
+          "sag": "para"
+        },
+        {
+          "sol": "die Ecke",
+          "sag": "köşe"
+        },
+        {
+          "sol": "die Milch",
+          "sag": "süt"
+        }
+      ],
+      "aciklama": "gegen karşıtlık, ohne eksiklik anlatır; ikisi de Akkusativ ister.",
+      "ipucu": "Önce edatları, sonra isimleri kendi içinde ayır.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    }
+  ]
+}
