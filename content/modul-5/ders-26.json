@@ -1,0 +1,475 @@
+{
+  "id": "m5-d26",
+  "ders": 26,
+  "baslik": "Meslekler",
+  "videoId": "bravFUDk5vI",
+  "ozet": [
+    "Mesleği sormak için iki kalıp vardır: Was ist Ihr Beruf? ve Was sind Sie von Beruf? (der Beruf = meslek). Çalışma ile ilgili sözcükler: die Arbeit (iş), arbeitslos (işsiz), der Arbeitsplatz (iş yeri), die Firma (firma). Örnek: Mein Bruder sucht Arbeit. (der Bruder = erkek kardeş, suchen = aramak; Erkek kardeşim iş arıyor.)",
+    "Meslek söylenirken artikel kullanılmaz: Ich bin Lehrer. Mein Vater ist Arzt. Mein Vater ist Arbeiter. Türkçedeki \"babam doktor\" kuruluşuna benzer. Meslek adları isimdir ve büyük harfle yazılır: der Arzt (doktor), der Lehrer (öğretmen), der Arbeiter (işçi), der Student (üniversite öğrencisi).",
+    "Kadın meslek adı çoğu zaman -in ile kurulur ve artikel die olur: der Lehrer, die Lehrerin; der Student, die Studentin. Örnek: Ich bin Studentin. Das ist unsere Lehrerin.",
+    "Nerede çalışıldığı hazır kalıplarla söylenir: Mein Mann arbeitet im Reisebüro. Er arbeitet bei der Polizei. Er arbeitet bei einer Firma. Wo arbeiten Sie? diye sorulur."
+  ],
+  "kelimeler": [
+    {
+      "de": "der Beruf",
+      "tr": "meslek",
+      "artikel": "der"
+    },
+    {
+      "de": "die Arbeit",
+      "tr": "iş, çalışma",
+      "artikel": "die"
+    },
+    {
+      "de": "der Arbeitsplatz",
+      "tr": "iş yeri",
+      "artikel": "der"
+    },
+    {
+      "de": "arbeitslos",
+      "tr": "işsiz"
+    },
+    {
+      "de": "die Firma",
+      "tr": "firma",
+      "artikel": "die"
+    },
+    {
+      "de": "der Arzt",
+      "tr": "doktor (erkek)",
+      "artikel": "der"
+    },
+    {
+      "de": "der Lehrer",
+      "tr": "öğretmen (erkek)",
+      "artikel": "der"
+    },
+    {
+      "de": "die Lehrerin",
+      "tr": "öğretmen (kadın)",
+      "artikel": "die"
+    },
+    {
+      "de": "der Student",
+      "tr": "üniversite öğrencisi (erkek)",
+      "artikel": "der"
+    },
+    {
+      "de": "die Studentin",
+      "tr": "üniversite öğrencisi (kadın)",
+      "artikel": "die"
+    },
+    {
+      "de": "der Arbeiter",
+      "tr": "işçi",
+      "artikel": "der"
+    },
+    {
+      "de": "die Polizei",
+      "tr": "polis",
+      "artikel": "die"
+    },
+    {
+      "de": "das Reisebüro",
+      "tr": "seyahat acentesi",
+      "artikel": "das"
+    }
+  ],
+  "trickler": [
+    {
+      "baslik": "Meslekte artikel yok",
+      "metin": "Mesleği söylerken ein veya der koymazsın: Ich bin Lehrer. Mein Vater ist Arzt. Tıpkı Türkçede \"ben öğretmenim\" demek gibi."
+    },
+    {
+      "baslik": "Kadın mesleği için -in",
+      "metin": "Erkek meslek adının sonuna -in eklenince kadın meslek adı olur: Lehrer, Lehrerin; Student, Studentin. Artikel de der yerine die olur."
+    },
+    {
+      "baslik": "Çalışılan yer: im ve bei der",
+      "metin": "Kalıp olarak öğren: im Reisebüro (seyahat acentesinde), bei der Polizei (polis teşkilatında), bei einer Firma (bir firmada)."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m5-d26-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Karşındaki kişiye mesleğini soruyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Was ist Ihr ___?",
+      "secenekler": [
+        "Arbeitsplatz",
+        "Firma",
+        "Beruf",
+        "Lehrer"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`Arbeitsplatz` iş yeri demektir; sorulan şey meslek.",
+        "`Firma` firma demektir; sorulan şey meslek.",
+        "",
+        "`Lehrer` belirli bir mesleğin adıdır; mesleği genel olarak sormak için başka sözcük gerekir."
+      ],
+      "aciklama": "Meslek Beruf'tur: Was ist Ihr Beruf?",
+      "ipucu": "Soruda aranan sözcük meslek anlamına geliyor.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Was ist Ihr Beruf?",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d26-q02",
+      "tip": "bosluk-doldurma",
+      "soru": "Babanın doktor olduğunu söylüyorsun. Boşluğa mesleği yaz.",
+      "metin": "Mein Vater ist ___.",
+      "dogruCevaplar": [
+        "Arzt"
+      ],
+      "aciklama": "Doktor Arzt'tır; meslek söylenirken artikel kullanılmaz: Mein Vater ist Arzt.",
+      "ipucu": "Meslek adı büyük harfle başlar ve önünde artikel yoktur.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Mein Vater ist Arzt.",
+      "harfDuyarli": true
+    },
+    {
+      "id": "m5-d26-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Babanın işçi olduğunu söylüyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Mein Vater ist ___.",
+      "secenekler": [
+        "Arbeiter",
+        "Arbeit",
+        "arbeitslos",
+        "Arbeitsplatz"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`Arbeit` iş demektir; babanın mesleği söylenmiyor.",
+        "`arbeitslos` işsiz demektir; sorudaki baba işçi.",
+        "`Arbeitsplatz` iş yeri demektir; bir meslek adı değil."
+      ],
+      "aciklama": "İşçi Arbeiter'dır: Mein Vater ist Arbeiter.",
+      "ipucu": "Bir kişiyi tanımlayan, meslek bildiren sözcüğü seç.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Mein Vater ist Arbeiter.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d26-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Lena, Anna'nın kocasının nerede çalıştığını soruyor. Anna kocasının seyahat acentesinde çalıştığını söylüyor.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Wo arbeitet Ihr Mann?"
+        },
+        {
+          "kim": "Anna",
+          "metin": "Mein Mann arbeitet im ___."
+        }
+      ],
+      "secenekler": [
+        "Polizei",
+        "Reisebüro",
+        "Arzt",
+        "Lehrer"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`Polizei` ile `im` değil, `bei der` kalıbı kullanılır; ayrıca sorudaki yer seyahat acentesi.",
+        "",
+        "`Arzt` doktor demektir; sorudaki yer seyahat acentesi.",
+        "`Lehrer` öğretmen demektir; sorudaki yer seyahat acentesi."
+      ],
+      "aciklama": "Seyahat acentesi Reisebüro'dur ve im ile kullanılır: Mein Mann arbeitet im Reisebüro.",
+      "ipucu": "Anna'nın kocasının çalıştığı yeri düşün.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Mein Mann arbeitet im Reisebüro.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d26-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Frau Berger, Anna'ya mesleğini soruyor. Anna üniversite öğrencisi bir kadın ve bunu söylüyor.",
+      "diyalog": [
+        {
+          "kim": "Frau Berger",
+          "metin": "Was sind Sie von Beruf?"
+        },
+        {
+          "kim": "Anna",
+          "metin": "Ich bin ___."
+        }
+      ],
+      "secenekler": [
+        "Lehrer",
+        "Student",
+        "Arzt",
+        "Studentin"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`Lehrer` öğretmen demektir; Anna öğrenci.",
+        "`Student` erkek öğrenci içindir; Anna kadın.",
+        "`Arzt` doktor demektir; Anna öğrenci.",
+        ""
+      ],
+      "aciklama": "Kadın öğrenci Studentin'dir ve meslek artikelsiz söylenir: Ich bin Studentin.",
+      "ipucu": "Konuşan kişinin cinsiyeti sözcüğün sonunu belirler.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich bin Studentin.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d26-q06",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Erkek kardeşim iş arıyor.",
+      "parcalar": [
+        "Arbeit",
+        "mein Bruder",
+        "sucht"
+      ],
+      "dogruSiralar": [
+        [
+          "mein Bruder",
+          "sucht",
+          "Arbeit"
+        ],
+        [
+          "Arbeit",
+          "sucht",
+          "mein Bruder"
+        ]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; Arbeit burada artikelsiz kullanılır: Mein Bruder sucht Arbeit.",
+      "ipucu": "Çekimli fiil iki seçenekte de aynı sırada durur.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Mein Bruder sucht Arbeit.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d26-q07",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: O, polis teşkilatında çalışıyor.",
+      "parcalar": [
+        "bei der Polizei",
+        "er",
+        "arbeitet"
+      ],
+      "dogruSiralar": [
+        [
+          "er",
+          "arbeitet",
+          "bei der Polizei"
+        ],
+        [
+          "bei der Polizei",
+          "arbeitet",
+          "er"
+        ]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; yer ifadesi başa geçerse özne fiilin arkasına kayar: Er arbeitet bei der Polizei.",
+      "ipucu": "Çalışılan yer ifadesi başta ya da sonda olabilir, fiil ise ikinci sırada kalır.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Er arbeitet bei der Polizei.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d26-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Bir erkek olarak kendini tanıtıyorsun ve mesleğinin öğretmenlik olduğunu yalın biçimde söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Ich bin der Lehrer.",
+        "Ich bin Lehrerin.",
+        "Ich bin Lehrer.",
+        "Ich Lehrer bin."
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "Meslek yalın söylenirken `der` gibi artikel kullanılmaz.",
+        "`Lehrerin` kadın öğretmen içindir; konuşan erkek.",
+        "",
+        "Çekimli fiil `bin` ikinci sırada durur."
+      ],
+      "aciklama": "Meslek artikelsiz söylenir ve erkek için Lehrer kullanılır: Ich bin Lehrer.",
+      "ipucu": "Meslek adının önünde artikel olmayan, cinsiyete uyan cümleyi ara.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich bin Studentin.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d26-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Kocanın polis teşkilatında çalıştığını söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Mein Mann arbeitet bei der Polizei.",
+        "Mein Mann arbeitet in Polizei.",
+        "Mein Mann arbeitet im Polizei.",
+        "Mein Mann arbeiten bei der Polizei."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`Polizei` ile `in` değil, hazır kalıp olan `bei der` gelir.",
+        "`im` seyahat acentesi gibi yerlerle gelir; `Polizei` ile `bei der` kullanılır.",
+        "`Mein Mann` tekil üçüncü kişidir; fiil `arbeitet` olur."
+      ],
+      "aciklama": "Polis teşkilatında çalışmak bei der Polizei ile söylenir: Mein Mann arbeitet bei der Polizei.",
+      "ipucu": "Hem çalışılan yerin önündeki kalıba hem de fiil ekine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Mein Mann arbeitet bei der Polizei.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d26-q10",
+      "tip": "dinleme",
+      "soru": "Bir arkadaşın erkek kardeşinin durumunu anlatıyor. Duyduğun cümleyi seç.",
+      "okunacak": "Mein Bruder sucht Arbeit.",
+      "mod": "sec",
+      "secenekler": [
+        "Erkek kardeşim iş arıyor.",
+        "Erkek kardeşim doktor.",
+        "Erkek kardeşim polis.",
+        "Kız kardeşim iş arıyor."
+      ],
+      "dogruCevaplar": [
+        "Erkek kardeşim iş arıyor."
+      ],
+      "aciklama": "Bruder erkek kardeş, sucht Arbeit iş arıyor demektir: Mein Bruder sucht Arbeit.",
+      "ipucu": "Cümlenin öznesine ve sondaki sözcüğe kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Mein Bruder sucht Arbeit."
+    },
+    {
+      "id": "m5-d26-q11",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Kocanın seyahat acentesinde çalıştığını söylüyorsun:",
+      "ifade": "Mein Mann arbeitet im Reisebüro.",
+      "dogru": true,
+      "aciklama": "Doğru. Seyahat acentesi ile im kullanılır: Mein Mann arbeitet im Reisebüro.",
+      "ipucu": "Çalışılan yerin önündeki kısa sözcüğe bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Mein Mann arbeitet im Reisebüro.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d26-q12",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Annenin öğretmen olduğunu söylüyorsun:",
+      "ifade": "Meine Mutter ist Lehrer.",
+      "dogru": false,
+      "aciklama": "Yanlış. Kadın meslek adı -in ile kurulur: Meine Mutter ist Lehrerin.",
+      "ipucu": "Meslek adının sonunun anneye uyup uymadığını düşün.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Meine Mutter ist Verkäuferin im Kaufhaus.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d26-q13",
+      "tip": "coktan-secmeli",
+      "soru": "Bir arkadaşının işsiz olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Er hat Arbeit.",
+        "Er ist arbeitslos.",
+        "Er ist Arzt.",
+        "Er arbeitet bei der Firma."
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`Er hat Arbeit` onun işi olduğunu söyler; sorudaki kişi işsiz.",
+        "",
+        "`Arzt` doktor demektir; sorudaki kişi işsiz.",
+        "`arbeitet` çalıştığını söyler; sorudaki kişi işsiz."
+      ],
+      "aciklama": "İşsiz arbeitslos'tur: Er ist arbeitslos.",
+      "ipucu": "İşi olmayan kişiyi anlatan sözcüğü ara.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Es gibt bei uns viele Leute, die schon lange arbeitslos sind.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d26-q14",
+      "tip": "coktan-secmeli",
+      "soru": "Okulda kadın Almanca öğretmenini tanıtıyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Das ist unsere ___.",
+      "secenekler": [
+        "Lehrer",
+        "Student",
+        "Arzt",
+        "Lehrerin"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`Lehrer` erkek öğretmen içindir; sorudaki kişi kadın.",
+        "`Student` üniversite öğrencisi demektir; sorudaki kişi öğretmen.",
+        "`Arzt` doktor demektir; sorudaki kişi öğretmen.",
+        ""
+      ],
+      "aciklama": "Kadın öğretmen Lehrerin'dir: Das ist unsere Lehrerin.",
+      "ipucu": "Kişinin cinsiyeti sözcüğün sonunu belirler.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das ist unsere Lehrerin.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d26-q15",
+      "tip": "eslestirme",
+      "soru": "Meslek ve çalışma sözcüklerini Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        {
+          "sol": "Beruf",
+          "sag": "meslek"
+        },
+        {
+          "sol": "Arbeit",
+          "sag": "iş"
+        },
+        {
+          "sol": "Arzt",
+          "sag": "doktor"
+        },
+        {
+          "sol": "Lehrer",
+          "sag": "öğretmen"
+        },
+        {
+          "sol": "arbeitslos",
+          "sag": "işsiz"
+        },
+        {
+          "sol": "Reisebüro",
+          "sag": "seyahat acentesi"
+        }
+      ],
+      "aciklama": "Meslek adları artikelsiz söylenir: Ich bin Lehrer.",
+      "ipucu": "Önce kişi bildiren sözcükleri, sonra yer ve durum bildirenleri ayır.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d26-q16",
+      "tip": "artikel",
+      "soru": "Bu ismin artikelini seç.",
+      "isim": "Reisebüro",
+      "dogru": "das",
+      "aciklama": "Reisebüro nötrdür: das Reisebüro. İsmin yerine es kullanılır.",
+      "ipucu": "Kelime listesinde Reisebüro'nun önünde hangi artikelin durduğuna bak.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    }
+  ]
+}
