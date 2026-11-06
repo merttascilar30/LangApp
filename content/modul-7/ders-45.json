@@ -77,7 +77,7 @@
       "tip": "coktan-secmeli",
       "soru": "Lena ile Mert akşam ne yapacaklarını konuşuyor. Mert'in cümlesini tamamla.",
       "diyalog": [
-        { "kim": "Lena", "metin": "Was machen wir heute?" },
+        { "kim": "Lena", "metin": "Heute ist Samstag. Hast du eine Idee?" },
         { "kim": "Mert", "metin": "Wollen ___ heute Abend mal fernsehen?" }
       ],
       "secenekler": ["ich", "du", "er", "wir"],
