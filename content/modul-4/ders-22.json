@@ -1,0 +1,341 @@
+{
+  "id": "m4-d22",
+  "ders": 22,
+  "baslik": "Önemli Fiiller",
+  "videoId": "oAglnd1f-Xk",
+  "ozet": [
+    "Sık kullanılan fiillerin çoğu düzenlidir: kök sabit kalır, sonuna zamire göre ek gelir. Türkçede de fiil kişiye göre ek alır (geliyorum, geliyorsun); Almancada ek ich için -e, du için -st, er/sie/es için -t, wir ve sie/Sie için -en, ihr için -t olur. Düzenli örnekler: gehen (gitmek), kommen (gelmek), machen (yapmak), trinken (içmek), kaufen (satın almak), schreiben (yazmak), fragen (sormak), sagen (söylemek). Örnekler: Ich gehe jetzt nach Hause. Ich trinke gern türkischen Kaffee. Meine Tochter geht schon in die Schule.",
+    "Bazı sık fiillerde kök ünlüsü yalnızca du ve er/sie/es için değişir; ich, wir, ihr ve sie/Sie biçimleri normal kalır. fahren (araçla gitmek): ich fahre, du fährst, er fährt, wir fahren. essen (yemek): ich esse, du isst, er isst, wir essen. nehmen (almak, seçmek): ich nehme, du nimmst, er nimmt, wir nehmen. sehen (görmek): ich sehe, du siehst, er sieht. lesen (okumak): ich lese, du liest, er liest. Bu formları kalıp olarak ezberle: Fahren Sie ins Ausland? Ich lese gern Zeitung. Wie viel Milch nehmen Sie?",
+    "Evet/hayır sorusunda çekimli fiil başa gelir: Liest du gern Zeitung? W-sorusunda soru sözcüğünden hemen sonra gelir: Woher kommen Sie? Warum kommt er nicht? Diğer cümlelerde çekimli fiil ikinci sırada durur: Er kommt aus Finnland. Sie (siz) ile fiil -en alır, bu yüzden Sie fahren, Sie nehmen, Sie kommen denir.",
+    "Hazır kalıplar: Das macht nichts. (Önemli değil.) Das macht 5 Euro 95. (Tutarı söylerken machen yapmak değil, tutmak anlamına gelir.) Ich nehme das da. (Şunu alıyorum.) Bu cümlelerde öznesi das olduğu için machen fiili macht biçimindedir."
+  ],
+  "kelimeler": [
+    { "de": "gehen", "tr": "gitmek" },
+    { "de": "kommen", "tr": "gelmek" },
+    { "de": "machen", "tr": "yapmak" },
+    { "de": "fahren", "tr": "araçla gitmek" },
+    { "de": "essen", "tr": "yemek" },
+    { "de": "trinken", "tr": "içmek" },
+    { "de": "kaufen", "tr": "satın almak" },
+    { "de": "nehmen", "tr": "almak, seçmek" },
+    { "de": "sehen", "tr": "görmek" },
+    { "de": "lesen", "tr": "okumak" },
+    { "de": "schreiben", "tr": "yazmak" },
+    { "de": "fragen", "tr": "sormak" },
+    { "de": "sagen", "tr": "söylemek" }
+  ],
+  "trickler": [
+    {
+      "baslik": "Değişim yalnızca du ve er/sie/es'te",
+      "metin": "fahren, essen, nehmen, sehen ve lesen fiillerinde ünlü sadece du ve er/sie/es için değişir: du fährst, er fährt; du isst, er isst; du nimmst, er nimmt; du siehst, er sieht; du liest, er liest. ich ve wir biçimleri normaldir: ich fahre, wir fahren."
+    },
+    {
+      "baslik": "Sie ile fiil -en alır",
+      "metin": "Sie (siz) wir ve sie (onlar) gibi çekilir: Sie fahren, Sie nehmen, Sie kommen. Er için ise ünlü değişir ya da -t gelir: er fährt, er nimmt, er kommt."
+    },
+    {
+      "baslik": "Kalıpları bütün olarak öğren",
+      "metin": "Das macht nichts. Das macht 5 Euro 95. Ich nehme das da. Ich gehe jetzt nach Hause. Bu cümleleri tek parça ezberlersen fiil biçimini her seferinde düşünmek zorunda kalmazsın."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m4-d22-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Türk kahvesi içmeyi sevdiğini söylüyorsun. Boşluğa uygun fiil biçimini seç.",
+      "metin": "Ich ___ gern türkischen Kaffee.",
+      "secenekler": ["trinken", "trinke", "trinkt", "trinkst"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`trinken` wir ve sie/Sie ile gelir; `ich` ile kullanılmaz.",
+        "",
+        "`trinkt` er/sie/es veya ihr ile gelir; `ich` ile kullanılmaz.",
+        "`trinkst` du ile gelir; `ich` ile kullanılmaz."
+      ],
+      "aciklama": "Özne ich olduğu için fiil -e alır: Ich trinke gern türkischen Kaffee.",
+      "ipucu": "Cümlenin öznesine ve fiilin sonundaki eke bak.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich trinke gern türkischen Kaffee.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d22-q02",
+      "tip": "coktan-secmeli",
+      "soru": "Şimdi eve gittiğini söylüyorsun. Boşluğa uygun fiili seç.",
+      "metin": "Ich ___ jetzt nach Hause.",
+      "secenekler": ["gehe", "geht", "gehst", "gehen"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`geht` er/sie/es veya ihr ile gelir; `ich` ile kullanılmaz.",
+        "`gehst` du ile gelir; `ich` ile kullanılmaz.",
+        "`gehen` wir ve sie/Sie ile gelir; `ich` ile kullanılmaz."
+      ],
+      "aciklama": "Düzenli fiil gehen, ich ile -e alır: Ich gehe jetzt nach Hause.",
+      "ipucu": "Fiilin ich ile aldığı eki düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich gehe jetzt nach Hause.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d22-q03",
+      "tip": "bosluk-doldurma",
+      "soru": "Gazete okumayı sevdiğini söylüyorsun. Boşluğa okumak fiilinin uygun biçimini yaz.",
+      "metin": "Ich ___ gern Zeitung.",
+      "dogruCevaplar": ["lese"],
+      "aciklama": "Ünlü değişimi sadece du ve er/sie/es için olur; ich ile lesen normal çekilir: Ich lese gern Zeitung.",
+      "ipucu": "Ünlü değişimi bu kişide görülmez.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich lese gern Zeitung.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d22-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Erkek arkadaşının ekmeği sevdiğini anlatıyorsun. Boşluğa uygun fiil biçimini seç.",
+      "metin": "Er ___ gern Brot.",
+      "secenekler": ["esse", "essen", "isst", "esst"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`esse` ich ile gelir; `er` ile kullanılmaz.",
+        "`essen` wir ve sie/Sie ile gelir; `er` ile kullanılmaz.",
+        "",
+        "`esst` ihr ile gelir; `er` ile kullanılmaz."
+      ],
+      "aciklama": "essen fiilinde ünlü er/sie/es ile değişir: Er isst gern Brot.",
+      "ipucu": "Özne üçüncü tekil kişidir; ünlü değişimi hangi kişilerde olmuştu?",
+      "bicim": "bosluk",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich trinke gern türkischen Kaffee.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d22-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Herr Lang, Frau Kaya'nın nereden geldiğini soruyor. Frau Kaya Türkiye'den geldiğini söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Herr Lang", "metin": "Woher kommen Sie?" },
+        { "kim": "Frau Kaya", "metin": "Ich ___ aus der Türkei." }
+      ],
+      "secenekler": ["kommst", "kommt", "kommen", "komme"],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`kommst` du ile gelir; `ich` ile kullanılmaz.",
+        "`kommt` er/sie/es veya ihr ile gelir; `ich` ile kullanılmaz.",
+        "`kommen` wir ve sie/Sie ile gelir; `ich` ile kullanılmaz.",
+        ""
+      ],
+      "aciklama": "Frau Kaya kendisinden söz eder, özne ich: Ich komme aus der Türkei.",
+      "ipucu": "Frau Kaya kendisinden söz ediyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich komme aus der Türkei.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d22-q06",
+      "tip": "coktan-secmeli",
+      "soru": "Frau Kern, Herr Berg'e tatilde yurt dışına gidip gitmeyeceğini soruyor. Soruyu tamamla.",
+      "diyalog": [
+        { "kim": "Frau Kern", "metin": "Haben Sie bald Urlaub?" },
+        { "kim": "Herr Berg", "metin": "Ja, im Sommer." },
+        { "kim": "Frau Kern", "metin": "___ Sie ins Ausland?" }
+      ],
+      "secenekler": ["Fahren", "Fährt", "Fährst", "Fahre"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`Fährt` er/sie/es ile gelir; `Sie` ile kullanılmaz.",
+        "`Fährst` du ile gelir; `Sie` ile kullanılmaz.",
+        "`Fahre` ich ile gelir; `Sie` ile kullanılmaz."
+      ],
+      "aciklama": "Sie ile fiil -en alır ve ünlü değişmez: Fahren Sie ins Ausland?",
+      "ipucu": "Hitap şekli Sie olduğunda fiil hangi ekle biter?",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Fahren Sie ins Ausland?",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d22-q07",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: O Finlandiya'dan geliyor.",
+      "parcalar": ["aus Finnland", "er", "kommt"],
+      "dogruSiralar": [
+        ["er", "kommt", "aus Finnland"],
+        ["aus Finnland", "kommt", "er"]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; yer bilgisi başa geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Başa hangi parçayı koyarsan koy, fiilin yeri değişmez.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Er kommt aus Finnland."
+    },
+    {
+      "id": "m4-d22-q08",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Neden gelmiyor?",
+      "parcalar": ["nicht", "er", "warum", "kommt"],
+      "dogruSiralar": [
+        ["warum", "kommt", "er", "nicht"]
+      ],
+      "aciklama": "Soru sözcüğü başta durur, çekimli fiil hemen ardından gelir, olumsuzluk sözcüğü sona gider.",
+      "ipucu": "Önce soru sözcüğünü, sonra fiilin yerini düşün.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Warum kommt er nicht?"
+    },
+    {
+      "id": "m4-d22-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Tezgâhta bir ürünü gösterip \"Bunu alıyorum.\" diyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Ich nimmst das da.",
+        "Ich nehmen das da.",
+        "Ich nehme das da.",
+        "Ich nimmt das da."
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`nimmst` du ile gelir; `ich` ile kullanılmaz.",
+        "`nehmen` wir ve sie/Sie ile gelir; `ich` ile kullanılmaz.",
+        "",
+        "`nimmt` er/sie/es ile gelir; `ich` ile kullanılmaz."
+      ],
+      "aciklama": "ich ile nehmen -e alır ve ünlü değişmez: Ich nehme das da.",
+      "ipucu": "Ünlü değişiminin hangi kişilerde olduğunu hatırla.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich nehme das da.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d22-q10",
+      "tip": "coktan-secmeli",
+      "soru": "Bir arkadaşına gazete okumayı sevip sevmediğini soruyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Lese du gern Zeitung?",
+        "Liest du gern Zeitung?",
+        "Lest du gern Zeitung?",
+        "Lesen du gern Zeitung?"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`Lese` ich ile gelir; `du` ile kullanılmaz.",
+        "",
+        "`Lest` ihr ile gelir; `du` ile kullanılmaz.",
+        "`Lesen` wir ve sie/Sie ile gelir; `du` ile kullanılmaz."
+      ],
+      "aciklama": "du ile lesen biçimi liest olur ve evet/hayır sorusunda fiil başa gelir: Liest du gern Zeitung?",
+      "ipucu": "Hem fiilin yerine hem du ile değişen ünlüye bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich lese gern Zeitung.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d22-q11",
+      "tip": "dinleme",
+      "soru": "Kasada kasiyer ödemen gereken tutarı söylüyor. Duyduğun cümleyi seç.",
+      "okunacak": "Das macht 5 Euro 95.",
+      "mod": "sec",
+      "secenekler": [
+        "Toplam 5 Euro 95 tutuyor.",
+        "Toplam 5 Euro 59 tutuyor.",
+        "Toplam 9 Euro 55 tutuyor.",
+        "Toplam 5 Euro 85 tutuyor."
+      ],
+      "dogruCevaplar": ["Toplam 5 Euro 95 tutuyor."],
+      "aciklama": "Das macht tutarı bildirir: Das macht 5 Euro 95.",
+      "ipucu": "Euro'dan sonra gelen sayıya dikkat et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das macht 5 Euro 95."
+    },
+    {
+      "id": "m4-d22-q12",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Erkek arkadaşının tezgâhta ne seçtiğini anlatıyorsun:",
+      "ifade": "Er nehmt das da.",
+      "dogru": false,
+      "aciklama": "Yanlış. nehmen fiilinde ünlü er/sie/es ile değişir: Er nimmt das da.",
+      "ipucu": "Fiilin er ile aldığı biçimin ünlüsüne bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich nehme das da.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d22-q13",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Kızının durumunu anlatıyorsun:",
+      "ifade": "Meine Tochter geht schon in die Schule.",
+      "dogru": true,
+      "aciklama": "Doğru. Meine Tochter yerine sie denir ve düzenli gehen fiili -t alır: Meine Tochter geht schon in die Schule.",
+      "ipucu": "Öznenin yerine hangi zamir geçer, düşün.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Meine Tochter geht schon in die Schule.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d22-q14",
+      "tip": "eslestirme",
+      "soru": "Almanca fiilleri Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        { "sol": "gehen", "sag": "gitmek" },
+        { "sol": "fahren", "sag": "araçla gitmek" },
+        { "sol": "kommen", "sag": "gelmek" },
+        { "sol": "essen", "sag": "yemek" },
+        { "sol": "trinken", "sag": "içmek" },
+        { "sol": "lesen", "sag": "okumak" }
+      ],
+      "aciklama": "gehen yürüyerek veya genel gitmeyi, fahren araçla gitmeyi anlatır.",
+      "ipucu": "Gitmek anlamındaki iki fiilin farkını düşün.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d22-q15",
+      "tip": "fiil-cekimi",
+      "soru": "\"nehmen\" fiilini her zamire göre çek.",
+      "fiil": "nehmen",
+      "satirlar": [
+        { "zamir": "ich", "cevap": "nehme", "verilen": true },
+        { "zamir": "du", "cevap": "nimmst" },
+        { "zamir": "er/sie/es", "cevap": "nimmt" },
+        { "zamir": "wir", "cevap": "nehmen" },
+        { "zamir": "ihr", "cevap": "nehmt" },
+        { "zamir": "sie/Sie", "cevap": "nehmen" }
+      ],
+      "aciklama": "Ünlü sadece du ve er/sie/es için değişir: nimmst, nimmt; diğerlerinde kök nehm- kalır.",
+      "ipucu": "Ünlü değişimi tam iki kişide görülür.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m4-d22-q16",
+      "tip": "coktan-secmeli",
+      "soru": "Satıcı sana resmî biçimde ne kadar süt alacağını soruyor. Boşluğa uygun fiili seç.",
+      "metin": "Wie viel Milch ___ Sie?",
+      "secenekler": ["nimmt", "nimmst", "nehme", "nehmen"],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`nimmt` er/sie/es ile gelir; `Sie` ile kullanılmaz.",
+        "`nimmst` du ile gelir; `Sie` ile kullanılmaz.",
+        "`nehme` ich ile gelir; `Sie` ile kullanılmaz.",
+        ""
+      ],
+      "aciklama": "Sie ile fiil -en alır ve ünlü değişmez: Wie viel Milch nehmen Sie?",
+      "ipucu": "Soruda hitap şeklini belirleyen sözcüğe bak.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wie viel Milch nehmen Sie?",
+      "glossKapali": true
+    }
+  ]
+}
