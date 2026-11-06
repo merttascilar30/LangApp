@@ -1,0 +1,454 @@
+{
+  "id": "m8-d57",
+  "ders": 57,
+  "baslik": "Karşılaştırma",
+  "videoId": "pY-HWUqNqIQ",
+  "ozet": [
+    "Komparativ iki şeyi karşılaştırır: sıfata -er eklenir, karşılaştırılan şeyin önüne als gelir. Örnek: Mein Bruder ist älter als ich. (der Bruder = erkek kardeş, alt = yaşlı, büyük.) Das Taxi ist teurer als der Bus. (das Taxi = taksi, der Bus = otobüs, teuer = pahalı.) Türkçedeki \"ondan daha büyük\" kalıbında -dan eki ne yapıyorsa, Almanca'da als o işi yapar.",
+    "Bazı sıfatlarda ä, ö, ü gelir: alt → älter, jung → jünger, groß → größer. teuer → teurer olur, e düşer; teuerer yazmak yanlıştır. ä yazılamıyorsa ae yazılabilir: aelter. Örnek: Ich bin älter als mein Bruder. Heute geht es mir besser als gestern. (heute = bugün, gestern = dün.)",
+    "Superlativ \"en\" anlamı verir: am + sıfat + -sten/-ten. Örnek: Tom ist am größten. (groß → größer → am größten.) alt → älter → am ältesten. Tom ve Ayşe birer kişi adıdır. Düzensizler: gut → besser → am besten; gern → lieber → am liebsten; viel → mehr → am meisten. Örnek: Am besten machen wir sofort einen Termin. (am besten = en iyisi, sofort = hemen, der Termin = randevu.)",
+    "Günlük örnekler: Es geht mir schon besser. (schon = artık.) Wir fahren lieber mit der Bahn. (fahren = araçla gitmek, die Bahn = tren, lieber = tercihen.) Sie fährt lieber mit der Bahn. (O trenle gitmeyi tercih ediyor; otobüsle, taksiyle ya da bisikletle değil.) Ich nehme lieber die S-Bahn. (nehmen = almak, binmek.) Dieses Auto kostet 1.000 Euro mehr als das andere. (das Auto = araba, kosten = fiyatı olmak, mehr = daha fazla.) Es darf nicht mehr als 15 Euro kosten. (dürfen = izinli olmak, der Euro = avro.) Wie fährst du zur Arbeit? (die Arbeit = iş.)"
+  ],
+  "kelimeler": [
+    {
+      "de": "älter",
+      "tr": "daha yaşlı, daha büyük"
+    },
+    {
+      "de": "jünger",
+      "tr": "daha genç"
+    },
+    {
+      "de": "größer",
+      "tr": "daha büyük, daha uzun boylu"
+    },
+    {
+      "de": "teurer",
+      "tr": "daha pahalı"
+    },
+    {
+      "de": "besser",
+      "tr": "daha iyi"
+    },
+    {
+      "de": "lieber",
+      "tr": "tercihen, daha çok"
+    },
+    {
+      "de": "mehr",
+      "tr": "daha fazla"
+    },
+    {
+      "de": "als",
+      "tr": "-den, -dan (karşılaştırmada)"
+    },
+    {
+      "de": "am besten",
+      "tr": "en iyisi"
+    },
+    {
+      "de": "sofort",
+      "tr": "hemen"
+    },
+    {
+      "de": "die Bahn",
+      "tr": "tren",
+      "artikel": "die"
+    },
+    {
+      "de": "das Auto",
+      "tr": "araba",
+      "artikel": "das"
+    }
+  ],
+  "trickler": [
+    {
+      "baslik": "Karşılaştırmada als gelir",
+      "metin": "Komparativden sonra karşılaştırılan şeyin önüne als gelir: älter als ich, mehr als 15 Euro. Türkçedeki -den/-dan ekinin işini görür."
+    },
+    {
+      "baslik": "Umlaut ve teuer",
+      "metin": "alt → älter, jung → jünger, groß → größer. teuer → teurer olur, e düşer: Das Taxi ist teurer als der Bus."
+    },
+    {
+      "baslik": "Düzensiz üçlüler",
+      "metin": "gut → besser → am besten; gern → lieber → am liebsten; viel → mehr → am meisten. Bunları üçlü olarak ezberle."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m8-d57-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Bir hediyenin 15 euroyu aşmaması gerektiğini söylüyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Es darf nicht ___ als 15 Euro kosten.",
+      "secenekler": [
+        "besser",
+        "lieber",
+        "mehr",
+        "am besten"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`besser` daha iyi demektir; miktar için `mehr` gerekir.",
+        "`lieber` tercih bildirir; miktarı karşılaştırmaz.",
+        "",
+        "`am besten` en iyisi demektir; `als` ile birlikte kullanılmaz."
+      ],
+      "aciklama": "Daha fazla miktar için mehr kullanılır ve karşılaştırılan şeyin önüne als gelir: Es darf nicht mehr als 15 Euro kosten.",
+      "ipucu": "Cümle miktarın üst sınırını anlatıyor.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Es darf nicht mehr als 15 Euro kosten.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d57-q02",
+      "tip": "bosluk-doldurma",
+      "soru": "İki arabayı karşılaştırıyorsun: bu araba diğerinden 1.000 euro daha pahalı. Boşluğa karşılaştırma sözcüğünü yaz.",
+      "metin": "Dieses Auto kostet 1.000 Euro mehr ___ das andere.",
+      "dogruCevaplar": [
+        "als"
+      ],
+      "aciklama": "Karşılaştırılan şeyin önüne als gelir: Dieses Auto kostet 1.000 Euro mehr als das andere.",
+      "ipucu": "Türkçedeki -dan ekinin Almanca'daki karşılığını düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Dieses Auto kostet 1.000 Euro mehr als das andere."
+    },
+    {
+      "id": "m8-d57-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Bir arkadaşının ulaşımda treni tercih ettiğini söylüyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Sie fährt ___ mit der Bahn.",
+      "secenekler": [
+        "lieber",
+        "größer",
+        "älter",
+        "jünger"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`größer` daha büyük demektir; fiilin tercihini anlatmaz.",
+        "`älter` daha yaşlı demektir; fiilin tercihini anlatmaz.",
+        "`jünger` daha genç demektir; fiilin tercihini anlatmaz."
+      ],
+      "aciklama": "Tercih için lieber kullanılır: Sie fährt lieber mit der Bahn.",
+      "ipucu": "Cümlede yaş veya boy değil, bir seçim anlatılıyor.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Sie fährt lieber mit der Bahn.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d57-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Lena Mert'e işe nasıl gittiğini soruyor. Mert S-Bahn'ı tercih ettiğini söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Wie fährst du zur Arbeit?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Ich nehme ___ die S-Bahn."
+        }
+      ],
+      "secenekler": [
+        "jünger",
+        "größer",
+        "älter",
+        "lieber"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`jünger` daha genç demektir; Mert bir tercih söylüyor.",
+        "`größer` daha büyük demektir; Mert bir tercih söylüyor.",
+        "`älter` daha yaşlı demektir; Mert bir tercih söylüyor.",
+        ""
+      ],
+      "aciklama": "Tercih lieber ile söylenir: Ich nehme lieber die S-Bahn.",
+      "ipucu": "Mert bir seçimden söz ediyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich nehme lieber die S-Bahn.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d57-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Lena Mert'in dünkü hastalığını soruyor. Mert artık daha iyi olduğunu söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Du warst gestern krank. Wie geht es dir?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Es geht mir schon ___."
+        }
+      ],
+      "secenekler": [
+        "am besten",
+        "besser",
+        "mehr",
+        "lieber"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`am besten` en iyisi demektir; Mert iki zamanı karşılaştırıyor.",
+        "",
+        "`mehr` daha fazla demektir; sağlık için `besser` gerekir.",
+        "`lieber` tercih bildirir; sağlık durumunu anlatmaz."
+      ],
+      "aciklama": "gut sıfatının komparativi besser olur: Es geht mir schon besser.",
+      "ipucu": "Düzensiz komparativ bir sağlık durumunu anlatıyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Es geht mir schon besser.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d57-q06",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Erkek kardeşim benden büyük.",
+      "parcalar": [
+        "mein Bruder",
+        "ist",
+        "älter als ich"
+      ],
+      "dogruSiralar": [
+        [
+          "mein Bruder",
+          "ist",
+          "älter als ich"
+        ],
+        [
+          "älter als ich",
+          "ist",
+          "mein Bruder"
+        ]
+      ],
+      "aciklama": "Komparativ ve als birlikte durur; çekimli fiil ikinci sırada kalır.",
+      "ipucu": "Karşılaştırma ifadesi başa da geçebilir, ama bir arada kalır.",
+      "bicim": "siralama",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m8-d57-q07",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Biz trenle gitmeyi tercih ediyoruz.",
+      "parcalar": [
+        "wir",
+        "fahren",
+        "lieber mit der Bahn"
+      ],
+      "dogruSiralar": [
+        [
+          "wir",
+          "fahren",
+          "lieber mit der Bahn"
+        ],
+        [
+          "lieber mit der Bahn",
+          "fahren",
+          "wir"
+        ]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; başa başka öge geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Başa gelen öge değişince özne fiilin hangi tarafında kalır, ona bak.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir fahren lieber mit der Bahn."
+    },
+    {
+      "id": "m8-d57-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Ayşe 30, Mert 25 yaşında. Ayşe'nin Mert'ten büyük olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Ayşe ist alt als Mert.",
+        "Ayşe ist jünger als Mert.",
+        "Ayşe ist älter als Mert.",
+        "Ayşe ist am ältesten als Mert."
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`alt` yalın sıfattır; \"-dan daha\" için komparativ `älter` gerekir.",
+        "`jünger` daha genç demektir; soruda Ayşe daha büyük.",
+        "",
+        "`am ältesten` en büyük demektir; iki kişide `älter als` kullanılır."
+      ],
+      "aciklama": "İki kişiyi karşılaştırırken komparativ ve als kullanılır: Ayşe ist älter als Mert.",
+      "ipucu": "Hem yaş yönüne hem de iki kişinin karşılaştırılmasına dikkat et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d57-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Üç arkadaş arasında Tom'un en uzun boylu olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Tom ist am größten.",
+        "Tom ist am größer.",
+        "Tom ist größten.",
+        "Tom ist am groß."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`am` ile superlativ gelir; `größer` komparativdir.",
+        "Superlativ `am` ile birlikte kullanılır: `am größten`.",
+        "`am` sözcüğünden sonra yalın sıfat değil, `-sten/-ten` biçimi gelir."
+      ],
+      "aciklama": "Superlativ am + sıfat + -sten/-ten ile kurulur: Tom ist am größten.",
+      "ipucu": "Üç kişi arasındaki en üst derece için ayrı bir kalıp var.",
+      "bicim": "senaryo",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d57-q10",
+      "tip": "dinleme",
+      "soru": "Bir arkadaşın işe nasıl gittiğini anlatıyor. Duyduğun cümleyi seç.",
+      "okunacak": "Sie fährt lieber mit der Bahn.",
+      "mod": "sec",
+      "secenekler": [
+        "O, trenle gitmeyi tercih ediyor.",
+        "O, otobüsle gitmeyi tercih ediyor.",
+        "O, taksiyle gitmeyi tercih ediyor.",
+        "O, bisikletle gitmeyi tercih ediyor."
+      ],
+      "dogruCevaplar": [
+        "O, trenle gitmeyi tercih ediyor."
+      ],
+      "aciklama": "lieber tercih bildirir, die Bahn trendir: Sie fährt lieber mit der Bahn.",
+      "ipucu": "Hem tercih bildiren sözcüğe hem de ulaşım aracına kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Sie fährt lieber mit der Bahn."
+    },
+    {
+      "id": "m8-d57-q11",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Taksinin otobüsten pahalı olduğunu söylüyorsun:",
+      "ifade": "Das Taxi ist teuerer als der Bus.",
+      "dogru": false,
+      "aciklama": "Yanlış. teuer komparativde e'yi kaybeder: Das Taxi ist teurer als der Bus.",
+      "ipucu": "Sıfatın komparativ biçiminin yazılışına bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m8-d57-q12",
+      "tip": "bosluk-doldurma",
+      "soru": "Sen 25, erkek kardeşin 20 yaşında. Boşluğa \"daha büyük\" anlamındaki sıfatı yaz.",
+      "metin": "Ich bin ___ als mein Bruder.",
+      "dogruCevaplar": [
+        "älter",
+        "aelter"
+      ],
+      "aciklama": "alt sıfatının komparativi älter olur: Ich bin älter als mein Bruder.",
+      "ipucu": "Yaş için kullanılan sıfatın -er'li ve noktalı biçimini yaz.",
+      "bicim": "bosluk",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m8-d57-q13",
+      "tip": "coktan-secmeli",
+      "soru": "Dün hastaydın, bugün daha iyisin. Boşluğa uygun sözcüğü seç.",
+      "metin": "Heute geht es mir ___ als gestern.",
+      "secenekler": [
+        "lieber",
+        "besser",
+        "gut",
+        "am besten"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`lieber` tercih bildirir; sağlık durumunu karşılaştırmaz.",
+        "",
+        "`gut` yalın sıfattır; `als` ile karşılaştırma için komparativ gerekir.",
+        "`am besten` en iyisi demektir; iki günü karşılaştıran `als` ile uymaz."
+      ],
+      "aciklama": "gut komparativde besser olur ve als ile karşılaştırma kurar: Heute geht es mir besser als gestern.",
+      "ipucu": "Cümlede iki gün karşılaştırılıyor.",
+      "bicim": "bosluk",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Es geht mir schon besser.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d57-q14",
+      "tip": "eslestirme",
+      "soru": "Sıfatları komparativ biçimleriyle eşleştir.",
+      "ciftler": [
+        {
+          "sol": "gut",
+          "sag": "besser"
+        },
+        {
+          "sol": "gern",
+          "sag": "lieber"
+        },
+        {
+          "sol": "viel",
+          "sag": "mehr"
+        },
+        {
+          "sol": "alt",
+          "sag": "älter"
+        },
+        {
+          "sol": "jung",
+          "sag": "jünger"
+        },
+        {
+          "sol": "groß",
+          "sag": "größer"
+        }
+      ],
+      "aciklama": "gut, gern ve viel düzensizdir; alt, jung, groß ise umlaut alıp -er eki alır.",
+      "ipucu": "Önce düzensiz üçlüleri, sonra noktalı harf alanları ayır.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m8-d57-q15",
+      "tip": "coktan-secmeli",
+      "soru": "Bir randevu için arkadaşına \"en iyisi hemen randevu alalım\" diyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Am ___ machen wir sofort einen Termin.",
+      "secenekler": [
+        "besser",
+        "lieber",
+        "gut",
+        "besten"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`am` ile superlativ gelir; `besser` komparativdir.",
+        "`lieber` tercih bildirir; `am` ile `liebsten` gelir.",
+        "`gut` yalın sıfattır; `am` ile superlativ `besten` olur.",
+        ""
+      ],
+      "aciklama": "gut sıfatının superlativi am besten olur: Am besten machen wir sofort einen Termin.",
+      "ipucu": "Cümle en uygun yolu öneriyor; am ile birlikte son halini kur.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Am besten machen wir sofort einen Termin.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d57-q16",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? \"Biz trenle gitmeyi tercih ediyoruz\" demek istiyorsun:",
+      "ifade": "Wir fahren lieber mit der Bahn.",
+      "dogru": true,
+      "aciklama": "Doğru. lieber tercih bildirir: Wir fahren lieber mit der Bahn.",
+      "ipucu": "Tercih bildiren sözcüğün cümledeki yerine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir fahren lieber mit der Bahn."
+    }
+  ]
+}
