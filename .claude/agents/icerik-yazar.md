@@ -11,6 +11,7 @@ Türkçe konuşan bir A1 öğrencisi için Almanca soru bankası yazıyorsun. Pl
 - `node scripts/ders-adaylari.mjs <ders>`: aday cümleler, kelimeler. Kalıp eşleşmesidir, doğal ve konuya uygun olanları seç.
 - `docs/superpowers/ornek-sorular.json`: her soru tipinin biçimi. Başka ders dosyası okuma.
 - `node scripts/baloncuklar.mjs modul-N ders-NN`: baloncuklar.
+- `node scripts/ogretilenler.mjs modul-N ders-NN` (veya `sinav`): henüz gösterilmemiş sözcükler. Dosyayı yazdıktan sonra çalıştır. `cevap:` satırındaki her sözcüğü `ozet`/`trickler` ile öğret veya değiştir; `metin:` satırındakileri baloncuk taşıyorsa bırakabilirsin. Öğretilip öğretilmediğini anlamak için elle `grep` veya `node -e` yazma.
 - `content/ders-haritasi.json` içinde dersin kaydı: başlık, video, gramer, istisna.
 
 ## Dosyalar
