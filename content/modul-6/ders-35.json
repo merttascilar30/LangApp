@@ -62,7 +62,7 @@
     {
       "id": "m6-d35-q02",
       "tip": "coktan-secmeli",
-      "soru": "Resmî konuştuğun bir kişiye mektubunu alıp almadığını soruyorsun. Boşluğa uygun sözcüğü seç.",
+      "soru": "Resmî konuştuğun bir kişiye gönderdiğin mektubu alıp almadığını soruyorsun. Boşluğa uygun sözcüğü seç.",
       "metin": "Haben Sie ___ Brief bekommen?",
       "secenekler": ["meinen", "mein", "meine", "meinem"],
       "dogru": 0,
@@ -271,7 +271,7 @@
     {
       "id": "m6-d35-q13",
       "tip": "dogru-yanlis",
-      "soru": "Doğru mu, yanlış mı? Resmî konuştuğun kişiye yardımına ihtiyacı olup olmadığını soruyorsun:",
+      "soru": "Doğru mu, yanlış mı? Resmî konuştuğun kişiye, senin yardımına ihtiyacı olup olmadığını soruyorsun:",
       "ifade": "Brauchen Sie meine Hilfe?",
       "dogru": true,
       "aciklama": "Doğru. die Hilfe dişildir ve nesnedir; dişil Akkusativ'de meine gelir: Brauchen Sie meine Hilfe?",
