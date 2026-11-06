@@ -129,6 +129,22 @@
     "verstanden": "anlamış (verstehen)",
     "gelesen": "okumuş (lesen)",
     "geschrieben": "yazmış (schreiben)",
-    "siehst": "görürsün (sehen)"
+    "siehst": "görürsün (sehen)",
+    "mag": "mögen fiilinin çekimi",
+    "magst": "mögen fiilinin çekimi",
+    "mögen": "sevmek, hoşlanmak",
+    "mögt": "mögen fiilinin çekimi",
+    "gern": "severek, isteyerek",
+    "der Kaffee": "kahve",
+    "der Tee": "çay",
+    "das Fleisch": "et",
+    "der Fisch": "balık",
+    "der Reis": "pirinç",
+    "der Kuchen": "kek, pasta",
+    "das Obst": "meyve",
+    "die Milch": "süt",
+    "esse": "essen fiilinin çekimi (yemek yemek)",
+    "mein": "benim",
+    "mit": "ile"
   }
 }

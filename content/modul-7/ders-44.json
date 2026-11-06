@@ -1,0 +1,311 @@
+{
+  "id": "m7-d44",
+  "ders": 44,
+  "baslik": "mögen",
+  "videoId": "86JzzeaTJQE",
+  "ozet": [
+    "mögen, sevmek ve hoşlanmak anlamına gelir. Sevilen şey (yiyecek, içecek) doğrudan fiilin arkasına gelir: Ich mag Fisch (Balığı severim). Türkçede de ayrı bir fiil kullanılır: sevmek. Magst du Kaffee oder Tee? (Kahve mi çay mı seversin?)",
+    "mögen çekimi: ich mag, du magst, er/sie/es/man mag, wir mögen, ihr mögt, sie/Sie mögen. ich ve er/sie/es aynı biçimi alır (mag); çoğulda a harfi ö olur. können ile aynı mantık: tekilde kök mag, çoğulda mög.",
+    "Soruda fiil başa gelir: Magst du Kaffee? Mögen Sie Tee? Olumsuzluk nicht ile yapılır: Ich mag Fleisch nicht. Vurgulamak için sevilmeyen şey başa gelebilir; çekimli fiil yine ikinci sırada kalır: Fleisch mag ich nicht (Et sevmem).",
+    "gern fiille birlikte kullanılır ve severek yapılan işi anlatır: Ich esse gern Fisch (Balık yemeyi severim). Yiyecekler: das Fleisch (et), der Fisch (balık), der Reis (pirinç), der Kuchen (kek), das Obst (meyve), die Milch (süt), der Kaffee (kahve), der Tee (çay)."
+  ],
+  "kelimeler": [
+    { "de": "mögen", "tr": "sevmek, hoşlanmak" },
+    { "de": "gern", "tr": "severek, isteyerek" },
+    { "de": "der Kaffee", "tr": "kahve", "artikel": "der" },
+    { "de": "der Tee", "tr": "çay", "artikel": "der" },
+    { "de": "das Fleisch", "tr": "et", "artikel": "das" },
+    { "de": "der Fisch", "tr": "balık", "artikel": "der" },
+    { "de": "der Reis", "tr": "pirinç", "artikel": "der" },
+    { "de": "der Kuchen", "tr": "kek, pasta", "artikel": "der" },
+    { "de": "das Obst", "tr": "meyve", "artikel": "das" },
+    { "de": "die Milch", "tr": "süt", "artikel": "die" }
+  ],
+  "trickler": [
+    {
+      "baslik": "ich mag, er mag, du magst",
+      "metin": "mögen'de ich, er/sie/es ve man aynı biçimi alır: mag. du için magst, wir ve sie/Sie için mögen, ihr için mögt kullanılır."
+    },
+    {
+      "baslik": "Sevilen şey fiilin arkasında",
+      "metin": "Ich mag Kaffee. Sevilen şey doğrudan fiilin arkasına gelir; başka bir fiil gerekmez. Soruda fiil başa geçer: Magst du Kaffee?"
+    },
+    {
+      "baslik": "Fleisch mag ich nicht",
+      "metin": "Sevilmeyen şey başa geçerse çekimli fiil ikinci sırada kalır, özne arkaya kayar: Fleisch mag ich nicht. nicht cümlenin sonuna yakın durur."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m7-d44-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Arkadaşına kahve mi çay mı sevdiğini soruyorsun. Boşluğa uygun biçimi seç.",
+      "metin": "___ du Kaffee oder Tee?",
+      "secenekler": ["Mag", "Magst", "Mögt"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`mag` ich ve er/sie/es ile gelir; özne `du`.",
+        "",
+        "`mögt` yalnızca `ihr` ile gelir; özne `du`."
+      ],
+      "aciklama": "du ile mögen magst olur: Magst du Kaffee oder Tee?",
+      "ipucu": "Çekimde du için ayrılmış sona dikkat et.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Magst du Kaffee oder Tee?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d44-q02",
+      "tip": "bosluk-doldurma",
+      "soru": "Kendin için et sevmediğini söylüyorsun. Boşluğa uygun zamiri yaz.",
+      "metin": "Fleisch mag ___ nicht.",
+      "dogruCevaplar": ["ich"],
+      "aciklama": "Kendini anlatırken özne ich olur: Fleisch mag ich nicht.",
+      "ipucu": "Cümleyi kendi adına söylüyorsun.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Fleisch mag ich nicht.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d44-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Lena balık ve et sevip sevmediğini soruyor. Mert balığı sevdiğini, eti sevmediğini söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Magst du Fisch und Fleisch?" },
+        { "kim": "Mert", "metin": "Ich esse gern Fisch. Fleisch ___ ich nicht." }
+      ],
+      "secenekler": ["mag", "magst", "mögen"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`magst` yalnızca `du` ile gelir; özne `ich`.",
+        "`mögen` çoğul özneyle gelir; özne `ich`."
+      ],
+      "aciklama": "ich ile mögen mag olur: Ich esse gern Fisch. Fleisch mag ich nicht.",
+      "ipucu": "Mert kendi adına konuşuyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich esse gern Fisch. Fleisch mag ich nicht.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d44-q04",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Kahve mi çay mı seversin?",
+      "parcalar": ["magst", "du", "Kaffee", "oder Tee"],
+      "dogruSiralar": [
+        ["magst", "du", "Kaffee", "oder Tee"],
+        ["du", "magst", "Kaffee", "oder Tee"]
+      ],
+      "aciklama": "Soruda fiil başa gelir: Magst du Kaffee oder Tee? Düz cümlede özne başta durur.",
+      "ipucu": "Soru cümlesinde çekimli fiilin yerini düşün.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Magst du Kaffee oder Tee?"
+    },
+    {
+      "id": "m7-d44-q05",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Et sevmem.",
+      "parcalar": ["ich", "mag", "Fleisch", "nicht"],
+      "dogruSiralar": [
+        ["Fleisch", "mag", "ich", "nicht"],
+        ["ich", "mag", "Fleisch", "nicht"]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; et başa geçerse özne fiilin arkasına kayar: Fleisch mag ich nicht.",
+      "ipucu": "Çekimli fiil hangi sırada kalıyor?",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Fleisch mag ich nicht."
+    },
+    {
+      "id": "m7-d44-q06",
+      "tip": "coktan-secmeli",
+      "soru": "Lena, Mert'e ve arkadaşlarına pirinç sevip sevmediklerini soruyor. Mert kendisi ve arkadaşları adına cevap veriyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Mögt ihr Reis?" },
+        { "kim": "Mert", "metin": "Ja, wir ___ Reis." }
+      ],
+      "secenekler": ["mögt", "mag", "mögen"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`mögt` yalnızca `ihr` ile gelir; özne `wir`.",
+        "`mag` tekil özneyle gelir; `wir` çoğuldur.",
+        ""
+      ],
+      "aciklama": "wir ile mögen çoğul biçimde kalır: Ja, wir mögen Reis.",
+      "ipucu": "Mert kendini de katarak çoğul konuşuyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich esse gern Reis.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d44-q07",
+      "tip": "coktan-secmeli",
+      "soru": "Mert meyve sevip sevmediğini soruyor. Lena sevdiğini söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Mert", "metin": "Magst du Obst?" },
+        { "kim": "Lena", "metin": "Ja, ich ___ Obst." }
+      ],
+      "secenekler": ["mag", "magst", "mögen"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`magst` yalnızca `du` ile gelir; özne `ich`.",
+        "`mögen` çoğul özneyle gelir; özne `ich`."
+      ],
+      "aciklama": "ich ile mögen mag olur: Ja, ich mag Obst.",
+      "ipucu": "Lena kendisinden söz ediyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d44-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Bir müşteriye (Sie) kahveyi sütlü sevip sevmediğini soruyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Magst Sie Kaffee mit Milch?",
+        "Mögen Sie Kaffee mit Milch?",
+        "Mögt Sie Kaffee mit Milch?"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`magst` yalnızca `du` ile gelir; özne `Sie`.",
+        "",
+        "`mögt` yalnızca `ihr` ile gelir; özne `Sie`."
+      ],
+      "aciklama": "Sie ile mögen çoğul biçimde kalır ve soruda başa gelir: Mögen Sie Kaffee mit Milch?",
+      "ipucu": "Sie ile kullanılan çoğul biçimi düşün.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Trinken Sie den Kaffee mit Milch?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d44-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Erkek kardeşinin balığı sevdiğini söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Mein Bruder mögen Fisch.",
+        "Mein Bruder magst Fisch.",
+        "Mein Bruder mag Fisch."
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`mögen` çoğul özneyle gelir; erkek kardeş tekildir.",
+        "`magst` yalnızca `du` ile gelir; özne `mein Bruder`.",
+        ""
+      ],
+      "aciklama": "Tekil üçüncü kişi ile mögen mag olur: Mein Bruder mag Fisch.",
+      "ipucu": "Erkek kardeş tek bir kişidir.",
+      "bicim": "senaryo",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d44-q10",
+      "tip": "dinleme",
+      "soru": "Bir arkadaşın yemek tercihlerini anlatıyor. Duyduğun cümleleri seç.",
+      "okunacak": "Ich esse gern Fisch. Fleisch mag ich nicht.",
+      "mod": "sec",
+      "secenekler": [
+        "Balık yemeyi severim. Et sevmem.",
+        "Balık sevmem. Et yemeyi severim.",
+        "Balık yemeyi severim. Et de severim.",
+        "Ne balık ne et severim."
+      ],
+      "dogruCevaplar": ["Balık yemeyi severim. Et sevmem."],
+      "aciklama": "gern severek demektir, nicht olumsuzluk katar: Ich esse gern Fisch. Fleisch mag ich nicht.",
+      "ipucu": "Hangi yiyeceğin sevildiğine, hangisinin sevilmediğine kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich esse gern Fisch. Fleisch mag ich nicht."
+    },
+    {
+      "id": "m7-d44-q11",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Erkek kardeşinin ve senin balık sevdiğinizi söylüyorsun:",
+      "ifade": "Mein Bruder und ich mag Fisch.",
+      "dogru": false,
+      "aciklama": "Yanlış. Çoğul özneyle mögen biçimi mögen olur: Mein Bruder und ich mögen Fisch.",
+      "ipucu": "Özne iki kişiyi kapsıyor.",
+      "bicim": "senaryo",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d44-q12",
+      "tip": "ceviri",
+      "soru": "Almanca'ya çevir. (Tee = çay)",
+      "kaynak": "Siz çay sever misiniz?",
+      "dogruCevaplar": ["Mögen Sie Tee", "Mögen Sie Tee?"],
+      "aciklama": "Sie ile mögen çoğul biçimde kalır ve soruda başa gelir: Mögen Sie Tee?",
+      "ipucu": "Soruda çekimli fiil başa gelir.",
+      "bicim": "senaryo",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d44-q13",
+      "tip": "eslestirme",
+      "soru": "Almanca yiyecek ve içecekleri Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        { "sol": "Fleisch", "sag": "et" },
+        { "sol": "Fisch", "sag": "balık" },
+        { "sol": "Reis", "sag": "pirinç" },
+        { "sol": "Kuchen", "sag": "kek" },
+        { "sol": "Milch", "sag": "süt" },
+        { "sol": "Obst", "sag": "meyve" }
+      ],
+      "aciklama": "Yiyecek ve içecek adları: Fleisch et, Fisch balık, Reis pirinç, Kuchen kek, Milch süt, Obst meyve.",
+      "ipucu": "Önce bildiğin sözcükleri eşleştir.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d44-q14",
+      "tip": "fiil-cekimi",
+      "soru": "\"mögen\" fiilini her zamire göre çek.",
+      "fiil": "mögen",
+      "satirlar": [
+        { "zamir": "ich", "cevap": "mag", "verilen": true },
+        { "zamir": "du", "cevap": "magst" },
+        { "zamir": "er/sie/es", "cevap": "mag" },
+        { "zamir": "wir", "cevap": "mögen" },
+        { "zamir": "ihr", "cevap": "mögt" },
+        { "zamir": "sie/Sie", "cevap": "mögen" }
+      ],
+      "aciklama": "Tekilde kök mag, çoğulda mög olur; ich ve er/sie/es aynı biçimi alır: mag, magst, mag, mögen, mögt, mögen.",
+      "ipucu": "Çoğul kişilerde a harfi değişir.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m7-d44-q15",
+      "tip": "coktan-secmeli",
+      "soru": "Arkadaşına (du) kek sevip sevmediğini soruyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Mögt du Kuchen?",
+        "Magst du Kuchen?",
+        "Mag du Kuchen?"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`mögt` yalnızca `ihr` ile gelir; özne `du`.",
+        "",
+        "`mag` ich ve er/sie/es ile gelir; özne `du`."
+      ],
+      "aciklama": "du ile mögen magst olur ve soruda başa gelir: Magst du Kuchen?",
+      "ipucu": "du zamirinin çekimdeki sonuna bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich nehme ein Stück Kuchen.",
+      "glossKapali": true
+    }
+  ]
+}
