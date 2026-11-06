@@ -87,21 +87,21 @@
    "id": "m6-s-q04",
    "tip": "dinleme",
    "soru": "İstasyonda biri bir tren hakkında soru soruyor. Duyduğun cümleyi seç.",
-   "okunacak": "Wann kommt dieser Zug in Hamburg an?",
+   "okunacak": "Wann kommt der Zug in Hamburg an?",
    "mod": "sec",
    "secenekler": [
-    "Bu tren Hamburg'a ne zaman varıyor?",
-    "Bu tren Hamburg'dan ne zaman kalkıyor?",
-    "Bu tren Hamburg'a nereden gidiyor?",
-    "Bu tren Hamburg'da nerede kalkıyor?"
+    "Tren Hamburg'a ne zaman varıyor?",
+    "Tren Hamburg'dan ne zaman kalkıyor?",
+    "Tren Hamburg'a nereden gidiyor?",
+    "Tren Hamburg'da nerede kalkıyor?"
    ],
    "dogruCevaplar": [
-    "Bu tren Hamburg'a ne zaman varıyor?"
+    "Tren Hamburg'a ne zaman varıyor?"
    ],
-   "aciklama": "Wann ne zaman demektir, ankommen varmak demektir: Wann kommt dieser Zug in Hamburg an?",
+   "aciklama": "Wann ne zaman demektir, ankommen varmak demektir: Wann kommt der Zug in Hamburg an?",
    "ipucu": "Soru sözcüğünü ve fiilin anlamını yakala.",
    "bicim": "senaryo",
-   "kaynakTuru": "goethe",
+   "kaynakTuru": "uyarlama",
    "kaynakCumle": "Wann kommt dieser Zug in Hamburg an?"
   },
   {
