@@ -1,0 +1,307 @@
+{
+  "id": "m5-d29",
+  "ders": 29,
+  "baslik": "nicht ve kein",
+  "videoId": "RYIHBt2B3hs",
+  "ozet": [
+    "Almancada olumsuzluk iki sözcükle yapılır: nicht (değil) ve kein (hiç, hiçbir; yok). Kural: ein ile kullanılan ya da artikelsiz bir isim olumsuz olunca kein gelir. Ich habe Zeit. – Ich habe keine Zeit. (die Zeit = vakit.) Türkçede vaktim yok denir, Almanca ise hiç vakit der.",
+    "kein, ein gibi ek alır. Dişil isimde ve çoğulda keine, nötr isimde kein gelir: Ich habe heute keine Zeit. Er gibt leider keine Antwort. Ich habe leider keine Geschwister. Wir haben kein Auto. (die Antwort = cevap, die Geschwister = kardeşler, çoğul; das Auto = araba; geben = vermek, er gibt = o verir; heute = bugün; leider = maalesef.) Eril isimler farklı bir ek alır; bu derste yalnız dişil, nötr ve çoğul isimler sorulur.",
+    "Geri kalan her şeyi nicht olumsuzlar: fiili, sıfatı, yer ifadesini. Ich kenne das Wort nicht. Paul ist nicht zu Hause. Deutsch ist nicht leicht. Belirli artikelli isim (das Wort) de nicht ile olumsuzlanır. Artikelsiz isimle nicht kullanmak yanlıştır: Ich habe nicht Zeit denmez, Ich habe keine Zeit denir."
+  ],
+  "kelimeler": [
+    { "de": "kein", "tr": "hiç, hiçbir (nötr)" },
+    { "de": "keine", "tr": "hiç, hiçbir (dişil, çoğul)" },
+    { "de": "die Zeit", "tr": "vakit, zaman", "artikel": "die" },
+    { "de": "die Antwort", "tr": "cevap", "artikel": "die" },
+    { "de": "die Geschwister", "tr": "kardeşler (çoğul)" },
+    { "de": "das Auto", "tr": "araba", "artikel": "das" },
+    { "de": "geben", "tr": "vermek" },
+    { "de": "heute", "tr": "bugün" }
+  ],
+  "trickler": [
+    {
+      "baslik": "İsim ein alıyorsa kein",
+      "metin": "ein ile gelen ya da artikelsiz isim olumsuz olunca kein alır: eine Zeit, keine Zeit. ein Auto, kein Auto."
+    },
+    {
+      "baslik": "Geri kalan her şey nicht",
+      "metin": "Fiil, sıfat, yer ifadesi ve belirli artikelli isim nicht ile olumsuzlanır: Ich kenne das Wort nicht. Paul ist nicht zu Hause."
+    },
+    {
+      "baslik": "Dişil ve çoğulda keine",
+      "metin": "Dişil ve çoğul isimde keine gelir: keine Zeit, keine Antwort, keine Geschwister. Nötr isimde kein gelir: kein Auto."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m5-d29-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Bugün hiç vaktin olmadığını söylüyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Ich habe heute ___ Zeit.",
+      "secenekler": ["kein", "keine", "nicht", "nein"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`kein` nötr isimle gelir; `die Zeit` dişildir.",
+        "",
+        "`nicht` artikelsiz isimle kullanılmaz; bu durumda `kein-` gelir.",
+        "`nein` cevabın başında hayır demektir, ismi olumsuzlamaz."
+      ],
+      "aciklama": "Zeit dişildir ve burada artikelsizdir; olumsuzu keine olur: Ich habe heute keine Zeit.",
+      "ipucu": "Zeit sözcüğünün artikelini hatırla.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich habe heute keine Zeit.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d29-q02",
+      "tip": "coktan-secmeli",
+      "soru": "Hiç kardeşin olmadığını söylüyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Ich habe leider ___ Geschwister.",
+      "secenekler": ["keine", "nicht", "kein", "nein"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`nicht` artikelsiz isimle kullanılmaz; bu durumda `kein-` gelir.",
+        "`kein` tekil nötr isimle gelir; `Geschwister` çoğuldur.",
+        "`nein` cevabın başında hayır demektir, ismi olumsuzlamaz."
+      ],
+      "aciklama": "Geschwister çoğuldur ve artikelsizdir; olumsuzu keine olur: Ich habe leider keine Geschwister.",
+      "ipucu": "Geschwister çoğul bir sözcüktür.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich habe leider keine Geschwister.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d29-q03",
+      "tip": "bosluk-doldurma",
+      "soru": "Arabanın olmadığını söylüyorsun. Boşluğa uygun olumsuz sözcüğü yaz.",
+      "metin": "Wir haben ___ Auto.",
+      "dogruCevaplar": ["kein"],
+      "aciklama": "Auto nötrdür (das Auto) ve burada artikelsizdir; olumsuzu kein olur: Wir haben kein Auto.",
+      "ipucu": "Auto sözcüğünün artikelini düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d29-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Lena çarşamba günü için vaktin olup olmadığını soruyor. Mert'in cevabını tamamla.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Hast du am Mittwoch Zeit?" },
+        { "kim": "Mert", "metin": "Am Mittwoch habe ich leider ___ Zeit." }
+      ],
+      "secenekler": ["kein", "nicht", "keine", "nein"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`kein` nötr isimle gelir; `die Zeit` dişildir.",
+        "`nicht` artikelsiz isimle kullanılmaz; bu durumda `kein-` gelir.",
+        "",
+        "`nein` cevabın başında hayır demektir, ismi olumsuzlamaz."
+      ],
+      "aciklama": "Zeit dişildir ve artikelsizdir; olumsuzu keine olur: Am Mittwoch habe ich leider keine Zeit.",
+      "ipucu": "Cevaptaki ismin artikelini düşün.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Am Mittwoch habe ich leider keine Zeit.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d29-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Lena Paul'ün evde olup olmadığını soruyor. Mert Paul'ün evde olmadığını söylüyor.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Ist Paul heute zu Hause?" },
+        { "kim": "Mert", "metin": "Paul ist ___ zu Hause." }
+      ],
+      "secenekler": ["kein", "keine", "nein", "nicht"],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`kein` ismin önünde gelir; burada olumsuzlanan bir isim yok, yer ifadesi var.",
+        "`keine` ismin önünde gelir; burada olumsuzlanan bir isim yok, yer ifadesi var.",
+        "`nein` cevabın başında hayır demektir, cümleyi içeriden olumsuzlamaz.",
+        ""
+      ],
+      "aciklama": "zu Hause bir yer ifadesidir, kein- ile olumsuzlanmaz; nicht yer ifadesinden önce gelir: Paul ist nicht zu Hause.",
+      "ipucu": "Boşluktan sonra bir isim değil, yer bilgisi geliyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Paul ist nicht zu Hause.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d29-q06",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Bu sözcüğü bilmiyorum.",
+      "parcalar": ["ich", "kenne", "das Wort", "nicht"],
+      "dogruSiralar": [
+        ["ich", "kenne", "das Wort", "nicht"],
+        ["das Wort", "kenne", "ich", "nicht"]
+      ],
+      "aciklama": "Belirli artikelli isim nicht ile olumsuzlanır ve nicht sonda durur; çekimli fiil ikinci sırada kalır: Ich kenne das Wort nicht.",
+      "ipucu": "Olumsuzluk sözcüğü cümlenin en sonunda yer alıyor.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich kenne das Wort nicht."
+    },
+    {
+      "id": "m5-d29-q07",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Maalesef cevap vermiyor.",
+      "parcalar": ["er", "gibt", "leider", "keine Antwort"],
+      "dogruSiralar": [
+        ["er", "gibt", "leider", "keine Antwort"],
+        ["leider", "gibt", "er", "keine Antwort"]
+      ],
+      "aciklama": "keine ve ismi birlikte kalır; çekimli fiil ikinci sırada durur: Er gibt leider keine Antwort.",
+      "ipucu": "Çekimli fiil her zaman ikinci sırada kalır.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Er gibt leider keine Antwort."
+    },
+    {
+      "id": "m5-d29-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Maalesef hiç kardeşin olmadığını söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Ich habe leider nicht Geschwister.",
+        "Ich habe leider keine Geschwister.",
+        "Ich habe leider kein Geschwister.",
+        "Ich habe leider Geschwister nicht."
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`nicht` artikelsiz isimden önce kullanılmaz; isim `kein-` ile olumsuzlanır.",
+        "",
+        "`kein` tekil nötr isimle gelir; `Geschwister` çoğuldur.",
+        "`nicht` artikelsiz isimden sonra kullanılmaz; isim `kein-` ile olumsuzlanır."
+      ],
+      "aciklama": "Geschwister çoğul ve artikelsizdir; olumsuzu keine olur: Ich habe leider keine Geschwister.",
+      "ipucu": "Çoğul ismin önünde hangi ek geldiğine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich habe leider keine Geschwister.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d29-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Paul'ün evde olmadığını söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Paul ist nicht zu Hause.",
+        "Paul ist keine zu Hause.",
+        "Paul nicht ist zu Hause.",
+        "Paul ist zu Hause nein."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`keine` isimle gelir; `zu Hause` bir yer ifadesidir.",
+        "Çekimli fiil ikinci sırada kalır; `nicht` fiilden sonra gelir.",
+        "`nein` cevabın başında hayır demektir, cümleyi olumsuzlamaz."
+      ],
+      "aciklama": "Yer ifadesi nicht ile olumsuzlanır ve nicht ondan önce gelir: Paul ist nicht zu Hause.",
+      "ipucu": "Hem olumsuzluk sözcüğüne hem de fiilin yerine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Paul ist nicht zu Hause.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d29-q10",
+      "tip": "dinleme",
+      "soru": "Bir arkadaşın çarşamba günü hakkında bir şey söylüyor. Duyduğun cümleyi seç.",
+      "okunacak": "Am Mittwoch habe ich leider keine Zeit.",
+      "mod": "sec",
+      "secenekler": [
+        "Çarşamba günü maalesef vaktim yok.",
+        "Çarşamba günü maalesef vaktim var.",
+        "Perşembe günü maalesef vaktim yok.",
+        "Çarşamba günü maalesef vaktim çok."
+      ],
+      "dogruCevaplar": ["Çarşamba günü maalesef vaktim yok."],
+      "aciklama": "keine Zeit vaktim yok demektir: Am Mittwoch habe ich leider keine Zeit.",
+      "ipucu": "Cümlede olumsuz bir sözcük var.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Am Mittwoch habe ich leider keine Zeit.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d29-q11",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Bir kişinin cevap vermediğini söylüyorsun:",
+      "ifade": "Er gibt leider keine Antwort.",
+      "dogru": true,
+      "aciklama": "Doğru. Antwort dişildir, olumsuzu keine olur: Er gibt leider keine Antwort.",
+      "ipucu": "İsmin artikelini ve olumsuz ekin ona uyup uymadığını kontrol et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Er gibt leider keine Antwort.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d29-q12",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Bugün vaktin olmadığını söylüyorsun:",
+      "ifade": "Ich habe heute nicht Zeit.",
+      "dogru": false,
+      "aciklama": "Yanlış. Artikelsiz isim kein- ile olumsuzlanır: Ich habe heute keine Zeit.",
+      "ipucu": "Olumsuzlanan şey bir isim.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich habe heute keine Zeit.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d29-q13",
+      "tip": "coktan-secmeli",
+      "soru": "Almancanın kolay olmadığını söylüyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Deutsch ist ___ leicht.",
+      "secenekler": ["keine", "nein", "nicht", "kein"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`keine` bir ismin önünde gelir; burada olumsuzlanan sıfattır.",
+        "`nein` cevabın başında hayır demektir, sıfatı olumsuzlamaz.",
+        "",
+        "`kein` bir ismin önünde gelir; burada olumsuzlanan sıfattır."
+      ],
+      "aciklama": "Sıfat nicht ile olumsuzlanır ve nicht sıfattan önce gelir: Deutsch ist nicht leicht.",
+      "ipucu": "Boşluktan sonra bir isim değil, sıfat geliyor.",
+      "bicim": "bosluk",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d29-q14",
+      "tip": "eslestirme",
+      "soru": "Almanca sözcükleri Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        { "sol": "nicht", "sag": "değil" },
+        { "sol": "die Zeit", "sag": "vakit" },
+        { "sol": "die Antwort", "sag": "cevap" },
+        { "sol": "die Geschwister", "sag": "kardeşler" },
+        { "sol": "das Auto", "sag": "araba" },
+        { "sol": "heute", "sag": "bugün" }
+      ],
+      "aciklama": "Bu derste nicht ve kein ile birlikte kullanılan sözcükleri tekrar ettin.",
+      "ipucu": "Önce emin olduğun sözcükleri eşleştir.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d29-q15",
+      "tip": "artikel",
+      "soru": "Bu ismin artikelini seç.",
+      "isim": "Antwort",
+      "dogru": "die",
+      "aciklama": "Antwort dişildir: die Antwort. Olumsuzu keine Antwort olur.",
+      "ipucu": "Bu sözcüğü kelime listesinde hangi artikelle gördüğünü hatırla.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    }
+  ]
+}
