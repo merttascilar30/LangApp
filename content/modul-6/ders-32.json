@@ -1,0 +1,448 @@
+{
+  "id": "m6-d32",
+  "ders": 32,
+  "baslik": "Akkusativ",
+  "videoId": "aoIUfv5gkC8",
+  "ozet": [
+    "Akkusativ (-i hâli) cümlenin nesnesinin hâlidir. Nesneyi bulmak için fiille birlikte Wen? (kimi) veya Was? (neyi) diye sorarız: Ich nehme den Bus. Was nehme ich? Den Bus. Akkusativ'le çalışan sık fiiller: nehmen (almak), haben (sahip olmak), kaufen (satın almak), möchten (istemek). möchtest du = ister misin. Örnek: Ich kaufe einen Liter Milch. Hast du einen Bleistift?",
+    "Akkusativ'de yalnızca eril (der) isimlerin artikeli değişir: der olur den, ein olur einen, kein olur keinen. Örnek: der Bus, ich nehme den Bus; ein Brief, ich habe einen Brief; der Wein, ich möchte keinen Wein. Türkçede -i eki yalnızca belirli nesnede gelir (otobüsü); Almanca'da değişiklik artikelde görünür ve belirsiz eril nesnede de olur (einen Bus, bir otobüs).",
+    "die, das, eine ve ein aynı kalır. Dişil ve nötr isimlerde Nominativ ile Akkusativ aynıdır: Ich kaufe eine Birne. Ich kaufe einen Apfel und eine Birne. (und = ve.) Çoğulda die de aynı kalır.",
+    "Cümleye vurgu vermek için nesne başa geçebilir. Çekimli fiil yine ikinci sırada kalır, özne fiilin arkasına geçer: Den Bus nehme ich. Einen Liter Milch kaufe ich. Yeni isimler: der Apfelsaft (elma suyu), der Wein (şarap), der Bleistift (kurşun kalem), der Kugelschreiber (tükenmez kalem), der Brief (mektup), der Garten (bahçe), der Liter (litre). leider = maalesef, für mich = benim için."
+  ],
+  "kelimeler": [
+    {
+      "de": "der Apfelsaft",
+      "tr": "elma suyu",
+      "artikel": "der"
+    },
+    {
+      "de": "der Wein",
+      "tr": "şarap",
+      "artikel": "der"
+    },
+    {
+      "de": "der Bleistift",
+      "tr": "kurşun kalem",
+      "artikel": "der"
+    },
+    {
+      "de": "der Kugelschreiber",
+      "tr": "tükenmez kalem",
+      "artikel": "der"
+    },
+    {
+      "de": "der Brief",
+      "tr": "mektup",
+      "artikel": "der"
+    },
+    {
+      "de": "der Garten",
+      "tr": "bahçe",
+      "artikel": "der"
+    },
+    {
+      "de": "der Liter",
+      "tr": "litre",
+      "artikel": "der"
+    },
+    {
+      "de": "der Bus",
+      "tr": "otobüs",
+      "artikel": "der"
+    }
+  ],
+  "trickler": [
+    {
+      "baslik": "Nesneyi Wen? Was? ile bul",
+      "metin": "Fiille birlikte sor: Was nehme ich? Den Bus. Cevap nesne, yani Akkusativ'dir."
+    },
+    {
+      "baslik": "Yalnızca eril değişir",
+      "metin": "der olur den, ein olur einen, kein olur keinen. die, das, eine aynı kalır: ich kaufe eine Birne."
+    },
+    {
+      "baslik": "Nesne başa geçebilir",
+      "metin": "Den Bus nehme ich. Fiil ikinci sırada kalır, özne fiilin arkasına geçer."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m6-d32-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Her gün kullandığın otobüse bineceğini söylüyorsun. Boşluğa uygun artikeli seç.",
+      "metin": "Ich nehme ___ Bus.",
+      "secenekler": [
+        "der",
+        "die",
+        "den",
+        "das"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`der` Nominativ'dir; nesne Akkusativ'de `den` olur.",
+        "`die` dişil ve çoğul isimle gelir; `Bus` eril bir isimdir.",
+        "",
+        "`das` nötr isimle gelir; `Bus` eril bir isimdir."
+      ],
+      "aciklama": "Bus eril bir isimdir ve nesne olduğu için der, den olur: Ich nehme den Bus.",
+      "ipucu": "Otobüs sözcüğü nesne konumunda; eril artikelin nesne hâlini düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich nehme den Bus.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d32-q02",
+      "tip": "coktan-secmeli",
+      "soru": "Bir arkadaşına herhangi bir elma suyu ikram ediyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Möchtest du ___ Apfelsaft?",
+      "secenekler": [
+        "ein",
+        "einen",
+        "eine",
+        "der"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`ein` Nominativ'de eril isimle gelir; nesne olan `Apfelsaft` için `einen` gerekir.",
+        "",
+        "`eine` dişil isimle gelir; `Apfelsaft` eril bir isimdir.",
+        "`der` belirli artikeldir; burada belirsiz bir elma suyu söz konusu."
+      ],
+      "aciklama": "Apfelsaft eril ve nesne olduğu için ein, einen olur: Möchtest du einen Apfelsaft?",
+      "ipucu": "Belirsiz artikelin eril nesne biçimini düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Möchtest du einen Apfelsaft?",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d32-q03",
+      "tip": "bosluk-doldurma",
+      "soru": "Şarap istemediğini söylüyorsun. Boşluğa uygun sözcüğü yaz.",
+      "metin": "Nein danke, ich möchte ___ Wein.",
+      "dogruCevaplar": [
+        "keinen"
+      ],
+      "aciklama": "Wein eril ve nesne olduğu için kein, keinen olur: Nein danke, ich möchte keinen Wein.",
+      "ipucu": "Olumsuzluk sözcüğünün eril nesne biçimi gerekiyor.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Nein danke, ich möchte keinen Wein.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d32-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Lena, Mert'ten bir kurşun kalem istiyor. Boşluğa uygun sözcüğü seç.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Hast du ___ Bleistift?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Ja, hier, bitte."
+        }
+      ],
+      "secenekler": [
+        "einen",
+        "ein",
+        "eine",
+        "der"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`ein` Nominativ biçimidir; `haben` fiilinin nesnesi için `einen` gerekir.",
+        "`eine` dişil isimle gelir; `Bleistift` eril bir isimdir.",
+        "`der` belirli artikeldir; Lena herhangi bir kalem istiyor."
+      ],
+      "aciklama": "Bleistift eril ve haben fiilinin nesnesi olduğu için ein, einen olur: Hast du einen Bleistift?",
+      "ipucu": "Sahip olunan şey nesnedir; eril isim için belirsiz artikeli değiştir.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Hast du einen Bleistift?",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d32-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Lena evlerinde bahçe olup olmadığını soruyor. Mert bahçeleri olmadığını söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Habt ihr einen Garten?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Wir haben leider ___ Garten."
+        }
+      ],
+      "secenekler": [
+        "kein",
+        "keine",
+        "keinen",
+        "nicht"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`kein` Nominativ biçimidir; nesne olan eril `Garten` için `keinen` gerekir.",
+        "`keine` dişil isimle gelir; `Garten` eril bir isimdir.",
+        "",
+        "`nicht` isimden önce artikel yerine kullanılmaz; isim olumsuzu `kein` biçimleriyle kurulur."
+      ],
+      "aciklama": "Garten eril ve nesne olduğu için kein, keinen olur: Wir haben leider keinen Garten.",
+      "ipucu": "Bahçe eril bir isim ve haben fiilinin nesnesi.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir haben leider keinen Garten.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d32-q06",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Bir litre süt alıyorum.",
+      "parcalar": [
+        "ich",
+        "kaufe",
+        "einen Liter Milch"
+      ],
+      "dogruSiralar": [
+        [
+          "ich",
+          "kaufe",
+          "einen Liter Milch"
+        ],
+        [
+          "einen Liter Milch",
+          "kaufe",
+          "ich"
+        ]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; nesne başa geçerse özne fiilin arkasına kayar: Ich kaufe einen Liter Milch.",
+      "ipucu": "Fiilin yeri sabit, özne ile nesne yer değiştirebilir.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich kaufe einen Liter Milch."
+    },
+    {
+      "id": "m6-d32-q07",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Benim için bir mektubunuz var mı?",
+      "parcalar": [
+        "haben Sie",
+        "einen Brief",
+        "für mich"
+      ],
+      "dogruSiralar": [
+        [
+          "haben Sie",
+          "einen Brief",
+          "für mich"
+        ],
+        [
+          "haben Sie",
+          "für mich",
+          "einen Brief"
+        ]
+      ],
+      "aciklama": "Evet-hayır sorusunda çekimli fiil başa gelir, özne hemen arkasından gelir: Haben Sie einen Brief für mich?",
+      "ipucu": "Evet-hayır sorusunun ilk sözcüğü fiildir.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Haben Sie einen Brief für mich?"
+    },
+    {
+      "id": "m6-d32-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Kafede garsona bir elma suyu istediğini söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Ich möchte einen Apfelsaft.",
+        "Ich möchte keinen Apfelsaft.",
+        "Ich möchte ein Apfelsaft.",
+        "Ich möchte eine Apfelsaft."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`keinen` olumsuzluk bildirir; sen elma suyu istiyorsun.",
+        "`ein` Nominativ biçimidir; nesne olan eril `Apfelsaft` için `einen` gerekir.",
+        "`eine` dişil isimle gelir; `Apfelsaft` eril bir isimdir."
+      ],
+      "aciklama": "Apfelsaft eril ve nesne olduğu için einen gelir: Ich möchte einen Apfelsaft.",
+      "ipucu": "İstenen şey olumlu ve eril bir nesne.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Möchtest du einen Apfelsaft?",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d32-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Bir arkadaşından tükenmez kalem istiyorsun. Hangi soruyu sorarsın?",
+      "secenekler": [
+        "Hast du eine Kugelschreiber für mich?",
+        "Hast du ein Kugelschreiber für mich?",
+        "Hast du Kugelschreiber einen für mich?",
+        "Hast du einen Kugelschreiber für mich?"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`eine` dişil isimle gelir; `Kugelschreiber` eril bir isimdir.",
+        "`ein` Nominativ biçimidir; nesne için `einen` gerekir.",
+        "Artikel ismin hemen önünde durur: `einen Kugelschreiber`.",
+        ""
+      ],
+      "aciklama": "Kugelschreiber eril ve haben fiilinin nesnesi olduğu için einen gelir: Hast du einen Kugelschreiber für mich?",
+      "ipucu": "Hem artikelin hâline hem de artikelin yerine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Hast du einen Kugelschreiber für mich?",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d32-q10",
+      "tip": "dinleme",
+      "soru": "Bir komşun evlerinin durumunu anlatıyor. Duyduğun cümleyi seç.",
+      "okunacak": "Wir haben leider keinen Garten.",
+      "mod": "sec",
+      "secenekler": [
+        "Maalesef bahçe yok.",
+        "Maalesef bahçe var.",
+        "Maalesef mektup yok.",
+        "Maalesef kalem yok."
+      ],
+      "dogruCevaplar": [
+        "Maalesef bahçe yok."
+      ],
+      "aciklama": "Keinen olumsuzluk, Garten bahçe demektir: Wir haben leider keinen Garten.",
+      "ipucu": "Hem olumsuzluk sözcüğüne hem de ismin anlamına kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir haben leider keinen Garten."
+    },
+    {
+      "id": "m6-d32-q11",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Otobüse bineceğini şöyle söylüyorsun:",
+      "ifade": "Ich nehme der Bus.",
+      "dogru": false,
+      "aciklama": "Yanlış. Bus eril ve nesne olduğu için der, den olur: Ich nehme den Bus.",
+      "ipucu": "Fiilin nesnesi olan eril ismin artikeline bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich nehme den Bus.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d32-q12",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Bir kalemin olduğunu şöyle söylüyorsun:",
+      "ifade": "Ich habe einen Kugelschreiber.",
+      "dogru": true,
+      "aciklama": "Doğru. Kugelschreiber eril ve haben fiilinin nesnesidir, bu yüzden ein, einen olur: Ich habe einen Kugelschreiber.",
+      "ipucu": "Nesne olan eril ismin önündeki belirsiz artikele bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Hast du einen Kugelschreiber für mich?",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d32-q13",
+      "tip": "coktan-secmeli",
+      "soru": "Pazarda bir elma ve bir armut aldığını söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Ich kaufe ein Apfel und eine Birne.",
+        "Ich kaufe einen Apfel und eine Birne.",
+        "Ich kaufe einen Apfel und einen Birne.",
+        "Ich kaufe ein Apfel und ein Birne."
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`Apfel` eril ve nesnedir; `ein` değil `einen` gerekir.",
+        "",
+        "`Birne` dişildir ve dişil artikel değişmez; `eine` kalır.",
+        "`Apfel` için `einen`, dişil `Birne` için `eine` gerekir."
+      ],
+      "aciklama": "Eril Apfel einen olur, dişil Birne eine olarak kalır: Ich kaufe einen Apfel und eine Birne.",
+      "ipucu": "Önce hangi ismin eril olduğunu bul.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich kaufe einen Liter Milch.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d32-q14",
+      "tip": "eslestirme",
+      "soru": "Almanca sözcükleri Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        {
+          "sol": "Apfelsaft",
+          "sag": "elma suyu"
+        },
+        {
+          "sol": "Wein",
+          "sag": "şarap"
+        },
+        {
+          "sol": "Bleistift",
+          "sag": "kurşun kalem"
+        },
+        {
+          "sol": "Kugelschreiber",
+          "sag": "tükenmez kalem"
+        },
+        {
+          "sol": "Brief",
+          "sag": "mektup"
+        },
+        {
+          "sol": "Garten",
+          "sag": "bahçe"
+        }
+      ],
+      "aciklama": "Hepsi eril isimdir: Akkusativ'de der den, ein einen olur.",
+      "ipucu": "Önce içecekleri, sonra kalemleri ayır.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d32-q15",
+      "tip": "artikel",
+      "soru": "Bu ismin artikelini seç.",
+      "isim": "Garten",
+      "dogru": "der",
+      "aciklama": "Garten eril bir isimdir: der Garten. Akkusativ'de den Garten, einen Garten olur.",
+      "ipucu": "Bahçe sözcüğünü bu dersin kelime listesinde hangi artikelle gördüğünü hatırla.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m6-d32-q16",
+      "tip": "coktan-secmeli",
+      "soru": "Bakkalda bir şişe su alacağını söylüyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Ich nehme ___ Flasche Wasser.",
+      "secenekler": [
+        "einen",
+        "den",
+        "ein",
+        "eine"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`einen` eril isimle gelir; `Flasche` dişildir.",
+        "`den` eril belirli artikeldir; `Flasche` dişildir.",
+        "`ein` eril ve nötr isimle gelir; `Flasche` dişildir.",
+        ""
+      ],
+      "aciklama": "Flasche dişildir ve dişil artikel Akkusativ'de değişmez: Ich nehme eine Flasche Wasser.",
+      "ipucu": "Dişil isimlerde nesne hâli ile yalın hâl aynıdır.",
+      "bicim": "bosluk",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Hast du einen Bleistift?",
+      "glossKapali": true
+    }
+  ]
+}

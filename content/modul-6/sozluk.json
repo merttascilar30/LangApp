@@ -56,6 +56,21 @@
     "das Essen": "yemek",
     "die Tomate": "domates",
     "das Hähnchen": "tavuk",
-    "die Flasche": "şişe"
+    "die Flasche": "şişe",
+    "der Apfelsaft": "elma suyu",
+    "der Wein": "şarap",
+    "der Bleistift": "kurşun kalem",
+    "der Kugelschreiber": "tükenmez kalem",
+    "der Brief": "mektup",
+    "der Garten": "bahçe",
+    "der Liter": "litre",
+    "nehme": "almak fiilinin çekimi",
+    "kaufe": "satın almak fiilinin çekimi",
+    "möchte": "istemek fiilinin çekimi",
+    "möchtest": "istemek fiilinin çekimi",
+    "leider": "maalesef",
+    "keinen": "hiç (eril, Akkusativ)",
+    "einen": "bir (eril, Akkusativ)",
+    "den": "belirli tanımlık (eril, Akkusativ)"
   }
 }
