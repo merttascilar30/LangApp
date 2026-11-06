@@ -1,0 +1,335 @@
+{
+  "id": "m6-d33",
+  "ders": 33,
+  "baslik": "Dativ",
+  "videoId": "0v9FefGFG4w",
+  "ozet": [
+    "Dativ (-e hâli) Wem? (kime) sorusunun cevabıdır: Ich helfe dem Mann. Wem helfe ich? Dem Mann. Dativ'de der ve das isimleri dem, dişil die ise der olur; çoğul die den olur ve isme genellikle -n eklenir. Belirsiz ve olumsuz biçimler: einem ve keinem (eril, nötr), einer ve keiner (dişil). Örnek: der Mann, dem Mann; das Kind, dem Kind; die Frau, der Frau; die Kinder, den Kindern.",
+    "helfen (yardım etmek), danken (teşekkür etmek) ve gehören (ait olmak) kişiyi Dativ'le kullanır. Türkçede de bu fiiller -e hâliyle gelir: adama yardım eder, kadına teşekkür eder. helfen çekimi: ich helfe, er/sie hilft. Örnek: Ich danke der Frau. Der Arzt hilft dem Kind. Wem gehört der Kugelschreiber? Der Kugelschreiber gehört der Frau.",
+    "mit (ile, -le) her zaman Dativ ister: mit dem Auto (arabayla), mit dem Zug, mit dem Fahrrad, mit dem Bus, mit dem Taxi, mit dem Fahrer. Wo? (nerede) sorusunda in ve auf da Dativ alır: in einem Restaurant (bir restoranda), in einem Dorf (bir köyde), auf dem Tisch (masanın üstünde). in dem çoğu zaman im olur. Nereye? sorusunda bu edatlar başka hâl alır; onu sonra göreceğiz.",
+    "Vücut ve sağlık: der Kopf (baş), der Arm (kol), der Bauch (karın), die Hand (el), das Bein (bacak), der Arzt (doktor). Ağrıyı yaşayan kişi Dativ'de olur: Dem Kind tut der Bauch weh. (Çocuğun karnı ağrıyor.) Yeni sözcükler: das Auto, der Zug, das Fahrrad, das Taxi, das Dorf, das Geschäft (dükkân), das Hotel (otel; in einem Hotel = bir otelde), das Restaurant, das Kind, vielleicht (belki), oder (veya), die Fotos (fotoğraflar). Frau Rausch = Bayan Rausch; arbeiten = çalışmak. Örnek: Frau Rausch arbeitet in einem Geschäft (bir dükkânda çalışıyor)."
+  ],
+  "kelimeler": [
+    { "de": "helfen", "tr": "yardım etmek" },
+    { "de": "danken", "tr": "teşekkür etmek" },
+    { "de": "gehören", "tr": "ait olmak" },
+    { "de": "der Arzt", "tr": "doktor", "artikel": "der" },
+    { "de": "das Kind", "tr": "çocuk", "artikel": "das" },
+    { "de": "der Kopf", "tr": "baş", "artikel": "der" },
+    { "de": "der Arm", "tr": "kol", "artikel": "der" },
+    { "de": "der Bauch", "tr": "karın", "artikel": "der" },
+    { "de": "die Hand", "tr": "el", "artikel": "die" },
+    { "de": "das Bein", "tr": "bacak", "artikel": "das" },
+    { "de": "das Taxi", "tr": "taksi", "artikel": "das" },
+    { "de": "das Dorf", "tr": "köy", "artikel": "das" }
+  ],
+  "trickler": [
+    {
+      "baslik": "Wem? sorusu Dativ'i bulur",
+      "metin": "Fiille birlikte sor: Wem helfe ich? Dem Mann. Cevap kişiyse ve fiil helfen, danken, gehören gibiyse Dativ'dir."
+    },
+    {
+      "baslik": "Dativ: dem, dem, der, den+n",
+      "metin": "Eril ve nötr dem, dişil der, çoğul den ve isme -n: dem Mann, dem Kind, der Frau, den Kindern."
+    },
+    {
+      "baslik": "mit her zaman Dativ ister",
+      "metin": "mit dem Auto, mit dem Zug, mit der Frau, mit den Kindern. mit görürsen artikeli Dativ yap."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m6-d33-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Otobüste şoförle konuşulmaması gerektiğini belirten bir uyarı yazıyorsun. Boşluğa uygun artikeli seç.",
+      "metin": "Bitte nicht mit ___ Fahrer sprechen!",
+      "secenekler": ["den", "dem", "der", "das"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`mit` sonrasında `den` yalnızca çoğul isimle gelir; `Fahrer` tekildir.",
+        "",
+        "`der` dişil isimle Dativ'de gelir; `Fahrer` eril bir isimdir.",
+        "`das` Dativ'de kullanılmaz; `mit` sonrası eril isim `dem` alır."
+      ],
+      "aciklama": "mit Dativ ister ve eril Fahrer için der, dem olur: Bitte nicht mit dem Fahrer sprechen!",
+      "ipucu": "mit sözcüğünden sonra hangi hâlin geldiğini hatırla.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Bitte nicht mit dem Fahrer sprechen!",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d33-q02",
+      "tip": "coktan-secmeli",
+      "soru": "Belki otobüsle geleceğini söylüyorsun. Boşluğa uygun artikeli seç.",
+      "metin": "Ich komme vielleicht mit ___ Bus.",
+      "secenekler": ["dem", "den", "der", "das"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`mit` sonrasında `den` yalnızca çoğul isimle gelir; `Bus` tekildir.",
+        "`der` dişil isimle Dativ'de gelir; `Bus` eril bir isimdir.",
+        "`das` Dativ'de kullanılmaz; `mit` sonrası eril isim `dem` alır."
+      ],
+      "aciklama": "Bus eril olduğu için mit sonrasında der, dem olur: Ich komme vielleicht mit dem Bus.",
+      "ipucu": "Taşıt aracı mit ile kullanılıyor; Dativ artikelini düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich komme vielleicht mit dem Bus.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d33-q03",
+      "tip": "bosluk-doldurma",
+      "soru": "Ailenin bir köyde yaşadığını söylüyorsun. Boşluğa belirsiz artikelin Dativ biçimini yaz.",
+      "metin": "Meine Familie lebt in ___ Dorf.",
+      "dogruCevaplar": ["einem"],
+      "aciklama": "Dorf nötrdür ve nerede? sorusunda in Dativ alır: Meine Familie lebt in einem Dorf.",
+      "ipucu": "Nerede? sorusunun cevabında nötr isim için ein hangi biçime girer?",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Meine Familie lebt in einem Dorf.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d33-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Lena, Mert'e işe nasıl gittiğini soruyor. Boşluğa uygun artikeli seç.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Fährst du mit ___ Fahrrad oder mit dem Auto?" },
+        { "kim": "Mert", "metin": "Heute nehme ich das Auto." }
+      ],
+      "secenekler": ["den", "der", "dem", "das"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`mit` sonrasında `den` yalnızca çoğul isimle gelir; `Fahrrad` tekildir.",
+        "`der` dişil isimle Dativ'de gelir; `Fahrrad` nötr bir isimdir.",
+        "",
+        "`das` Dativ'de kullanılmaz; `mit` sonrası nötr isim `dem` alır."
+      ],
+      "aciklama": "Fahrrad nötrdür ve mit Dativ ister: Fährst du mit dem Fahrrad oder mit dem Auto?",
+      "ipucu": "Aynı cümlede ikinci taşıt aracı da aynı edatla kullanılıyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Fährst du mit dem Fahrrad oder mit dem Auto?",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d33-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Lena fotoğrafların nerede olduğunu soruyor. Mert masanın üstünü gösteriyor. Boşluğa uygun artikeli seç.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Wo liegen die Fotos?" },
+        { "kim": "Mert", "metin": "Die Fotos liegen auf ___ Tisch." }
+      ],
+      "secenekler": ["das", "den", "der", "dem"],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`das` nötr isimle gelir; `Tisch` eril bir isimdir ve burada Dativ gerekir.",
+        "`den` çoğul Dativ'de gelir; `Tisch` tekildir.",
+        "`der` dişil isimle Dativ'de gelir; `Tisch` eril bir isimdir.",
+        ""
+      ],
+      "aciklama": "Nerede? sorusunda auf Dativ alır ve eril Tisch için der, dem olur: Die Fotos liegen auf dem Tisch.",
+      "ipucu": "Fotoğrafların durduğu yer soruluyor; eril isim için Dativ artikelini seç.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Fotos liegen auf dem Tisch.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d33-q06",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: O arabayla geliyor.",
+      "parcalar": ["er", "kommt", "mit dem Auto"],
+      "dogruSiralar": [
+        ["er", "kommt", "mit dem Auto"],
+        ["mit dem Auto", "kommt", "er"]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; mit dem Auto başa geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Taşıt ifadesi başa geçebilir, ama fiilin yeri değişmez.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Er kommt mit dem Auto."
+    },
+    {
+      "id": "m6-d33-q07",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Adama yardım ediyorum.",
+      "parcalar": ["ich", "helfe", "dem Mann"],
+      "dogruSiralar": [
+        ["ich", "helfe", "dem Mann"],
+        ["dem Mann", "helfe", "ich"]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; Dativ nesne başa geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Kişi nesnesi başa geçerse özne fiilin arkasında yer alır.",
+      "bicim": "siralama",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m6-d33-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Bugün otobüs olmadığını ve arkadaşının taksiyle gittiğini anlatıyorsun. Hangi cümleleri söylersin?",
+      "secenekler": [
+        "Es gibt heute keinen Bus mehr. Er fährt mit den Taxi.",
+        "Es gibt heute keinen Bus mehr. Er fährt mit dem Taxi.",
+        "Es gibt heute keinen Bus mehr. Er fährt mit der Taxi.",
+        "Es gibt heute keinen Bus mehr. Er fährt mit das Taxi."
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`mit` sonrasında `den` yalnızca çoğul isimle gelir; `Taxi` tekil nötrdür.",
+        "",
+        "`der` dişil isimle Dativ'de gelir; `Taxi` nötr bir isimdir.",
+        "`das` Dativ'de kullanılmaz; `mit` sonrası nötr isim `dem` alır."
+      ],
+      "aciklama": "Taxi nötrdür ve mit Dativ ister: Er fährt mit dem Taxi.",
+      "ipucu": "İkinci cümledeki taşıt aracının artikeline ve mit edatına bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Es gibt heute keinen Bus mehr. Er fährt mit dem Taxi.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d33-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Doktorun çocuğa yardım ettiğini anlatıyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Der Arzt hilft das Kind.",
+        "Der Arzt hilft der Kind.",
+        "Der Arzt hilft den Kind.",
+        "Der Arzt hilft dem Kind."
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`helfen` Dativ ister; `das` Dativ'de `dem` olur.",
+        "`der` dişil isimle Dativ'de gelir; `Kind` nötrdür.",
+        "`den` çoğul Dativ'de gelir; `Kind` tekildir.",
+        ""
+      ],
+      "aciklama": "helfen Dativ ister ve nötr Kind için das, dem olur: Der Arzt hilft dem Kind.",
+      "ipucu": "Yardım edilen kişi hangi hâlde olmalı?",
+      "bicim": "senaryo",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d33-q10",
+      "tip": "coktan-secmeli",
+      "soru": "Bugün bir restoranda yemek yiyeceğinizi söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Wir essen heute in einem Restaurant.",
+        "Wir essen heute in einen Restaurant.",
+        "Wir essen heute in einer Restaurant.",
+        "Wir essen heute in ein Restaurant."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`einen` eril Akkusativ biçimidir; `Restaurant` nötrdür ve burada Dativ gerekir.",
+        "`einer` dişil isimle Dativ'de gelir; `Restaurant` nötr bir isimdir.",
+        "`ein` Dativ biçimi değildir; nerede? sorusunun cevabında Dativ gerekir."
+      ],
+      "aciklama": "Nerede? sorusunda in Dativ alır ve nötr isim için einem gelir: Wir essen heute in einem Restaurant.",
+      "ipucu": "Yemek yenen yer soruluyor; nötr isim için Dativ biçimini seç.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir essen heute in einem Restaurant.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d33-q11",
+      "tip": "dinleme",
+      "soru": "Bir tanıdığın Bayan Rausch'un işini anlatıyor. Duyduğun cümleyi seç.",
+      "okunacak": "Frau Rausch arbeitet in einem Geschäft.",
+      "mod": "sec",
+      "secenekler": [
+        "Bayan Rausch bir dükkânda çalışıyor.",
+        "Bayan Rausch bir restoranda çalışıyor.",
+        "Bayan Rausch bir köyde çalışıyor.",
+        "Bayan Rausch bir otelde çalışıyor."
+      ],
+      "dogruCevaplar": ["Bayan Rausch bir dükkânda çalışıyor."],
+      "aciklama": "Geschäft dükkân demektir; in einem Geschäft bir dükkânda anlamına gelir: Frau Rausch arbeitet in einem Geschäft.",
+      "ipucu": "Çalışılan yeri bildiren son sözcüğe kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Frau Rausch arbeitet in einem Geschäft."
+    },
+    {
+      "id": "m6-d33-q12",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Birinin nasıl geldiğini söylüyorsun:",
+      "ifade": "Er kommt mit der Auto.",
+      "dogru": false,
+      "aciklama": "Yanlış. Auto nötrdür ve mit Dativ ister, bu yüzden dem gerekir: Er kommt mit dem Auto.",
+      "ipucu": "Auto sözcüğünün artikeli ile ifadedeki artikeli karşılaştır.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Er kommt mit dem Auto.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d33-q13",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Nasıl seyahat etmeyi sevdiğini söylüyorsun:",
+      "ifade": "Ich fahre gern mit dem Zug.",
+      "dogru": true,
+      "aciklama": "Doğru. Zug eril olduğu için mit sonrasında dem gelir: Ich fahre gern mit dem Zug.",
+      "ipucu": "mit sonrasındaki artikelin hâline bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich fahre gern mit dem Zug.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d33-q14",
+      "tip": "bosluk-doldurma",
+      "soru": "Çocuklara yardım ettiğini söylüyorsun. Boşluğa Kinder sözcüğünün Dativ çoğul biçimini yaz.",
+      "metin": "Ich helfe den ___.",
+      "dogruCevaplar": ["Kindern"],
+      "aciklama": "Dativ çoğulda artikel den olur ve isme -n eklenir: Ich helfe den Kindern.",
+      "ipucu": "Dativ çoğulda isim de bir ek alır.",
+      "bicim": "bosluk",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d33-q15",
+      "tip": "coktan-secmeli",
+      "soru": "Tükenmez kalemin bir kadına ait olduğunu söylüyorsun. Boşluğa uygun artikeli seç.",
+      "metin": "Der Kugelschreiber gehört ___ Frau.",
+      "secenekler": ["dem", "den", "der", "die"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`dem` eril ve nötr isimle gelir; `Frau` dişildir.",
+        "`den` çoğul Dativ'de gelir; `Frau` tekildir.",
+        "",
+        "`die` Nominativ ve Akkusativ'de gelir; `gehören` Dativ ister."
+      ],
+      "aciklama": "gehören Dativ ister ve dişil Frau için die, der olur: Der Kugelschreiber gehört der Frau.",
+      "ipucu": "Sahibi gösteren kişi Dativ'de olmalı; dişil biçimi düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d33-q16",
+      "tip": "eslestirme",
+      "soru": "Vücut ve sağlıkla ilgili Almanca sözcükleri Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        { "sol": "Kopf", "sag": "baş" },
+        { "sol": "Bauch", "sag": "karın" },
+        { "sol": "Hand", "sag": "el" },
+        { "sol": "Bein", "sag": "bacak" },
+        { "sol": "Arm", "sag": "kol" },
+        { "sol": "Arzt", "sag": "doktor" }
+      ],
+      "aciklama": "Kopf, Bauch ve Arm eril, Hand dişil, Bein nötr bir isimdir.",
+      "ipucu": "Önce kolay tanıdığın sözcükleri eşleştir.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    }
+  ]
+}
