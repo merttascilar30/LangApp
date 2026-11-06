@@ -1,0 +1,229 @@
+{
+  "soruSayisi": 25,
+  "gecmeNotu": 80,
+  "ekSorular": [
+    {
+      "id": "m7-s-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Bir otel çalışanı misafire resmî hitapla (Sie) kahve isteyip istemediğini soruyor. Cümleyi tamamla.",
+      "diyalog": [
+        { "kim": "Rezeption", "metin": "Guten Morgen!" },
+        { "kim": "Rezeption", "metin": "___ Sie einen Kaffee trinken?" }
+      ],
+      "secenekler": ["Willst", "Wollt", "Will", "Wollen"],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`Willst` du ile gelir; `Sie` ile `Wollen` kullanılır.",
+        "`Wollt` ihr ile gelir; `Sie` ile `Wollen` kullanılır.",
+        "`Will` ich ve er/sie/es ile gelir; `Sie` ile `Wollen` kullanılır.",
+        ""
+      ],
+      "aciklama": "wollen çekiminde Sie ile çoğul biçim gelir: Wollen Sie einen Kaffee trinken?",
+      "ipucu": "Çalışan misafire resmî hitapla konuşuyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wollen Sie einen Kaffee trinken?",
+      "glossKapali": true,
+      "sozlukEk": {
+        "morgen": "sabah"
+      }
+    },
+    {
+      "id": "m7-s-q02",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Yarın için daha alışveriş yapmam gerekiyor.",
+      "parcalar": ["ich", "muss", "noch für morgen", "einkaufen"],
+      "dogruSiralar": [
+        ["ich", "muss", "noch für morgen", "einkaufen"]
+      ],
+      "aciklama": "Çekimli modal fiil ikinci sırada kalır, ayrılabilen ana fiil mastar olarak sona gider: Ich muss noch für morgen einkaufen.",
+      "ipucu": "İki fiilden hangisinin çekimli olduğunu düşün.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich muss noch für morgen einkaufen."
+    },
+    {
+      "id": "m7-s-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Bir arkadaşına geceyi senin evinde geçirebileceğini söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Du kannst bei mich übernachten.",
+        "Du kannst zu mir übernachten.",
+        "Du kannst bei mir übernachten.",
+        "Du kannst bei ich übernachten."
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`bei` hep Dativ ister; `mich` Akkusativ'dir, doğrusu `mir`.",
+        "`zu` gidilen yönü gösterir; birinin evinde kalmak için `bei` gerekir.",
+        "",
+        "`ich` Nominativ'dir; `bei` sonrasında Dativ olan `mir` gelir."
+      ],
+      "aciklama": "bei birinin yanında veya evinde olmayı anlatır ve Dativ ister: Du kannst bei mir übernachten.",
+      "ipucu": "Birinin evinde bulunmayı anlatan edatı ve ondan sonraki hâli düşün.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Du kannst bei mir übernachten.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-s-q04",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Bir trenin Hamburg'a vardığını söylüyorsun:",
+      "ifade": "Der Zug ist in Hamburg angekommen.",
+      "dogru": true,
+      "aciklama": "Doğru. Varmak yer değiştirmeyi anlattığı için Perfekt'te sein gelir: Der Zug ist in Hamburg angekommen.",
+      "ipucu": "Yardımcı fiilin ve Partizip'in cümledeki yerine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Wann kommt dieser Zug in Hamburg an?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-s-q05",
+      "tip": "dinleme",
+      "soru": "Bir arkadaşın yolculuk öncesi ne yaptığını söylüyor (Reiseführer: gezi rehberi). Duyduğun cümleyi seç.",
+      "okunacak": "Ich kaufe mir einen Reiseführer von Berlin.",
+      "mod": "sec",
+      "secenekler": [
+        "Berlin'den gelen uçak geç geliyor.",
+        "Berlin için bir kitap alıyorum.",
+        "Berlin'den bir arkadaş geliyor.",
+        "Berlin'de bir ders var."
+      ],
+      "dogruCevaplar": ["Berlin için bir kitap alıyorum."],
+      "aciklama": "Reiseführer gezi rehberidir; von Berlin hangi şehrin rehberi olduğunu gösterir: Ich kaufe mir einen Reiseführer von Berlin.",
+      "ipucu": "Neyin satın alındığına ve hangi şehirden söz edildiğine kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich kaufe mir einen Reiseführer von Berlin."
+    },
+    {
+      "id": "m7-s-q06",
+      "tip": "bosluk-doldurma",
+      "soru": "Şimdi eve gittiğini söylüyorsun. Boşluğa uygun edatı yaz.",
+      "metin": "Ich gehe jetzt ___ Hause.",
+      "dogruCevaplar": ["nach"],
+      "aciklama": "Eve doğru hareket nach Hause ile söylenir: Ich gehe jetzt nach Hause.",
+      "ipucu": "Evde bulunmayı değil, eve doğru gitmeyi anlatan kalıbı düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich gehe jetzt nach Hause."
+    },
+    {
+      "id": "m7-s-q07",
+      "tip": "coktan-secmeli",
+      "soru": "Dün trenle Berlin'e gittiğini anlatıyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Gestern bin ich mit dem Zug nach Berlin gefahren.",
+        "Gestern habe ich mit dem Zug nach Berlin gefahren.",
+        "Gestern bin ich mit den Zug nach Berlin gefahren.",
+        "Gestern bin ich mit dem Zug zu Berlin gefahren."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`fahren` yer değiştirmeyi anlatır; Perfekt'te `haben` değil `sein` alır.",
+        "`Zug` eril olduğu için `mit` sonrasında Dativ gerekir; `den` yalnızca Akkusativ'de eril artikeldir, Dativ'de ise yalnızca çoğulda gelir.",
+        "Artikelsiz şehir adlarında yön için `zu` değil `nach` kullanılır."
+      ],
+      "aciklama": "Yer değiştiren fiil Perfekt'te sein alır, araç için mit + Dativ, şehir için nach kullanılır: Gestern bin ich mit dem Zug nach Berlin gefahren.",
+      "ipucu": "Yardımcı fiili, araçtan sonraki artikeli ve şehir önündeki edatı birlikte kontrol et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich fahre gern mit dem Zug.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-s-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Arayan kişi Herr Klein'ın orada olmadığını düşünüyor. Sen olumlu cevap veriyorsun. Cümleyi tamamla.",
+      "diyalog": [
+        { "kim": "Anruferin", "metin": "Ist Herr Klein nicht da?" },
+        { "kim": "Sekretärin", "metin": "___, er ist da." }
+      ],
+      "secenekler": ["Ja", "Nein", "Doch", "Bitte"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`Ja` olumsuz sorudaki olumlu karşı cevap için kullanılmaz; bunun için `Doch` gerekir.",
+        "`Nein` cevap olumsuz olduğunda gelir; burada cevap olumlu.",
+        "",
+        "`Bitte` soruya evet-hayır cevabı vermez."
+      ],
+      "aciklama": "nicht içeren soruya olumlu karşı cevap doch ile verilir: Doch, er ist da.",
+      "ipucu": "Sorunun olumsuz olduğuna ve cevabın olumlu olduğuna dikkat et.",
+      "bicim": "diyalog",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ist Herr Klein schon da?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-s-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Bir misafire (Sie) bir şeyi yapmasının yasak olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Achtung! Das dürft Sie nicht tun.",
+        "Achtung! Das dürfen Sie nicht tun.",
+        "Achtung! Das darfst Sie nicht tun.",
+        "Achtung! Das dürfen Sie tun nicht."
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`dürft` ihr ile gelir; `Sie` ile `dürfen` kullanılır.",
+        "",
+        "`darfst` du ile gelir; `Sie` ile `dürfen` kullanılır.",
+        "`nicht` ana fiilin hemen önünde durur, cümlenin sonunda değil."
+      ],
+      "aciklama": "Sie ile dürfen gelir, nicht mastardan hemen önce durur: Achtung! Das dürfen Sie nicht tun.",
+      "ipucu": "Resmî hitapta modal fiilin hangi çoğul biçimle çekildiğini hatırla.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Achtung! Das dürfen Sie nicht tun.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-s-q10",
+      "tip": "bosluk-doldurma",
+      "soru": "Öğretmene ayağa kalkman gerekip gerekmediğini soruyorsun. Boşluğa ayrılabilen fiili mastar olarak yaz.",
+      "metin": "Soll ich ___?",
+      "dogruCevaplar": ["aufstehen"],
+      "aciklama": "Gerekli olup olmadığını soran soruda sollen başta, ana fiil mastar olarak sondadır: Soll ich aufstehen?",
+      "ipucu": "Kalkmak anlamındaki ayrılabilen fiili bütün hâliyle düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Soll ich aufstehen?"
+    },
+    {
+      "id": "m7-s-q11",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Onu doktora götürmemiz gerekiyor.",
+      "parcalar": ["wir", "müssen", "ihn", "zum Arzt", "bringen"],
+      "dogruSiralar": [
+        ["wir", "müssen", "ihn", "zum Arzt", "bringen"],
+        ["ihn", "müssen", "wir", "zum Arzt", "bringen"],
+        ["zum Arzt", "müssen", "wir", "ihn", "bringen"]
+      ],
+      "aciklama": "Çekimli modal fiil ikinci sırada, mastar en sonda kalır; baştaki öğe değişirse özne arkaya kayar: Wir müssen ihn zum Arzt bringen.",
+      "ipucu": "Başa hangi öğe geçerse geçsin çekimli fiilin ve mastarın yeri sabittir.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir müssen ihn zum Arzt bringen."
+    },
+    {
+      "id": "m7-s-q12",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Arkadaşına (du) yol için birkaç ekmek almasını söylüyorsun:",
+      "ifade": "Nehm bitte noch ein paar Brote mit!",
+      "dogru": false,
+      "aciklama": "Yanlış. nehmen fiilinin du emri Nimm'dir: Nimm bitte noch ein paar Brote mit!",
+      "ipucu": "Kökte ünlüsü değişen fiillerin du emrini hatırla.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Nimm noch ein paar Brote für die Fahrt mit.",
+      "glossKapali": true,
+      "sozlukEk": {
+        "mit": "mitnehmen fiilinin ayrılmış öneki (yanına almak)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,482 @@
+{
+  "id": "m7-d43",
+  "ders": 43,
+  "baslik": "können",
+  "videoId": "vjuDIoW23eA",
+  "ozet": [
+    "können, yetenek veya olasılık anlatan bir modal fiildir: -ebilmek. Modal fiil çekimli olarak ikinci sırada durur, ana fiil mastar hâlinde cümlenin en sonuna gider. Herr Georgi kann gut kochen (Herr Georgi iyi yemek pişirebilir). Dil bilmek de können ile anlatılır, ana fiil gerekmez: Ich kann Deutsch und Russisch. Türkçede -ebilmek fiile eklenir, Almancada ise ayrı bir fiil kullanılır.",
+    "können çekimi: ich kann, du kannst, er/sie/es kann, wir können, ihr könnt, sie/Sie können. ich ve er/sie/es aynı biçimi alır (kann); çoğulda a harfi ö olur. Genel özne man da er/sie/es gibi kann alır: Kann man Sie anrufen? (Sizi arayabilir miyiz?)",
+    "Rica ve soru: modal fiil başa gelir, ana fiil sonda kalır. Können Sie mir helfen? (Bana yardım edebilir misiniz?) Können Sie ein paar Minuten warten? Kannst du mich verstehen? Soru sözcüğü varsa onun arkasına gelir: Wo kann ich mich anmelden? Wann können Sie kommen – heute oder morgen?",
+    "Önerilerde ve olasılıkta da können kullanılır: Du kannst bei mir übernachten (Bende kalabilirsin). Sie können das Geld auch überweisen (Parayı havale de edebilirsiniz). Başka bir öğe başa geçerse çekimli fiil yine ikinci sırada kalır, özne arkaya kayar: Das können wir später machen (Bunu daha sonra yapabiliriz)."
+  ],
+  "kelimeler": [
+    {
+      "de": "können",
+      "tr": "-ebilmek (yetenek, olasılık)"
+    },
+    {
+      "de": "helfen",
+      "tr": "yardım etmek"
+    },
+    {
+      "de": "warten",
+      "tr": "beklemek"
+    },
+    {
+      "de": "anrufen",
+      "tr": "aramak (telefon)"
+    },
+    {
+      "de": "anmelden (sich)",
+      "tr": "kaydolmak, kaydettirmek"
+    },
+    {
+      "de": "übernachten",
+      "tr": "geceyi geçirmek"
+    },
+    {
+      "de": "überweisen",
+      "tr": "havale etmek"
+    },
+    {
+      "de": "kochen",
+      "tr": "yemek pişirmek"
+    },
+    {
+      "de": "später",
+      "tr": "daha sonra"
+    },
+    {
+      "de": "ein paar",
+      "tr": "birkaç"
+    },
+    {
+      "de": "das Geld",
+      "tr": "para",
+      "artikel": "das"
+    },
+    {
+      "de": "die Minute",
+      "tr": "dakika",
+      "artikel": "die"
+    }
+  ],
+  "trickler": [
+    {
+      "baslik": "ich, er ve man: kann",
+      "metin": "können'de ich, er/sie/es ve man aynı biçimi alır: kann. du için kannst, wir ve sie/Sie için können, ihr için könnt kullanılır."
+    },
+    {
+      "baslik": "Modal ikinci, mastar sonda",
+      "metin": "Çekimli können ikinci sırada durur, ana fiil mastar olarak en sona gider: Du kannst bei mir übernachten. Soruda können başa gelir: Können Sie mir helfen?"
+    },
+    {
+      "baslik": "Soru sözcüğü + modal + özne",
+      "metin": "Soru sözcüğü varsa önce o gelir, sonra können, sonra özne: Wo kann ich mich anmelden? Mastar yine en sondadır."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m7-d43-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Herr Georgi'nin iyi yemek pişirebildiğini söylüyorsun. Boşluğa uygun biçimi seç.",
+      "metin": "Herr Georgi ___ gut kochen.",
+      "secenekler": [
+        "kannst",
+        "kann",
+        "können"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`kannst` yalnızca `du` ile gelir; özne Herr Georgi.",
+        "",
+        "`können` çoğul özneyle gelir; Herr Georgi tekildir."
+      ],
+      "aciklama": "Tekil üçüncü kişi ile können kann olur: Herr Georgi kann gut kochen.",
+      "ipucu": "Herr Georgi tek bir kişidir; tekil üçüncü kişi biçimini seç.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Herr Georgi kann gut kochen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d43-q02",
+      "tip": "bosluk-doldurma",
+      "soru": "Birine bugün mü yarın mı gelebileceğini soruyorsun. Boşluğa können fiilinin uygun biçimini yaz.",
+      "metin": "Wann ___ Sie kommen – heute oder morgen?",
+      "dogruCevaplar": [
+        "können"
+      ],
+      "aciklama": "Sie ile fiil çoğul biçimini alır: Wann können Sie kommen – heute oder morgen?",
+      "ipucu": "Nazik hitap biçiminin fiildeki karşılığını düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wann können Sie kommen – heute oder morgen?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d43-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Herr Braun, Frau Weber'i ne zaman arayabileceğini soruyor. Cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Herr Braun",
+          "metin": "Guten Tag, Frau Weber."
+        },
+        {
+          "kim": "Frau Weber",
+          "metin": "Guten Tag, Herr Braun."
+        },
+        {
+          "kim": "Herr Braun",
+          "metin": "Wann ___ ich Sie anrufen?"
+        }
+      ],
+      "secenekler": [
+        "Kannst",
+        "Kann",
+        "Können"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`kannst` yalnızca `du` ile gelir; cümlede özne `ich`.",
+        "",
+        "`können` çoğul özneyle gelir; cümlede özne `ich`."
+      ],
+      "aciklama": "ich ile können kann olur, soru sözcüğünden sonra gelir: Wann kann ich Sie anrufen?",
+      "ipucu": "Öznenin ich olduğuna bak.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wann kann ich Sie anrufen?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d43-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Herr Braun, Frau Weber'den yardım istiyor. Cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Herr Braun",
+          "metin": "Entschuldigung, Frau Weber!"
+        },
+        {
+          "kim": "Frau Weber",
+          "metin": "Ja, bitte?"
+        },
+        {
+          "kim": "Herr Braun",
+          "metin": "___ Sie mir helfen?"
+        }
+      ],
+      "secenekler": [
+        "Kannst",
+        "Kann",
+        "Können"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`Kannst` yalnızca `du` ile gelir; cümlede özne `Sie`.",
+        "`Kann` tekil özneyle gelir; `Sie` ile çoğul biçim kullanılır.",
+        ""
+      ],
+      "aciklama": "Sie ile können çoğul biçimde kalır ve soruda başa gelir: Können Sie mir helfen?",
+      "ipucu": "Nazik hitap Sie, fiilde çoğul özneyle aynı biçimi ister.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Können Sie mir helfen?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d43-q05",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Bende kalabilirsin.",
+      "parcalar": [
+        "übernachten",
+        "du",
+        "bei mir",
+        "kannst"
+      ],
+      "dogruSiralar": [
+        [
+          "du",
+          "kannst",
+          "bei mir",
+          "übernachten"
+        ],
+        [
+          "bei mir",
+          "kannst",
+          "du",
+          "übernachten"
+        ]
+      ],
+      "aciklama": "Çekimli kannst ikinci sırada, mastar übernachten sonda kalır: Du kannst bei mir übernachten.",
+      "ipucu": "Başa hangi öğe gelirse gelsin çekimli fiilin yeri değişmez.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Du kannst bei mir übernachten.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d43-q06",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Nereden kaydolabilirim?",
+      "parcalar": [
+        "anmelden",
+        "wo",
+        "ich",
+        "mich",
+        "kann"
+      ],
+      "dogruSiralar": [
+        [
+          "wo",
+          "kann",
+          "ich",
+          "mich",
+          "anmelden"
+        ]
+      ],
+      "aciklama": "Soru sözcüğünden sonra können gelir, mastar anmelden sonda kalır: Wo kann ich mich anmelden?",
+      "ipucu": "Soru sözcüğü başta, modal fiil ondan hemen sonra gelir.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wo kann ich mich anmelden?"
+    },
+    {
+      "id": "m7-d43-q07",
+      "tip": "coktan-secmeli",
+      "soru": "Tanıştığın birine Almanca ve Rusça bildiğini söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Ich kann Deutsch und Russisch.",
+        "Ich können Deutsch und Russisch.",
+        "Ich kannst Deutsch und Russisch.",
+        "Kann ich Deutsch und Russisch."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`können` çoğul özneyle gelir; `ich` ile `kann` kullanılır.",
+        "`kannst` yalnızca `du` ile gelir; özne `ich`.",
+        "Düz cümlede özne başta durur; modal fiil soruda başa gelir."
+      ],
+      "aciklama": "ich ile können kann olur ve düz cümlede özneden sonra gelir: Ich kann Deutsch und Russisch.",
+      "ipucu": "Hem fiilin özneye uymasına hem de cümlenin düz cümle olmasına bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich kann Deutsch und Russisch.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d43-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Bir görevliye, onu telefonla arayıp arayamayacaklarını soruyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Können man Sie anrufen?",
+        "Kann man Sie anrufen?",
+        "Kann man anrufen Sie?",
+        "Kannst man Sie anrufen?"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`können` çoğul özneyle gelir; `man` er/sie/es gibi `kann` alır.",
+        "",
+        "Mastar `anrufen` cümlenin en sonunda durur.",
+        "`kannst` yalnızca `du` ile gelir; özne `man`."
+      ],
+      "aciklama": "man ile können kann olur, mastar sonda kalır: Kann man Sie anrufen?",
+      "ipucu": "Hem fiilin man ile uyumuna hem de mastarın yerine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Kann man Sie anrufen?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d43-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Birine ödemeyi havale ile de yapabileceğini söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Können Sie das Geld auch überweisen.",
+        "Sie kannst das Geld auch überweisen.",
+        "Sie können das Geld auch überweisen.",
+        "Sie können überweisen das Geld auch."
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "Düz cümlede özne başta durur; modal fiil soruda başa gelir.",
+        "`kannst` yalnızca `du` ile gelir; özne `Sie`.",
+        "",
+        "Mastar `überweisen` cümlenin en sonunda durur."
+      ],
+      "aciklama": "Sie ile können çoğul biçimde kalır, mastar sonda durur: Sie können das Geld auch überweisen.",
+      "ipucu": "Hem sondaki fiil biçimine hem de özneyle uyuma bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Sie können das Geld auch überweisen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d43-q10",
+      "tip": "dinleme",
+      "soru": "Biri senden yardım istiyor. Duyduğun cümleyi seç.",
+      "okunacak": "Können Sie mir helfen?",
+      "mod": "sec",
+      "secenekler": [
+        "Bana yardım edebilir misiniz?",
+        "Size yardım edebilir miyim?",
+        "Bana yardım edebilirsiniz.",
+        "Ona yardım edebilir misiniz?"
+      ],
+      "dogruCevaplar": [
+        "Bana yardım edebilir misiniz?"
+      ],
+      "aciklama": "können başta soru kurar; mir bana demektir: Können Sie mir helfen?",
+      "ipucu": "Cümlenin başındaki fiile ve soru işaretine kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Können Sie mir helfen?"
+    },
+    {
+      "id": "m7-d43-q11",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Bir müşteriden bekleyebilmesini rica ediyorsun:",
+      "ifade": "Können Sie ein paar Minuten warten?",
+      "dogru": true,
+      "aciklama": "Doğru. Sie ile können çoğul biçimde kalır, mastar sonda durur: Können Sie ein paar Minuten warten?",
+      "ipucu": "Fiilin Sie ile uyumuna ve mastarın yerine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Können Sie ein paar Minuten warten?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d43-q12",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Bir arkadaşına evinde kalabileceğini söylüyorsun:",
+      "ifade": "Du können bei mir übernachten.",
+      "dogru": false,
+      "aciklama": "Yanlış. du ile können kannst olur: Du kannst bei mir übernachten.",
+      "ipucu": "du zamirinin können çekimindeki sonuna bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Du kannst bei mir übernachten.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d43-q13",
+      "tip": "ceviri",
+      "soru": "Almanca'ya çevir. (später = daha sonra)",
+      "kaynak": "Biz bunu daha sonra yapabiliriz.",
+      "dogruCevaplar": [
+        "Wir können das später machen",
+        "Wir können das später machen.",
+        "Das können wir später machen",
+        "Das können wir später machen.",
+        "Später können wir das machen",
+        "Später können wir das machen."
+      ],
+      "aciklama": "wir ile können çoğul biçimde kalır, mastar machen sonda durur: Das können wir später machen.",
+      "ipucu": "Çekimli fiil ikinci sırada, mastar en sonda yer alır.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Das können wir später machen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d43-q14",
+      "tip": "coktan-secmeli",
+      "soru": "Arkadaşlarına sesinin gelip gelmediğini soruyorsun. Boşluğa uygun biçimi seç.",
+      "metin": "___ ihr mich verstehen?",
+      "secenekler": [
+        "Könnt",
+        "Kannst",
+        "Kann"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`Kannst` yalnızca `du` ile gelir; özne `ihr`.",
+        "`Kann` tekil özneyle gelir; `ihr` ile `könnt` kullanılır."
+      ],
+      "aciklama": "ihr ile können könnt olur: Könnt ihr mich verstehen?",
+      "ipucu": "ihr zamirinin können çekimindeki sonuna bak.",
+      "bicim": "bosluk",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Können Sie mich verstehen?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d43-q15",
+      "tip": "eslestirme",
+      "soru": "Almanca fiilleri Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        {
+          "sol": "helfen",
+          "sag": "yardım etmek"
+        },
+        {
+          "sol": "warten",
+          "sag": "beklemek"
+        },
+        {
+          "sol": "anrufen",
+          "sag": "aramak"
+        },
+        {
+          "sol": "übernachten",
+          "sag": "geceyi geçirmek"
+        },
+        {
+          "sol": "überweisen",
+          "sag": "havale etmek"
+        },
+        {
+          "sol": "kochen",
+          "sag": "yemek pişirmek"
+        }
+      ],
+      "aciklama": "Bu fiiller können ile kurulan cümlelerde mastar olarak sonda yer alır.",
+      "ipucu": "Önce anlamını bildiğin fiilleri eşleştir.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d43-q16",
+      "tip": "fiil-cekimi",
+      "soru": "\"können\" fiilini her zamire göre çek.",
+      "fiil": "können",
+      "satirlar": [
+        {
+          "zamir": "ich",
+          "cevap": "kann",
+          "verilen": true
+        },
+        {
+          "zamir": "du",
+          "cevap": "kannst"
+        },
+        {
+          "zamir": "er/sie/es",
+          "cevap": "kann"
+        },
+        {
+          "zamir": "wir",
+          "cevap": "können"
+        },
+        {
+          "zamir": "ihr",
+          "cevap": "könnt"
+        },
+        {
+          "zamir": "sie/Sie",
+          "cevap": "können"
+        }
+      ],
+      "aciklama": "Tekilde a, çoğulda ö kullanılır; ich ve er/sie/es aynı biçimi (kann) alır.",
+      "ipucu": "Tekil ve çoğul arasındaki ünlü farkına dikkat et.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    }
+  ]
+}

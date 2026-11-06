@@ -1,0 +1,329 @@
+{
+  "id": "m7-d40",
+  "ders": 40,
+  "baslik": "Perfekt",
+  "videoId": "K6uzkE2oVHU",
+  "ozet": [
+    "Perfekt, geçmişte olmuş bir şeyi anlatır ve konuşmada en çok kullanılan geçmiş zamandır. İki parçalıdır: şimdiki zamanda çekimli haben veya sein ikinci sırada, Partizip II ise cümlenin en sonunda durur. Ich habe das Lied schon mal gehört. Wir haben ein Apartment gemietet. Türkçedeki -di'li geçmişe (duydum, okudum, gördüm, verdim, yazdım) karşılık gelir; ama Türkçede tek sözcüktür, Almancada iki parça vardır. haben: ich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben. sein: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind.",
+    "Düzenli fiillerde Partizip II ge- + kök + -t biçimindedir: machen gemacht, hören gehört, kaufen gekauft. Kök t veya d ile bitiyorsa -et gelir: mieten gemietet. Düzensiz fiillerde ge- + kök + -en olur ve kök değişebilir: sehen gesehen, lesen gelesen, schließen geschlossen, kommen gekommen, gehen gegangen. Düzensiz Partizipleri ezberlemek gerekir. be-, ver-, er- ile başlayan fiiller ge- almaz: bezahlen bezahlt, verstehen verstanden. Örnek: Ich habe Ihre Anzeige in der Zeitung gelesen (Gazetede ilanınızı okudum). Die Bank hat am Samstag geschlossen. Ich habe diesen Jungen schon einmal gesehen.",
+    "Ayrılabilen fiillerde ge- ön ek ile gövdenin arasına girer ve Partizip II tek parça yazılır: anrufen angerufen, abholen abgeholt (almak, birini karşılamak), einkaufen eingekauft, aufstehen aufgestanden (kalkmak), abfahren abgefahren, ankommen angekommen. Ön ek cümlenin sonuna atılmaz. Ich habe meine Mutter angerufen. Ich habe meinen Bruder abgeholt. Der Zug ist in Hamburg angekommen.",
+    "Fiillerin çoğu Perfekt'te haben alır: machen, hören, sehen, lesen, kaufen. Gitmek, varmak, kalkmak gibi yer değiştirmeyi veya durum değişimini anlatan fiiller genellikle sein alır: gehen ist gegangen, kommen ist gekommen, abfahren ist abgefahren, ankommen ist angekommen, aufstehen ist aufgestanden. Doğum için de sein kullanılır: Ich bin in Zagreb geboren. Wo sind Sie geboren? Soruda yardımcı fiil başa gelir, Partizip yine sonda kalır: Haben Sie nicht das Schild gesehen? Dün anlamındaki gestern sözcüğü geçmişi belirtmek için sık kullanılır: Ich bin gestern zum Arzt gegangen."
+  ],
+  "kelimeler": [
+    { "de": "das Lied", "tr": "şarkı", "artikel": "das" },
+    { "de": "die Anzeige", "tr": "ilan", "artikel": "die" },
+    { "de": "die Zeitung", "tr": "gazete", "artikel": "die" },
+    { "de": "der Junge", "tr": "oğlan, çocuk", "artikel": "der" },
+    { "de": "das Schild", "tr": "tabela", "artikel": "das" },
+    { "de": "das Apartment", "tr": "apartman dairesi", "artikel": "das" },
+    { "de": "gestern", "tr": "dün" },
+    { "de": "mieten", "tr": "kiralamak" },
+    { "de": "abholen", "tr": "almak, karşılamak" },
+    { "de": "aufstehen", "tr": "kalkmak" },
+    { "de": "geboren", "tr": "doğmuş" }
+  ],
+  "trickler": [
+    {
+      "baslik": "Yardımcı fiil ikinci, Partizip sonda",
+      "metin": "Çekimli haben veya sein ikinci sırada kalır, Partizip II en sona gider: Ich habe das Lied gehört. Wir sind um zwölf Uhr abgefahren."
+    },
+    {
+      "baslik": "Ayrılabilen fiilde ge ortaya girer",
+      "metin": "Ön ek + ge + gövde: anrufen angerufen, einkaufen eingekauft, aufstehen aufgestanden. Ön ek cümlenin sonuna atılmaz."
+    },
+    {
+      "baslik": "Gitmek ve varmak: sein",
+      "metin": "Yer değiştiren fiillerde sein kullanılır: Der Zug ist angekommen. Ich bin gegangen. Çoğu diğer fiilde haben gelir."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m7-d40-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Bir şarkıyı daha önce duyduğunu söylüyorsun. Boşluğa uygun biçimi seç.",
+      "metin": "Ich habe das Lied schon mal ___.",
+      "secenekler": ["hören", "gehört", "hört"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`hören` mastardır; `habe` ile sonda Partizip II gerekir.",
+        "",
+        "`hört` şimdiki zaman çekimidir; Perfekt'te `ge-` alan Partizip II gerekir."
+      ],
+      "aciklama": "Düzenli fiil hören, ge- + kök + -t alır: Ich habe das Lied schon mal gehört.",
+      "ipucu": "Yardımcı fiil habe ikinci sırada, sonda hangi biçim gerekir?",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich habe das Lied schon mal gehört.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d40-q02",
+      "tip": "bosluk-doldurma",
+      "soru": "Gazetede bir ilanı okuduğunu söylüyorsun. Boşluğa lesen fiilinin Partizip II biçimini yaz.",
+      "metin": "Ich habe Ihre Anzeige in der Zeitung ___.",
+      "dogruCevaplar": ["gelesen"],
+      "aciklama": "Düzensiz fiil lesen, ge- + kök + -en alır: Ich habe Ihre Anzeige in der Zeitung gelesen.",
+      "ipucu": "Düzensiz fiillerin Partizip II biçimi -en ile biter.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich habe Ihre Anzeige in der Zeitung gelesen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d40-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Lena bir çocuğu görüp görmediğini soruyor. Mert onu daha önce gördüğünü söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Siehst du diesen Jungen?" },
+        { "kim": "Mert", "metin": "Ich habe diesen Jungen schon einmal ___." }
+      ],
+      "secenekler": ["gesehen", "sehen", "sieht"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`sehen` mastardır; `habe` ile sonda Partizip II gerekir.",
+        "`sieht` şimdiki zaman çekimidir; Perfekt'te `ge-` alan Partizip II gerekir."
+      ],
+      "aciklama": "Düzensiz fiil sehen, Perfekt'te gesehen olur: Ich habe diesen Jungen schon einmal gesehen.",
+      "ipucu": "Mastar değil, sonda ge- ile başlayan Partizip II gerekir.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich habe diesen Jungen schon einmal gesehen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d40-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Frau Weber muayenehanenin bugün açık olup olmadığını soruyor. Herr Braun tabelayı görüp görmediğini soruyor. Soruyu tamamla.",
+      "diyalog": [
+        { "kim": "Frau Weber", "metin": "Ist die Praxis heute geöffnet?" },
+        { "kim": "Herr Braun", "metin": "___ Sie nicht das Schild gesehen?" }
+      ],
+      "secenekler": ["Haben", "Hast", "Sind", "Bist"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`hast` du ile kullanılır; `Sie` ile `haben` gelir.",
+        "`sehen` Perfekt'te `haben` alır; `sein` yer değiştiren fiillerle kullanılır.",
+        "`bist` du ile kullanılır ve `sehen` Perfekt'te `haben` alır."
+      ],
+      "aciklama": "Sie ile haben kullanılır ve sehen haben alır: Haben Sie nicht das Schild gesehen?",
+      "ipucu": "Hitap resmî Sie ve fiil sehen: yardımcı fiili ona göre seç.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Haben Sie nicht das Schild gesehen?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d40-q05",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Biz bir apartman dairesi kiraladık.",
+      "parcalar": ["gemietet", "wir", "haben", "ein Apartment"],
+      "dogruSiralar": [
+        ["wir", "haben", "ein Apartment", "gemietet"],
+        ["ein Apartment", "haben", "wir", "gemietet"]
+      ],
+      "aciklama": "Çekimli haben ikinci sırada, Partizip II sonda kalır: Wir haben ein Apartment gemietet.",
+      "ipucu": "Yardımcı fiilin ve Partizip'in yerini düşün.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir haben ein Apartment gemietet."
+    },
+    {
+      "id": "m7-d40-q06",
+      "tip": "coktan-secmeli",
+      "soru": "Bugün sabah dörtte kalktığını arkadaşına anlatıyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Ich habe heute um vier Uhr aufgestanden.",
+        "Ich bin heute um vier Uhr aufstehen.",
+        "Ich bin heute um vier Uhr aufgestanden."
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`aufstehen` durum değişimini anlatır ve `sein` alır; `haben` yanlıştır.",
+        "`aufstehen` mastardır; `bin` ile sonda Partizip II gerekir.",
+        ""
+      ],
+      "aciklama": "aufstehen sein alır ve Partizip II aufgestanden olur: Ich bin heute um vier Uhr aufgestanden.",
+      "ipucu": "Hem yardımcı fiile hem de ön ekin Partizip içindeki yerine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich muss immer um vier Uhr aufstehen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d40-q07",
+      "tip": "coktan-secmeli",
+      "soru": "Bankanın cumartesi günü kapalı olduğunu söylüyorsun. Boşluğa uygun biçimi seç.",
+      "metin": "Die Bank hat am Samstag ___.",
+      "secenekler": ["schließen", "schließt", "geschlossen"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`schließen` mastardır; `hat` ile sonda Partizip II gerekir.",
+        "`schließt` şimdiki zaman çekimidir; Perfekt'te `ge-` alan Partizip II gerekir.",
+        ""
+      ],
+      "aciklama": "Düzensiz fiil schließen, Perfekt'te geschlossen olur: Die Bank hat am Samstag geschlossen.",
+      "ipucu": "Kök değişen düzensiz bir fiilin Partizip II biçimini düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Bank hat am Samstag geschlossen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d40-q08",
+      "tip": "dinleme",
+      "soru": "Biri gazetede ne yaptığını anlatıyor. Duyduğun cümleyi seç.",
+      "okunacak": "Ich habe Ihre Anzeige in der Zeitung gelesen.",
+      "mod": "sec",
+      "secenekler": [
+        "Gazetede ilanınızı okudum.",
+        "Gazetede ilanınızı gördüm.",
+        "Gazetede ilanınızı verdim.",
+        "Gazetede ilanınızı yazdım."
+      ],
+      "dogruCevaplar": ["Gazetede ilanınızı okudum."],
+      "aciklama": "Gelesen okumak demektir: Ich habe Ihre Anzeige in der Zeitung gelesen.",
+      "ipucu": "Cümlenin sonundaki Partizip'e kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich habe Ihre Anzeige in der Zeitung gelesen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d40-q09",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Nerede doğduğunu şöyle söylüyorsun:",
+      "ifade": "Ich bin in Zagreb geboren.",
+      "dogru": true,
+      "aciklama": "Doğru. Doğum için sein kullanılır: Ich bin in Zagreb geboren.",
+      "ipucu": "Yardımcı fiilin özneyle ve doğum bilgisiyle uyumuna bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich bin in Zagreb geboren.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d40-q10",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Erkek kardeşimi aldım.",
+      "parcalar": ["abgeholt", "ich", "habe", "meinen Bruder"],
+      "dogruSiralar": [
+        ["ich", "habe", "meinen Bruder", "abgeholt"],
+        ["meinen Bruder", "habe", "ich", "abgeholt"]
+      ],
+      "aciklama": "Yardımcı fiil ikinci sırada, ayrılabilen fiilin Partizip'i tek parça olarak sonda kalır: Ich habe meinen Bruder abgeholt.",
+      "ipucu": "Partizip II tek parçadır ve cümlenin sonuna gider.",
+      "bicim": "siralama",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Wir müssen noch meinen Bruder abholen."
+    },
+    {
+      "id": "m7-d40-q11",
+      "tip": "coktan-secmeli",
+      "soru": "Arkadaşına trenin Hamburg'a vardığını söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Der Zug hat in Hamburg angekommen.",
+        "Der Zug ist in Hamburg angekommen.",
+        "Der Zug ist in Hamburg gekommen an."
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`ankommen` varmayı anlatır ve `sein` alır; `haben` yanlıştır.",
+        "",
+        "Ön ek sona atılmaz; Partizip `angekommen` tek parça olur."
+      ],
+      "aciklama": "ankommen sein alır ve Partizip II angekommen olur: Der Zug ist in Hamburg angekommen.",
+      "ipucu": "Varmak fiilinin yardımcı fiilini ve Partizip'in yazılışını düşün.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Wann kommt dieser Zug in Hamburg an?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d40-q12",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Dün doktora gittiğini şöyle söylüyorsun:",
+      "ifade": "Ich habe gestern zum Arzt gegangen.",
+      "dogru": false,
+      "aciklama": "Yanlış. gehen yer değiştirme fiilidir ve sein alır: Ich bin gestern zum Arzt gegangen.",
+      "ipucu": "Yardımcı fiilin gitmek fiiliyle uyumuna bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich muss zum Arzt gehen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d40-q13",
+      "tip": "coktan-secmeli",
+      "soru": "Hep birlikte saat on ikide yola çıktığınızı söylüyorsun. Boşluğa uygun yardımcı fiili seç.",
+      "metin": "Wir ___ um zwölf Uhr abgefahren.",
+      "secenekler": ["sind", "haben", "ist", "seid"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`abfahren` yer değiştirmeyi anlatır ve `sein` alır; `haben` yanlıştır.",
+        "`ist` er/sie/es ile gelir; özne `wir`dir.",
+        "`seid` ihr ile gelir; özne `wir`dir."
+      ],
+      "aciklama": "abfahren sein alır ve wir ile sind kullanılır: Wir sind um zwölf Uhr abgefahren.",
+      "ipucu": "Hem özneye hem de kalkmak fiilinin yardımcı fiiline bak.",
+      "bicim": "bosluk",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Wir fahren um zwölf Uhr ab.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d40-q14",
+      "tip": "eslestirme",
+      "soru": "Fiilleri Partizip II biçimleriyle eşleştir.",
+      "ciftler": [
+        { "sol": "machen", "sag": "gemacht" },
+        { "sol": "sehen", "sag": "gesehen" },
+        { "sol": "lesen", "sag": "gelesen" },
+        { "sol": "anrufen", "sag": "angerufen" },
+        { "sol": "bezahlen", "sag": "bezahlt" },
+        { "sol": "kommen", "sag": "gekommen" }
+      ],
+      "aciklama": "Düzenli fiiller -t, düzensizler -en ile biter; ayrılabilen fiilde ge ortaya girer, be- ile başlayan fiil ge- almaz.",
+      "ipucu": "Önce ön eki olan fiilleri ayır.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d40-q15",
+      "tip": "ceviri",
+      "soru": "Almanca'ya çevir.",
+      "kaynak": "Ben annemi aradım.",
+      "dogruCevaplar": [
+        "Ich habe meine Mutter angerufen",
+        "Ich habe meine Mutter angerufen.",
+        "Meine Mutter habe ich angerufen",
+        "Meine Mutter habe ich angerufen."
+      ],
+      "aciklama": "anrufen ayrılabilen fiildir; Perfekt'te haben alır ve Partizip II angerufen olur: Ich habe meine Mutter angerufen.",
+      "ipucu": "Ayrılabilen fiilin Partizip'inde ge ön ekle gövdenin arasına girer.",
+      "bicim": "senaryo",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m7-d40-q16",
+      "tip": "fiil-cekimi",
+      "soru": "\"haben\" fiilini her zamire göre çek.",
+      "fiil": "haben",
+      "satirlar": [
+        { "zamir": "ich", "cevap": "habe", "verilen": true },
+        { "zamir": "du", "cevap": "hast" },
+        { "zamir": "er/sie/es", "cevap": "hat" },
+        { "zamir": "wir", "cevap": "haben" },
+        { "zamir": "ihr", "cevap": "habt" },
+        { "zamir": "sie/Sie", "cevap": "haben" }
+      ],
+      "aciklama": "haben düzensiz çekilir: habe, hast, hat, haben, habt, haben. Perfekt'te yardımcı fiil olarak ikinci sırada durur.",
+      "ipucu": "Perfekt'te ikinci sırada duran yardımcı fiili düşün.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    }
+  ]
+}

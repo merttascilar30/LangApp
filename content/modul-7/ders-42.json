@@ -1,0 +1,486 @@
+{
+  "id": "m7-d42",
+  "ders": 42,
+  "baslik": "dürfen",
+  "videoId": "bm0JALUhxek",
+  "ozet": [
+    "dürfen, izin veya yasak anlatan bir modal fiildir: -ebilir (izin var), nicht ile birlikte yasak (-mamalı, -mesi yasak). Modal fiil çekimli olarak ikinci sırada durur, ana fiil mastar hâlinde cümlenin en sonuna gider. Sie dürfen hier nicht rauchen (Burada sigara içemezsiniz). Türkçede izin ve yasak fiile eklenen ekle anlatılır, Almancada ise ayrı bir fiil kullanılır.",
+    "dürfen çekimi: ich darf, du darfst, er/sie/es darf, wir dürfen, ihr dürft, sie/Sie dürfen. ich ve er/sie/es aynı biçimi alır (darf); çoğulda a harfi ü olur. Genel özne man (insan, kişi) de er/sie/es gibi fiil alır: Hier darf man nicht rauchen (Burada sigara içilmez). Es darf nicht mehr als 15 Euro kosten (15 Euro'dan fazlaya mal olmamalı).",
+    "Soruda modal fiil başa gelir, ana fiil yine sonda kalır: Darf ich ein Foto machen? Darf ich Sie zu einem Kaffee einladen? Olumsuzlukta nicht ana fiilin (mastarın) hemen önüne gelir: Das dürfen Sie nicht tun (Bunu yapmanız yasak). nicht olmazsa izin anlamı çıkar: Sie dürfen das tun (Bunu yapabilirsiniz). Bir uyarı için Achtung! (Dikkat!) denir. İkram teklifi: Was darf ich dir anbieten?"
+  ],
+  "kelimeler": [
+    {
+      "de": "dürfen",
+      "tr": "izni olmak, -ebilmek (izin)"
+    },
+    {
+      "de": "rauchen",
+      "tr": "sigara içmek"
+    },
+    {
+      "de": "hier",
+      "tr": "burada"
+    },
+    {
+      "de": "man",
+      "tr": "insan, kişi (genel özne)"
+    },
+    {
+      "de": "tun",
+      "tr": "yapmak"
+    },
+    {
+      "de": "kosten",
+      "tr": "mal olmak, fiyatı olmak"
+    },
+    {
+      "de": "mehr als",
+      "tr": "-den fazla"
+    },
+    {
+      "de": "einladen",
+      "tr": "davet etmek"
+    },
+    {
+      "de": "anbieten",
+      "tr": "ikram etmek, teklif etmek"
+    },
+    {
+      "de": "der Kaffee",
+      "tr": "kahve",
+      "artikel": "der"
+    },
+    {
+      "de": "das Foto",
+      "tr": "fotoğraf",
+      "artikel": "das"
+    },
+    {
+      "de": "die Achtung",
+      "tr": "dikkat",
+      "artikel": "die"
+    }
+  ],
+  "trickler": [
+    {
+      "baslik": "ich, er ve man: darf",
+      "metin": "dürfen'de ich, er/sie/es ve man aynı biçimi alır: darf. du için darfst, wir ve sie/Sie için dürfen, ihr için dürft kullanılır."
+    },
+    {
+      "baslik": "Modal ikinci, mastar sonda",
+      "metin": "Çekimli dürfen ikinci sırada durur, ana fiil mastar olarak en sona gider: Sie dürfen hier nicht rauchen. Soruda dürfen başa gelir: Darf ich ein Foto machen?"
+    },
+    {
+      "baslik": "nicht dürfen = yasak",
+      "metin": "dürfen ile nicht birlikte yasak anlatır ve nicht mastardan hemen önce gelir: Das dürfen Sie nicht tun. Hier darf man nicht rauchen."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m7-d42-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Bir tabelada burada sigara içilmediğini söylüyorsun. Boşluğa uygun biçimi seç.",
+      "metin": "Hier ___ man nicht rauchen.",
+      "secenekler": [
+        "dürfen",
+        "darfst",
+        "darf"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`dürfen` çoğul özneyle gelir; `man` er/sie/es gibi fiil alır.",
+        "`darfst` yalnızca `du` ile gelir; özne `man`.",
+        ""
+      ],
+      "aciklama": "Genel özne man, er/sie/es gibi fiil alır: Hier darf man nicht rauchen.",
+      "ipucu": "Öznenin hangi zamirle aynı fiil biçimini aldığını düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Hier darf man nicht rauchen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d42-q02",
+      "tip": "bosluk-doldurma",
+      "soru": "Bir görevli, ziyaretçilere burada sigara içemeyeceklerini söylüyor. Boşluğa dürfen fiilinin uygun biçimini yaz.",
+      "metin": "Sie ___ hier nicht rauchen.",
+      "dogruCevaplar": [
+        "dürfen"
+      ],
+      "aciklama": "Sie ile fiil çoğul biçimini alır: Sie dürfen hier nicht rauchen.",
+      "ipucu": "Resmî Sie, fiilde çoğul özneyle aynı biçimi ister.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Sie dürfen hier nicht rauchen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d42-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Herr Braun, Frau Weber'i kahveye davet etmek istiyor. Cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Herr Braun",
+          "metin": "Guten Tag, Frau Weber."
+        },
+        {
+          "kim": "Frau Weber",
+          "metin": "Guten Tag, Herr Braun."
+        },
+        {
+          "kim": "Herr Braun",
+          "metin": "___ ich Sie zu einem Kaffee einladen?"
+        }
+      ],
+      "secenekler": [
+        "Darf",
+        "Darfst",
+        "Dürfen"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`Darfst` yalnızca `du` ile gelir; cümlede özne `ich`.",
+        "`Dürfen` çoğul özneyle gelir; cümlede özne `ich`."
+      ],
+      "aciklama": "ich ile dürfen darf olur ve soruda başa gelir: Darf ich Sie zu einem Kaffee einladen?",
+      "ipucu": "Öznenin ich olduğuna ve cümlenin soru olduğuna bak.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Darf ich Sie zu einem Kaffee einladen?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d42-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Müzede fotoğraf çekmek istiyorsun ve görevliye soruyorsun. Boşluğa uygun özneyi seç.",
+      "diyalog": [
+        {
+          "kim": "Mert",
+          "metin": "Entschuldigung!"
+        },
+        {
+          "kim": "Lena",
+          "metin": "Ja, bitte?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Darf ___ ein Foto machen?"
+        }
+      ],
+      "secenekler": [
+        "du",
+        "wir",
+        "ich"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`du` ile fiil `darfst` olurdu; cümledeki `darf` bununla uyuşmaz.",
+        "`wir` ile fiil `dürfen` olurdu; cümledeki `darf` bununla uyuşmaz.",
+        ""
+      ],
+      "aciklama": "darf biçimi ich ile gelir ve Mert kendi adına soruyor: Darf ich ein Foto machen?",
+      "ipucu": "Soruyu soran kişi kendisi için izin istiyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Darf ich ein Foto machen?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d42-q05",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Bunu yapmanız yasak.",
+      "parcalar": [
+        "tun",
+        "dürfen",
+        "Sie",
+        "nicht",
+        "das"
+      ],
+      "dogruSiralar": [
+        [
+          "das",
+          "dürfen",
+          "Sie",
+          "nicht",
+          "tun"
+        ],
+        [
+          "Sie",
+          "dürfen",
+          "das",
+          "nicht",
+          "tun"
+        ]
+      ],
+      "aciklama": "Çekimli dürfen ikinci sırada durur; nicht ve mastar tun sonda kalır: Das dürfen Sie nicht tun.",
+      "ipucu": "Modal fiilin yeri sabit, mastar ise en sonda.",
+      "bicim": "siralama",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Achtung! Das dürfen Sie nicht tun.",
+      "sozlukEk": {
+        "das": "bunu, onu (işaret zamiri)"
+      }
+    },
+    {
+      "id": "m7-d42-q06",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Biz burada sigara içebiliriz.",
+      "parcalar": [
+        "rauchen",
+        "wir",
+        "hier",
+        "dürfen"
+      ],
+      "dogruSiralar": [
+        [
+          "wir",
+          "dürfen",
+          "hier",
+          "rauchen"
+        ],
+        [
+          "hier",
+          "dürfen",
+          "wir",
+          "rauchen"
+        ]
+      ],
+      "aciklama": "Çekimli dürfen ikinci sırada, mastar rauchen sonda kalır: Wir dürfen hier rauchen.",
+      "ipucu": "Yer bildiren sözcük başa geçerse özne fiilin arkasına kayar.",
+      "bicim": "siralama",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Sie dürfen hier nicht rauchen."
+    },
+    {
+      "id": "m7-d42-q07",
+      "tip": "coktan-secmeli",
+      "soru": "Bir kafede oturuyorsun ve burada sigara içip içemeyeceğini nazikçe soruyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Darfst ich hier rauchen?",
+        "Darf ich hier rauchen?",
+        "Darf wir hier rauchen?",
+        "Darf rauchen ich hier?"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`darfst` yalnızca `du` ile gelir; özne `ich`.",
+        "",
+        "`wir` ile fiil `dürfen` olur; özne `ich` olduğu için `darf` gelir.",
+        "Soruda modalden sonra özne gelir; mastar en sonda durur."
+      ],
+      "aciklama": "ich ile darf kullanılır, ana fiil mastar olarak sonda kalır: Darf ich hier rauchen?",
+      "ipucu": "Hem fiilin özneye uymasına hem de mastarın yerine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Darf ich ein Foto machen?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d42-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Bir hediyenin 15 Euro'dan pahalı olmaması gerektiğini söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Es darf nicht mehr als 15 Euro kosten.",
+        "Es dürfen nicht mehr als 15 Euro kosten.",
+        "Es darfst nicht mehr als 15 Euro kosten.",
+        "Es darf nicht mehr als 15 Euro kostet."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`dürfen` çoğul özneyle gelir; `es` ile `darf` kullanılır.",
+        "`darfst` yalnızca `du` ile gelir; özne `es`.",
+        "Modal fiilden sonra çekimli `kostet` değil, mastar `kosten` gelir."
+      ],
+      "aciklama": "es ile darf kullanılır, ana fiil mastar olarak sonda kalır: Es darf nicht mehr als 15 Euro kosten.",
+      "ipucu": "Hem öznenin fiille uyumuna hem de sondaki fiil biçimine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Es darf nicht mehr als 15 Euro kosten.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d42-q09",
+      "tip": "dinleme",
+      "soru": "Biri seni bir davranıştan uyarıyor. Duyduğun cümleyi seç.",
+      "okunacak": "Achtung! Das dürfen Sie nicht tun.",
+      "mod": "sec",
+      "secenekler": [
+        "Dikkat! Bunu yapmanız yasak.",
+        "Dikkat! Bunu yapabilirsiniz.",
+        "Dikkat! Bunu yapmanız yasak değil.",
+        "Dikkat! Burada sigara içemezsiniz."
+      ],
+      "dogruCevaplar": [
+        "Dikkat! Bunu yapmanız yasak."
+      ],
+      "aciklama": "dürfen ile nicht yasak anlatır: Achtung! Das dürfen Sie nicht tun.",
+      "ipucu": "Cümlede olumsuzluğu bildiren küçük sözcüğe kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Achtung! Das dürfen Sie nicht tun."
+    },
+    {
+      "id": "m7-d42-q10",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Bir tabelayı şöyle okuyorsun:",
+      "ifade": "Man darfst hier nicht rauchen.",
+      "dogru": false,
+      "aciklama": "Yanlış. man, er/sie/es gibi fiil alır: Man darf hier nicht rauchen.",
+      "ipucu": "Genel özne man hangi zamirle aynı fiil biçimini alır?",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Hier darf man nicht rauchen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d42-q11",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Arkadaşlarına burada sigara içmenin yasak olduğunu söylüyorsun:",
+      "ifade": "Ihr dürft hier nicht rauchen.",
+      "dogru": true,
+      "aciklama": "Doğru. ihr ile dürfen, dürft olur: Ihr dürft hier nicht rauchen.",
+      "ipucu": "ihr zamirinin dürfen çekimindeki sonuna bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d42-q12",
+      "tip": "ceviri",
+      "soru": "Almanca'ya çevir. (rauchen = sigara içmek)",
+      "kaynak": "Burada sigara içmen yasak.",
+      "dogruCevaplar": [
+        "Du darfst hier nicht rauchen",
+        "Du darfst hier nicht rauchen.",
+        "Hier darfst du nicht rauchen",
+        "Hier darfst du nicht rauchen."
+      ],
+      "aciklama": "du ile dürfen darfst olur; nicht ve mastar rauchen sonda kalır: Du darfst hier nicht rauchen.",
+      "ipucu": "Modal fiil du özneye göre çekilir, ana fiil mastar kalır.",
+      "bicim": "senaryo",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d42-q13",
+      "tip": "coktan-secmeli",
+      "soru": "Misafirine ne ikram edebileceğini nazikçe soruyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Was darfst ich dir anbieten?",
+        "Was dürfen ich dir anbieten?",
+        "Was darf ich anbieten dir?",
+        "Was darf ich dir anbieten?"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`darfst` yalnızca `du` ile gelir; özne `ich`.",
+        "`dürfen` çoğul özneyle gelir; özne `ich`.",
+        "Mastar `anbieten` cümlenin en sonunda durur.",
+        ""
+      ],
+      "aciklama": "ich ile darf kullanılır, ana fiil mastar olarak sonda kalır: Was darf ich dir anbieten?",
+      "ipucu": "Önce fiilin özneye uymasına, sonra sondaki fiil biçimine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Was darf ich dir anbieten?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d42-q14",
+      "tip": "coktan-secmeli",
+      "soru": "Bir arkadaşının burada sigara içemeyeceğini söylüyorsun. Boşluğa uygun biçimi seç.",
+      "metin": "Er ___ hier nicht rauchen.",
+      "secenekler": [
+        "dürfen",
+        "darf",
+        "darfst"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`dürfen` çoğul özneyle gelir; özne `er`.",
+        "",
+        "`darfst` yalnızca `du` ile gelir; özne `er`."
+      ],
+      "aciklama": "er ile dürfen darf olur: Er darf hier nicht rauchen.",
+      "ipucu": "Öznenin hangi zamirle aynı biçimi paylaştığına bak.",
+      "bicim": "bosluk",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d42-q15",
+      "tip": "eslestirme",
+      "soru": "Almanca sözcükleri Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        {
+          "sol": "rauchen",
+          "sag": "sigara içmek"
+        },
+        {
+          "sol": "hier",
+          "sag": "burada"
+        },
+        {
+          "sol": "einladen",
+          "sag": "davet etmek"
+        },
+        {
+          "sol": "anbieten",
+          "sag": "ikram etmek"
+        },
+        {
+          "sol": "Kaffee",
+          "sag": "kahve"
+        },
+        {
+          "sol": "Foto",
+          "sag": "fotoğraf"
+        }
+      ],
+      "aciklama": "Bu sözcükler dürfen ile kurulan izin ve yasak cümlelerinde sık geçer.",
+      "ipucu": "Önce fiilleri, sonra isimleri ayır.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d42-q16",
+      "tip": "fiil-cekimi",
+      "soru": "\"dürfen\" fiilini her zamire göre çek.",
+      "fiil": "dürfen",
+      "satirlar": [
+        {
+          "zamir": "ich",
+          "cevap": "darf",
+          "verilen": true
+        },
+        {
+          "zamir": "du",
+          "cevap": "darfst"
+        },
+        {
+          "zamir": "er/sie/es",
+          "cevap": "darf"
+        },
+        {
+          "zamir": "wir",
+          "cevap": "dürfen"
+        },
+        {
+          "zamir": "ihr",
+          "cevap": "dürft"
+        },
+        {
+          "zamir": "sie/Sie",
+          "cevap": "dürfen"
+        }
+      ],
+      "aciklama": "dürfen düzensiz çekilir: darf, darfst, darf, dürfen, dürft, dürfen. ich ve er/sie/es aynı biçimi alır.",
+      "ipucu": "Tekil kişilerde ünlü değişir, çoğulda mastardaki ünlü geri gelir.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    }
+  ]
+}

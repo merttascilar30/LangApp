@@ -1,0 +1,338 @@
+{
+  "id": "m7-d45",
+  "ders": 45,
+  "baslik": "möchten ve wollen",
+  "videoId": "YpdDB0kNY1U",
+  "ozet": [
+    "möchten ve wollen, istemek anlamına gelen modal fiillerdir. möchten nazik bir istektir (sipariş, rica), wollen ise daha kesin bir niyet bildirir. Modal fiil çekimli olarak ikinci sırada durur, ana fiil mastar hâlinde sona gider: Ich möchte gern den Dom besichtigen (Katedrali gezmek istiyorum). Wir möchten bestellen (Sipariş vermek istiyoruz). Türkçede -mek istemek ile fiile bağlanır, Almancada ise ayrı bir modal fiil kullanılır.",
+    "möchten çekimi: ich möchte, du möchtest, er/sie/es möchte, wir möchten, ihr möchtet, sie/Sie möchten. ich ve er/sie/es aynı biçimi alır (möchte). Soruda fiil başa gelir: Was möchten Sie trinken? Ana fiil gerekmiyorsa istenen şey doğrudan arkaya gelir: Möchtest du ein Ei zum Frühstück?",
+    "wollen çekimi: ich will, du willst, er/sie/es will, wir wollen, ihr wollt, sie/Sie wollen. ich ve er/sie/es aynı biçimi alır (will); çoğulda kök woll olur. Soru: Wollen Sie ein Doppelzimmer oder ein Einzelzimmer? Mein Sohn will Arzt werden (Oğlum doktor olmak istiyor). Teklif için wir ile soru kurulur: Wollen wir Karten spielen?",
+    "Başka bir öğe başa geçerse çekimli modal fiil yine ikinci sırada kalır, özne arkaya kayar: Diesen Film möchte ich gern sehen. Olumsuzluk nicht ile yapılır: Ich möchte nicht Auto fahren, ich möchte laufen (Araba sürmek istemiyorum, yürümek istiyorum)."
+  ],
+  "kelimeler": [
+    { "de": "wollen", "tr": "istemek, niyetinde olmak" },
+    { "de": "möchten", "tr": "istemek (nazik)" },
+    { "de": "fernsehen", "tr": "televizyon izlemek" },
+    { "de": "laufen", "tr": "koşmak, yürümek" },
+    { "de": "besichtigen", "tr": "gezmek (turistik yer)" },
+    { "de": "das Gepäck", "tr": "bagaj", "artikel": "das" },
+    { "de": "das Doppelzimmer", "tr": "iki kişilik oda", "artikel": "das" },
+    { "de": "die Halbpension", "tr": "yarım pansiyon", "artikel": "die" },
+    { "de": "der Film", "tr": "film", "artikel": "der" }
+  ],
+  "trickler": [
+    {
+      "baslik": "möchten nazik, wollen kesin",
+      "metin": "möchten nazik istek bildirir (sipariş, rica), wollen ise daha kesin bir niyeti anlatır. İkisi de modal fiil gibi ikinci sırada durur."
+    },
+    {
+      "baslik": "ich will, er will, du willst",
+      "metin": "wollen'de ich ve er/sie/es aynı biçimi alır: will. du için willst, ihr için wollt, wir ve sie/Sie için wollen kullanılır."
+    },
+    {
+      "baslik": "ich möchte, du möchtest, ihr möchtet",
+      "metin": "möchten'de ich ve er/sie/es möchte olur. du için möchtest, ihr için möchtet, wir ve sie/Sie için möchten kullanılır."
+    },
+    {
+      "baslik": "Modal ikinci, mastar sonda",
+      "metin": "Ich möchte laufen. Çekimli modal fiil ikinci sırada kalır, ana fiil mastar olarak cümlenin sonuna gider. Soruda modal fiil başa geçer: Wollen wir fernsehen?"
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m7-d45-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Garson müşteriye ne istediğini soruyor. Boşluğa uygun biçimi seç.",
+      "metin": "Was ___ Sie?",
+      "secenekler": ["möchte", "möchten", "möchtest", "möchtet"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`möchte` ich ve er/sie/es ile gelir; özne `Sie`.",
+        "",
+        "`möchtest` yalnızca `du` ile gelir; özne `Sie`.",
+        "`möchtet` yalnızca `ihr` ile gelir; özne `Sie`."
+      ],
+      "aciklama": "Sie ile möchten çoğul biçimde kalır: Was möchten Sie?",
+      "ipucu": "Özne Sie olduğunda fiil çoğul biçimle aynıdır.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Was möchten Sie?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d45-q02",
+      "tip": "bosluk-doldurma",
+      "soru": "Arabayla gitmek yerine yürümek istediğini söylüyorsun. Boşluğa möchten fiilinin ich biçimini yaz.",
+      "metin": "Ich ___ nicht Auto fahren, ich möchte laufen.",
+      "dogruCevaplar": ["möchte", "Möchte"],
+      "aciklama": "ich ile möchten möchte olur: Ich möchte nicht Auto fahren, ich möchte laufen.",
+      "ipucu": "ich için fiilin sonu -e ile biter.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich möchte nicht Auto fahren, ich möchte laufen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d45-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Lena ile Mert akşam ne yapacaklarını konuşuyor. Mert'in cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Heute ist Samstag. Hast du eine Idee?" },
+        { "kim": "Mert", "metin": "Wollen ___ heute Abend mal fernsehen?" }
+      ],
+      "secenekler": ["ich", "du", "er", "wir"],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`ich` ile `will` gelir, `wollen` gelmez.",
+        "`du` ile `willst` gelir, `wollen` gelmez.",
+        "`er` ile `will` gelir, `wollen` gelmez.",
+        ""
+      ],
+      "aciklama": "wollen çoğul biçimdir ve teklif için wir ile gelir: Wollen wir heute Abend mal fernsehen?",
+      "ipucu": "Birlikte bir şey yapmayı öneren özneyi seç.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wollen wir heute Abend mal fernsehen?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d45-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Resepsiyonist misafire hangi odayı istediğini soruyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Gast", "metin": "Guten Tag, ich möchte ein Zimmer." },
+        { "kim": "Empfang", "metin": "___ Sie ein Doppelzimmer oder ein Einzelzimmer?" }
+      ],
+      "secenekler": ["Wollen", "Willst", "Wollt", "Will"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`Willst` yalnızca `du` ile gelir; özne `Sie`.",
+        "`Wollt` yalnızca `ihr` ile gelir; özne `Sie`.",
+        "`Will` ich ve er/sie/es ile gelir; özne `Sie`."
+      ],
+      "aciklama": "Sie ile wollen çoğul biçimde kalır ve soruda başa gelir: Wollen Sie ein Doppelzimmer oder ein Einzelzimmer?",
+      "ipucu": "Özne Sie olduğunda fiil wir ile aynı biçimi alır.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wollen Sie ein Doppelzimmer oder ein Einzelzimmer?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d45-q05",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Bu filmi görmek istiyorum.",
+      "parcalar": ["ich", "möchte", "gern", "diesen Film", "sehen"],
+      "dogruSiralar": [
+        ["ich", "möchte", "gern", "diesen Film", "sehen"],
+        ["ich", "möchte", "diesen Film", "gern", "sehen"],
+        ["gern", "möchte", "ich", "diesen Film", "sehen"],
+        ["diesen Film", "möchte", "ich", "gern", "sehen"]
+      ],
+      "aciklama": "Çekimli modal fiil ikinci sırada kalır, ana fiil sehen sona gider: Ich möchte gern diesen Film sehen.",
+      "ipucu": "Modal fiilin yeri sabit, ana fiil ise en sonda durur.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich möchte gern diesen Film sehen."
+    },
+    {
+      "id": "m7-d45-q06",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Kart oynamak ister miyiz?",
+      "parcalar": ["wollen", "wir", "Karten", "spielen"],
+      "dogruSiralar": [
+        ["wollen", "wir", "Karten", "spielen"],
+        ["wir", "wollen", "Karten", "spielen"],
+        ["Karten", "wollen", "wir", "spielen"]
+      ],
+      "aciklama": "Soruda modal fiil başa gelir, ana fiil spielen sonda kalır: Wollen wir Karten spielen?",
+      "ipucu": "Soru cümlesinde modal fiil özneden önce gelir.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wollen wir Karten spielen?"
+    },
+    {
+      "id": "m7-d45-q07",
+      "tip": "coktan-secmeli",
+      "soru": "Bir konuğa (Sie) ne içmek istediğini nazikçe soruyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Was möchte Sie trinken?",
+        "Was möchtet Sie trinken?",
+        "Was möchten Sie trinken?",
+        "Was möchtest Sie trinken?"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`möchte` ich ve er/sie/es ile gelir; özne `Sie`.",
+        "`möchtet` yalnızca `ihr` ile gelir; özne `Sie`.",
+        "",
+        "`möchtest` yalnızca `du` ile gelir; özne `Sie`."
+      ],
+      "aciklama": "Sie ile möchten çoğul biçimde kalır, ana fiil trinken sonda durur: Was möchten Sie trinken?",
+      "ipucu": "Özne Sie olduğunda fiilin sonu wir ile aynıdır.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Was möchten Sie trinken?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d45-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Arkadaşına (du) hafta sonu nereye gitmek istediğini soruyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Wohin wollen du am Wochenende?",
+        "Wohin willst du am Wochenende?",
+        "Wohin will du am Wochenende?",
+        "Wohin wollt du am Wochenende?"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`wollen` wir ve sie/Sie ile gelir; özne `du`.",
+        "",
+        "`will` ich ve er/sie/es ile gelir; özne `du`.",
+        "`wollt` yalnızca `ihr` ile gelir; özne `du`."
+      ],
+      "aciklama": "du ile wollen willst olur: Wohin willst du am Wochenende?",
+      "ipucu": "du için fiilin sonuna -st gelir.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Wohin wollen Sie am Wochenende?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d45-q09",
+      "tip": "dinleme",
+      "soru": "Bir turist ne yapmak istediğini söylüyor. Duyduğun cümleyi seç.",
+      "okunacak": "Ich möchte gern den Dom besichtigen.",
+      "mod": "sec",
+      "secenekler": [
+        "Katedrali gezmek istiyorum.",
+        "Katedrali gezmek istemiyorum.",
+        "Katedrali gezmek istiyor."
+      ],
+      "dogruCevaplar": ["Katedrali gezmek istiyorum."],
+      "aciklama": "möchte istemek, besichtigen gezmek demektir: Ich möchte gern den Dom besichtigen.",
+      "ipucu": "Cümlenin öznesine ve istek bildiren fiile kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich möchte gern den Dom besichtigen."
+    },
+    {
+      "id": "m7-d45-q10",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Bir araç kiralamak istediğini söylüyorsun:",
+      "ifade": "Ich möchte ein Auto mieten.",
+      "dogru": true,
+      "aciklama": "Doğru. ich ile möchten möchte olur: Ich möchte ein Auto mieten.",
+      "ipucu": "ich ile fiilin sonundaki harfe bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich möchte ein Auto mieten.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d45-q11",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Arkadaşına (du) akşam televizyon izlemeyi öneriyorsun:",
+      "ifade": "Wollen du heute Abend mal fernsehen?",
+      "dogru": false,
+      "aciklama": "Yanlış. du ile wollen willst olur: Willst du heute Abend mal fernsehen?",
+      "ipucu": "Fiilin özne ile uyumuna bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Wollen wir heute Abend mal fernsehen?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d45-q12",
+      "tip": "bosluk-doldurma",
+      "soru": "Arkadaşına (du) kahvaltıda yumurta isteyip istemediğini soruyorsun. Boşluğa möchten fiilinin du biçimini yaz.",
+      "metin": "___ du ein Ei zum Frühstück?",
+      "dogruCevaplar": ["Möchtest", "möchtest"],
+      "aciklama": "du ile möchten möchtest olur ve soruda başa gelir: Möchtest du ein Ei zum Frühstück?",
+      "ipucu": "Soruda fiil başa gelir ve du için sonu -st ile biter.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Möchtest du ein Ei zum Frühstück?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d45-q13",
+      "tip": "fiil-cekimi",
+      "soru": "\"möchten\" fiilini her zamire göre çek.",
+      "fiil": "möchten",
+      "satirlar": [
+        { "zamir": "ich", "cevap": "möchte", "verilen": true },
+        { "zamir": "du", "cevap": "möchtest" },
+        { "zamir": "er/sie/es", "cevap": "möchte" },
+        { "zamir": "wir", "cevap": "möchten" },
+        { "zamir": "ihr", "cevap": "möchtet" },
+        { "zamir": "sie/Sie", "cevap": "möchten" }
+      ],
+      "aciklama": "ich ve er/sie/es aynı biçimi alır: möchte, möchtest, möchte, möchten, möchtet, möchten.",
+      "ipucu": "Kök aynı kalır; yalnızca sondaki ek zamire göre değişir.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m7-d45-q14",
+      "tip": "fiil-cekimi",
+      "soru": "\"wollen\" fiilini her zamire göre çek.",
+      "fiil": "wollen",
+      "satirlar": [
+        { "zamir": "ich", "cevap": "will", "verilen": true },
+        { "zamir": "du", "cevap": "willst" },
+        { "zamir": "er/sie/es", "cevap": "will" },
+        { "zamir": "wir", "cevap": "wollen" },
+        { "zamir": "ihr", "cevap": "wollt" },
+        { "zamir": "sie/Sie", "cevap": "wollen" }
+      ],
+      "aciklama": "Tekilde kök will, çoğulda woll olur; ich ve er/sie/es aynı biçimi alır: will, willst, will, wollen, wollt, wollen.",
+      "ipucu": "Tekil kişilerde kökteki ünlü değişir.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m7-d45-q15",
+      "tip": "coktan-secmeli",
+      "soru": "Bir arkadaşın oğlunun doktor olmak istediğini söylüyorsun. Boşluğa uygun biçimi seç.",
+      "metin": "Mein Sohn ___ Arzt werden.",
+      "secenekler": ["willst", "wollen", "wollt", "will"],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`willst` yalnızca `du` ile gelir; özne `mein Sohn`.",
+        "`wollen` wir ve sie/Sie ile gelir; özne tekil `mein Sohn`.",
+        "`wollt` yalnızca `ihr` ile gelir; özne `mein Sohn`.",
+        ""
+      ],
+      "aciklama": "mein Sohn er yerine geçer ve wollen will olur: Mein Sohn will Arzt werden.",
+      "ipucu": "mein Sohn tekil üçüncü kişidir.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Mein Sohn will Arzt werden.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d45-q16",
+      "tip": "coktan-secmeli",
+      "soru": "Garsona sipariş vermek istediğinizi (wir) nazikçe söylüyorsunuz. Hangi cümleyi kurarsınız?",
+      "secenekler": [
+        "Wir möchten bestellen, bitte.",
+        "Wir bestellen möchten, bitte.",
+        "Wir möchtet bestellen, bitte."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "Modal fiil ikinci sırada durur, ana fiil sona gider.",
+        "`möchtet` yalnızca `ihr` ile gelir; özne `wir`."
+      ],
+      "aciklama": "Modal fiil ikinci sırada kalır, ana fiil mastar olarak sona gider: Wir möchten bestellen, bitte.",
+      "ipucu": "Modal fiilin yerine ve ana fiilin biçimine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir möchten bestellen, bitte.",
+      "glossKapali": true
+    }
+  ]
+}

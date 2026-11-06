@@ -1,0 +1,334 @@
+{
+  "id": "m7-d47",
+  "ders": 47,
+  "baslik": "Ja/Nein ve doch",
+  "videoId": "cpK7Xp1IrvE",
+  "ozet": [
+    "Evet/hayır sorusunda soru sözcüğü yoktur; çekimli fiil cümlenin başına gelir: Hast du schon eine Fahrkarte? Haben Sie noch ein Einzelzimmer (Hâlâ tek kişilik odanız var mı)? Ist Post da? Sind Sie über 18? Türkçede bu soruyu -mi eki kurar, Almancada ise fiil başa geçer ve cümle yükselen tonla söylenir.",
+    "Cevap Ja veya Nein ile başlar, ardından virgül gelir ve cümle devam eder: Ist das Ihr Koffer? – Nein, das ist nicht mein Koffer. Können Sie mir helfen? – Ja, gern. Modal fiilli soruda da fiil başta, ana fiil sonda durur: Kannst du mich zum Flughafen bringen? Können Sie mir eine Auskunft geben (Bana bilgi verebilir misiniz)? Seçenek sunan soruda da aynı düzen sürer: Möchten Sie Vollpension (tam pansiyon) oder Halbpension (yarım pansiyon)?",
+    "Soru olumsuzsa (nicht ile) ve cevap olumluysa Ja değil doch denir: Haben Sie nicht das Schild gesehen? – Doch, ich habe das Schild gesehen. Cevap olumsuzsa yine Nein kullanılır: Nein, ich habe das Schild nicht gesehen. Türkçede 'Hayır, gördüm' denebilir; Almancada olumlu karşı cevap doch ile verilir.",
+    "doch cümle içinde de bulunur ve 'ya, zaten' gibi bir vurgu katar: Du kennst doch die Post (Postayı biliyorsun ya). Das ist doch schön, nicht? Bu kullanımda doch bir soruya cevap vermez, sadece söylenene vurgu ekler."
+  ],
+  "kelimeler": [
+    { "de": "ja", "tr": "evet" },
+    { "de": "nein", "tr": "hayır" },
+    { "de": "doch", "tr": "aksine evet; ya, zaten" },
+    { "de": "die Frage", "tr": "soru", "artikel": "die" },
+    { "de": "die Antwort", "tr": "cevap", "artikel": "die" },
+    { "de": "das Schild", "tr": "tabela", "artikel": "das" },
+    { "de": "der Koffer", "tr": "bavul", "artikel": "der" },
+    { "de": "die Fahrkarte", "tr": "bilet", "artikel": "die" },
+    { "de": "der Flughafen", "tr": "havalimanı", "artikel": "der" },
+    { "de": "die Auskunft", "tr": "bilgi, danışma", "artikel": "die" }
+  ],
+  "trickler": [
+    {
+      "baslik": "Evet/hayır sorusunda fiil başta",
+      "metin": "Soru sözcüğü yoksa çekimli fiil en başa gelir: Hast du Zeit? Ist Post da? Modal fiil varsa ana fiil sonda kalır: Können Sie mir helfen?"
+    },
+    {
+      "baslik": "Ja ve Nein'dan sonra virgül",
+      "metin": "Cevap Ja veya Nein ile başlar ve virgülle devam eder: Ja, ich komme. Nein, das ist nicht mein Koffer."
+    },
+    {
+      "baslik": "Olumsuz soru, olumlu cevap: doch",
+      "metin": "Soru nicht içeriyorsa ve cevabın olumluysa doch de: Kommst du nicht mit? – Doch, ich komme mit. Cevabın olumsuzsa Nein de: Nein, ich komme nicht mit."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m7-d47-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Bir görevli sana resmî dille yaşının 18'in üzerinde olup olmadığını soruyor. Boşluğa uygun fiili seç.",
+      "metin": "___ Sie über 18?",
+      "secenekler": ["Ist", "Sind", "Bist", "Haben"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`Ist` er/sie/es ile gelir; özne `Sie`.",
+        "",
+        "`Bist` yalnızca `du` ile gelir; özne `Sie`.",
+        "`Haben` sahip olmak demektir; yaş durumu anlatan cümle olmak fiilini ister."
+      ],
+      "aciklama": "Evet/hayır sorusunda fiil başa gelir; Sie ile olmak fiili sind olur: Sind Sie über 18?",
+      "ipucu": "Hem soru kalıbına hem de Sie öznesine uyan fiili ara.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Sind Sie über 18?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d47-q02",
+      "tip": "bosluk-doldurma",
+      "soru": "Arkadaşına bileti olup olmadığını soruyorsun. Boşluğa uygun fiili yaz.",
+      "metin": "___ du schon eine Fahrkarte?",
+      "dogruCevaplar": ["Hast"],
+      "aciklama": "Sahip olmak fiili du ile hast olur ve soruyu başlatır: Hast du schon eine Fahrkarte?",
+      "ipucu": "Bir şeye sahip olup olmadığını soran fiili du biçiminde yaz.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Hast du schon eine Fahrkarte?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d47-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Mert bir görevliden bilgi istiyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Mert", "metin": "Guten Tag!" },
+        { "kim": "Frau Weber", "metin": "Guten Tag!" },
+        { "kim": "Mert", "metin": "___ Sie mir eine Auskunft geben?" }
+      ],
+      "secenekler": ["Können", "Kann", "Kannst", "Könnt"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`Kann` ich ve er/sie/es ile gelir; özne `Sie`.",
+        "`Kannst` yalnızca `du` ile gelir; özne `Sie`.",
+        "`Könnt` yalnızca `ihr` ile gelir; özne `Sie`."
+      ],
+      "aciklama": "Sie ile können können olur ve soruyu başlatır: Können Sie mir eine Auskunft geben?",
+      "ipucu": "Resmî Sie öznesiyle çoğul biçimli modal fiili düşün.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Können Sie mir eine Auskunft geben?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d47-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Mert postaya mektup gelip gelmediğini soruyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Mert", "metin": "___ Post da?" },
+        { "kim": "Lena", "metin": "Ja, hier ist ein Brief für Sie." }
+      ],
+      "secenekler": ["Sind", "Bist", "Ist", "Hast"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`Sind` çoğul özneyle gelir; `Post` tekildir.",
+        "`Bist` yalnızca `du` ile gelir; sorulan şey `Post`.",
+        "",
+        "`Hast` yalnızca `du` ile gelir; sorulan şey `Post`."
+      ],
+      "aciklama": "Tekil özne Post ile olmak fiili ist olur ve soruyu başlatır: Ist Post da?",
+      "ipucu": "Özne tekil bir şey; fiil de ona uymalı.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ist Post da?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d47-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Herr Klein, Lena'ya tabelayı görmediğini mi diye soruyor. Lena tabelayı gördü. Cevabını tamamla.",
+      "diyalog": [
+        { "kim": "Herr Klein", "metin": "Haben Sie nicht das Schild gesehen?" },
+        { "kim": "Lena", "metin": "___, ich habe das Schild gesehen." }
+      ],
+      "secenekler": ["Ja", "Nein", "Doch", "Bitte"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`Ja` düz evet sorusuna cevaptır; olumsuz soruya karşı çıkmak için `doch` gerekir.",
+        "`Nein` olumsuz cevap başlatır; Lena tabelayı gördü.",
+        "",
+        "`Bitte` lütfen demektir; evet ya da hayır cevabı olmaz."
+      ],
+      "aciklama": "Soru nicht ile olumsuz, cevap olumlu olduğu için doch denir: Doch, ich habe das Schild gesehen.",
+      "ipucu": "Soru olumsuz, Lena'nın cevabı ise olumlu.",
+      "bicim": "diyalog",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Haben Sie nicht das Schild gesehen?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d47-q06",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Bana bilgi verebilir misiniz?",
+      "parcalar": ["können", "Sie", "mir", "eine Auskunft", "geben"],
+      "dogruSiralar": [
+        ["können", "Sie", "mir", "eine Auskunft", "geben"]
+      ],
+      "aciklama": "Evet/hayır sorusunda çekimli modal fiil başa, ana fiil geben sona gelir: Können Sie mir eine Auskunft geben?",
+      "ipucu": "Soru sözcüğü olmadığı için ilk yer çekimli fiile aittir.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Können Sie mir eine Auskunft geben?"
+    },
+    {
+      "id": "m7-d47-q07",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Hâlâ tek kişilik odanız var mı?",
+      "parcalar": ["haben", "Sie", "noch", "ein Einzelzimmer"],
+      "dogruSiralar": [
+        ["haben", "Sie", "noch", "ein Einzelzimmer"]
+      ],
+      "aciklama": "Evet/hayır sorusunda çekimli fiil başa gelir, ardından özne durur: Haben Sie noch ein Einzelzimmer?",
+      "ipucu": "Önce fiil, sonra özne gelir.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Haben Sie noch ein Einzelzimmer?"
+    },
+    {
+      "id": "m7-d47-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Otelde misafirlerine resmî dille pansiyon türünü soruyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Möchtest Sie Vollpension oder Halbpension?",
+        "Möchte Sie Vollpension oder Halbpension?",
+        "Möchtet Sie Vollpension oder Halbpension?",
+        "Möchten Sie Vollpension oder Halbpension?"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`möchtest` yalnızca `du` ile gelir; özne `Sie`.",
+        "`möchte` ich ve er/sie/es ile gelir; özne `Sie`.",
+        "`möchtet` yalnızca `ihr` ile gelir; özne `Sie`.",
+        ""
+      ],
+      "aciklama": "Sie ile möchten möchten olur ve soruyu başlatır: Möchten Sie Vollpension oder Halbpension?",
+      "ipucu": "Fiilin sonundaki ek Sie öznesine uymalı.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Möchten Sie Vollpension oder Halbpension?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d47-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Arkadaşın \"Kommst du nicht mit ins Schwimmbad?\" diye soruyor. Sen geleceksin. Hangi cevabı verirsin?",
+      "secenekler": [
+        "Doch, ich komme mit.",
+        "Ja, ich komme nicht mit.",
+        "Nein, ich komme mit.",
+        "Doch, ich komme nicht mit."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "Bu cümle gelmeyeceğini söylüyor; sen geleceksin.",
+        "`Nein` olumsuz cevap başlatır; olumlu cümle onunla çelişir.",
+        "`doch` olumlu cevap verir; bu cümle ise gelmeyeceğini söylüyor."
+      ],
+      "aciklama": "Olumsuz soruya olumlu karşı cevap doch ile verilir: Doch, ich komme mit.",
+      "ipucu": "Hem cevabın ilk sözcüğüne hem de cümlenin olumlu ya da olumsuz oluşuna bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Kommst du mit ins Schwimmbad?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d47-q10",
+      "tip": "dinleme",
+      "soru": "Resepsiyondaki biri otel odası soruyor. Duyduğun cümleyi seç.",
+      "okunacak": "Haben Sie noch ein Einzelzimmer?",
+      "mod": "sec",
+      "secenekler": [
+        "Hâlâ tek kişilik odanız var mı?",
+        "Hâlâ çift kişilik odanız var mı?",
+        "Tek kişilik odanız yok mu?"
+      ],
+      "dogruCevaplar": [
+        "Hâlâ tek kişilik odanız var mı?"
+      ],
+      "aciklama": "Haben Sie sahip olma sorar, Einzelzimmer tek kişilik odadır: Haben Sie noch ein Einzelzimmer?",
+      "ipucu": "Odanın türüne ve sorunun var mı diye mi, istiyor musunuz diye mi sorduğuna kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Haben Sie noch ein Einzelzimmer?"
+    },
+    {
+      "id": "m7-d47-q11",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Arkadaşın \"Kommst du nicht mit ins Schwimmbad?\" diye soruyor; sen geliyorsun ve şöyle cevap veriyorsun:",
+      "ifade": "Doch, ich komme mit.",
+      "dogru": true,
+      "aciklama": "Doğru. Olumsuz soruya olumlu karşı cevap doch ile verilir: Doch, ich komme mit.",
+      "ipucu": "Sorunun olumsuz, cevabın olumlu olduğuna dikkat et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Kommst du mit ins Schwimmbad?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d47-q12",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Arkadaşın \"Ist das nicht dein Auto?\" diye soruyor; araba senin değil ve şöyle cevap veriyorsun:",
+      "ifade": "Doch, das ist nicht mein Auto.",
+      "dogru": false,
+      "aciklama": "Yanlış. Olumsuz cevap nein ile başlar: Nein, das ist nicht mein Auto.",
+      "ipucu": "Cevabın ilk sözcüğü cümlenin olumsuzluğuyla uyuşmalı.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ist das dein Auto?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d47-q13",
+      "tip": "bosluk-doldurma",
+      "soru": "Biri \"Ist Herr Klein nicht schon da?\" diye soruyor. Herr Klein gelmiş. Boşluğa uygun cevap sözcüğünü yaz.",
+      "metin": "___, Herr Klein ist schon da.",
+      "dogruCevaplar": ["Doch"],
+      "aciklama": "Olumsuz soruya olumlu karşı cevap doch ile verilir: Doch, Herr Klein ist schon da.",
+      "ipucu": "Soru olumsuz, cevap olumlu.",
+      "bicim": "bosluk",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ist Herr Klein schon da?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d47-q14",
+      "tip": "bosluk-doldurma",
+      "soru": "Biri \"Ist das Ihr Koffer?\" diye soruyor. Bavul senin değil. Boşluğa uygun cevap sözcüğünü yaz.",
+      "metin": "___, das ist nicht mein Koffer.",
+      "dogruCevaplar": ["Nein"],
+      "aciklama": "Cevap olumsuz olduğu için nein denir: Nein, das ist nicht mein Koffer.",
+      "ipucu": "Cevap cümlesi olumsuz.",
+      "bicim": "bosluk",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ist das Ihr Koffer?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d47-q15",
+      "tip": "coktan-secmeli",
+      "soru": "Mert, Lena'dan kendisini havalimanına götürmesini rica ediyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Mert", "metin": "Hallo Lena!" },
+        { "kim": "Lena", "metin": "Hallo Mert!" },
+        { "kim": "Mert", "metin": "___ du mich zum Flughafen bringen?" },
+        { "kim": "Lena", "metin": "Ja, gern!" }
+      ],
+      "secenekler": ["Kann", "Kannst", "Können", "Könnt"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`Kann` ich ve er/sie/es ile gelir; özne `du`.",
+        "",
+        "`Können` wir ve sie/Sie ile gelir; özne `du`.",
+        "`Könnt` yalnızca `ihr` ile gelir; özne `du`."
+      ],
+      "aciklama": "du ile können kannst olur ve soruyu başlatır: Kannst du mich zum Flughafen bringen?",
+      "ipucu": "Fiilin sonundaki ek du için ayrılmış olandır.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Kannst du mich zum Flughafen bringen?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d47-q16",
+      "tip": "fiil-cekimi",
+      "soru": "\"können\" fiilini her zamire göre çek.",
+      "fiil": "können",
+      "satirlar": [
+        { "zamir": "ich", "cevap": "kann", "verilen": true },
+        { "zamir": "du", "cevap": "kannst" },
+        { "zamir": "er/sie/es", "cevap": "kann" },
+        { "zamir": "wir", "cevap": "können" },
+        { "zamir": "ihr", "cevap": "könnt" },
+        { "zamir": "sie/Sie", "cevap": "können" }
+      ],
+      "aciklama": "Tekilde kök kann, çoğulda könn olur; ich ve er/sie/es aynı biçimi alır: kann, kannst, kann, können, könnt, können.",
+      "ipucu": "Çoğul kişilerde a harfi ö olur.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    }
+  ]
+}

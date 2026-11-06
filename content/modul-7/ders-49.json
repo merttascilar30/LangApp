@@ -1,0 +1,482 @@
+{
+  "id": "m7-d49",
+  "ders": 49,
+  "baslik": "bei",
+  "videoId": "S1ilK0ABE60",
+  "ozet": [
+    "bei her zaman Dativ ister. Artikel şöyle olur: bei der (dişil), bei dem (eril, nötr; çoğu zaman beim), bei den (çoğul). bei dem birleşip beim olur: Mein Mann arbeitet beim Arzt. Kişi zamirleri de Dativ olur: bei mir, bei dir, bei uns.",
+    "bei bir kişinin yanını veya evini gösterir (-in yanında, -in evinde): Du kannst bei mir übernachten (übernachten = geceyi geçirmek). Ich wohne bei meinen Eltern. Sie lebt bei ihrer Schwester. Sahiplik sözcükleri Dativ'de değişir: meiner, ihrer (dişil), meinem (eril, nötr), meinen (çoğul). Wann kann ich den Schrank bei dir abholen? (abholen = almaya gitmek).",
+    "bei çalışılan veya gidilen kurumu da gösterir: Er arbeitet bei der Polizei. Jenny hat einen Job bei der Post (die Post = postane). Er arbeitet bei einer anderen Firma (die Firma dişil olduğu için einer). Ich mache ein Praktikum bei Siemens. Morgen habe ich einen Termin bei meiner Ärztin (der Termin = randevu). Kaufst du bitte Briefmarken bei der Post.",
+    "bei yakınlık, durum ve yardım anlatır: Offenbach liegt bei Frankfurt (Frankfurt'un yakınında; liegen = bulunmak). Bei uns regnet es heute (bizim oralarda bugün yağmur yağıyor; regnen = yağmur yağmak). Bei diesem Regen gehe ich nicht raus (bu yağmurda; Regen eril olduğu için diesem). Kannst du mir bei den Hausaufgaben helfen? (ödevde yardım etmek)."
+  ],
+  "kelimeler": [
+    {
+      "de": "bei",
+      "tr": "yanında, -de, -da"
+    },
+    {
+      "de": "beim",
+      "tr": "bei dem"
+    },
+    {
+      "de": "abholen",
+      "tr": "almaya gitmek"
+    },
+    {
+      "de": "übernachten",
+      "tr": "geceyi geçirmek"
+    },
+    {
+      "de": "die Post",
+      "tr": "postane",
+      "artikel": "die"
+    },
+    {
+      "de": "die Polizei",
+      "tr": "polis",
+      "artikel": "die"
+    },
+    {
+      "de": "die Firma",
+      "tr": "şirket",
+      "artikel": "die"
+    },
+    {
+      "de": "die Ärztin",
+      "tr": "kadın doktor",
+      "artikel": "die"
+    },
+    {
+      "de": "der Termin",
+      "tr": "randevu",
+      "artikel": "der"
+    },
+    {
+      "de": "die Hausaufgabe",
+      "tr": "ödev",
+      "artikel": "die"
+    },
+    {
+      "de": "der Regen",
+      "tr": "yağmur",
+      "artikel": "der"
+    },
+    {
+      "de": "der Schrank",
+      "tr": "dolap",
+      "artikel": "der"
+    },
+    {
+      "de": "die Eltern",
+      "tr": "ebeveynler",
+      "artikel": "die"
+    }
+  ],
+  "trickler": [
+    {
+      "baslik": "bei hep Dativ ister",
+      "metin": "bei der Post, bei dem Arzt (beim Arzt), bei den Eltern. Zamirde de Dativ gelir: bei mir, bei dir, bei uns."
+    },
+    {
+      "baslik": "bei: yanında, evinde, çalıştığı yer",
+      "metin": "bei mir (bende), bei meinen Eltern (ebeveynlerimin yanında), bei der Polizei (polis teşkilatında). Türkçede -in yanında, -de, -da karşılığıdır."
+    },
+    {
+      "baslik": "bei dem olur beim",
+      "metin": "bei ile dem çoğu zaman birleşir: beim Arzt. Dişil ve çoğulda birleşme olmaz: bei der Post, bei den Eltern."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m7-d49-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Postanede pul alması için arkadaşından rica ediyorsun. Boşluğa uygun artikeli seç.",
+      "metin": "Kaufst du bitte Briefmarken bei ___ Post.",
+      "secenekler": [
+        "dem",
+        "die",
+        "der",
+        "den"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`dem` eril ve nötr sözcüklerle gelir; `Post` dişildir.",
+        "`die` Dativ değildir; `bei` sonrasında Dativ gerekir.",
+        "",
+        "`den` çoğul isimlerle gelir; `Post` tekildir."
+      ],
+      "aciklama": "bei Dativ ister, die Post dişildir: Kaufst du bitte Briefmarken bei der Post.",
+      "ipucu": "Dişil bir ismin Dativ hâlini düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Kaufst du bitte Briefmarken bei der Post.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d49-q02",
+      "tip": "bosluk-doldurma",
+      "soru": "Ebeveynlerinin yanında yaşadığını söylüyorsun. Boşluğa \"benim\" anlamındaki sözcüğün doğru hâlini yaz.",
+      "metin": "Ich wohne bei ___ Eltern.",
+      "dogruCevaplar": [
+        "meinen"
+      ],
+      "aciklama": "Eltern çoğuldur, bei sonrası Dativ gelir: Ich wohne bei meinen Eltern.",
+      "ipucu": "Çoğul isimle kullanılan Dativ hâlini yaz.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich wohne bei meinen Eltern.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d49-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Lena, Anna'nın nerede yaşadığını soruyor. Mert kız kardeşinin yanında olduğunu söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Wo wohnt Anna jetzt?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Sie lebt bei ___ Schwester."
+        }
+      ],
+      "secenekler": [
+        "ihrer",
+        "ihre",
+        "ihren",
+        "ihr"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`ihre` Dativ değildir; `bei` sonrasında Dativ gerekir.",
+        "`ihren` çoğul veya eril isimle gelir; `Schwester` dişildir.",
+        "`ihr` dişil isimle yan yana bu biçimde kullanılmaz."
+      ],
+      "aciklama": "Schwester dişildir, bei sonrası Dativ gelir: Sie lebt bei ihrer Schwester.",
+      "ipucu": "Dişil bir isme bağlanan Dativ hâlini seç.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Sie lebt bei ihrer Schwester.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d49-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Mert, Lena'nın evinden dolabı almak istiyor ve ona soruyor. Cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Mert",
+          "metin": "Wann kann ich den Schrank bei ___ abholen?"
+        },
+        {
+          "kim": "Lena",
+          "metin": "Am Samstag."
+        }
+      ],
+      "secenekler": [
+        "du",
+        "dir",
+        "dich",
+        "dein"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`du` özne hâlidir; `bei` sonrasında Dativ zamir gerekir.",
+        "",
+        "`dich` Akkusativ'dir; `bei` sonrasında Dativ gerekir.",
+        "`dein` bir isimle birlikte gelen sahiplik sözcüğüdür; burada yalnız zamir gerekir."
+      ],
+      "aciklama": "bei sonrası Dativ zamir gelir: Wann kann ich den Schrank bei dir abholen?",
+      "ipucu": "Karşındakinin evinde anlamını veren Dativ zamirini seç.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wann kann ich den Schrank bei dir abholen?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d49-q05",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Sen bende kalabilirsin.",
+      "parcalar": [
+        "du",
+        "kannst",
+        "bei mir",
+        "übernachten"
+      ],
+      "dogruSiralar": [
+        [
+          "du",
+          "kannst",
+          "bei mir",
+          "übernachten"
+        ],
+        [
+          "bei mir",
+          "kannst",
+          "du",
+          "übernachten"
+        ],
+        [
+          "kannst",
+          "du",
+          "bei mir",
+          "übernachten"
+        ]
+      ],
+      "aciklama": "Çekimli fiil kannst ikinci sırada kalır, übernachten sonda gelir: Du kannst bei mir übernachten.",
+      "ipucu": "İkinci fiil sona gider, çekimli fiil ise ikinci yerde durur.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Du kannst bei mir übernachten."
+    },
+    {
+      "id": "m7-d49-q06",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: O, polis teşkilatında çalışıyor.",
+      "parcalar": [
+        "er",
+        "arbeitet",
+        "bei der Polizei"
+      ],
+      "dogruSiralar": [
+        [
+          "er",
+          "arbeitet",
+          "bei der Polizei"
+        ],
+        [
+          "bei der Polizei",
+          "arbeitet",
+          "er"
+        ],
+        [
+          "arbeitet",
+          "er",
+          "bei der Polizei"
+        ]
+      ],
+      "aciklama": "Çekimli fiil arbeitet cümlede ikinci sırada, soruda ise başta durur: Er arbeitet bei der Polizei.",
+      "ipucu": "Yer bilgisi başa geçse bile fiilin yeri değişmez.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Er arbeitet bei der Polizei."
+    },
+    {
+      "id": "m7-d49-q07",
+      "tip": "coktan-secmeli",
+      "soru": "Yarın kadın doktorunla randevun olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Morgen habe ich einen Termin bei meinem Ärztin.",
+        "Morgen habe ich einen Termin bei meine Ärztin.",
+        "Morgen habe ich einen Termin bei meinen Ärztin.",
+        "Morgen habe ich einen Termin bei meiner Ärztin."
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`meinem` eril veya nötr isimle gelir; `Ärztin` dişildir.",
+        "`meine` Dativ değildir; `bei` sonrasında Dativ gerekir.",
+        "`meinen` çoğul isimle gelir; `Ärztin` tekil ve dişildir.",
+        ""
+      ],
+      "aciklama": "Ärztin dişildir, bei sonrası Dativ gelir: Morgen habe ich einen Termin bei meiner Ärztin.",
+      "ipucu": "Dişil ismin Dativ hâlindeki sahiplik sözcüğüne bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Morgen habe ich einen Termin bei meiner Ärztin.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d49-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Offenbach'ın Frankfurt'un yakınında olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Offenbach liegt bei Frankfurt.",
+        "Offenbach liegt aus Frankfurt.",
+        "Offenbach liegt von Frankfurt.",
+        "Offenbach liegt mit Frankfurt."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`aus` kökeni gösterir (`aus Berlin`); yakınlığı göstermez.",
+        "`von` başlangıç noktasını gösterir; yakınlığı göstermez.",
+        "`mit` araç veya birliktelik gösterir; yakınlığı göstermez."
+      ],
+      "aciklama": "Yakınlık bei ile söylenir: Offenbach liegt bei Frankfurt.",
+      "ipucu": "Yakınında anlamını veren edatı düşün.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Offenbach liegt bei Frankfurt.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d49-q09",
+      "tip": "dinleme",
+      "soru": "Bir arkadaşın kendi bölgesindeki havayı anlatıyor. Duyduğun cümleyi seç.",
+      "okunacak": "Bei uns regnet es heute.",
+      "mod": "sec",
+      "secenekler": [
+        "Bizim orada yarın yağmur yağıyor.",
+        "Bizim orada bugün kar yağıyor.",
+        "Bizim orada bugün yağmur yağıyor.",
+        "Sizin orada bugün yağmur yağıyor."
+      ],
+      "dogruCevaplar": [
+        "Bizim orada bugün yağmur yağıyor."
+      ],
+      "aciklama": "bei uns bizim oralarda, regnet es yağmur yağıyor demektir: Bei uns regnet es heute.",
+      "ipucu": "Hem yeri hem günü hem de havayı dinle.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Bei uns regnet es heute."
+    },
+    {
+      "id": "m7-d49-q10",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Yağmurlu havada evde kalmak istediğini söylüyorsun:",
+      "ifade": "Bei diesem Regen gehe ich nicht raus.",
+      "dogru": true,
+      "aciklama": "Doğru. bei sonrası Dativ gelir, Regen eril olduğu için diesem kullanılır: Bei diesem Regen gehe ich nicht raus.",
+      "ipucu": "Eril bir ismin Dativ hâlindeki işaret sözcüğüne bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Bei diesem Regen gehe ich nicht raus.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d49-q11",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Ebeveynlerinin yanında yaşadığını söylüyorsun:",
+      "ifade": "Ich wohne bei meine Eltern.",
+      "dogru": false,
+      "aciklama": "Yanlış. bei sonrası Dativ gelir, çoğulda meinen kullanılır: Ich wohne bei meinen Eltern.",
+      "ipucu": "Edattan sonra gelen sahiplik sözcüğünün hâline bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich wohne bei meinen Eltern.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d49-q12",
+      "tip": "bosluk-doldurma",
+      "soru": "Arkadaşından ödevlerde yardım istiyorsun. Boşluğa çoğul Dativ artikelini yaz.",
+      "metin": "Kannst du mir bei ___ Hausaufgaben helfen?",
+      "dogruCevaplar": [
+        "den"
+      ],
+      "aciklama": "Hausaufgaben çoğuldur, bei sonrası Dativ gelir: Kannst du mir bei den Hausaufgaben helfen?",
+      "ipucu": "Çoğul isimlerin Dativ artikelini hatırla.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Kannst du mir bei den Hausaufgaben helfen?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d49-q13",
+      "tip": "coktan-secmeli",
+      "soru": "Lena, Tom'un hâlâ aynı yerde çalışıp çalışmadığını soruyor. Mert başka bir şirkette çalıştığını söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Arbeitet Tom noch bei Siemens?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Er arbeitet jetzt bei ___ anderen Firma."
+        }
+      ],
+      "secenekler": [
+        "einem",
+        "einer",
+        "einen",
+        "ein"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`einem` eril veya nötr isimle gelir; `Firma` dişildir.",
+        "",
+        "`einen` eril Akkusativ ile gelir; `bei` sonrasında Dativ gerekir.",
+        "`ein` Dativ hâlinde dişil isimle kullanılmaz."
+      ],
+      "aciklama": "Firma dişildir, bei sonrası Dativ gelir: Er arbeitet jetzt bei einer anderen Firma.",
+      "ipucu": "Dişil bir ismin Dativ hâlindeki belirsiz artikelini seç.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Er arbeitet jetzt bei einer anderen Firma.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d49-q14",
+      "tip": "eslestirme",
+      "soru": "Almanca sözcükleri Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        {
+          "sol": "die Post",
+          "sag": "postane"
+        },
+        {
+          "sol": "die Polizei",
+          "sag": "polis"
+        },
+        {
+          "sol": "die Firma",
+          "sag": "şirket"
+        },
+        {
+          "sol": "der Regen",
+          "sag": "yağmur"
+        },
+        {
+          "sol": "der Termin",
+          "sag": "randevu"
+        },
+        {
+          "sol": "die Hausaufgabe",
+          "sag": "ödev"
+        }
+      ],
+      "aciklama": "Bu sözcükler bei ile kullandığımız yer, kurum ve durum sözcükleridir.",
+      "ipucu": "Önce kurum adlarını, sonra kalanları ayır.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d49-q15",
+      "tip": "artikel",
+      "soru": "Bu ismin artikelini seç.",
+      "isim": "Schrank",
+      "dogru": "der",
+      "aciklama": "Schrank maskulindir: der Schrank. Dativ'de dem Schrank olur.",
+      "ipucu": "Dolap sözcüğünü kelime listesinde hangi artikelle bulacağına bak.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m7-d49-q16",
+      "tip": "coktan-secmeli",
+      "soru": "Eşinin bir doktorun yanında çalıştığını söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Mein Mann arbeitet bei Arzt.",
+        "Mein Mann arbeitet beim der Arzt.",
+        "Mein Mann arbeitet bei den Arzt.",
+        "Mein Mann arbeitet beim Arzt."
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "Artikel eksik; `bei` sonrasında `dem` veya `beim` gerekir.",
+        "`beim` zaten `bei dem` demektir; yanına ikinci artikel gelmez.",
+        "`den` çoğul Dativ artikelidir; `Arzt` tekildir.",
+        ""
+      ],
+      "aciklama": "bei dem birleşir ve beim olur: Mein Mann arbeitet beim Arzt.",
+      "ipucu": "Eril ismin Dativ hâlindeki birleşik biçimini düşün.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Mein Mann arbeitet bei der Polizei.",
+      "glossKapali": true
+    }
+  ]
+}
