@@ -30,33 +30,32 @@
    "aciklama": "helfen Dativ ister; sana anlamındaki zamir dir'dir: Ja, ich helfe dir gern.",
    "ipucu": "helfen fiilinin kişiyi hangi hâlle aldığını hatırla.",
    "bicim": "diyalog",
-   "kaynakTuru": "uyarlama",
-   "kaynakCumle": "Er hat Zeit, also muss er uns helfen.",
+   "kaynakTuru": "yazildi",
    "glossKapali": true
   },
   {
    "id": "m6-s-q02",
    "tip": "coktan-secmeli",
-   "soru": "Bir gezide rehberinize ihtiyacınız olduğunu söylüyorsun. Boşluğa uygun sözcüğü seç.",
-   "metin": "Wir brauchen ___ Reiseführer.",
+   "soru": "Erkek kardeşini almaya gitmemiz gerektiğini söylüyorsun (abholen = almaya gitmek). Boşluğa uygun sözcüğü seç.",
+   "metin": "Wir müssen noch ___ Bruder abholen.",
    "secenekler": [
-    "unser",
-    "unserem",
-    "unsere",
-    "unseren"
+    "mein",
+    "meinem",
+    "meinen",
+    "meine"
    ],
-   "dogru": 3,
+   "dogru": 2,
    "celdiriciNotlari": [
-    "`unser` Nominativ biçimidir; burada nesne olan eril isim var.",
-    "`unserem` Dativ biçimidir; `brauchen` Akkusativ ister.",
-    "`unsere` dişil ve çoğul isimlerle gelir; `der Reiseführer` erildir.",
-    ""
+    "`mein` Nominativ biçimidir; burada nesne olan eril isim var.",
+    "`meinem` Dativ biçimidir; `abholen` Akkusativ ister.",
+    "",
+    "`meine` dişil ve çoğul isimlerle gelir; `der Bruder` erildir."
    ],
-   "aciklama": "brauchen Akkusativ ister ve Reiseführer erildir; unser eril Akkusativ'de unseren olur: Wir brauchen unseren Reiseführer.",
+   "aciklama": "abholen Akkusativ ister ve Bruder erildir; mein eril Akkusativ'de meinen olur: Wir müssen noch meinen Bruder abholen.",
    "ipucu": "Hem ismin cinsiyetine hem de nesne olmasına bak.",
    "bicim": "bosluk",
-   "kaynakTuru": "uyarlama",
-   "kaynakCumle": "Im Hotel brauchst du deinen Pass.",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Wir müssen noch meinen Bruder abholen.",
    "glossKapali": true
   },
   {
@@ -73,14 +72,13 @@
    "celdiriciNotlari": [
     "",
     "`anrufen` Akkusativ ister; eril `Sohn` ile `sein` değil `seinen` gelir.",
-    "`mit` katılmak gibi anlamlar verir; aramak `anrufen`dır.",
+    "`mit` katılmak gibi anlamlar verir; aramak `anrufen`dir.",
     "Sahip erkek olduğu için `ihren` değil `seinen` gelir."
    ],
    "aciklama": "Sahip erkek ve Sohn eril Akkusativ'de olduğu için seinen gelir, ön ek an sona gider: Herr Müller ruft seinen Sohn an.",
    "ipucu": "Sahibin cinsiyetine, ismin hâline ve ön ekin yerine bak.",
    "bicim": "senaryo",
-   "kaynakTuru": "uyarlama",
-   "kaynakCumle": "Wo macht man hier das Licht an?",
+   "kaynakTuru": "yazildi",
    "glossKapali": true
   },
   {
@@ -113,8 +111,7 @@
    "aciklama": "Yanlış. anrufen Akkusativ ister: Ich rufe dich heute an.",
    "ipucu": "anrufen fiilinin kişiyi hangi hâlle aldığını düşün.",
    "bicim": "senaryo",
-   "kaynakTuru": "uyarlama",
-   "kaynakCumle": "Wir müssen euch etwas erzählen!",
+   "kaynakTuru": "yazildi",
    "glossKapali": true
   },
   {
@@ -175,25 +172,24 @@
   {
    "id": "m6-s-q08",
    "tip": "coktan-secmeli",
-   "soru": "Resmî biçimde birinden numarasını istiyorsun. Hangi cümleyi kurarsın?",
+   "soru": "Arkadaşından pasaportunu vermesini istiyorsun. Hangi cümleyi kurarsın?",
    "secenekler": [
-    "Können Sie mir Ihre Nummer geben?",
-    "Können Sie mich Ihre Nummer geben?",
-    "Können Sie mir Ihr Nummer geben?",
-    "Können Sie mir Ihrer Nummer geben?"
+    "Kannst du mir bitte deinen Pass geben?",
+    "Kannst du mich bitte deinen Pass geben?",
+    "Kannst du mir bitte dein Pass geben?",
+    "Kannst du mir bitte deinem Pass geben?"
    ],
    "dogru": 0,
    "celdiriciNotlari": [
     "",
     "`geben` ile kişi Dativ'dedir: `mir`, `mich` değil.",
-    "`die Nummer` dişildir; Akkusativ'de `Ihre` gelir.",
-    "`Ihrer` Dativ biçimidir; verilen şey Akkusativ'dedir."
+    "`der Pass` eriltir; Akkusativ'de `dein` değil `deinen` gelir.",
+    "`deinem` Dativ biçimidir; verilen şey Akkusativ'dedir."
    ],
-   "aciklama": "Kişi Dativ'de (mir), verilen dişil şey Akkusativ'de olur ve resmî sizin için Ihre gelir: Können Sie mir Ihre Nummer geben?",
+   "aciklama": "Kişi Dativ'de (mir), verilen eril şey Akkusativ'de olur: Kannst du mir bitte deinen Pass geben?",
    "ipucu": "Kişinin ve verilen şeyin hâlini ayrı ayrı düşün.",
    "bicim": "senaryo",
-   "kaynakTuru": "uyarlama",
-   "kaynakCumle": "Ich habe Ihre E-Mail nicht bekommen.",
+   "kaynakTuru": "yazildi",
    "glossKapali": true
   },
   {

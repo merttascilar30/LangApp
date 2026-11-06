@@ -153,9 +153,9 @@
    "dogru": 0,
    "celdiriciNotlari": [
     "",
-    "`auf` ile `aufhören` (bitmek) kurulur; aramak `anrufen`dır.",
-    "`ab` ile `abfahren` (kalkmak) kurulur; aramak `anrufen`dır.",
-    "`mit` ile `mitmachen` (katılmak) kurulur; aramak `anrufen`dır."
+    "`auf` ile `aufhören` (bitmek) kurulur; aramak `anrufen`dir.",
+    "`ab` ile `abfahren` (kalkmak) kurulur; aramak `anrufen`dir.",
+    "`mit` ile `mitmachen` (katılmak) kurulur; aramak `anrufen`dir."
    ],
    "aciklama": "Aramak anrufen fiilidir; emirde ön ek an cümlenin sonuna gider: Ruf ihn bitte an.",
    "ipucu": "Aramak fiilinin ön eki, fiilden ayrılıp sona gider.",
@@ -404,7 +404,7 @@
     "",
     "Ön ek `an` ayrılıp cümlenin sonuna gider.",
     "`ich` ile fiil `rufe` olur, `rufen` olmaz.",
-    "`mit` katılmak gibi anlamlar verir; aramak `anrufen`dır."
+    "`mit` katılmak gibi anlamlar verir; aramak `anrufen`dir."
    ],
    "aciklama": "ich ile fiil rufe olur, ön ek an sona gider: Ich rufe meine Mutter heute an.",
    "ipucu": "Fiilin ekine ve ön ekin hem seçimine hem yerine bak.",
