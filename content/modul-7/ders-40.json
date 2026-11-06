@@ -72,9 +72,9 @@
     {
       "id": "m7-d40-q03",
       "tip": "coktan-secmeli",
-      "soru": "Lena bir çocuğu tanıyıp tanımadığını soruyor. Mert onu daha önce gördüğünü söylüyor. Cümlesini tamamla.",
+      "soru": "Lena bir çocuğu görüp görmediğini soruyor. Mert onu daha önce gördüğünü söylüyor. Cümlesini tamamla.",
       "diyalog": [
-        { "kim": "Lena", "metin": "Kennst du diesen Jungen?" },
+        { "kim": "Lena", "metin": "Siehst du diesen Jungen?" },
         { "kim": "Mert", "metin": "Ich habe diesen Jungen schon einmal ___." }
       ],
       "secenekler": ["gesehen", "sehen", "sieht"],
