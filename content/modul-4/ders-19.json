@@ -138,7 +138,7 @@
       "id": "m4-d19-q03",
       "tip": "coktan-secmeli",
       "soru": "Yeni odada kanepenin hâlâ eksik olduğunu söylüyorsun. Boşluğa uygun artikeli seç.",
-      "metin": "Im neuen Zimmer fehlt noch ___ Sofa.",
+      "metin": "Das Zimmer ist neu. Nur ___ Sofa fehlt noch.",
       "secenekler": [
         "das",
         "der",
@@ -150,7 +150,7 @@
         "`der` eril artikeldir; `Sofa` eril bir isim değildir.",
         "`die` dişil artikeldir; `Sofa` dişil bir isim değildir."
       ],
-      "aciklama": "Sofa nötrdür: das Sofa. Eksik olan şey cümlenin öznesidir, bu yüzden Nominativ das gelir: Im neuen Zimmer fehlt noch das Sofa.",
+      "aciklama": "Sofa nötrdür: das Sofa. Eksik olan şey cümlenin öznesidir, bu yüzden Nominativ das gelir: Das Zimmer ist neu. Nur das Sofa fehlt noch.",
       "ipucu": "Kanepeyi derste hangi artikelle gördüğünü düşün.",
       "bicim": "bosluk",
       "kaynakTuru": "uyarlama",
@@ -221,28 +221,23 @@
     {
       "id": "m4-d19-q06",
       "tip": "cumle-dizme",
-      "soru": "Kelimeleri doğru sıraya diz: Yeni mutfakta ocak hâlâ eksik.",
+      "soru": "Kelimeleri doğru sıraya diz: Ocak yeni.",
       "parcalar": [
-        "in der neuen Küche",
-        "fehlt noch",
-        "der Herd"
+        "der Herd",
+        "ist",
+        "neu"
       ],
       "dogruSiralar": [
         [
-          "in der neuen Küche",
-          "fehlt noch",
-          "der Herd"
-        ],
-        [
           "der Herd",
-          "fehlt noch",
-          "in der neuen Küche"
+          "ist",
+          "neu"
         ]
       ],
-      "aciklama": "Çekimli fiil ikinci öğe olarak ortada kalır; yer bilgisi başa geçerse özne fiilin arkasına kayar.",
-      "ipucu": "Yer bilgisi başa da sona da gidebilir, fiilli öbek ise ortada kalır.",
+      "aciklama": "Özne (der Herd) Nominativ'dedir, çekimli fiil ikinci sıradadır.",
+      "ipucu": "Özne başta durur, çekimli fiil hemen ardından gelir.",
       "bicim": "siralama",
-      "kaynakTuru": "goethe",
+      "kaynakTuru": "uyarlama",
       "kaynakCumle": "In der neuen Küche fehlt noch der Herd."
     },
     {
