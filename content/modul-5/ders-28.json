@@ -1,0 +1,334 @@
+{
+  "id": "m5-d28",
+  "ders": 28,
+  "baslik": "nicht",
+  "videoId": "oTYmWbM-eaM",
+  "ozet": [
+    "Olumsuzluk: nicht (değil, -me/-ma). Türkçede olumsuzluk fiilin içindedir (bilmiyorum), Almanca ise ayrı bir sözcük ekler. Cümlede fiilden sonra başka bir parça yoksa nicht sonda durur: Das stimmt nicht. Ich kenne das Wort nicht. Ich rauche nicht. (stimmen = doğru olmak, kennen = tanımak/bilmek, das Wort = sözcük, rauchen = sigara içmek.)",
+    "sein ile nicht, sıfatın veya yer ifadesinin önüne gelir: Ich bin nicht verheiratet. Deutsch ist nicht leicht. Zum Bahnhof ist es nicht weit. Paul ist nicht zu Hause. (leicht = kolay, weit = uzak, der Bahnhof = istasyon, zu Hause = evde.) Ich lebe nicht in Spanien örneğinde de nicht, yer ifadesinden önce gelir.",
+    "nicht mehr = artık değil: Ihre Eltern leben nicht mehr. (die Eltern = anne baba, çoğul.) Kısa cevapta nicht tek başına kalabilir: Kennen Sie diese Frau? – Nein, leider nicht. (leider = maalesef.) Nein hayır demektir, nicht ise cümleyi olumsuzlar: Nein, ich bin nicht ledig."
+  ],
+  "kelimeler": [
+    { "de": "nicht", "tr": "değil, -me/-ma" },
+    { "de": "nicht mehr", "tr": "artık değil" },
+    { "de": "leicht", "tr": "kolay" },
+    { "de": "weit", "tr": "uzak" },
+    { "de": "der Bahnhof", "tr": "istasyon", "artikel": "der" },
+    { "de": "das Wort", "tr": "sözcük", "artikel": "das" },
+    { "de": "kennen", "tr": "tanımak, bilmek" },
+    { "de": "stimmen", "tr": "doğru olmak" },
+    { "de": "rauchen", "tr": "sigara içmek" },
+    { "de": "die Eltern", "tr": "anne baba (çoğul)" },
+    { "de": "leider", "tr": "maalesef" },
+    { "de": "zu Hause", "tr": "evde" }
+  ],
+  "trickler": [
+    {
+      "baslik": "Fiilden sonra parça yoksa sonda",
+      "metin": "Fiilden sonra başka bir parça yoksa nicht cümlenin sonunda durur: Das stimmt nicht. Ich rauche nicht."
+    },
+    {
+      "baslik": "sein + nicht + sıfat",
+      "metin": "sein ile nicht, sıfatın ve yer ifadesinin önünde gelir: nicht leicht, nicht weit, nicht zu Hause."
+    },
+    {
+      "baslik": "nein ile nicht aynı değil",
+      "metin": "Nein cevabın başında hayır der. Cümleyi olumsuzlayan sözcük nicht'tir: Nein, ich bin nicht ledig."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m5-d28-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Birinin söylediği şeyin doğru olmadığını söylüyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Das stimmt ___.",
+      "secenekler": ["nein", "nicht", "und", "mit"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`nein` cevabın başında hayır demek için kullanılır, fiili olumsuzlamaz.",
+        "",
+        "`und` ve demektir, olumsuzluk anlamı taşımaz.",
+        "`mit` ile demektir, olumsuzluk anlamı taşımaz."
+      ],
+      "aciklama": "Fiili olumsuzlamak için nicht gerekir ve fiilden sonra başka parça olmadığı için sonda durur: Das stimmt nicht.",
+      "ipucu": "Türkçedeki değil sözcüğünün Almanca karşılığını ara.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das stimmt nicht.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d28-q02",
+      "tip": "bosluk-doldurma",
+      "soru": "Bir sözcüğü bilmediğini söylüyorsun. Boşluğa olumsuzluk sözcüğünü yaz.",
+      "metin": "Ich kenne das Wort ___.",
+      "dogruCevaplar": ["nicht"],
+      "aciklama": "Fiilden sonra başka parça olmadığı için nicht sonda durur: Ich kenne das Wort nicht.",
+      "ipucu": "Cümlenin sonuna olumsuzluk getiren kısa sözcük gelir.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich kenne das Wort nicht.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d28-q03",
+      "tip": "coktan-secmeli",
+      "soru": "İstasyonun uzak olmadığını söylüyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Zum Bahnhof ist es ___ weit.",
+      "secenekler": ["nicht", "nein", "mit", "bei"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`nein` hayır demektir, sıfatı olumsuzlamak için kullanılmaz.",
+        "`mit` ile demektir, olumsuzluk anlamı taşımaz.",
+        "`bei` -de, yanında demektir, olumsuzluk anlamı taşımaz."
+      ],
+      "aciklama": "sein ile nicht sıfatın önüne gelir: Zum Bahnhof ist es nicht weit.",
+      "ipucu": "Sıfattan hemen önce olumsuzluk sözcüğü gerekir.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Zum Bahnhof ist es nicht weit.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d28-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Lena bir kadını tanıyıp tanımadığını soruyor. Mert tanımadığını söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Kennen Sie diese Frau?" },
+        { "kim": "Mert", "metin": "Nein, leider ___." }
+      ],
+      "secenekler": ["nein", "ja", "nicht", "und"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`nein` zaten cevabın başında var; sonda olumsuzluk için `nicht` gerekir.",
+        "`ja` evet demektir; Mert tanımadığını söylüyor.",
+        "",
+        "`und` ve demektir, olumsuzluk anlamı taşımaz."
+      ],
+      "aciklama": "Kısa cevapta nicht tek başına kalabilir: Nein, leider nicht.",
+      "ipucu": "Mert cümleyi olumsuz bitiriyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Kennen Sie diese Frau? – Nein, leider nicht.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d28-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Mert bir sözcüğü bilip bilmediğini soruyor. Lena bilmediğini söylüyor. Cevabı seç.",
+      "diyalog": [
+        { "kim": "Mert", "metin": "Kennen Sie das Wort?" },
+        { "kim": "Lena", "metin": "Nein, ___." }
+      ],
+      "secenekler": [
+        "ich kenne das Wort nicht",
+        "ich nicht kenne das Wort",
+        "ich kenne das Wort nein",
+        "ich kennen das Wort nicht"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`nicht` fiilden önce gelmez; fiilden sonra başka parça yoksa sonda durur.",
+        "`nein` cümleyi olumsuzlamaz; olumsuzluk için `nicht` gerekir.",
+        "`ich` ile fiil `kenne` olur, `kennen` değil."
+      ],
+      "aciklama": "Fiil ich ile kenne olur ve nicht sonda durur: Ich kenne das Wort nicht.",
+      "ipucu": "Hem fiilin kişiye uymasına hem olumsuzluğun yerine bak.",
+      "bicim": "diyalog",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich kenne das Wort nicht.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d28-q06",
+      "tip": "coktan-secmeli",
+      "soru": "Sigara içmediğini söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Ich nicht rauche.",
+        "Ich rauche nein.",
+        "Ich rauchen nicht.",
+        "Ich rauche nicht."
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`nicht` fiilden önce değil, fiilden sonra gelir.",
+        "`nein` cümleyi olumsuzlamaz; olumsuzluk için `nicht` gerekir.",
+        "`ich` ile fiil `rauche` olur; `rauchen` wir ve sie içindir.",
+        ""
+      ],
+      "aciklama": "Fiil ich ile rauche olur ve nicht sonda durur: Ich rauche nicht.",
+      "ipucu": "Fiil ekinin ve olumsuzluğun yeri birlikte doğru olmalı.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich rauche nicht.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d28-q07",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Ben sigara içmiyorum.",
+      "parcalar": ["nicht", "rauche", "ich"],
+      "dogruSiralar": [["ich", "rauche", "nicht"]],
+      "aciklama": "Özne ve çekimli fiil önce gelir, nicht sonda durur: Ich rauche nicht.",
+      "ipucu": "Olumsuzluk sözcüğü fiilden sonra gelir.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich rauche nicht."
+    },
+    {
+      "id": "m5-d28-q08",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Anne babanız artık yaşamıyor.",
+      "parcalar": ["nicht mehr", "Ihre Eltern", "leben"],
+      "dogruSiralar": [
+        ["Ihre Eltern", "leben", "nicht mehr"],
+        ["nicht mehr", "leben", "Ihre Eltern"]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır ve artık değil anlamı nicht mehr ile verilir.",
+      "ipucu": "Fiil iki kalıp arasında sabit kalır.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ihre Eltern leben nicht mehr."
+    },
+    {
+      "id": "m5-d28-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Paul'ün evde olmadığını söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Paul nicht ist zu Hause.",
+        "Paul ist nicht zu Hause.",
+        "Paul ist nein zu Hause.",
+        "Paul sind nicht zu Hause."
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`nicht` çekimli fiilden önce gelmez; fiilden sonra gelir.",
+        "",
+        "`nein` cümleyi olumsuzlamaz; olumsuzluk için `nicht` gerekir.",
+        "`Paul` tekildir; `sind` çoğul özneyle gelir, tekilde `ist` kullanılır."
+      ],
+      "aciklama": "sein ile nicht yer ifadesinin önüne gelir: Paul ist nicht zu Hause.",
+      "ipucu": "Hem fiilin özneye uymasına hem olumsuzluğun yerine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Paul ist nicht zu Hause.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d28-q10",
+      "tip": "dinleme",
+      "soru": "Bir arkadaşın Almanca hakkında ne düşündüğünü söylüyor. Duyduğun cümleyi seç.",
+      "okunacak": "Deutsch ist nicht leicht.",
+      "mod": "sec",
+      "secenekler": [
+        "Almanca kolay değil.",
+        "Almanca çok kolay.",
+        "Almanca kolay mı?",
+        "Almanca artık kolay."
+      ],
+      "dogruCevaplar": ["Almanca kolay değil."],
+      "aciklama": "nicht leicht kolay değil demektir: Deutsch ist nicht leicht.",
+      "ipucu": "Cümledeki küçük olumsuzluk sözcüğünü yakala.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Deutsch ist nicht leicht."
+    },
+    {
+      "id": "m5-d28-q11",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? İstasyonun uzak olmadığını şöyle söylüyorsun:",
+      "ifade": "Zum Bahnhof ist es weit nicht.",
+      "dogru": false,
+      "aciklama": "Yanlış. sein ile nicht sıfatın önüne gelir: Zum Bahnhof ist es nicht weit.",
+      "ipucu": "Olumsuzluk sözcüğünün sıfata göre yerine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Zum Bahnhof ist es nicht weit.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d28-q12",
+      "tip": "coktan-secmeli",
+      "soru": "Anne babanın artık yaşamadığını söylüyorsun. Boşluğa uygun kalıbı seç.",
+      "metin": "Meine Eltern leben ___.",
+      "secenekler": ["nein mehr", "mehr nicht", "nicht mehr", "und mehr"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`nein` cümleyi olumsuzlamaz; artık değil için `nicht mehr` gerekir.",
+        "`nicht mehr` kalıbında önce `nicht` gelir.",
+        "",
+        "`und` ve demektir, olumsuzluk anlamı taşımaz."
+      ],
+      "aciklama": "Artık değil anlamı nicht mehr ile verilir: Meine Eltern leben nicht mehr.",
+      "ipucu": "Artık değil kalıbında önce olumsuzluk gelir.",
+      "bicim": "bosluk",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ihre Eltern leben nicht mehr.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d28-q13",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Almanca hakkında şöyle söylüyorsun:",
+      "ifade": "Deutsch ist nicht leicht.",
+      "dogru": true,
+      "aciklama": "Doğru. sein ile nicht sıfatın önüne gelir: Deutsch ist nicht leicht.",
+      "ipucu": "Olumsuzluk sözcüğü ile sıfatın sırasına bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Deutsch ist nicht leicht.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d28-q14",
+      "tip": "bosluk-doldurma",
+      "soru": "Paul'ün evde olmadığını söylüyorsun. Boşluğa olumsuzluk sözcüğünü yaz.",
+      "metin": "Paul ist ___ zu Hause.",
+      "dogruCevaplar": ["nicht"],
+      "aciklama": "sein ile nicht yer ifadesinin önüne gelir: Paul ist nicht zu Hause.",
+      "ipucu": "Yer ifadesinden hemen önce gelen sözcüğü düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Paul ist nicht zu Hause.",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d28-q15",
+      "tip": "eslestirme",
+      "soru": "Almanca sözcükleri Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        { "sol": "nicht", "sag": "değil" },
+        { "sol": "leicht", "sag": "kolay" },
+        { "sol": "weit", "sag": "uzak" },
+        { "sol": "Bahnhof", "sag": "istasyon" },
+        { "sol": "leider", "sag": "maalesef" },
+        { "sol": "rauchen", "sag": "sigara içmek" }
+      ],
+      "aciklama": "nicht değil, leicht kolay, weit uzak demektir.",
+      "ipucu": "Önce sıfatları, sonra diğerlerini eşleştir.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m5-d28-q16",
+      "tip": "fiil-cekimi",
+      "soru": "\"rauchen\" fiilini her zamire göre çek.",
+      "fiil": "rauchen",
+      "satirlar": [
+        { "zamir": "ich", "cevap": "rauche", "verilen": true },
+        { "zamir": "du", "cevap": "rauchst" },
+        { "zamir": "er/sie/es", "cevap": "raucht" },
+        { "zamir": "wir", "cevap": "rauchen" },
+        { "zamir": "ihr", "cevap": "raucht" },
+        { "zamir": "sie/Sie", "cevap": "rauchen" }
+      ],
+      "aciklama": "Kök (rauch-) hep aynı kalır; ek zamire göre değişir: -e, -st, -t, -en, -t, -en.",
+      "ipucu": "Kök aynı kalır, yalnızca sondaki ek değişir.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    }
+  ]
+}

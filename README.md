@@ -82,7 +82,16 @@ node scripts/ders-adaylari.mjs 9     # veya: npm run adaylar -- 9
 
 Dersin gramerini, kendi modülünden sonra diğer modüllerden (Modül 1 hariç) aday banka cümlelerini, ilgili kelimeleri ve her cümlenin mevcut derslerde `kaynakCumle` olarak kullanıldığı yerleri markdown olarak yazar. Çıktı kendi modülünden en fazla 40, diğer modüllerden toplam 20 cümleyle sınırlıdır, kullanılmamış cümleler önce gelir ve gösterilmeyen sayı yazılır; tamamı için `--hepsi` ekleyin. Bilinmeyen ders için çıkış kodu 1'dir. Yalnızca okur, dosya yazmaz.
 
-Yeni modül içeriği `.claude/workflows/modul-icerik.js` workflow'u ve `.claude/agents/` altındaki `icerik-yazar`, `icerik-inceleyici` ajanlarıyla yazılır.
+Yeni modül içeriği `.claude/workflows/modul-icerik.js` workflow'u ve `.claude/agents/` altındaki `icerik-yazar`, `icerik-inceleyici`, `icerik-kapi` ajanlarıyla yazılır.
+
+### Öğretilenler ve modül sonu scriptleri
+
+```
+node scripts/ogretilenler.mjs modul-4 ders-19     # veya: sinav
+node scripts/modul-sonu.mjs modul-4
+```
+
+`ogretilenler` soruların cevap ve metin alanlarında henüz gösterilmemiş sözcükleri listeler; otomatik kural değil kontrol listesidir, dilbilgisi hâllerini göremez. `modul-sonu` tür denetimi, test ve build sonucunu ve modül raporunun özetini kısa olarak yazar, bir adım başarısızsa çıkış kodu 1'dir.
 
 ### Modül raporu scripti
 
