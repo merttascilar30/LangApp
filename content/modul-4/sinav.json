@@ -50,16 +50,16 @@
     {
       "id": "m4-s-q03",
       "tip": "coktan-secmeli",
-      "soru": "Birine kaç kız kardeşi olduğunu soruyorsun. Boşluğa uygun ismi seç.",
+      "soru": "Birine kaç çocuğu olduğunu soruyorsun. Boşluğa uygun ismi seç.",
       "metin": "Wie viele ___ haben Sie?",
-      "secenekler": ["Schwester", "Schwestern", "Bruder"],
+      "secenekler": ["Kind", "Kinder", "Kinden"],
       "dogru": 1,
       "celdiriciNotlari": [
-        "`Schwester` tekildir; `wie viele` çoğul isimle gelir.",
+        "`Kind` tekildir; `wie viele` çoğul isimle gelir.",
         "",
-        "`Bruder` erkek kardeş demektir ve tekildir; `wie viele` çoğul isimle gelir."
+        "`Kinden` Almancada çoğul biçim değildir; `das Kind` sözcüğünün çoğulu `Kinder`dir."
       ],
-      "aciklama": "Wie viele çoğul isimle gelir ve die Schwester'in çoğulu Schwestern'dir: Wie viele Schwestern haben Sie?",
+      "aciklama": "Wie viele çoğul isimle gelir ve das Kind'in çoğulu Kinder'dir: Wie viele Kinder haben Sie?",
       "ipucu": "Kaç sorusundan sonra isim çoğul olur.",
       "bicim": "bosluk",
       "kaynakTuru": "yazildi",
