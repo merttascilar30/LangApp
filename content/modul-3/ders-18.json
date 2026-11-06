@@ -1,0 +1,476 @@
+{
+  "id": "m3-d18",
+  "ders": 18,
+  "baslik": "Aylar ve Günler Alıştırma",
+  "videoId": "mAkiR0TLZCE",
+  "ozet": [
+    "Tekrar: haftanın günleri Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag; aylar Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember. Hepsi maskulindir ve büyük harfle yazılır.",
+    "Gün adının önünde am gelir: am Montag, am Mittwoch. Hafta sonu da aynıdır: am Wochenende. Saat önünde um gelir: am Montag um 8.00 Uhr.",
+    "Ay ve mevsim adının önünde im gelir: im Mai, im Sommer, im Winter. Ay başı ve sonu için Anfang Juli, Ende Dezember denir; bu kalıpta ek edat gerekmez. Doğum günü için Ich habe im Mai Geburtstag. dersin.",
+    "Mevsimler: der Frühling, der Sommer, der Herbst, der Winter. Hava anlatırken özne es olur: Im Winter schneit es und es ist kalt.",
+    "Fiil özneyle uyar: meine Schwester tek kişidir, bu yüzden kommt gelir; wir ile haben, machen, feiern mastarla aynıdır. Çekimli fiil cümlede ikinci sırada kalır; zaman ifadesi başa geçerse özne fiilin arkasına kayar."
+  ],
+  "kelimeler": [
+    {
+      "de": "der Montag",
+      "tr": "pazartesi",
+      "artikel": "der"
+    },
+    {
+      "de": "der Mittwoch",
+      "tr": "çarşamba",
+      "artikel": "der"
+    },
+    {
+      "de": "der Freitag",
+      "tr": "cuma",
+      "artikel": "der"
+    },
+    {
+      "de": "der Samstag",
+      "tr": "cumartesi",
+      "artikel": "der"
+    },
+    {
+      "de": "der Sonntag",
+      "tr": "pazar",
+      "artikel": "der"
+    },
+    {
+      "de": "das Wochenende",
+      "tr": "hafta sonu",
+      "artikel": "das"
+    },
+    {
+      "de": "der Juni",
+      "tr": "haziran",
+      "artikel": "der"
+    },
+    {
+      "de": "der Juli",
+      "tr": "temmuz",
+      "artikel": "der"
+    },
+    {
+      "de": "der Dezember",
+      "tr": "aralık",
+      "artikel": "der"
+    },
+    {
+      "de": "der Frühling",
+      "tr": "ilkbahar",
+      "artikel": "der"
+    },
+    {
+      "de": "der Sommer",
+      "tr": "yaz",
+      "artikel": "der"
+    },
+    {
+      "de": "der Winter",
+      "tr": "kış",
+      "artikel": "der"
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m3-d18-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Temmuz başında tatile çıkacağını söylüyorsun. Boşluğa uygun ayı seç.",
+      "metin": "Wir machen Anfang ___ Urlaub.",
+      "secenekler": [
+        "Juni",
+        "Juli",
+        "August",
+        "Januar"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`Juni` haziran demektir; sorudaki ay temmuz.",
+        "",
+        "`August` ağustos demektir; sorudaki ay temmuz.",
+        "`Januar` ocak demektir; sorudaki ay temmuz."
+      ],
+      "aciklama": "Temmuz Juli'dir; ay başı için Anfang Juli denir: Wir machen Anfang Juli Urlaub.",
+      "ipucu": "Yazın ortasındaki ayı seç; haziranla ağustos arasında kalır.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir machen Anfang Juli Urlaub.",
+      "glossKapali": true
+    },
+    {
+      "id": "m3-d18-q02",
+      "tip": "coktan-secmeli",
+      "soru": "Frau Kern sınavın ne zaman olduğunu soruyor. Herr Weber'in cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Frau Kern",
+          "metin": "Wann ist die Prüfung?"
+        },
+        {
+          "kim": "Herr Weber",
+          "metin": "Die Prüfung ist ___ Montag um 8.00 Uhr."
+        }
+      ],
+      "secenekler": [
+        "am",
+        "im",
+        "um",
+        "in"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`im` ay ve mevsim adlarıyla gelir; `Montag` bir gündür.",
+        "`um` saatle gelir (`um 8.00 Uhr`); gün adının önünde kullanılmaz.",
+        "`in` bu kalıpta kullanılmaz; gün adının önünde `am` söylenir."
+      ],
+      "aciklama": "Gün adının önünde am gelir; saatin önünde ise um kalır: am Montag um 8.00 Uhr.",
+      "ipucu": "Boşluktan hemen sonra bir hafta günü geliyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Prüfung ist am Montag um 8.00 Uhr."
+    },
+    {
+      "id": "m3-d18-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Yazın akşam saat 21'e kadar hava aydınlık olduğunu anlatıyorsun. Boşluğa uygun mevsimi seç.",
+      "metin": "Im ___ ist es bis 21 Uhr hell.",
+      "secenekler": [
+        "Winter",
+        "Herbst",
+        "Sommer",
+        "Frühling"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`Winter` kış demektir; sorudaki mevsim yaz.",
+        "`Herbst` sonbahar demektir; sorudaki mevsim yaz.",
+        "",
+        "`Frühling` ilkbahar demektir; sorudaki mevsim yaz."
+      ],
+      "aciklama": "Yaz Sommer'dır; mevsim adının önünde im kullanılır: Im Sommer ist es bis 21 Uhr hell.",
+      "ipucu": "Günlerin en uzun olduğu sıcak mevsimi düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Im Sommer ist es bis 21 Uhr hell.",
+      "glossKapali": true
+    },
+    {
+      "id": "m3-d18-q04",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Kız kardeşim salı günü geliyor.",
+      "parcalar": [
+        "am Dienstag",
+        "kommt",
+        "meine Schwester"
+      ],
+      "dogruSiralar": [
+        [
+          "meine Schwester",
+          "kommt",
+          "am Dienstag"
+        ],
+        [
+          "am Dienstag",
+          "kommt",
+          "meine Schwester"
+        ]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; gün ifadesi başa geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Fiil, cümleye hangi öğeyle başlarsan başla ikinci öğedir.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Meine Schwester kommt am Dienstag."
+    },
+    {
+      "id": "m3-d18-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Çarşamba günü maalesef vaktin olmadığını söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Im Mittwoch habe ich leider keine Zeit.",
+        "Um Mittwoch habe ich leider keine Zeit.",
+        "Am Mittwoch habe ich leider keine Zeit.",
+        "Am Mittwoch haben ich leider keine Zeit."
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`im` ay ve mevsimle gelir; gün adının önünde `am` kullanılır.",
+        "`um` saatle gelir; gün adının önünde `am` kullanılır.",
+        "",
+        "`haben` `wir` ve `sie` (onlar) ile gelir; `ich` ile `habe` kullanılır."
+      ],
+      "aciklama": "Gün adının önünde am gelir ve ich ile fiil habe olur: Am Mittwoch habe ich leider keine Zeit.",
+      "ipucu": "Hem gün adının önündeki kısa kelimeye hem de fiilin özneyle uyumuna bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Am Mittwoch habe ich leider keine Zeit.",
+      "glossKapali": true
+    },
+    {
+      "id": "m3-d18-q06",
+      "tip": "coktan-secmeli",
+      "soru": "Lena Mert'in doğum gününü soruyor. Mert'in cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Wann hast du Geburtstag?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Ich habe ___ Mai Geburtstag."
+        }
+      ],
+      "secenekler": [
+        "am",
+        "im",
+        "in",
+        "um"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`am` belirli bir günle gelir (`am 3. Mai`); yalnızca ay söylenince kullanılmaz.",
+        "",
+        "`in` bu kalıpta kullanılmaz; ay adının önünde hazır kalıp `im` gelir.",
+        "`um` saatlerle gelir; ay adının önünde kullanılmaz."
+      ],
+      "aciklama": "Yalnızca ay söylenince im gelir: Ich habe im Mai Geburtstag.",
+      "ipucu": "Mert gün değil, yalnızca bir ay söylüyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Wir feiern heute meinen Geburtstag."
+    },
+    {
+      "id": "m3-d18-q07",
+      "tip": "bosluk-doldurma",
+      "soru": "Yıl sonunda, aralık ayının sonunda kutlama yapacağını söylüyorsun. Boşluğa ayın adını yaz (das neue Jahr = yeni yıl).",
+      "metin": "Ende ___ feiern wir das neue Jahr.",
+      "dogruCevaplar": [
+        "Dezember"
+      ],
+      "aciklama": "Aralık Dezember'dır; ay sonu için Ende Dezember denir: Ende Dezember feiern wir das neue Jahr.",
+      "ipucu": "Yılın son ayının adını yaz.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ende Dezember feiern wir das neue Jahr."
+    },
+    {
+      "id": "m3-d18-q08",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Kurs her zaman perşembe günü.",
+      "parcalar": [
+        "immer am Donnerstag",
+        "ist",
+        "der Kurs"
+      ],
+      "dogruSiralar": [
+        [
+          "der Kurs",
+          "ist",
+          "immer am Donnerstag"
+        ],
+        [
+          "immer am Donnerstag",
+          "ist",
+          "der Kurs"
+        ]
+      ],
+      "aciklama": "Ist çekimli fiildir ve ikinci sırada durur; zaman ifadesi başa geçerse özne fiilin arkasına gelir.",
+      "ipucu": "Zaman ifadesi tek bir öğe sayılır, çekimli fiil onun ardından gelir.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Der Kurs ist immer am Donnerstag."
+    },
+    {
+      "id": "m3-d18-q09",
+      "tip": "dinleme",
+      "soru": "Bir arkadaşın kursun hangi gün olduğunu söylüyor. Duyduğun cümleyi seç.",
+      "okunacak": "Der Kurs ist immer am Donnerstag.",
+      "mod": "sec",
+      "secenekler": [
+        "Kurs her zaman pazartesi günü.",
+        "Kurs her zaman cuma günü.",
+        "Kurs her zaman perşembe günü.",
+        "Kurs her zaman cumartesi günü."
+      ],
+      "dogruCevaplar": [
+        "Kurs her zaman perşembe günü."
+      ],
+      "aciklama": "Donnerstag perşembedir; immer her zaman demektir: Der Kurs ist immer am Donnerstag.",
+      "ipucu": "Cümlenin sonundaki gün adına kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Der Kurs ist immer am Donnerstag."
+    },
+    {
+      "id": "m3-d18-q10",
+      "tip": "coktan-secmeli",
+      "soru": "Lena salı günü ne olduğunu soruyor. Mert'in cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Was ist am Dienstag?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Meine Schwester ___ am Dienstag."
+        }
+      ],
+      "secenekler": [
+        "kommt",
+        "komme",
+        "kommen",
+        "kommst"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`komme` yalnızca `ich` ile gelir; özne `meine Schwester`.",
+        "`kommen` `wir`, `sie` (onlar) ve `Sie` ile gelir; kız kardeş tek kişidir.",
+        "`kommst` yalnızca `du` ile gelir; özne `meine Schwester`."
+      ],
+      "aciklama": "Tekil üçüncü kişi özneyle fiil -t alır: Meine Schwester kommt am Dienstag.",
+      "ipucu": "Özne tek bir kişi ve sen onun hakkında konuşuyorsun.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Meine Schwester kommt am Dienstag."
+    },
+    {
+      "id": "m3-d18-q11",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Pazar günü yatakta kahvaltı yaptığını (frühstücken = kahvaltı yapmak) şöyle söylüyorsun:",
+      "ifade": "Im Sonntag frühstücke ich gern im Bett.",
+      "dogru": false,
+      "aciklama": "Yanlış. Gün adının önünde im değil am gelir: Am Sonntag frühstücke ich gern im Bett.",
+      "ipucu": "Cümleyi açan kısa kelimenin gün adıyla uyumlu olup olmadığına bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Am Sonntag frühstücke ich gern im Bett."
+    },
+    {
+      "id": "m3-d18-q12",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Sınav pazartesi saat 8'de.",
+      "parcalar": [
+        "am Montag um 8.00 Uhr",
+        "ist",
+        "die Prüfung"
+      ],
+      "dogruSiralar": [
+        [
+          "die Prüfung",
+          "ist",
+          "am Montag um 8.00 Uhr"
+        ],
+        [
+          "am Montag um 8.00 Uhr",
+          "ist",
+          "die Prüfung"
+        ]
+      ],
+      "aciklama": "Gün ve saat birlikte tek bir zaman ifadesidir; fiil ikinci sırada kalır.",
+      "ipucu": "Gün ve saat bir arada tek bir parça gibi davranır.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Prüfung ist am Montag um 8.00 Uhr."
+    },
+    {
+      "id": "m3-d18-q13",
+      "tip": "coktan-secmeli",
+      "soru": "Doğum günün ağustos ayında. Arkadaşına bunu söylerken hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Ich habe in August Geburtstag.",
+        "Ich habe am August Geburtstag.",
+        "Ich haben im August Geburtstag.",
+        "Ich habe im August Geburtstag."
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "Ay adının önünde `in` değil, hazır kalıp `im` gelir.",
+        "`am` belirli bir günle gelir; yalnızca ay söylenince `im` kullanılır.",
+        "`haben` `wir` ve `sie` (onlar) ile gelir; `ich` ile `habe` kullanılır.",
+        ""
+      ],
+      "aciklama": "Ay adının önünde im gelir ve ich ile fiil habe olur: Ich habe im August Geburtstag.",
+      "ipucu": "Hem aydan önceki kısa kelimeye hem de fiil çekimine dikkat et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Im August haben wir Sommerferien.",
+      "glossKapali": true
+    },
+    {
+      "id": "m3-d18-q14",
+      "tip": "dinleme",
+      "soru": "Bir arkadaşın kursun ne zaman başlayacağını söylüyor. Duyduğun cümleyi yaz.",
+      "okunacak": "Im Mai beginnt der Kurs.",
+      "mod": "yaz",
+      "dogruCevaplar": [
+        "Im Mai beginnt der Kurs",
+        "Der Kurs beginnt im Mai"
+      ],
+      "aciklama": "Ay adının önünde im gelir; zaman ifadesi başa geçince özne fiilin arkasına kayar: Im Mai beginnt der Kurs.",
+      "ipucu": "Cümlede zaman bildiren kısa bir kalıp ve kursun başlamasıyla ilgili bir bilgi var.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Im Mai beginnt der Kurs."
+    },
+    {
+      "id": "m3-d18-q15",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Kışın havayı şöyle anlatıyorsun:",
+      "ifade": "Im Winter schneit es und es ist kalt.",
+      "dogru": true,
+      "aciklama": "Doğru. Mevsim adının önünde im gelir: Im Winter schneit es und es ist kalt.",
+      "ipucu": "Mevsim adı ile önündeki kelimenin uyumunu kontrol et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Im Winter schneit es und es ist kalt."
+    },
+    {
+      "id": "m3-d18-q16",
+      "tip": "eslestirme",
+      "soru": "Almanca ay, gün ve mevsim adlarını Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        {
+          "sol": "Frühling",
+          "sag": "ilkbahar"
+        },
+        {
+          "sol": "Herbst",
+          "sag": "sonbahar"
+        },
+        {
+          "sol": "Juni",
+          "sag": "haziran"
+        },
+        {
+          "sol": "Mittwoch",
+          "sag": "çarşamba"
+        },
+        {
+          "sol": "Samstag",
+          "sag": "cumartesi"
+        }
+      ],
+      "aciklama": "Frühling ilkbahar, Herbst sonbahar, Juni haziran, Mittwoch çarşamba, Samstag cumartesidir.",
+      "ipucu": "Önce mevsimleri, sonra ay ve gün adlarını birbirinden ayır.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    }
+  ],
+  "trickler": [
+    {
+      "baslik": "Gün için am, ay için im",
+      "metin": "Gün adı ve hafta sonu am alır: am Montag, am Wochenende. Ay ve mevsim adı im alır: im Mai, im Winter. Saat için um kalır: um 8.00 Uhr."
+    },
+    {
+      "baslik": "Ay başı ve sonu",
+      "metin": "Anfang ve Ende ile ek edat gerekmez: Anfang Juli, Ende Dezember."
+    },
+    {
+      "baslik": "Fiil özneyi izler",
+      "metin": "ich habe, wir haben, meine Schwester kommt: fiil özneye uyar ve cümlede ikinci sırada kalır. Zaman ifadesiyle başlarsan özne fiilin arkasına geçer."
+    }
+  ]
+}
