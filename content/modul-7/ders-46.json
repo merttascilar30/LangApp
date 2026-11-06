@@ -1,0 +1,338 @@
+{
+  "id": "m7-d46",
+  "ders": 46,
+  "baslik": "müssen ve sollen",
+  "videoId": "HhoViM5airE",
+  "ozet": [
+    "müssen zorunluluk bildirir (-meli, -mek zorunda olmak). Çekimli modal fiil ikinci sırada durur, ana fiil mastar hâlinde sona gider: Ich muss jeden Tag von 8 Uhr bis 18 Uhr arbeiten (Her gün 8'den 18'e kadar çalışmak zorundayım). Türkçede zorunluluk fiile -meli eki ile eklenir, Almancada ayrı bir modal fiil kullanılır.",
+    "müssen çekimi: ich muss, du musst, er/sie/es muss, wir müssen, ihr müsst, sie/Sie müssen. ich ve er/sie/es aynı biçimi alır (muss); çoğulda ü harfi gelir. Örnekler: Da musst du dieses Wort anklicken (Orada bu sözcüğü tıklaman gerekiyor). Wo muss ich aussteigen? (Nerede inmem gerekiyor?) Wo muss ich unterschreiben? (Nereyi imzalamam gerekiyor?)",
+    "sollen çekimi: ich soll, du sollst, er/sie/es soll, wir sollen, ihr sollt, sie/Sie sollen. ich ve er/sie/es aynı biçimi alır (soll). sollen, ich veya wir ile sorularda teklif ve danışma için sık kullanılır: Soll ich kommen? (Geleyim mi?) Was soll ich mitbringen? (Ne getireyim?) Ich gehe einkaufen. Soll ich dir was mitbringen? Dieses Buch haben wir nicht – sollen wir es für Sie bestellen?",
+    "Başka bir öğe başa geçerse çekimli modal fiil yine ikinci sırada kalır, özne arkaya kayar: Jetzt muss ich leider gehen. An der nächsten Haltestelle müssen Sie aussteigen. Soruda soru sözcüğünden sonra modal fiil gelir, ana fiil sona gider. Örnekler: Wir müssen noch meinen Bruder abholen. Ich muss jetzt das Essen machen."
+  ],
+  "kelimeler": [
+    { "de": "müssen", "tr": "-meli, zorunda olmak" },
+    { "de": "sollen", "tr": "-meli (tavsiye, teklif)" },
+    { "de": "anklicken", "tr": "tıklamak" },
+    { "de": "aussteigen", "tr": "inmek (araçtan)" },
+    { "de": "unterschreiben", "tr": "imzalamak" },
+    { "de": "einkaufen", "tr": "alışveriş yapmak" },
+    { "de": "mitbringen", "tr": "beraberinde getirmek" },
+    { "de": "abholen", "tr": "almaya gitmek" },
+    { "de": "bestellen", "tr": "sipariş etmek" },
+    { "de": "bezahlen", "tr": "ödemek" }
+  ],
+  "trickler": [
+    {
+      "baslik": "ich muss, er muss, du musst",
+      "metin": "müssen'de ich ve er/sie/es aynı biçimi alır: muss. du için musst, ihr için müsst, wir ve sie/Sie için müssen kullanılır."
+    },
+    {
+      "baslik": "ich soll, er soll, du sollst",
+      "metin": "sollen'de ich ve er/sie/es aynı biçimi alır: soll. du için sollst, ihr için sollt, wir ve sie/Sie için sollen kullanılır."
+    },
+    {
+      "baslik": "müssen zorunlu, sollen teklif",
+      "metin": "müssen bir zorunluluğu anlatır. sollen ise ich veya wir ile soruda teklif ve danışma için sık kullanılır: Soll ich kommen?"
+    },
+    {
+      "baslik": "Modal ikinci, mastar sonda",
+      "metin": "Ich muss gehen. Çekimli modal fiil ikinci sırada kalır, ana fiil mastar olarak sona gider. Soru sözcüğü başa geçerse modal fiil yine ondan sonra gelir: Wo muss ich aussteigen?"
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m7-d46-q01",
+      "tip": "coktan-secmeli",
+      "soru": "İşte her gün 8'den 18'e kadar çalışman gerektiğini söylüyorsun. Boşluğa uygun biçimi seç.",
+      "metin": "Ich ___ jeden Tag von 8 Uhr bis 18 Uhr arbeiten.",
+      "secenekler": ["muss", "musst", "müssen", "müsst"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`musst` yalnızca `du` ile gelir; özne `ich`.",
+        "`müssen` wir ve sie/Sie ile gelir; özne `ich`.",
+        "`müsst` yalnızca `ihr` ile gelir; özne `ich`."
+      ],
+      "aciklama": "ich ile müssen muss olur: Ich muss jeden Tag von 8 Uhr bis 18 Uhr arbeiten.",
+      "ipucu": "ich ile fiilin sonunda ek yoktur.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich muss jeden Tag von 8 Uhr bis 18 Uhr arbeiten.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d46-q02",
+      "tip": "bosluk-doldurma",
+      "soru": "Vakit geç olduğu için gitmen gerektiğini söylüyorsun. Boşluğa müssen fiilinin ich biçimini yaz.",
+      "metin": "Es ist schon spät, ich ___ gehen.",
+      "dogruCevaplar": ["muss", "Muss"],
+      "aciklama": "ich ile müssen muss olur: Es ist schon spät, ich muss gehen.",
+      "ipucu": "ich için fiil, er/sie/es ile aynı biçimdedir.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Es ist schon spät, ich muss gehen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d46-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Mert alışverişe çıkan arkadaşına bir şey getirmeyi teklif ediyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Mert", "metin": "Ich gehe einkaufen. ___ ich dir was mitbringen?" },
+        { "kim": "Lena", "metin": "Ja, gern!" }
+      ],
+      "secenekler": ["sollen", "sollt", "soll", "sollst"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`sollen` wir ve sie/Sie ile gelir; özne `ich`.",
+        "`sollt` yalnızca `ihr` ile gelir; özne `ich`.",
+        "",
+        "`sollst` yalnızca `du` ile gelir; özne `ich`."
+      ],
+      "aciklama": "ich ile sollen soll olur ve teklif anlatır: Ich gehe einkaufen. Soll ich dir was mitbringen?",
+      "ipucu": "Özne ich olduğunda fiil, er/sie/es ile aynı biçimi alır.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich gehe einkaufen. Soll ich dir was mitbringen?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d46-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Bir yolcu nerede ineceğini soruyor, şoför cevap veriyor. Şoförün cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Fahrgast", "metin": "Wo muss ich aussteigen?" },
+        { "kim": "Fahrer", "metin": "An der nächsten Haltestelle ___ Sie aussteigen." }
+      ],
+      "secenekler": ["muss", "müssen", "musst", "müsst"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`muss` ich ve er/sie/es ile gelir; özne `Sie`.",
+        "",
+        "`musst` yalnızca `du` ile gelir; özne `Sie`.",
+        "`müsst` yalnızca `ihr` ile gelir; özne `Sie`."
+      ],
+      "aciklama": "Sie ile müssen çoğul biçimde kalır: An der nächsten Haltestelle müssen Sie aussteigen.",
+      "ipucu": "Saygılı hitap Sie ile çoğul fiil biçimi kullanılır.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "An der nächsten Haltestelle müssen Sie aussteigen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d46-q05",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Şimdi yemeği hazırlamam gerekiyor.",
+      "parcalar": ["ich", "muss", "jetzt", "das Essen", "machen"],
+      "dogruSiralar": [
+        ["ich", "muss", "jetzt", "das Essen", "machen"],
+        ["ich", "muss", "das Essen", "jetzt", "machen"],
+        ["jetzt", "muss", "ich", "das Essen", "machen"],
+        ["das Essen", "muss", "ich", "jetzt", "machen"]
+      ],
+      "aciklama": "Çekimli modal fiil ikinci sırada kalır, ana fiil machen sona gider: Ich muss jetzt das Essen machen.",
+      "ipucu": "Zaman sözcüğü yer değiştirebilir, ama mastar en sonda kalır.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich muss jetzt das Essen machen."
+    },
+    {
+      "id": "m7-d46-q06",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Nereyi imzalamam gerekiyor?",
+      "parcalar": ["wo", "muss", "ich", "unterschreiben"],
+      "dogruSiralar": [
+        ["wo", "muss", "ich", "unterschreiben"]
+      ],
+      "aciklama": "Soru sözcüğünden sonra modal fiil gelir, ana fiil sona gider: Wo muss ich unterschreiben?",
+      "ipucu": "Soru sözcüğü başta, mastar en sonda durur.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wo muss ich unterschreiben?"
+    },
+    {
+      "id": "m7-d46-q07",
+      "tip": "coktan-secmeli",
+      "soru": "Mağazada nerede ödeme yapman gerektiğini soruyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Wo musst ich bezahlen?",
+        "Wo müssen ich bezahlen?",
+        "Wo ich muss bezahlen?",
+        "Wo muss ich bezahlen?"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`musst` yalnızca `du` ile gelir; özne `ich`.",
+        "`müssen` wir ve sie/Sie ile gelir; özne `ich`.",
+        "Soru sözcüğünden sonra çekimli modal fiil gelir, özne ondan sonra durur.",
+        ""
+      ],
+      "aciklama": "ich ile müssen muss olur ve soru sözcüğünden hemen sonra gelir: Wo muss ich bezahlen?",
+      "ipucu": "Hem fiilin özneye uymasına hem de sözcük sırasına bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wo muss ich bezahlen?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d46-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Bir partiye davet edildin ve gelip gelmemen gerektiğini soruyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Sollst ich kommen?",
+        "Soll ich kommen?",
+        "Sollen ich kommen?",
+        "Soll kommen ich?"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`sollst` yalnızca `du` ile gelir; özne `ich`.",
+        "",
+        "`sollen` wir ve sie/Sie ile gelir; özne `ich`.",
+        "Soruda modal fiilden sonra özne gelir, ana fiil en sona gider."
+      ],
+      "aciklama": "ich ile sollen soll olur, ana fiil kommen sona gider: Soll ich kommen?",
+      "ipucu": "Fiilin özneyle uyumuna ve mastarın cümledeki konumuna dikkat et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Soll ich kommen?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d46-q09",
+      "tip": "dinleme",
+      "soru": "Bir arkadaşın bir toplantıdan ayrılmak zorunda olduğunu söylüyor. Duyduğun cümleyi seç.",
+      "okunacak": "Jetzt muss ich leider gehen.",
+      "mod": "sec",
+      "secenekler": [
+        "Maalesef gitmem gerekiyor.",
+        "Maalesef inmem gerekiyor.",
+        "Maalesef gitmek istemiyorum."
+      ],
+      "dogruCevaplar": ["Maalesef gitmem gerekiyor."],
+      "aciklama": "muss zorunluluğu, gehen gitmeyi anlatır: Jetzt muss ich leider gehen.",
+      "ipucu": "Hem hareketin yönüne hem de zorunluluk bildiren fiile kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Jetzt muss ich (aber) leider gehen."
+    },
+    {
+      "id": "m7-d46-q10",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Bir partiye ne getirmen gerektiğini soruyorsun:",
+      "ifade": "Was soll ich mitbringen?",
+      "dogru": true,
+      "aciklama": "Doğru. ich ile sollen soll olur: Was soll ich mitbringen?",
+      "ipucu": "ich ile fiilin sonundaki ek durumuna bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Was soll ich mitbringen?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d46-q11",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Nerede ineceğini soruyorsun:",
+      "ifade": "Wo musst ich aussteigen?",
+      "dogru": false,
+      "aciklama": "Yanlış. ich ile müssen muss olur: Wo muss ich aussteigen?",
+      "ipucu": "Özne ich iken fiilin hangi ekle bittiğine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Wo muss ich aussteigen?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d46-q12",
+      "tip": "bosluk-doldurma",
+      "soru": "Arkadaşına (du) bir sözcüğü tıklaması gerektiğini söylüyorsun. Boşluğa müssen fiilinin du biçimini yaz.",
+      "metin": "Da ___ du dieses Wort anklicken.",
+      "dogruCevaplar": ["musst", "Musst"],
+      "aciklama": "du ile müssen musst olur: Da musst du dieses Wort anklicken.",
+      "ipucu": "Bu fiilin du biçimi -st ile biter.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Da musst du dieses Wort anklicken.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d46-q13",
+      "tip": "fiil-cekimi",
+      "soru": "\"müssen\" fiilini her zamire göre çek.",
+      "fiil": "müssen",
+      "satirlar": [
+        { "zamir": "ich", "cevap": "muss", "verilen": true },
+        { "zamir": "du", "cevap": "musst" },
+        { "zamir": "er/sie/es", "cevap": "muss" },
+        { "zamir": "wir", "cevap": "müssen" },
+        { "zamir": "ihr", "cevap": "müsst" },
+        { "zamir": "sie/Sie", "cevap": "müssen" }
+      ],
+      "aciklama": "Tekilde kök muss, çoğulda müss olur; ich ve er/sie/es aynı biçimi alır: muss, musst, muss, müssen, müsst, müssen.",
+      "ipucu": "Çoğul kişilerde ü harfi, tekilde u harfi gelir.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m7-d46-q14",
+      "tip": "fiil-cekimi",
+      "soru": "\"sollen\" fiilini her zamire göre çek.",
+      "fiil": "sollen",
+      "satirlar": [
+        { "zamir": "ich", "cevap": "soll", "verilen": true },
+        { "zamir": "du", "cevap": "sollst" },
+        { "zamir": "er/sie/es", "cevap": "soll" },
+        { "zamir": "wir", "cevap": "sollen" },
+        { "zamir": "ihr", "cevap": "sollt" },
+        { "zamir": "sie/Sie", "cevap": "sollen" }
+      ],
+      "aciklama": "ich ve er/sie/es aynı biçimi alır: soll, sollst, soll, sollen, sollt, sollen.",
+      "ipucu": "ich ile er/sie/es satırları aynı, wir ile sie/Sie satırları mastarla aynıdır.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m7-d46-q15",
+      "tip": "coktan-secmeli",
+      "soru": "Kardeşini almaya gitmeniz gerektiğini söylüyorsun (wir). Boşluğa uygun biçimi seç.",
+      "metin": "Wir ___ noch meinen Bruder abholen.",
+      "secenekler": ["muss", "musst", "müssen", "müsst"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`muss` ich ve er/sie/es ile gelir; özne `wir`.",
+        "`musst` yalnızca `du` ile gelir; özne `wir`.",
+        "",
+        "`müsst` yalnızca `ihr` ile gelir; özne `wir`."
+      ],
+      "aciklama": "wir ile müssen çoğul biçimde kalır: Wir müssen noch meinen Bruder abholen.",
+      "ipucu": "wir ile fiil, mastarla aynı biçimdedir.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir müssen noch meinen Bruder abholen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d46-q16",
+      "tip": "coktan-secmeli",
+      "soru": "Satıcı müşteriye (Sie) kitabı onun için sipariş etmeyi teklif ediyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Kundin", "metin": "Ich möchte dieses Buch." },
+        { "kim": "Verkäufer", "metin": "Dieses Buch haben wir nicht – ___ wir es für Sie bestellen?" }
+      ],
+      "secenekler": ["sollen", "soll", "sollst", "sollt"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`soll` ich ve er/sie/es ile gelir; özne `wir`.",
+        "`sollst` yalnızca `du` ile gelir; özne `wir`.",
+        "`sollt` yalnızca `ihr` ile gelir; özne `wir`."
+      ],
+      "aciklama": "wir ile sollen çoğul biçimde kalır ve teklif anlatır: Sollen wir es für Sie bestellen?",
+      "ipucu": "Özne wir olduğunda fiil mastarla aynı biçimdedir.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Dieses Buch haben wir nicht – sollen wir es für Sie bestellen?",
+      "glossKapali": true
+    }
+  ]
+}
