@@ -94,21 +94,21 @@
     {
       "id": "m5-s-q05",
       "tip": "dinleme",
-      "soru": "Bir arkadaşın kocasının nerede çalıştığını söylüyor. Duyduğun cümleyi seç.",
-      "okunacak": "Mein Mann arbeitet im Reisebüro.",
+      "soru": "Bir arkadaşın babasının mesleğini söylüyor. Duyduğun cümleyi seç.",
+      "okunacak": "Mein Vater ist Arzt.",
       "mod": "sec",
       "secenekler": [
-        "Kocam seyahat acentesinde çalışıyor.",
-        "Kocam polis teşkilatında çalışıyor.",
-        "Kocam bir firmada çalışıyor.",
-        "Kocam işsiz."
+        "Babam doktor.",
+        "Babam öğretmen.",
+        "Babam işçi.",
+        "Babam işsiz."
       ],
-      "dogruCevaplar": ["Kocam seyahat acentesinde çalışıyor."],
-      "aciklama": "im Reisebüro seyahat acentesinde demektir: Mein Mann arbeitet im Reisebüro.",
-      "ipucu": "Cümlenin sonundaki yer ifadesine kulak ver.",
+      "dogruCevaplar": ["Babam doktor."],
+      "aciklama": "Meslek artikelsiz söylenir; Arzt doktor demektir: Mein Vater ist Arzt.",
+      "ipucu": "Cümlenin sonundaki meslek adına kulak ver.",
       "bicim": "senaryo",
       "kaynakTuru": "goethe",
-      "kaynakCumle": "Mein Mann arbeitet im Reisebüro."
+      "kaynakCumle": "Mein Vater ist Arzt."
     },
     {
       "id": "m5-s-q06",
