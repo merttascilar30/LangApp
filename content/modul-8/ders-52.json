@@ -15,7 +15,6 @@
     { "de": "manchmal", "tr": "bazen" },
     { "de": "selten", "tr": "nadiren" },
     { "de": "nie", "tr": "hiçbir zaman" },
-    { "de": "wie oft", "tr": "ne sıklıkla" },
     { "de": "geradeaus", "tr": "düz" },
     { "de": "besetzt", "tr": "dolu, meşgul" },
     { "de": "lustig", "tr": "eğlenceli, komik" },
@@ -24,7 +23,8 @@
     { "de": "sich treffen", "tr": "buluşmak" },
     { "de": "freitags", "tr": "cuma günleri" },
     { "de": "aber", "tr": "ama" },
-    { "de": "wenige", "tr": "birkaç, az" }
+    { "de": "wenige", "tr": "birkaç, az" },
+    { "de": "die Stunde", "tr": "saat", "artikel": "die" }
   ],
   "trickler": [
     {
