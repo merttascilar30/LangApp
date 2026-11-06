@@ -264,7 +264,7 @@
         "`Familie` aile demektir; `Ich bin` ile bir durum sıfatı gerekir."
       ],
       "aciklama": "Evli verheiratet'tir: Ich bin verheiratet und habe drei Kinder.",
-      "ipucu": "Mert'in anlattığı durum Lena'nın sorusundaki sözcükle aynı.",
+      "ipucu": "Mert'in anlattığı durum medeni durumla ilgili; Ich bin ile söylenen bir durum sıfatı ara.",
       "bicim": "diyalog",
       "kaynakTuru": "goethe",
       "kaynakCumle": "Ich bin verheiratet und habe drei Kinder.",
