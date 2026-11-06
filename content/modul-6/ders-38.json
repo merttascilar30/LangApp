@@ -166,7 +166,10 @@
    "ipucu": "Sahibin kim olduğuna ve ismin hangi cinsten olduğuna bak.",
    "bicim": "bosluk",
    "kaynakTuru": "uyarlama",
-   "kaynakCumle": "Sie lebt bei ihrer Schwester."
+   "kaynakCumle": "Sie lebt bei ihrer Schwester.",
+   "sozlukEk": {
+    "das": "bu (işaret zamiri)"
+   }
   },
   {
    "id": "m6-d38-q05",
@@ -196,7 +199,7 @@
     "`Ihrem` Dativ biçimidir; cümlede Dativ gerektiren bir şey yok."
    ],
    "aciklama": "Adresse dişildir ve Nominativ'dedir; resmî sizin için Ihre gelir: Wie ist Ihre Adresse?",
-   "ipucu": "Adresin artikelini kelime listesinden hatırla.",
+   "ipucu": "Adresse sözcüğü -e ile biter ve dişildir; Wie ist ___ Adresse? cümlesindeki görevine bak.",
    "bicim": "diyalog",
    "kaynakTuru": "uyarlama",
    "kaynakCumle": "Können Sie mir Ihre Nummer geben?",
@@ -222,7 +225,10 @@
    "ipucu": "Evet-hayır sorusunda çekimli fiilin yerini düşün.",
    "bicim": "siralama",
    "kaynakTuru": "goethe",
-   "kaynakCumle": "Ist Ihr Gepäck sehr schwer?"
+   "kaynakCumle": "Ist Ihr Gepäck sehr schwer?",
+   "sozlukEk": {
+    "ihr": "sizin (resmî)"
+   }
   },
   {
    "id": "m6-d38-q07",
