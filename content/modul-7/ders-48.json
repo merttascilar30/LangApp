@@ -1,0 +1,334 @@
+{
+  "id": "m7-d48",
+  "ders": 48,
+  "baslik": "mit, aus, von",
+  "videoId": "TE0Rf9_IZw0",
+  "ozet": [
+    "mit, aus ve von her zaman Dativ ister; sonrasındaki artikel Dativ olur: dem (eril, nötr), der (dişil), den (çoğul). mit (ile, -le/-la) araçlarla kullanılır: Ich fahre mit dem Auto zur Arbeit. Wir fahren lieber mit der Bahn (die Bahn = tren, raylı sistem; lieber = tercihen). Fährst du mit dem Fahrrad oder mit dem Auto? Er fährt mit dem Taxi. Ich fliege nicht gern (uçmayı sevmem). Deshalb fahre ich mit dem Zug (bu yüzden trenle giderim). Türkçede araç -le/-la ekiyle gelir: arabayla, trenle, taksiyle, bisikletle; Almancada mit dem Auto, mit dem Zug, mit dem Taxi, mit dem Fahrrad.",
+    "aus (-den, içinden) geldiğin yeri veya çıkarılan yeri gösterir: Woher kommen Sie? – Aus Frankreich. Ich komme aus der Türkei (die Türkei dişil olduğu için aus der). Ich hole zwei Flaschen Wasser aus der Küche (die Küche = mutfak, die Flasche = şişe). Das Flugzeug aus Berlin kommt heute später an (Berlin'den gelen uçak bugün daha geç geliyor). Ülke ve şehir adlarının çoğunda artikel yoktur: aus Frankreich, aus Berlin. Türkçedeki -den/-dan hâliyle karşılaştır.",
+    "von (-den, -in) başlangıç noktasını veya hangi şeyden söz edildiğini gösterir: Von Mainz nach Frankfurt sind es circa fünfzig Kilometer. Wir haben Unterricht von 8.00 bis 12.00 Uhr (von ... bis ... = ...'den ...'e kadar; der Unterricht = ders). Bitte schicken Sie mir einen Prospekt von Ihrem Hotel (der Prospekt = broşür). von dem çoğu zaman vom olur.",
+    "mit ve aus bazı fiillerde önek olarak da bulunur: mitkommen (birlikte gelmek), aussehen (görünmek), ankommen (varmak). Bu fiillerde önek cümlenin sonuna gider: Ich gehe ins Kino. Kommst du mit? Das sieht schön aus. Das Flugzeug kommt später an. Bu durumda mit ve aus bir isimden önce gelen edat değildir, arkasından Dativ gelmez."
+  ],
+  "kelimeler": [
+    { "de": "mit", "tr": "ile, -le/-la" },
+    { "de": "aus", "tr": "-den, içinden" },
+    { "de": "von", "tr": "-den, -in (başlangıç)" },
+    { "de": "vom", "tr": "von dem" },
+    { "de": "die Bahn", "tr": "tren, raylı sistem", "artikel": "die" },
+    { "de": "der Zug", "tr": "tren", "artikel": "der" },
+    { "de": "das Taxi", "tr": "taksi", "artikel": "das" },
+    { "de": "das Fahrrad", "tr": "bisiklet", "artikel": "das" },
+    { "de": "das Flugzeug", "tr": "uçak", "artikel": "das" },
+    { "de": "der Prospekt", "tr": "broşür", "artikel": "der" },
+    { "de": "der Reiseführer", "tr": "gezi rehberi", "artikel": "der" }
+  ],
+  "trickler": [
+    {
+      "baslik": "mit, aus, von: hep Dativ",
+      "metin": "Bu üç edattan sonra artikel Dativ olur: mit dem Auto, aus der Küche, von dem Hotel (vom Hotel). Çoğulda den gelir."
+    },
+    {
+      "baslik": "mit araç, aus kökeni, von başlangıcı",
+      "metin": "mit dem Zug (trenle), aus der Türkei (Türkiye'den), von Mainz (Mainz'dan). Türkçede -le, -den, -den ekleriyle karşılaştır."
+    },
+    {
+      "baslik": "Kommst du mit? Önek sonda",
+      "metin": "mitkommen ve aussehen gibi fiillerde mit ve aus cümlenin sonuna gider: Kommst du mit? Das sieht schön aus. Burada Dativ aranmaz."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m7-d48-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Uçmayı sevmediğin için yolculuğu trenle yaptığını söylüyorsun. Boşluğa uygun edatı seç.",
+      "metin": "Ich fliege nicht gern. Deshalb fahre ich ___ dem Zug.",
+      "secenekler": ["aus", "von", "mit", "bei"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`aus` içinden demektir; aracı anlatmaz.",
+        "`von` başlangıç noktasını gösterir; aracı anlatmaz.",
+        "",
+        "`bei` yanında demektir; aracı anlatmaz."
+      ],
+      "aciklama": "Araçla gitmeyi mit anlatır ve Dativ ister: Ich fliege nicht gern. Deshalb fahre ich mit dem Zug.",
+      "ipucu": "Türkçede -le/-la ekine karşılık gelen edatı ara.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich fliege nicht gern. Deshalb fahre ich mit dem Zug.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d48-q02",
+      "tip": "bosluk-doldurma",
+      "soru": "Arkadaşına trenle gitmeyi tercih ettiğinizi söylüyorsun. Boşluğa uygun edatı yaz.",
+      "metin": "Wir fahren lieber ___ der Bahn.",
+      "dogruCevaplar": ["mit"],
+      "aciklama": "Araçla gitmek mit ile anlatılır, ardından Dativ gelir: Wir fahren lieber mit der Bahn.",
+      "ipucu": "Araç adının önüne gelen kısa edatı yaz.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir fahren lieber mit der Bahn.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d48-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Herr Klein, Lena'ya nereden geldiğini soruyor. Lena Fransa'dan geldiğini söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Herr Klein", "metin": "Woher kommen Sie?" },
+        { "kim": "Lena", "metin": "___ Frankreich." }
+      ],
+      "secenekler": ["Aus", "Mit", "Bei", "Für"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`Mit` ile demektir; geldiğin yeri göstermez.",
+        "`Bei` yanında demektir; geldiğin yeri göstermez.",
+        "`Für` için demektir; geldiğin yeri göstermez."
+      ],
+      "aciklama": "Geldiğin ülkeyi aus gösterir: Woher kommen Sie? – Aus Frankreich.",
+      "ipucu": "Türkçede Fransa'dan derken kullandığın -dan hâlini düşün.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Woher kommen Sie? – Aus Frankreich.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d48-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Mert Mainz'da oturuyor. Lena ona Mainz ile Frankfurt arasındaki mesafeyi söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Mert", "metin": "Ich wohne in Mainz." },
+        { "kim": "Lena", "metin": "___ Mainz nach Frankfurt sind es circa fünfzig Kilometer." }
+      ],
+      "secenekler": ["Mit", "Von", "Bei", "Für"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`Mit` ile demektir; yolun başlangıç noktasını göstermez.",
+        "",
+        "`Bei` yanında demektir; yolun başlangıç noktasını göstermez.",
+        "`Für` için demektir; yolun başlangıç noktasını göstermez."
+      ],
+      "aciklama": "Mesafenin başlangıç noktasını von gösterir: Von Mainz nach Frankfurt sind es circa fünfzig Kilometer.",
+      "ipucu": "Türkçede Mainz'dan derken kullandığın -dan hâlini düşün.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Von Mainz nach Frankfurt sind es circa fünfzig Kilometer.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d48-q05",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Arabayla işe gidiyorum.",
+      "parcalar": ["ich", "fahre", "mit dem Auto", "zur Arbeit"],
+      "dogruSiralar": [
+        ["ich", "fahre", "mit dem Auto", "zur Arbeit"],
+        ["ich", "fahre", "zur Arbeit", "mit dem Auto"],
+        ["mit dem Auto", "fahre", "ich", "zur Arbeit"],
+        ["zur Arbeit", "fahre", "ich", "mit dem Auto"]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; mit dem Auto araç bilgisini verir: Ich fahre mit dem Auto zur Arbeit.",
+      "ipucu": "Cümle hangi parçayla başlarsa başlasın, çekimli fiilin yeri sabit kalır.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich fahre mit dem Auto zur Arbeit."
+    },
+    {
+      "id": "m7-d48-q06",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Ben Türkiye'denim.",
+      "parcalar": ["ich", "komme", "aus der Türkei"],
+      "dogruSiralar": [
+        ["ich", "komme", "aus der Türkei"],
+        ["aus der Türkei", "komme", "ich"]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; aus der Türkei geldiğin yeri verir: Ich komme aus der Türkei.",
+      "ipucu": "Çekimli fiilin yeri sabit, diğer iki parça yer değiştirebilir.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich komme aus der Türkei."
+    },
+    {
+      "id": "m7-d48-q07",
+      "tip": "coktan-secmeli",
+      "soru": "Berlin'den gelen uçağın bugün daha geç geleceğini söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Das Flugzeug mit Berlin kommt heute später an.",
+        "Das Flugzeug aus Berlin kommt heute später aus.",
+        "Das Flugzeug aus Berlin heute später kommt an.",
+        "Das Flugzeug aus Berlin kommt heute später an."
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`mit` ile demektir; nereden geldiğini `aus` söyler.",
+        "`ankommen` fiilinin öneki `an`'dır; cümle sonunda `aus` durmaz.",
+        "Çekimli fiil ikinci sırada durmalı, cümlenin sonunda değil.",
+        ""
+      ],
+      "aciklama": "Nereden geldiğini aus söyler, ankommen önekini cümle sonuna atar: Das Flugzeug aus Berlin kommt heute später an.",
+      "ipucu": "Hem uçağın geldiği yere hem de fiilin önekine dikkat et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das Flugzeug aus Berlin kommt heute später an.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d48-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Bir otelden sana broşür göndermelerini istiyorsun. Resmî dille hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Bitte schicken Sie mir einen Prospekt von Ihrem Hotel.",
+        "Bitte schicken Sie mir einen Prospekt von Ihr Hotel.",
+        "Bitte schicken Sie mir einen Prospekt von Ihre Hotel.",
+        "Bitte schicken Sie mir einen Prospekt von Ihren Hotel."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`von` Dativ ister; `Ihr` Nominativ biçimidir, nötr isimde Dativ `Ihrem` olur.",
+        "`Ihre` dişil ve çoğul biçimdir; `das Hotel` nötrdür ve Dativ'de `Ihrem` alır.",
+        "`Ihren` çoğul Dativ biçimidir; `das Hotel` tekildir."
+      ],
+      "aciklama": "von Dativ ister; nötr das Hotel ile Ihrem gelir: Bitte schicken Sie mir einen Prospekt von Ihrem Hotel.",
+      "ipucu": "von sonrasında nötr bir ismin alacağı Dativ ekine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Bitte schicken Sie mir einen Prospekt von Ihrem Hotel.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d48-q09",
+      "tip": "dinleme",
+      "soru": "Bir arkadaşın bugün otobüs olmadığını ve birinin ne yaptığını anlatıyor. Duyduğun cümleyi seç.",
+      "okunacak": "Es gibt heute keinen Bus mehr. Er fährt mit dem Taxi.",
+      "mod": "sec",
+      "secenekler": [
+        "Bugün artık otobüs yok. O taksiyle gidiyor.",
+        "Bugün artık otobüs yok. O trenle gidiyor.",
+        "Bugün artık otobüs yok. O bisikletle gidiyor.",
+        "Bugün hâlâ otobüs var. O taksiyle gidiyor."
+      ],
+      "dogruCevaplar": ["Bugün artık otobüs yok. O taksiyle gidiyor."],
+      "aciklama": "mit dem Taxi taksiyle demektir: Es gibt heute keinen Bus mehr. Er fährt mit dem Taxi.",
+      "ipucu": "Cümlenin ikinci yarısındaki araç adına kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Es gibt heute keinen Bus mehr. Er fährt mit dem Taxi."
+    },
+    {
+      "id": "m7-d48-q10",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Ders saatlerini şöyle söylüyorsun:",
+      "ifade": "Wir haben Unterricht von 8.00 bis 12.00 Uhr.",
+      "dogru": true,
+      "aciklama": "Doğru. von ... bis ... saat aralığını verir: Wir haben Unterricht von 8.00 bis 12.00 Uhr.",
+      "ipucu": "Saat aralığının başlangıcını gösteren edata bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir haben Unterricht von 8.00 bis 12.00 Uhr.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d48-q11",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Mutfaktan iki şişe su getirdiğini şöyle söylüyorsun:",
+      "ifade": "Ich hole zwei Flaschen Wasser mit der Küche.",
+      "dogru": false,
+      "aciklama": "Yanlış. Mutfaktan demek için aus gerekir: Ich hole zwei Flaschen Wasser aus der Küche.",
+      "ipucu": "Cümledeki edatın Türkçede hangi eke karşılık geldiğine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich hole zwei Flaschen Wasser aus der Küche.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d48-q12",
+      "tip": "bosluk-doldurma",
+      "soru": "Bir şeyin güzel göründüğünü söylüyorsun. Boşluğa uygun sözcüğü yaz.",
+      "metin": "Das sieht schön ___.",
+      "dogruCevaplar": ["aus"],
+      "aciklama": "aussehen fiilinin öneki cümle sonuna gider: Das sieht schön aus.",
+      "ipucu": "Görünmek fiilinin ayrılan önekini yaz.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das sieht schön aus.",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d48-q13",
+      "tip": "coktan-secmeli",
+      "soru": "Lena sinemaya gidiyor ve Mert'i de davet ediyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Ich gehe ins Kino. Kommst du ___?" },
+        { "kim": "Mert", "metin": "Ja, gern!" }
+      ],
+      "secenekler": ["aus", "mit", "von", "bei"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`aus` -den demektir; birlikte gelmek `mitkommen` ile söylenir.",
+        "",
+        "`von` -den demektir; birlikte gelmek `mitkommen` ile söylenir.",
+        "`bei` yanında demektir; birlikte gelmek `mitkommen` ile söylenir."
+      ],
+      "aciklama": "mitkommen fiilinin öneki cümle sonuna gider: Ich gehe ins Kino. Kommst du mit?",
+      "ipucu": "Birlikte gelmek anlamındaki fiilin ayrılan önekini düşün.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich gehe ins Kino. Kommst du mit?",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d48-q14",
+      "tip": "eslestirme",
+      "soru": "Ulaşım ve seyahat sözcüklerini Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        { "sol": "Zug", "sag": "tren" },
+        { "sol": "Flugzeug", "sag": "uçak" },
+        { "sol": "Fahrrad", "sag": "bisiklet" },
+        { "sol": "Taxi", "sag": "taksi" },
+        { "sol": "Prospekt", "sag": "broşür" },
+        { "sol": "Reiseführer", "sag": "gezi rehberi" }
+      ],
+      "aciklama": "Araçlarla mit kullanılır: mit dem Zug, mit dem Fahrrad, mit dem Taxi.",
+      "ipucu": "Önce araçları, sonra yazılı malzemeleri kendi içinde ayır.",
+      "bicim": "kelime",
+      "glossKapali": true,
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m7-d48-q15",
+      "tip": "artikel",
+      "soru": "Bu ismin artikelini seç.",
+      "isim": "Flugzeug",
+      "dogru": "das",
+      "aciklama": "Flugzeug nötrdür: das Flugzeug. Dativ'de mit dem Flugzeug olur.",
+      "ipucu": "Uçak sözcüğünü kelime listesinde hangi artikelle bulacağına bak.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m7-d48-q16",
+      "tip": "coktan-secmeli",
+      "soru": "Bisikletle işe gittiğini söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Ich fahre mit das Fahrrad zur Arbeit.",
+        "Ich fahre aus dem Fahrrad zur Arbeit.",
+        "Ich fahre mit dem Fahrrad zur Arbeit.",
+        "Ich fahre mit der Fahrrad zur Arbeit."
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`mit` Dativ ister; nötr `das` Dativ'de `dem` olur.",
+        "`aus` içinden demektir; araç için `mit` gelir.",
+        "",
+        "`der` dişil Dativ biçimidir; `das Fahrrad` nötrdür ve `dem` alır."
+      ],
+      "aciklama": "Araç için mit gelir ve nötr das Fahrrad Dativ'de dem olur: Ich fahre mit dem Fahrrad zur Arbeit.",
+      "ipucu": "Hem edada hem de nötr ismin Dativ artikeline bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Fährst du mit dem Fahrrad oder mit dem Auto?",
+      "glossKapali": true
+    }
+  ]
+}
