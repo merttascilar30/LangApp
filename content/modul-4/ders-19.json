@@ -1,0 +1,463 @@
+{
+  "id": "m4-d19",
+  "ders": 19,
+  "baslik": "Artikel Kuralları",
+  "videoId": "IQVCLqP2vhI",
+  "ozet": [
+    "Almanca her ismin bir artikeli vardır: der (eril), die (dişil), das (nötr). Türkçede artikel olmadığı için ismi her zaman artikeliyle öğren: der Tisch (masa), die Tasche (çanta), das Zimmer (oda). Cümlenin öznesi Nominativ'dedir ve artikel bu hâliyle yazılır: Der Tisch ist neu. Özne yerine zamir de kullanılır: der Tisch yerine er, die Tasche yerine sie, das Zimmer yerine es.",
+    "Aile ve insanlar: erkek kişiler çoğunlukla der alır, kadın kişiler die alır. der Mann (erkek, koca), der Sohn (oğul), der Freund (arkadaş); die Mutter (anne), die Tochter (kız evlat), die Freundin (kız arkadaş), die Ehefrau (eş). Kız çocuğu bir istisnadır: das Mädchen. Örnek: Frau Berghäuser ist die Mutter von Michaela.",
+    "Ev ve eşyalar: der Tisch (masa), der Schrank (dolap), der Herd (ocak), der Koffer (bavul); die Küche (mutfak), die Tasche (çanta), die Treppe (merdiven), die Toilette (tuvalet), die Post (postane); das Zimmer (oda), das Sofa (kanepe), das Licht (ışık). Eşya adlarının artikeli çoğunlukla mantıkla bulunmaz, kelimeyle birlikte ezberlenir.",
+    "Okul ve sınıf: die Schule (okul), der Kurs (kurs), der Test (test), die Prüfung (sınav), die Aufgabe (alıştırma), das Wort (kelime). Soruya cevap verirken das \"bu\" anlamında da kullanılır: Was ist das? Das ist der Kurs. Wer ist das? Das ist meine Tochter Katharina."
+  ],
+  "kelimeler": [
+    {
+      "de": "der Tisch",
+      "tr": "masa",
+      "artikel": "der"
+    },
+    {
+      "de": "der Herd",
+      "tr": "ocak",
+      "artikel": "der"
+    },
+    {
+      "de": "der Koffer",
+      "tr": "bavul",
+      "artikel": "der"
+    },
+    {
+      "de": "die Tasche",
+      "tr": "çanta",
+      "artikel": "die"
+    },
+    {
+      "de": "die Küche",
+      "tr": "mutfak",
+      "artikel": "die"
+    },
+    {
+      "de": "die Schule",
+      "tr": "okul",
+      "artikel": "die"
+    },
+    {
+      "de": "die Prüfung",
+      "tr": "sınav",
+      "artikel": "die"
+    },
+    {
+      "de": "das Zimmer",
+      "tr": "oda",
+      "artikel": "das"
+    },
+    {
+      "de": "das Sofa",
+      "tr": "kanepe",
+      "artikel": "das"
+    },
+    {
+      "de": "das Mädchen",
+      "tr": "kız çocuğu",
+      "artikel": "das"
+    },
+    {
+      "de": "die Mutter",
+      "tr": "anne",
+      "artikel": "die"
+    },
+    {
+      "de": "der Sohn",
+      "tr": "oğul",
+      "artikel": "der"
+    },
+    {
+      "de": "die Tochter",
+      "tr": "kız evlat",
+      "artikel": "die"
+    },
+    {
+      "de": "die Freundin",
+      "tr": "kız arkadaş",
+      "artikel": "die"
+    }
+  ],
+  "trickler": [
+    {
+      "baslik": "İsmi artikeliyle birlikte öğren",
+      "metin": "Türkçede artikel yoktur; bu yüzden ismi tek başına değil artikeliyle ezberle: der Tisch, die Tasche, das Zimmer. Artikel yanlışsa cümle de yanlış olur: die Herd değil, der Herd."
+    },
+    {
+      "baslik": "-chen, -ung ve -e ipuçları",
+      "metin": "-chen ile biten isimler nötrdür: das Mädchen, kız çocuğu olsa bile. -ung ile biten isimler dişildir: die Prüfung, die Lösung. -e ile biten isimlerin çoğu da dişildir: die Küche, die Schule, die Tasche."
+    },
+    {
+      "baslik": "das iki işe yarar",
+      "metin": "das hem nötr artikeldir (das Sofa) hem de \"bu\" anlamında kullanılır: Das ist der Tisch. Was ist das? sorusuna Das ist ... diye cevap verirsin."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m4-d19-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Mutfağa yeni bir ocak geldiğini söylüyorsun. Boşluğa uygun artikeli seç.",
+      "metin": "___ neue Herd kommt in die Küche.",
+      "secenekler": [
+        "Die",
+        "Das",
+        "Der"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`Die` dişil artikeldir; `Herd` dişil bir isim değildir.",
+        "`Das` nötr artikeldir; `Herd` nötr bir isim değildir.",
+        ""
+      ],
+      "aciklama": "Herd eril bir isimdir: der Herd. Cümlenin öznesi olduğu için Nominativ der gelir: Der neue Herd kommt in die Küche.",
+      "ipucu": "Ocak sözcüğünün artikelini derste öğrendiğin gibi seç.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Der neue Herd kommt in die Küche.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d19-q02",
+      "tip": "bosluk-doldurma",
+      "soru": "Postanenin nerede olduğunu soruyorsun. Boşluğa doğru artikeli yaz.",
+      "metin": "Wo ist ___ Post?",
+      "dogruCevaplar": [
+        "die"
+      ],
+      "aciklama": "Post dişildir: die Post. Özne olduğu için Nominativ die gelir: Wo ist die Post?",
+      "ipucu": "Postane sözcüğüyle birlikte öğrendiğin artikeli yaz.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wo ist die Post?",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d19-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Yeni odada kanepenin hâlâ eksik olduğunu söylüyorsun. Boşluğa uygun artikeli seç.",
+      "metin": "Im neuen Zimmer fehlt noch ___ Sofa.",
+      "secenekler": [
+        "das",
+        "der",
+        "die"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`der` eril artikeldir; `Sofa` eril bir isim değildir.",
+        "`die` dişil artikeldir; `Sofa` dişil bir isim değildir."
+      ],
+      "aciklama": "Sofa nötrdür: das Sofa. Eksik olan şey cümlenin öznesidir, bu yüzden Nominativ das gelir: Im neuen Zimmer fehlt noch das Sofa.",
+      "ipucu": "Kanepeyi derste hangi artikelle gördüğünü düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "In der neuen Küche fehlt noch der Herd.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d19-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Lena, Hans'ın kim olduğunu soruyor. Mert, Hans'ın kendi oğlu olduğunu söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Wer ist das?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Das ist Hans, mein ___."
+        }
+      ],
+      "secenekler": [
+        "Tochter",
+        "Sohn",
+        "Mutter",
+        "Freundin"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`Tochter` kız evlat demektir; Mert oğlundan söz ediyor.",
+        "",
+        "`Mutter` anne demektir; Mert oğlundan söz ediyor.",
+        "`Freundin` kız arkadaş demektir; Mert oğlundan söz ediyor."
+      ],
+      "aciklama": "Oğul Sohn'dur ve eril olduğu için der Sohn denir: Das ist Hans, mein Sohn.",
+      "ipucu": "Hans adının hangi cinsiyete ait olduğuna bak.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das ist Hans, mein Sohn.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d19-q05",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Frau Berghäuser, Michaela'nın annesidir.",
+      "parcalar": [
+        "die Mutter von Michaela",
+        "ist",
+        "Frau Berghäuser"
+      ],
+      "dogruSiralar": [
+        [
+          "Frau Berghäuser",
+          "ist",
+          "die Mutter von Michaela"
+        ],
+        [
+          "die Mutter von Michaela",
+          "ist",
+          "Frau Berghäuser"
+        ]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; özne ve isim öbeği fiilin iki yanında yer değiştirebilir.",
+      "ipucu": "Önce çekimli fiilin yerini bul, kalan iki öbek onun iki yanına yerleşir.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Frau Berghäuser ist die Mutter von Michaela."
+    },
+    {
+      "id": "m4-d19-q06",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Yeni mutfakta ocak hâlâ eksik.",
+      "parcalar": [
+        "in der neuen Küche",
+        "fehlt noch",
+        "der Herd"
+      ],
+      "dogruSiralar": [
+        [
+          "in der neuen Küche",
+          "fehlt noch",
+          "der Herd"
+        ],
+        [
+          "der Herd",
+          "fehlt noch",
+          "in der neuen Küche"
+        ]
+      ],
+      "aciklama": "Çekimli fiil ikinci öğe olarak ortada kalır; yer bilgisi başa geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Yer bilgisi başa da sona da gidebilir, fiilli öbek ise ortada kalır.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "In der neuen Küche fehlt noch der Herd."
+    },
+    {
+      "id": "m4-d19-q07",
+      "tip": "coktan-secmeli",
+      "soru": "Bir arkadaşına masanın yeni olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Die Tisch ist neu.",
+        "Das Tisch ist neu.",
+        "Der Tisch ist neu."
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`Die` dişil isimlerle gelir; `Tisch` ise eril bir isimdir.",
+        "`Das` nötr isimlerle gelir; `Tisch` ise eril bir isimdir.",
+        ""
+      ],
+      "aciklama": "Tisch eril olduğu için artikeli der'dir: Der Tisch ist neu.",
+      "ipucu": "Masanın hangi artikelle öğrenildiğini hatırla ve cümlenin başına onu yerleştir.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Die Fotos liegen auf dem Tisch.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d19-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Yanındaki kız çocuğunun senin kızın olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Das Mädchen ist meine Tochter.",
+        "Die Mädchen ist meine Tochter.",
+        "Der Mädchen ist meine Tochter."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`Die` dişil isimlerle gelir; `Mädchen` kız çocuğu olsa da dişil değildir.",
+        "`Der` eril isimlerle gelir; `Mädchen` eril bir isim değildir."
+      ],
+      "aciklama": "-chen ile biten Mädchen nötrdür: das Mädchen. Kız çocuğu anlamı artikeli değiştirmez.",
+      "ipucu": "Kelimenin sonundaki ek, anlamından daha belirleyicidir.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Das ist meine Tochter Katharina.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d19-q09",
+      "tip": "dinleme",
+      "soru": "Yeni eve eşya alınıyor. Duyduğun cümleyi seç.",
+      "okunacak": "Der neue Herd kommt in die Küche.",
+      "mod": "sec",
+      "secenekler": [
+        "Yeni dolap mutfağa geliyor.",
+        "Yeni ocak odaya geliyor.",
+        "Yeni masa mutfağa geliyor.",
+        "Yeni ocak mutfağa geliyor."
+      ],
+      "dogruCevaplar": [
+        "Yeni ocak mutfağa geliyor."
+      ],
+      "aciklama": "Herd ocak, Küche mutfak demektir: Der neue Herd kommt in die Küche.",
+      "ipucu": "Hem eşyanın adına hem de gideceği yere kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Der neue Herd kommt in die Küche."
+    },
+    {
+      "id": "m4-d19-q10",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Okulun yeni olduğunu şöyle söylüyorsun:",
+      "ifade": "Die Schule ist neu.",
+      "dogru": true,
+      "aciklama": "Doğru. Schule dişildir: die Schule. Die Schule ist neu.",
+      "ipucu": "Okul sözcüğünün artikeli ile cümlenin başı uyuşuyor mu, kontrol et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Meine Tochter geht schon in die Schule.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d19-q11",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Odanın yeni olduğunu şöyle söylüyorsun:",
+      "ifade": "Die Zimmer ist neu.",
+      "dogru": false,
+      "aciklama": "Yanlış. Zimmer nötrdür: das Zimmer. Doğrusu: Das Zimmer ist neu.",
+      "ipucu": "Oda sözcüğünü derste hangi grupta gördüğünü hatırla.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Öffne im Schlafzimmer das Fenster, bitte!",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d19-q12",
+      "tip": "coktan-secmeli",
+      "soru": "Lena, Frau Berghäuser'in kim olduğunu soruyor. Mert, onun Michaela'nın annesi olduğunu söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Wer ist Frau Berghäuser?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Frau Berghäuser ist ___ Mutter von Michaela."
+        }
+      ],
+      "secenekler": [
+        "der",
+        "die",
+        "das"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`der` eril artikeldir; `Mutter` eril bir isim değildir.",
+        "",
+        "`das` nötr artikeldir; `Mutter` nötr bir isim değildir."
+      ],
+      "aciklama": "Mutter dişildir: die Mutter. Frau Berghäuser ist die Mutter von Michaela.",
+      "ipucu": "Annenin derste hangi artikelle öğrenildiğini düşün.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Frau Berghäuser ist die Mutter von Michaela.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d19-q13",
+      "tip": "dinleme",
+      "soru": "Biri sana yanındaki kişiyi tanıtıyor. Duyduğun cümleyi seç.",
+      "okunacak": "Das ist meine Tochter Katharina.",
+      "mod": "sec",
+      "secenekler": [
+        "Bu annem Katharina.",
+        "Bu kızım Katharina.",
+        "Bu oğlum Katharina.",
+        "Bu arkadaşım Katharina."
+      ],
+      "dogruCevaplar": [
+        "Bu kızım Katharina."
+      ],
+      "aciklama": "Tochter kız evlat demektir: Das ist meine Tochter Katharina.",
+      "ipucu": "Cümlede geçen kişinin akrabalık adına kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das ist meine Tochter Katharina."
+    },
+    {
+      "id": "m4-d19-q14",
+      "tip": "eslestirme",
+      "soru": "Artikelli isimleri Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        {
+          "sol": "der Tisch",
+          "sag": "masa"
+        },
+        {
+          "sol": "die Tasche",
+          "sag": "çanta"
+        },
+        {
+          "sol": "die Küche",
+          "sag": "mutfak"
+        },
+        {
+          "sol": "die Schule",
+          "sag": "okul"
+        },
+        {
+          "sol": "das Sofa",
+          "sag": "kanepe"
+        },
+        {
+          "sol": "das Zimmer",
+          "sag": "oda"
+        }
+      ],
+      "aciklama": "Her isim artikeliyle birlikte öğrenilir: der Tisch, die Tasche, die Küche, die Schule, das Sofa, das Zimmer.",
+      "ipucu": "Artikelleri yok sayıp ismin kendisine odaklan.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d19-q15",
+      "tip": "artikel",
+      "soru": "Bu ismin artikelini seç.",
+      "isim": "Koffer",
+      "dogru": "der",
+      "aciklama": "Koffer eril bir isimdir: der Koffer. İsmin yerine er kullanılır.",
+      "ipucu": "Bavulu derste hangi artikelle gördüğünü hatırla.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m4-d19-q16",
+      "tip": "coktan-secmeli",
+      "soru": "Tuvaletin nerede olduğunu soruyorsun. Boşluğa uygun artikeli seç.",
+      "metin": "___ Toilette? Die Treppe hoch und dann links.",
+      "secenekler": [
+        "Die",
+        "Der",
+        "Das"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`Der` eril artikeldir; `Toilette` eril bir isim değildir.",
+        "`Das` nötr artikeldir; `Toilette` nötr bir isim değildir."
+      ],
+      "aciklama": "Toilette dişildir: die Toilette. -e ile biten isimlerin çoğu dişildir.",
+      "ipucu": "Tuvalet sözcüğünün artikelini ezberlediğin gibi seç.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Toilette? Die Treppe hoch und dann links.",
+      "glossKapali": true
+    }
+  ]
+}

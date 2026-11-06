@@ -1,0 +1,33 @@
+{
+  "girdiler": {
+    "neu": "yeni",
+    "neue": "yeni",
+    "neuen": "yeni",
+    "kommt": "gelmek fiilinin çekimi",
+    "in": "içinde",
+    "im": "in + dem (-de)",
+    "wo": "nerede",
+    "ist": "olmak fiilinin çekimi",
+    "die Post": "postane",
+    "fehlt": "eksik olmak fiilinin çekimi",
+    "noch": "hâlâ",
+    "wer": "kim",
+    "der": "belirli tanımlık",
+    "die": "belirli tanımlık",
+    "das": "belirli tanımlık",
+    "mein": "benim",
+    "meine": "benim",
+    "Hans": "erkek adı",
+    "Frau": "hanım",
+    "Berghäuser": "soyadı",
+    "Michaela": "kız adı",
+    "Katharina": "kız adı",
+    "von": "-in, -den",
+    "die Toilette": "tuvalet",
+    "die Treppe": "merdiven",
+    "hoch": "yukarı",
+    "und": "ve",
+    "dann": "sonra",
+    "links": "sola"
+  }
+}
