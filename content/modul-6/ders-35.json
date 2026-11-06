@@ -69,7 +69,7 @@
       "celdiriciNotlari": [
         "",
         "`mein` Nominativ biçimidir; mektup burada nesnedir.",
-        "`meine` dişil ve çoğul isimlerle gelir; `der Brief` eriltir.",
+        "`meine` dişil ve çoğul isimlerle gelir; `der Brief` erildir.",
         "`meinem` Dativ biçimidir; mektup kişi değil, alınan şeydir."
       ],
       "aciklama": "der Brief eril ve fiilin doğrudan nesnesidir; eril Akkusativ'de meinen gelir: Haben Sie meinen Brief bekommen?",
@@ -159,7 +159,7 @@
       "secenekler": ["Meine", "Mein", "Meinen", "Meinem"],
       "dogru": 1,
       "celdiriciNotlari": [
-        "`Meine` dişil ve çoğul isimlerle gelir; `der Kopf` eriltir.",
+        "`Meine` dişil ve çoğul isimlerle gelir; `der Kopf` erildir.",
         "",
         "`Meinen` eril Akkusativ'dir; `Kopf` burada nesne değil, özne.",
         "`Meinem` Dativ'dir; `Kopf` burada ağrıyan şeydir, yani özne."
@@ -240,7 +240,7 @@
         "",
         "`deinen` eril Akkusativ'dir; `von` Dativ ister.",
         "`dein` Nominativ biçimidir; `von` sonrası Dativ gerekir.",
-        "`deiner` dişil Dativ'dir; `der Sohn` eriltir."
+        "`deiner` dişil Dativ'dir; `der Sohn` erildir."
       ],
       "aciklama": "von Dativ ister; eril Dativ'de deinem gelir: Hast du ein Bild von deinem Sohn?",
       "ipucu": "Edatın ardından gelen hâli ve ismin cinsiyetini birlikte düşün.",

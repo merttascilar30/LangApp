@@ -285,7 +285,7 @@
       "celdiriciNotlari": [
         "",
         "`sein` sahibi erkek olan isimlerle gelir; Frau Weber kadındır.",
-        "`ihre` dişil ve çoğul isimlerle gelir; `der Sohn` eriltir.",
+        "`ihre` dişil ve çoğul isimlerle gelir; `der Sohn` erildir.",
         "`seine` erkek sahibi gösterir ve dişil isim ister; burada sahip kadın, isim eril."
       ],
       "aciklama": "Sahip Frau Weber kadındır, bu yüzden ihr gelir; Sohn eril ve Nominativ'dedir, ek almaz: Das ist ihr Sohn.",

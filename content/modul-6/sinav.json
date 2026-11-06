@@ -183,7 +183,7 @@
    "celdiriciNotlari": [
     "",
     "`geben` ile kişi Dativ'dedir: `mir`, `mich` değil.",
-    "`der Pass` eriltir; Akkusativ'de `dein` değil `deinen` gelir.",
+    "`der Pass` erildir; Akkusativ'de `dein` değil `deinen` gelir.",
     "`deinem` Dativ biçimidir; verilen şey Akkusativ'dedir."
    ],
    "aciklama": "Kişi Dativ'de (mir), verilen eril şey Akkusativ'de olur: Kannst du mir bitte deinen Pass geben?",
