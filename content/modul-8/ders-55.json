@@ -1,0 +1,441 @@
+{
+  "id": "m8-d55",
+  "ders": 55,
+  "baslik": "Yer Edatları",
+  "videoId": "1eZIrJrIlQw",
+  "ozet": [
+    "Yer edatları: in \"içinde\", an \"yanında, kenarında\", auf \"üzerinde\", über \"üstünde; üzerinden\", unter \"altında\", zwischen \"arasında\". Bu edatlar iki soruya cevap verir: wo? (nerede) ve wohin? (nereye). Türkçedeki -de ve -e hâllerine benzer, ama Almanca'da edat aynı kalır, artikel değişir.",
+    "wo? sorusunda Dativ kullanılır: dem (eril, nötr), der (dişil), den (çoğul). Örnek: Die Kinder spielen auf der Straße. (die Kinder = çocuklar, spielen = oynamak, die Straße = sokak.) Wir wohnen in einem sehr alten Haus. (wohnen = oturmak, das Haus = ev; belirsiz artikel Dativ'de einem, einer olur.)",
+    "wohin? sorusunda Akkusativ kullanılır: der olur den, die ve das aynı kalır. Örnek: Gehen Sie hier über die Straße. (gehen = gitmek, hier = burada.) Vorsicht, fahr nicht an den Baum! (der Baum = ağaç.) Belirsiz artikel Akkusativ'de eril isimde einen, nötr isimde ein olur.",
+    "Kısaltmalar: in dem = im, an dem = am, in das = ins. Örnek: Wir treffen uns am Bahnhof. (treffen = buluşmak, der Bahnhof = istasyon.) Unsere Wohnung liegt im ersten Stock. (die Wohnung = daire, liegen = bulunmak, der Stock = kat.) Der Ort liegt am Meer. (der Ort = yer, das Meer = deniz.) Komm, wir gehen ins Kino. (das Kino = sinema; gehen ile yön vardır, bu yüzden ins.)",
+    "Yön adları: der Norden \"kuzey\", der Süden \"güney\", der Westen \"batı\", die Mitte \"orta\"; hepsiyle im kullanılır: Hamburg liegt im Norden von Deutschland. Köln liegt im Westen. zwischen iki şeyin arasını anlatır: Heidelberg liegt zwischen Frankfurt und Stuttgart. Zaman için de kullanılır: Zwischen 8 und 10 Uhr bin ich zu Hause. (zu Hause = evde.) Er wohnt im zweiten Stock über Familie Meier. (über = üstünde.)"
+  ],
+  "kelimeler": [
+    {
+      "de": "in",
+      "tr": "içinde, -de, -e"
+    },
+    {
+      "de": "an",
+      "tr": "yanında, kenarında"
+    },
+    {
+      "de": "auf",
+      "tr": "üzerinde"
+    },
+    {
+      "de": "über",
+      "tr": "üstünde; üzerinden"
+    },
+    {
+      "de": "unter",
+      "tr": "altında"
+    },
+    {
+      "de": "zwischen",
+      "tr": "arasında"
+    },
+    {
+      "de": "der Norden",
+      "tr": "kuzey",
+      "artikel": "der"
+    },
+    {
+      "de": "der Süden",
+      "tr": "güney",
+      "artikel": "der"
+    },
+    {
+      "de": "der Westen",
+      "tr": "batı",
+      "artikel": "der"
+    },
+    {
+      "de": "die Mitte",
+      "tr": "orta",
+      "artikel": "die"
+    },
+    {
+      "de": "das Meer",
+      "tr": "deniz",
+      "artikel": "das"
+    },
+    {
+      "de": "der Stock",
+      "tr": "kat",
+      "artikel": "der"
+    }
+  ],
+  "trickler": [
+    {
+      "baslik": "wo? Dativ, wohin? Akkusativ",
+      "metin": "Konum için Dativ gelir: auf der Straße, in einem Haus. Yön için Akkusativ gelir: über die Straße, in ein Haus. Fiil hareket mi, durum mu anlatıyor, ona bak."
+    },
+    {
+      "baslik": "im, am, ins kısaltmaları",
+      "metin": "in dem = im, an dem = am: im Stock, am Meer. in das = ins: ins Kino. ins yön anlatır; im ve am konum anlatır."
+    },
+    {
+      "baslik": "Yön adlarıyla im",
+      "metin": "Kuzey, güney, batı için im kullanılır: im Norden, im Süden, im Westen."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m8-d55-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Bir yerleşimin deniz kıyısında olduğunu söylüyorsun. Boşluğa uygun kısaltmayı seç.",
+      "metin": "Der Ort liegt ___ Meer.",
+      "secenekler": [
+        "im",
+        "am",
+        "ins"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`im` \"in dem\" demektir ve içinde olmayı anlatır; sorudaki durum kıyıdır.",
+        "",
+        "`ins` \"in das\" demektir ve yön anlatır; `liegen` ile konum gerekir."
+      ],
+      "aciklama": "Kıyıda olmak an ile anlatılır; an dem = am: Der Ort liegt am Meer.",
+      "ipucu": "Yanında, kenarında anlamı veren edatın kısaltmasını ara.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Der Ort liegt am Meer.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d55-q02",
+      "tip": "bosluk-doldurma",
+      "soru": "Wiesbaden şehrinde oturduğunu söylüyorsun. Boşluğa edatı yaz.",
+      "metin": "Ich wohne ___ Wiesbaden.",
+      "dogruCevaplar": [
+        "in"
+      ],
+      "aciklama": "Bir şehrin içinde oturmak in ile anlatılır: Ich wohne in Wiesbaden.",
+      "ipucu": "Şehrin içinde bulunmayı anlatan kısa edatı yaz.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich wohne in Wiesbaden.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d55-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Lena akşam planı soruyor. Mert sinemaya gitmeyi öneriyor. Cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Wohin gehen wir heute Abend?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Komm, wir gehen ___ Kino."
+        }
+      ],
+      "secenekler": [
+        "ins",
+        "im",
+        "am"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`im` konum anlatır (`in dem`); soru `wohin` ile yön istiyor.",
+        "`am` \"yanında, kenarında\" konum anlatır; soru `wohin` ile yön istiyor."
+      ],
+      "aciklama": "wohin? sorusunda Akkusativ gelir; in das = ins: Komm, wir gehen ins Kino.",
+      "ipucu": "Soru kelimesi nereye gidildiğini soruyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Komm, wir gehen ins Kino.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d55-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Lena nerede oturduğunu soruyor. Mert eski bir evde oturduğunu söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Wo wohnt ihr?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Wir wohnen in ___ sehr alten Haus."
+        }
+      ],
+      "secenekler": [
+        "einen",
+        "ein",
+        "einem",
+        "eine"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`einen` eril Akkusativ biçimidir; `das Haus` nötrdür ve soru `wo` ile konum istiyor.",
+        "`ein` nötr Akkusativ biçimidir; `wo` sorusunda Dativ gerekir.",
+        "",
+        "`eine` dişil biçimdir; `das Haus` nötrdür."
+      ],
+      "aciklama": "wo? sorusunda Dativ gelir ve nötr isimde belirsiz artikel einem olur: Wir wohnen in einem sehr alten Haus.",
+      "ipucu": "Soru kelimesi konumu soruyor, evin artikeli ise nötr.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir wohnen in einem sehr alten Haus.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d55-q05",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Çocuklar sokakta oynuyor.",
+      "parcalar": [
+        "die Kinder",
+        "spielen",
+        "auf der Straße"
+      ],
+      "dogruSiralar": [
+        [
+          "die Kinder",
+          "spielen",
+          "auf der Straße"
+        ],
+        [
+          "auf der Straße",
+          "spielen",
+          "die Kinder"
+        ]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; yer ifadesi başa geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Özne ile yer ifadesi yer değiştirebilir, ama fiilin yeri sabit kalır.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Kinder spielen auf der Straße."
+    },
+    {
+      "id": "m8-d55-q06",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Heidelberg, Frankfurt ile Stuttgart arasındadır.",
+      "parcalar": [
+        "Heidelberg",
+        "liegt",
+        "zwischen Frankfurt und Stuttgart"
+      ],
+      "dogruSiralar": [
+        [
+          "Heidelberg",
+          "liegt",
+          "zwischen Frankfurt und Stuttgart"
+        ],
+        [
+          "zwischen Frankfurt und Stuttgart",
+          "liegt",
+          "Heidelberg"
+        ]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; yer ifadesi başa geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Şehir adı ile yer ifadesi yer değiştirebilir, ama fiil ortada kalır.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Heidelberg liegt zwischen Frankfurt und Stuttgart."
+    },
+    {
+      "id": "m8-d55-q07",
+      "tip": "coktan-secmeli",
+      "soru": "Çocukların sokakta oynadığını anlatıyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Die Kinder spielen auf die Straße.",
+        "Die Kinder spielt auf der Straße.",
+        "Die Kinder spielen auf dem Straße.",
+        "Die Kinder spielen auf der Straße."
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`auf die` Akkusativ biçimidir ve yön anlatır; burada konum var, Dativ `der` gerekir.",
+        "`die Kinder` çoğuldur; `spielt` tekil fiildir, çoğulda `spielen` gelir.",
+        "`die Straße` dişildir; Dativ'de `dem` değil `der` olur.",
+        ""
+      ],
+      "aciklama": "Konum için Dativ gelir, dişil isimde artikel der olur: Die Kinder spielen auf der Straße.",
+      "ipucu": "Hem fiilin çoğul özneye uymasına hem dişil artikelin Dativ biçimine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Kinder spielen auf der Straße.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d55-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Birine buradan karşıya geçmesini söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Gehen Sie hier über die Straße.",
+        "Gehen Sie hier über der Straße.",
+        "Gehen Sie hier über den Straße.",
+        "Gehen Sie hier über Straße."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`der` Dativ biçimidir ve konum anlatır; karşıya geçmek yön olduğu için Akkusativ gerekir.",
+        "`den` eril Akkusativ ya da çoğul Dativ biçimidir; `die Straße` dişildir.",
+        "Bu kullanımda `Straße` artikelsiz kalmaz; dişil isim `die` alır."
+      ],
+      "aciklama": "Yön için Akkusativ gelir, dişil isimde die aynı kalır: Gehen Sie hier über die Straße.",
+      "ipucu": "Karşıya geçmek bir yön anlatır, dişil isimde Akkusativ biçimi nasıl görünür?",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Gehen Sie hier über die Straße.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d55-q09",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Buluşma yerini şöyle söylüyorsun:",
+      "ifade": "Wir treffen uns am Bahnhof.",
+      "dogru": true,
+      "aciklama": "Doğru. an dem kısaltması am olur ve konum anlatır: Wir treffen uns am Bahnhof.",
+      "ipucu": "Cümledeki kısa sözcüğün hangi iki sözcüğün birleşimi olduğuna bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir treffen uns am Bahnhof.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d55-q10",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Bir arkadaşına sinemaya gitmeyi öneriyorsun:",
+      "ifade": "Komm, wir gehen im Kino.",
+      "dogru": false,
+      "aciklama": "Yanlış. Sinemaya gitmek yöndür, bu yüzden in das = ins gelir: Komm, wir gehen ins Kino.",
+      "ipucu": "Cümledeki hareketin bir yöne mi yoksa bir konuma mı işaret ettiğini düşün.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Komm, wir gehen ins Kino.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d55-q11",
+      "tip": "dinleme",
+      "soru": "Bir arkadaşın Hamburg'un nerede olduğunu söylüyor. Duyduğun cümleyi seç.",
+      "okunacak": "Hamburg liegt im Norden von Deutschland.",
+      "mod": "sec",
+      "secenekler": [
+        "Hamburg: kuzey",
+        "Hamburg: güney",
+        "Hamburg: batı",
+        "Hamburg: orta"
+      ],
+      "dogruCevaplar": [
+        "Hamburg: kuzey"
+      ],
+      "aciklama": "Norden kuzeydir ve im ile kullanılır: Hamburg liegt im Norden von Deutschland.",
+      "ipucu": "Cümlede geçen yön adına kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Hamburg liegt im Norden von Deutschland."
+    },
+    {
+      "id": "m8-d55-q12",
+      "tip": "coktan-secmeli",
+      "soru": "Köln'ün Almanya'nın batısında olduğunu söylüyorsun. Boşluğa uygun yön adını seç.",
+      "metin": "Köln liegt im ___.",
+      "secenekler": [
+        "Süden",
+        "Norden",
+        "Westen",
+        "Anfang"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`Süden` güney demektir; sorudaki yön batı.",
+        "`Norden` kuzey demektir; sorudaki yön batı.",
+        "",
+        "`Anfang` başlangıç demektir; yön adı değildir."
+      ],
+      "aciklama": "Batı Westen'dir ve im ile kullanılır: Köln liegt im Westen.",
+      "ipucu": "Güneşin battığı yönü düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Köln liegt im Westen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d55-q13",
+      "tip": "bosluk-doldurma",
+      "soru": "Bir kişinin Meier ailesinin üstündeki katta oturduğunu söylüyorsun. Boşluğa edatı yaz.",
+      "metin": "Er wohnt im zweiten Stock ___ Familie Meier.",
+      "dogruCevaplar": [
+        "über"
+      ],
+      "aciklama": "Üstünde olmak über ile anlatılır: Er wohnt im zweiten Stock über Familie Meier.",
+      "ipucu": "Üst kat için altında anlamının tersini veren edatı yaz.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Er wohnt im zweiten Stock über Familie Meier.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d55-q14",
+      "tip": "bosluk-doldurma",
+      "soru": "Saat 8 ile 10 arasında evde olduğunu söylüyorsun. Boşluğa edatı yaz.",
+      "metin": "___ 8 und 10 Uhr bin ich zu Hause.",
+      "dogruCevaplar": [
+        "Zwischen"
+      ],
+      "harfDuyarli": false,
+      "aciklama": "İki saatin arasını zwischen anlatır: Zwischen 8 und 10 Uhr bin ich zu Hause.",
+      "ipucu": "İki zaman noktasının ortasını anlatan edatı yaz.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Zwischen 8 und 10 Uhr bin ich zu Hause.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d55-q15",
+      "tip": "eslestirme",
+      "soru": "Almanca sözcükleri Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        {
+          "sol": "Norden",
+          "sag": "kuzey"
+        },
+        {
+          "sol": "Süden",
+          "sag": "güney"
+        },
+        {
+          "sol": "Westen",
+          "sag": "batı"
+        },
+        {
+          "sol": "Mitte",
+          "sag": "orta"
+        },
+        {
+          "sol": "Meer",
+          "sag": "deniz"
+        },
+        {
+          "sol": "Stock",
+          "sag": "kat"
+        }
+      ],
+      "aciklama": "Yön adları im ile kullanılır: im Norden, im Süden, im Westen.",
+      "ipucu": "Önce yön adlarını, sonra kalan sözcükleri ayır.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d55-q16",
+      "tip": "artikel",
+      "soru": "Bu ismin artikelini seç.",
+      "isim": "Meer",
+      "dogru": "das",
+      "aciklama": "Meer nötrdür: das Meer. Dativ'de dem Meer olur, bu yüzden an dem = am Meer.",
+      "ipucu": "Deniz sözcüğünü kelime listesinde hangi artikelle bulacağına bak.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    }
+  ]
+}
