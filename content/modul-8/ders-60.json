@@ -1,0 +1,475 @@
+{
+  "id": "m8-d60",
+  "ders": 60,
+  "baslik": "in, um, von…bis",
+  "videoId": "Lhpey3W-gRI",
+  "ozet": [
+    "Saatle \"saat ...de\" demek için um kullanılır: um 16 Uhr, um 10 Uhr, um 11.20 Uhr. Örnek: Die erste Gruppe beginnt um 16 Uhr. (die Gruppe = grup.) Morgen beginnt die Schule um 10 Uhr. Das Gespräch mit Frau Kunz ist um 14 Uhr. (das Gespräch = görüşme.) Der Abflug ist um 11.20 Uhr. (der Abflug = uçağın kalkışı.)",
+    "Ay ve mevsim adlarının önünde im kullanılır; im, in dem birleşmesidir: im Mai, im Oktober, im Sommer, im Winter. Örnek: Im Mai beginnt der Kurs. Im Februar machen wir Urlaub. (der Urlaub = tatil.) Das Studium beginnt im Oktober. (das Studium = öğrenim.) Im Sommer ist das Obst billig. (das Obst = meyve, billig = ucuz.) Im Januar ist es sehr kalt.",
+    "von ... bis bir aralığı anlatır: \"-den ... -e kadar\". Wir haben Unterricht von 8.00 bis 12.00 Uhr. Von 12.00 bis 12.30 Uhr haben wir Mittagspause. (die Mittagspause = öğle arası.) Ich muss jeden Tag von 8 Uhr bis 18 Uhr arbeiten. (jeden Tag = her gün, arbeiten = çalışmak.) bis tek başına da \"-e kadar\" demektir: Im Sommer ist es bis 21 Uhr hell. (hell = aydınlık.)",
+    "Zaman ifadesi cümle başına geçerse çekimli fiil yine ikinci sırada kalır, özne fiilin arkasına geçer: Um neun Uhr liegt Judith noch im Bett. (liegen = yatmak, uzanmak; noch = hâlâ, um neun Uhr = saat dokuzda, um elf Uhr = saat on birde, im Bett = yatakta, in der Schule = okulda.) Gün için am, saat için um, ay ve mevsim için im kullanılır."
+  ],
+  "kelimeler": [
+    {
+      "de": "die Gruppe",
+      "tr": "grup",
+      "artikel": "die"
+    },
+    {
+      "de": "das Gespräch",
+      "tr": "görüşme",
+      "artikel": "das"
+    },
+    {
+      "de": "der Abflug",
+      "tr": "uçağın kalkışı",
+      "artikel": "der"
+    },
+    {
+      "de": "der Urlaub",
+      "tr": "tatil",
+      "artikel": "der"
+    },
+    {
+      "de": "das Studium",
+      "tr": "öğrenim",
+      "artikel": "das"
+    },
+    {
+      "de": "das Obst",
+      "tr": "meyve",
+      "artikel": "das"
+    },
+    {
+      "de": "billig",
+      "tr": "ucuz"
+    },
+    {
+      "de": "die Mittagspause",
+      "tr": "öğle arası",
+      "artikel": "die"
+    },
+    {
+      "de": "hell",
+      "tr": "aydınlık"
+    },
+    {
+      "de": "arbeiten",
+      "tr": "çalışmak"
+    },
+    {
+      "de": "liegen",
+      "tr": "yatmak, uzanmak"
+    },
+    {
+      "de": "noch",
+      "tr": "hâlâ"
+    }
+  ],
+  "trickler": [
+    {
+      "baslik": "Saat um, ay im",
+      "metin": "Saat için um gelir: um 16 Uhr. Ay ve mevsim için im gelir: im Mai, im Winter. Gün için ise am kullanılır."
+    },
+    {
+      "baslik": "von ... bis: -den ... -e kadar",
+      "metin": "Aralığın başı von, sonu bis ile söylenir: von 8 Uhr bis 18 Uhr."
+    },
+    {
+      "baslik": "Başta zaman varsa fiil ikinci",
+      "metin": "Um neun Uhr liegt Judith im Bett. Zaman ifadesi başa geçse bile çekimli fiil ikinci sırada kalır."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m8-d60-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Grubun dersinin saat 16'da başladığını söylüyorsun. Boşluğa uygun edatı seç.",
+      "metin": "Die erste Gruppe beginnt ___ 16 Uhr.",
+      "secenekler": [
+        "am",
+        "im",
+        "um",
+        "von"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`am` gün adıyla gelir (`am Montag`); saatle kullanılmaz.",
+        "`im` ay ve mevsim adıyla gelir; saatle kullanılmaz.",
+        "",
+        "`von` \"-den\" demektir ve `bis` ile aralık söyler; tek saat için kullanılmaz."
+      ],
+      "aciklama": "Saatle \"saat ...de\" um ile söylenir: Die erste Gruppe beginnt um 16 Uhr.",
+      "ipucu": "Saat bildirirken kullanılan kısa edatı düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die erste Gruppe beginnt um 16 Uhr.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d60-q02",
+      "tip": "coktan-secmeli",
+      "soru": "Eylül ayında tatil yapacağını söylüyorsun. Boşluğa uygun edatı seç.",
+      "metin": "Ich nehme ___ September Urlaub.",
+      "secenekler": [
+        "im",
+        "am",
+        "um",
+        "von"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`am` gün adıyla gelir; ay adının önünde `im` kullanılır.",
+        "`um` saatle gelir; ay adıyla kullanılmaz.",
+        "`von` \"-den\" demektir; ay adının önünde tek başına gelmez."
+      ],
+      "aciklama": "Ay adının önünde im kullanılır: Ich nehme im September Urlaub.",
+      "ipucu": "Ay isimlerinin önünde hangi kalıp geliyordu?",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich nehme im September Urlaub.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d60-q03",
+      "tip": "bosluk-doldurma",
+      "soru": "Dersin sabah 8'den 12'ye kadar sürdüğünü söylüyorsun. Boşluğa eksik sözcüğü yaz.",
+      "metin": "Wir haben Unterricht von 8.00 ___ 12.00 Uhr.",
+      "dogruCevaplar": [
+        "bis"
+      ],
+      "aciklama": "von ... bis \"-den ... -e kadar\" demektir: Wir haben Unterricht von 8.00 bis 12.00 Uhr.",
+      "ipucu": "von ile birlikte aralığın bitişini gösteren sözcüğü yaz.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir haben Unterricht von 8.00 bis 12.00 Uhr.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d60-q04",
+      "tip": "bosluk-doldurma",
+      "soru": "Öğrenimin ekim ayında başladığını söylüyorsun. Boşluğa edatı yaz.",
+      "metin": "Das Studium beginnt ___ Oktober.",
+      "dogruCevaplar": [
+        "im"
+      ],
+      "aciklama": "Ay adının önünde im kullanılır: Das Studium beginnt im Oktober.",
+      "ipucu": "Ay adının önünde in dem yerine kullanılan birleşmiş şekli yaz.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das Studium beginnt im Oktober.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d60-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Lena yarınki okul saatini soruyor. Mert okulun 10'da başladığını söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Wann beginnt morgen die Schule?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Morgen beginnt die Schule ___ 10 Uhr."
+        }
+      ],
+      "secenekler": [
+        "am",
+        "im",
+        "von",
+        "um"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`am` gün adıyla gelir; saat için kullanılmaz.",
+        "`im` ay ve mevsim adıyla gelir; saat için kullanılmaz.",
+        "`von` aralığın başlangıcını söyler; tek bir saat için gelmez.",
+        ""
+      ],
+      "aciklama": "Saat için um kullanılır: Morgen beginnt die Schule um 10 Uhr.",
+      "ipucu": "Saat bildiren edatı seç.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Morgen beginnt die Schule um 10 Uhr.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d60-q06",
+      "tip": "coktan-secmeli",
+      "soru": "Lena mola saatini soruyor. Mert molanın 12.00'den 12.30'a kadar olduğunu söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Wann habt ihr Mittagspause?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Von 12.00 ___ 12.30 Uhr haben wir Mittagspause."
+        }
+      ],
+      "secenekler": [
+        "um",
+        "bis",
+        "am",
+        "im"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`um` tek saatle gelir; aralığın bitişini söylemez.",
+        "",
+        "`am` gün adıyla gelir; aralık bitişi için kullanılmaz.",
+        "`im` ay ve mevsim adıyla gelir; aralık bitişi için kullanılmaz."
+      ],
+      "aciklama": "von ile birlikte bitişi bis söyler: Von 12.00 bis 12.30 Uhr haben wir Mittagspause.",
+      "ipucu": "von ile aralık kuran ikinci sözcüğü düşün.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Von 12.00 bis 12.30 Uhr haben wir Mittagspause.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d60-q07",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Her gün 8'den 18'e kadar çalışmak zorundayım.",
+      "parcalar": [
+        "ich",
+        "muss",
+        "jeden Tag",
+        "von 8 Uhr bis 18 Uhr",
+        "arbeiten"
+      ],
+      "dogruSiralar": [
+        [
+          "ich",
+          "muss",
+          "jeden Tag",
+          "von 8 Uhr bis 18 Uhr",
+          "arbeiten"
+        ],
+        [
+          "ich",
+          "muss",
+          "von 8 Uhr bis 18 Uhr",
+          "jeden Tag",
+          "arbeiten"
+        ],
+        [
+          "jeden Tag",
+          "muss",
+          "ich",
+          "von 8 Uhr bis 18 Uhr",
+          "arbeiten"
+        ],
+        [
+          "von 8 Uhr bis 18 Uhr",
+          "muss",
+          "ich",
+          "jeden Tag",
+          "arbeiten"
+        ]
+      ],
+      "aciklama": "muss ikinci sırada kalır, arbeiten sonda durur; von ... bis aralığı bir bütün olarak taşınır.",
+      "ipucu": "Çekimli fiil ikinci sırada, diğer fiil en sonda olmalı.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich muss jeden Tag von 8 Uhr bis 18 Uhr arbeiten."
+    },
+    {
+      "id": "m8-d60-q08",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Uçak 11.20'de kalkıyor.",
+      "parcalar": [
+        "der Abflug",
+        "ist",
+        "um 11.20 Uhr"
+      ],
+      "dogruSiralar": [
+        [
+          "der Abflug",
+          "ist",
+          "um 11.20 Uhr"
+        ],
+        [
+          "um 11.20 Uhr",
+          "ist",
+          "der Abflug"
+        ]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; um ile başlayan saat ifadesi başa geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Saat ifadesi başa geçse bile fiilin yeri değişmez.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Der Abflug ist um 11.20 Uhr."
+    },
+    {
+      "id": "m8-d60-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Mayıs ayında kursun başladığını söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Im Mai beginnt der Kurs.",
+        "Am Mai beginnt der Kurs.",
+        "Um Mai beginnt der Kurs.",
+        "In Mai beginnt der Kurs."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`am` gün adıyla gelir; ay adının önünde `im` kullanılır.",
+        "`um` saatle gelir; ay adıyla kullanılmaz.",
+        "Ay adının önünde `in dem` birleşmesi olan `im` kullanılır."
+      ],
+      "aciklama": "Ay adının önünde im gelir: Im Mai beginnt der Kurs.",
+      "ipucu": "Ay adının önündeki edatın birleşmiş şekline bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Im Mai beginnt der Kurs.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d60-q10",
+      "tip": "coktan-secmeli",
+      "soru": "Yazın akşam saat 21'e kadar aydınlık olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Am Sommer ist es bis 21 Uhr hell.",
+        "Im Sommer ist es von 21 Uhr hell.",
+        "Im Sommer ist es bis 21 Uhr hell.",
+        "Im Sommer ist es um 21 Uhr hell."
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`am` gün adıyla gelir; mevsim adının önünde `im` kullanılır.",
+        "`von` başlangıcı söyler; \"21'e kadar\" için `bis` gerekir.",
+        "",
+        "`um` \"saat 21'de\" demektir; \"21'e kadar\" anlamı vermez."
+      ],
+      "aciklama": "Mevsim önünde im, \"-e kadar\" için bis kullanılır: Im Sommer ist es bis 21 Uhr hell.",
+      "ipucu": "Hem mevsimin önündeki edata hem bitiş bildiren sözcüğe bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Im Sommer ist es bis 21 Uhr hell.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d60-q11",
+      "tip": "dinleme",
+      "soru": "Bir arkadaşın Judith'in sabahı nasıl geçirdiğini anlatıyor. Duyduğun cümleyi seç.",
+      "okunacak": "Um neun Uhr liegt Judith noch im Bett.",
+      "mod": "sec",
+      "secenekler": [
+        "Saat dokuzda Judith hâlâ yatakta.",
+        "Saat on birde Judith hâlâ yatakta.",
+        "Saat dokuzda Judith hâlâ okulda.",
+        "Saat dokuzda Judith işe gidiyor."
+      ],
+      "dogruCevaplar": [
+        "Saat dokuzda Judith hâlâ yatakta."
+      ],
+      "aciklama": "um neun Uhr saat dokuzda, liegt noch im Bett hâlâ yatakta demektir: Um neun Uhr liegt Judith noch im Bett.",
+      "ipucu": "Saat bilgisine ve Judith'in nerede olduğuna kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Um neun Uhr liegt Judith noch im Bett.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d60-q12",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Şubat ayında tatil yapacağınızı söylüyorsun:",
+      "ifade": "Im Februar machen wir Urlaub.",
+      "dogru": true,
+      "aciklama": "Doğru. Ay adının önünde im kullanılır: Im Februar machen wir Urlaub.",
+      "ipucu": "Cümleyi başlatan kısa kelime ile ay adının uyumuna bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Im Februar machen wir Urlaub.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d60-q13",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Ocak ayında havanın çok soğuk olduğunu söylüyorsun:",
+      "ifade": "Um Januar ist es sehr kalt.",
+      "dogru": false,
+      "aciklama": "Yanlış. Ay adının önünde um değil im kullanılır: Im Januar ist es sehr kalt.",
+      "ipucu": "Cümle başındaki edatın ay adıyla uyumuna bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Im Januar ist es sehr kalt.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d60-q14",
+      "tip": "eslestirme",
+      "soru": "Almanca sözcükleri Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        {
+          "sol": "Urlaub",
+          "sag": "tatil"
+        },
+        {
+          "sol": "Studium",
+          "sag": "öğrenim"
+        },
+        {
+          "sol": "Obst",
+          "sag": "meyve"
+        },
+        {
+          "sol": "Mittagspause",
+          "sag": "öğle arası"
+        },
+        {
+          "sol": "Gespräch",
+          "sag": "görüşme"
+        },
+        {
+          "sol": "Abflug",
+          "sag": "uçağın kalkışı"
+        }
+      ],
+      "aciklama": "Bu sözcükler zaman ifadeleriyle kurulan cümlelerde geçti.",
+      "ipucu": "Önce en kolay tanıdığın sözcükleri eşleştir.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d60-q15",
+      "tip": "artikel",
+      "soru": "Bu ismin artikelini seç.",
+      "isim": "Urlaub",
+      "dogru": "der",
+      "aciklama": "Urlaub maskulindir: der Urlaub. Belirsiz hâli ein Urlaub, ismin yerine er kullanılır.",
+      "ipucu": "Tatil sözcüğünü kelime listesinde hangi artikelle bulacağına bak.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m8-d60-q16",
+      "tip": "coktan-secmeli",
+      "soru": "Yazın meyvenin ucuz olduğunu söylüyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Im Sommer ist das Obst ___.",
+      "secenekler": [
+        "kalt",
+        "billig",
+        "hell",
+        "jung"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`kalt` soğuk demektir; sorudaki anlam ucuz.",
+        "",
+        "`hell` aydınlık demektir; sorudaki anlam ucuz.",
+        "`jung` genç demektir; sorudaki anlam ucuz."
+      ],
+      "aciklama": "Ucuz billig'dir: Im Sommer ist das Obst billig.",
+      "ipucu": "Fiyatı düşük anlamına gelen sözcüğü bul.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Im Sommer ist das Obst billig.",
+      "glossKapali": true
+    }
+  ]
+}

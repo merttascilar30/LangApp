@@ -1,0 +1,239 @@
+{
+  "soruSayisi": 25,
+  "gecmeNotu": 80,
+  "ekSorular": [
+    {
+      "id": "m8-s-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Birine yolu tarif ediyorsun: en iyisi Breite Straße'nin içinden geçmesi. Boşluğa uygun artikeli seç.",
+      "metin": "Am besten gehen Sie durch ___ Breite Straße.",
+      "secenekler": ["den", "dem", "die", "der"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`den` eril isimle gelir; `Straße` dişildir.",
+        "`dem` Dativ biçimidir; `durch` Akkusativ ister.",
+        "",
+        "`durch` Akkusativ ister; dişil isimde `der` değil `die` gelir."
+      ],
+      "aciklama": "durch Akkusativ ister ve die Straße dişildir, artikel die kalır: Am besten gehen Sie durch die Breite Straße.",
+      "ipucu": "Edatın hangi hâli istediğine ve ismin cinsine bak.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Am besten gehen Sie durch die Breite Straße.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-s-q02",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Cuma günü sinemaya gitmek istedim.",
+      "parcalar": ["ich", "wollte", "am Freitag", "ins Kino gehen"],
+      "dogruSiralar": [
+        ["ich", "wollte", "am Freitag", "ins Kino gehen"],
+        ["am Freitag", "wollte", "ich", "ins Kino gehen"]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır, ana fiil sonda mastar durur; gün ifadesi başa geçerse özne fiilin arkasına kayar: Am Freitag wollte ich ins Kino gehen.",
+      "ipucu": "Gün ifadesi başa geçse bile çekimli fiilin yeri sabit kalır.",
+      "bicim": "siralama",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Komm, wir gehen ins Kino."
+    },
+    {
+      "id": "m8-s-q03",
+      "tip": "dinleme",
+      "soru": "Bir tanıdığın Köln'de ne zaman olduğunu anlatıyor. Duyduğun cümlenin anlamını seç.",
+      "okunacak": "Ich war vor einem Jahr in Köln.",
+      "mod": "sec",
+      "secenekler": [
+        "Bir yıl önce Köln'de idim.",
+        "İki yıl önce Köln'de idim.",
+        "Bir yıl önce Köln'de idi."
+      ],
+      "dogruCevaplar": ["Bir yıl önce Köln'de idim."],
+      "aciklama": "war geçmişte ich ile gelir, vor \"-den önce\" demektir: Ich war vor einem Jahr in Köln.",
+      "ipucu": "Hem öznenin kim olduğuna hem de sürenin kaç olduğuna kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich wohne seit drei Jahren in Köln."
+    },
+    {
+      "id": "m8-s-q04",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Arkadaşına çiçekler için teşekkür ediyorsun:",
+      "ifade": "Ich danke dir für die Blumen.",
+      "dogru": true,
+      "aciklama": "Doğru. danken kişiyi Dativ ile alır, bu yüzden dir gelir; teşekkür sebebi für ile bağlanır: Ich danke dir für die Blumen.",
+      "ipucu": "Fiilin kişiyi hangi hâlle aldığına dikkat et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Hilfe! Bitte helfen Sie mir!",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-s-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Mert dün kursa gelemediğini söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Du warst gestern nicht im Kurs." },
+        { "kim": "Mert", "metin": "Ja, gestern ___ ich leider nicht kommen." }
+      ],
+      "secenekler": ["konnte", "konntest", "konnten", "konntet"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`konntest` du ile gelir; özne `ich` olduğu için `konnte` gerekir.",
+        "`konnten` wir ve sie/Sie ile gelir; `ich` ile `konnte` kullanılır.",
+        "`konntet` ihr ile gelir; `ich` ile `konnte` kullanılır."
+      ],
+      "aciklama": "Geçmişte ich ile können fiili konnte olur, ana fiil sonda mastar kalır: Gestern konnte ich leider nicht kommen.",
+      "ipucu": "Özneye ve cümlenin geçmişi anlattığına bak.",
+      "bicim": "diyalog",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich kann Deutsch und Russisch.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-s-q06",
+      "tip": "coktan-secmeli",
+      "soru": "Postanede görevliye adına bir mektup gelip gelmediğini soruyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Haben Sie einen Brief für mir?",
+        "Haben Sie einen Brief für mich?",
+        "Haben Sie einen Brief durch mich?",
+        "Haben Sie ein Brief für mich?"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`für` Akkusativ ister; `mir` Dativ zamiridir, doğrusu `mich`.",
+        "",
+        "`durch` içinden geçmeyi anlatır; \"için\" demek için `für` gerekir.",
+        "`Brief` eril olduğu için Akkusativ'de `ein` değil `einen` gelir."
+      ],
+      "aciklama": "für Akkusativ ister: eril Brief için einen, ben için mich olur: Haben Sie einen Brief für mich?",
+      "ipucu": "Hem edatın anlamına hem de sonrasındaki hâle bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Haben Sie einen Brief für mich?",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-s-q07",
+      "tip": "coktan-secmeli",
+      "soru": "Yazın sık sık sinemaya gittiğini anlatıyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Im Sommer ich gehe oft ins Kino.",
+        "Im Sommer oft gehe ich ins Kino.",
+        "Im Sommer gehe ich nie ins Kino.",
+        "Im Sommer gehe ich oft ins Kino."
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "Cümle `Im Sommer` ile başlarsa çekimli fiil ikinci sırada kalır, özne arkasına geçer.",
+        "Cümle başında iki öğe yan yana durmaz; `oft` çekimli fiilden sonra gelir.",
+        "`nie` \"hiçbir zaman\" demektir; \"sık sık\" için `oft` gerekir.",
+        ""
+      ],
+      "aciklama": "Zaman ifadesi başta olsa da fiil ikinci kalır, oft çekimli fiilden sonra gelir: Im Sommer gehe ich oft ins Kino.",
+      "ipucu": "Fiilin yerine ve sıklık zarfının anlamına dikkat et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Im Herbst ist das Wetter oft windig.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-s-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Cumartesi günü pazartesiye göre daha çok vaktin olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Am Samstag habe ich mehr Zeit als am Montag.",
+        "Am Samstag habe ich mehr Zeit als im Montag.",
+        "Am Samstag ich habe mehr Zeit als am Montag.",
+        "Am Samstag habe ich viel Zeit als am Montag."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "Gün adının önünde `am` kullanılır; `im` ay ve mevsimler içindir.",
+        "Cümle `Am Samstag` ile başlarsa çekimli fiil ikinci sırada kalır, özne arkasına geçer.",
+        "`viel` karşılaştırmada `mehr` olur ve `als` ile `mehr` gelir."
+      ],
+      "aciklama": "Gün için am gelir, viel karşılaştırmada mehr olur ve als ile bağlanır: Am Samstag habe ich mehr Zeit als am Montag.",
+      "ipucu": "Günün önündeki edata ve karşılaştırma sözcüğüne bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "In diesem Wörterbuch finden Sie mehr als 20.000 Wörter.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-s-q09",
+      "tip": "bosluk-doldurma",
+      "soru": "Saatin 3.15 olduğunu söylüyorsun. Boşluğa uygun sözcüğü yaz.",
+      "metin": "Es ist Viertel ___ drei.",
+      "dogruCevaplar": ["nach"],
+      "aciklama": "Çeyrek geçe Viertel nach denir: Es ist Viertel nach drei.",
+      "ipucu": "Saatin üçten önce mi sonra mı olduğunu düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Es ist Viertel nach zwei.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-s-q10",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Tatilinin ne zaman başladığını şöyle söylüyorsun:",
+      "ifade": "Mein Urlaub beginnt am Oktober.",
+      "dogru": false,
+      "aciklama": "Yanlış. Ay adlarının önünde im kullanılır, am gün içindir: Mein Urlaub beginnt im Oktober.",
+      "ipucu": "Zaman sözcüğünün gün mü, ay mı olduğuna dikkat et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Das Studium beginnt im Oktober.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-s-q11",
+      "tip": "coktan-secmeli",
+      "soru": "Arkadaşınla akşam sinemada buluşacaksınız. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Wir treffen uns um 18 Uhr ins Kino.",
+        "Wir treffen uns im 18 Uhr im Kino.",
+        "Wir treffen uns um 18 Uhr im Kino."
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`ins` yön anlatır; buluşma yeri için konum gösteren `im` gerekir.",
+        "`im` ay ve mevsimler içindir; saat için `um` gelir.",
+        ""
+      ],
+      "aciklama": "Saat için um, konum için im kullanılır: Wir treffen uns um 18 Uhr im Kino.",
+      "ipucu": "Hem saatin hem de yerin edatına bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Wir treffen uns am Bahnhof.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-s-q12",
+      "tip": "coktan-secmeli",
+      "soru": "Kahvenin sana çaydan daha lezzetli geldiğini söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Der Kaffee schmeckt ich besser als der Tee.",
+        "Der Kaffee schmeckt mir besser als der Tee.",
+        "Der Kaffee schmeckt mir gut als der Tee.",
+        "Der Kaffee schmecken mir besser als der Tee."
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`schmecken` kişiyi Dativ ile alır; `ich` değil `mir` gelir.",
+        "",
+        "`als` ile karşılaştırma için `gut` değil `besser` gerekir.",
+        "Özne `Kaffee` tekildir; fiil `schmeckt` olur."
+      ],
+      "aciklama": "schmecken kişiyi Dativ ile alır ve özneye uyar, gut karşılaştırmada besser olur: Der Kaffee schmeckt mir besser als der Tee.",
+      "ipucu": "Kişinin hâline, fiil çekimine ve karşılaştırma biçimine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Schmeckt das gut?",
+      "glossKapali": true
+    }
+  ]
+}

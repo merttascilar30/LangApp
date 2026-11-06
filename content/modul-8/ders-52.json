@@ -1,0 +1,317 @@
+{
+  "id": "m8-d52",
+  "ders": 52,
+  "baslik": "Sıklık Zarfları",
+  "videoId": "UfcdkM1LNXM",
+  "ozet": [
+    "Sıklık zarfları bir şeyin ne kadar sık olduğunu anlatır: immer (her zaman), oft (sık sık), manchmal (bazen), selten (nadiren), nie (hiçbir zaman). Küçük harfle yazılır, çekimlenmez. Sıklığı sormak için Wie oft...? kullanılır: Wie oft bist du im Büro?",
+    "Sıklık zarfı genellikle çekimli fiilden sonra gelir. Örnek: Ich gehe oft ins Museum. Frau Bast kommt immer zu spät. Die Nummer ist immer besetzt. Modal fiilli cümlede de zarf çekimli fiilden sonra durur: Ich muss immer um vier Uhr aufstehen. Emir cümlesinde de aynı: Gehen Sie immer geradeaus! (Hep düz gidin!) Wir treffen uns immer freitags. (Cuma günleri hep buluşuruz.)",
+    "Zarf ya da zaman ifadesi cümlenin başına geçebilir; çekimli fiil yine ikinci sırada kalır. Örnek: Manchmal gehe ich ins Kino. Im November regnet es oft. Cümle başında iki öğe yan yana durmaz: Im November oft regnet es biçimi yanlıştır.",
+    "nie zaten olumsuz anlam taşır, bu yüzden yanına nicht eklenmez. Örnek: Er kommt nie pünktlich. Türkçedeki hiç ... -mez kalıbı gibi düşün."
+  ],
+  "kelimeler": [
+    { "de": "immer", "tr": "her zaman" },
+    { "de": "oft", "tr": "sık sık" },
+    { "de": "manchmal", "tr": "bazen" },
+    { "de": "selten", "tr": "nadiren" },
+    { "de": "nie", "tr": "hiçbir zaman" },
+    { "de": "geradeaus", "tr": "düz" },
+    { "de": "besetzt", "tr": "dolu, meşgul" },
+    { "de": "lustig", "tr": "eğlenceli, komik" },
+    { "de": "pünktlich", "tr": "dakik" },
+    { "de": "das Museum", "tr": "müze", "artikel": "das" },
+    { "de": "sich treffen", "tr": "buluşmak" },
+    { "de": "freitags", "tr": "cuma günleri" },
+    { "de": "aber", "tr": "ama" },
+    { "de": "wenige", "tr": "birkaç, az" },
+    { "de": "die Stunde", "tr": "saat", "artikel": "die" }
+  ],
+  "trickler": [
+    {
+      "baslik": "Sıklık merdiveni",
+      "metin": "Sıklık sırası: immer (her zaman), oft (sık sık), manchmal (bazen), selten (nadiren), nie (hiçbir zaman). Cümlede kaç kez olduğunu düşünüp basamağı seç."
+    },
+    {
+      "baslik": "Zarf fiilden sonra gelir",
+      "metin": "Türkçede zarf fiilin önünde durur: Ben sık sık müzeye giderim. Almanca'da zarf çekimli fiilden sonra gelir: Ich gehe oft ins Museum. Başa geçerse fiil ikinci kalır: Oft gehe ich ins Museum."
+    },
+    {
+      "baslik": "nie ile nicht kullanılmaz",
+      "metin": "nie zaten olumsuzdur: Er kommt nie pünktlich. Ayrıca nicht eklemezsin."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m8-d52-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Herr Müller'in her zaman dakik olduğunu söylüyorsun. Boşluğa uygun zarfı seç.",
+      "metin": "Herr Müller ist ___ pünktlich.",
+      "secenekler": ["nie", "immer", "selten", "manchmal"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`nie` hiçbir zaman demektir; sorudaki anlam her zaman.",
+        "",
+        "`selten` nadiren demektir; sorudaki anlam her zaman.",
+        "`manchmal` bazen demektir; sorudaki anlam her zaman."
+      ],
+      "aciklama": "Her zaman immer'dır ve sein fiilinden sonra gelir: Herr Müller ist immer pünktlich.",
+      "ipucu": "Sıklık ölçeğinin hangi ucunda olduğunu düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Herr Müller ist immer pünktlich.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d52-q02",
+      "tip": "bosluk-doldurma",
+      "soru": "Birinin hiçbir zaman dakik gelmediğini söylüyorsun. Boşluğa zarfı yaz.",
+      "metin": "Er kommt ___ pünktlich.",
+      "dogruCevaplar": ["nie"],
+      "aciklama": "Hiçbir zaman nie'dir ve zaten olumsuz olduğu için nicht almaz: Er kommt nie pünktlich.",
+      "ipucu": "Ölçeğin en alt basamağını yaz.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Er kommt nie pünktlich.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d52-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Lena, Frau Mertens'in nasıl biri olduğunu soruyor. Mert, onun eğlenceli biri olduğunu ve her zaman güldüğünü söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Wie ist Frau Mertens?" },
+        { "kim": "Mert", "metin": "Frau Mertens ist lustig. Sie lacht ___." }
+      ],
+      "secenekler": ["nie", "selten", "immer", "manchmal"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`nie` hiçbir zaman demektir; Mert her zaman diyor.",
+        "`selten` nadiren demektir; Mert her zaman diyor.",
+        "",
+        "`manchmal` bazen demektir; Mert her zaman diyor."
+      ],
+      "aciklama": "Her zaman immer'dır: Frau Mertens ist lustig. Sie lacht immer.",
+      "ipucu": "Mert'in anlattığı sıklığı ölçekte yerine koy.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Frau Mertens ist lustig. Sie lacht immer.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d52-q04",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Frau Bast her zaman geç geliyor.",
+      "parcalar": ["Frau Bast", "kommt", "immer", "zu spät"],
+      "dogruSiralar": [
+        ["Frau Bast", "kommt", "immer", "zu spät"],
+        ["immer", "kommt", "Frau Bast", "zu spät"]
+      ],
+      "aciklama": "Zarf çekimli fiilden sonra gelir; zarf başa geçerse fiil yine ikinci sırada kalır ve özne arkasına geçer.",
+      "ipucu": "Çekimli fiilin yeri sabit, zarf ise ya fiilden sonra ya da en başta durur.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Frau Bast kommt immer zu spät."
+    },
+    {
+      "id": "m8-d52-q05",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Ben sık sık müzeye giderim.",
+      "parcalar": ["ich", "gehe", "oft", "ins Museum"],
+      "dogruSiralar": [
+        ["ich", "gehe", "oft", "ins Museum"],
+        ["oft", "gehe", "ich", "ins Museum"]
+      ],
+      "aciklama": "Zarf çekimli fiilden sonra gelir; zarf başa geçerse fiil ikinci kalır ve özne arkasına kayar.",
+      "ipucu": "Fiil iki biçimde de ikinci öğe olmalı.",
+      "bicim": "siralama",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich bin kulturell interessiert. Ich gehe oft ins Museum."
+    },
+    {
+      "id": "m8-d52-q06",
+      "tip": "coktan-secmeli",
+      "soru": "Kasım ayında sık sık yağmur yağdığını söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Im November regnet es oft.",
+        "Im November oft regnet es.",
+        "Im November es regnet oft.",
+        "Im November regnet es nie."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "Başta `Im November` varsa fiil hemen arkasından gelir; `oft` fiilden sonra yer alır.",
+        "Çekimli fiil `regnet` ilk öğeden hemen sonra, ikinci sırada olmalı.",
+        "`nie` hiçbir zaman demektir; sorudaki anlam sık sık."
+      ],
+      "aciklama": "Başa zaman ifadesi gelince fiil ikinci kalır, oft fiilden sonra durur: Im November regnet es oft.",
+      "ipucu": "Hem fiilin yerine hem zarfın anlamına bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Im November regnet es oft.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d52-q07",
+      "tip": "coktan-secmeli",
+      "soru": "Aradığın numaranın her zaman meşgul olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Die Nummer immer ist besetzt.",
+        "Die Nummer ist nie besetzt.",
+        "Die Nummer ist selten besetzt.",
+        "Die Nummer ist immer besetzt."
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`immer`, çekimli fiil `ist`'ten sonra gelir.",
+        "`nie` hiçbir zaman demektir; sorudaki anlam her zaman.",
+        "`selten` nadiren demektir; sorudaki anlam her zaman.",
+        ""
+      ],
+      "aciklama": "Zarf sein fiilinden sonra gelir: Die Nummer ist immer besetzt.",
+      "ipucu": "Hem zarfın anlamına hem yerine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Nummer ist immer besetzt.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d52-q08",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Her zaman sabah dörtte kalkman gerektiğini söylüyorsun:",
+      "ifade": "Ich muss immer um vier Uhr aufstehen.",
+      "dogru": true,
+      "aciklama": "Doğru. immer çekimli fiil muss'tan sonra gelir: Ich muss immer um vier Uhr aufstehen.",
+      "ipucu": "Zarfın çekimli fiile göre yerine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich muss immer um vier Uhr aufstehen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d52-q09",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Birinin hiç dakik gelmediğini şöyle anlatıyorsun:",
+      "ifade": "Er kommt nie nicht pünktlich.",
+      "dogru": false,
+      "aciklama": "Yanlış. nie zaten olumsuzdur, nicht eklenmez: Er kommt nie pünktlich.",
+      "ipucu": "Cümledeki olumsuzluk sözcüklerinin sayısına bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Er kommt nie pünktlich.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d52-q10",
+      "tip": "coktan-secmeli",
+      "soru": "Lena, Mert'in ofiste ne sıklıkla olduğunu soruyor. Mert, sık sık olduğunu ama sadece birkaç saat kaldığını söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Wie oft bist du im Büro?" },
+        { "kim": "Mert", "metin": "Ich bin ___ im Büro, aber nur für wenige Stunden." }
+      ],
+      "secenekler": ["selten", "manchmal", "immer", "oft"],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`selten` nadiren demektir; Mert sık sık diyor.",
+        "`manchmal` bazen demektir; Mert sık sık diyor.",
+        "`immer` her zaman demektir; Mert sık sık diyor.",
+        ""
+      ],
+      "aciklama": "Sık sık oft'tur: Ich bin oft im Büro, aber nur für wenige Stunden.",
+      "ipucu": "Mert'in sıklık ifadesi ölçeğin üst yarısında.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich bin oft im Büro, aber nur für wenige Stunden.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d52-q11",
+      "tip": "coktan-secmeli",
+      "soru": "Kahvaltıda bazen kahve içtiğini söylüyorsun. Boşluğa uygun zarfı seç.",
+      "metin": "Zum Frühstück trinke ich ___ Kaffee.",
+      "secenekler": ["immer", "nie", "manchmal", "oft"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`immer` her zaman demektir; sorudaki anlam bazen.",
+        "`nie` hiçbir zaman demektir; sorudaki anlam bazen.",
+        "",
+        "`oft` sık sık demektir; sorudaki anlam bazen."
+      ],
+      "aciklama": "Bazen manchmal'dır ve çekimli fiilden sonra gelir: Zum Frühstück trinke ich manchmal Kaffee.",
+      "ipucu": "Ne her zaman ne de hiç; ölçeğin ortasını ara.",
+      "bicim": "bosluk",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Zum Frühstück trinke ich immer Kaffee.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d52-q12",
+      "tip": "dinleme",
+      "soru": "Biri sana yolu tarif ediyor. Duyduğun cümleyi seç.",
+      "okunacak": "Gehen Sie immer geradeaus!",
+      "mod": "sec",
+      "secenekler": [
+        "Hep düz gidin!",
+        "Sık sık düz gidin!",
+        "Bazen düz gidin!",
+        "Nadiren düz gidin!"
+      ],
+      "dogruCevaplar": ["Hep düz gidin!"],
+      "aciklama": "geradeaus düz, immer her zaman demektir: Gehen Sie immer geradeaus!",
+      "ipucu": "Fiilden sonra gelen zarfa kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Gehen Sie immer geradeaus!"
+    },
+    {
+      "id": "m8-d52-q13",
+      "tip": "bosluk-doldurma",
+      "soru": "Arkadaşlarınla her cuma buluştuğunuzu söylüyorsun. Boşluğa zarfı yaz.",
+      "metin": "Wir treffen uns ___ freitags.",
+      "dogruCevaplar": ["immer"],
+      "aciklama": "Her zaman immer'dır ve çekimli fiilden sonra gelir: Wir treffen uns immer freitags.",
+      "ipucu": "Ölçeğin en üst basamağı.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir treffen uns immer freitags.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d52-q14",
+      "tip": "eslestirme",
+      "soru": "Sıklık zarflarını Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        { "sol": "immer", "sag": "her zaman" },
+        { "sol": "oft", "sag": "sık sık" },
+        { "sol": "manchmal", "sag": "bazen" },
+        { "sol": "selten", "sag": "nadiren" },
+        { "sol": "nie", "sag": "hiçbir zaman" }
+      ],
+      "aciklama": "Sıklık sırası: immer, oft, manchmal, selten, nie.",
+      "ipucu": "Önce iki uç sıklığı eşleştir, ortadakileri sonra bul.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d52-q15",
+      "tip": "coktan-secmeli",
+      "soru": "Müzeye çok nadir, yılda bir iki kez gittiğini söylüyorsun. Boşluğa uygun zarfı seç.",
+      "metin": "Ich gehe ___ ins Museum.",
+      "secenekler": ["oft", "selten", "immer", "nie"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`oft` sık sık demektir; sorudaki anlam nadiren.",
+        "",
+        "`immer` her zaman demektir; sorudaki anlam nadiren.",
+        "`nie` hiçbir zaman demektir; sorudaki anlam nadiren, ama arada gidiyorsun."
+      ],
+      "aciklama": "Nadiren selten'dir ve çekimli fiilden sonra gelir: Ich gehe selten ins Museum.",
+      "ipucu": "Ölçeğin alt tarafında ama sıfır değil.",
+      "bicim": "bosluk",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich bin kulturell interessiert. Ich gehe oft ins Museum.",
+      "glossKapali": true
+    }
+  ]
+}

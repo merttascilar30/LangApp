@@ -1,0 +1,466 @@
+{
+  "id": "m8-d61",
+  "ders": 61,
+  "baslik": "nach, vor, seit, ab",
+  "videoId": "fZP272ApXnY",
+  "ozet": [
+    "seit \"-den beri\" demektir ve geçmişte başlayıp hâlâ süren durumu anlatır. Fiil Türkçedeki gibi şimdiki zamanda kalır: Ich wohne seit drei Jahren in Köln. Ich lebe seit zwei Jahren in Deutschland. (das Jahr = yıl, wohnen = oturmak, leben = yaşamak.) Seit gestern tut mir der Bauch weh. (gestern = dün, der Bauch = karın, weh tun = ağrımak.) Seit wann haben Sie diese Wohnung? (seit wann = ne zamandan beri, die Wohnung = daire.)",
+    "vor \"-den önce\" demektir; Türkçeden farklı olarak önce gelir: Das Gespräch war vor einer Stunde. (die Stunde = saat, süre.) vor ile saat de okunur: Es ist Viertel vor zwei. (das Viertel = çeyrek; saat 1.45 demektir.)",
+    "nach \"-den sonra\" demektir ve saat okurken kullanılır: Es ist schon 5 nach 12. Es ist Viertel nach zwei. (schon = çoktan, artık.) nach ayrıca bir yere doğru yönü söyler: Ich gehe jetzt nach Hause. (nach Hause = eve, jetzt = şimdi.) Von Mainz nach Frankfurt sind es circa fünfzig Kilometer. (circa = yaklaşık, der Kilometer = kilometre.)",
+    "ab \"-den itibaren\" demektir; bir şeyin başladığı saati veya günü söyler: Die Praxis ist ab acht Uhr geöffnet. Mit dieser Fahrkarte ist die Fahrt ab 9 Uhr möglich. (geöffnet = açık, die Fahrkarte = bilet, die Fahrt = yolculuk, möglich = mümkün.) Zaman ifadesi başa geçerse çekimli fiil yine ikinci kalır: Seit drei Jahren wohne ich in Köln."
+  ],
+  "kelimeler": [
+    {
+      "de": "das Jahr",
+      "tr": "yıl",
+      "artikel": "das"
+    },
+    {
+      "de": "wohnen",
+      "tr": "oturmak"
+    },
+    {
+      "de": "leben",
+      "tr": "yaşamak"
+    },
+    {
+      "de": "die Wohnung",
+      "tr": "daire",
+      "artikel": "die"
+    },
+    {
+      "de": "gestern",
+      "tr": "dün"
+    },
+    {
+      "de": "der Bauch",
+      "tr": "karın",
+      "artikel": "der"
+    },
+    {
+      "de": "die Stunde",
+      "tr": "saat, süre",
+      "artikel": "die"
+    },
+    {
+      "de": "das Viertel",
+      "tr": "çeyrek",
+      "artikel": "das"
+    },
+    {
+      "de": "geöffnet",
+      "tr": "açık"
+    },
+    {
+      "de": "die Fahrkarte",
+      "tr": "bilet",
+      "artikel": "die"
+    },
+    {
+      "de": "die Fahrt",
+      "tr": "yolculuk",
+      "artikel": "die"
+    },
+    {
+      "de": "der Kilometer",
+      "tr": "kilometre",
+      "artikel": "der"
+    }
+  ],
+  "trickler": [
+    {
+      "baslik": "seit: -den beri, fiil şimdiki zaman",
+      "metin": "Süren durumda fiil şimdiki zamanda kalır: Ich wohne seit drei Jahren in Köln."
+    },
+    {
+      "baslik": "vor önce, nach sonra",
+      "metin": "vor \"-den önce\", nach \"-den sonra\" demektir: Viertel vor zwei, Viertel nach zwei."
+    },
+    {
+      "baslik": "ab: başlangıç noktası",
+      "metin": "ab \"-den itibaren\" demektir ve başlangıcı söyler: ab acht Uhr, ab 9 Uhr."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m8-d61-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Köln'de üç yıldır oturduğunu söylüyorsun. Boşluğa uygun edatı seç.",
+      "metin": "Ich wohne ___ drei Jahren in Köln.",
+      "secenekler": [
+        "seit",
+        "vor",
+        "nach",
+        "ab"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`vor` \"-den önce\" demektir; cümle \"üç yıldır\" diyor.",
+        "`nach` \"-den sonra\" demektir; cümle \"üç yıldır\" diyor.",
+        "`ab` bir başlangıç noktasını söyler (`ab 9 Uhr`); süre ile gelmez."
+      ],
+      "aciklama": "Şimdiye kadar süren durum seit ile söylenir: Ich wohne seit drei Jahren in Köln.",
+      "ipucu": "Üç yıl önce başlayıp hâlâ süren bir durumu düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich wohne seit drei Jahren in Köln.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d61-q02",
+      "tip": "coktan-secmeli",
+      "soru": "Biletle yolculuğun sabah dokuzdan itibaren mümkün olduğunu söylüyorsun. Boşluğa uygun edatı seç.",
+      "metin": "Mit dieser Fahrkarte ist die Fahrt ___ 9 Uhr möglich.",
+      "secenekler": [
+        "vor",
+        "ab",
+        "von",
+        "im"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`vor` \"-den önce\" demektir; cümle başlangıç saatini söylüyor.",
+        "",
+        "`von` tek başına gelmez; `von ... bis` aralığında kullanılır.",
+        "`im` ay ve mevsim adlarıyla gelir; saatle kullanılmaz."
+      ],
+      "aciklama": "Başlangıç noktası ab ile söylenir: Mit dieser Fahrkarte ist die Fahrt ab 9 Uhr möglich.",
+      "ipucu": "Bir şeyin hangi saatte başladığını anlatan edatı düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Mit dieser Fahrkarte ist die Fahrt ab 9 Uhr möglich.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d61-q03",
+      "tip": "bosluk-doldurma",
+      "soru": "Saat biri kırk beş geçiyor; yani saat ikiye çeyrek var. Boşluğa uygun edatı yaz.",
+      "metin": "Es ist Viertel ___ zwei.",
+      "dogruCevaplar": [
+        "vor"
+      ],
+      "aciklama": "İkiye çeyrek varken vor kullanılır: Es ist Viertel vor zwei.",
+      "ipucu": "Saat henüz ikiye gelmedi.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Es ist Viertel vor zwei.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d61-q04",
+      "tip": "dinleme",
+      "soru": "Bir arkadaşın saati söylüyor. Duyduğun cümleyi seç.",
+      "okunacak": "Es ist Viertel nach zwei.",
+      "mod": "sec",
+      "secenekler": [
+        "Saat ikiyi çeyrek geçiyor.",
+        "Saat ikiye çeyrek var.",
+        "Saat tam iki.",
+        "Saat iki buçuk."
+      ],
+      "dogruCevaplar": [
+        "Saat ikiyi çeyrek geçiyor."
+      ],
+      "aciklama": "Viertel nach zwei saat 2.15'tir: Es ist Viertel nach zwei.",
+      "ipucu": "Çeyrekten sonra gelen kısa edata kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Es ist Viertel nach zwei."
+    },
+    {
+      "id": "m8-d61-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Lena, Mert'in daireyi ne zamandan beri tuttuğunu soruyor. Soruyu tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "___ wann haben Sie diese Wohnung?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Schon zwei Jahre."
+        }
+      ],
+      "secenekler": [
+        "Am",
+        "Vor",
+        "Seit",
+        "Nach"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`am` gün adıyla gelir (`am Montag`); \"ne zamandan beri\" sorusunu kurmaz.",
+        "`vor` \"-den önce\" demektir; soru \"ne zamandan beri\" diyor.",
+        "",
+        "`nach` \"-den sonra\" demektir; soru \"ne zamandan beri\" diyor."
+      ],
+      "aciklama": "\"Ne zamandan beri\" seit wann ile sorulur: Seit wann haben Sie diese Wohnung?",
+      "ipucu": "Mert iki yıldır süren bir durumdan söz ediyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Seit wann haben Sie diese Wohnung?",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d61-q06",
+      "tip": "coktan-secmeli",
+      "soru": "Lena, Praxisin ne zaman açık olduğunu soruyor. Mert sekizden itibaren açık olduğunu söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Wann ist die Praxis geöffnet?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Die Praxis ist ___ acht Uhr geöffnet."
+        }
+      ],
+      "secenekler": [
+        "von",
+        "vor",
+        "im",
+        "ab"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`von` \"-den\" demektir ama `bis` ile aralık kurar; tek başına gelmez.",
+        "`vor` \"-den önce\" demektir; Mert başlangıç saatini söylüyor.",
+        "`im` ay ve mevsim adlarıyla gelir; saatle kullanılmaz.",
+        ""
+      ],
+      "aciklama": "Başlangıç saati ab ile söylenir: Die Praxis ist ab acht Uhr geöffnet.",
+      "ipucu": "Açılış saatinden itibaren süren bir durumu düşün.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Praxis ist ab acht Uhr geöffnet.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d61-q07",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Üç yıldır Köln'de oturuyorum.",
+      "parcalar": [
+        "ich",
+        "wohne",
+        "seit drei Jahren",
+        "in Köln"
+      ],
+      "dogruSiralar": [
+        [
+          "ich",
+          "wohne",
+          "seit drei Jahren",
+          "in Köln"
+        ],
+        [
+          "ich",
+          "wohne",
+          "in Köln",
+          "seit drei Jahren"
+        ],
+        [
+          "seit drei Jahren",
+          "wohne",
+          "ich",
+          "in Köln"
+        ],
+        [
+          "in Köln",
+          "wohne",
+          "ich",
+          "seit drei Jahren"
+        ]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; seit ifadesi başa geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Özne başta değilse fiilin hemen arkasına geçer.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich wohne seit drei Jahren in Köln."
+    },
+    {
+      "id": "m8-d61-q08",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Şimdi eve gidiyorum.",
+      "parcalar": [
+        "ich",
+        "gehe",
+        "jetzt",
+        "nach Hause"
+      ],
+      "dogruSiralar": [
+        [
+          "ich",
+          "gehe",
+          "jetzt",
+          "nach Hause"
+        ],
+        [
+          "ich",
+          "gehe",
+          "nach Hause",
+          "jetzt"
+        ],
+        [
+          "jetzt",
+          "gehe",
+          "ich",
+          "nach Hause"
+        ],
+        [
+          "nach Hause",
+          "gehe",
+          "ich",
+          "jetzt"
+        ]
+      ],
+      "aciklama": "Çekimli fiil gehe her zaman ikinci sırada kalır; başa geçen parçanın arkasına özne gelir.",
+      "ipucu": "Başa hangi parçayı koyarsan koy fiilin yeri değişmez.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich gehe jetzt nach Hause."
+    },
+    {
+      "id": "m8-d61-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Görüşmenin bir saat önce olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Das Gespräch war vor einer Stunde.",
+        "Das Gespräch war seit einer Stunde.",
+        "Das Gespräch war ab einer Stunde.",
+        "Das Gespräch war nach einer Stunde."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`seit` \"-den beri\" demektir; \"bir saat önce\" demez.",
+        "`ab` başlangıç noktası söyler (`ab 9 Uhr`); \"bir saat önce\" demez.",
+        "`nach` \"-den sonra\" demektir; \"bir saat önce\" demez."
+      ],
+      "aciklama": "\"Bir saat önce\" vor einer Stunde ile söylenir: Das Gespräch war vor einer Stunde.",
+      "ipucu": "Geçmişte kalmış bir anı gösteren edatı seç.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Der Termin war vor einer Stunde.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d61-q10",
+      "tip": "coktan-secmeli",
+      "soru": "Saatin 12'yi beş geçtiğini söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Es ist schon 5 vor 12.",
+        "Es ist schon 5 nach 12.",
+        "Es ist schon 5 seit 12.",
+        "Es ist schon 5 ab 12."
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`vor` \"-den önce\" demektir; 12'ye beş var anlamı çıkar.",
+        "",
+        "`seit` süre söyler; saat okumada kullanılmaz.",
+        "`ab` başlangıç noktası söyler; saat okumada kullanılmaz."
+      ],
+      "aciklama": "12'yi beş geçerken nach kullanılır: Es ist schon 5 nach 12.",
+      "ipucu": "Saatin ilerlemiş olduğunu gösteren edatı düşün.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Es ist schon 5 nach 12.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d61-q11",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Dünden beri karnının ağrıdığını söylüyorsun:",
+      "ifade": "Seit gestern tut mir der Bauch weh.",
+      "dogru": true,
+      "aciklama": "Doğru. Dünden beri süren durum seit ile söylenir: Seit gestern tut mir der Bauch weh.",
+      "ipucu": "Cümlenin başındaki edatın Türkçe karşılığına bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Seit gestern tut mir der Bauch weh.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d61-q12",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Saatin ikiyi çeyrek geçtiğini söylüyorsun:",
+      "ifade": "Es ist Viertel vor zwei.",
+      "dogru": false,
+      "aciklama": "Yanlış. İkiyi çeyrek geçerken nach kullanılır: Es ist Viertel nach zwei.",
+      "ipucu": "Edatın saatin geçmesiyle uyumuna bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Es ist Viertel nach zwei.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d61-q13",
+      "tip": "bosluk-doldurma",
+      "soru": "İki yıldır Almanya'da yaşadığını söylüyorsun. Boşluğa uygun edatı yaz.",
+      "metin": "Ich lebe ___ zwei Jahren in Deutschland.",
+      "dogruCevaplar": [
+        "seit"
+      ],
+      "aciklama": "Süren durum seit ile söylenir: Ich lebe seit zwei Jahren in Deutschland.",
+      "ipucu": "Türkçede \"iki yıldır\" derken kullandığın ek neyi anlatıyor?",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich lebe seit zwei Jahren in Deutschland.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d61-q14",
+      "tip": "eslestirme",
+      "soru": "Edatları Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        {
+          "sol": "seit",
+          "sag": "-den beri"
+        },
+        {
+          "sol": "vor",
+          "sag": "-den önce"
+        },
+        {
+          "sol": "nach",
+          "sag": "-den sonra"
+        },
+        {
+          "sol": "ab",
+          "sag": "-den itibaren"
+        }
+      ],
+      "aciklama": "Bu dört edat zamanı ve başlangıç noktasını söyler: seit, vor, nach, ab.",
+      "ipucu": "Önce geçmişe giden, sonra ileri giden edatları ayır.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d61-q15",
+      "tip": "coktan-secmeli",
+      "soru": "Mainz'dan Frankfurt'a yaklaşık elli kilometre olduğunu söylüyorsun. Boşluğa uygun edatı seç.",
+      "metin": "Von Mainz ___ Frankfurt sind es circa fünfzig Kilometer.",
+      "secenekler": [
+        "vor",
+        "ab",
+        "nach",
+        "seit"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`vor` \"-den önce\" demektir; bir yere yönü söylemez.",
+        "`ab` başlangıç saati söyler (`ab 9 Uhr`); \"Frankfurt'a\" demek için gelmez.",
+        "",
+        "`seit` \"-den beri\" demektir; yer için kullanılmaz."
+      ],
+      "aciklama": "Şehre doğru yön nach ile söylenir: Von Mainz nach Frankfurt sind es circa fünfzig Kilometer.",
+      "ipucu": "Varış yerini bildiren edatı düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Von Mainz nach Frankfurt sind es circa fünfzig Kilometer.",
+      "glossKapali": true
+    }
+  ]
+}

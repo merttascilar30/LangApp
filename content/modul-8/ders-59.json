@@ -1,0 +1,494 @@
+{
+  "id": "m8-d59",
+  "ders": 59,
+  "baslik": "Zaman Edatı an",
+  "videoId": "VLu7rT4IXU8",
+  "ozet": [
+    "Gün adının önünde am kullanılır: am Montag, am Dienstag, am Freitag. Günler: Montag (pazartesi), Dienstag (salı), Mittwoch (çarşamba), Donnerstag (perşembe), Freitag (cuma), Samstag (cumartesi), Sonntag (pazar). Hepsi maskulindir ve büyük harfle yazılır. Örnek: Meine Schwester kommt am Dienstag. Der Kurs ist immer am Donnerstag.",
+    "Gün vakitlerinde ve hafta sonunda da am gelir: am Vormittag (öğleden önce), am Nachmittag (öğleden sonra), am Abend (akşam), am Wochenende (hafta sonu). Am Vormittag bin ich im Büro. Am Nachmittag trinke ich gern Kaffee. Wohin wollen Sie am Wochenende?",
+    "am, an dem birleşmesidir ve \"ne zaman?\" sorusuna cevap verir. Gün için am, saat için um gelir; ikisi birlikte kullanılabilir: Die Prüfung ist am Montag um 8.00 Uhr. Ay ve mevsimler için im kullanılır: im Mai, im Winter.",
+    "Cümle am ile başlarsa çekimli fiil yine ikinci sırada kalır, özne fiilin arkasına geçer: Am Mittwoch habe ich leider keine Zeit. (leider = maalesef, die Zeit = vakit.) Die Bank hat am Samstag geschlossen. (geschlossen = kapalı.) Am Sonntag frühstücke ich gern im Bett. (frühstücken = kahvaltı etmek.)"
+  ],
+  "kelimeler": [
+    {
+      "de": "der Montag",
+      "tr": "pazartesi",
+      "artikel": "der"
+    },
+    {
+      "de": "der Dienstag",
+      "tr": "salı",
+      "artikel": "der"
+    },
+    {
+      "de": "der Mittwoch",
+      "tr": "çarşamba",
+      "artikel": "der"
+    },
+    {
+      "de": "der Donnerstag",
+      "tr": "perşembe",
+      "artikel": "der"
+    },
+    {
+      "de": "der Freitag",
+      "tr": "cuma",
+      "artikel": "der"
+    },
+    {
+      "de": "der Samstag",
+      "tr": "cumartesi",
+      "artikel": "der"
+    },
+    {
+      "de": "der Sonntag",
+      "tr": "pazar",
+      "artikel": "der"
+    },
+    {
+      "de": "der Vormittag",
+      "tr": "öğleden önce",
+      "artikel": "der"
+    },
+    {
+      "de": "der Nachmittag",
+      "tr": "öğleden sonra",
+      "artikel": "der"
+    },
+    {
+      "de": "der Abend",
+      "tr": "akşam",
+      "artikel": "der"
+    },
+    {
+      "de": "das Wochenende",
+      "tr": "hafta sonu",
+      "artikel": "das"
+    },
+    {
+      "de": "leider",
+      "tr": "maalesef"
+    },
+    {
+      "de": "geschlossen",
+      "tr": "kapalı"
+    },
+    {
+      "de": "die Zeit",
+      "tr": "vakit, zaman",
+      "artikel": "die"
+    },
+    {
+      "de": "frühstücken",
+      "tr": "kahvaltı etmek"
+    }
+  ],
+  "trickler": [
+    {
+      "baslik": "Gün ve vakit için am",
+      "metin": "Gün adlarında ve gün vakitlerinde am gelir: am Montag, am Vormittag, am Abend, am Wochenende."
+    },
+    {
+      "baslik": "Gün am, saat um, ay im",
+      "metin": "Gün için am, saat için um, ay ve mevsim için im kullanılır: am Montag um 8.00 Uhr, im Mai, im Winter."
+    },
+    {
+      "baslik": "Başta am varsa fiil ikinci",
+      "metin": "Am Mittwoch habe ich keine Zeit. Zaman ifadesi başa geçse bile çekimli fiil ikinci sırada kalır."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m8-d59-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Ofiste olduğun zamanın öğleden önce olduğunu söylüyorsun. Boşluğa uygun vakti seç.",
+      "metin": "Am ___ bin ich im Büro.",
+      "secenekler": [
+        "Vormittag",
+        "Nachmittag",
+        "Abend",
+        "Wochenende"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`Nachmittag` öğleden sonra demektir; cümledeki vakit öğleden önce.",
+        "`Abend` akşam demektir; cümledeki vakit öğleden önce.",
+        "`Wochenende` hafta sonu demektir; cümledeki vakit öğleden önce."
+      ],
+      "aciklama": "Öğleden önce Vormittag'dır; vakit önünde am kullanılır: Am Vormittag bin ich im Büro.",
+      "ipucu": "Sabah ile öğle arasındaki vakti düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Am Vormittag bin ich im Büro.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d59-q02",
+      "tip": "coktan-secmeli",
+      "soru": "Öğleden sonra keyifle kahve içtiğini söylüyorsun. Boşluğa uygun vakti seç.",
+      "metin": "Am ___ trinke ich gern Kaffee.",
+      "secenekler": [
+        "Vormittag",
+        "Abend",
+        "Nachmittag",
+        "Wochenende"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`Vormittag` öğleden önce demektir; cümledeki vakit öğleden sonra.",
+        "`Abend` akşam demektir; cümledeki vakit öğleden sonra.",
+        "",
+        "`Wochenende` hafta sonu demektir; cümledeki vakit öğleden sonra."
+      ],
+      "aciklama": "Öğleden sonra Nachmittag'dır: Am Nachmittag trinke ich gern Kaffee.",
+      "ipucu": "Öğle yemeğinden sonraki vakit.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Am Nachmittag trinke ich gern Kaffee.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d59-q03",
+      "tip": "bosluk-doldurma",
+      "soru": "Sınavın pazartesi günü sabah 8'de olduğunu söylüyorsun. Boşluğa günün adını yaz.",
+      "metin": "Die Prüfung ist am ___ um 8.00 Uhr.",
+      "dogruCevaplar": [
+        "Montag"
+      ],
+      "harfDuyarli": true,
+      "aciklama": "Pazartesi Montag'dır; gün adının önünde am gelir: Die Prüfung ist am Montag um 8.00 Uhr.",
+      "ipucu": "Haftanın ilk günü.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Prüfung ist am Montag um 8.00 Uhr.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d59-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Lena kız kardeşin ne zaman geleceğini soruyor. Sen salı günü geleceğini söylüyorsun. Cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Wann kommt deine Schwester?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Meine Schwester kommt am ___."
+        }
+      ],
+      "secenekler": [
+        "Montag",
+        "Dienstag",
+        "Mittwoch",
+        "Freitag"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`Montag` pazartesi demektir; Mert salı diyor.",
+        "",
+        "`Mittwoch` çarşamba demektir; Mert salı diyor.",
+        "`Freitag` cuma demektir; Mert salı diyor."
+      ],
+      "aciklama": "Salı Dienstag'dır: Meine Schwester kommt am Dienstag.",
+      "ipucu": "Pazartesiden sonraki günü seç.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Meine Schwester kommt am Dienstag.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d59-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Lena kursun ne zaman olduğunu soruyor. Mert kursun hep perşembe olduğunu söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Wann ist der Kurs?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Der Kurs ist immer am ___."
+        }
+      ],
+      "secenekler": [
+        "Dienstag",
+        "Mittwoch",
+        "Freitag",
+        "Donnerstag"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`Dienstag` salı demektir; Mert perşembe diyor.",
+        "`Mittwoch` çarşamba demektir; Mert perşembe diyor.",
+        "`Freitag` cuma demektir; Mert perşembe diyor.",
+        ""
+      ],
+      "aciklama": "Perşembe Donnerstag'dır: Der Kurs ist immer am Donnerstag.",
+      "ipucu": "Çarşambadan bir sonraki günü seç.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Der Kurs ist immer am Donnerstag.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d59-q06",
+      "tip": "coktan-secmeli",
+      "soru": "Lena bankanın ne zaman kapalı olduğunu soruyor. Mert cumartesi olduğunu söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Wann hat die Bank geschlossen?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Die Bank hat am ___ geschlossen."
+        }
+      ],
+      "secenekler": [
+        "Freitag",
+        "Sonntag",
+        "Samstag",
+        "Mittwoch"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`Freitag` cuma demektir; Mert cumartesi diyor.",
+        "`Sonntag` pazar demektir; Mert cumartesi diyor.",
+        "",
+        "`Mittwoch` çarşamba demektir; Mert cumartesi diyor."
+      ],
+      "aciklama": "Cumartesi Samstag'dır: Die Bank hat am Samstag geschlossen.",
+      "ipucu": "Haftanın altıncı günü.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Bank hat am Samstag geschlossen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d59-q07",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Pazar günü kahvaltı ederim.",
+      "parcalar": [
+        "am Sonntag",
+        "frühstücke",
+        "ich"
+      ],
+      "dogruSiralar": [
+        [
+          "ich",
+          "frühstücke",
+          "am Sonntag"
+        ],
+        [
+          "am Sonntag",
+          "frühstücke",
+          "ich"
+        ]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; gün ifadesi başa geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Fiilin yeri sabit, gün ifadesi başa da geçebilir.",
+      "bicim": "siralama",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Am Sonntag frühstücke ich gern im Bett.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d59-q08",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Kurs perşembe günü.",
+      "parcalar": [
+        "der Kurs",
+        "ist",
+        "am Donnerstag"
+      ],
+      "dogruSiralar": [
+        [
+          "der Kurs",
+          "ist",
+          "am Donnerstag"
+        ],
+        [
+          "am Donnerstag",
+          "ist",
+          "der Kurs"
+        ]
+      ],
+      "aciklama": "Fiil ikinci sırada kalır; gün ifadesi başa geçerse özne fiilden sonra gelir.",
+      "ipucu": "Fiil iki parçanın arasında kalır.",
+      "bicim": "siralama",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Der Kurs ist immer am Donnerstag.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d59-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Cumartesi günü bankanın kapalı olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Die Bank hat am Samstag geschlossen.",
+        "Die Bank hat im Samstag geschlossen.",
+        "Die Bank hat um Samstag geschlossen.",
+        "Die Bank hat an Samstag geschlossen."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "Gün adının önünde `im` değil `am` gelir; `im` ay ve mevsimle kullanılır.",
+        "`um` saatle kullanılır (`um 8.00 Uhr`); gün adıyla gelmez.",
+        "Gün adının önünde `an` tek başına değil, `am` biçimi kullanılır."
+      ],
+      "aciklama": "Gün adının önünde am gelir: Die Bank hat am Samstag geschlossen.",
+      "ipucu": "Gün adıyla kullanılan kalıbı hatırla.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Bank hat am Samstag geschlossen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d59-q10",
+      "tip": "coktan-secmeli",
+      "soru": "Bir misafire hafta sonu nereye gitmek istediğini resmî dille soruyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Wohin wollen Sie im Wochenende?",
+        "Wohin wollen du am Wochenende?",
+        "Wohin wollen Sie um Wochenende?",
+        "Wohin wollen Sie am Wochenende?"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "Hafta sonu için `im` değil `am` gelir.",
+        "`wollen` `Sie` ile gelir; `du` ile `willst` kullanılır.",
+        "`um` saatle kullanılır; hafta sonuyla `am` gelir.",
+        ""
+      ],
+      "aciklama": "Hafta sonu için am gelir, resmî özne Sie ile wollen kullanılır: Wohin wollen Sie am Wochenende?",
+      "ipucu": "Hem zaman edatına hem fiilin özneyle uyumuna bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wohin wollen Sie am Wochenende?",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d59-q11",
+      "tip": "dinleme",
+      "soru": "Bir arkadaşın hangi gün müsait olmadığını söylüyor. Duyduğun cümleyi seç.",
+      "okunacak": "Am Mittwoch habe ich leider keine Zeit.",
+      "mod": "sec",
+      "secenekler": [
+        "Salı günü maalesef vaktim yok.",
+        "Çarşamba günü maalesef vaktim yok.",
+        "Perşembe günü maalesef vaktim yok.",
+        "Cuma günü maalesef vaktim yok."
+      ],
+      "dogruCevaplar": [
+        "Çarşamba günü maalesef vaktim yok."
+      ],
+      "aciklama": "Mittwoch çarşambadır; keine Zeit vaktim yok demektir: Am Mittwoch habe ich leider keine Zeit.",
+      "ipucu": "Cümlede geçen gün adına kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Am Mittwoch habe ich leider keine Zeit."
+    },
+    {
+      "id": "m8-d59-q12",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Pazar gününü şöyle anlatıyorsun:",
+      "ifade": "Am Sonntag frühstücke ich gern im Bett.",
+      "dogru": true,
+      "aciklama": "Doğru. Gün adının önünde am kullanılır: Am Sonntag frühstücke ich gern im Bett.",
+      "ipucu": "Cümleyi başlatan kısa kelime ile gün adının uyumuna bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Am Sonntag frühstücke ich gern im Bett.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d59-q13",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Kız kardeşinin geleceği günü şöyle söylüyorsun:",
+      "ifade": "Meine Schwester kommt im Dienstag.",
+      "dogru": false,
+      "aciklama": "Yanlış. Gün adının önünde im değil am gelir: Meine Schwester kommt am Dienstag.",
+      "ipucu": "Gün adının önündeki kelimeye dikkat et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Meine Schwester kommt am Dienstag.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d59-q14",
+      "tip": "coktan-secmeli",
+      "soru": "Akşam vaktinin olmadığını söylüyorsun. Boşluğa uygun edatı seç.",
+      "metin": "Ich habe ___ Abend keine Zeit.",
+      "secenekler": [
+        "im",
+        "am",
+        "um",
+        "zum"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`im` ay ve mevsimle kullanılır (`im Mai`); gün vakitleriyle `am` gelir.",
+        "",
+        "`um` saatle kullanılır (`um 8.00 Uhr`); gün vakitleriyle `am` gelir.",
+        "`zum` yön ya da amaç bildirir; gün vakitleriyle `am` gelir."
+      ],
+      "aciklama": "Gün vakitlerinde am kullanılır: Ich habe am Abend keine Zeit.",
+      "ipucu": "Gün adlarında da kullanılan edatı düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Am Mittwoch habe ich leider keine Zeit.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d59-q15",
+      "tip": "eslestirme",
+      "soru": "Almanca gün ve vakit adlarını Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        {
+          "sol": "Montag",
+          "sag": "pazartesi"
+        },
+        {
+          "sol": "Freitag",
+          "sag": "cuma"
+        },
+        {
+          "sol": "Sonntag",
+          "sag": "pazar"
+        },
+        {
+          "sol": "Vormittag",
+          "sag": "öğleden önce"
+        },
+        {
+          "sol": "Abend",
+          "sag": "akşam"
+        },
+        {
+          "sol": "Wochenende",
+          "sag": "hafta sonu"
+        }
+      ],
+      "aciklama": "Gün adlarının ve gün vakitlerinin önünde am kullanılır: am Montag, am Abend.",
+      "ipucu": "Önce günleri, sonra gün vakitlerini ayır.",
+      "bicim": "kelime",
+      "glossKapali": true,
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m8-d59-q16",
+      "tip": "artikel",
+      "soru": "Bu ismin artikelini seç.",
+      "isim": "Abend",
+      "dogru": "der",
+      "aciklama": "Abend maskulindir: der Abend. Gün adları ve gün vakitlerinin çoğu maskulindir (der Montag, der Nachmittag).",
+      "ipucu": "Günlerin artikeliyle aynı artikeli düşün.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    }
+  ]
+}

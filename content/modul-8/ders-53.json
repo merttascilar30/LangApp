@@ -1,0 +1,470 @@
+{
+  "id": "m8-d53",
+  "ders": 53,
+  "baslik": "bis, durch, für",
+  "videoId": "qs83lM8BaSs",
+  "ozet": [
+    "für, durch ve bis Akkusativ edatlarıdır: für \"için\", durch \"içinden\", bis \"-e kadar\" demektir. für ve durch'tan sonra gelen isim Akkusativ'e girer, yani eril isimde der olur den; die, das ve çoğul die aynı kalır.",
+    "für kişi ya da amaç gösterir. Kişi zamirleri Akkusativ'e girer: für mich, für dich, für ihn, für uns, für euch; sie, es ve Sie aynı kalır. Örnek: Das ist für Sie. Die Blumen sind für dich. Hast du einen Kugelschreiber für mich? Das ist das Brot für morgen. Der Preis für den Eintritt ist 5 Euro. (der Eintritt = giriş.) Danke für das schöne Geschenk. (das Geschenk = hediye.) Ich danke Ihnen für die Einladung. (die Einladung = davet, danken = teşekkür etmek: size teşekkür ederim.) Das ist der Schlüssel für die Haustür. (der Schlüssel = anahtar, die Haustür = ev kapısı.)",
+    "durch bir yerin içinden geçmeyi anlatır. Örnek: Die Führung durch das Haus beginnt in 3 Minuten. (die Führung = tur, die Minute = dakika, beginnen = başlamak.) Eril isimle: Gehen Sie durch den Park! (der Park = park.)",
+    "bis \"-e kadar\" demektir ve çoğunlukla yer ya da zaman sözcüğüyle artikelsiz gelir: Ich fahre nur bis Stuttgart. Ich warte bis morgen. Bu yüzden bis sonrasında artikel değişimi görmezsin."
+  ],
+  "kelimeler": [
+    {
+      "de": "für",
+      "tr": "için"
+    },
+    {
+      "de": "durch",
+      "tr": "içinden"
+    },
+    {
+      "de": "bis",
+      "tr": "-e kadar"
+    },
+    {
+      "de": "der Eintritt",
+      "tr": "giriş",
+      "artikel": "der"
+    },
+    {
+      "de": "das Geschenk",
+      "tr": "hediye",
+      "artikel": "das"
+    },
+    {
+      "de": "der Schlüssel",
+      "tr": "anahtar",
+      "artikel": "der"
+    },
+    {
+      "de": "die Haustür",
+      "tr": "ev kapısı",
+      "artikel": "die"
+    },
+    {
+      "de": "die Führung",
+      "tr": "tur, rehberli gezi",
+      "artikel": "die"
+    },
+    {
+      "de": "die Minute",
+      "tr": "dakika",
+      "artikel": "die"
+    },
+    {
+      "de": "beginnen",
+      "tr": "başlamak"
+    },
+    {
+      "de": "der Park",
+      "tr": "park",
+      "artikel": "der"
+    },
+    {
+      "de": "die Einladung",
+      "tr": "davet",
+      "artikel": "die"
+    },
+    {
+      "de": "danken",
+      "tr": "teşekkür etmek"
+    }
+  ],
+  "trickler": [
+    {
+      "baslik": "für ve durch Akkusativ ister",
+      "metin": "für ve durch'tan sonra eril isimde der olur den: für den Eintritt, durch den Park. die, das ve çoğul die aynı kalır: durch das Haus."
+    },
+    {
+      "baslik": "für mich, für dich: Akkusativ zamiri",
+      "metin": "für sonrasında ich mich, du dich, er ihn olur: Die Blumen sind für dich. mir ve dir gibi Dativ zamirleri gelmez."
+    },
+    {
+      "baslik": "bis artikelsiz gelir",
+      "metin": "bis \"-e kadar\" demektir: bis morgen, bis Stuttgart. Yer ve zaman sözcüğüyle artikelsiz kullanılır, artikel değişimi aramazsın."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m8-d53-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Arkadaşından kendin için bir tükenmez kalem istiyorsun. Boşluğa uygun edatı seç.",
+      "metin": "Hast du einen Kugelschreiber ___ mich?",
+      "secenekler": [
+        "nach",
+        "für",
+        "mit",
+        "bei"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`nach` Dativ ister; `mich` ise Akkusativ zamiridir.",
+        "",
+        "`mit` Dativ ister, yani `mir` gelirdi; anlamı da \"ile\"dir.",
+        "`bei` Dativ ister; `mich` ile kullanılmaz."
+      ],
+      "aciklama": "für Akkusativ ister ve \"için\" demektir: Hast du einen Kugelschreiber für mich?",
+      "ipucu": "Kalemin kimin işine yarayacağını bildiren edatı düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Hast du einen Kugelschreiber für mich?",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d53-q02",
+      "tip": "bosluk-doldurma",
+      "soru": "Bir arkadaşına yarına kadar bekleyeceğini söylüyorsun. Boşluğa edatı yaz.",
+      "metin": "Ich warte ___ morgen.",
+      "dogruCevaplar": [
+        "bis"
+      ],
+      "aciklama": "\"-e kadar\" bis ile söylenir ve morgen gibi zaman sözcüğüyle artikelsiz gelir: Ich warte bis morgen.",
+      "ipucu": "Beklemenin nerede bittiğini gösteren edatı yaz.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich warte bis morgen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d53-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Lena, Mert'in trenle Berlin'e gidip gitmediğini soruyor. Mert yalnızca Stuttgart'a kadar gittiğini söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Fährst du mit dem Zug nach Berlin?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Ich fahre nur ___ Stuttgart."
+        }
+      ],
+      "secenekler": [
+        "bis",
+        "für",
+        "mit",
+        "bei"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`für` \"için\" demektir; yolculuğun nerede bittiğini göstermez.",
+        "`mit` \"ile\" demektir; yere kadar gitmeyi anlatmaz.",
+        "`bei` \"yanında\" demektir; yere kadar gitmeyi anlatmaz."
+      ],
+      "aciklama": "\"-e kadar\" bis ile söylenir, yer adı artikelsiz gelir: Ich fahre nur bis Stuttgart.",
+      "ipucu": "Mert'in yolculuğunun hangi noktada sona erdiğine odaklan.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich fahre nur bis Stuttgart.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d53-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Evin içinden geçen turun 3 dakika sonra başlayacağını söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Die Führung bis das Haus beginnt in 3 Minuten.",
+        "Die Führung durch dem Haus beginnt in 3 Minuten.",
+        "Die Führung durch das Haus beginnen in 3 Minuten.",
+        "Die Führung durch das Haus beginnt in 3 Minuten."
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`bis` \"-e kadar\" demektir; evin içinden geçmeyi anlatmaz.",
+        "`durch` Akkusativ ister; `dem` Dativ artikelidir, nötr Akkusativ `das`'tır.",
+        "`die Führung` tekildir; `beginnen` çoğul özneyle gelir, tekilde `beginnt` kullanılır.",
+        ""
+      ],
+      "aciklama": "durch Akkusativ ister, das aynı kalır; tekil özne die Führung ile fiil beginnt olur: Die Führung durch das Haus beginnt in 3 Minuten.",
+      "ipucu": "Hem edatın anlamına hem de ondan sonra gelen artikelin hâline bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Führung durch das Haus beginnt in 3 Minuten.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d53-q05",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Bu size.",
+      "parcalar": [
+        "das",
+        "ist",
+        "für Sie"
+      ],
+      "dogruSiralar": [
+        [
+          "das",
+          "ist",
+          "für Sie"
+        ],
+        [
+          "für Sie",
+          "ist",
+          "das"
+        ]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; edat grubu başa geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Bu cümlede özneyle edat grubu yer değiştirebilir.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das ist für Sie."
+    },
+    {
+      "id": "m8-d53-q06",
+      "tip": "dinleme",
+      "soru": "Birisi seni davet ettiği için sana teşekkür ediyor. Duyduğun cümleyi seç.",
+      "okunacak": "Ich danke Ihnen für die Einladung.",
+      "mod": "sec",
+      "secenekler": [
+        "Hediye için size teşekkür ederim.",
+        "Davet için size teşekkür ederim.",
+        "Yardım için size teşekkür ederim.",
+        "Davet için sana teşekkür ederim."
+      ],
+      "dogruCevaplar": [
+        "Davet için size teşekkür ederim."
+      ],
+      "aciklama": "für \"için\", die Einladung \"davet\", Ihnen \"size\" demektir: Ich danke Ihnen für die Einladung.",
+      "ipucu": "Teşekkürün nedenini ve kime söylendiğini ayrı ayrı dinle.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich danke Ihnen für die Einladung."
+    },
+    {
+      "id": "m8-d53-q07",
+      "tip": "coktan-secmeli",
+      "soru": "Giriş ücretinin 5 euro olduğunu söylüyorsun. Boşluğa doğru artikeli seç.",
+      "metin": "Der Preis für ___ Eintritt ist 5 Euro.",
+      "secenekler": [
+        "der",
+        "die",
+        "den",
+        "dem"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`der` Nominativ artikelidir; `für` Akkusativ ister.",
+        "`die` dişil ve çoğul artikeldir; `Eintritt` ise erildir.",
+        "",
+        "`dem` Dativ artikelidir; `für` Akkusativ ister."
+      ],
+      "aciklama": "für Akkusativ ister ve Eintritt erildir, bu yüzden der olur den: Der Preis für den Eintritt ist 5 Euro.",
+      "ipucu": "Edatın istediği hâli ve ismin cinsiyetini birlikte düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Der Preis für den Eintritt ist 5 Euro.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d53-q08",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Giriş ücretini şöyle söylüyorsun:",
+      "ifade": "Der Preis für dem Eintritt ist 5 Euro.",
+      "dogru": false,
+      "aciklama": "Yanlış. für Akkusativ ister, eril isimde den gelir: Der Preis für den Eintritt ist 5 Euro.",
+      "ipucu": "Edatın ardından gelen artikelin hangi hâle ait olduğuna bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Der Preis für den Eintritt ist 5 Euro.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d53-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Lena elindeki şeyin ne olduğunu soruyor. Mert, ekmeğin yarın için olduğunu söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Was ist das?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Das ist das Brot ___ morgen."
+        }
+      ],
+      "secenekler": [
+        "mit",
+        "nach",
+        "für",
+        "bei"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`mit` \"ile\" demektir; \"yarın için\" anlamı vermez.",
+        "`nach` yön ya da sonrayı anlatır; \"için\" anlamı vermez.",
+        "",
+        "`bei` \"yanında\" demektir; amaç göstermez."
+      ],
+      "aciklama": "Amaç ve \"için\" für ile söylenir: Das ist das Brot für morgen.",
+      "ipucu": "Ekmeğin ne zaman kullanılmak üzere ayrıldığını anlatan edat gerekiyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das ist das Brot für morgen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d53-q10",
+      "tip": "coktan-secmeli",
+      "soru": "Birine aldığı güzel hediye için teşekkür ediyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Danke für das schöne Geschenk.",
+        "Danke bis das schöne Geschenk.",
+        "Danke für dem schönen Geschenk.",
+        "Danke durch das schöne Geschenk."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`bis` \"-e kadar\" demektir; teşekkürün nedenini göstermez.",
+        "`dem` Dativ artikelidir; `für` Akkusativ ister, nötr isimde `das` gelir.",
+        "`durch` \"içinden\" demektir; teşekkürün nedeni için `für` gelir."
+      ],
+      "aciklama": "Teşekkürün nedeni für ile söylenir, das aynı kalır: Danke für das schöne Geschenk.",
+      "ipucu": "Teşekkürün sebebini bildiren edatı ve onun istediği hâli birlikte kontrol et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Danke für das schöne Geschenk.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d53-q11",
+      "tip": "bosluk-doldurma",
+      "soru": "Resmî hitap ettiğin birine bir paketi uzatıp \"Bu size\" diyorsun. Boşluğa zamiri yaz.",
+      "metin": "Das ist für ___.",
+      "dogruCevaplar": [
+        "Sie"
+      ],
+      "harfDuyarli": true,
+      "aciklama": "Resmî \"siz\" Akkusativ'de de Sie kalır ve büyük yazılır: Das ist für Sie.",
+      "ipucu": "Resmî hitapta zamirin yazılışına dikkat et.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das ist für Sie.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d53-q12",
+      "tip": "coktan-secmeli",
+      "soru": "Çiçeklerin sana olduğunu söylüyorsun. Boşluğa doğru zamiri seç.",
+      "metin": "Die Blumen sind für ___.",
+      "secenekler": [
+        "du",
+        "dich",
+        "dir",
+        "ihr"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`du` Nominativ'dir; `für` sonrasında Akkusativ zamiri gelir.",
+        "",
+        "`dir` Dativ zamiridir; `für` Akkusativ ister.",
+        "`ihr` \"sizler\" ya da \"ona\" demektir; Akkusativ zamiri değildir."
+      ],
+      "aciklama": "für Akkusativ ister, du Akkusativ'de dich olur: Die Blumen sind für dich.",
+      "ipucu": "Edatın istediği hâle uyan \"seni\" biçimini ara.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Blumen sind für dich.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d53-q13",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Çiçekler sana.",
+      "parcalar": [
+        "die Blumen",
+        "sind",
+        "für dich"
+      ],
+      "dogruSiralar": [
+        [
+          "die Blumen",
+          "sind",
+          "für dich"
+        ],
+        [
+          "für dich",
+          "sind",
+          "die Blumen"
+        ]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; başa edat grubu geçerse özne fiilin arkasına gelir.",
+      "ipucu": "Fiili ikinci sıraya yerleştirdikten sonra kalan iki grubu dene.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Blumen sind für dich."
+    },
+    {
+      "id": "m8-d53-q14",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Anahtarı şöyle tanıtıyorsun:",
+      "ifade": "Das ist der Schlüssel für die Haustür.",
+      "dogru": true,
+      "aciklama": "Doğru. für Akkusativ ister; die Haustür dişil olduğu için artikel aynı kalır: Das ist der Schlüssel für die Haustür.",
+      "ipucu": "Edatın anlamıyla ardından gelen artikelin uyumuna bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das ist der Schlüssel für die Haustür.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d53-q15",
+      "tip": "coktan-secmeli",
+      "soru": "Turun evin içinden geçtiğini söylüyorsun. Boşluğa uygun edatı seç.",
+      "metin": "Die Führung ___ das Haus beginnt in 3 Minuten.",
+      "secenekler": [
+        "bis",
+        "für",
+        "mit",
+        "durch"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`bis` \"-e kadar\" demektir; evin içinden geçmeyi anlatmaz.",
+        "`für` \"için\" demektir; içinden geçmeyi anlatmaz.",
+        "`mit` Dativ ister, `das` ile kullanılmaz; anlamı da \"ile\"dir.",
+        ""
+      ],
+      "aciklama": "Bir yerin içinden geçmek durch ile söylenir ve Akkusativ ister: Die Führung durch das Haus beginnt in 3 Minuten.",
+      "ipucu": "Hareketin mekânın içinden geçtiğini anlatan edatı seç.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Führung durch das Haus beginnt in 3 Minuten.",
+      "glossKapali": true
+    },
+    {
+      "id": "m8-d53-q16",
+      "tip": "eslestirme",
+      "soru": "Almanca edatları Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        {
+          "sol": "für",
+          "sag": "için"
+        },
+        {
+          "sol": "durch",
+          "sag": "içinden"
+        },
+        {
+          "sol": "bis",
+          "sag": "-e kadar"
+        },
+        {
+          "sol": "mit",
+          "sag": "ile"
+        },
+        {
+          "sol": "von",
+          "sag": "-den"
+        }
+      ],
+      "aciklama": "für, durch ve bis Akkusativ edatlarıdır; mit ve von Dativ edatlarıdır.",
+      "ipucu": "Önce ders başlığındaki üç edatı ayır.",
+      "bicim": "kelime",
+      "glossKapali": true,
+      "kaynakTuru": "yazildi"
+    }
+  ]
+}
