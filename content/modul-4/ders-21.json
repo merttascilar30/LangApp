@@ -1,0 +1,328 @@
+{
+  "id": "m4-d21",
+  "ders": 21,
+  "baslik": "Belirli ve Belirsiz Artikel",
+  "videoId": "0unZQgXhVW0",
+  "ozet": [
+    "Almancada her ismin bir artikeli vardır: der (eril), die (dişil), das (nötr). Artikel isimle birlikte öğrenilir. Örnekler: der Tisch, der Schrank, der Mann, der Brief, der Tag, der Kurs; die Frau, die Tasche, die Post, die Prüfung; das Kind, das Baby, das Auto, das Zimmer. Gerçek cinsiyetle her zaman uyuşmaz: kız çocuğu için kullanılan das Mädchen nötrdür.",
+    "Belirli artikel (der, die, das) bilinen veya daha önce sözü geçen şey için kullanılır: Die Tasche ist neu. Belirsiz artikel ein ve eine \"bir\" demektir ve ilk kez söz edilen şey için kullanılır: Da kommt ein Auto. Ein eril ve nötr isimlerle gelir (ein Tisch, ein Kind), eine dişil isimlerle gelir (eine Tasche).",
+    "Türkçede artikel yoktur: \"masa\" hem bilinen hem belirsiz masa olabilir. Almancada ikisini ayırmak gerekir: der Tisch (o masa), ein Tisch (bir masa). Cümlenin öznesi ve ist ile ona bağlanan isim aynı biçimde kalır: Der Kurs ist immer am Donnerstag. Mein Kind ist noch ein Baby.",
+    "Çoğulda belirli artikel her zaman die olur: das Kind, die Kinder. Ein ve eine çoğulda kullanılmaz: ein Kind (bir çocuk), ama die Kinder (çocuklar)."
+  ],
+  "kelimeler": [
+    { "de": "der Mann", "tr": "erkek, adam, koca", "artikel": "der" },
+    { "de": "die Frau", "tr": "kadın, hanım", "artikel": "die" },
+    { "de": "das Baby", "tr": "bebek", "artikel": "das" },
+    { "de": "das Mädchen", "tr": "kız çocuğu", "artikel": "das" },
+    { "de": "der Schrank", "tr": "dolap", "artikel": "der" },
+    { "de": "der Tisch", "tr": "masa", "artikel": "der" },
+    { "de": "die Tasche", "tr": "çanta", "artikel": "die" },
+    { "de": "das Auto", "tr": "araba", "artikel": "das" },
+    { "de": "das Zimmer", "tr": "oda", "artikel": "das" },
+    { "de": "der Brief", "tr": "mektup", "artikel": "der" },
+    { "de": "die Post", "tr": "postane, posta", "artikel": "die" },
+    { "de": "die Prüfung", "tr": "sınav", "artikel": "die" },
+    { "de": "der Kurs", "tr": "kurs", "artikel": "der" },
+    { "de": "der Tag", "tr": "gün", "artikel": "der" }
+  ],
+  "trickler": [
+    {
+      "baslik": "Artikeli isimle birlikte öğren",
+      "metin": "Artikeli tahmin etmek yerine ismi artikeliyle ezberle: der Schrank, die Tasche, das Auto. Gerçek cinsiyet yanıltabilir: das Mädchen nötrdür."
+    },
+    {
+      "baslik": "Bilinen için der/die/das, bir için ein",
+      "metin": "İlk kez söz ettiğin şey için ein veya eine kullan: Da kommt ein Auto. Daha sonra aynı şeyden söz ederken belirli artikele geç: Das Auto ist kaputt."
+    },
+    {
+      "baslik": "Eril ve nötrde ein, dişilde eine",
+      "metin": "Eril ve nötr isimlerde ein gelir: ein Tisch, ein Baby. Dişil isimlerde eine gelir: eine Tasche, eine Frau. Çoğulda ein ve eine kullanılmaz."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m4-d21-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Çocuğunun hâlâ bir bebek olduğunu söylüyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Mein Kind ist noch ___ Baby.",
+      "secenekler": ["eine", "ein", "der"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`eine` dişil isimlerle gelir; `das Baby` nötrdür.",
+        "",
+        "`der` eril isimlerle gelir; `das Baby` nötrdür."
+      ],
+      "aciklama": "Das Baby nötrdür, bu yüzden belirsiz artikel ein olur: Mein Kind ist noch ein Baby.",
+      "ipucu": "Baby sözcüğünün cinsiyetini hatırla; \"bir\" anlamı gerekiyor.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Mein Kind ist noch ein Baby.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d21-q02",
+      "tip": "coktan-secmeli",
+      "soru": "Odandaki dolabın ne kadar geniş olduğunu soruyorsun. Boşluğa uygun artikeli seç.",
+      "metin": "Wie breit ist ___ Schrank?",
+      "secenekler": ["das", "die", "der"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`das` nötr isimlerle gelir; `Schrank` eril bir isimdir.",
+        "`die` dişil isimlerle gelir; `Schrank` eril bir isimdir.",
+        ""
+      ],
+      "aciklama": "Schrank erildir: der Schrank. Wie breit ist der Schrank?",
+      "ipucu": "Schrank sözcüğünü kelime listesinde hangi artikelle gördüğünü hatırla.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wie breit ist der Schrank?",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d21-q03",
+      "tip": "bosluk-doldurma",
+      "soru": "Herkesin bildiği sınavın pazartesi sabah 8'de olduğunu söylüyorsun. Boşluğa belirli artikeli yaz.",
+      "metin": "___ Prüfung ist am Montag um 8.00 Uhr.",
+      "dogruCevaplar": ["Die", "die"],
+      "aciklama": "Prüfung dişildir: die Prüfung. Die Prüfung ist am Montag um 8.00 Uhr.",
+      "ipucu": "Prüfung sözcüğünün kelime listesindeki artikelini hatırla.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Prüfung ist am Montag um 8.00 Uhr.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d21-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Yolda ilk kez bir arabanın yaklaştığını görüp uyarıyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Vorsicht! Da kommt ___ Auto.",
+      "secenekler": ["ein", "eine", "der"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`eine` dişil isimlerle gelir; `das Auto` nötrdür.",
+        "`der` eril isimlerle gelir; `das Auto` nötrdür."
+      ],
+      "aciklama": "Das Auto nötrdür; ilk kez söz edilen \"bir araba\" için ein gelir: Vorsicht! Da kommt ein Auto.",
+      "ipucu": "Auto nötr bir isimdir ve cümlede \"bir\" anlamı var.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Vorsicht! Da kommt ein Auto.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d21-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Lena yolda Mert'e postanenin nerede olduğunu soruyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Wo ist ___ Post, bitte?" },
+        { "kim": "Mert", "metin": "Gleich dort links." }
+      ],
+      "secenekler": ["das", "die", "der"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`das` nötr isimlerle gelir; `Post` dişildir.",
+        "",
+        "`der` eril isimlerle gelir; `Post` dişildir."
+      ],
+      "aciklama": "Post dişildir: die Post. Wo ist die Post, bitte?",
+      "ipucu": "Post sözcüğünün derste hangi artikelle verildiğini hatırla.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wo ist die Post, bitte?",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d21-q06",
+      "tip": "coktan-secmeli",
+      "soru": "Lena postası olup olmadığını soruyor. Mert, göndereni yazılı olmayan bir mektup olduğunu söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Habe ich Post?" },
+        { "kim": "Mert", "metin": "Da ist ___ Brief für dich ohne Absender." }
+      ],
+      "secenekler": ["ein", "eine", "das"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`eine` dişil isimlerle gelir; `der Brief` erildir.",
+        "`das` nötr isimlerle gelir; `der Brief` erildir."
+      ],
+      "aciklama": "Der Brief erildir; \"bir mektup\" için ein gelir: Da ist ein Brief für dich ohne Absender.",
+      "ipucu": "Brief eril bir isimdir ve Mert \"bir\" mektuptan söz ediyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Da ist ein Brief für dich ohne Absender.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d21-q07",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Felix'in arabası bozuk.",
+      "parcalar": ["das Auto von Felix", "ist", "kaputt"],
+      "dogruSiralar": [
+        ["das Auto von Felix", "ist", "kaputt"],
+        ["kaputt", "ist", "das Auto von Felix"]
+      ],
+      "aciklama": "Çekimli fiil ist ikinci sırada kalır; özne öbeği ile kaputt fiilin iki yanında yer değiştirebilir.",
+      "ipucu": "Önce Felix'in arabasını anlatan öbeği bir arada tut.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das Auto von Felix ist kaputt."
+    },
+    {
+      "id": "m4-d21-q08",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Bugün güzel bir gün.",
+      "parcalar": ["heute", "ist", "ein schöner Tag"],
+      "dogruSiralar": [
+        ["heute", "ist", "ein schöner Tag"],
+        ["ein schöner Tag", "ist", "heute"]
+      ],
+      "aciklama": "Çekimli fiil ist ikinci sırada kalır; zaman bilgisi ile isim öbeği fiilin iki yanında yer değiştirebilir.",
+      "ipucu": "Çekimli fiil iki yanındaki öbekleri ayıran sabit noktadır.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Heute ist ein schöner Tag."
+    },
+    {
+      "id": "m4-d21-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Odada daha önce sözünü etmediğin bir masa olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Im Zimmer ist der Tisch.",
+        "Im Zimmer ist das Tisch.",
+        "Im Zimmer ist eine Tisch.",
+        "Im Zimmer ist ein Tisch."
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`der Tisch` bilinen masayı anlatır; burada ilk kez söz edilen \"bir masa\" var.",
+        "`Tisch` eril olduğu için `das` gelmez.",
+        "`eine` dişil isimlerle gelir; `Tisch` erildir.",
+        ""
+      ],
+      "aciklama": "İlk kez söz edilen eril isim için ein gelir: Im Zimmer ist ein Tisch.",
+      "ipucu": "Hem \"bir\" anlamına hem de Tisch sözcüğünün cinsiyetine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Da ist ein Brief für dich ohne Absender.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d21-q10",
+      "tip": "coktan-secmeli",
+      "soru": "Az önce sözünü ettiğin çantanın yeni olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Der Tasche ist neu.",
+        "Das Tasche ist neu.",
+        "Die Tasche ist neu.",
+        "Die Tasche sind neu."
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`der` eril isimlerle gelir; `Tasche` dişildir.",
+        "`das` nötr isimlerle gelir; `Tasche` dişildir.",
+        "",
+        "`Tasche` tekildir; `sind` çoğul özneyle gelir."
+      ],
+      "aciklama": "Tasche dişildir ve bilinen çantadan söz ediliyor: Die Tasche ist neu.",
+      "ipucu": "Hem artikelin cinsiyete uymasına hem fiilin tekil özneye uymasına bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Die Tomate ist noch grün.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d21-q11",
+      "tip": "dinleme",
+      "soru": "Yan odada bir bebek uyuyor ve arkadaşın seni uyarıyor. Duyduğun cümleyi seç.",
+      "okunacak": "Nicht so laut! Das Baby schläft.",
+      "mod": "sec",
+      "secenekler": [
+        "Bu kadar gürültü yapma! Bebek uyuyor.",
+        "Bu kadar gürültü yapma! Çocuk uyuyor.",
+        "Bu kadar gürültü yapma! Bebek ağlıyor.",
+        "Biraz daha gürültü yap! Bebek uyuyor."
+      ],
+      "dogruCevaplar": ["Bu kadar gürültü yapma! Bebek uyuyor."],
+      "aciklama": "Nicht so laut bu kadar gürültü yapma, das Baby schläft bebek uyuyor demektir: Nicht so laut! Das Baby schläft.",
+      "ipucu": "Cümlenin ikinci yarısındaki isme ve fiile kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Nicht so laut! Das Baby schläft."
+    },
+    {
+      "id": "m4-d21-q12",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Kızının küçük bir kız çocuğu olduğunu şöyle söylüyorsun:",
+      "ifade": "Meine Tochter ist ein Mädchen.",
+      "dogru": true,
+      "aciklama": "Doğru. Das Mädchen kız çocuğu olsa da nötrdür, bu yüzden ein gelir: Meine Tochter ist ein Mädchen.",
+      "ipucu": "Mädchen sözcüğünün derste hangi artikelle verildiğine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Das ist meine Freundin.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d21-q13",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Annenin bir kadın olduğunu şöyle söylüyorsun:",
+      "ifade": "Meine Mutter ist ein Frau.",
+      "dogru": false,
+      "aciklama": "Yanlış. Die Frau dişildir, bu yüzden eine gelir: Meine Mutter ist eine Frau.",
+      "ipucu": "Belirsiz artikelin isme uyup uymadığını kontrol et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Das ist meine Ehefrau.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d21-q14",
+      "tip": "eslestirme",
+      "soru": "Almanca isimleri artikelleriyle birlikte Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        { "sol": "der Schrank", "sag": "dolap" },
+        { "sol": "die Tasche", "sag": "çanta" },
+        { "sol": "das Baby", "sag": "bebek" },
+        { "sol": "der Brief", "sag": "mektup" },
+        { "sol": "das Auto", "sag": "araba" }
+      ],
+      "aciklama": "Artikel isimle birlikte öğrenilir: der Schrank, die Tasche, das Baby, der Brief, das Auto.",
+      "ipucu": "Her ismi artikeliyle birlikte düşün.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d21-q15",
+      "tip": "artikel",
+      "soru": "Bu ismin artikelini seç.",
+      "isim": "Zimmer",
+      "dogru": "das",
+      "aciklama": "Zimmer nötrdür: das Zimmer. Belirsiz hâli ein Zimmer'dir.",
+      "ipucu": "Zimmer sözcüğünü kelime listesinde hangi artikelle gördüğünü hatırla.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m4-d21-q16",
+      "tip": "coktan-secmeli",
+      "soru": "Kursun her perşembe olduğunu söylüyorsun. Boşluğa uygun artikeli seç.",
+      "metin": "___ Kurs ist immer am Donnerstag.",
+      "secenekler": ["Der", "Die", "Das"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`die` dişil isimlerle gelir; `Kurs` erildir.",
+        "`das` nötr isimlerle gelir; `Kurs` erildir."
+      ],
+      "aciklama": "Kurs erildir: der Kurs. Der Kurs ist immer am Donnerstag.",
+      "ipucu": "Kurs sözcüğünün derste hangi artikelle verildiğini hatırla.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Der Kurs ist immer am Donnerstag.",
+      "glossKapali": true
+    }
+  ]
+}
