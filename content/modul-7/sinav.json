@@ -22,7 +22,10 @@
       "ipucu": "Çalışan misafire resmî hitapla konuşuyor.",
       "bicim": "diyalog",
       "kaynakTuru": "goethe",
-      "kaynakCumle": "Wollen Sie einen Kaffee trinken?"
+      "kaynakCumle": "Wollen Sie einen Kaffee trinken?",
+      "sozlukEk": {
+        "morgen": "sabah"
+      }
     },
     {
       "id": "m7-s-q02",
@@ -210,7 +213,10 @@
       "ipucu": "Kökte ünlüsü değişen fiillerin du emrini hatırla.",
       "bicim": "senaryo",
       "kaynakTuru": "uyarlama",
-      "kaynakCumle": "Nimm noch ein paar Brote für die Fahrt mit."
+      "kaynakCumle": "Nimm noch ein paar Brote für die Fahrt mit.",
+      "sozlukEk": {
+        "mit": "mitnehmen fiilinin ayrılmış öneki (yanına almak)"
+      }
     }
   ]
 }
