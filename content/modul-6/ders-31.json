@@ -135,8 +135,7 @@
       "parcalar": ["die Bank", "schließt", "schon um vier Uhr"],
       "dogruSiralar": [
         ["die Bank", "schließt", "schon um vier Uhr"],
-        ["schon um vier Uhr", "schließt", "die Bank"],
-        ["schließt", "die Bank", "schon um vier Uhr"]
+        ["schon um vier Uhr", "schließt", "die Bank"]
       ],
       "aciklama": "Özne die Bank tekildir, bu yüzden fiil schließt olur: Die Bank schließt schon um vier Uhr.",
       "ipucu": "Önce özneyi bul, sonra çekimli fiilin yerini düşün.",
@@ -151,8 +150,7 @@
       "parcalar": ["der Bus", "fährt", "pünktlich um acht Uhr"],
       "dogruSiralar": [
         ["der Bus", "fährt", "pünktlich um acht Uhr"],
-        ["pünktlich um acht Uhr", "fährt", "der Bus"],
-        ["fährt", "der Bus", "pünktlich um acht Uhr"]
+        ["pünktlich um acht Uhr", "fährt", "der Bus"]
       ],
       "aciklama": "Özne der Bus tekildir, bu yüzden fiil fährt olur: Der Bus fährt pünktlich um acht Uhr.",
       "ipucu": "Wer? sorusunun cevabı özneyi verir.",
