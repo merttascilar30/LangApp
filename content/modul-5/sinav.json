@@ -5,19 +5,19 @@
     {
       "id": "m5-s-q01",
       "tip": "coktan-secmeli",
-      "soru": "Lena, Herr Aydin'in mesleğini soruyor. Herr Aydin doktor olduğunu ve muayenehanesinin sekizden itibaren açık olduğunu söylüyor. Cümlesini tamamla.",
+      "soru": "Lena, Herr Aydin'in mesleğini soruyor. Herr Aydin doktor olduğunu ve muayenehanesinin sekiz buçuktan itibaren açık olduğunu söylüyor. Cümlesini tamamla.",
       "diyalog": [
         { "kim": "Lena", "metin": "Was sind Sie von Beruf?" },
-        { "kim": "Herr Aydin", "metin": "Ich bin Arzt. Die Praxis ist ___ acht Uhr geöffnet." }
+        { "kim": "Herr Aydin", "metin": "Ich bin Arzt. Die Praxis ist ___ halb neun geöffnet." }
       ],
       "secenekler": ["bis", "ab", "halb"],
       "dogru": 1,
       "celdiriciNotlari": [
-        "`bis` -e kadar demektir; Herr Aydin sekizden itibaren diyor.",
+        "`bis` -e kadar demektir; Herr Aydin sekiz buçuktan itibaren diyor.",
         "",
-        "`halb` yarım demektir ve burada saatin önüne gelmez."
+        "`halb` yarım demektir; başlangıç bildirmez, burada sınır sözcüğü gerekir."
       ],
-      "aciklama": "Başlangıç saati ab ile bildirilir: Die Praxis ist ab acht Uhr geöffnet.",
+      "aciklama": "Başlangıç saati ab ile bildirilir: Die Praxis ist ab halb neun geöffnet.",
       "ipucu": "Doktorun hangi saatten başladığını bildiren sözcüğü seç.",
       "bicim": "diyalog",
       "kaynakTuru": "uyarlama",
@@ -45,23 +45,23 @@
       "ipucu": "Hem fiile hem de olumsuzluk sözcüğünün yerine bak.",
       "bicim": "senaryo",
       "kaynakTuru": "uyarlama",
-      "kaynakCumle": "Er antwortet nicht.",
+      "kaynakCumle": "Deutsch ist nicht leicht.",
       "glossKapali": true
     },
     {
       "id": "m5-s-q03",
       "tip": "coktan-secmeli",
-      "soru": "Bugün saat 14'te hiç vaktin olmadığını söylüyorsun. Boşluğa uygun sözcüğü seç.",
-      "metin": "Ich habe heute um 14 Uhr ___ Zeit.",
+      "soru": "Artık hiç bilet kalmadığını söylüyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Es gibt ___ Karten mehr.",
       "secenekler": ["kein", "keine", "nicht"],
       "dogru": 1,
       "celdiriciNotlari": [
-        "`kein` nötr isimle gelir; `die Zeit` dişildir.",
+        "`kein` tekil nötr isimle gelir; `Karten` çoğuldur.",
         "",
         "`nicht` artikelsiz isimle kullanılmaz; bu durumda `kein-` gelir."
       ],
-      "aciklama": "Zeit dişildir ve artikelsizdir; olumsuzu keine olur: Ich habe heute keine Zeit.",
-      "ipucu": "Zeit sözcüğünün artikelini düşün.",
+      "aciklama": "Karten çoğuldur ve artikelsizdir; olumsuzu keine olur: Es gibt keine Karten mehr.",
+      "ipucu": "Karten sözcüğünün tekil mi çoğul mu olduğuna bak.",
       "bicim": "bosluk",
       "kaynakTuru": "uyarlama",
       "kaynakCumle": "Es gibt keine Karten mehr.",
@@ -141,8 +141,7 @@
       "aciklama": "Yer ifadesi nicht ile olumsuzlanır: Paul ist nicht zu Hause.",
       "ipucu": "Olumsuzlanan şey isim değil yer ifadesi.",
       "bicim": "diyalog",
-      "kaynakTuru": "uyarlama",
-      "kaynakCumle": "Der Bus fährt nicht weiter.",
+      "kaynakTuru": "yazildi",
       "glossKapali": true
     },
     {
@@ -178,8 +177,7 @@
       "aciklama": "Doğru. halb bir sonraki saati söyler: halb vier = 3.30.",
       "ipucu": "halb ile söylenen sayının hangi saati gösterdiğini hatırla.",
       "bicim": "senaryo",
-      "kaynakTuru": "uyarlama",
-      "kaynakCumle": "Die Geschäfte schließen um 18.30 Uhr.",
+      "kaynakTuru": "yazildi",
       "glossKapali": true
     },
     {
