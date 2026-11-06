@@ -1,0 +1,323 @@
+{
+  "id": "m7-d50",
+  "ders": 50,
+  "baslik": "nach, zu",
+  "videoId": "6t1SnybeHS8",
+  "ozet": [
+    "nach ve zu yön anlatan Dativ edatlarıdır (-e, -a). nach, artikelsiz şehir ve ülke adlarıyla kullanılır: Ich fliege nach München. Wir machen eine Reise nach Österreich (die Reise = seyahat). Morgen machen wir einen Ausflug nach Heidelberg (der Ausflug = gezi). Der ICE nach Berlin hält heute an Gleis 12 (das Gleis = peron; hält = durur). In Mannheim haben Sie Anschluss nach Saarbrücken (der Anschluss = bağlantı, aktarma). Türkçedeki -e/-a hâliyle karşılaştır: Berlin'e, Avusturya'ya.",
+    "zu, kişilere ve artikelli yerlere gidişi gösterir; sonrasında Dativ gelir. zu dem birleşip zum (eril, nötr), zu der birleşip zur (dişil) olur: Wir müssen ihn zum Arzt bringen. Ich muss zum Arzt gehen. Komme ich hier zum Bahnhof? (der Bahnhof = gar). Wo geht‘s hier bitte zur Autobahn? (die Autobahn = otoyol). Kannst du mich zum Flughafen bringen? (der Flughafen = havalimanı). Gehen Sie bitte zum Schalter drei! (der Schalter = gişe). Çoğulda zu den gelir.",
+    "Haus ile iki kalıp vardır: nach Hause hareketi (eve), zu Hause bulunduğun yeri (evde) anlatır. Ich gehe jetzt nach Hause. Ich bleibe heute zu Hause. Paul ist nicht zu Hause. İki kalıpta da Haus, Hause biçimini alır ve artikel gelmez.",
+    "zu başka kalıplarda da bulunur: zum Geburtstag (doğum günü için), zum Frühstück (kahvaltıda). Herzlichen Glückwunsch zum Geburtstag! (der Glückwunsch = tebrik; der Geburtstag = doğum günü). Möchtest du Brötchen zum Frühstück? (das Brötchen = küçük ekmek; das Frühstück = kahvaltı). Wie lange fährt der Zug von Hamburg nach Berlin? cümlesinde olduğu gibi von ... nach ... kalıbıyla başlangıç ve varış birlikte söylenir."
+  ],
+  "kelimeler": [
+    { "de": "nach", "tr": "-e, -a (şehir, ülke)" },
+    { "de": "zu", "tr": "-e, -a (kişi, yer)" },
+    { "de": "zum", "tr": "zu dem" },
+    { "de": "zur", "tr": "zu der" },
+    { "de": "der Bahnhof", "tr": "gar, istasyon", "artikel": "der" },
+    { "de": "die Autobahn", "tr": "otoyol", "artikel": "die" },
+    { "de": "der Flughafen", "tr": "havalimanı", "artikel": "der" },
+    { "de": "der Schalter", "tr": "gişe", "artikel": "der" },
+    { "de": "die Reise", "tr": "seyahat", "artikel": "die" },
+    { "de": "der Ausflug", "tr": "gezi", "artikel": "der" },
+    { "de": "der Anschluss", "tr": "bağlantı, aktarma", "artikel": "der" },
+    { "de": "das Gleis", "tr": "peron, ray", "artikel": "das" },
+    { "de": "das Frühstück", "tr": "kahvaltı", "artikel": "das" },
+    { "de": "das Brötchen", "tr": "küçük ekmek", "artikel": "das" },
+    { "de": "der Geburtstag", "tr": "doğum günü", "artikel": "der" }
+  ],
+  "trickler": [
+    {
+      "baslik": "nach şehir ve ülke, zu kişi ve yer",
+      "metin": "Artikelsiz şehir ve ülkelerde nach gelir: nach Berlin, nach Österreich. Kişilere ve artikelli yerlere zu gelir: zum Arzt, zur Autobahn."
+    },
+    {
+      "baslik": "zu dem zum, zu der zur",
+      "metin": "Eril ve nötr isimlerde zum, dişil isimlerde zur gelir: zum Bahnhof (der), zum Frühstück (das), zur Autobahn (die). Çoğulda zu den kullanılır."
+    },
+    {
+      "baslik": "nach Hause gidiş, zu Hause duruş",
+      "metin": "Eve doğru hareket nach Hause ile söylenir: Ich gehe nach Hause. Evde bulunmak zu Hause ile söylenir: Ich bleibe zu Hause."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m7-d50-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Bir yoldan geçene tren istasyonuna gidip gidemeyeceğini soruyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Komme ich hier ___ Bahnhof?",
+      "secenekler": ["zur", "zum", "nach", "von"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`Bahnhof` eril olduğu için dişil `zur` gelmez; `zum` gerekir.",
+        "",
+        "`nach` artikelsiz şehir ve ülkelerle gelir; artikelli yerde `zu` kullanılır.",
+        "`von` başlangıç noktasını gösterir; gidilen yer için `zu` gelir."
+      ],
+      "aciklama": "Bahnhof eril, gidilen yer olduğu için zu dem, yani zum gelir: Komme ich hier zum Bahnhof?",
+      "ipucu": "Gidilen yerin artikeline uyan birleşik biçimi seç.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Komme ich hier zum Bahnhof?"
+    },
+    {
+      "id": "m7-d50-q02",
+      "tip": "bosluk-doldurma",
+      "soru": "Otoyola nasıl gidileceğini soruyorsun. Boşluğa edat ve artikelin birleşik hâlini yaz.",
+      "metin": "Wo geht‘s hier bitte ___ Autobahn?",
+      "dogruCevaplar": ["zur", "zu der"],
+      "aciklama": "Autobahn dişildir, yön için zu der, yani zur gelir: Wo geht‘s hier bitte zur Autobahn?",
+      "ipucu": "Gidilen yerin artikeli ile edatı birleştir.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wo geht‘s hier bitte zur Autobahn?"
+    },
+    {
+      "id": "m7-d50-q03",
+      "tip": "bosluk-doldurma",
+      "soru": "Birine kahvaltıda küçük ekmek isteyip istemediğini soruyorsun. Boşluğa edat ve artikelin birleşik hâlini yaz.",
+      "metin": "Möchtest du Brötchen ___ Frühstück?",
+      "dogruCevaplar": ["zum", "zu dem"],
+      "aciklama": "Frühstück nötrdür, zu dem birleşip zum olur: Möchtest du Brötchen zum Frühstück?",
+      "ipucu": "Nötr isimle edat birleşir.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Möchtest du Brötchen zum Frühstück?"
+    },
+    {
+      "id": "m7-d50-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Lena Mert'e treninin nerede olduğunu soruyor. Mert Berlin trenini anlatıyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Wo hält dein Zug heute?" },
+        { "kim": "Mert", "metin": "Der ICE ___ Berlin hält heute an Gleis 12." }
+      ],
+      "secenekler": ["zum", "zur", "nach", "zu den"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`zum` eril veya nötr artikelle gelir; `Berlin` artikelsiz bir şehirdir.",
+        "`zur` dişil artikelle gelir; `Berlin` artikelsiz bir şehirdir.",
+        "",
+        "`zu den` çoğul artikelle gelir; `Berlin` çoğul bir isim değildir."
+      ],
+      "aciklama": "Berlin artikelsiz şehirdir, şehre yön için nach gelir: Der ICE nach Berlin hält heute an Gleis 12.",
+      "ipucu": "Şehir adının önünde artikel olup olmadığına bak.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Der ICE nach Berlin hält heute an Gleis 12."
+    },
+    {
+      "id": "m7-d50-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Lena Mert'in erkek kardeşinin durumunu soruyor. Mert onu doktora götürmeleri gerektiğini söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Was ist mit deinem Bruder?" },
+        { "kim": "Mert", "metin": "Wir müssen ihn ___ Arzt bringen." }
+      ],
+      "secenekler": ["zum", "zur", "nach", "von"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`Arzt` eril olduğu için dişil `zur` gelmez.",
+        "`nach` artikelsiz şehir ve ülkelerle gelir; kişiye gidişte `zu` kullanılır.",
+        "`von` başlangıç noktasını gösterir; gidilen kişi için `zu` gelir."
+      ],
+      "aciklama": "Arzt eril ve gidilen kişi olduğu için zu dem, yani zum gelir: Wir müssen ihn zum Arzt bringen.",
+      "ipucu": "Doktora gidişte hangi edat ve hangi artikel birleşir, düşün.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir müssen ihn zum Arzt bringen."
+    },
+    {
+      "id": "m7-d50-q06",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Yarın Heidelberg'e bir gezi yapıyoruz.",
+      "parcalar": ["morgen", "machen", "wir", "einen Ausflug nach Heidelberg"],
+      "dogruSiralar": [
+        ["morgen", "machen", "wir", "einen Ausflug nach Heidelberg"],
+        ["wir", "machen", "morgen", "einen Ausflug nach Heidelberg"],
+        ["wir", "machen", "einen Ausflug nach Heidelberg", "morgen"],
+        ["einen Ausflug nach Heidelberg", "machen", "wir", "morgen"]
+      ],
+      "aciklama": "Çekimli fiil machen ikinci sırada kalır; nach Heidelberg gezi ifadesine bağlı kalır: Morgen machen wir einen Ausflug nach Heidelberg.",
+      "ipucu": "Çekimli fiil hep ikinci sırada durur.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Morgen machen wir einen Ausflug nach Heidelberg."
+    },
+    {
+      "id": "m7-d50-q07",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Beni havalimanına götürebilir misin?",
+      "parcalar": ["kannst", "du", "mich", "zum Flughafen", "bringen"],
+      "dogruSiralar": [
+        ["kannst", "du", "mich", "zum Flughafen", "bringen"]
+      ],
+      "aciklama": "Evet/hayır sorusunda çekimli modal fiil başa gelir, bringen sona gider: Kannst du mich zum Flughafen bringen?",
+      "ipucu": "Evet/hayır sorusu fiille başlar ve ana fiil sonda kalır.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Kannst du mich zum Flughafen bringen?"
+    },
+    {
+      "id": "m7-d50-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Birine Avusturya'ya seyahat edeceğinizi söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Wir machen eine Reise zu Österreich.",
+        "Wir machen eine Reise zum Österreich.",
+        "Wir machen eine Reise bei Österreich.",
+        "Wir machen eine Reise nach Österreich."
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "Ülke adı artikelsizdir; ülkeye gidişte `zu` değil `nach` gelir.",
+        "`Österreich` artikelsizdir; `zum` ile kullanılmaz.",
+        "`bei` yanında veya yakınında demektir; ülkeye gidiş için `nach` gerekir.",
+        ""
+      ],
+      "aciklama": "Österreich artikelsiz bir ülkedir, yön için nach gelir: Wir machen eine Reise nach Österreich.",
+      "ipucu": "Ülke adının artikelsiz olduğunu hatırla.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir machen eine Reise nach Österreich."
+    },
+    {
+      "id": "m7-d50-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Bugün evde kalacağını söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Ich bleibe heute nach Hause.",
+        "Ich bleibe heute zu Hause.",
+        "Ich bleibe heute zum Haus.",
+        "Ich bleibe heute zur Hause."
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`nach Hause` eve doğru hareketi anlatır; evde kalmak için `zu Hause` gelir.",
+        "",
+        "`zum Haus` bir binaya doğru yönü anlatır; evde bulunmak için `zu Hause` kalıbı gelir.",
+        "`Hause` ile artikel gelmez; evde bulunmak için `zu Hause` kalıbı vardır."
+      ],
+      "aciklama": "Evde bulunmak zu Hause ile söylenir: Ich bleibe heute zu Hause.",
+      "ipucu": "Hareket değil, bir yerde bulunma anlatılıyor.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich bleibe heute zu Hause."
+    },
+    {
+      "id": "m7-d50-q10",
+      "tip": "dinleme",
+      "soru": "Gişedeki görevli sana aktarma bilgisi veriyor. Duyduğun cümleyi seç.",
+      "okunacak": "In Mannheim haben Sie Anschluss nach Saarbrücken.",
+      "mod": "sec",
+      "secenekler": [
+        "Mannheim'da Saarbrücken'e bağlantı var.",
+        "Saarbrücken'de Mannheim'a bağlantı var.",
+        "Mannheim'dan Saarbrücken'e bağlantı yok.",
+        "Mannheim'da Saarbrücken'den bağlantı var."
+      ],
+      "dogruCevaplar": ["Mannheim'da Saarbrücken'e bağlantı var."],
+      "aciklama": "In Mannheim Mannheim'da, Anschluss nach Saarbrücken Saarbrücken'e bağlantı demektir: In Mannheim haben Sie Anschluss nach Saarbrücken.",
+      "ipucu": "Hangi şehirde aktarma yapıldığına ve nereye gidildiğine kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "In Mannheim haben Sie Anschluss nach Saarbrücken."
+    },
+    {
+      "id": "m7-d50-q11",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Eve gitmek üzere olduğunu şöyle söylüyorsun:",
+      "ifade": "Ich gehe jetzt nach Hause.",
+      "dogru": true,
+      "aciklama": "Doğru. Eve doğru hareket nach Hause ile söylenir: Ich gehe jetzt nach Hause.",
+      "ipucu": "Cümledeki hareketin yönüne bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich gehe jetzt nach Hause."
+    },
+    {
+      "id": "m7-d50-q12",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Münih'e uçacağını şöyle söylüyorsun:",
+      "ifade": "Ich fliege zu München.",
+      "dogru": false,
+      "aciklama": "Yanlış. Artikelsiz şehir adından önce nach gelir: Ich fliege nach München.",
+      "ipucu": "Şehir adının önüne hangi edat gelir, düşün.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich fliege nach München."
+    },
+    {
+      "id": "m7-d50-q13",
+      "tip": "coktan-secmeli",
+      "soru": "Bir arkadaşının doğum gününü kutluyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Herzlichen Glückwunsch nach Geburtstag!",
+        "Herzlichen Glückwunsch zur Geburtstag!",
+        "Herzlichen Glückwunsch zum Geburtstag!",
+        "Herzlichen Glückwunsch bei Geburtstag!"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`nach` artikelsiz şehir ve ülkelerle gelir; doğum günü için `zu` kullanılır.",
+        "`Geburtstag` eril olduğu için dişil `zur` gelmez.",
+        "",
+        "`bei` yanında veya yakınında demektir; doğum günü kutlamasında `zu` gelir."
+      ],
+      "aciklama": "Geburtstag eril, bu kalıpta zu dem, yani zum gelir: Herzlichen Glückwunsch zum Geburtstag!",
+      "ipucu": "Doğum günü sözcüğünün artikeline uyan birleşik biçimi seç.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Herzlichen Glückwunsch zum Geburtstag!"
+    },
+    {
+      "id": "m7-d50-q14",
+      "tip": "eslestirme",
+      "soru": "Almanca yer ve gezi sözcüklerini Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        { "sol": "der Bahnhof", "sag": "gar" },
+        { "sol": "der Flughafen", "sag": "havalimanı" },
+        { "sol": "die Autobahn", "sag": "otoyol" },
+        { "sol": "der Schalter", "sag": "gişe" },
+        { "sol": "der Ausflug", "sag": "gezi" },
+        { "sol": "die Reise", "sag": "seyahat" }
+      ],
+      "aciklama": "Bu sözcükler zu veya nach ile gidilen yerleri ve yolculukları anlatır.",
+      "ipucu": "Önce ulaşım noktalarını, sonra yolculuk sözcüklerini ayır.",
+      "glossKapali": true,
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m7-d50-q15",
+      "tip": "artikel",
+      "soru": "Bu ismin artikelini seç.",
+      "isim": "Gleis",
+      "dogru": "das",
+      "aciklama": "Gleis nötrdür: das Gleis. Dativ'de dem Gleis olur.",
+      "ipucu": "Peron sözcüğünü kelime listesinde hangi artikelle bulacağına bak.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m7-d50-q16",
+      "tip": "coktan-secmeli",
+      "soru": "Bir trenin Hamburg'dan Berlin'e ne kadar sürede gittiğini soruyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Wie lange fährt der Zug von Hamburg ___ Berlin?",
+      "secenekler": ["nach", "zu", "mit", "bei"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`zu` kişilere ve artikelli yerlere gelir; `Berlin` artikelsiz bir şehirdir.",
+        "`mit` araç veya birliktelik gösterir; varış noktasını göstermez.",
+        "`bei` yanında veya yakınında demektir; varış noktası için `nach` gerekir."
+      ],
+      "aciklama": "Berlin artikelsiz şehirdir, varış noktası için nach gelir: Wie lange fährt der Zug von Hamburg nach Berlin?",
+      "ipucu": "Şehre varışı gösteren edatı seç.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wie lange fährt der Zug von Hamburg nach Berlin?"
+    }
+  ]
+}
