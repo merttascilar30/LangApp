@@ -154,7 +154,8 @@
       "ipucu": "Tek bir kişiye söylenen emirde fiilin hangi biçimi kullanılır, düşün.",
       "bicim": "bosluk",
       "kaynakTuru": "goethe",
-      "kaynakCumle": "Warte bitte eine Sekunde!"
+      "kaynakCumle": "Warte bitte eine Sekunde!",
+      "glossKapali": true
     },
     {
       "id": "m7-d51-q04",
@@ -300,7 +301,10 @@
       "ipucu": "Ayrılabilen fiilin iki parçasının cümlede nerelerde durduğunu düşün.",
       "bicim": "siralama",
       "kaynakTuru": "uyarlama",
-      "kaynakCumle": "Füllen Sie bitte dieses Formular aus."
+      "kaynakCumle": "Füllen Sie bitte dieses Formular aus.",
+      "sozlukEk": {
+        "aus": "ausfüllen fiilinin ön eki (cümle sonunda)"
+      }
     },
     {
       "id": "m7-d51-q09",
@@ -346,7 +350,8 @@
       "ipucu": "Tek bir arkadaşa seslenirken fiile hangi ek gelmez, düşün.",
       "bicim": "senaryo",
       "kaynakTuru": "goethe",
-      "kaynakCumle": "Komm, wir gehen ins Kino."
+      "kaynakCumle": "Komm, wir gehen ins Kino.",
+      "glossKapali": true
     },
     {
       "id": "m7-d51-q11",
@@ -382,7 +387,8 @@
       "ipucu": "Fiilin kökündeki ünlüye dikkat et.",
       "bicim": "senaryo",
       "kaynakTuru": "uyarlama",
-      "kaynakCumle": "Lies bitte auch den zweiten Teil."
+      "kaynakCumle": "Lies bitte auch den zweiten Teil.",
+      "glossKapali": true
     },
     {
       "id": "m7-d51-q13",
@@ -394,7 +400,10 @@
       "ipucu": "Ön ekin cümledeki yerine bak.",
       "bicim": "senaryo",
       "kaynakTuru": "uyarlama",
-      "kaynakCumle": "Zieh die Schuhe aus, bitte!"
+      "kaynakCumle": "Zieh die Schuhe aus, bitte!",
+      "sozlukEk": {
+        "aus": "ausziehen fiilinin ön eki"
+      }
     },
     {
       "id": "m7-d51-q14",
@@ -439,7 +448,8 @@
       "ipucu": "Bu fiilde kökteki ünlü değişiyor.",
       "bicim": "bosluk",
       "kaynakTuru": "goethe",
-      "kaynakCumle": "Nimm noch ein paar Brote für die Fahrt mit."
+      "kaynakCumle": "Nimm noch ein paar Brote für die Fahrt mit.",
+      "glossKapali": true
     },
     {
       "id": "m7-d51-q16",
@@ -454,7 +464,10 @@
       "ipucu": "Resmî hitapta fiilin hemen arkasına gelen zamiri düşün.",
       "bicim": "bosluk",
       "kaynakTuru": "goethe",
-      "kaynakCumle": "Zahlen Sie bitte an der Kasse."
+      "kaynakCumle": "Zahlen Sie bitte an der Kasse.",
+      "sozlukEk": {
+        "an": "-de, -da, yanında (yer edatı)"
+      }
     }
   ]
 }
