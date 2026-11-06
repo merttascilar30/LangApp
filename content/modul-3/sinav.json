@@ -1,0 +1,290 @@
+{
+  "soruSayisi": 25,
+  "gecmeNotu": 80,
+  "ekSorular": [
+    {
+      "id": "m3-s-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Bankanın cumartesi günü kapalı olduğunu (geschlossen = kapalı) söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Die Bank hat im Samstag geschlossen.",
+        "Die Bank hat um Samstag geschlossen.",
+        "Die Bank hat am Samstag geschlossen.",
+        "Die Bank hat Samstag am geschlossen."
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`im` ay ve mevsim adlarıyla gelir; gün adının önünde `am` kullanılır.",
+        "`um` saatle gelir; gün adının önünde `am` kullanılır.",
+        "",
+        "`am` ile `Samstag` ayrılmaz; `am Samstag` kalıbı birlikte durur."
+      ],
+      "aciklama": "Gün adının önünde am kullanılır: Die Bank hat am Samstag geschlossen.",
+      "ipucu": "Bir gün adından önce hangi kısa edatın geldiğini hatırla.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Bank hat am Samstag geschlossen.",
+      "sozlukEk": {
+        "geschlossen": "kapalı"
+      }
+    },
+    {
+      "id": "m3-s-q02",
+      "tip": "coktan-secmeli",
+      "soru": "Kurs salı günü saat 6'da başlıyor. Mert Lena'ya hem günü hem saati söylüyor; boşluğu doldur.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Wann beginnt der Kurs?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Der Kurs beginnt ___ sechs Uhr."
+        }
+      ],
+      "secenekler": [
+        "am Dienstag um",
+        "im Dienstag um",
+        "am Dienstag im",
+        "um Dienstag am"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`im` gün adıyla gelmez; gün adının önünde `am` kullanılır.",
+        "Saat önünde `im` değil `um` kullanılır.",
+        "`um` saatle, `am` gün adıyla gelir; burada ikisi ters yerleşmiş."
+      ],
+      "aciklama": "Gün adından önce am, saatten önce um gelir: Der Kurs beginnt am Dienstag um sechs Uhr.",
+      "ipucu": "Cümlede hem bir gün hem bir saat var; her birine ayrı edat gerekir.",
+      "bicim": "diyalog",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Der Kurs beginnt um sechs Uhr."
+    },
+    {
+      "id": "m3-s-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Mağazada bir ceketin etiketinde 14 euro yazıyor. Satıcının cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Wie viel kostet die Jacke?"
+        },
+        {
+          "kim": "Verkäufer",
+          "metin": "Die Jacke kostet nur ___ Euro!"
+        }
+      ],
+      "secenekler": [
+        "vierzig",
+        "vierundzwanzig",
+        "vierhundert",
+        "vierzehn"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`vierzig` 40'tır; 14 için `vier` ile `zehn` birleşir.",
+        "`vierundzwanzig` 24'tür; 14 için `und` ve `zwanzig` gerekmez.",
+        "`vierhundert` 400'dür; fiyat 14 euro.",
+        ""
+      ],
+      "aciklama": "14, birim + zehn ile kurulur: vierzehn. Vierzig 40, vierundzwanzig 24'tür.",
+      "ipucu": "On üç ile on dokuz arasındaki sayılar hangi sondan yapılır, düşün.",
+      "bicim": "diyalog",
+      "kaynakTuru": "uyarlama",
+      "glossKapali": true,
+      "kaynakCumle": "Die Jacke kostet nur 10 Euro! Die ist aber billig!",
+      "sozlukEk": {
+        "Jacke": "ceket",
+        "Verkäufer": "satıcı"
+      }
+    },
+    {
+      "id": "m3-s-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Lena, Mert'in büyükannesinin yaşını soruyor. Büyükanne 70 yaşında; Mert'in cümlesini tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Wie alt ist deine Oma?"
+        },
+        {
+          "kim": "Mert",
+          "metin": "Meine Oma ist schon ___ Jahre alt."
+        }
+      ],
+      "secenekler": [
+        "siebzehn",
+        "siebzig",
+        "sechzig",
+        "achtzig"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`siebzehn` 17'dir; 70 `-zig` ile biter.",
+        "",
+        "`sechzig` 60'tır; 70'te birim `sieben` kısalarak `siebzig` olur.",
+        "`achtzig` 80'dir; 70 için `sieben` birimi gerekir."
+      ],
+      "aciklama": "Onluklar -zig ile biter ve sieben kısalır: siebzig 70'tir. Siebzehn 17'dir.",
+      "ipucu": "Sayının sonundaki parça, bunun bir onluk olduğunu gösterir.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "glossKapali": true,
+      "kaynakCumle": "Meine Oma ist schon siebzig Jahre alt."
+    },
+    {
+      "id": "m3-s-q05",
+      "tip": "dinleme",
+      "soru": "Kasada kasiyer toplam tutarı söylüyor. Duyduğun cümlenin anlamı nedir?",
+      "okunacak": "Das macht fünf Euro fünfundneunzig Cent.",
+      "mod": "sec",
+      "secenekler": [
+        "Toplam 5 euro 95 sent tutuyor.",
+        "Toplam 5 euro 59 sent tutuyor.",
+        "Toplam 4 euro 95 sent tutuyor.",
+        "Toplam 15 euro 95 sent tutuyor."
+      ],
+      "dogruCevaplar": [
+        "Toplam 5 euro 95 sent tutuyor."
+      ],
+      "aciklama": "Fünf 5, fünfundneunzig 95'tir: toplam 5 euro 95 sent.",
+      "ipucu": "Hem euro kısmındaki hem sent kısmındaki sayıya ayrı ayrı kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Das macht 5 Euro 95 Cent."
+    },
+    {
+      "id": "m3-s-q06",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Kursun mayıs ayında, salı günü başladığını şöyle söylüyorsun:",
+      "ifade": "Im Mai beginnt der Kurs am Dienstag.",
+      "dogru": true,
+      "aciklama": "Doğru. Ay adından önce im, gün adından önce am gelir.",
+      "ipucu": "Cümlede bir ay ve bir gün var; her birinin edatını ayrı ayrı kontrol et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Im Mai beginnt der Kurs."
+    },
+    {
+      "id": "m3-s-q07",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Temmuz başında tatile çıkacağını şöyle söylüyorsun:",
+      "ifade": "Wir machen am Anfang Juli Urlaub.",
+      "dogru": false,
+      "aciklama": "Yanlış. Anfang ile ek edat gerekmez: Wir machen Anfang Juli Urlaub.",
+      "ipucu": "Dersteki Anfang ve Ende örnek cümleleriyle bu cümlenin kuruluşunu karşılaştır.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Wir machen Anfang Juli Urlaub."
+    },
+    {
+      "id": "m3-s-q08",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Hafta sonu birkaç misafirimiz var.",
+      "parcalar": [
+        "am Wochenende",
+        "haben",
+        "wir",
+        "mehrere Gäste"
+      ],
+      "dogruSiralar": [
+        [
+          "am Wochenende",
+          "haben",
+          "wir",
+          "mehrere Gäste"
+        ],
+        [
+          "wir",
+          "haben",
+          "am Wochenende",
+          "mehrere Gäste"
+        ],
+        [
+          "wir",
+          "haben",
+          "mehrere Gäste",
+          "am Wochenende"
+        ],
+        [
+          "mehrere Gäste",
+          "haben",
+          "wir",
+          "am Wochenende"
+        ]
+      ],
+      "aciklama": "Çekimli fiil haben ikinci sırada kalır; zaman ifadesi başa geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Hangi öğeyle başlarsan başla çekimli fiil ikinci sırada durur.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Am Wochenende haben wir mehrere Gäste.",
+      "sozlukEk": {
+        "mehrere": "birkaç",
+        "Gäste": "misafirler"
+      }
+    },
+    {
+      "id": "m3-s-q09",
+      "tip": "ceviri",
+      "soru": "Almanca'ya çevir (yıl sonu planını anlatıyorsun): Aralık sonunda yeni yılı kutluyoruz.",
+      "kaynak": "Aralık sonunda yeni yılı kutluyoruz.",
+      "dogruCevaplar": [
+        "Ende Dezember feiern wir das neue Jahr.",
+        "Wir feiern Ende Dezember das neue Jahr.",
+        "Wir feiern das neue Jahr Ende Dezember.",
+        "Das neue Jahr feiern wir Ende Dezember."
+      ],
+      "aciklama": "Ay sonu Ende ile söylenir ve ek edat almaz; feiern fiili wir ile mastarla aynıdır.",
+      "ipucu": "Ay sonunu anlatan kalıpta ayrıca bir edat kullanılmaz.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ende Dezember feiern wir das neue Jahr.",
+      "sozlukEk": {
+        "neue": "yeni",
+        "Jahr": "yıl"
+      }
+    },
+    {
+      "id": "m3-s-q10",
+      "tip": "bosluk-doldurma",
+      "soru": "Takvimde bugünün tarihi 1 Mart. Boşluğa 1. sıra sayısını yaz.",
+      "metin": "Heute ist der ___ März.",
+      "dogruCevaplar": [
+        "erste"
+      ],
+      "aciklama": "1. düzensiz bir sıra sayısıdır: erste. Der erste März 1 Mart demektir.",
+      "ipucu": "Birinci sıra sayısı sayı kuralına uymaz, ayrı bir kelimedir.",
+      "bicim": "bosluk",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Heute ist der erste März / der erste Dritte."
+    },
+    {
+      "id": "m3-s-q11",
+      "tip": "eslestirme",
+      "soru": "Edatları, birlikte kullanıldıkları zaman ifadeleriyle eşleştir.",
+      "ciftler": [
+        {
+          "sol": "am",
+          "sag": "Montag, Wochenende"
+        },
+        {
+          "sol": "im",
+          "sag": "Mai, Winter"
+        },
+        {
+          "sol": "um",
+          "sag": "8.00 Uhr"
+        },
+        {
+          "sol": "Ende",
+          "sag": "Juni (ek edat yok)"
+        }
+      ],
+      "aciklama": "Gün ve hafta sonu am, ay ve mevsim im, saat um alır; Anfang ve Ende ile ek edat gerekmez.",
+      "ipucu": "Her edatı, önüne geldiği zaman türüyle bağdaştır.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    }
+  ]
+}

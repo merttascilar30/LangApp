@@ -31,7 +31,13 @@
       "id": "modul-3",
       "sira": 3,
       "baslik": "Sayılar, aylar, günler ve mevsimler",
-      "partlar": []
+      "partlar": [
+        "ders-14",
+        "ders-15",
+        "ders-16",
+        "ders-17",
+        "ders-18"
+      ]
     },
     {
       "id": "modul-4",

@@ -20,4 +20,5 @@ export const GLOSS_DISI: Record<string, ReadonlySet<string>> = {
     'kelimesi', 'başta', 'değil',
   ]),
   'modul-2': new Set<string>([]),
+  'modul-3': new Set<string>([]),
 }
