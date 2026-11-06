@@ -1,0 +1,245 @@
+{
+ "soruSayisi": 25,
+ "gecmeNotu": 80,
+ "ekSorular": [
+  {
+   "id": "m6-s-q01",
+   "tip": "coktan-secmeli",
+   "soru": "Lena yardım istiyor, Mert kabul ediyor. Cümlesini tamamla.",
+   "diyalog": [
+    {
+     "kim": "Lena",
+     "metin": "Kannst du mir bitte helfen?"
+    },
+    {
+     "kim": "Mert",
+     "metin": "Ja, ich helfe ___ gern."
+    }
+   ],
+   "secenekler": [
+    "dich",
+    "du",
+    "dir"
+   ],
+   "dogru": 2,
+   "celdiriciNotlari": [
+    "`dich` Akkusativ'dir; `helfen` kişiyi Dativ'le kullanır.",
+    "`du` özne zamiridir; burada nesne gerekir.",
+    ""
+   ],
+   "aciklama": "helfen Dativ ister; sana anlamındaki zamir dir'dir: Ja, ich helfe dir gern.",
+   "ipucu": "helfen fiilinin kişiyi hangi hâlle aldığını hatırla.",
+   "bicim": "diyalog",
+   "kaynakTuru": "yazildi",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-s-q02",
+   "tip": "coktan-secmeli",
+   "soru": "Erkek kardeşini almaya gitmemiz gerektiğini söylüyorsun (abholen = almaya gitmek). Boşluğa uygun sözcüğü seç.",
+   "metin": "Wir müssen noch ___ Bruder abholen.",
+   "secenekler": [
+    "mein",
+    "meinem",
+    "meinen",
+    "meine"
+   ],
+   "dogru": 2,
+   "celdiriciNotlari": [
+    "`mein` Nominativ biçimidir; burada nesne olan eril isim var.",
+    "`meinem` Dativ biçimidir; `abholen` Akkusativ ister.",
+    "",
+    "`meine` dişil ve çoğul isimlerle gelir; `der Bruder` erildir."
+   ],
+   "aciklama": "abholen Akkusativ ister ve Bruder erildir; mein eril Akkusativ'de meinen olur: Wir müssen noch meinen Bruder abholen.",
+   "ipucu": "Hem ismin cinsiyetine hem de nesne olmasına bak.",
+   "bicim": "bosluk",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Wir müssen noch meinen Bruder abholen.",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-s-q03",
+   "tip": "coktan-secmeli",
+   "soru": "Herr Müller'in oğlunu aradığını söylüyorsun. Hangi cümleyi kurarsın?",
+   "secenekler": [
+    "Herr Müller ruft seinen Sohn an.",
+    "Herr Müller ruft sein Sohn an.",
+    "Herr Müller ruft seinen Sohn mit.",
+    "Herr Müller ruft ihren Sohn an."
+   ],
+   "dogru": 0,
+   "celdiriciNotlari": [
+    "",
+    "`anrufen` Akkusativ ister; eril `Sohn` ile `sein` değil `seinen` gelir.",
+    "`mit` katılmak gibi anlamlar verir; aramak `anrufen`dir.",
+    "Sahip erkek olduğu için `ihren` değil `seinen` gelir."
+   ],
+   "aciklama": "Sahip erkek ve Sohn eril Akkusativ'de olduğu için seinen gelir, ön ek an sona gider: Herr Müller ruft seinen Sohn an.",
+   "ipucu": "Sahibin cinsiyetine, ismin hâline ve ön ekin yerine bak.",
+   "bicim": "senaryo",
+   "kaynakTuru": "yazildi",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-s-q04",
+   "tip": "dinleme",
+   "soru": "İstasyonda biri bir tren hakkında soru soruyor. Duyduğun cümleyi seç.",
+   "okunacak": "Wann kommt der Zug in Hamburg an?",
+   "mod": "sec",
+   "secenekler": [
+    "Tren Hamburg'a ne zaman varıyor?",
+    "Tren Hamburg'dan ne zaman kalkıyor?",
+    "Tren Hamburg'a nereden gidiyor?",
+    "Tren Hamburg'da nerede kalkıyor?"
+   ],
+   "dogruCevaplar": [
+    "Tren Hamburg'a ne zaman varıyor?"
+   ],
+   "aciklama": "Wann ne zaman demektir, ankommen varmak demektir: Wann kommt der Zug in Hamburg an?",
+   "ipucu": "Soru sözcüğünü ve fiilin anlamını yakala.",
+   "bicim": "senaryo",
+   "kaynakTuru": "uyarlama",
+   "kaynakCumle": "Wann kommt dieser Zug in Hamburg an?"
+  },
+  {
+   "id": "m6-s-q05",
+   "tip": "dogru-yanlis",
+   "soru": "Doğru mu, yanlış mı? Arkadaşına bugün telefon edeceğini söylüyorsun:",
+   "ifade": "Ich rufe dir heute an.",
+   "dogru": false,
+   "aciklama": "Yanlış. anrufen Akkusativ ister: Ich rufe dich heute an.",
+   "ipucu": "anrufen fiilinin kişiyi hangi hâlle aldığını düşün.",
+   "bicim": "senaryo",
+   "kaynakTuru": "yazildi",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-s-q06",
+   "tip": "cumle-dizme",
+   "soru": "Kelimeleri doğru sıraya diz: Biz rehberinizi arıyoruz.",
+   "parcalar": [
+    "wir",
+    "rufen",
+    "euren Reiseführer",
+    "an"
+   ],
+   "dogruSiralar": [
+    [
+     "wir",
+     "rufen",
+     "euren Reiseführer",
+     "an"
+    ],
+    [
+     "euren Reiseführer",
+     "rufen",
+     "wir",
+     "an"
+    ]
+   ],
+   "aciklama": "Çekimli fiil ikinci sırada kalır, ön ek sona gider; eril Akkusativ'de euer, euren olur: Wir rufen euren Reiseführer an.",
+   "ipucu": "Fiilin yerini ve ön ekin yerini düşün.",
+   "bicim": "siralama",
+   "kaynakTuru": "uyarlama",
+   "kaynakCumle": "Unser Reiseführer heißt Peter."
+  },
+  {
+   "id": "m6-s-q07",
+   "tip": "coktan-secmeli",
+   "soru": "Bayan Weber'in anne babasının yanında yaşadığını söylüyorsun. Boşluğa uygun sözcüğü seç.",
+   "metin": "Frau Weber lebt bei ___ Eltern.",
+   "secenekler": [
+    "ihre",
+    "ihrem",
+    "ihren",
+    "ihrer"
+   ],
+   "dogru": 2,
+   "celdiriciNotlari": [
+    "`ihre` Nominativ ve Akkusativ biçimidir; `bei` Dativ ister.",
+    "`ihrem` eril ve nötr tekil Dativ içindir; `Eltern` çoğuldur.",
+    "",
+    "`ihrer` dişil tekil Dativ içindir; `Eltern` çoğuldur."
+   ],
+   "aciklama": "bei Dativ ister ve Eltern çoğuldur; çoğul Dativ'de ihren gelir: Frau Weber lebt bei ihren Eltern.",
+   "ipucu": "Hem edatın istediği hâle hem de ismin çoğul olmasına bak.",
+   "bicim": "bosluk",
+   "kaynakTuru": "uyarlama",
+   "kaynakCumle": "Meine Eltern leben in Spanien.",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-s-q08",
+   "tip": "coktan-secmeli",
+   "soru": "Arkadaşından pasaportunu vermesini istiyorsun. Hangi cümleyi kurarsın?",
+   "secenekler": [
+    "Kannst du mir bitte deinen Pass geben?",
+    "Kannst du mich bitte deinen Pass geben?",
+    "Kannst du mir bitte dein Pass geben?",
+    "Kannst du mir bitte deinem Pass geben?"
+   ],
+   "dogru": 0,
+   "celdiriciNotlari": [
+    "",
+    "`geben` ile kişi Dativ'dedir: `mir`, `mich` değil.",
+    "`der Pass` erildir; Akkusativ'de `dein` değil `deinen` gelir.",
+    "`deinem` Dativ biçimidir; verilen şey Akkusativ'dedir."
+   ],
+   "aciklama": "Kişi Dativ'de (mir), verilen eril şey Akkusativ'de olur: Kannst du mir bitte deinen Pass geben?",
+   "ipucu": "Kişinin ve verilen şeyin hâlini ayrı ayrı düşün.",
+   "bicim": "senaryo",
+   "kaynakTuru": "yazildi",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-s-q09",
+   "tip": "coktan-secmeli",
+   "soru": "Mert, Lena'nın trenin saat kaçta kalktığını soruyor. Lena trenin on ikide kalktığını söylüyor. Cümlesini tamamla.",
+   "diyalog": [
+    {
+     "kim": "Mert",
+     "metin": "Wann fährt dein Zug?"
+    },
+    {
+     "kim": "Lena",
+     "metin": "Er fährt um zwölf Uhr ___."
+    }
+   ],
+   "secenekler": [
+    "aus",
+    "ab",
+    "ein",
+    "auf"
+   ],
+   "dogru": 1,
+   "celdiriciNotlari": [
+    "`aus` ile `ausmachen` (kapatmak) kurulur; kalkmak `abfahren`dir.",
+    "",
+    "`ein` ile `einkaufen` (alışveriş yapmak) kurulur; kalkmak `abfahren`dir.",
+    "`auf` ile `aufhören` (bitmek) kurulur; kalkmak `abfahren`dir."
+   ],
+   "aciklama": "Kalkmak abfahren fiilidir; ön ek ab cümlenin sonuna gider: Er fährt um zwölf Uhr ab.",
+   "ipucu": "Kalkmak fiilinin ön ekini düşün.",
+   "bicim": "diyalog",
+   "kaynakTuru": "uyarlama",
+   "kaynakCumle": "Wir fahren um zwölf Uhr ab.",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-s-q10",
+   "tip": "bosluk-doldurma",
+   "soru": "Arkadaşından bizi aramasını istiyorsun. Boşluğa uygun zamiri yaz.",
+   "metin": "Ruf ___ bitte an.",
+   "dogruCevaplar": [
+    "uns"
+   ],
+   "aciklama": "anrufen Akkusativ ister; biz için Akkusativ zamiri uns'tur: Ruf uns bitte an.",
+   "ipucu": "Kişi zamirleri tablosundaki biz satırına bak.",
+   "bicim": "bosluk",
+   "kaynakTuru": "uyarlama",
+   "kaynakCumle": "Ruf ihn bitte an.",
+   "glossKapali": true
+  }
+ ]
+}

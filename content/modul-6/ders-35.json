@@ -1,0 +1,328 @@
+{
+  "id": "m6-d35",
+  "ders": 35,
+  "baslik": "mein / dein",
+  "videoId": "chCJOwrT5X8",
+  "ozet": [
+    "mein (benim) ve dein (senin) isimden önce gelir: mein Auto (arabam), dein Auto (araban). İkisi de aynı ekleri alır ve ek, ismin cinsiyetine ve hâline göre değişir. Türkçede hâl eki isme eklenir (arabamı, arabama); Almancada hâl, mein ve dein sözcüğünün sonundaki ekte görünür.",
+    "Nominativ'de eril ve nötr isimlerle mein/dein, dişil ve çoğul isimlerle meine/deine gelir: mein Name, mein Auto (das Auto), meine Schwester, meine Eltern. Ist das dein Auto? Mein Auto ist schon sehr alt. Meine Schwester kommt am Dienstag. Mein Kopf tut weh! (Başım ağrıyor.) Burada Kopf özne olduğu için Nominativ'dedir. Ich muss zum Arzt. Mein Bein tut weh. (Doktora gitmem lazım. Bacağım ağrıyor.)",
+    "Akkusativ'de yalnızca eril değişir: mein olur meinen, dein olur deinen. Nötr mein/dein, dişil ve çoğul meine/deine aynı kalır. Haben Sie meinen Brief bekommen? (der Brief = mektup, bekommen = almak.) Wir feiern heute meinen Geburtstag. (der Geburtstag = doğum günü.) Im Hotel brauchst du deinen Pass. (der Pass = pasaport.) Brauchen Sie meine Hilfe? (die Hilfe = yardım.)",
+    "Dativ'de eril ve nötr meinem/deinem, dişil meiner/deiner, çoğul meinen/deinen olur. bei, von, mit ve nerede? sorusundaki in Dativ ister: Ich wohne bei meinen Eltern. Hast du ein Bild von deinem Sohn? (das Bild = resim, der Sohn = oğul.) In meinem Kurs sind acht Schülerinnen und fünf Schüler. Morgen habe ich einen Termin bei meiner Ärztin. (der Termin = randevu, die Ärztin = kadın doktor.) Kannst du mir bitte deinen Kugelschreiber geben? Burada mir kişiyi (Dativ), deinen Kugelschreiber verilen eril şeyi (Akkusativ) gösterir.",
+    "Özet tablo (mein; dein de aynı ekleri alır). Eril: mein, meinen, meinem. Nötr: mein, mein, meinem. Dişil: meine, meine, meiner. Çoğul: meine, meine, meinen. Sıra: Nominativ, Akkusativ, Dativ."
+  ],
+  "kelimeler": [
+    { "de": "mein", "tr": "benim" },
+    { "de": "dein", "tr": "senin" },
+    { "de": "der Brief", "tr": "mektup", "artikel": "der" },
+    { "de": "der Kugelschreiber", "tr": "tükenmez kalem", "artikel": "der" },
+    { "de": "der Geburtstag", "tr": "doğum günü", "artikel": "der" },
+    { "de": "der Pass", "tr": "pasaport", "artikel": "der" },
+    { "de": "die Hilfe", "tr": "yardım", "artikel": "die" },
+    { "de": "der Termin", "tr": "randevu", "artikel": "der" },
+    { "de": "die Ärztin", "tr": "kadın doktor", "artikel": "die" },
+    { "de": "das Bild", "tr": "resim, fotoğraf", "artikel": "das" },
+    { "de": "der Sohn", "tr": "oğul", "artikel": "der" },
+    { "de": "bekommen", "tr": "almak" }
+  ],
+  "trickler": [
+    {
+      "baslik": "Akkusativ'de yalnız eril değişir",
+      "metin": "der Brief olur meinen Brief; das Auto olur mein Auto, die Hilfe olur meine Hilfe. Nesne eril değilse Nominativ'deki biçim kalır."
+    },
+    {
+      "baslik": "Dativ: -em, -er, -en",
+      "metin": "Eril ve nötr -em: meinem Sohn. Dişil -er: meiner Ärztin. Çoğul -en: meinen Eltern. bei, von, mit görürsen bu üç eke bak."
+    },
+    {
+      "baslik": "mein ve dein aynı eki alır",
+      "metin": "meinen ile deinen, meinem ile deinem, meiner ile deiner aynı mantıkla değişir. Eki bir kez öğren, ikisinde de kullan."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m6-d35-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Bir arkadaşına park edilmiş arabanın onun olup olmadığını soruyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Ist das ___ Auto?",
+      "secenekler": ["deine", "dein", "deinen", "deinem"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`deine` dişil ve çoğul isimlerle gelir; `das Auto` nötrdür.",
+        "",
+        "`deinen` eril Akkusativ biçimidir; burada özne var, nesne yok.",
+        "`deinem` Dativ biçimidir; cümlede Dativ gerektiren bir şey yok."
+      ],
+      "aciklama": "Auto nötrdür ve burada Nominativ'dedir; nötr Nominativ'de dein gelir: Ist das dein Auto?",
+      "ipucu": "Önce Auto'nun artikelini, sonra cümledeki görevini düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ist das dein Auto?",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d35-q02",
+      "tip": "coktan-secmeli",
+      "soru": "Resmî konuştuğun bir kişiye gönderdiğin mektubu alıp almadığını soruyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Haben Sie ___ Brief bekommen?",
+      "secenekler": ["meinen", "mein", "meine", "meinem"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`mein` Nominativ biçimidir; mektup burada nesnedir.",
+        "`meine` dişil ve çoğul isimlerle gelir; `der Brief` erildir.",
+        "`meinem` Dativ biçimidir; mektup kişi değil, alınan şeydir."
+      ],
+      "aciklama": "der Brief eril ve fiilin doğrudan nesnesidir; eril Akkusativ'de meinen gelir: Haben Sie meinen Brief bekommen?",
+      "ipucu": "Mektubun cümlede özne mi nesne mi olduğuna bak.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Haben Sie meinen Brief bekommen?",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d35-q03",
+      "tip": "bosluk-doldurma",
+      "soru": "Bugün kendi doğum gününü kutladığınızı söylüyorsun. Boşluğa uygun iyelik sözcüğünü yaz.",
+      "metin": "Wir feiern heute ___ Geburtstag.",
+      "dogruCevaplar": ["meinen"],
+      "aciklama": "der Geburtstag eril ve nesnedir; eril Akkusativ'de meinen gelir: Wir feiern heute meinen Geburtstag.",
+      "ipucu": "Kutlanan şey fiilin nesnesidir ve eril bir isimdir.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wir feiern heute meinen Geburtstag.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d35-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Kursunda kaç öğrenci olduğunu söylüyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "In ___ Kurs sind acht Schülerinnen und fünf Schüler.",
+      "secenekler": ["mein", "meine", "meinem", "meinen"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`mein` Nominativ ve Akkusativ biçimidir; `in` burada Dativ ister.",
+        "`meine` dişil ve çoğul isimlerle gelir; `der Kurs` eril tekildir.",
+        "",
+        "`meinen` eril Akkusativ biçimidir; `in` ile nerede? sorusunda Dativ gerekir."
+      ],
+      "aciklama": "Nerede? sorusunda in Dativ ister; eril tekil Dativ'de meinem gelir: In meinem Kurs sind acht Schülerinnen und fünf Schüler.",
+      "ipucu": "Öğrencilerin bulunduğu yeri soran edata dikkat et.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "In meinem Kurs sind acht Schülerinnen und fünf Schüler.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d35-q05",
+      "tip": "bosluk-doldurma",
+      "soru": "Yarın kadın doktorunda randevun olduğunu söylüyorsun. Boşluğa uygun iyelik sözcüğünü yaz.",
+      "metin": "Morgen habe ich einen Termin bei ___ Ärztin.",
+      "dogruCevaplar": ["meiner"],
+      "aciklama": "bei Dativ ister; dişil Dativ'de meiner gelir: Morgen habe ich einen Termin bei meiner Ärztin.",
+      "ipucu": "Edatın ardından gelen hâle ve ismin dişil olmasına bak.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Morgen habe ich einen Termin bei meiner Ärztin.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d35-q06",
+      "tip": "coktan-secmeli",
+      "soru": "Lena nerede oturduğunu soruyor. Mert ailesinin yanında kaldığını söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Wo wohnst du?" },
+        { "kim": "Mert", "metin": "Ich wohne bei ___ Eltern." }
+      ],
+      "secenekler": ["meine", "meiner", "meinem", "meinen"],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`meine` Nominativ ve Akkusativ çoğuldur; `bei` Dativ ister.",
+        "`meiner` dişil tekil Dativ'dir; `Eltern` çoğuldur.",
+        "`meinem` eril ve nötr tekil Dativ'dir; `Eltern` çoğuldur.",
+        ""
+      ],
+      "aciklama": "bei Dativ ister ve Eltern çoğuldur; çoğul Dativ'de meinen gelir: Ich wohne bei meinen Eltern.",
+      "ipucu": "Hem edatın istediği hâle hem de Eltern'in sayısına bak.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich wohne bei meinen Eltern.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d35-q07",
+      "tip": "coktan-secmeli",
+      "soru": "Lena, Mert'e neyi olduğunu soruyor. Mert başının ağrıdığını söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Was fehlt dir?" },
+        { "kim": "Mert", "metin": "___ Kopf tut weh!" }
+      ],
+      "secenekler": ["Meine", "Mein", "Meinen", "Meinem"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`Meine` dişil ve çoğul isimlerle gelir; `der Kopf` erildir.",
+        "",
+        "`Meinen` eril Akkusativ'dir; `Kopf` burada nesne değil, özne.",
+        "`Meinem` Dativ'dir; `Kopf` burada ağrıyan şeydir, yani özne."
+      ],
+      "aciklama": "Kopf cümlenin öznesidir ve erildir; eril Nominativ'de mein gelir: Mein Kopf tut weh!",
+      "ipucu": "Ağrıyan baş cümlede kimin yaptığı işi değil, neyin ağrıdığını gösterir.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Mein Kopf tut weh!",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d35-q08",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Anne babam İspanya'da yaşıyor.",
+      "parcalar": ["in Spanien", "meine Eltern", "leben"],
+      "dogruSiralar": [
+        ["meine Eltern", "leben", "in Spanien"],
+        ["in Spanien", "leben", "meine Eltern"]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; yer bilgisi başa geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Yer bilgisi ile özne yer değiştirebilir, fiil ise sabit kalır.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Meine Eltern leben in Spanien."
+    },
+    {
+      "id": "m6-d35-q09",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Otelde pasaportuna ihtiyacın var.",
+      "parcalar": ["deinen Pass", "im Hotel", "brauchst du"],
+      "dogruSiralar": [
+        ["im Hotel", "brauchst du", "deinen Pass"],
+        ["deinen Pass", "brauchst du", "im Hotel"]
+      ],
+      "aciklama": "Cümle başındaki ögeden sonra çekimli fiil gelir, özne fiilin arkasında kalır.",
+      "ipucu": "Cümleyi yer bilgisiyle ya da pasaportla başlatabilirsin.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Im Hotel brauchst du deinen Pass."
+    },
+    {
+      "id": "m6-d35-q10",
+      "tip": "coktan-secmeli",
+      "soru": "Arkadaşından tükenmez kalemini rica ediyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Kannst du mich bitte deinen Kugelschreiber geben?",
+        "Kannst du mir bitte dein Kugelschreiber geben?",
+        "Kannst du mir bitte deinen Kugelschreiber geben?",
+        "Kannst du mir bitte deinem Kugelschreiber geben?"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`geben` kişiyi Dativ ile alır; `mich` Akkusativ'dir, doğrusu `mir`.",
+        "Eril nesne Akkusativ'de `dein` değil `deinen` olur.",
+        "",
+        "`deinem` Dativ'dir; verilen şey doğrudan nesnedir, Akkusativ gerekir."
+      ],
+      "aciklama": "mir kişiyi Dativ'de, deinen Kugelschreiber verilen eril nesneyi Akkusativ'de gösterir: Kannst du mir bitte deinen Kugelschreiber geben?",
+      "ipucu": "Hem rica edilen kişiyi hem de verilecek şeyi doğru hâle koy.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Kannst du mir bitte deinen Kugelschreiber geben?",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d35-q11",
+      "tip": "coktan-secmeli",
+      "soru": "Arkadaşına oğlunun resmi olup olmadığını soruyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Hast du ein Bild von deinem Sohn?",
+        "Hast du ein Bild von deinen Sohn?",
+        "Hast du ein Bild von dein Sohn?",
+        "Hast du ein Bild von deiner Sohn?"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`deinen` eril Akkusativ'dir; `von` Dativ ister.",
+        "`dein` Nominativ biçimidir; `von` sonrası Dativ gerekir.",
+        "`deiner` dişil Dativ'dir; `der Sohn` erildir."
+      ],
+      "aciklama": "von Dativ ister; eril Dativ'de deinem gelir: Hast du ein Bild von deinem Sohn?",
+      "ipucu": "Edatın ardından gelen hâli ve ismin cinsiyetini birlikte düşün.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Hast du ein Bild von deinem Sohn?",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d35-q12",
+      "tip": "dinleme",
+      "soru": "Bir tanıdığın neden doktora gitmesi gerektiğini anlatıyor. Duyduğun cümleleri seç.",
+      "okunacak": "Ich muss zum Arzt. Mein Bein tut weh.",
+      "mod": "sec",
+      "secenekler": [
+        "Doktora gitmem lazım. Elim ağrıyor.",
+        "Doktora gitmem lazım. Bacağım ağrıyor.",
+        "Doktora gitmem lazım. Başım ağrıyor.",
+        "Doktora gitmem lazım. Karnım ağrıyor."
+      ],
+      "dogruCevaplar": ["Doktora gitmem lazım. Bacağım ağrıyor."],
+      "aciklama": "Bein bacak demektir; Mein Bein tut weh. bacağım ağrıyor anlamına gelir.",
+      "ipucu": "İkinci cümledeki vücut bölümüne kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich muss zum Arzt. Mein Bein tut weh."
+    },
+    {
+      "id": "m6-d35-q13",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Resmî konuştuğun kişiye, senin yardımına ihtiyacı olup olmadığını soruyorsun:",
+      "ifade": "Brauchen Sie meine Hilfe?",
+      "dogru": true,
+      "aciklama": "Doğru. die Hilfe dişildir ve nesnedir; dişil Akkusativ'de meine gelir: Brauchen Sie meine Hilfe?",
+      "ipucu": "Hilfe'nin artikeline ve cümledeki görevine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Brauchen Sie meine Hilfe?",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d35-q14",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Arabanın çok eski olduğunu şöyle söylüyorsun:",
+      "ifade": "Meinen Auto ist schon sehr alt.",
+      "dogru": false,
+      "aciklama": "Yanlış. das Auto cümlenin öznesidir ve nötrdür; nötr Nominativ'de mein gelir: Mein Auto ist schon sehr alt.",
+      "ipucu": "Arabanın cümledeki görevine ve cinsiyetine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Mein Auto ist schon sehr alt.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d35-q15",
+      "tip": "eslestirme",
+      "soru": "Almanca sözcükleri Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        { "sol": "Kopf", "sag": "baş" },
+        { "sol": "Arm", "sag": "kol" },
+        { "sol": "Bein", "sag": "bacak" },
+        { "sol": "Brief", "sag": "mektup" },
+        { "sol": "Kugelschreiber", "sag": "tükenmez kalem" },
+        { "sol": "Geburtstag", "sag": "doğum günü" }
+      ],
+      "aciklama": "Kopf, Arm ve Bein vücut bölümleridir; Brief, Kugelschreiber ve Geburtstag günlük sözcüklerdir.",
+      "ipucu": "Önce vücut bölümlerini, sonra kalan sözcükleri ayır.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d35-q16",
+      "tip": "artikel",
+      "soru": "Bu ismin artikelini seç.",
+      "isim": "Brief",
+      "dogru": "der",
+      "aciklama": "Brief maskulindir: der Brief. Akkusativ'de meinen Brief olur.",
+      "ipucu": "Mektup sözcüğünü bu derste hangi artikelle gördüğünü hatırla.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    }
+  ]
+}

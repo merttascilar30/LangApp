@@ -1,0 +1,460 @@
+{
+ "id": "m6-d34",
+ "ders": 34,
+ "baslik": "Kişi Zamirleri N/A/D",
+ "videoId": "ggHnJqIpHq4",
+ "ozet": [
+  "Kişi zamirleri hâle göre değişir. Nominativ, Akkusativ, Dativ sırasıyla: ich, mich, mir; du, dich, dir; er, ihn, ihm; sie (o, kadın), sie, ihr; es, es, ihm; wir, uns, uns; ihr, euch, euch; sie (onlar), sie, ihnen; Sie (siz, resmî), Sie, Ihnen. Türkçedeki ben, beni, bana dizisiyle aynı mantıktır. Akkusativ'de sie, es ve Sie aynı kalır. Resmî Ihnen büyük, onlara anlamındaki ihnen küçük yazılır.",
+  "Akkusativ zamiri fiilin doğrudan nesnesi için gelir: Ich liebe dich! (Seni seviyorum.) Ich kann dich nicht sehen. (Seni göremiyorum.) Darf ich dich besuchen? (Seni ziyaret edebilir miyim?) Edat für Akkusativ ister: Die Blumen sind für dich. (die Blume = çiçek.) Modal fiil ikinci sırada kalır, ana fiil sonda: darf = -ebilir miyim, kann = -ebilirim, muss = -meli; sehen = görmek, lieben = sevmek, besuchen = ziyaret etmek.",
+  "Dativ zamiri kişiye yönelen fiillerle gelir: helfen, gefallen (hoşuna gitmek), geben, schicken (göndermek), anbieten (ikram etmek), erzählen (anlatmak), fehlen (eksik olmak). Können Sie mir helfen, bitte? (Bana yardım edebilir misiniz?) Er gibt mir die Hand. (die Hand = el.) Bitte schicken Sie mir eine E-Mail. Das gefällt mir. (Bu hoşuma gidiyor.) Gefallen dir die Blumen? Was darf ich dir anbieten? Wir müssen euch etwas erzählen! (etwas = bir şey.) Was fehlt Ihnen? (Neyiniz var?) Er hat Zeit, also muss er uns helfen. (also = bu yüzden, die Zeit = zaman.) Seit gestern tut mir der Bauch weh. (Dünden beri karnım ağrıyor.) Aynı kalıp: Mir tut der Kopf weh (başım ağrıyor), Mir tut die Hand weh (elim ağrıyor). Türkçede de bu kişiler -e hâlindedir: bana, sana, ona.",
+  "Vurgu için nesne başa geçebilir; çekimli fiil yine ikinci sırada kalır: Dich liebe ich. Mir gefällt das. Doğru zamiri bulmak için önce fiile bak: kişiye -i dedirten fiiller Akkusativ ister, -e dedirten fiiller Dativ ister."
+ ],
+ "kelimeler": [
+  {
+   "de": "mich",
+   "tr": "beni (Akkusativ)"
+  },
+  {
+   "de": "dich",
+   "tr": "seni (Akkusativ)"
+  },
+  {
+   "de": "ihn",
+   "tr": "onu (erkek, Akkusativ)"
+  },
+  {
+   "de": "mir",
+   "tr": "bana (Dativ)"
+  },
+  {
+   "de": "dir",
+   "tr": "sana (Dativ)"
+  },
+  {
+   "de": "ihm",
+   "tr": "ona (erkek/nötr, Dativ)"
+  },
+  {
+   "de": "uns",
+   "tr": "bizi, bize"
+  },
+  {
+   "de": "euch",
+   "tr": "sizi, size (samimi)"
+  },
+  {
+   "de": "ihnen",
+   "tr": "onlara (resmî Ihnen: size)"
+  },
+  {
+   "de": "sehen",
+   "tr": "görmek"
+  },
+  {
+   "de": "lieben",
+   "tr": "sevmek (aşk)"
+  },
+  {
+   "de": "besuchen",
+   "tr": "ziyaret etmek"
+  },
+  {
+   "de": "gefallen",
+   "tr": "hoşuna gitmek"
+  },
+  {
+   "de": "die Blume",
+   "tr": "çiçek",
+   "artikel": "die"
+  }
+ ],
+ "trickler": [
+  {
+   "baslik": "Önce fiile bak: -i mi, -e mi?",
+   "metin": "sehen, lieben, besuchen kişiye -i dedirtir, yani Akkusativ: dich. helfen, gefallen, geben kişiye -e dedirtir, yani Dativ: dir."
+  },
+  {
+   "baslik": "Akkusativ'de er olur ihn",
+   "metin": "Akkusativ'de er olur ihn; sie, es ve Sie aynı kalır. Dativ'de er ve es olur ihm, sie olur ihr."
+  },
+  {
+   "baslik": "mir bana, dir sana, ihm ona",
+   "metin": "Dativ: mir bana, dir sana, ihm ona. Akkusativ: mich beni, dich seni, ihn onu. wir ve ihr için iki hâl aynıdır: uns, euch."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "m6-d34-q01",
+   "tip": "coktan-secmeli",
+   "soru": "Arkadaşını (sen diyorsun) ziyaret etmek için izin istiyorsun. Boşluğa uygun zamiri seç.",
+   "metin": "Darf ich ___ besuchen?",
+   "secenekler": [
+    "dich",
+    "dir",
+    "du",
+    "mir"
+   ],
+   "dogru": 0,
+   "celdiriciNotlari": [
+    "",
+    "`besuchen` Akkusativ ister; `dir` Dativ zamiridir.",
+    "`du` Nominativ'dir; burada nesne gerekir.",
+    "`mir` ich'in Dativ hâlidir; karşındaki kişiden söz ediyorsun."
+   ],
+   "aciklama": "besuchen kişiyi Akkusativ ile alır; du, Akkusativ'de dich olur: Darf ich dich besuchen?",
+   "ipucu": "Ziyaret edilen kişi fiilin doğrudan nesnesidir.",
+   "bicim": "bosluk",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Darf ich dich besuchen?",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d34-q02",
+   "tip": "coktan-secmeli",
+   "soru": "Çiçekleri arkadaşına (sen diyorsun) getirdiğini söylüyorsun. Boşluğa uygun zamiri seç.",
+   "metin": "Die Blumen sind für ___.",
+   "secenekler": [
+    "dir",
+    "du",
+    "dich",
+    "ihm"
+   ],
+   "dogru": 2,
+   "celdiriciNotlari": [
+    "`für` Akkusativ ister; `dir` Dativ zamiridir.",
+    "`du` Nominativ'dir; `für` sonrası nesne hâli gerekir.",
+    "",
+    "`ihm` ona (erkek) demektir; karşındaki kişiye sen diyorsun."
+   ],
+   "aciklama": "für Akkusativ ister; du, Akkusativ'de dich olur: Die Blumen sind für dich.",
+   "ipucu": "Edatın hangi hâli istediğini hatırla.",
+   "bicim": "bosluk",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Die Blumen sind für dich.",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d34-q03",
+   "tip": "bosluk-doldurma",
+   "soru": "Bir adamın sana el uzattığını söylüyorsun. Boşluğa ich'in Dativ biçimini yaz.",
+   "metin": "Er gibt ___ die Hand.",
+   "dogruCevaplar": [
+    "mir"
+   ],
+   "aciklama": "geben kişiyi Dativ ile alır; ich, Dativ'de mir olur: Er gibt mir die Hand.",
+   "ipucu": "Türkçede de elin verildiği kişi -e hâlinde olur.",
+   "bicim": "bosluk",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Er gibt mir die Hand.",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d34-q04",
+   "tip": "coktan-secmeli",
+   "soru": "Lena, Mert'e çiçekleri beğenip beğenmediğini soruyor. Boşluğa uygun zamiri seç.",
+   "diyalog": [
+    {
+     "kim": "Lena",
+     "metin": "Hallo! Hier sind Blumen."
+    },
+    {
+     "kim": "Mert",
+     "metin": "Schön!"
+    },
+    {
+     "kim": "Lena",
+     "metin": "Gefallen ___ die Blumen?"
+    }
+   ],
+   "secenekler": [
+    "du",
+    "dir",
+    "dich",
+    "ihm"
+   ],
+   "dogru": 1,
+   "celdiriciNotlari": [
+    "`du` Nominativ'dir; burada Dativ zamiri gerekir.",
+    "",
+    "`gefallen` Akkusativ değil Dativ ister.",
+    "`ihm` ona demektir; Lena Mert'e doğrudan soruyor."
+   ],
+   "aciklama": "gefallen kişiyi Dativ ile alır; du, Dativ'de dir olur: Gefallen dir die Blumen?",
+   "ipucu": "Beğenen kişi Türkçede de -e hâlindedir.",
+   "bicim": "diyalog",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Gefallen dir die Blumen?",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d34-q05",
+   "tip": "coktan-secmeli",
+   "soru": "Lena arkadaşı Mert'e (sen diyor) ne ikram edebileceğini soruyor. Boşluğa uygun zamiri seç.",
+   "diyalog": [
+    {
+     "kim": "Lena",
+     "metin": "Was darf ich ___ anbieten?"
+    },
+    {
+     "kim": "Mert",
+     "metin": "Einen Apfelsaft, bitte."
+    }
+   ],
+   "secenekler": [
+    "dich",
+    "mir",
+    "ihm",
+    "dir"
+   ],
+   "dogru": 3,
+   "celdiriciNotlari": [
+    "`anbieten` ile kişi Dativ olur; `dich` Akkusativ'dir.",
+    "`mir` ich'in Dativ hâlidir; ikram edilen Mert'tir.",
+    "`ihm` ona demektir; Lena Mert'le konuşuyor.",
+    ""
+   ],
+   "aciklama": "anbieten ile ikram edilen kişi Dativ'dedir; du, Dativ'de dir olur: Was darf ich dir anbieten?",
+   "ipucu": "Soruyu soran Lena, ikram edilen ise karşısındaki Mert'tir.",
+   "bicim": "diyalog",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Was darf ich dir anbieten?",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d34-q06",
+   "tip": "cumle-dizme",
+   "soru": "Kelimeleri doğru sıraya diz: Bu hoşuma gidiyor.",
+   "parcalar": [
+    "das",
+    "gefällt",
+    "mir"
+   ],
+   "dogruSiralar": [
+    [
+     "das",
+     "gefällt",
+     "mir"
+    ],
+    [
+     "mir",
+     "gefällt",
+     "das"
+    ]
+   ],
+   "aciklama": "Çekimli fiil ikinci sırada kalır; mir başa geçerse özne fiilin arkasına kayar.",
+   "ipucu": "Fiilin yeri sabittir, öznesi ile kişi zamiri yer değiştirebilir.",
+   "bicim": "siralama",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Das gefällt mir."
+  },
+  {
+   "id": "m6-d34-q07",
+   "tip": "cumle-dizme",
+   "soru": "Kelimeleri doğru sıraya diz: Seni seviyorum.",
+   "parcalar": [
+    "ich",
+    "liebe",
+    "dich"
+   ],
+   "dogruSiralar": [
+    [
+     "ich",
+     "liebe",
+     "dich"
+    ],
+    [
+     "dich",
+     "liebe",
+     "ich"
+    ]
+   ],
+   "aciklama": "Çekimli fiil ikinci sırada kalır; dich başa geçerse özne fiilin arkasına kayar.",
+   "ipucu": "Nesneyi vurgulamak istersen başa alabilirsin, fiil yine ortada kalır.",
+   "bicim": "siralama",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Ich liebe dich!"
+  },
+  {
+   "id": "m6-d34-q08",
+   "tip": "coktan-secmeli",
+   "soru": "Doktor, bir hastaya (Sie ile hitap ediyor) neyi olduğunu soruyor. Hangi cümleyi kurar?",
+   "secenekler": [
+    "Was fehlt Sie?",
+    "Was fehlt ihnen?",
+    "Was fehlt Ihnen?",
+    "Was fehlt dich?"
+   ],
+   "dogru": 2,
+   "celdiriciNotlari": [
+    "`fehlen` Dativ ister; `Sie` Akkusativ'dir.",
+    "`ihnen` küçük harfle onlara demektir; resmî hitap `Ihnen` büyük yazılır.",
+    "",
+    "`fehlen` Dativ ister; `dich` Akkusativ'dir ve resmî hitaba da uymaz."
+   ],
+   "aciklama": "fehlen kişiyi Dativ ile alır; resmî Sie, Dativ'de büyük harfli Ihnen olur: Was fehlt Ihnen?",
+   "ipucu": "Hem hâle hem de resmî hitabın yazımına dikkat et.",
+   "bicim": "senaryo",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Was fehlt Ihnen?",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d34-q09",
+   "tip": "coktan-secmeli",
+   "soru": "Bir yetkiliden (Sie ile hitap ediyorsun) kendine e-posta göndermesini rica ediyorsun. Hangi cümleyi kurarsın?",
+   "secenekler": [
+    "Bitte schicken Sie mich eine E-Mail.",
+    "Bitte schicken Sie mir eine E-Mail.",
+    "Bitte schicken Sie ihm eine E-Mail.",
+    "Bitte schicken Sie euch eine E-Mail."
+   ],
+   "dogru": 1,
+   "celdiriciNotlari": [
+    "`schicken` ile alıcı Dativ olur; `mich` Akkusativ'dir.",
+    "",
+    "`ihm` ona demektir; e-postayı kendin için istiyorsun.",
+    "`euch` size (samimi, çoğul) demektir; e-posta kendin için isteniyor."
+   ],
+   "aciklama": "schicken ile alıcı Dativ'dedir; ich, Dativ'de mir olur: Bitte schicken Sie mir eine E-Mail.",
+   "ipucu": "Kimin alacağına ve hangi hâlde olacağına bak.",
+   "bicim": "senaryo",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Bitte schicken Sie mir eine E-Mail.",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d34-q10",
+   "tip": "dinleme",
+   "soru": "Bir arkadaşın sağlık durumunu anlatıyor. Duyduğun cümleyi seç.",
+   "okunacak": "Seit gestern tut mir der Bauch weh.",
+   "mod": "sec",
+   "secenekler": [
+    "Dünden beri karnım ağrıyor.",
+    "Dünden beri başım ağrıyor.",
+    "Dünden beri onun karnı ağrıyor.",
+    "Dünden beri elim ağrıyor."
+   ],
+   "dogruCevaplar": [
+    "Dünden beri karnım ağrıyor."
+   ],
+   "aciklama": "mir bana demektir, der Bauch özne: Seit gestern tut mir der Bauch weh.",
+   "ipucu": "Ağrıyan yerin kime ait olduğunu bildiren kısa sözcüğe kulak ver.",
+   "bicim": "senaryo",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Seit gestern tut mir der Bauch weh."
+  },
+  {
+   "id": "m6-d34-q11",
+   "tip": "dogru-yanlis",
+   "soru": "Doğru mu, yanlış mı? Bir yetkiliden (Sie ile hitap ediyorsun) yardım istiyorsun:",
+   "ifade": "Können Sie mich helfen, bitte?",
+   "dogru": false,
+   "aciklama": "Yanlış. helfen kişiyi Dativ ile alır, bu yüzden mich değil mir gerekir: Können Sie mir helfen, bitte?",
+   "ipucu": "Yardım edilen kişinin hangi hâlde olması gerektiğini düşün.",
+   "bicim": "senaryo",
+   "kaynakTuru": "uyarlama",
+   "kaynakCumle": "Können Sie mir helfen, bitte?",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d34-q12",
+   "tip": "dogru-yanlis",
+   "soru": "Doğru mu, yanlış mı? Karanlıkta arkadaşına (sen diyorsun) şunu söylüyorsun:",
+   "ifade": "Ich kann dich nicht sehen.",
+   "dogru": true,
+   "aciklama": "Doğru. sehen kişiyi Akkusativ ile alır; du, Akkusativ'de dich olur: Ich kann dich nicht sehen.",
+   "ipucu": "Görülen kişi Türkçede -i hâlindedir.",
+   "bicim": "senaryo",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Ich kann dich nicht sehen.",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d34-q13",
+   "tip": "coktan-secmeli",
+   "soru": "Arkadaşlarına (ihr diyorsun) bir şey anlatman gerektiğini söylüyorsun. Boşluğa uygun zamiri seç.",
+   "metin": "Wir müssen ___ etwas erzählen!",
+   "secenekler": [
+    "uns",
+    "ihr",
+    "Ihnen",
+    "euch"
+   ],
+   "dogru": 3,
+   "celdiriciNotlari": [
+    "`uns` bizi veya bize demektir; anlatılan kişiler arkadaşların.",
+    "`ihr` Nominativ'dir; burada nesne hâli gerekir.",
+    "`Ihnen` resmî hitaptır; arkadaşlarına ihr diyorsun.",
+    ""
+   ],
+   "aciklama": "ihr zamiri hem Akkusativ hem Dativ'de euch olur: Wir müssen euch etwas erzählen!",
+   "ipucu": "Karşındaki çoğul kişilere samimi hitabın nesne biçimini düşün.",
+   "bicim": "bosluk",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Wir müssen euch etwas erzählen!",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d34-q14",
+   "tip": "eslestirme",
+   "soru": "Kişi zamirlerini Türkçe karşılıklarıyla eşleştir.",
+   "ciftler": [
+    {
+     "sol": "mich",
+     "sag": "beni"
+    },
+    {
+     "sol": "dich",
+     "sag": "seni"
+    },
+    {
+     "sol": "ihn",
+     "sag": "onu (erkek)"
+    },
+    {
+     "sol": "mir",
+     "sag": "bana"
+    },
+    {
+     "sol": "dir",
+     "sag": "sana"
+    },
+    {
+     "sol": "ihm",
+     "sag": "ona (erkek)"
+    }
+   ],
+   "aciklama": "Akkusativ zamirleri -i, Dativ zamirleri -e hâlindedir: mich beni, mir bana.",
+   "ipucu": "Önce -i ile biten Türkçe karşılıkları, sonra -a/-e ile bitenleri ayır.",
+   "bicim": "kelime",
+   "kaynakTuru": "yazildi",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d34-q15",
+   "tip": "artikel",
+   "soru": "Bu ismin artikelini seç.",
+   "isim": "Blume",
+   "dogru": "die",
+   "aciklama": "Blume dişildir: die Blume. Belirsiz hâli eine Blume, ismin yerine sie kullanılır.",
+   "ipucu": "Çiçek sözcüğünü kelime listesinde hangi artikelle bulacağına bak.",
+   "bicim": "kelime",
+   "kaynakTuru": "yazildi"
+  },
+  {
+   "id": "m6-d34-q16",
+   "tip": "bosluk-doldurma",
+   "soru": "Kardeşinin vakti olduğunu, bu yüzden bize yardım etmesi gerektiğini söylüyorsun. Boşluğa wir'in nesne biçimini yaz.",
+   "metin": "Er hat Zeit, also muss er ___ helfen.",
+   "dogruCevaplar": [
+    "uns"
+   ],
+   "aciklama": "wir, nesne hâlinde uns olur; helfen için Dativ de uns'tur: Er hat Zeit, also muss er uns helfen.",
+   "ipucu": "Bu zamirin Akkusativ ve Dativ biçimi aynıdır.",
+   "bicim": "bosluk",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Er hat Zeit, also muss er uns helfen.",
+   "glossKapali": true
+  }
+ ]
+}

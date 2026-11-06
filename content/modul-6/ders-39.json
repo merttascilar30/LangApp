@@ -1,0 +1,464 @@
+{
+ "id": "m6-d39",
+ "ders": 39,
+ "baslik": "Ayrılabilen Fiiller",
+ "videoId": "4sL0WKvKPYU",
+ "ozet": [
+  "Bazı Almanca fiiller iki parçalıdır: bir ön ek ve bir gövde. Ön ekler: an, ab, auf, ein, aus, mit, zurück. Örnekler: anrufen (aramak), anfangen (başlamak), ankommen (varmak), abfahren (kalkmak), abfliegen (uçakla kalkmak), aufhören (bitmek), einkaufen (alışveriş yapmak), ausmachen (kapatmak), anmachen (açmak), mitmachen (katılmak), zurückkommen (geri gelmek), ausziehen (çıkarmak).",
+  "Cümlede çekimli gövde ikinci sırada durur, ön ek ise cümlenin en sonuna gider: Wir fahren um zwölf Uhr ab. Der Unterricht fängt gleich an. Der Kurs hört in einer Woche auf. Ich rufe meine Mutter heute an. Meine Mutter kauft am Samstag ein. Cümleye başka bir öğe başlasa bile ön ek yine sonda kalır: Gleich fängt der Unterricht an. (fahren ve anfangen, er/sie/es ile ünlü değiştirir: fährt, fängt.)",
+  "Soru ve emir cümlelerinde de ön ek sondadır. Soru: Wann fliegst du ab? Wann kommst du zurück? Wo fährt die Straßenbahn ab? (Tramvay nereden kalkıyor? die Straßenbahn = tramvay.) Wann kommt dein Zug in Hamburg an? (Tren ne zaman varıyor? der Zug = tren.) Warum macht ihr nicht mit? Emir: Ruf ihn bitte an. Zieh die Schuhe aus! (der Schuh = ayakkabı.) Mach bitte das Licht aus! (das Licht = ışık.)",
+  "Ön ek anlamı değiştirir: anmachen açmak, ausmachen kapatmak demektir: Mach das Licht an. Mach das Licht aus. Fiili çekerken gövde zamirle uyumlu olur (ich rufe, er ruft), ön ek ise hiç değişmez ve sonda kalır. Tek parça yazmak yanlıştır: Ich anrufe meine Mutter değil, Ich rufe meine Mutter an. Çoğulda gövde -en alır: Wir rufen an. Wir kaufen ein. Ich ausmache das Licht ve Meine Mutter einkauft de yanlıştır; ön ek ayrılıp sona gitmelidir."
+ ],
+ "kelimeler": [
+  {
+   "de": "anrufen",
+   "tr": "aramak (telefon)"
+  },
+  {
+   "de": "abfahren",
+   "tr": "kalkmak"
+  },
+  {
+   "de": "abfliegen",
+   "tr": "uçakla kalkmak"
+  },
+  {
+   "de": "ankommen",
+   "tr": "varmak"
+  },
+  {
+   "de": "aufhören",
+   "tr": "bitmek"
+  },
+  {
+   "de": "anfangen",
+   "tr": "başlamak"
+  },
+  {
+   "de": "einkaufen",
+   "tr": "alışveriş yapmak"
+  },
+  {
+   "de": "ausmachen",
+   "tr": "kapatmak"
+  },
+  {
+   "de": "anmachen",
+   "tr": "açmak"
+  },
+  {
+   "de": "mitmachen",
+   "tr": "katılmak"
+  },
+  {
+   "de": "ausziehen",
+   "tr": "çıkarmak (giysi)"
+  },
+  {
+   "de": "der Schuh",
+   "tr": "ayakkabı",
+   "artikel": "der"
+  },
+  {
+   "de": "das Licht",
+   "tr": "ışık",
+   "artikel": "das"
+  },
+  {
+   "de": "der Unterricht",
+   "tr": "ders",
+   "artikel": "der"
+  },
+  {
+   "de": "die Straßenbahn",
+   "tr": "tramvay",
+   "artikel": "die"
+  }
+ ],
+ "trickler": [
+  {
+   "baslik": "Gövde ikinci sırada, ön ek sonda",
+   "metin": "Çekimli gövde ikinci sırada kalır, ön ek cümlenin sonuna gider: Wir fahren um zwölf Uhr ab. Der Kurs hört in einer Woche auf."
+  },
+  {
+   "baslik": "Soruda ve emirde de ön ek sonda",
+   "metin": "Wann fliegst du ab? Ruf ihn bitte an. Zieh die Schuhe aus! Ön ek her cümle türünde en sona gider."
+  },
+  {
+   "baslik": "an açar, aus kapatır",
+   "metin": "Aynı gövdeyle ön ek anlamı değiştirir: Mach das Licht an (aç), Mach das Licht aus (kapat)."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "m6-d39-q01",
+   "tip": "coktan-secmeli",
+   "soru": "Arkadaşına ayakkabılarını çıkarmasını söylüyorsun. Boşluğa uygun ön eki seç.",
+   "metin": "Zieh die Schuhe ___!",
+   "secenekler": [
+    "mit",
+    "aus",
+    "ein",
+    "zurück"
+   ],
+   "dogru": 1,
+   "celdiriciNotlari": [
+    "`mit` ile `mitmachen` (katılmak) gibi fiiller kurulur; çıkarmak `ausziehen`dir.",
+    "",
+    "`ein` ile `einkaufen` (alışveriş yapmak) gibi fiiller kurulur; çıkarmak `ausziehen`dir.",
+    "`zurück` geri anlamı verir; çıkarmak `ausziehen`dir."
+   ],
+   "aciklama": "Çıkarmak ausziehen fiilidir; emirde ön ek aus cümlenin sonuna gider: Zieh die Schuhe aus!",
+   "ipucu": "Özetteki ausziehen fiilinin ön ekini hatırla.",
+   "bicim": "bosluk",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Zieh die Schuhe aus!",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d39-q02",
+   "tip": "bosluk-doldurma",
+   "soru": "Kursun bir hafta sonra bittiğini söylüyorsun. Boşluğa ön eki yaz.",
+   "metin": "Der Kurs hört in einer Woche ___.",
+   "dogruCevaplar": [
+    "auf"
+   ],
+   "aciklama": "Bitmek aufhören fiilidir; ön ek auf cümlenin sonuna gider: Der Kurs hört in einer Woche auf.",
+   "ipucu": "Bitmek fiilinin ön eki cümlenin en sonunda durur.",
+   "bicim": "bosluk",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Der Kurs hört in einer Woche auf.",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d39-q03",
+   "tip": "coktan-secmeli",
+   "soru": "Lena, Peter'in bugün kursta olmadığını söylüyor. Mert, Lena'dan onu aramasını istiyor. Cümlesini tamamla.",
+   "diyalog": [
+    {
+     "kim": "Lena",
+     "metin": "Peter ist heute nicht im Kurs."
+    },
+    {
+     "kim": "Mert",
+     "metin": "Ruf ihn bitte ___."
+    }
+   ],
+   "secenekler": [
+    "an",
+    "auf",
+    "ab",
+    "mit"
+   ],
+   "dogru": 0,
+   "celdiriciNotlari": [
+    "",
+    "`auf` ile `aufhören` (bitmek) kurulur; aramak `anrufen`dir.",
+    "`ab` ile `abfahren` (kalkmak) kurulur; aramak `anrufen`dir.",
+    "`mit` ile `mitmachen` (katılmak) kurulur; aramak `anrufen`dir."
+   ],
+   "aciklama": "Aramak anrufen fiilidir; emirde ön ek an cümlenin sonuna gider: Ruf ihn bitte an.",
+   "ipucu": "Aramak fiilinin ön eki, fiilden ayrılıp sona gider.",
+   "bicim": "diyalog",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Ruf ihn bitte an.",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d39-q04",
+   "tip": "coktan-secmeli",
+   "soru": "Mert, Peter'in nerede olduğunu soruyor. Lena dersin birazdan başlayacağını söylüyor. Cümlesini tamamla.",
+   "diyalog": [
+    {
+     "kim": "Mert",
+     "metin": "Wo ist Peter?"
+    },
+    {
+     "kim": "Lena",
+     "metin": "Der Unterricht fängt gleich ___."
+    }
+   ],
+   "secenekler": [
+    "auf",
+    "aus",
+    "an",
+    "ab"
+   ],
+   "dogru": 2,
+   "celdiriciNotlari": [
+    "`auf` ile `aufhören` (bitmek) kurulur; başlamak `anfangen`dir.",
+    "`aus` ile `ausmachen` (kapatmak) kurulur; başlamak `anfangen`dir.",
+    "",
+    "`ab` ile `abfahren` (kalkmak) kurulur; başlamak `anfangen`dir."
+   ],
+   "aciklama": "Başlamak anfangen fiilidir; ön ek an cümlenin sonuna gider: Der Unterricht fängt gleich an.",
+   "ipucu": "Başlamak fiilinin ön ekini düşün.",
+   "bicim": "diyalog",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Der Unterricht fängt gleich an.",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d39-q05",
+   "tip": "cumle-dizme",
+   "soru": "Kelimeleri doğru sıraya diz: Ders birazdan başlıyor.",
+   "parcalar": [
+    "der Unterricht",
+    "fängt",
+    "gleich",
+    "an"
+   ],
+   "dogruSiralar": [
+    [
+     "der Unterricht",
+     "fängt",
+     "gleich",
+     "an"
+    ],
+    [
+     "gleich",
+     "fängt",
+     "der Unterricht",
+     "an"
+    ]
+   ],
+   "aciklama": "Çekimli fiil ikinci sırada kalır, ön ek cümlenin sonuna gider: Der Unterricht fängt gleich an.",
+   "ipucu": "Ön ek hangi sırada olursa olsun cümlenin sonunda durur.",
+   "bicim": "siralama",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Der Unterricht fängt gleich an.",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d39-q06",
+   "tip": "cumle-dizme",
+   "soru": "Kelimeleri doğru sıraya diz: Ne zaman uçakla kalkıyorsun?",
+   "parcalar": [
+    "wann",
+    "fliegst",
+    "du",
+    "ab"
+   ],
+   "dogruSiralar": [
+    [
+     "wann",
+     "fliegst",
+     "du",
+     "ab"
+    ]
+   ],
+   "aciklama": "Soru sözcüğünden sonra çekimli fiil gelir, özneden sonra ön ek cümlenin sonuna gider: Wann fliegst du ab?",
+   "ipucu": "Soru sözcüğünü başa koy ve ön eki sona bırak.",
+   "bicim": "siralama",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Wann fliegst du ab?",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d39-q07",
+   "tip": "coktan-secmeli",
+   "soru": "Arkadaşından odadaki ışığı kapatmasını istiyorsun. Hangi cümleyi kurarsın?",
+   "secenekler": [
+    "Mach bitte aus das Licht!",
+    "Mach bitte das Licht an!",
+    "Aus mach bitte das Licht!",
+    "Mach bitte das Licht aus!"
+   ],
+   "dogru": 3,
+   "celdiriciNotlari": [
+    "Ön ek `aus` cümlenin sonunda durur, `das Licht`ten önce gelmez.",
+    "`an` açmak demektir (`anmachen`); sen kapatmak istiyorsun.",
+    "Çekimli fiil `mach` başta kalır, ön ek `aus` sona gider.",
+    ""
+   ],
+   "aciklama": "Kapatmak ausmachen fiilidir; emirde mach başta kalır, ön ek aus sona gider: Mach bitte das Licht aus!",
+   "ipucu": "Hem ön ekin anlamına hem de yerine bak.",
+   "bicim": "senaryo",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Mach bitte das Licht aus!",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d39-q08",
+   "tip": "coktan-secmeli",
+   "soru": "Annenin cumartesi günü alışveriş yaptığını söylüyorsun. Hangi cümleyi kurarsın?",
+   "secenekler": [
+    "Meine Mutter einkauft am Samstag.",
+    "Meine Mutter kauft am Samstag ein.",
+    "Meine Mutter kaufen am Samstag ein.",
+    "Meine Mutter am Samstag kauft ein."
+   ],
+   "dogru": 1,
+   "celdiriciNotlari": [
+    "Ön ek `ein` gövdeden ayrılıp cümlenin sonuna gider.",
+    "",
+    "`meine Mutter` tekildir; fiil `kauft` olur, `kaufen` olmaz.",
+    "Çekimli fiil ikinci sırada kalır; `am Samstag` onun önüne giremez."
+   ],
+   "aciklama": "Özne tekil olduğu için fiil kauft olur, ön ek ein sona gider: Meine Mutter kauft am Samstag ein.",
+   "ipucu": "Hem fiilin ekine hem de ön ekin yerine dikkat et.",
+   "bicim": "senaryo",
+   "kaynakTuru": "uyarlama",
+   "kaynakCumle": "Viele Jugendliche kaufen gern ein.",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d39-q09",
+   "tip": "dinleme",
+   "soru": "Durakta biri tramvayla ilgili bir soru soruyor. Duyduğun cümleyi seç.",
+   "okunacak": "Wo fährt die Straßenbahn ab?",
+   "mod": "sec",
+   "secenekler": [
+    "Tramvay ne zaman kalkıyor?",
+    "Tren nereden kalkıyor?",
+    "Tramvay nereden kalkıyor?",
+    "Tramvay ne zaman varıyor?"
+   ],
+   "dogruCevaplar": [
+    "Tramvay nereden kalkıyor?"
+   ],
+   "aciklama": "Wo nerede demektir, abfahren kalkmak demektir: Wo fährt die Straßenbahn ab?",
+   "ipucu": "Soru sözcüğüne ve cümle sonundaki ön eke kulak ver.",
+   "bicim": "senaryo",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Wo fährt die Straßenbahn ab?"
+  },
+  {
+   "id": "m6-d39-q10",
+   "tip": "dogru-yanlis",
+   "soru": "Doğru mu, yanlış mı? Arkadaşlarına şöyle soruyorsun:",
+   "ifade": "Warum macht ihr nicht mit?",
+   "dogru": true,
+   "aciklama": "Doğru. Ön ek mit cümlenin sonunda durur: Warum macht ihr nicht mit?",
+   "ipucu": "Fiilin ve ön ekin cümledeki yerine bak.",
+   "bicim": "senaryo",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Warum macht ihr nicht mit?",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d39-q11",
+   "tip": "dogru-yanlis",
+   "soru": "Doğru mu, yanlış mı? Işığı kapattığını söylüyorsun:",
+   "ifade": "Ich ausmache das Licht.",
+   "dogru": false,
+   "aciklama": "Yanlış. Ön ek aus ayrılır ve cümlenin sonuna gider: Ich mache das Licht aus.",
+   "ipucu": "Fiilin tek parça mı yoksa iki parça mı durduğuna bak.",
+   "bicim": "senaryo",
+   "kaynakTuru": "uyarlama",
+   "kaynakCumle": "Mach bitte das Licht aus!",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d39-q12",
+   "tip": "coktan-secmeli",
+   "soru": "Arkadaşına trenin Hamburg'a ne zaman vardığını soruyorsun. Boşluğa uygun ön eki seç.",
+   "metin": "Wann kommt dein Zug in Hamburg ___?",
+   "secenekler": [
+    "ab",
+    "aus",
+    "an",
+    "mit"
+   ],
+   "dogru": 2,
+   "celdiriciNotlari": [
+    "`ab` ile `abfahren` (kalkmak) kurulur; sorudaki anlam varmaktır.",
+    "`aus` ile `ausmachen` (kapatmak) kurulur; sorudaki anlam varmaktır.",
+    "",
+    "`mit` ile `mitmachen` (katılmak) kurulur; sorudaki anlam varmaktır."
+   ],
+   "aciklama": "Varmak ankommen fiilidir; ön ek an cümlenin sonuna gider: Wann kommt dein Zug in Hamburg an?",
+   "ipucu": "Varmak fiilinin ön ekini düşün.",
+   "bicim": "bosluk",
+   "kaynakTuru": "uyarlama",
+   "kaynakCumle": "Wann kommt dieser Zug in Hamburg an?",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d39-q13",
+   "tip": "bosluk-doldurma",
+   "soru": "Arkadaşına ne zaman geri döneceğini soruyorsun. Boşluğa ön eki yaz.",
+   "metin": "Wann kommst du ___?",
+   "dogruCevaplar": [
+    "zurück"
+   ],
+   "aciklama": "Geri gelmek zurückkommen fiilidir; ön ek zurück cümlenin sonuna gider: Wann kommst du zurück?",
+   "ipucu": "Geri anlamı veren ön ek cümlenin sonuna gider.",
+   "bicim": "bosluk",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Wann kommst du zurück?",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d39-q14",
+   "tip": "coktan-secmeli",
+   "soru": "Annene bugün telefon edeceğini söylüyorsun. Hangi cümleyi kurarsın?",
+   "secenekler": [
+    "Ich rufe meine Mutter heute an.",
+    "Ich anrufe meine Mutter heute.",
+    "Ich rufen meine Mutter heute an.",
+    "Ich rufe meine Mutter heute mit."
+   ],
+   "dogru": 0,
+   "celdiriciNotlari": [
+    "",
+    "Ön ek `an` ayrılıp cümlenin sonuna gider.",
+    "`ich` ile fiil `rufe` olur, `rufen` olmaz.",
+    "`mit` katılmak gibi anlamlar verir; aramak `anrufen`dir."
+   ],
+   "aciklama": "ich ile fiil rufe olur, ön ek an sona gider: Ich rufe meine Mutter heute an.",
+   "ipucu": "Fiilin ekine ve ön ekin hem seçimine hem yerine bak.",
+   "bicim": "senaryo",
+   "kaynakTuru": "uyarlama",
+   "kaynakCumle": "Peter ruft kurz seine Freundin an.",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d39-q15",
+   "tip": "eslestirme",
+   "soru": "Almanca fiilleri Türkçe karşılıklarıyla eşleştir.",
+   "ciftler": [
+    {
+     "sol": "anrufen",
+     "sag": "aramak"
+    },
+    {
+     "sol": "abfahren",
+     "sag": "kalkmak"
+    },
+    {
+     "sol": "ankommen",
+     "sag": "varmak"
+    },
+    {
+     "sol": "aufhören",
+     "sag": "bitmek"
+    },
+    {
+     "sol": "einkaufen",
+     "sag": "alışveriş yapmak"
+    },
+    {
+     "sol": "anfangen",
+     "sag": "başlamak"
+    }
+   ],
+   "aciklama": "Bu derste ön eki ayrılan fiiller: anrufen, abfahren, ankommen, aufhören, einkaufen, anfangen.",
+   "ipucu": "Önce anlamını bildiğin fiillerden başla.",
+   "bicim": "kelime",
+   "kaynakTuru": "yazildi",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d39-q16",
+   "tip": "artikel",
+   "soru": "Bu ismin artikelini seç.",
+   "isim": "Licht",
+   "dogru": "das",
+   "aciklama": "Licht nötrdür: das Licht. Belirsiz hâli ein Licht, ismin yerine es kullanılır.",
+   "ipucu": "Işık sözcüğünü kelime listesinde hangi artikelle bulacağına bak.",
+   "bicim": "kelime",
+   "kaynakTuru": "yazildi"
+  }
+ ]
+}

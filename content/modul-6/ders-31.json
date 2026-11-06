@@ -1,0 +1,316 @@
+{
+  "id": "m6-d31",
+  "ders": 31,
+  "baslik": "Nominativ",
+  "videoId": "dcE7agmEir4",
+  "ozet": [
+    "Nominativ (yalın hâl) cümlenin öznesinin hâlidir. Özneyi bulmak için fiille birlikte Wer? (kim) veya Was? (ne) diye sorarız: Das Essen ist heute sehr gut. Was ist gut? Das Essen. Türkçedeki yalın hâl gibi, özne ek almaz. Almanca'da hâl artikelde görünür; Nominativ'de isim, kelime listesindeki artikelle kullanılır: der Preis (fiyat), die Rechnung (hesap), die Miete (kira), das Essen (yemek).",
+    "Belirsiz artikel: der ve das sözcükleri için ein, die sözcükleri için eine gelir. Das Hähnchen (tavuk) olduğu için ein Hähnchen; die Flasche (şişe) olduğu için eine Flasche; die Milch (süt) için eine Milch denir. Çoğulda tanımlı artikel her cinste die'dir (die Preise), belirsiz artikel kullanılmaz.",
+    "Fiil özneye uyar. Çoğul özneyle çoğul fiil gelir: Die Preise sind hoch. Die Geschäfte schließen um 18.30 Uhr. (hoch = yüksek, das Geschäft = mağaza, schließen = kapanmak.) Tekil özneyle tekil fiil gelir: Die Bank schließt um vier Uhr. Die Wohnung ist schon vermietet. (die Wohnung = daire, vermietet = kiraya verilmiş, der Bus = otobüs.)",
+    "Bir şeyin ne olduğunu söylerken sein fiilinden sonra gelen isim de Nominativ'dedir: Das ist ein Apfel. Das ist eine Birne. Das ist eine Tomate. (der Apfel = elma, die Birne = armut, die Tomate = domates, das Wasser = su.)"
+  ],
+  "kelimeler": [
+    { "de": "der Preis", "tr": "fiyat", "artikel": "der" },
+    { "de": "die Rechnung", "tr": "hesap, fatura", "artikel": "die" },
+    { "de": "die Miete", "tr": "kira", "artikel": "die" },
+    { "de": "das Essen", "tr": "yemek", "artikel": "das" },
+    { "de": "die Milch", "tr": "süt", "artikel": "die" },
+    { "de": "das Wasser", "tr": "su", "artikel": "das" },
+    { "de": "der Apfel", "tr": "elma", "artikel": "der" },
+    { "de": "die Birne", "tr": "armut", "artikel": "die" },
+    { "de": "die Tomate", "tr": "domates", "artikel": "die" },
+    { "de": "das Hähnchen", "tr": "tavuk", "artikel": "das" },
+    { "de": "die Flasche", "tr": "şişe", "artikel": "die" },
+    { "de": "das Geschäft", "tr": "mağaza, dükkân", "artikel": "das" },
+    { "de": "die Wohnung", "tr": "daire", "artikel": "die" }
+  ],
+  "trickler": [
+    { "baslik": "Özneyi Wer? Was? ile bul", "metin": "Fiille birlikte sor: Was ist hoch? Die Preise. Cevap özne, yani Nominativ'dir." },
+    { "baslik": "Fiil özneye uyar", "metin": "Die Preise sind hoch (çoğul). Die Bank schließt um vier Uhr (tekil). Fiilin biçimini özne belirler." },
+    { "baslik": "ein ve eine", "metin": "der ve das sözcükleri ein alır: ein Apfel, ein Hähnchen. die sözcükleri eine alır: eine Birne, eine Flasche." }
+  ],
+  "sorular": [
+    {
+      "id": "m6-d31-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Yemeğin bugün çok iyi olduğunu söylüyorsun. Boşluğa uygun artikeli seç.",
+      "metin": "___ Essen ist heute sehr gut.",
+      "secenekler": ["Der", "Die", "Das", "Eine"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`der` eril isimle gelir; `Essen` nötrdür.",
+        "`die` feminin ve çoğul isimle gelir; `Essen` nötrdür.",
+        "",
+        "`eine` feminin isimle gelir; `Essen` nötrdür."
+      ],
+      "aciklama": "Essen nötrdür ve özne olduğu için Nominativ'de das alır: Das Essen ist heute sehr gut.",
+      "ipucu": "Yemek sözcüğünün artikelini ders özetindeki listeden hatırla.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das Essen ist heute sehr gut.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d31-q02",
+      "tip": "coktan-secmeli",
+      "soru": "Bir kafede bir şişe bira istiyorsun (das Bier = bira). Boşluğa uygun artikeli seç.",
+      "metin": "___ Flasche Bier, bitte.",
+      "secenekler": ["Ein", "Eine", "Das", "Der"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`ein` eril ve nötr isimle gelir; `Flasche` feminindir.",
+        "",
+        "`das` nötr isimle gelir; `Flasche` feminindir.",
+        "`der` eril isimle gelir; `Flasche` feminindir."
+      ],
+      "aciklama": "Flasche feminindir; belirsiz artikeli eine olur: Eine Flasche Bier, bitte.",
+      "ipucu": "Şişe sözcüğünün artikelinden belirsiz artikeli türet.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Eine Flasche Bier, bitte.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d31-q03",
+      "tip": "bosluk-doldurma",
+      "soru": "Sütün buzdolabında olduğunu söylüyorsun (der Kühlschrank = buzdolabı). Boşluğa tanımlı artikeli yaz.",
+      "metin": "___ Milch steht im Kühlschrank.",
+      "dogruCevaplar": ["Die"],
+      "aciklama": "Milch feminindir ve özne olduğu için die alır: Die Milch steht im Kühlschrank.",
+      "ipucu": "Süt sözcüğünün artikelini ders özetinde ara.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Milch steht im Kühlschrank.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d31-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Lena mağazaların ne zamana kadar açık olduğunu soruyor. Mert'in cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Bis wann sind die Geschäfte geöffnet?" },
+        { "kim": "Mert", "metin": "Die Geschäfte ___ um 18.30 Uhr." }
+      ],
+      "secenekler": ["schließen", "schließt", "ist"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`schließt` tekil özneyle gelir; `Geschäfte` çoğuldur.",
+        "`ist` tekil özneyle gelir; `Geschäfte` çoğuldur."
+      ],
+      "aciklama": "Özne çoğul olduğu için fiil de çoğul olur: Die Geschäfte schließen um 18.30 Uhr.",
+      "ipucu": "Öznenin tekil mi çoğul mu olduğuna bak.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Geschäfte schließen um 18.30 Uhr.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d31-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Lena buranın pahalı olup olmadığını soruyor. Mert fiyatların yüksek olduğunu söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Ist es hier teuer?" },
+        { "kim": "Mert", "metin": "Die Preise ___ hoch." }
+      ],
+      "secenekler": ["ist", "bin", "sind", "seid"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`ist` tekil özneyle gelir; `Preise` çoğuldur.",
+        "`bin` yalnızca `ich` ile gelir.",
+        "",
+        "`seid` yalnızca `ihr` ile gelir."
+      ],
+      "aciklama": "Preise çoğul özne olduğu için sein fiili sind olur: Die Preise sind hoch.",
+      "ipucu": "Öznenin kaç tane olduğuna bak.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Preise sind hoch.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d31-q06",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Banka daha saat dörtte kapanıyor.",
+      "parcalar": ["die Bank", "schließt", "schon um vier Uhr"],
+      "dogruSiralar": [
+        ["die Bank", "schließt", "schon um vier Uhr"],
+        ["schon um vier Uhr", "schließt", "die Bank"]
+      ],
+      "aciklama": "Özne die Bank tekildir, bu yüzden fiil schließt olur: Die Bank schließt schon um vier Uhr.",
+      "ipucu": "Önce özneyi bul, sonra çekimli fiilin yerini düşün.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Bank schließt schon um vier Uhr."
+    },
+    {
+      "id": "m6-d31-q07",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Otobüs tam saat sekizde kalkıyor (fahren = gitmek, kalkmak).",
+      "parcalar": ["der Bus", "fährt", "pünktlich um acht Uhr"],
+      "dogruSiralar": [
+        ["der Bus", "fährt", "pünktlich um acht Uhr"],
+        ["pünktlich um acht Uhr", "fährt", "der Bus"]
+      ],
+      "aciklama": "Özne der Bus tekildir, bu yüzden fiil fährt olur: Der Bus fährt pünktlich um acht Uhr.",
+      "ipucu": "Wer? sorusunun cevabı özneyi verir.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Der Bus fährt pünktlich um acht Uhr."
+    },
+    {
+      "id": "m6-d31-q08",
+      "tip": "coktan-secmeli",
+      "soru": "Restoranda garsondan hesabı istiyorsun. Hangi cümleyi söylersin?",
+      "secenekler": ["Das Rechnung, bitte.", "Die Rechnung, bitte.", "Ein Rechnung, bitte."],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`Rechnung` feminindir; `das` nötr isimle gelir.",
+        "",
+        "`ein` eril ve nötr isimle gelir; feminin `Rechnung` için `eine` gerekir."
+      ],
+      "aciklama": "Rechnung feminindir ve tanımlı artikeli die olur: Die Rechnung, bitte.",
+      "ipucu": "Hesap sözcüğünün cinsine göre artikeli seç.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Rechnung, bitte.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d31-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Bir arkadaşına dairenin çoktan kiralandığını söylüyorsun (vermietet = kiraya verilmiş). Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Die Wohnung sind schon vermietet.",
+        "Der Wohnung ist schon vermietet.",
+        "Das Wohnung ist schon vermietet.",
+        "Die Wohnung ist schon vermietet."
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`Wohnung` tekildir; `sind` çoğul özneyle gelir.",
+        "`Wohnung` feminindir; Nominativ'de `der` değil `die` gelir.",
+        "`das` nötr isimle gelir; `Wohnung` feminindir.",
+        ""
+      ],
+      "aciklama": "Wohnung feminin ve tekil özne olduğu için die ve ist gelir: Die Wohnung ist schon vermietet.",
+      "ipucu": "Hem artikelin cinsine hem fiilin özneye uymasına bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Wohnung ist schon vermietet.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d31-q10",
+      "tip": "dinleme",
+      "soru": "Bir arkadaşın yemek hakkında ne düşündüğünü söylüyor. Duyduğun cümleyi seç.",
+      "okunacak": "Das Essen ist heute sehr gut.",
+      "mod": "sec",
+      "secenekler": [
+        "Yemek bugün çok iyi.",
+        "Yemek bugün çok pahalı.",
+        "Mağaza bugün çok iyi.",
+        "Süt bugün çok iyi."
+      ],
+      "dogruCevaplar": ["Yemek bugün çok iyi."],
+      "aciklama": "Das Essen yemek demektir ve cümlenin öznesidir: Das Essen ist heute sehr gut.",
+      "ipucu": "Cümlenin öznesi olan ismi duymaya çalış.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Das Essen ist heute sehr gut."
+    },
+    {
+      "id": "m6-d31-q11",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Sebze tezgâhında domates için şöyle diyorsun (grün = yeşil):",
+      "ifade": "Die Tomate ist noch grün.",
+      "dogru": true,
+      "aciklama": "Doğru. Tomate feminindir ve tekil özneyle ist gelir: Die Tomate ist noch grün.",
+      "ipucu": "Artikelin cinsine ve fiilin özneyle uyumuna bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Tomate ist noch grün.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d31-q12",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Lokantada tavuk ve patates kızartması istiyorsun (Pommes = patates kızartması):",
+      "ifade": "Eine Hähnchen mit Pommes, bitte!",
+      "dogru": false,
+      "aciklama": "Yanlış. Hähnchen nötrdür, belirsiz artikeli ein olur: Ein Hähnchen mit Pommes, bitte!",
+      "ipucu": "Tavuk sözcüğünün artikelinden belirsiz artikeli türet.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ein Hähnchen mit Pommes bitte!",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d31-q13",
+      "tip": "coktan-secmeli",
+      "soru": "Arkadaşın pencereden bakıp \"Die Kinder spielen draußen\" diyor (draußen = dışarıda). Wer spielt draußen? Öznenin hangisi olduğunu seç.",
+      "secenekler": ["Die Kinder", "spielen", "draußen"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`spielen` fiildir; özne değildir.",
+        "`draußen` yeri söyler; özne değildir."
+      ],
+      "aciklama": "Wer? sorusunun cevabı özne ve Nominativ'dir: Die Kinder spielen draußen.",
+      "ipucu": "Wer? sorusunun cevabını ara.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Die Kinder spielen draußen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d31-q14",
+      "tip": "eslestirme",
+      "soru": "Almanca yiyecek ve içecek sözcüklerini Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        { "sol": "Apfel", "sag": "elma" },
+        { "sol": "Birne", "sag": "armut" },
+        { "sol": "Tomate", "sag": "domates" },
+        { "sol": "Milch", "sag": "süt" },
+        { "sol": "Wasser", "sag": "su" },
+        { "sol": "Flasche", "sag": "şişe" }
+      ],
+      "aciklama": "Bu sözcükler Nominativ'de özne olabilir: der Apfel, die Birne, die Tomate, die Milch, das Wasser, die Flasche.",
+      "ipucu": "Önce meyveleri, sonra içecekle ilgili sözcükleri ayır.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d31-q15",
+      "tip": "artikel",
+      "soru": "Bu ismin artikelini seç.",
+      "isim": "Preis",
+      "dogru": "der",
+      "aciklama": "Preis maskulindir: der Preis. Belirsiz hâli ein Preis olur.",
+      "ipucu": "Fiyat sözcüğünü ders özetindeki listede bul.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    },
+    {
+      "id": "m6-d31-q16",
+      "tip": "coktan-secmeli",
+      "soru": "Bir dairenin kirasını söylüyorsun (die Miete = kira). Boşluğa uygun fiili seç.",
+      "metin": "Die Miete für diese Wohnung ___ 600 Euro.",
+      "secenekler": ["ist", "sind", "bin", "bist"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`sind` çoğul özneyle gelir; özne `Miete` tekildir.",
+        "`bin` yalnızca `ich` ile gelir.",
+        "`bist` yalnızca `du` ile gelir."
+      ],
+      "aciklama": "Özne Miete tekildir, für diese Wohnung özne değildir: Die Miete für diese Wohnung ist 600 Euro.",
+      "ipucu": "Wer? veya Was? diye sorup tekil mi çoğul mu olduğuna bak.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Die Miete für diese Wohnung ist 600 Euro.",
+      "glossKapali": true
+    }
+  ]
+}
