@@ -1,0 +1,460 @@
+{
+  "id": "m7-d51",
+  "ders": 51,
+  "baslik": "Imperativ",
+  "videoId": "AKaMrHyEfoc",
+  "ozet": [
+    "Imperativ (emir kipi) rica etmek, uyarmak veya yönlendirmek için kullanılır. Fiil cümlenin başına geçer ve hitap ettiğin kişiye göre üç biçim vardır: Sie, du ve ihr. Kibarlık için bitte eklenir.",
+    "Sie ile emir: fiilin mastar biçimi + Sie. Sie fiilden sonra gelir ve büyük yazılır. Örnek: Hören Sie die Ansagen. Schicken Sie uns einfach ein Fax! Stellen Sie die Tasche in die Ecke. Fragen Sie bitte an der Rezeption. Bringen Sie mir bitte noch einen Kaffee!",
+    "du ile emir: fiilin kökü kullanılır; -st eki ve du yazılmaz (du kommst: Komm! du bringst: Bring!). kommen: Komm! machen: Mach! bringen: Bring! schicken: Schick! stellen: Stell! (du stellst: Stell!) fragen: Frag! (du fragst: Frag!) gehen: Geh! holen: Hol! Türkçedeki Gel! gibi kökten oluşur. Kök -t veya -d ile bitiyorsa -e kalır: Warte bitte eine Sekunde! ihr ile emir: ihr çekimi kullanılır, ihr yazılmaz: Kommt! Bringt! Geht! Holt! Schickt! Stellt! Fragt! Macht bitte das Licht an!",
+    "e değişen fiillerde du emri de değişir: nehmen: Nimm! (Nehm! diye bir biçim yoktur.) geben: Gib! lesen: Lies! sprechen: Sprich! fahren değişmez: Fahr!",
+    "Ayrılabilen fiillerde ön ek cümlenin sonuna gider: anmachen: Mach das Licht an! anrufen: Ruf ihn an! ausziehen: Zieh die Schuhe aus! ausfüllen: Füllen Sie das Formular aus."
+  ],
+  "kelimeler": [
+    {
+      "de": "anmachen",
+      "tr": "açmak (ışık, cihaz)"
+    },
+    {
+      "de": "ausmachen",
+      "tr": "kapatmak (ışık, cihaz)"
+    },
+    {
+      "de": "ausfüllen",
+      "tr": "doldurmak (form)"
+    },
+    {
+      "de": "ausziehen",
+      "tr": "çıkarmak, soyunmak"
+    },
+    {
+      "de": "bringen",
+      "tr": "getirmek, götürmek"
+    },
+    {
+      "de": "legen",
+      "tr": "yatırmak, koymak"
+    },
+    {
+      "de": "holen",
+      "tr": "getirmek, çağırmak"
+    },
+    {
+      "de": "warten",
+      "tr": "beklemek"
+    },
+    {
+      "de": "nehmen",
+      "tr": "almak"
+    },
+    {
+      "de": "die Polizei",
+      "tr": "polis",
+      "artikel": "die"
+    },
+    {
+      "de": "die Ansage",
+      "tr": "anons, duyuru",
+      "artikel": "die"
+    },
+    {
+      "de": "das Formular",
+      "tr": "form",
+      "artikel": "das"
+    },
+    {
+      "de": "das Licht",
+      "tr": "ışık",
+      "artikel": "das"
+    },
+    {
+      "de": "die Sekunde",
+      "tr": "saniye",
+      "artikel": "die"
+    },
+    {
+      "de": "der Schalter",
+      "tr": "gişe",
+      "artikel": "der"
+    }
+  ],
+  "trickler": [
+    {
+      "baslik": "du emri: kök, -st ve du yok",
+      "metin": "Arkadaşına söylerken fiilin kökünü kullan: kommen: Komm! machen: Mach! Kök -t ile bitiyorsa -e kalır: Warte! Bu Türkçedeki Gel! gibi çalışır."
+    },
+    {
+      "baslik": "Sie emri: fiil + Sie",
+      "metin": "Resmî hitapta fiil mastar biçiminde başa gelir, Sie hemen arkasından gelir: Gehen Sie bitte zum Schalter drei!"
+    },
+    {
+      "baslik": "Ön ek sona gider",
+      "metin": "Ayrılabilen fiillerin ön eki cümlenin sonuna atlar: Mach das Licht an! Zieh die Schuhe aus! Füllen Sie das Formular aus."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m7-d51-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Oda karanlık ve arkadaşından ışığı açmasını istiyorsun. Boşluğa uygun ön eki seç.",
+      "metin": "Mach bitte das Licht ___!",
+      "secenekler": [
+        "aus",
+        "an",
+        "ab",
+        "mit"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`aus` kapatmak demektir; oda karanlık, ışık açılmalı.",
+        "",
+        "`ab` bu fiille kullanılmaz; ışığı açmak için `an` gerekir.",
+        "`mit` bu fiille kullanılmaz; ışığı açmak için `an` gerekir."
+      ],
+      "aciklama": "Işığı açmak anmachen'dir; ön ek sona gider: Mach bitte das Licht an!",
+      "ipucu": "Karanlıkta ışıkla ne yapılması gerektiğini düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Mach bitte das Licht an!",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d51-q02",
+      "tip": "bosluk-doldurma",
+      "soru": "Bir müşteriye resmî hitapla (Sie) formu doldurmasını söylüyorsun. Boşluğa fiilin ön ekini yaz.",
+      "metin": "Füllen Sie bitte dieses Formular ___.",
+      "dogruCevaplar": [
+        "aus"
+      ],
+      "aciklama": "Formu doldurmak ausfüllen'dir; ön ek sona gider: Füllen Sie bitte dieses Formular aus.",
+      "ipucu": "Ayrılabilen fiilin ön eki cümlenin neresine gidiyordu, hatırla.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Füllen Sie bitte dieses Formular aus."
+    },
+    {
+      "id": "m7-d51-q03",
+      "tip": "coktan-secmeli",
+      "soru": "Arkadaşından (du) bir saniye beklemesini istiyorsun. Boşluğa uygun emir biçimini seç.",
+      "metin": "___ bitte eine Sekunde!",
+      "secenekler": [
+        "Warte",
+        "Wartest",
+        "Warten",
+        "Wartet"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`Wartest` du çekimidir; emirde `-st` eki ve `du` yazılmaz.",
+        "`Warten` `Sie` ile gelir; tek arkadaşa söylerken kök kullanılır.",
+        "`Wartet` ihr biçimidir; birden çok kişiye söylenir, tek kişiye değil."
+      ],
+      "aciklama": "du ile emirde kök kullanılır; kök -t ile bittiği için -e kalır: Warte bitte eine Sekunde!",
+      "ipucu": "Tek bir kişiye söylenen emirde fiilin hangi biçimi kullanılır, düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Warte bitte eine Sekunde!"
+    },
+    {
+      "id": "m7-d51-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Bir kafede garsona resmî hitapla (Sie) bir kahve daha istiyorsun. Cümleni tamamla.",
+      "diyalog": [
+        {
+          "kim": "Kellnerin",
+          "metin": "Ja, bitte?"
+        },
+        {
+          "kim": "Gast",
+          "metin": "___ Sie mir bitte noch einen Kaffee!"
+        }
+      ],
+      "secenekler": [
+        "Bring",
+        "Bringst",
+        "Bringen",
+        "Bringt"
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`Bring` du emridir; `Sie` ile fiilin mastar biçimi gelir.",
+        "`Bringst` du çekimidir; `Sie` ile `Bringen` kullanılır.",
+        "",
+        "`Bringt` ihr biçimidir; `Sie` ile mastar biçimi kullanılır."
+      ],
+      "aciklama": "Sie emri fiilin mastar biçimi ve Sie'den oluşur: Bringen Sie mir bitte noch einen Kaffee!",
+      "ipucu": "Boşluktan sonra gelen zamire göre fiili seç.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Bringen Sie mir bitte noch einen Kaffee!"
+    },
+    {
+      "id": "m7-d51-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Mert evine gelen Lena'dan (du) ayakkabılarını çıkarmasını istiyor. Cümleyi tamamla.",
+      "diyalog": [
+        {
+          "kim": "Lena",
+          "metin": "Hallo Mert, ich bin da."
+        },
+        {
+          "kim": "Mert",
+          "metin": "Zieh die Schuhe ___, bitte!"
+        }
+      ],
+      "secenekler": [
+        "an",
+        "aus",
+        "mit",
+        "zu"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`anziehen` giymek demektir; burada ayakkabılar çıkarılıyor.",
+        "",
+        "`mit` ile ayakkabıyı çıkarmak anlatılmaz; bunun için `aus` gerekir.",
+        "`zu` ile ayakkabıyı çıkarmak anlatılmaz; bunun için `aus` gerekir."
+      ],
+      "aciklama": "Çıkarmak ausziehen'dir; ön ek sona gider: Zieh die Schuhe aus, bitte!",
+      "ipucu": "Ayakkabıların giyilmesi değil, çıkarılması isteniyor.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Zieh die Schuhe aus, bitte!",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d51-q06",
+      "tip": "coktan-secmeli",
+      "soru": "Havalimanında bir görevli yolcuya resmî hitapla (Sie) üç numaralı gişeye gitmesini söylüyor. Cümleyi tamamla.",
+      "diyalog": [
+        {
+          "kim": "Reisender",
+          "metin": "Guten Tag, ich suche meine Fahrkarte."
+        },
+        {
+          "kim": "Beamter",
+          "metin": "___ Sie bitte zum Schalter drei!"
+        }
+      ],
+      "secenekler": [
+        "Geh",
+        "Gehst",
+        "Geht",
+        "Gehen"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`Geh` du emridir; `Sie` ile mastar biçimi gelir.",
+        "`Gehst` du çekimidir; `Sie` ile `Gehen` kullanılır.",
+        "`Geht` ihr biçimidir; `Sie` ile mastar biçimi kullanılır.",
+        ""
+      ],
+      "aciklama": "Sie emri fiilin mastar biçimi ve Sie'den oluşur: Gehen Sie bitte zum Schalter drei!",
+      "ipucu": "Görevli yolcuya resmî konuşuyor; fiil Sie ile uyumlu olmalı.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Gehen Sie bitte zum Schalter drei!"
+    },
+    {
+      "id": "m7-d51-q07",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Anonsları dinleyin (Sie).",
+      "parcalar": [
+        "die Ansagen",
+        "Hören",
+        "Sie"
+      ],
+      "dogruSiralar": [
+        [
+          "Hören",
+          "Sie",
+          "die Ansagen"
+        ]
+      ],
+      "aciklama": "Sie emrinde fiil başa gelir, Sie hemen arkasından gelir: Hören Sie die Ansagen.",
+      "ipucu": "Emir cümlesinde hangi parçanın başa geçtiğini düşün.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Hören Sie die Ansagen."
+    },
+    {
+      "id": "m7-d51-q08",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Formu doldurun (Sie).",
+      "parcalar": [
+        "aus",
+        "Füllen",
+        "das Formular",
+        "Sie"
+      ],
+      "dogruSiralar": [
+        [
+          "Füllen",
+          "Sie",
+          "das Formular",
+          "aus"
+        ]
+      ],
+      "aciklama": "Fiil ve Sie başta, ayrılabilen fiilin ön eki sondadır: Füllen Sie das Formular aus.",
+      "ipucu": "Ayrılabilen fiilin iki parçasının cümlede nerelerde durduğunu düşün.",
+      "bicim": "siralama",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Füllen Sie bitte dieses Formular aus."
+    },
+    {
+      "id": "m7-d51-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Sokakta bir kaza gördün ve yanındaki yabancıya resmî hitapla (Sie) polisi çağırmasını söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Holen Sie die Polizei!",
+        "Holen die Polizei!",
+        "Holt Sie die Polizei!",
+        "Hol Sie die Polizei!"
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`Sie` eksik; resmî emirde fiilin arkasında `Sie` bulunur.",
+        "`Holt` ihr biçimidir; `Sie` ile mastar biçimi `Holen` gelir.",
+        "`Hol` du emridir; `Sie` ile birlikte kullanılmaz."
+      ],
+      "aciklama": "Sie emri mastar biçimi ve Sie'den oluşur: Holen Sie die Polizei!",
+      "ipucu": "Resmî hitapta fiilden sonra ne geliyordu, hatırla.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Holen Sie die Polizei!"
+    },
+    {
+      "id": "m7-d51-q10",
+      "tip": "coktan-secmeli",
+      "soru": "Yakın arkadaşına (tek kişi, du) sinemaya birlikte gitmeyi öneriyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Kommst, wir gehen ins Kino.",
+        "Kommt, wir gehen ins Kino.",
+        "Komm, wir gehen ins Kino.",
+        "Kommen, wir gehen ins Kino."
+      ],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`Kommst` du çekimidir; emirde `-st` eki düşer.",
+        "`Kommt` ihr biçimidir; birden çok kişiye söylenir.",
+        "",
+        "`Kommen` `Sie` ile gelir; tek arkadaşa söylerken kök kullanılır."
+      ],
+      "aciklama": "du ile emirde kök kullanılır: Komm, wir gehen ins Kino.",
+      "ipucu": "Tek bir arkadaşa seslenirken fiile hangi ek gelmez, düşün.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Komm, wir gehen ins Kino."
+    },
+    {
+      "id": "m7-d51-q11",
+      "tip": "coktan-secmeli",
+      "soru": "Odadaki iki çocuğa (ihr) ışığı açmalarını söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Mach bitte das Licht an!",
+        "Macht bitte das Licht an!",
+        "Machen bitte das Licht an!",
+        "Machst bitte das Licht an!"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`Mach` du emridir; iki çocuğa söylerken ihr biçimi gerekir.",
+        "",
+        "`Machen` `Sie` ile gelir; çocuklara `ihr` biçimi söylenir.",
+        "`Machst` du çekimidir; emirde `-st` eki yoktur ve burada ihr gerekir."
+      ],
+      "aciklama": "ihr ile emirde ihr çekimi kullanılır, ihr yazılmaz: Macht bitte das Licht an!",
+      "ipucu": "Birden çok kişiye söylenen emirde fiil -t ile biter.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Mach bitte das Licht an!",
+      "glossKapali": true
+    },
+    {
+      "id": "m7-d51-q12",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Arkadaşına (du) metnin ikinci bölümünü de okumasını söylüyorsun:",
+      "ifade": "Lese bitte auch den zweiten Teil.",
+      "dogru": false,
+      "aciklama": "Yanlış. lesen fiilinde du emri Lies'tir: Lies bitte auch den zweiten Teil.",
+      "ipucu": "Fiilin kökündeki ünlüye dikkat et.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Lies bitte auch den zweiten Teil."
+    },
+    {
+      "id": "m7-d51-q13",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Arkadaşına ayakkabılarını çıkarmasını söylüyorsun:",
+      "ifade": "Zieh aus die Schuhe, bitte!",
+      "dogru": false,
+      "aciklama": "Yanlış. Ayrılabilen fiilin ön eki sona gider: Zieh die Schuhe aus, bitte!",
+      "ipucu": "Ön ekin cümledeki yerine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Zieh die Schuhe aus, bitte!"
+    },
+    {
+      "id": "m7-d51-q14",
+      "tip": "dinleme",
+      "soru": "Bir görevli sana bir şey söylüyor. Duyduğun cümleyi seç.",
+      "okunacak": "Legen Sie das Buch auf den Tisch.",
+      "mod": "sec",
+      "secenekler": [
+        "Kitabı masanın üstüne koyun.",
+        "Kitabı masadan alın.",
+        "Kitabı bana verin.",
+        "Kitabı okuyun."
+      ],
+      "dogruCevaplar": [
+        "Kitabı masanın üstüne koyun."
+      ],
+      "aciklama": "legen koymak demektir; auf den Tisch masanın üstüne anlamına gelir: Legen Sie das Buch auf den Tisch.",
+      "ipucu": "Fiile ve kitabın nereye gittiğine kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Legen Sie das Buch auf den Tisch."
+    },
+    {
+      "id": "m7-d51-q15",
+      "tip": "coktan-secmeli",
+      "soru": "Yolculuk için arkadaşına (du) yanına biraz ekmek almasını söylüyorsun. Boşluğa uygun emir biçimini seç.",
+      "metin": "___ noch ein paar Brote für die Fahrt mit.",
+      "secenekler": [
+        "Nehm",
+        "Nimmst",
+        "Nehmen",
+        "Nimm"
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`nehmen` fiilinde du emri `Nimm`'dir; kökteki ünlü değişir.",
+        "`Nimmst` du çekimidir; emirde `-st` eki ve `du` yazılmaz.",
+        "`Nehmen` `Sie` ile gelir; tek arkadaşa söylerken du emri gerekir.",
+        ""
+      ],
+      "aciklama": "nehmen fiilinde du emri Nimm'dir: Nimm noch ein paar Brote für die Fahrt mit.",
+      "ipucu": "Bu fiilde kökteki ünlü değişiyor.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Nimm noch ein paar Brote für die Fahrt mit."
+    },
+    {
+      "id": "m7-d51-q16",
+      "tip": "bosluk-doldurma",
+      "soru": "Kasada bir müşteriye resmî hitapla (Sie) ödeme yapmasını söylüyorsun. Boşluğa zamiri yaz.",
+      "metin": "Zahlen ___ bitte an der Kasse.",
+      "dogruCevaplar": [
+        "Sie"
+      ],
+      "harfDuyarli": true,
+      "aciklama": "Resmî emirde fiilden sonra Sie gelir: Zahlen Sie bitte an der Kasse.",
+      "ipucu": "Resmî hitapta fiilin hemen arkasına gelen zamiri düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Zahlen Sie bitte an der Kasse."
+    }
+  ]
+}
