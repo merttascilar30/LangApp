@@ -82,7 +82,7 @@
       "ipucu": "Kız kardeşin yerine o anlamındaki zamiri düşün.",
       "bicim": "bosluk",
       "kaynakTuru": "uyarlama",
-      "kaynakCumle": "Sprichst du Finnisch?",
+      "kaynakCumle": "Wir sprechen gerade über Paul. Da kommt er ja gerade.",
       "glossKapali": true
     },
     {
@@ -111,10 +111,10 @@
     {
       "id": "m4-d24-q05",
       "tip": "coktan-secmeli",
-      "soru": "Lena Anna'nın Fince konuşup konuşmadığını soruyor. Mert evet diyor. Cümlesini tamamla.",
+      "soru": "Lena Anna'nın Finlandiya'dan gelip gelmediğini soruyor. Mert evet diyor ve Anna'nın Fince konuştuğunu ekliyor. Cümlesini tamamla.",
       "diyalog": [
-        { "kim": "Lena", "metin": "Und Anna? Spricht sie Finnisch?" },
-        { "kim": "Mert", "metin": "Ja, sie ___ Finnisch." }
+        { "kim": "Lena", "metin": "Und Anna? Kommt sie aus Finnland?" },
+        { "kim": "Mert", "metin": "Ja, und sie ___ Finnisch." }
       ],
       "secenekler": ["sprichst", "spreche", "sprechen", "spricht"],
       "dogru": 3,
@@ -124,11 +124,11 @@
         "`sprechen` çoğul özneyle gelir; Lena'nın sorusunda tek kişi Anna var.",
         ""
       ],
-      "aciklama": "Anna tek kişidir, özne sie olur ve sprechen ünlüyü değiştirip -t alır: Ja, sie spricht Finnisch.",
-      "ipucu": "Lena'nın sorusundaki fiil biçimi sana yol gösterir.",
+      "aciklama": "Anna tek kişidir, özne sie olur ve sprechen ünlüyü değiştirip -t alır: Ja, und sie spricht Finnisch.",
+      "ipucu": "Anna tek kişi; onun yerine geçen zamire göre fiili çek.",
       "bicim": "diyalog",
       "kaynakTuru": "uyarlama",
-      "kaynakCumle": "Wir sprechen gerade über Paul. Da kommt er ja gerade.",
+      "kaynakCumle": "Sprichst du Finnisch?",
       "glossKapali": true
     },
     {
