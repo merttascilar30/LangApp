@@ -1,0 +1,328 @@
+{
+  "id": "m6-d36",
+  "ders": 36,
+  "baslik": "sein / ihr",
+  "videoId": "0kkIRL73yh0",
+  "ozet": [
+    "sein (onun) ve ihr (onun) da mein ve dein gibi isimden önce gelir. Hangisinin seçileceğini sahip belirler: sahip erkek (veya nötr) ise sein, kadın ise ihr. Türkçede onun erkek için de kadın için de aynıdır; Almancada ayrım sahibin cinsiyetine göre yapılır: Peter seine Freundin (Peter'in kız arkadaşı), Frau Weber ihr Sohn (Bayan Weber'in oğlu). Eki ise sahip olunan isim ve hâl belirler; sein ve ihr, mein ile aynı ekleri alır.",
+    "Nominativ'de eril ve nötr isimlerle sein/ihr, dişil ve çoğul isimlerle seine/ihre gelir: Das ist Frau Weber. Das ist ihr Sohn. Büyük yazılan Ihr/Ihre resmî sizin anlamındadır: Wie ist Ihre Postleitzahl? (die Postleitzahl = posta kodu.) Hier fehlt noch Ihre Unterschrift. (die Unterschrift = imza.) Cümle ortasında büyük Ihr sizin, küçük ihr ise bu derste onun (kadın) demektir.",
+    "Akkusativ'de yalnızca eril değişir: sein olur seinen, ihr olur ihren, Ihr olur Ihren. Peter ruft kurz seine Freundin an. (anrufen = aramak, Akkusativ ister; die Freundin = kız arkadaş.) Frau Weber ruft ihren Sohn an. Können Sie mir seine Adresse sagen? (Adresini bana söyleyebilir misiniz? die Adresse = adres, sagen = söylemek.) Können Sie mir Ihre Nummer geben? (Numaranızı bana verebilir misiniz? die Nummer = numara.) Adresinizi, numaranızı gibi -iniz ekleri resmî Ihre sözcüğüne karşılık gelir. Ich habe Ihre E-Mail nicht bekommen. (die E-Mail = e-posta.)",
+    "Dativ'de eril ve nötr seinem/ihrem/Ihrem, dişil seiner/ihrer/Ihrer, çoğul seinen/ihren/Ihren olur. in (nerede?), bei ve von Dativ ister: Herr Müller ist in seinem Zimmer. (das Zimmer = oda.) Sie lebt bei ihrer Schwester. Bitte schicken Sie mir einen Prospekt von Ihrem Hotel. (der Prospekt = broşür.)",
+    "Özet tablo (sein; ihr ve Ihr de aynı ekleri alır). Eril: sein, seinen, seinem. Nötr: sein, sein, seinem. Dişil: seine, seine, seiner. Çoğul: seine, seine, seinen. Sıra: Nominativ, Akkusativ, Dativ."
+  ],
+  "kelimeler": [
+    { "de": "sein", "tr": "onun (erkek/nötr sahip)" },
+    { "de": "ihr", "tr": "onun (kadın sahip)" },
+    { "de": "das Zimmer", "tr": "oda", "artikel": "das" },
+    { "de": "die Adresse", "tr": "adres", "artikel": "die" },
+    { "de": "sagen", "tr": "söylemek" },
+    { "de": "die Freundin", "tr": "kız arkadaş", "artikel": "die" },
+    { "de": "anrufen", "tr": "aramak (telefonla)" },
+    { "de": "die Postleitzahl", "tr": "posta kodu", "artikel": "die" },
+    { "de": "die Nummer", "tr": "numara", "artikel": "die" },
+    { "de": "die Unterschrift", "tr": "imza", "artikel": "die" },
+    { "de": "die E-Mail", "tr": "e-posta", "artikel": "die" },
+    { "de": "der Prospekt", "tr": "broşür", "artikel": "der" }
+  ],
+  "trickler": [
+    {
+      "baslik": "Önce sahibe bak: sein mi, ihr mı?",
+      "metin": "Sahip erkekse sein, kadınsa ihr gelir: Peter seine Freundin, Frau Weber ihren Sohn. Türkçede ikisi de onun'dur, ama Almancada sahibin cinsiyeti seçimi belirler."
+    },
+    {
+      "baslik": "Ek mein ile aynı",
+      "metin": "Eki isim belirler: Akkusativ'de yalnız eril değişir (seinen, ihren). Dativ'de -em, -er, -en gelir (seinem, ihrer, seinen). Mein'deki ekleri burada da kullan."
+    },
+    {
+      "baslik": "Ihr büyük, ihr küçük",
+      "metin": "Cümle ortasında büyük Ihr resmî sizin demektir: Ihre Nummer. Küçük ihr bu derste onun (kadın) demektir: ihre Schwester."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m6-d36-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Bay Müller'in odasında olduğunu söylüyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Herr Müller ist in ___ Zimmer.",
+      "secenekler": ["sein", "seine", "seinen", "seinem"],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`sein` eril ve nötr Nominativ biçimidir; `in` ile nerede? sorusunda Dativ gerekir.",
+        "`seine` dişil ve çoğul isimlerle gelir; `das Zimmer` nötrdür.",
+        "`seinen` eril Akkusativ biçimidir; `das Zimmer` nötrdür ve burada Dativ gerekir.",
+        ""
+      ],
+      "aciklama": "Zimmer nötrdür ve in ile nerede? sorusunda Dativ'dedir; sahip erkek olduğu için seinem gelir: Herr Müller ist in seinem Zimmer.",
+      "ipucu": "Önce odanın sahibine, sonra in edatının istediği hâle bak.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Herr Müller ist in seinem Zimmer.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d36-q02",
+      "tip": "coktan-secmeli",
+      "soru": "Resmî konuştuğun birine posta kodunu soruyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Wie ist ___ Postleitzahl?",
+      "secenekler": ["Ihre", "Ihr", "Ihren", "Ihrem"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`Ihr` eril ve nötr isimlerle gelir; `die Postleitzahl` dişildir.",
+        "`Ihren` eril Akkusativ biçimidir; `die Postleitzahl` dişildir ve burada özne.",
+        "`Ihrem` Dativ biçimidir; cümlede Dativ gerektiren bir şey yok."
+      ],
+      "aciklama": "Postleitzahl dişildir ve burada Nominativ'dedir; dişil Nominativ'de Ihre gelir: Wie ist Ihre Postleitzahl?",
+      "ipucu": "Posta kodunun artikelini ve cümledeki görevini düşün.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wie ist Ihre Postleitzahl?",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d36-q03",
+      "tip": "bosluk-doldurma",
+      "soru": "Bir kadın hakkında, kız kardeşinin yanında yaşadığını söylüyorsun. Boşluğa uygun iyelik sözcüğünü yaz.",
+      "metin": "Sie lebt bei ___ Schwester.",
+      "dogruCevaplar": ["ihrer"],
+      "aciklama": "Sahip kadın olduğu için ihr gelir; bei Dativ ister ve Schwester dişildir, bu yüzden ihrer olur: Sie lebt bei ihrer Schwester.",
+      "ipucu": "Hem sahibin cinsiyetine hem de edatın istediği hâle bak.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Sie lebt bei ihrer Schwester.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d36-q04",
+      "tip": "bosluk-doldurma",
+      "soru": "Resmî konuştuğun kişiye formda imzasının eksik olduğunu söylüyorsun. Boşluğa uygun iyelik sözcüğünü yaz.",
+      "metin": "Hier fehlt noch ___ Unterschrift.",
+      "dogruCevaplar": ["Ihre"],
+      "harfDuyarli": true,
+      "aciklama": "Resmî sizin için büyük yazılan Ihr kullanılır; Unterschrift dişil ve özne olduğu için Ihre gelir: Hier fehlt noch Ihre Unterschrift.",
+      "ipucu": "Muhatabına resmî hitap ediyorsun, bu yüzden yazımına dikkat et.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Hier fehlt noch Ihre Unterschrift.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d36-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Lena, Peter'in kimi aradığını soruyor. Mert, Peter'in kız arkadaşını aradığını söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Wen ruft Peter an?" },
+        { "kim": "Mert", "metin": "Peter ruft kurz ___ Freundin an." }
+      ],
+      "secenekler": ["sein", "seine", "seinen", "seinem"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`sein` eril ve nötr isimlerle gelir; `die Freundin` dişildir.",
+        "",
+        "`seinen` eril Akkusativ biçimidir; `die Freundin` dişildir ve Akkusativ'de değişmez.",
+        "`seinem` Dativ biçimidir; aranan kişi burada doğrudan nesnedir."
+      ],
+      "aciklama": "anrufen Akkusativ ister ve Freundin dişildir; dişil Akkusativ'de seine gelir: Peter ruft kurz seine Freundin an.",
+      "ipucu": "Hem sahibin erkek olduğuna hem de aranan kişinin cinsiyetine bak.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Peter ruft kurz seine Freundin an.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d36-q06",
+      "tip": "coktan-secmeli",
+      "soru": "Lena, Bay Müller'in burada oturduğunu söylüyor. Mert adresini rica ediyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Herr Müller wohnt hier." },
+        { "kim": "Mert", "metin": "Können Sie mir ___ Adresse sagen?" }
+      ],
+      "secenekler": ["seinen", "seinem", "seine", "sein"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`seinen` eril Akkusativ biçimidir; `die Adresse` dişildir.",
+        "`seinem` Dativ biçimidir; adres doğrudan nesnedir, kişiyi `mir` gösterir.",
+        "",
+        "`sein` eril ve nötr isimlerle gelir; `die Adresse` dişildir."
+      ],
+      "aciklama": "Adresse dişil ve doğrudan nesnedir; dişil Akkusativ'de seine gelir, mir ise kişiyi gösterir: Können Sie mir seine Adresse sagen?",
+      "ipucu": "Söylenecek şeyin cinsiyetine ve cümledeki görevine bak.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Können Sie mir seine Adresse sagen?",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d36-q07",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Bay Müller odasında.",
+      "parcalar": ["in seinem Zimmer", "Herr Müller", "ist"],
+      "dogruSiralar": [
+        ["Herr Müller", "ist", "in seinem Zimmer"],
+        ["in seinem Zimmer", "ist", "Herr Müller"]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; yer bilgisi başa geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Özne ile yer bilgisi yer değiştirebilir, fiil ise sabit kalır.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Herr Müller ist in seinem Zimmer."
+    },
+    {
+      "id": "m6-d36-q08",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Onun (kadının) kız kardeşi salı günü geliyor.",
+      "parcalar": ["am Dienstag", "ihre Schwester", "kommt"],
+      "dogruSiralar": [
+        ["ihre Schwester", "kommt", "am Dienstag"],
+        ["am Dienstag", "kommt", "ihre Schwester"]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; gün ifadesi başa geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Kız kardeş ve gün bilgisi yer değiştirebilir, ama fiilin yeri sabit kalır.",
+      "bicim": "siralama",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Meine Schwester kommt am Dienstag."
+    },
+    {
+      "id": "m6-d36-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Bir erkek hakkında, kendi anne babasının yanında yaşadığını söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Er wohnt bei seine Eltern.",
+        "Er wohnt bei ihren Eltern.",
+        "Er wohnt bei seinem Eltern.",
+        "Er wohnt bei seinen Eltern."
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`bei` Dativ ister; çoğul Dativ'de `seine` değil `seinen` gelir.",
+        "Sahip erkek olduğu için `ihren` değil `sein-` gelir.",
+        "`Eltern` çoğuldur; çoğul Dativ'de `seinem` değil `seinen` gelir.",
+        ""
+      ],
+      "aciklama": "Sahip erkek olduğu için sein, bei Dativ istediği ve Eltern çoğul olduğu için seinen gelir: Er wohnt bei seinen Eltern.",
+      "ipucu": "Sahip erkek, ismin ise çoğul olduğunu hesaba kat.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich wohne bei meinen Eltern.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d36-q10",
+      "tip": "coktan-secmeli",
+      "soru": "Bir otele resmî yazıyorsun ve otelin broşürünü göndermelerini rica ediyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Bitte schicken Sie mir einen Prospekt von Ihr Hotel.",
+        "Bitte schicken Sie mir einen Prospekt von Ihrem Hotel.",
+        "Bitte schicken Sie mir einen Prospekt von Ihre Hotel.",
+        "Bitte schicken Sie mir einen Prospekt von Ihren Hotel."
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`von` Dativ ister; nötr Dativ'de `Ihr` değil `Ihrem` gelir.",
+        "",
+        "`Ihre` dişil ve çoğul isimlerle gelir; `das Hotel` nötrdür ve `von` sonrası Dativ gerekir.",
+        "`Ihren` eril Akkusativ biçimidir; `von` sonrası Dativ gerekir."
+      ],
+      "aciklama": "von Dativ ister ve Hotel nötrdür; nötr Dativ'de Ihrem gelir: Bitte schicken Sie mir einen Prospekt von Ihrem Hotel.",
+      "ipucu": "Edatın istediği hâli ve Hotel'in cinsiyetini birlikte düşün.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Bitte schicken Sie mir einen Prospekt von Ihrem Hotel.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d36-q11",
+      "tip": "dinleme",
+      "soru": "Resmî konuştuğun biri senden bir şey rica ediyor. Duyduğun cümleyi seç.",
+      "okunacak": "Können Sie mir Ihre Nummer geben?",
+      "mod": "sec",
+      "secenekler": [
+        "Numaranızı bana verebilir misiniz?",
+        "Adresinizi bana söyleyebilir misiniz?",
+        "Adresinizi bana verebilir misiniz?",
+        "Numaranızı bana söyleyebilir misiniz?"
+      ],
+      "dogruCevaplar": ["Numaranızı bana verebilir misiniz?"],
+      "aciklama": "Nummer numara, geben vermek demektir: Können Sie mir Ihre Nummer geben?",
+      "ipucu": "İstenen şeye ve cümlenin sonundaki fiile kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Können Sie mir Ihre Nummer geben?"
+    },
+    {
+      "id": "m6-d36-q12",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Resmî konuştuğun kişiye e-postasını alamadığını söylüyorsun:",
+      "ifade": "Ich habe Ihre E-Mail nicht bekommen.",
+      "dogru": true,
+      "aciklama": "Doğru. die E-Mail dişildir ve nesnedir; dişil Akkusativ'de Ihre gelir: Ich habe Ihre E-Mail nicht bekommen.",
+      "ipucu": "E-Mail'in artikeline ve cümledeki görevine bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich habe Ihre E-Mail nicht bekommen.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d36-q13",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Peter'in kendi kız arkadaşını kısaca aradığını şöyle söylüyorsun:",
+      "ifade": "Peter ruft kurz ihre Freundin an.",
+      "dogru": false,
+      "aciklama": "Yanlış. Sahip Peter erkektir; erkek sahip için sein gelir, dişil Akkusativ'de seine olur: Peter ruft kurz seine Freundin an.",
+      "ipucu": "İyelik sözcüğünün sahibini gösterdiğini hatırla.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Peter ruft kurz seine Freundin an.",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d36-q14",
+      "tip": "coktan-secmeli",
+      "soru": "Bayan Weber'in oğlunu tanıtıyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Das ist Frau Weber. Das ist ___ Sohn.",
+      "secenekler": ["ihr", "sein", "ihre", "seine"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`sein` sahibi erkek olan isimlerle gelir; Frau Weber kadındır.",
+        "`ihre` dişil ve çoğul isimlerle gelir; `der Sohn` eriltir.",
+        "`seine` erkek sahibi gösterir ve dişil isim ister; burada sahip kadın, isim eril."
+      ],
+      "aciklama": "Sahip Frau Weber kadındır, bu yüzden ihr gelir; Sohn eril ve Nominativ'dedir, ek almaz: Das ist ihr Sohn.",
+      "ipucu": "Önce sahibin cinsiyetine, sonra Sohn'un cinsiyetine bak.",
+      "bicim": "bosluk",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d36-q15",
+      "tip": "eslestirme",
+      "soru": "Almanca sözcükleri Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        { "sol": "Zimmer", "sag": "oda" },
+        { "sol": "Adresse", "sag": "adres" },
+        { "sol": "Postleitzahl", "sag": "posta kodu" },
+        { "sol": "Nummer", "sag": "numara" },
+        { "sol": "Unterschrift", "sag": "imza" },
+        { "sol": "Freundin", "sag": "kız arkadaş" }
+      ],
+      "aciklama": "Adresse, Postleitzahl ve Nummer iletişim bilgisidir; Zimmer, Unterschrift ve Freundin ayrı gündelik sözcüklerdir.",
+      "ipucu": "Önce iletişim bilgisi olan sözcükleri ayır.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m6-d36-q16",
+      "tip": "artikel",
+      "soru": "Bu ismin artikelini seç.",
+      "isim": "Adresse",
+      "dogru": "die",
+      "aciklama": "Adresse dişildir: die Adresse. Akkusativ'de seine Adresse olur.",
+      "ipucu": "Adres sözcüğünü bu derste hangi artikelle gördüğünü hatırla.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    }
+  ]
+}
