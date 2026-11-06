@@ -96,10 +96,9 @@
       "soru": "Kelimeleri doğru sıraya diz: Kahve mi çay mı seversin?",
       "parcalar": ["magst", "du", "Kaffee", "oder Tee"],
       "dogruSiralar": [
-        ["magst", "du", "Kaffee", "oder Tee"],
-        ["du", "magst", "Kaffee", "oder Tee"]
+        ["magst", "du", "Kaffee", "oder Tee"]
       ],
-      "aciklama": "Soruda fiil başa gelir: Magst du Kaffee oder Tee? Düz cümlede özne başta durur.",
+      "aciklama": "Soruda fiil başa gelir: Magst du Kaffee oder Tee?",
       "ipucu": "Soru cümlesinde çekimli fiilin yerini düşün.",
       "bicim": "siralama",
       "kaynakTuru": "goethe",
