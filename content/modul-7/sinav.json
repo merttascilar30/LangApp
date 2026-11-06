@@ -23,6 +23,7 @@
       "bicim": "diyalog",
       "kaynakTuru": "goethe",
       "kaynakCumle": "Wollen Sie einen Kaffee trinken?",
+      "glossKapali": true,
       "sozlukEk": {
         "morgen": "sabah"
       }
@@ -62,7 +63,8 @@
       "ipucu": "Birinin evinde bulunmayı anlatan edatı ve ondan sonraki hâli düşün.",
       "bicim": "senaryo",
       "kaynakTuru": "goethe",
-      "kaynakCumle": "Du kannst bei mir übernachten."
+      "kaynakCumle": "Du kannst bei mir übernachten.",
+      "glossKapali": true
     },
     {
       "id": "m7-s-q04",
@@ -74,7 +76,8 @@
       "ipucu": "Yardımcı fiilin ve Partizip'in cümledeki yerine bak.",
       "bicim": "senaryo",
       "kaynakTuru": "uyarlama",
-      "kaynakCumle": "Wann kommt dieser Zug in Hamburg an?"
+      "kaynakCumle": "Wann kommt dieser Zug in Hamburg an?",
+      "glossKapali": true
     },
     {
       "id": "m7-s-q05",
@@ -121,14 +124,15 @@
       "celdiriciNotlari": [
         "",
         "`fahren` yer değiştirmeyi anlatır; Perfekt'te `haben` değil `sein` alır.",
-        "`Zug` eril olduğu için `mit` sonrasında `dem` gelir; `den` çoğul biçimdir.",
+        "`Zug` eril olduğu için `mit` sonrasında Dativ gerekir; `den` yalnızca Akkusativ'de eril artikeldir, Dativ'de ise yalnızca çoğulda gelir.",
         "Artikelsiz şehir adlarında yön için `zu` değil `nach` kullanılır."
       ],
       "aciklama": "Yer değiştiren fiil Perfekt'te sein alır, araç için mit + Dativ, şehir için nach kullanılır: Gestern bin ich mit dem Zug nach Berlin gefahren.",
       "ipucu": "Yardımcı fiili, araçtan sonraki artikeli ve şehir önündeki edatı birlikte kontrol et.",
       "bicim": "senaryo",
       "kaynakTuru": "uyarlama",
-      "kaynakCumle": "Ich fahre gern mit dem Zug."
+      "kaynakCumle": "Ich fahre gern mit dem Zug.",
+      "glossKapali": true
     },
     {
       "id": "m7-s-q08",
@@ -150,7 +154,8 @@
       "ipucu": "Sorunun olumsuz olduğuna ve cevabın olumlu olduğuna dikkat et.",
       "bicim": "diyalog",
       "kaynakTuru": "uyarlama",
-      "kaynakCumle": "Ist Herr Klein schon da?"
+      "kaynakCumle": "Ist Herr Klein schon da?",
+      "glossKapali": true
     },
     {
       "id": "m7-s-q09",
@@ -173,7 +178,8 @@
       "ipucu": "Resmî hitapta modal fiilin hangi çoğul biçimle çekildiğini hatırla.",
       "bicim": "senaryo",
       "kaynakTuru": "goethe",
-      "kaynakCumle": "Achtung! Das dürfen Sie nicht tun."
+      "kaynakCumle": "Achtung! Das dürfen Sie nicht tun.",
+      "glossKapali": true
     },
     {
       "id": "m7-s-q10",
@@ -181,7 +187,7 @@
       "soru": "Öğretmene ayağa kalkman gerekip gerekmediğini soruyorsun. Boşluğa ayrılabilen fiili mastar olarak yaz.",
       "metin": "Soll ich ___?",
       "dogruCevaplar": ["aufstehen"],
-      "aciklama": "Teklif sorusunda sollen başta, ana fiil mastar olarak sondadır: Soll ich aufstehen?",
+      "aciklama": "Gerekli olup olmadığını soran soruda sollen başta, ana fiil mastar olarak sondadır: Soll ich aufstehen?",
       "ipucu": "Kalkmak anlamındaki ayrılabilen fiili bütün hâliyle düşün.",
       "bicim": "bosluk",
       "kaynakTuru": "goethe",
@@ -214,6 +220,7 @@
       "bicim": "senaryo",
       "kaynakTuru": "uyarlama",
       "kaynakCumle": "Nimm noch ein paar Brote für die Fahrt mit.",
+      "glossKapali": true,
       "sozlukEk": {
         "mit": "mitnehmen fiilinin ayrılmış öneki (yanına almak)"
       }
