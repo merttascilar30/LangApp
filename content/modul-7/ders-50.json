@@ -137,7 +137,8 @@
         ["morgen", "machen", "wir", "einen Ausflug nach Heidelberg"],
         ["wir", "machen", "morgen", "einen Ausflug nach Heidelberg"],
         ["wir", "machen", "einen Ausflug nach Heidelberg", "morgen"],
-        ["einen Ausflug nach Heidelberg", "machen", "wir", "morgen"]
+        ["einen Ausflug nach Heidelberg", "machen", "wir", "morgen"],
+        ["einen Ausflug nach Heidelberg", "machen", "morgen", "wir"]
       ],
       "aciklama": "Çekimli fiil machen ikinci sırada kalır; nach Heidelberg gezi ifadesine bağlı kalır: Morgen machen wir einen Ausflug nach Heidelberg.",
       "ipucu": "Çekimli fiil hep ikinci sırada durur.",
