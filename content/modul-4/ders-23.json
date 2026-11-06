@@ -60,8 +60,8 @@
     {
       "id": "m4-d23-q02",
       "tip": "coktan-secmeli",
-      "soru": "İtalya'nın güzel bir ülke olduğunu söylüyorsun. Boşluğa uygun sözcüğü seç.",
-      "metin": "Italien ist ein schönes ___.",
+      "soru": "İtalya'nın bir ülke olduğunu söylüyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Italien ist ein ___.",
       "secenekler": ["Sprache", "Kurs", "Land"],
       "dogru": 2,
       "celdiriciNotlari": [
@@ -69,24 +69,24 @@
         "`Kurs` kurs demektir; İtalya için ülke gerekir.",
         ""
       ],
-      "aciklama": "Ülke Land'dır: Italien ist ein schönes Land.",
+      "aciklama": "Ülke Land'dır: Italien ist ein Land.",
       "ipucu": "İtalya bir dil ya da kurs değil, bir yerdir.",
       "bicim": "bosluk",
-      "kaynakTuru": "goethe",
+      "kaynakTuru": "uyarlama",
       "kaynakCumle": "Italien ist ein schönes Land.",
       "glossKapali": true
     },
     {
       "id": "m4-d23-q03",
       "tip": "bosluk-doldurma",
-      "soru": "Almanya'da iki yıldır yaşadığını söylüyorsun. Boşluğa ülkenin Almanca adını yaz.",
-      "metin": "Ich lebe seit zwei Jahren in ___.",
+      "soru": "Almanya'da yaşadığını söylüyorsun. Boşluğa ülkenin Almanca adını yaz.",
+      "metin": "Ich lebe in ___.",
       "dogruCevaplar": ["Deutschland"],
       "harfDuyarli": true,
-      "aciklama": "Almanya Deutschland'dır ve in ile kullanılır: Ich lebe seit zwei Jahren in Deutschland.",
+      "aciklama": "Almanya Deutschland'dır ve in ile kullanılır: Ich lebe in Deutschland.",
       "ipucu": "Ülke adı büyük harfle başlar ve artikel almaz.",
       "bicim": "bosluk",
-      "kaynakTuru": "goethe",
+      "kaynakTuru": "uyarlama",
       "kaynakCumle": "Ich lebe seit zwei Jahren in Deutschland.",
       "glossKapali": true
     },
