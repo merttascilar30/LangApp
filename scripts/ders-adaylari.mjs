@@ -73,6 +73,11 @@ yaz(`- Gramer: ${girdi.gramer.join('; ')}`)
 yaz(`- Arama kalıpları: ${girdi.aramaKaliplari.map((k) => '`' + k + '`').join(', ')}`)
 yaz()
 
+const hepsi = process.argv.includes('--hepsi')
+const KENDI_SINIR = 40
+const DIGER_SINIR = 20
+let digerGosterilen = 0
+let atlanan = 0
 let toplam = 0
 const sirali = [kendi, ...moduller.filter((m) => m !== kendi)]
 const ilgili = new Map()
@@ -81,18 +86,26 @@ for (const m of sirali) {
   const adaylar = topla(m)
   sayilar.push([m, adaylar.size])
   toplam += adaylar.size
-  yaz(`## Aday cümleler: ${m}${m === kendi ? ' (kendi modülü)' : ''} (${adaylar.size})`)
+  // Çıktı sınırı: kullanılmamış cümleler önce; kalan sayı açıkça yazılır.
+  const siniri = hepsi ? Infinity : m === kendi ? KENDI_SINIR : Math.max(0, DIGER_SINIR - digerGosterilen)
+  const sirali2 = [...adaylar].sort(([a], [b]) => (kullanim.has(a) ? 1 : 0) - (kullanim.has(b) ? 1 : 0))
+  const gosterilen = sirali2.slice(0, siniri)
+  if (m !== kendi) digerGosterilen += gosterilen.length
+  if (gosterilen.length === 0 && adaylar.size > 0) {
+    atlanan += adaylar.size
+    continue
+  }
+  if (adaylar.size === 0) continue
+  yaz(`## Aday cümleler: ${m}${m === kendi ? ' (kendi modülü)' : ''} (${gosterilen.length}/${adaylar.size})`)
   yaz()
-  if (adaylar.size === 0) yaz('_Aday yok._\n')
   let i = 0
-  for (const [c, e] of adaylar) {
+  for (const [c, e] of gosterilen) {
     i++
     const kul = kullanim.get(c)
-    yaz(`${i}. ${c}`)
-    yaz(`   - kelime: ${[...e.kelimeler].join(', ')} | tema: ${[...e.temalar].join('; ')}`)
-    if (kul) yaz(`   - kullanıldığı dersler: ${[...kul].join(', ')}`)
-    if (m === kendi) for (const w of e.kelimeler) ilgili.set(w, true)
+    yaz(`${i}. ${c} [${[...e.kelimeler].join(', ')}]${kul ? ` (kullanıldı: ${[...kul].map((x) => x.split('/')[1]).join(', ')})` : ''}`)
   }
+  for (const [, e] of adaylar) if (m === kendi) for (const w of e.kelimeler) ilgili.set(w, true)
+  atlanan += adaylar.size - gosterilen.length
   yaz()
 }
 
@@ -107,4 +120,5 @@ yaz()
 yaz(`## Toplam`)
 yaz()
 yaz(`Toplam aday: ${toplam} (${sayilar.map(([m, n]) => `${m}: ${n}`).join(', ')})`)
+if (atlanan > 0) yaz(`Gösterilmeyen: ${atlanan} aday. Yetmezse: node scripts/ders-adaylari.mjs ${ders} --hepsi`)
 console.log(out.join('\n'))

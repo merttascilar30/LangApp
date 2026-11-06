@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { Part, Question } from '../../src/content/schema'
+import { sozlukCakismalari } from '../helpers/icerik-kontrol'
 import {
   bankaCumleleri,
   bicimHatalari,
@@ -834,5 +835,16 @@ describe('modulKaliteHatalari (modül düzeyi kuralların bağlantısı)', () =>
     const d = { ...metinQ('d1', 'goethe', S.s0, 'heiße'), ipucu: 'bir' } as Question
     const s = { ...metinQ('s1', 'goethe', S.s1, 'kommen'), ipucu: 'iki' } as Question
     expect(modulKaliteHatalari(girdi(3, [d], [s]))).toEqual([])
+  })
+})
+
+describe('sozlukCakismalari', () => {
+  it('büyük-küçük harf farkıyla farklı anlam taşıyan anahtarları bulur', () => {
+    const h = sozlukCakismalari({ ihr: 'siz (samimi)', Ihr: 'sizin (resmî)', gut: 'iyi' })
+    expect(h).toHaveLength(1)
+    expect(h[0]).toContain('ihr')
+  })
+  it('aynı anlamlı veya çakışmayan anahtarlara hata vermez', () => {
+    expect(sozlukCakismalari({ sie: 'o; siz', Sie: 'o; siz', gut: 'iyi' })).toEqual([])
   })
 })

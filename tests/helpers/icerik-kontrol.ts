@@ -136,3 +136,15 @@ export function sinavEksikleri(moduller: readonly ModulOzeti[], harita: DersHari
 export function istisnaGerekcesizler(harita: DersHaritasi): string[] {
   return harita.dersler.filter((d) => d.istisna && !d.istisnaGerekcesi?.trim()).map((d) => `${d.modulId} ders ${d.ders}`)
 }
+
+/** Baloncuk araması harf büyüklüğüne duyarsızdır; aynı anahtara düşen farklı anlamlar yanlış baloncuk üretir. */
+export function sozlukCakismalari(girdiler: Record<string, string>): string[] {
+  const gruplar = new Map<string, string[]>()
+  for (const anahtar of Object.keys(girdiler)) {
+    const k = anahtar.toLowerCase()
+    gruplar.set(k, [...(gruplar.get(k) ?? []), anahtar])
+  }
+  return [...gruplar.entries()]
+    .filter(([, a]) => new Set(a.map((x) => girdiler[x])).size > 1)
+    .map(([k, a]) => `sözlük çakışması "${k}": ${a.map((x) => `${x}=${girdiler[x]}`).join(' / ')}`)
+}
