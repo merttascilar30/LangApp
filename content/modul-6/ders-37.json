@@ -1,0 +1,471 @@
+{
+ "id": "m6-d37",
+ "ders": 37,
+ "baslik": "unser / euer",
+ "videoId": "GvV3oqVNdcY",
+ "ozet": [
+  "unser (bizim) ve euer (sizin) de isimden önce gelir ve mein gibi ek alır. Euer, ihr (siz) ile hitap ettiğin kişilerin sahipliğini gösterir; resmî sizin için Ihr kullanılır. Nominativ'de eril ve nötr isimlerle unser/euer, dişil ve çoğul isimlerle unsere/eure gelir: Dort ist unser Haus. (das Haus = ev.) Unser Reiseführer heißt Peter. (der Reiseführer = rehber.) Unser Deutschkurs ist international. (der Deutschkurs = Almanca kursu.) Euer Kurs beginnt heute. (beginnen = başlamak, heute = bugün.) Unsere Deutschlehrerin heißt Frau Müller. (die Deutschlehrerin = Almanca öğretmeni.) Unsere Wohnung hat nur eine Dusche. (die Wohnung = daire, die Dusche = duş.) Türkçede bizim ve sizin ayrı sözcüklerdir, ek ise isme eklenir; Almancada ek iyelik sözcüğünün sonunda görünür.",
+  "Euer ek alınca ortadaki e düşer: euer olur eure, euren, eurem, eurer. Unser'de düşme olmaz: unsere, unseren, unserem, unserer. Yani Euere yanlış, Eure doğrudur. Euer Kurs beginnt heute. Eure Lehrerin kommt heute.",
+  "Akkusativ'de yalnızca eril değişir: unser olur unseren, euer olur euren. Wir brauchen unseren Reiseführer. Habt ihr euren Reiseführer? Nötr, dişil ve çoğul isimlerde Nominativ biçimi kalır: Wir haben unser Haus. Unsere Wohnung hat nur eine Dusche.",
+  "Dativ'de eril ve nötr unserem/eurem, dişil unserer/eurer, çoğul unseren/euren olur. in (nerede?), bei, von ve mit Dativ ister: In unserer Straße gibt es ein neues Lokal. (die Straße = sokak, das Lokal = lokanta, es gibt = var.) In unserer Klasse sind fünfundzwanzig Schüler. (die Klasse = sınıf, der Schüler = öğrenci.) Ihr seid in eurem Zimmer. Unser Vermieter heißt Huber. Er wohnt auch hier. (der Vermieter = ev sahibi.)",
+  "Özet tablo (unser; euer de aynı ekleri alır, ama euer'de e düşer). Eril: unser, unseren, unserem. Nötr: unser, unser, unserem. Dişil: unsere, unsere, unserer. Çoğul: unsere, unsere, unseren. Sıra: Nominativ, Akkusativ, Dativ. Euer için: euer, euren, eurem; eure, eure, eurer; eure, eure, euren."
+ ],
+ "kelimeler": [
+  {
+   "de": "unser",
+   "tr": "bizim"
+  },
+  {
+   "de": "euer",
+   "tr": "sizin (ihr için)"
+  },
+  {
+   "de": "das Haus",
+   "tr": "ev",
+   "artikel": "das"
+  },
+  {
+   "de": "die Straße",
+   "tr": "sokak",
+   "artikel": "die"
+  },
+  {
+   "de": "das Lokal",
+   "tr": "lokanta",
+   "artikel": "das"
+  },
+  {
+   "de": "der Vermieter",
+   "tr": "ev sahibi",
+   "artikel": "der"
+  },
+  {
+   "de": "der Reiseführer",
+   "tr": "rehber",
+   "artikel": "der"
+  },
+  {
+   "de": "die Klasse",
+   "tr": "sınıf",
+   "artikel": "die"
+  },
+  {
+   "de": "der Schüler",
+   "tr": "öğrenci",
+   "artikel": "der"
+  },
+  {
+   "de": "die Wohnung",
+   "tr": "daire",
+   "artikel": "die"
+  },
+  {
+   "de": "die Dusche",
+   "tr": "duş",
+   "artikel": "die"
+  },
+  {
+   "de": "beginnen",
+   "tr": "başlamak"
+  },
+  {
+   "de": "die Deutschlehrerin",
+   "tr": "Almanca öğretmeni",
+   "artikel": "die"
+  },
+  {
+   "de": "heute",
+   "tr": "bugün"
+  },
+  {
+   "de": "der Deutschkurs",
+   "tr": "Almanca kursu",
+   "artikel": "der"
+  }
+ ],
+ "trickler": [
+  {
+   "baslik": "Euer ek alınca e düşer",
+   "metin": "euer olur eure, euren, eurem, eurer: Euere yazılmaz. Unser'de düşme yoktur: unsere, unseren."
+  },
+  {
+   "baslik": "Ek mein ile aynı",
+   "metin": "Akkusativ'de yalnız eril değişir (unseren, euren). Dativ'de -em, -er, -en gelir (unserem, eurer, unseren)."
+  },
+  {
+   "baslik": "unser bizim, euer sizin",
+   "metin": "Sahip biz isek unser, ihr ile hitap ettiğin kişiler ise euer gelir. Resmî sizin için büyük Ihr kullanılır."
+  }
+ ],
+ "sorular": [
+  {
+   "id": "m6-d37-q01",
+   "tip": "coktan-secmeli",
+   "soru": "Evinizi göstererek \"Orası bizim evimiz\" diyorsun. Boşluğa uygun sözcüğü seç.",
+   "metin": "Dort ist ___ Haus.",
+   "secenekler": [
+    "unser",
+    "unsere",
+    "unseren",
+    "unserem"
+   ],
+   "dogru": 0,
+   "celdiriciNotlari": [
+    "",
+    "`unsere` dişil ve çoğul isimlerle gelir; `das Haus` nötrdür.",
+    "`unseren` eril Akkusativ biçimidir; `das Haus` nötrdür ve burada özne.",
+    "`unserem` Dativ biçimidir; cümlede Dativ gerektiren bir şey yok."
+   ],
+   "aciklama": "Haus nötrdür ve cümlenin öznesidir (Nominativ); nötr Nominativ'de unser gelir: Dort ist unser Haus.",
+   "ipucu": "Önce evin artikelini, sonra cümledeki görevini düşün.",
+   "bicim": "bosluk",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Dort ist unser Haus.",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d37-q02",
+   "tip": "coktan-secmeli",
+   "soru": "Dairenizde yalnızca bir duş olduğunu söylüyorsun. Boşluğa uygun sözcüğü seç.",
+   "metin": "___ Wohnung hat nur eine Dusche.",
+   "secenekler": [
+    "Unser",
+    "Unsere",
+    "Unseren",
+    "Unserer"
+   ],
+   "dogru": 1,
+   "celdiriciNotlari": [
+    "`Unser` eril ve nötr isimlerle gelir; `die Wohnung` dişildir.",
+    "",
+    "`Unseren` eril Akkusativ biçimidir; `die Wohnung` dişildir ve özne.",
+    "`Unserer` dişil Dativ biçimidir; `die Wohnung` burada özne olduğu için Nominativ'dedir."
+   ],
+   "aciklama": "Wohnung dişildir ve özne olduğu için Nominativ'dedir; dişil Nominativ'de unsere gelir: Unsere Wohnung hat nur eine Dusche.",
+   "ipucu": "Dairenin artikeline ve cümlede özne olmasına bak.",
+   "bicim": "bosluk",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Unsere Wohnung hat nur eine Dusche.",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d37-q03",
+   "tip": "bosluk-doldurma",
+   "soru": "Arkadaşlarına \"Sizin kursunuz bugün başlıyor\" diyorsun. Boşluğa uygun sözcüğü yaz.",
+   "metin": "___ Kurs beginnt heute.",
+   "dogruCevaplar": [
+    "Euer",
+    "euer"
+   ],
+   "aciklama": "Kurs eril ve özne olduğu için Nominativ'dedir; sizin (ihr için) euer olur: Euer Kurs beginnt heute.",
+   "ipucu": "Sahip ihr ile hitap ettiğin kişilerdir; ismin cinsiyetine de bak.",
+   "bicim": "bosluk",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Euer Kurs beginnt heute.",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d37-q04",
+   "tip": "bosluk-doldurma",
+   "soru": "\"Bizim sokağımızda yeni bir lokanta var\" diyorsun. Boşluğa uygun sözcüğü yaz.",
+   "metin": "In ___ Straße gibt es ein neues Lokal.",
+   "dogruCevaplar": [
+    "unserer"
+   ],
+   "aciklama": "in ile nerede? sorusunda Dativ gerekir; Straße dişildir ve dişil Dativ'de unserer gelir: In unserer Straße gibt es ein neues Lokal.",
+   "ipucu": "Edatın istediği hâle ve ismin cinsiyetine bak.",
+   "bicim": "bosluk",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "In unserer Straße gibt es ein neues Lokal.",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d37-q05",
+   "tip": "coktan-secmeli",
+   "soru": "Lena sınıftaki kadını soruyor. Mert, kursunuzun öğretmeni olduğunu söylüyor. Cümlesini tamamla.",
+   "diyalog": [
+    {
+     "kim": "Lena",
+     "metin": "Wer ist die Frau dort?"
+    },
+    {
+     "kim": "Mert",
+     "metin": "Das ist ___ Lehrerin."
+    }
+   ],
+   "secenekler": [
+    "unser",
+    "unseren",
+    "unsere",
+    "unserer"
+   ],
+   "dogru": 2,
+   "celdiriciNotlari": [
+    "`unser` eril ve nötr isimlerle gelir; `die Lehrerin` dişildir.",
+    "`unseren` eril Akkusativ biçimidir; `die Lehrerin` dişildir.",
+    "",
+    "`unserer` dişil Dativ biçimidir; bu cümlede Dativ gerektiren bir şey yok."
+   ],
+   "aciklama": "Lehrerin dişildir ve cümlede Nominativ'dedir; dişil Nominativ'de unsere gelir: Das ist unsere Lehrerin.",
+   "ipucu": "Öğretmenin artikelini ve cümlenin hâlini düşün.",
+   "bicim": "diyalog",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Das ist unsere Lehrerin.",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d37-q06",
+   "tip": "coktan-secmeli",
+   "soru": "Anna rehberinizin adını soruyor. Mert, adının Peter olduğunu söylüyor. Cümlesini tamamla.",
+   "diyalog": [
+    {
+     "kim": "Anna",
+     "metin": "Wie heißt euer Reiseführer?"
+    },
+    {
+     "kim": "Mert",
+     "metin": "___ Reiseführer heißt Peter."
+    }
+   ],
+   "secenekler": [
+    "Unsere",
+    "Unseren",
+    "Unserem",
+    "Unser"
+   ],
+   "dogru": 3,
+   "celdiriciNotlari": [
+    "`Unsere` dişil ve çoğul isimlerle gelir; `der Reiseführer` erildir.",
+    "`Unseren` eril Akkusativ biçimidir; burada `Reiseführer` özne.",
+    "`Unserem` Dativ biçimidir; cümlede Dativ gerektiren bir şey yok.",
+    ""
+   ],
+   "aciklama": "Reiseführer eril ve özne olduğu için Nominativ'dedir; eril Nominativ'de unser gelir: Unser Reiseführer heißt Peter.",
+   "ipucu": "Rehberin artikelini ve cümlede özne olmasını düşün.",
+   "bicim": "diyalog",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Unser Reiseführer heißt Peter.",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d37-q07",
+   "tip": "cumle-dizme",
+   "soru": "Kelimeleri doğru sıraya diz: Öğretmenimiz bugün geliyor.",
+   "parcalar": [
+    "unsere Lehrerin",
+    "kommt",
+    "heute"
+   ],
+   "dogruSiralar": [
+    [
+     "unsere Lehrerin",
+     "kommt",
+     "heute"
+    ],
+    [
+     "heute",
+     "kommt",
+     "unsere Lehrerin"
+    ]
+   ],
+   "aciklama": "Çekimli fiil ikinci sırada kalır; heute başa geçerse özne fiilin arkasına kayar.",
+   "ipucu": "Fiilin yeri sabit, öteki iki parça yer değiştirebilir.",
+   "bicim": "siralama",
+   "kaynakTuru": "uyarlama",
+   "kaynakCumle": "Das ist unsere Lehrerin."
+  },
+  {
+   "id": "m6-d37-q08",
+   "tip": "cumle-dizme",
+   "soru": "Kelimeleri doğru sıraya diz: Biz odamızdayız.",
+   "parcalar": [
+    "wir",
+    "sind",
+    "in unserem Zimmer"
+   ],
+   "dogruSiralar": [
+    [
+     "wir",
+     "sind",
+     "in unserem Zimmer"
+    ],
+    [
+     "in unserem Zimmer",
+     "sind",
+     "wir"
+    ]
+   ],
+   "aciklama": "Çekimli fiil ikinci sırada kalır; yer bilgisi başa geçerse özne fiilin arkasına kayar.",
+   "ipucu": "Çekimli fiil iki sıralamada da aynı yerde durur.",
+   "bicim": "siralama",
+   "kaynakTuru": "uyarlama",
+   "kaynakCumle": "Herr Müller ist in seinem Zimmer."
+  },
+  {
+   "id": "m6-d37-q09",
+   "tip": "coktan-secmeli",
+   "soru": "Ev sahibinizin de aynı binada oturduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+   "secenekler": [
+    "Unsere Vermieter wohnt auch hier.",
+    "Unseren Vermieter wohnt auch hier.",
+    "Unser Vermieter wohnen auch hier.",
+    "Unser Vermieter wohnt auch hier."
+   ],
+   "dogru": 3,
+   "celdiriciNotlari": [
+    "`unsere Vermieter` çoğul olur; `wohnt` ise tekil özne ister.",
+    "`unseren` Akkusativ biçimidir; özne Nominativ'de olmalı.",
+    "`Vermieter` tekil olduğu için `wohnen` değil `wohnt` gelir.",
+    ""
+   ],
+   "aciklama": "Vermieter eril ve tekil özne olduğu için Nominativ'de unser alır, fiil de wohnt olur: Unser Vermieter wohnt auch hier.",
+   "ipucu": "Hem iyelik sözcüğünün ekine hem de fiilin özneye uymasına bak.",
+   "bicim": "senaryo",
+   "kaynakTuru": "uyarlama",
+   "kaynakCumle": "Unser Vermieter heißt Huber. Er wohnt auch hier.",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d37-q10",
+   "tip": "coktan-secmeli",
+   "soru": "Rehberinize ihtiyacınız olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+   "secenekler": [
+    "Wir brauchen unser Reiseführer.",
+    "Wir brauchen unseren Reiseführer.",
+    "Wir brauchen unserem Reiseführer.",
+    "Wir brauchen unserer Reiseführer."
+   ],
+   "dogru": 1,
+   "celdiriciNotlari": [
+    "`unser` eril Nominativ biçimidir; `brauchen` Akkusativ ister.",
+    "",
+    "`unserem` Dativ biçimidir; `brauchen` Akkusativ ister.",
+    "`unserer` dişil Dativ biçimidir; eril Akkusativ'de `unseren` gelir."
+   ],
+   "aciklama": "brauchen Akkusativ ister; eril Reiseführer Akkusativ'de unseren alır: Wir brauchen unseren Reiseführer.",
+   "ipucu": "Fiilin istediği hâle ve ismin cinsiyetine bak.",
+   "bicim": "senaryo",
+   "kaynakTuru": "uyarlama",
+   "kaynakCumle": "Unser Reiseführer heißt Peter.",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d37-q11",
+   "tip": "dinleme",
+   "soru": "Bir arkadaşın kursundaki öğrenci sayısını söylüyor. Duyduğun cümleyi seç.",
+   "okunacak": "In unserer Klasse sind fünfundzwanzig Schüler.",
+   "mod": "sec",
+   "secenekler": [
+    "25 öğrenci var.",
+    "15 öğrenci var.",
+    "35 öğrenci var.",
+    "52 öğrenci var."
+   ],
+   "dogruCevaplar": [
+    "25 öğrenci var."
+   ],
+   "aciklama": "fünfundzwanzig yirmi beştir: In unserer Klasse sind fünfundzwanzig Schüler.",
+   "ipucu": "Cümledeki sayıya kulak ver.",
+   "bicim": "senaryo",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "In unserer Klasse sind fünfundzwanzig Schüler."
+  },
+  {
+   "id": "m6-d37-q12",
+   "tip": "dogru-yanlis",
+   "soru": "Doğru mu, yanlış mı? Kursunuzun öğretmenini tanıtıyorsun:",
+   "ifade": "Unsere Deutschlehrerin heißt Frau Müller.",
+   "dogru": true,
+   "aciklama": "Doğru. Deutschlehrerin dişildir ve özne olduğu için unsere gelir: Unsere Deutschlehrerin heißt Frau Müller.",
+   "ipucu": "İyelik sözcüğünün sonundaki eki ismin artikeliyle karşılaştır.",
+   "bicim": "senaryo",
+   "kaynakTuru": "goethe",
+   "kaynakCumle": "Unsere Deutschlehrerin heißt Frau Müller.",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d37-q13",
+   "tip": "dogru-yanlis",
+   "soru": "Doğru mu, yanlış mı? Arkadaşlarına \"Sizin öğretmeniniz bugün geliyor\" diyorsun:",
+   "ifade": "Euere Lehrerin kommt heute.",
+   "dogru": false,
+   "aciklama": "Yanlış. euer ek alınca e düşer; doğrusu Eure Lehrerin kommt heute.",
+   "ipucu": "Ek gelince sözcüğün içindeki harflerden birinin ne olduğuna bak.",
+   "bicim": "senaryo",
+   "kaynakTuru": "uyarlama",
+   "kaynakCumle": "Euer Kurs beginnt heute.",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d37-q14",
+   "tip": "coktan-secmeli",
+   "soru": "Arkadaşlarına rehberleri olup olmadığını soruyorsun. Boşluğa uygun sözcüğü seç.",
+   "metin": "Habt ihr ___ Reiseführer?",
+   "secenekler": [
+    "euer",
+    "eure",
+    "euren",
+    "eurem"
+   ],
+   "dogru": 2,
+   "celdiriciNotlari": [
+    "`euer` eril Nominativ biçimidir; `haben` Akkusativ ister.",
+    "`eure` dişil ve çoğul isimlerle gelir; `der Reiseführer` erildir.",
+    "",
+    "`eurem` Dativ biçimidir; `haben` Akkusativ ister."
+   ],
+   "aciklama": "haben Akkusativ ister; eril Reiseführer Akkusativ'de euren alır: Habt ihr euren Reiseführer?",
+   "ipucu": "Fiilin istediği hâle bak; euer ek alınca e düşer.",
+   "bicim": "bosluk",
+   "kaynakTuru": "yazildi",
+   "glossKapali": true
+  },
+  {
+   "id": "m6-d37-q15",
+   "tip": "eslestirme",
+   "soru": "Almanca sözcükleri Türkçe karşılıklarıyla eşleştir.",
+   "ciftler": [
+    {
+     "sol": "Haus",
+     "sag": "ev"
+    },
+    {
+     "sol": "Straße",
+     "sag": "sokak"
+    },
+    {
+     "sol": "Vermieter",
+     "sag": "ev sahibi"
+    },
+    {
+     "sol": "Reiseführer",
+     "sag": "rehber"
+    },
+    {
+     "sol": "Klasse",
+     "sag": "sınıf"
+    },
+    {
+     "sol": "Lokal",
+     "sag": "lokanta"
+    }
+   ],
+   "aciklama": "Bu sözcükler unser ve euer ile birlikte sık geçer: unser Haus, unsere Straße.",
+   "ipucu": "Önce hemen bildiklerini eşleştir, kalanlar kendiliğinden belli olur.",
+   "bicim": "kelime",
+   "glossKapali": true,
+   "kaynakTuru": "yazildi"
+  },
+  {
+   "id": "m6-d37-q16",
+   "tip": "artikel",
+   "soru": "Bu ismin artikelini seç.",
+   "isim": "Lokal",
+   "dogru": "das",
+   "aciklama": "Lokal nötrdür: das Lokal. Belirsiz hâli ein Lokal, ismin yerine es kullanılır.",
+   "ipucu": "Kelime listesinde bu sözcüğü hangi artikelle gördüğünü hatırla.",
+   "bicim": "kelime",
+   "kaynakTuru": "yazildi"
+  }
+ ]
+}
