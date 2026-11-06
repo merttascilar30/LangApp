@@ -1,0 +1,343 @@
+{
+  "id": "m4-d23",
+  "ders": 23,
+  "baslik": "Ülkeler, Uyruklar, Diller",
+  "videoId": "8hSkhFuddJg",
+  "ozet": [
+    "Ülke adlarının çoğu artikelsiz kullanılır: Deutschland, Frankreich, Italien, Österreich, Spanien, Finnland, China. Türkçedeki -de ve -den ekleri yerine Almancada in ve aus gelir: Ich lebe in Deutschland. Er kommt aus Finnland. Deutschland liegt in Europa. (liegen: bulunmak). Ülke: das Land (die Länder), yurt dışı: das Ausland. Örnek: Italien ist ein schönes Land.",
+    "Birkaç ülke adı artikelle gelir: die Türkei, die Schweiz. Bunlarla aus der biçimini kalıp olarak öğren: Ich komme aus der Türkei. Ich komme aus der Schweiz. Artikelsiz ülkelerde ise doğrudan aus gelir: Woher kommen Sie? – Aus Frankreich.",
+    "Dil adları ülke adından türer ama aynı sözcük değildir: Frankreich ülke, Französisch dildir; Italien ülke, Italienisch dildir. Dil adları büyük harfle yazılır ve artikelsiz kullanılır: Wir lernen Deutsch. Ich spreche Englisch, Französisch und ein bisschen Deutsch. Dil: die Sprache (die Sprachen). Sprechen düzensizdir: ich spreche, du sprichst, er spricht, wir sprechen, ihr sprecht. Soru: Welche Sprachen sprichst du? Dil adından önce auf gelir: Wie heißt das auf Deutsch? (Almanca olarak nasıl denir?)",
+    "Uyruk adı erkek ve kadın için ayrı söylenir; Türkçede ise Türk, Fransız gibi tek sözcük vardır. Örnekler: der Türke, die Türkin; der Franzose, die Französin; der Italiener, die Italienerin. Alman için: Er ist ein Deutscher. Sie ist eine Deutsche. Uyruk adları da büyük harfle yazılır."
+  ],
+  "kelimeler": [
+    { "de": "Deutschland", "tr": "Almanya" },
+    { "de": "Frankreich", "tr": "Fransa" },
+    { "de": "Italien", "tr": "İtalya" },
+    { "de": "Österreich", "tr": "Avusturya" },
+    { "de": "die Türkei", "tr": "Türkiye", "artikel": "die" },
+    { "de": "die Schweiz", "tr": "İsviçre", "artikel": "die" },
+    { "de": "das Land", "tr": "ülke (çoğul: die Länder)", "artikel": "das" },
+    { "de": "die Sprache", "tr": "dil (çoğul: die Sprachen)", "artikel": "die" },
+    { "de": "Englisch", "tr": "İngilizce" },
+    { "de": "Französisch", "tr": "Fransızca" },
+    { "de": "Türkisch", "tr": "Türkçe" },
+    { "de": "Deutsch", "tr": "Almanca" }
+  ],
+  "trickler": [
+    {
+      "baslik": "Ülkede in, ülkeden aus",
+      "metin": "Türkçede -de ve -den ekleri olan yerde Almancada in ve aus gelir: Ich lebe in Deutschland (Almanya'da). Er kommt aus Finnland (Finlandiya'dan)."
+    },
+    {
+      "baslik": "Ülke ile dil aynı değil",
+      "metin": "Frankreich ülke, Französisch dildir. Konuşurken dil adı gerekir: Ich spreche Französisch, Ich spreche Englisch. Ülke adı kullanılmaz."
+    },
+    {
+      "baslik": "Türkei ve Schweiz: aus der",
+      "metin": "die Türkei ve die Schweiz artikelle kullanılır. Nereden geldiğini söylerken kalıbı bütün olarak öğren: aus der Türkei, aus der Schweiz."
+    }
+  ],
+  "sorular": [
+    {
+      "id": "m4-d23-q01",
+      "tip": "coktan-secmeli",
+      "soru": "Türkiye'den geldiğini söylüyorsun. Boşluğa uygun artikeli seç.",
+      "metin": "Ich komme aus ___ Türkei.",
+      "secenekler": ["die", "der", "das"],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "`die Türkei` aus ile kullanılırken `die` değil `der` gelir: `aus der Türkei`.",
+        "",
+        "`das` nötr isimlerle gelir; `Türkei` bu kalıpta `aus der` alır."
+      ],
+      "aciklama": "die Türkei ile nereden geldiğini söylerken kalıp aus der Türkei olur: Ich komme aus der Türkei.",
+      "ipucu": "Türkei ve aus birlikte hazır bir kalıp oluşturur.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich komme aus der Türkei.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d23-q02",
+      "tip": "coktan-secmeli",
+      "soru": "İtalya'nın güzel bir ülke olduğunu söylüyorsun. Boşluğa uygun sözcüğü seç.",
+      "metin": "Italien ist ein schönes ___.",
+      "secenekler": ["Sprache", "Kurs", "Land"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`Sprache` dil demektir; İtalya için ülke gerekir.",
+        "`Kurs` kurs demektir; İtalya için ülke gerekir.",
+        ""
+      ],
+      "aciklama": "Ülke Land'dır: Italien ist ein schönes Land.",
+      "ipucu": "İtalya bir dil ya da kurs değil, bir yerdir.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Italien ist ein schönes Land.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d23-q03",
+      "tip": "bosluk-doldurma",
+      "soru": "Almanya'da iki yıldır yaşadığını söylüyorsun. Boşluğa ülkenin Almanca adını yaz.",
+      "metin": "Ich lebe seit zwei Jahren in ___.",
+      "dogruCevaplar": ["Deutschland"],
+      "harfDuyarli": true,
+      "aciklama": "Almanya Deutschland'dır ve in ile kullanılır: Ich lebe seit zwei Jahren in Deutschland.",
+      "ipucu": "Ülke adı büyük harfle başlar ve artikel almaz.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich lebe seit zwei Jahren in Deutschland.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d23-q04",
+      "tip": "coktan-secmeli",
+      "soru": "Bir görevli Mert'e nereden geldiğini soruyor. Mert Fransa'dan geldiğini söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Görevli", "metin": "Woher kommen Sie?" },
+        { "kim": "Mert", "metin": "Aus ___." }
+      ],
+      "secenekler": ["Frankreich", "Englisch", "Französisch", "Italienisch"],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`Englisch` bir dildir; nereden geldiğini söylerken ülke adı gerekir.",
+        "`Französisch` Fransızcadır, dil adıdır; nereden geldiğini söylerken ülke adı gerekir.",
+        "`Italienisch` İtalyancadır, dil adıdır; nereden geldiğini söylerken ülke adı gerekir."
+      ],
+      "aciklama": "Nereden sorusuna ülke adıyla cevap verilir: Aus Frankreich.",
+      "ipucu": "Soru bir yeri soruyor, bir dili değil.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Woher kommen Sie? – Aus Frankreich.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d23-q05",
+      "tip": "coktan-secmeli",
+      "soru": "Lena Mert'e hangi dilleri konuştuğunu soruyor. Mert İngilizce, Fransızca ve biraz Almanca konuştuğunu söylüyor. Cümlesini tamamla.",
+      "diyalog": [
+        { "kim": "Lena", "metin": "Welche Sprachen sprichst du?" },
+        { "kim": "Mert", "metin": "Ich spreche Englisch, Französisch und ein bisschen ___." }
+      ],
+      "secenekler": ["Deutschland", "Frankreich", "Deutsch", "Italien"],
+      "dogru": 2,
+      "celdiriciNotlari": [
+        "`Deutschland` bir ülkedir; konuşulan dil Deutsch'tur.",
+        "`Frankreich` bir ülkedir; konuşulan dil adı gerekir.",
+        "",
+        "`Italien` bir ülkedir; konuşulan dil adı gerekir."
+      ],
+      "aciklama": "Sprechen ile dil adı kullanılır, ülke adı kullanılmaz: Ich spreche Englisch, Französisch und ein bisschen Deutsch.",
+      "ipucu": "Cümle dilleri sayıyor, ülkeleri değil.",
+      "bicim": "diyalog",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich spreche Englisch, Französisch und ein bisschen Deutsch.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d23-q06",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: O Finlandiya'dan geliyor.",
+      "parcalar": ["aus Finnland", "er", "kommt"],
+      "dogruSiralar": [
+        ["er", "kommt", "aus Finnland"],
+        ["aus Finnland", "kommt", "er"]
+      ],
+      "aciklama": "Çekimli fiil ikinci sırada kalır; aus Finnland başa geçerse özne fiilin arkasına kayar.",
+      "ipucu": "Nereden geldiğini bildiren kısım ülkesiyle bir bütündür.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Er kommt aus Finnland."
+    },
+    {
+      "id": "m4-d23-q07",
+      "tip": "cumle-dizme",
+      "soru": "Kelimeleri doğru sıraya diz: Almanya Avrupa'dadır.",
+      "parcalar": ["in Europa", "Deutschland", "liegt"],
+      "dogruSiralar": [
+        ["Deutschland", "liegt", "in Europa"],
+        ["in Europa", "liegt", "Deutschland"]
+      ],
+      "aciklama": "Fiil liegt ikinci sırada durur; in Europa başa gelirse özne fiilin arkasına geçer.",
+      "ipucu": "Yer bilgisi başa gelirse özne fiilin arkasına kayar.",
+      "bicim": "siralama",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Deutschland liegt in Europa."
+    },
+    {
+      "id": "m4-d23-q08",
+      "tip": "coktan-secmeli",
+      "soru": "İsviçre'den geldiğini ve orasının vatanın olduğunu söylüyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Ich komme in der Schweiz. Das ist meine Heimat.",
+        "Ich komme aus die Schweiz. Das ist meine Heimat.",
+        "Ich komme aus Schweiz. Das ist meine Heimat.",
+        "Ich komme aus der Schweiz. Das ist meine Heimat."
+      ],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "Nereden geldiğini söylerken `in` değil `aus` kullanılır.",
+        "`die Schweiz` ile `aus die` değil `aus der` kalıbı kullanılır.",
+        "`die Schweiz` artikelle kullanılır; `aus Schweiz` denmez.",
+        ""
+      ],
+      "aciklama": "die Schweiz ile köken aus der Schweiz diye söylenir: Ich komme aus der Schweiz. Das ist meine Heimat.",
+      "ipucu": "Hem kökeni bildiren kelimeye hem de ülkenin artikeline bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich komme aus der Schweiz. Das ist meine Heimat.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d23-q09",
+      "tip": "coktan-secmeli",
+      "soru": "Bir şeyin Almanca adını öğrenmek istiyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Wie heißt das in Deutsch?",
+        "Wie heißt das auf Deutsch?",
+        "Wie heißt das aus Deutsch?",
+        "Wie heißt das Deutsch?"
+      ],
+      "dogru": 1,
+      "celdiriciNotlari": [
+        "Dil adından önce `in` değil `auf` gelir.",
+        "",
+        "`aus` nereden geldiğini bildirir; dil adından önce `auf` gelir.",
+        "Dil adından önce `auf` gerekir; onsuz cümle eksik kalır."
+      ],
+      "aciklama": "Dil adından önce auf gelir: Wie heißt das auf Deutsch?",
+      "ipucu": "Dil adının önüne gelen kısa kelime hazır bir kalıptır.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Wie heißt das auf Deutsch?",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d23-q10",
+      "tip": "dinleme",
+      "soru": "Yeni tanıştığın biri nereli olduğunu söylüyor. Duyduğun cümleyi seç.",
+      "okunacak": "Ich komme aus der Türkei.",
+      "mod": "sec",
+      "secenekler": [
+        "Ben Türkiye'denim.",
+        "Ben İsviçre'denim.",
+        "Ben Finlandiya'danım.",
+        "Ben Fransa'danım."
+      ],
+      "dogruCevaplar": ["Ben Türkiye'denim."],
+      "aciklama": "Türkei Türkiye demektir: Ich komme aus der Türkei.",
+      "ipucu": "Cümlenin sonundaki ülke adına kulak ver.",
+      "bicim": "senaryo",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Ich komme aus der Türkei."
+    },
+    {
+      "id": "m4-d23-q11",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Arkadaşına İtalyanca konuştuğunu söylüyorsun:",
+      "ifade": "Ich spreche Italien.",
+      "dogru": false,
+      "aciklama": "Yanlış. Italien ülkedir, dil adı Italienisch'tir: Ich spreche Italienisch.",
+      "ipucu": "Konuşulan şeyin ülke mi dil mi olduğuna bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Ich spreche Englisch, Französisch und ein bisschen Deutsch.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d23-q12",
+      "tip": "dogru-yanlis",
+      "soru": "Doğru mu, yanlış mı? Kursta herkesin Almanca konuştuğunu söylüyorsun:",
+      "ifade": "Wir sprechen Deutsch.",
+      "dogru": true,
+      "aciklama": "Doğru. Sprechen ile dil adı artikelsiz kullanılır, wir ile fiil -en alır: Wir sprechen Deutsch.",
+      "ipucu": "Fiilin wir ile aldığı eke ve dil adının yazılışına bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Wir lernen Deutsch.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d23-q13",
+      "tip": "coktan-secmeli",
+      "soru": "Kız arkadaşın Alman. Onu tanıtıyorsun. Hangi cümleyi kurarsın?",
+      "secenekler": [
+        "Sie ist eine Deutsche.",
+        "Sie ist ein Deutscher.",
+        "Er ist eine Deutsche.",
+        "Sie ist eine Deutschland."
+      ],
+      "dogru": 0,
+      "celdiriciNotlari": [
+        "",
+        "`ein Deutscher` erkek içindir; kadın için `eine Deutsche` denir.",
+        "`er` erkek içindir; kız arkadaşın için `sie` gerekir.",
+        "`Deutschland` ülke adıdır; uyruk için `Deutsche` kullanılır."
+      ],
+      "aciklama": "Kadın Alman için eine Deutsche denir ve özne sie olur: Sie ist eine Deutsche.",
+      "ipucu": "Hem kişi zamirinin hem uyruk sözcüğünün kadına uymasına bak.",
+      "bicim": "senaryo",
+      "kaynakTuru": "uyarlama",
+      "kaynakCumle": "Er ist ein Deutscher. / Sie ist eine Deutsche.",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d23-q14",
+      "tip": "coktan-secmeli",
+      "soru": "Bir arkadaşına hangi dilleri konuştuğunu soruyorsun. Boşluğa uygun fiil biçimini seç.",
+      "metin": "Welche Sprachen ___ du?",
+      "secenekler": ["spreche", "spricht", "sprechen", "sprichst"],
+      "dogru": 3,
+      "celdiriciNotlari": [
+        "`spreche` ich ile gelir; `du` ile kullanılmaz.",
+        "`spricht` er/sie/es ile gelir; `du` ile kullanılmaz.",
+        "`sprechen` wir ve sie/Sie ile gelir; `du` ile kullanılmaz.",
+        ""
+      ],
+      "aciklama": "Özne du olduğu için sprechen ünlüyü değiştirir ve -st alır: Welche Sprachen sprichst du?",
+      "ipucu": "Sprechen fiilinin du ile aldığı biçimi hatırla.",
+      "bicim": "bosluk",
+      "kaynakTuru": "goethe",
+      "kaynakCumle": "Welche Sprachen sprichst du?",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d23-q15",
+      "tip": "eslestirme",
+      "soru": "Almanca ülke ve dil adlarını Türkçe karşılıklarıyla eşleştir.",
+      "ciftler": [
+        { "sol": "Frankreich", "sag": "Fransa" },
+        { "sol": "Italien", "sag": "İtalya" },
+        { "sol": "Österreich", "sag": "Avusturya" },
+        { "sol": "Englisch", "sag": "İngilizce" },
+        { "sol": "Französisch", "sag": "Fransızca" },
+        { "sol": "Türkisch", "sag": "Türkçe" }
+      ],
+      "aciklama": "Ülke adı ile dil adı farklıdır: Frankreich Fransa, Französisch Fransızcadır.",
+      "ipucu": "Önce ülkeleri, sonra dilleri kendi içinde ayır.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi",
+      "glossKapali": true
+    },
+    {
+      "id": "m4-d23-q16",
+      "tip": "fiil-cekimi",
+      "soru": "\"sprechen\" fiilini her zamire göre çek.",
+      "fiil": "sprechen",
+      "satirlar": [
+        { "zamir": "ich", "cevap": "spreche", "verilen": true },
+        { "zamir": "du", "cevap": "sprichst" },
+        { "zamir": "er/sie/es", "cevap": "spricht" },
+        { "zamir": "wir", "cevap": "sprechen" },
+        { "zamir": "ihr", "cevap": "sprecht" },
+        { "zamir": "sie/Sie", "cevap": "sprechen" }
+      ],
+      "aciklama": "Ünlü sadece du ve er/sie/es için değişir: sprichst, spricht; diğerlerinde kök sprech- kalır.",
+      "ipucu": "Çekim tablosunda ünlünün hangi kişilerde değiştiğini hatırla.",
+      "bicim": "kelime",
+      "kaynakTuru": "yazildi"
+    }
+  ]
+}
