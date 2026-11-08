@@ -68,7 +68,7 @@ export function ModulePage() {
               })}
             </ul>
             <p>
-              <Link to={`/modul/${m.id}/sinav`}>Modül sınavına gir</Link>
+              <Link className="ana-eylem" to={`/modul/${m.id}/sinav`}>Modül sınavına gir</Link>
             </p>
           </div>
         )
