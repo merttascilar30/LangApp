@@ -53,7 +53,7 @@ export function PartPage() {
               İzledim
             </label>
             <p>
-              <Link to={`/modul/${m.id}/part/${p.id}/test`}>Teste başla</Link>
+              <Link className="ana-eylem" to={`/modul/${m.id}/part/${p.id}/test`}>Teste başla</Link>
             </p>
           </div>
         )

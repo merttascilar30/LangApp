@@ -194,13 +194,14 @@ export function TestRunner({ sorular, mod, onBitti }: Props) {
                 cevap={cevap}
                 ipucuyla={kademe >= 1 && gradeQuestion(soru, cevap)}
               />
-              <button type="button" onClick={devam}>
+              <button type="button" className="ana-eylem" onClick={devam}>
                 Devam
               </button>
             </>
           ) : (
             <button
               type="button"
+              className="ana-eylem"
               ref={kontrolDugmesi}
               disabled={cevap === null}
               onClick={kontrolEt}
@@ -225,7 +226,7 @@ export function TestRunner({ sorular, mod, onBitti }: Props) {
           >
             İleri
           </button>
-          <button type="button" onClick={bitirSinav}>
+          <button type="button" className="ana-eylem" onClick={bitirSinav}>
             Bitir
           </button>
         </div>

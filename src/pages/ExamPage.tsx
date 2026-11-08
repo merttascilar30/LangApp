@@ -64,7 +64,7 @@ function Exam({ modul }: { modul: Modul }) {
       <div>
         <p>{`${sinav.soruSayisi} soru, geçme notu %${sinav.gecmeNotu}, sonuçlar sınav sonunda gösterilir`}</p>
         {kayit && <p>{`En iyi skor: %${Math.floor(kayit.enIyi)} · Deneme: ${kayit.deneme}`}</p>}
-        <button type="button" disabled={ttsVar === null} onClick={baslat}>
+        <button type="button" className="ana-eylem" disabled={ttsVar === null} onClick={baslat}>
           Başla
         </button>
         {ttsVar === null && <span> Hazırlanıyor…</span>}
@@ -93,7 +93,7 @@ function Exam({ modul }: { modul: Modul }) {
         {gecti && sonraki && (
           <p>
             {`Modül ${sonraki.sira} açıldı!`}{' '}
-            <Link to={`/modul/${sonraki.id}`}>{`Sonraki modüle geç (Modül ${sonraki.sira})`}</Link>
+            <Link className="ana-eylem" to={`/modul/${sonraki.id}`}>{`Sonraki modüle geç (Modül ${sonraki.sira})`}</Link>
           </p>
         )}
         {gecti && !sonraki && <p>Tebrikler, A1 tamamlandı!</p>}
